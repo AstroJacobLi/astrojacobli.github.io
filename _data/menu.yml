@@ -1,11 +1,14 @@
 - title: "About"
   href: "/about/"
 
-- title: "Blog"
-  href: "/blog/"
-
 - title: "CV"
   href: "/cv/"
+
+- title: "Research"
+  href: "/research/"
+
+- title: "Blog"
+  href: "/blog/"
 
 - title: "Miscellany"
   href: "/miscellany/"
