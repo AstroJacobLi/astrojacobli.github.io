@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2015/08/welcome-to-jekyll</loc>
+      <loc>https://astrojacobli.github.io/blog/2015/08/welcome-to-jekyll</loc>
       
         <lastmod>2015-08-16T08:36:27-07:00</lastmod>
       
@@ -19,24 +19,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/about/</loc>
+      <loc>https://astrojacobli.github.io/about/</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/blog/</loc>
-      
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -49,24 +34,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/cv/</loc>
+      <loc>https://astrojacobli.github.io/miscellany/art/</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/feed.xml</loc>
-      
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,24 +49,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>https://astrojacobli.github.io/blog/</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/miscellany/art/</loc>
-      
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -109,24 +64,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/miscellany/item-2/</loc>
+      <loc>https://astrojacobli.github.io/cv/</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/css/main.css</loc>
-      
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -139,9 +79,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/miscellany/</loc>
+      <loc>https://astrojacobli.github.io/feed.xml</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,9 +94,69 @@
   
     
     <url>
-      <loc>http://localhost:4000/research/</loc>
+      <loc>https://astrojacobli.github.io/</loc>
       
-        <lastmod>2018-11-10T01:18:45-08:00</lastmod>
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/item-2/</loc>
+      
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/css/main.css</loc>
+      
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/</loc>
+      
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/research/</loc>
+      
+        <lastmod>2018-11-10T01:31:13-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

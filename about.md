@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/orange.jpg" caption="" width=300 align="right" %}
+{% include image.html url="/images/orange.jpg" caption="" width=250 align="right" %}
 
 I'm a third-year undergraduate student in Department of Astronomy, Peking University. I'm interested in galaxy formation and evolution, cosmology, supernovae and data science. Other than working on MaNGA IFU data to study the H-alpha ring structures of quenching spiral galaxy, I'm also working on Hyper Suprime Camera (HSC) data to study the outskirts of massive galaxies.
 
