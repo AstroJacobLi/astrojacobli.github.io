@@ -2,10 +2,11 @@
 title: Jiaxuan Li's Homepage
 email: jiaxuan_li@pku.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
-  This is the homepage of Jiaxuan Li. Enjoy galaxies, supernovae and cosmology! 
+  This is the homepage of Jiaxuan Li. <br>
+  Enjoy galaxies, cosmology and supernovae! 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: JiaxuanLiPKU
 github_username:  AstroJacobLi
 
 # Build settings
