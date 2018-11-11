@@ -1,40 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Jiaxuan Li</title>
+    <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Nov 2018 16:57:39 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Nov 2018 16:57:39 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Nov 2018 00:54:38 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 00:54:38 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>astro-ph Reading</title>
+        <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;102918---11032018&quot;&gt;10/29/18 - 11/03/2018&lt;/h2&gt;
+&lt;h4 id=&quot;using-convolutional-neural-networks-to-predict-galaxy-metallicity-from-three-color-images&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.12913v1&quot;&gt;Using convolutional neural networks to predict galaxy metallicity from three-color images&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;revealing-environmental-dependence-of-molecular-gas-content-in-a-distant-x-ray-cluster-at-z251&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10558&quot;&gt;Revealing environmental dependence of molecular gas content in a distant X-ray cluster at z=2.51&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;dissecting-the-main-sequence-agn-activity-and-bulge-growth-in-the-local-universe&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10021&quot;&gt;Dissecting the Main Sequence: AGN Activity and Bulge Growth in the Local Universe&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;deblending-galaxy-superpositions-with-branched-generative-adversarial-networks&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10098&quot;&gt;Deblending galaxy superpositions with branched generative adversarial networks&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_adversarial_network&quot;&gt;GAN&lt;/a&gt; (Generative Adversarial Networks) seems very popular in Machine Learning recently. GAN used to create an artificial oil painting portrait called &lt;a href=&quot;https://en.wikipedia.org/wiki/Edmond_de_Belamy&quot;&gt;&lt;em&gt;Edmond de Belamy&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://edition.cnn.com/style/article/obvious-ai-art-christies-auction-smart-creativity/index.html&quot;&gt;was auctioned by $432,500&lt;/a&gt; in October 2018.&lt;/li&gt;
+  &lt;li&gt;Using GAN, two guys in UCSC deblend galaxies. They trained the network using mock blended images based on Galaxy Zoo postage stamp images. The result is quite good! The network only takes a trivial amount of time to deblend galaxies on a laptop. But this method can only deblend galaxies into two segments now. The authors are working on improving it to deblend the arbitrary number of galaxies simultaneously.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h4 id=&quot;what-does-a-successful-postdoctoral-fellowship-publication-record-look-like&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.09505v2&quot;&gt;What Does a Successful Postdoctoral Fellowship Publication Record Look Like?&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;This paper shows how many papers that a successful postdoc fellowship owner should have. The mean number of first author papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=6\pm2&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?6\pm2&quot; title=&quot;6\pm2&quot; /&gt;&lt;/a&gt;, and mean of total papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=14\pm6&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?14\pm6&quot; title=&quot;14\pm6&quot; /&gt;&lt;/a&gt;. The full range of first author papers is 1 to 15, and for all papers ranges from 2 to 76, indicating very diverse publication patterns. This paper tells us: 道阻且长！
+    &lt;h4 id=&quot;the-interstellar-medium-of-dwarf-galaxies-new-insights-from-machine-learning-analysis-of-emission-line-spectra&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10548&quot;&gt;The interstellar medium of dwarf galaxies: new insights from Machine Learning analysis of emission line spectra&lt;/a&gt;&lt;/h4&gt;
+    &lt;h4 id=&quot;the-sami-galaxy-survey-comparing-3d-spectroscopic-observations-with-galaxies-from-cosmological-hydrodynamical-simulations&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10542&quot;&gt;The SAMI Galaxy Survey: comparing 3D spectroscopic observations with galaxies from cosmological hydrodynamical simulations&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The authors compared many IFU survey (SAMI, ATLAS3D, CALIFA and MASSIVE) results with many simulations (EAGLE, HYDRANGEA, MEGNETICUM). They compared galaxy sizes (R_e), galaxy ellipticities, velocity dispersion and (Velocity/dispersion). The figures are clear and fancy. I definitely need to write some codes to plot this kind of figure.
+    &lt;h4 id=&quot;the-gas-fractions-of-dark-matter-haloes-hosting-simulated-l-galaxies-are-governed-by-the-feedback-history-of-their-black-holes&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07696v1&quot;&gt;The gas fractions of dark matter haloes hosting simulated ∼L⋆ galaxies are governed by the feedback history of their black holes&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;102218---102818&quot;&gt;10/22/18 - 10/28/18&lt;/h2&gt;
+&lt;h4 id=&quot;a-new-era-in-the-search-for-dark-matter&quot;&gt;&lt;a href=&quot;http://www.nature.com/articles/s41586-018-0542-z&quot;&gt;A new era in the search for dark matter&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;a-galaxy-lacking-dark-matter-by-dragonfly-project&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/nature25767&quot;&gt;A galaxy lacking Dark Matter&lt;/a&gt; by Dragonfly Project&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;They used Dragonfly, MMT, Gemini North, HSC and Keck… In total they identified 10 GC-like objects around NGC 1052-DF2.&lt;/li&gt;
+  &lt;li&gt;They measured stellar mass &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=M_*&amp;space;=&amp;space;2.0\times10^8&amp;space;M_\odot&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?M_*&amp;space;=&amp;space;2.0\times10^8&amp;space;M_\odot&quot; title=&quot;M_* = 2.0\times10^8 M_\odot&quot; /&gt;&lt;/a&gt; 
+and velocity dispersion 
+&lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\sigma_{intr}=3.2^{&amp;plus;5.5}_{-3.2}\,\mathrm{km/s}&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\sigma_{intr}=3.2^{&amp;plus;5.5}_{-3.2}\,\mathrm{km/s}&quot; title=&quot;\sigma_{intr}=3.2^{+5.5}_{-3.2}\,\mathrm{km/s}&quot; /&gt;&lt;/a&gt;, and total mass 
+&lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;M_{tot}=3.4\times10^{8}&amp;space;M_\odot&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;M_{tot}=3.4\times10^{8}&amp;space;M_\odot&quot; title=&quot;M_{tot}=3.4\times10^{8} M_\odot&quot; /&gt;&lt;/a&gt;. 
+So dark matter ratio is very low.&lt;/li&gt;
+  &lt;li&gt;Dragonfly team also applied KCWI time and have got IFU for this galaxy (NGC 1052-DF2) recently. Looking forward to new results!&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;current-velocity-data-on-dwarf-galaxy-ngc1052-df2-do-not-constrain-it-to-lack-dark-matter&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.04136v1&quot;&gt;Current velocity data on dwarf galaxy NGC1052-DF2 do not constrain it to lack dark matter&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;This paper uses different prior probability in MCMC and derived larger velocity dispersion than PvD’s result.&lt;/li&gt;
+  &lt;li&gt;In PvD, M/L ratio is assumed to be constant (=2). But, is it reasonable?&lt;/li&gt;
+  &lt;li&gt;They randomly selected 10 GCs from M31 GC population and did the same measurement. The dispersion of derived halo mass is very large.&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;h4 id=&quot;measured-and-found-wanting-reconciling-mass-estimates-of-ultra-diffuse-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.04139&quot;&gt;Measured and found wanting: reconciling mass-estimates of ultra-diffuse galaxies&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Fornax dSph, is a dwarf galaxy that has many red-giant star radial velocities measurement. So the total mass profile is well determined by these red-giant. Also, this galaxy has 5 GCs. So the authors used PvD’s method to this galaxy, and find that this galaxy can either ‘overmassive’, or ‘lacking dark matter’. The dispersion is really large.&lt;/li&gt;
+  &lt;li&gt;The authors claimed that the analysis of velocity dispersion in PvD is biased. (I didn’t read it in detail)&lt;/li&gt;
+  &lt;li&gt;The sample (N=10) is too small. I think this is the key point. If you can get a larger sample, you can do it better and more accurate.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;It’s very hard to measure the total mass of a dwarf galaxy. Dispersions are all very large.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;does-the-galaxy-ngc1052df2-falsify-milgromian-dynamics&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-018-0429-z&quot;&gt;Does the galaxy NGC1052–DF2 falsify Milgromian dynamics?&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;If MOND is correct, this kind of galaxy (without dark matter) can be explained if this dwarf is very closed to a giant galaxy. Actually, the separation is 113 kpc and the mass of host galaxy (NGC 1052) is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;10^{11}&amp;space;M_\odot&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;10^{11}&amp;space;M_\odot&quot; title=&quot;10^{11} M_\odot&quot; /&gt;&lt;/a&gt;.
+From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; title=&quot;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; /&gt;&lt;/a&gt;, which is only 2 sigma away from PvD’s result.
+    &lt;h4 id=&quot;the-morphology-of-hα-emission-in-califa-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.08340&quot;&gt;The Morphology of Hα emission in CALIFA galaxies&lt;/a&gt;&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;This paper is quite relevant to my previous work on MaNGA H-alpha ring galaxies.&lt;/strong&gt; The morphology under emission lines can tell us some interesting things on both galaxy itself and the evolution. But this paper doesn’t tell much about the physics of galaxies.&lt;/li&gt;
+  &lt;li&gt;Using CALIFA and Pipe3D, they classified 86 galaxies into CL (central Ha peak, late-type), CE (central Ha peak, early-type) and EX (Ha peak is in the outside of the central region).&lt;/li&gt;
+  &lt;li&gt;They defined concentration using image moments, and they plotted 1-D profile of Ha flux.&lt;/li&gt;
+  &lt;li&gt;They suggested EX objects are more evolved than CL galaxies. Their mean ages and metallicities are smaller for CL than for EX classes.&lt;/li&gt;
+  &lt;li&gt;The format is bad, the plots are also ugly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;101518---102118&quot;&gt;10/15/18 - 10/21/18&lt;/h2&gt;
+&lt;h4 id=&quot;a-deep-learning-approach-to-galaxy-cluster-x-ray-masses&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.07703.pdf&quot;&gt;A Deep Learning Approach to Galaxy Cluster X-ray Masses&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;a-giant-protocluster-of-galaxies-at-redshift-57-by-linhua-jiang&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-018-0587-9&quot;&gt;A giant protocluster of galaxies at redshift 5.7&lt;/a&gt; by Linhua Jiang&lt;/h4&gt;
+
+&lt;h4 id=&quot;barred-galaxies-in-cosmological-zoom-in-simulations-the-importance-of-feedback&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07701&quot;&gt;Barred galaxies in cosmological zoom-in simulations: the importance of feedback&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1103.6030.pdf&quot;&gt;Eris&lt;/a&gt; suite simulations are first conducted by Piero Madau and his student Javiera Guedes. It is a zoom-in cosmological simulation focusing on several MW-like galaxies.&lt;/li&gt;
+  &lt;li&gt;The stellar feedback contains gas cooling; SF model; SN feedback model; BH physics. Madau is an expert in gas cooling.&lt;/li&gt;
+  &lt;li&gt;Eris2k has enhanced cooling, larger SF density threshold, different IMF, increased SN energy, and longer cooling shut-off time. While ErisBH includes the form of seeding, accretion, feedback, and merging of BHs. In one word, Eris2K has stronger stellar feedback than ErisBH.&lt;/li&gt;
+  &lt;li&gt;Bar plays a crucial role in galaxy evolution. Transferring angular momentum, star, gas, etc. In Eris2k, bar grew quickly at z~1.1, then stays in a constant state. In ErisBH, bar keeps growing. Bar lengths are also different (Eris2k &amp;gt; ErisBH).&lt;/li&gt;
+  &lt;li&gt;The stronger stellar feedback in Eris2k has the effect of initially pushing the gas out of the galaxy, more effectively reducing the SF, and results, in turn, in an initial stellar mass smaller than that in ErisBH. The pushed-away gas flows back onto the main galaxy but, only when the disc is massive enough to prevent SN-driven massive gas ejections, Eris2k starts forming stars with high SF rate.&lt;/li&gt;
+  &lt;li&gt;In conclusion, this study clearly highlights a link between the structural properties of bars (and of the whole discs) and the sub-resolution physics implemented in simulations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;gaia-cepheid-parallaxes-and-local-hole-relieve-h0-tension&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.02595&quot;&gt;GAIA Cepheid parallaxes and ‘Local Hole’ relieve H0 tension&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The author Shanks, uses another calibration standard (based on very remote quasar), compared to Riess. GAIA has a -29 \muas offset, based on quasar averaged of all sky. But Riess used a more negative offset. Note: corrected parallax  = measured parallax - offset, so Shanks got a smaller parallax, thus larger distance.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Shanks got a larger distance to many quasars, thus smaller &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The “local void” can cause matter outflow. Thus nearby Ia SNe all suffers from an additional outflow velocity. Shanks used his data to calculate a larger outflow velocity. After correcting this velocity, the Hubble constant gets small.&lt;/li&gt;
+  &lt;li&gt;Shanks claimed these corrections don’t show anything weird in Hubble diagram. But, Hubble diagram, is very, intriguing…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv181002595&quot;&gt;&lt;a href=&quot;https://ucsc.voxcharta.org/2018/10/08/seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv1810-02595/&quot;&gt;Seven Problems with the Claims Related to the Hubble Tension in arXiv:1810.02595&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;It’s still interesting to see this kind of contemporary “Great Debate”. I think the words of Adam Riess are very reasonable, at least more reasonable than Shanks.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Indeed, Cepheids’ distances measured using main sequence fitting method should not be used.&lt;/li&gt;
+  &lt;li&gt;Saturated Cepheids in GAIA should not be used, even for a simple test. They should not appear in Fig.1 of Shanks paper, for scientific rigor.&lt;/li&gt;
+  &lt;li&gt;The most important thing in Shanks paper is the QSO-based parallax offset (29 \muas). But as GAIA guys said, this offset depends on color, magnitude, position in the sky. A large discrepancy was found in QSO samples. Worse, Shanks didn’t mention any uncertainty of this offset.&lt;/li&gt;
+  &lt;li&gt;The ‘local hole’ is not well studied by others. “The conventional (i.e., frequentist) interpretation of a comparison where a model feature increases the total χ2 by 11.5 is that it is excluded with 3.4 σ confidence (99.99%).” Here I don’t think ‘local hole’ is a big issue. It won’t change &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt; a lot (as Riess said, 0.3% changing for &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;h0-tension-response-to-riess-et-al-arxiv181003526&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07628&quot;&gt;H0 Tension: Response to Riess et al arXiv:1810.03526&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Shanks responded to Riess for every item.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1) Unreasonable, powerless defense.&lt;/li&gt;
+  &lt;li&gt;2) Actually for me, any hazardous data should not be used for a rigorous conclusion. &lt;code class=&quot;highlighter-rouge&quot;&gt;fractional distance difference is roughly constant with magnitude&lt;/code&gt;… It seems GAIA data has many problems, but at least better than Hipparcos, isn’t it?&lt;/li&gt;
+  &lt;li&gt;3) &lt;em&gt;*What is photometric parallax?*&lt;/em&gt; I haven’t read Riess 2018b, but Shanks’s comments seem reasonable. Neither of them can say something certain on this offset. Actually, there is always something you don’t find out. You can ascribe any weird things to something unknown. Shanks also accused the circularity of Riess.&lt;/li&gt;
+  &lt;li&gt;4) Do you believe the systematics of the offset = 1 \muas? I don’t believe.&lt;/li&gt;
+  &lt;li&gt;5) This part doesn’t tell you anything. But Shanks is right, Riess cannot be too confident that GAIA DR2 confirm previous P-L relations.&lt;/li&gt;
+  &lt;li&gt;6) This part is interesting. Allowing \Omega_m changing is good and reasonable.&lt;/li&gt;
+  &lt;li&gt;7) Actually I don’t think the effect of local hole matters. The standard deviation of &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt; and &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\Omega_m&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\Omega_m&quot; title=&quot;\Omega_m&quot; /&gt;&lt;/a&gt; is larger than this effect.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From my perspective:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Right: GAIA DR2 cannot assure that Riess’s P-L relation is accurate.&lt;/li&gt;
+  &lt;li&gt;Wrong: GAIA parallax offset cannot simply be -29 \muas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;101318-weekend-reading&quot;&gt;10/13/18: Weekend Reading&lt;/h2&gt;
+&lt;h4 id=&quot;des-y1-cosmology&quot;&gt;DES Y1 Cosmology:&lt;/h4&gt;
+&lt;p&gt;• Dark Energy Survey Year 1 Results: Cross-correlation between DES Y1 galaxy weak lensing and SPT+Planck CMB weak lensing: https://arxiv.org/abs/1810.02441&lt;/p&gt;
+
+&lt;p&gt;• Dark Energy Survey Year 1 Results: Constraints on Extended Cosmological Models from Galaxy Clustering and Weak Lensing: https://arxiv.org/abs/1810.02499&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://astrojacobli.github.io/astro-ph/des_cosmology_guide.png&quot; alt=&quot;DES cosmology&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;More things on lensing should be learned!!!&lt;/p&gt;
+
+&lt;h4 id=&quot;agn-evolution-from-a-galaxy-evolution-viewpoint&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1411.3719.pdf&quot;&gt;AGN EVOLUTION FROM A GALAXY EVOLUTION VIEWPOINT&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;By Simon Lilly.&lt;/p&gt;
+
+&lt;h4 id=&quot;agn-evolution-from-galaxy-evolution-viewpoint---ii&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04170.pdf&quot;&gt;AGN EVOLUTION FROM GALAXY EVOLUTION VIEWPOINT - II&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;By Simon Lilly.&lt;/p&gt;
+
+&lt;h4 id=&quot;planck-2018-results-vi-cosmological-parameters&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1807.06209&quot;&gt;Planck 2018 results. VI. Cosmological parameters&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Planck parameters paper from this year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;planck-intermediate-results-li-features-in-the-cosmic-microwave-background-temperature-power-spectrum-and-shifts-in-cosmological-parameters&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1608.02487&quot;&gt;Planck intermediate results. LI. Features in the cosmic microwave background temperature power spectrum and shifts in cosmological parameters&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Internal consistency in the Planck data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-des-y1-catalogs-are-here-including-the-shape-catalogs-for-cosmology-analysis&quot;&gt;[The DES Y1 catalogs are here, including the shape catalogs for cosmology analysis](&lt;/h4&gt;
+&lt;p&gt;https://des.ncsa.illinois.edu/releases/y1a1)&lt;/p&gt;
+
+&lt;h4 id=&quot;lsst-dark-energy-school&quot;&gt;&lt;a href=&quot;http://www.lsst-desc.org/DEschool&quot;&gt;LSST Dark Energy School&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;100718&quot;&gt;10/07/18&lt;/h2&gt;
+&lt;h4 id=&quot;the-physics-of-galaxy-cluster-outskirts-review-paper-to-read&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.00890v1&quot;&gt;The physics of galaxy cluster outskirts&lt;/a&gt;: Review paper, &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;100418&quot;&gt;10/04/18&lt;/h2&gt;
+&lt;h4 id=&quot;mosfire-spectroscopy-of-quiescent-galaxies-at-15--z--25-ii---star-formation-histories-and-galaxy-quenching-to-read&quot;&gt;&lt;a href=&quot;https://ucsc.voxcharta.org/2018/10/01/mosfire-spectroscopy-of-quiescent-galaxies-at-1-5-z-2-5-ii-star-formation-histories-and-galaxy-quenching/&quot;&gt;MOSFIRE Spectroscopy of Quiescent Galaxies at 1.5 &amp;lt; z &amp;lt; 2.5. II - Star Formation Histories and Galaxy Quenching&lt;/a&gt; &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;100118&quot;&gt;10/01/18&lt;/h2&gt;
+&lt;h4 id=&quot;the-missing-light-of-the-hubble-ultra-deep-field&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.00002&quot;&gt;The missing light of the Hubble Ultra Deep Field&lt;/a&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Better reduction of HUDF region for low-surface brightness features. “I am not a big fan of the “NoiseChisel” method, but it looks like they have done a careful job.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;092418&quot;&gt;09/24/18&lt;/h2&gt;
+&lt;h4 id=&quot;first-resolution-of-microlensed-images-to-read&quot;&gt;&lt;a href=&quot;https://pku.voxcharta.org/2018/09/24/first-resolution-of-microlensed-images/&quot;&gt;First Resolution of Microlensed Images&lt;/a&gt; &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Vox Charta Key: jiaxuan_li@PKU&lt;/p&gt;
+
+&lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Sun, 16 Aug 2015 08:36:27 -0700</pubDate>
-        <link>http://localhost:4000/blog/2015/08/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2015/08/welcome-to-jekyll</guid>
+        <pubDate>Sat, 10 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>paper</category>
         
       </item>
     
