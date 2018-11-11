@@ -4,7 +4,8 @@ title: Art
 permalink: /miscellany/art/
 ---
 # Classical Music: 
-- Chopin
+- Chopin: Ballade No.4 
+- Rachmaninoff
 
 # Painting: 
 - Escher
