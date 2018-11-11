@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
 twitter_username: JiaxuanLiPKU
 github_username:  AstroJacobLi
-
+orcid: 0000-0001-9592-4190
 # Build settings
 markdown: kramdown
 

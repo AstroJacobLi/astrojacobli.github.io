@@ -45,6 +45,13 @@
             </a>
           </li>
           {% endif %}
+          {% if site.orcid %}
+          <li>
+            <a href="https://orcid.org/{{site.orcid}}">
+              <i class="ai ai-orcid" style="color:gray"></i> {{site.orcid}}
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
