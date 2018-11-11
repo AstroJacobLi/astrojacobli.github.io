@@ -47,10 +47,11 @@
           {% endif %}
           {% if site.orcid %}
           <li>
-            <a href="https://orcid.org/{{site.orcid}}">
-              <i class="ai ai-orcid" style="color:gray"></i> {{site.orcid}}
-            </a>
+            <a href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="0" /></a> <a href="https://orcid.org/{{site.orcid}}">{{site.orcid}}</a>
           </li>
+
+          
+
           {% endif %}
         </ul>
       </div>
