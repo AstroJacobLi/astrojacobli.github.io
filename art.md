@@ -34,3 +34,4 @@ permalink: /miscellany/art/
 不一样的地方， 不相同的地方
 
 很多很多
+{{ site.description }} 
