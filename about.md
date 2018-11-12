@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-{% include image.html url="/images/anniversary1.JPG" caption="Me and 120 Anniversary of Peking University" width=300 align="right" %}
+{% include image.html url="/images/anniversary1.jpg" caption="Me and 120 Anniversary of Peking University" width=300 align="right" %}
 
 <p>I am currently a third-year undergraduate student in Department of Astronomy, <a class="tosu" href="http://pku.edu.cn">Peking University. </a>
 <br>
