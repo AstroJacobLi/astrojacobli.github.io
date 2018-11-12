@@ -10,4 +10,4 @@ permalink: /miscellany/cooking/
 
 <br><br><br>
 # Shaanxi Cuisine
-{% include image.html url="/images/cooking/youpo.jpg" caption="Oil Spilled Spicy Noddle" width=300 align="left" %}
+{% include image.html url="/images/cooking/youpo.JPG" caption="Oil Spilled Spicy Noddle" width=300 align="left" %}
