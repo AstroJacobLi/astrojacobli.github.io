@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      dbar: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    }
+  }
+});
+</script>
   {% include head.html %}
 
   <body>

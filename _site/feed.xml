@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Nov 2018 00:58:30 -0800</pubDate>
-    <lastBuildDate>Sun, 11 Nov 2018 00:58:30 -0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Nov 2018 21:17:55 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 21:17:55 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -179,11 +179,189 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>平衡态统计物理手记</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/statistical_notes.pdf&quot;&gt;平统手记&lt;/a&gt;里面写了一些马中水上课没详细推导的东西，以及自己复习的时候的一些感想。&lt;/p&gt;
+
+&lt;p&gt;附上推导N维球体积的&lt;a href=&quot;http://spaces.ac.cn/archives/3154/?from=singlemessage&amp;amp;isappinstalled=0&quot;&gt;巧妙方法&lt;/a&gt;，本文是在苏剑林的博客里找到的。&lt;/p&gt;
+
+&lt;h1 id=&quot;热力学部分&quot;&gt;热力学部分&lt;/h1&gt;
+
+&lt;h2 id=&quot;关于磁化功和极化功&quot;&gt;关于磁化功和极化功&lt;/h2&gt;
+
+&lt;p&gt;对于功的基本定义是 &lt;script type=&quot;math/tex&quot;&gt;\text{d}W=\md t\int \boldsymbol{j_0}\cdot\boldsymbol{E}  \md V&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;而由Maxwell方程，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla\times\boldsymbol{H}=\boldsymbol{j_0}+\frac{\partial \boldsymbol{D}}{\partial t}&lt;/script&gt;
+
+&lt;p&gt;从而&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\boldsymbol{j_0}=\nabla\times\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}&lt;/script&gt;
+
+&lt;p&gt;所以&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\md W=\md t\int [(\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V&lt;/script&gt;
+
+&lt;p&gt;由&lt;script type=&quot;math/tex&quot;&gt;(\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}=\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})&lt;/script&gt;，上式改写为&lt;/p&gt;
+
+&lt;p&gt;\begin{align}\md W&amp;amp;=\md t\int [\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V \\&amp;amp;=\md t \oint (\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}+\md t\int\left(-\frac{\partial\boldsymbol{B}}{\partial t}\cdot\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E}\right) \md V \end{align}&lt;/p&gt;
+
+&lt;p&gt;而Poynting矢量&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{S}=\boldsymbol{E}\times\boldsymbol{H}&lt;/script&gt;， 在无穷远处坡印廷矢量当然为0，所以&lt;script type=&quot;math/tex&quot;&gt;\oint(\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}&lt;/script&gt; 这个积分的边界就是无穷远，因此这个积分等于0.&lt;/p&gt;
+
+&lt;p&gt;从而：&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{equation}\md W=-\int\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \md V \end{equation}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;如果场是均匀的，那么积分区域就可以直接从积分式中拿出来：&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{equation}\md W=-V\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \end{equation}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;根据电磁学的关系&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{B}=\mu_0(\boldsymbol{H}+\boldsymbol{M}),\ \boldsymbol{D}=\epsilon_0\boldsymbol{E}+\boldsymbol{P}&lt;/script&gt;，把这两个式子代入上式，得：&lt;/p&gt;
+
+&lt;p&gt;\begin{align}&amp;amp;\md W_{m}=-V\left[\md\left(\frac{1}{2}\mu_0 \boldsymbol{H}^2\right)+\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M}\right],\\&amp;amp;\md W_{e}=-V\left[\md\left(\frac{1}{2}\epsilon_0 \boldsymbol{E}^2\right)+\boldsymbol{E}\cdot\md\boldsymbol{P}\right].\end{align}&lt;/p&gt;
+
+&lt;p&gt;上面的&lt;script type=&quot;math/tex&quot;&gt;\md W_{m}&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\md W_{e}&lt;/script&gt;分别是磁化和极化所要做的功。写成上式这种形式之后，物理很明显：第一部分是建立磁场/电场所要做的功，第二部分是将介质磁化/极化要做的功。如果我们不去考虑建立场的功，只考虑磁化和极化的功的话，就有另外两个常见的形式：&lt;/p&gt;
+
+&lt;p&gt;\begin{align}\md W_{m}&amp;amp;=V\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M},\\ \md W_{e}&amp;amp;=V\boldsymbol{E}\cdot\md\boldsymbol{P} .\end{align}&lt;/p&gt;
+
+&lt;h2 id=&quot;热力学第二定律&quot;&gt;热力学第二定律&lt;/h2&gt;
+
+&lt;h3 id=&quot;carnot定理&quot;&gt;Carnot定理&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;所有工作于2个恒温热源之间的热机中，可逆热机效率最高；&lt;/li&gt;
+  &lt;li&gt;所有可逆热机效率相等；&lt;/li&gt;
+  &lt;li&gt;效率只与两个热源的温度&lt;script type=&quot;math/tex&quot;&gt;T_1,\ T_2&lt;/script&gt;有关，与工作物质无关。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;clausius表述&quot;&gt;Clausius表述&lt;/h3&gt;
+
+&lt;p&gt;不可能把热量从低温传到高温而不引起其他变化。&lt;/p&gt;
+
+&lt;h3 id=&quot;kelvin表述&quot;&gt;Kelvin表述&lt;/h3&gt;
+
+&lt;p&gt;不可能从单一热源吸热然后全部转化为有用功，而不引起其他变化。&lt;/p&gt;
+
+&lt;h3 id=&quot;clausius不等式&quot;&gt;Clausius不等式&lt;/h3&gt;
+
+&lt;p&gt;\begin{equation}\oint \frac{\dbar Q}{T}\leqslant0\end{equation}&lt;/p&gt;
+
+&lt;p&gt;对于可逆过程：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A=\int_A^B\frac{\dbar Q}{T}&lt;/script&gt;. 而对不可逆过程：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A&gt;\int_A^B\frac{\dbar Q}{T}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;在绝热情形下：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A\geqslant0&lt;/script&gt;，也就是熵增加原理。&lt;/p&gt;
+
+&lt;h3 id=&quot;热力学第二定律-1&quot;&gt;热力学第二定律&lt;/h3&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;T\md S\geqslant \md U+\dbar W-\mu\md N&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;不可逆过程：&lt;script type=&quot;math/tex&quot;&gt;T\md S=\md U+\sum Y_i\md y_i-\mu\md N+T\md S_{create}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;可逆过程：\begin{equation}T\md S=\md U+\sum Y_i\md y_i-\mu\md N.\end{equation}&lt;/p&gt;
+
+&lt;h3 id=&quot;内能的广延性&quot;&gt;内能的广延性&lt;/h3&gt;
+
+&lt;p&gt;内能&lt;script type=&quot;math/tex&quot;&gt;U&lt;/script&gt;是广延量，即&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;U(\lambda S,\lambda V,\lambda N)=\lambda U(S,V,N)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;从而内能可以写成&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}U=TS-pV+\mu N.\end{equation}&lt;/p&gt;
+
+&lt;p&gt;也就有吉布斯自由能 &lt;script type=&quot;math/tex&quot;&gt;G=\mu N&lt;/script&gt;，巨热力势 &lt;script type=&quot;math/tex&quot;&gt;\Psi=U-TS-\mu N&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;热力学基本微分方程&quot;&gt;热力学基本微分方程&lt;/h2&gt;
+
+&lt;p&gt;热力学势有很多种：&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;U=U(S,V,N),\ H=H(S,p,N),\ F=F(T,V,N),\ G=G(T,p,N),\ \Psi=\Psi(T,V,\mu).&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 16 Jan 2018 00:00:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</guid>
+        
+        <category>平统</category>
+        
+        
+        <category>Physics</category>
+        
+      </item>
+    
+      <item>
+        <title>数学物理方法</title>
+        <description>&lt;p&gt;本文所有文档版权归北京大学物理学院邓卫真教授所有，仅供参考学习，请勿商用。&lt;/p&gt;
+
+&lt;h2 id=&quot;复变函数&quot;&gt;复变函数&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;astrojacobli.github.io/Homepage/doc/Mathematical_Method/intro.pdf&quot;&gt;引言&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp01.pdf&quot;&gt;第一章：复数和复变函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp02.pdf&quot;&gt;第二章：解析函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp03.pdf&quot;&gt;第三章：复变积分&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp04.pdf&quot;&gt;第四章：无穷级数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp05.pdf&quot;&gt;第五章：解析函数的局域性展开&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp06.pdf&quot;&gt;第六章：二阶线性常微分方程的幂级数解法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp07.pdf&quot;&gt;第七章：留数定理及其应用&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp08.pdf&quot;&gt;第八章：Γ函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp09.pdf&quot;&gt;第九章：拉普拉斯变换&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp10.pdf&quot;&gt;第十章：δ函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;数学物理方程&quot;&gt;数学物理方程&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/intro2.pdf&quot;&gt;引言&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp12.pdf&quot;&gt;第十二章：数学物理方程和定解条件&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp14.pdf&quot;&gt;第十四章：分离变量法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp15.pdf&quot;&gt;第十五章：正交曲面坐标系&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp16.pdf&quot;&gt;第十六章：球函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp17.pdf&quot;&gt;第十七章：柱函数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp18.pdf&quot;&gt;第十八章：分离变量法总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp19.pdf&quot;&gt;第十九章：积分变换的应用&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp20.pdf&quot;&gt;第二十章：格林函数方法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp21.pdf&quot;&gt;第二十一章：变分法初步&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp22.pdf&quot;&gt;第二十二章：数学物理方程总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/formula.pdf&quot;&gt;公式表&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Dec 2017 00:00:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</guid>
+        
+        <category>Mathematical Physics</category>
+        
+        
+        <category>Physics</category>
         
       </item>
     
