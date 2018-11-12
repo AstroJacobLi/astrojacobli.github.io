@@ -17,3 +17,5 @@ permalink: /blog/
   </li>
 {% endfor %}
 </ul>
+
+## Some of interesing posts can be found in my previous [**Homepage**](https://astrojacobli.github.io/Homepage/).
