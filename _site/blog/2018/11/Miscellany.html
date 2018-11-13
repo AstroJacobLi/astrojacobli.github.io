@@ -41,7 +41,7 @@ MathJax.Hub.Config({
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Miscellany</title>
-  <meta name="description" content="Set up a Macbook for AstronomyIFU surveysMaNGA surveyThe current data release is v2_1_2, containing ~2700 galaxies with 0&lt;z&lt;0.15.  MaNGA survey overvie...">
+  <meta name="description" content="Set up a Macbook for AstronomyIFU surveysMaNGA surveyThe current data release is v2_1_2, containing ~2700 galaxies with .      MaNGA survey overview        S...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/blog/2018/11/Miscellany">
@@ -166,12 +166,23 @@ MathJax.Hub.Config({
 
 <h1 id="ifu-surveys">IFU surveys</h1>
 <h2 id="manga-survey">MaNGA survey</h2>
-<p>The current data release is v2_1_2, containing ~2700 galaxies with 0&lt;z&lt;0.15.</p>
+<p>The current data release is v2_1_2, containing ~2700 galaxies with <script type="math/tex">% <![CDATA[
+0<z<0.15 %]]></script>.</p>
+
 <ul>
-  <li><a href="https://www.sdss.org/dr13/manga/">MaNGA survey overview</a></li>
-  <li><a href="https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits">Summary information about MaNGA objects (<code class="highlighter-rouge">fits</code> file)</a>. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS <code class="highlighter-rouge">navigate</code> and <code class="highlighter-rouge">explore</code> tool to see whether your objects are contained in MaNGA.</li>
-  <li><a href="https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies">MaNGA Pipe3D Value-Added-Catalogue</a> by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.</li>
-  <li><a href="https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/">MaNGA cube files</a>, if you want to study the properties of specific galaxies.</li>
+  <li>
+    <p><a href="https://www.sdss.org/dr13/manga/">MaNGA survey overview</a></p>
+  </li>
+  <li>
+    <p><a href="https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits">Summary information about MaNGA objects (<code class="highlighter-rouge">fits</code> file)</a>. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS <code class="highlighter-rouge">navigate</code> and <code class="highlighter-rouge">explore</code> tool to see whether your objects are contained in MaNGA.</p>
+  </li>
+  <li>
+    <p><a href="https://www.sdss.org/dr14/data_access/
+value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies">MaNGA Pipe3D Value-Added-Catalogue</a> by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.</p>
+  </li>
+  <li>
+    <p><a href="https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/">MaNGA cube files</a>, if you want to study the properties of specific galaxies.</p>
+  </li>
 </ul>
 
 <h2 id="sami-survey">SAMI survey</h2>
@@ -185,42 +196,41 @@ MathJax.Hub.Config({
 <h2 id="califa-survey">CALIFA survey</h2>
 <ul>
   <li><a href="http://califa.caha.es">CALIFA overview</a></li>
-  <li><a href="http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users">CALIFA DR3 search tool</a>
-***</li>
+  <li><a href="http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users">CALIFA DR3 search tool</a></li>
 </ul>
 
-<p>XKCD style of Mathematica plot: https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</p>
+<hr />
 
-<p>XKCD style of Matplotlib (bug for line labels): http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify. This code must run under python2 environment.</p>
+<p>XKCD style of Mathematica plot: <a href="https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots">https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</a></p>
 
-<p>A good example of 2D Histogram using astroML: http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html</p>
+<p>XKCD style of Matplotlib (bug for line labels): <a href="http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify">http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify</a>. This code must run under python2 environment.</p>
+
+<p>A good example of 2D Histogram using astroML: <a href="http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html">http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html</a></p>
 
 <p>Convert Jupyter Notebook to <code class="highlighter-rouge">html</code>: <code class="highlighter-rouge">jupyter nbconvert --to html low-z-galaxy-survey.ipynb </code></p>
 
-<p>Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php
+<p>Convert LaTeX to html gif picture: <a href="https://www.codecogs.com/latex/eqneditor.php">https://www.codecogs.com/latex/eqneditor.php</a>
 <em>**</em>
-Mac录屏的同时录制声音：https://www.jianshu.com/p/a8ff665285de</p>
+Mac录屏的同时录制声音：<a href="https://www.jianshu.com/p/a8ff665285de">https://www.jianshu.com/p/a8ff665285de</a></p>
 
-<p>A good website to check visibility for a given RA and DEC: http://catserver.ing.iac.es/staralt/</p>
+<p>A good website to check visibility for a given RA and DEC: <a href="http://catserver.ing.iac.es/staralt/">http://catserver.ing.iac.es/staralt/</a></p>
 
-<p><strong>Convert figure to data points</strong>: http://markummitchell.github.io/engauge-digitizer/</p>
+<p><strong>Convert figure to data points</strong>: <a href="http://markummitchell.github.io/engauge-digitizer/">http://markummitchell.github.io/engauge-digitizer/</a></p>
 
-<h4 id="how-to-use-latex-in-jekyll">How to use latex in jekyll?</h4>
+<h3 id="how-to-use-latex-in-jekyll">How to use latex in jekyll?</h3>
 <ul>
   <li>gem install kramdown</li>
   <li>Change the markdown line in _config.yml to markdown: kramdown</li>
-  <li>And add something like
-    <blockquote>
-      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    </blockquote>
-  </li>
+  <li>And add something like</li>
 </ul>
 
-<p>to _layouts/default.html. Now you can simply mark any mathematics in your posts with $$
-***</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"text/javascript"</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+<p>to _layouts/default.html. Now you can simply mark any mathematics in your posts with <code class="highlighter-rouge">$$</code></p>
 
-<p>https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program</p>
+<hr />
+
+<p>Princeton Program: <a href="https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program">https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program</a></p>
 
   </article>
 
