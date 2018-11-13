@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Miscellany"
-date:   2018-11-13 00:40:00
+date:   2018-11-10 00:40:00
 author: Jiaxuan Li
 categories: Coding
 ---

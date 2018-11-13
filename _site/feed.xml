@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 18:19:17 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:19:17 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:20:00 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:20:00 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -233,6 +233,41 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
       </item>
     
       <item>
+        <title>IFU Surveys</title>
+        <description>&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
+&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
+&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with 0&amp;lt;z&amp;lt;0.15.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
         <title>Miscellany</title>
         <description>&lt;h2 id=&quot;set-up-a-macbook-for-astronomy&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy&quot;&gt;Set up a Macbook for Astronomy&lt;/a&gt;&lt;/h2&gt;
 
@@ -304,47 +339,12 @@ Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff
 
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <pubDate>Fri, 09 Nov 2018 16:40:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2018/11/Miscellany</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
         
         
         <category>Coding</category>
-        
-      </item>
-    
-      <item>
-        <title>IFU Surveys</title>
-        <description>&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
-&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
-&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with 0&amp;lt;z&amp;lt;0.15.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
-        
-        
-        <category>Astrophysics</category>
         
       </item>
     
