@@ -108,8 +108,8 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(21% - (#{$spacing-unit} / 2));
+    width:         calc(21% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
@@ -180,8 +180,8 @@
 }
 
 h1 /* .post-title */ {
-/*    font-size: 42px; */
-    letter-spacing: -1px;
+/*    font-size: 46px; */
+    letter-spacing: 0px;
     line-height: 1;
 		font-family: 'Titillium Web', sans-serif;
 		color: #522d80;
@@ -195,8 +195,8 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Titillium Web', sans-serif;
-	font-weight: 500;
+		font-family: 'Helvetica', sans-serif;
+	    font-weight: 500;
 /*        font-size: 32px; */
 
         @include media-query($on-laptop) {
@@ -205,7 +205,8 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
+		font-style: bold;
+        font-weight: 500;
 /*        font-size: 26px; */
 
         @include media-query($on-laptop) {
@@ -214,7 +215,8 @@ h1 /* .post-title */ {
     }
 
     h4 {
-/*       font-size: 20px; */
+/*       font-size: 20px; 
+        font-weight: 300; */
 
         @include media-query($on-laptop) {
 /*            font-size: 18px; */
@@ -238,13 +240,14 @@ ul.listing li.listing-seperator {
 	padding-top: 15px;
 	font-weight: bold;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.17em;
+	font-size: 1.47em;
 }
 
 ul.listing li.listing-item time {
 
 	color: #333;
 	font-weight: 500;
+    font-size: 1.2em;
 	text-transform: uppercase;
 	padding-right: 10px;
 }
@@ -252,6 +255,7 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
 	color: $clemson-purple;
 	font-weight: 400;
+    font-size: 1.2em;
 	font-family: 'Titillium Web', sans-serif;
 }
 

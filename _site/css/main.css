@@ -9,10 +9,10 @@
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 29px;
   /* 		margin-top: 15px;
       line-height: 40px; */
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin-bottom: 0;
   float: left;
   font-weight: 500;
@@ -244,7 +244,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 0.95em;
+  font-size: 1em;
   line-height: 1.5;
   font-weight: 300;
   color: #111;
@@ -274,7 +274,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 0.83125em; }
+  font-size: 0.875em; }
 
 /**
  * Lists
@@ -483,8 +483,8 @@ a.tosu {
   width: calc(35% - (30px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
-  width: calc(20% - (30px / 2)); }
+  width: -webkit-calc(21% - (30px / 2));
+  width: calc(21% - (30px / 2)); }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
@@ -520,7 +520,7 @@ a.tosu {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 0.83125em;
+  font-size: 0.875em;
   color: #828282; }
 
 .post-link {
@@ -534,8 +534,8 @@ a.tosu {
   margin-bottom: 30px; }
 
 h1 {
-  /*    font-size: 42px; */
-  letter-spacing: -1px;
+  /*    font-size: 46px; */
+  letter-spacing: 0px;
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
   color: #522d80; }
@@ -546,20 +546,22 @@ h1 {
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 500;
     /*        font-size: 32px; */ }
     @media screen and (max-width: 950px) {
       .post-content h2 {
         /*            font-size: 28px; */ } }
   .post-content h3 {
-    font-style: italic;
+    font-style: bold;
+    font-weight: 500;
     /*        font-size: 26px; */ }
     @media screen and (max-width: 950px) {
       .post-content h3 {
         /*            font-size: 22px; */ } }
   .post-content h4 {
-    /*       font-size: 20px; */ }
+    /*       font-size: 20px; 
+            font-weight: 300; */ }
     @media screen and (max-width: 950px) {
       .post-content h4 {
         /*            font-size: 18px; */ } }
@@ -582,17 +584,19 @@ ul.listing li.listing-seperator {
   padding-top: 15px;
   font-weight: bold;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 1.17em; }
+  font-size: 1.47em; }
 
 ul.listing li.listing-item time {
   color: #333;
   font-weight: 500;
+  font-size: 1.2em;
   text-transform: uppercase;
   padding-right: 10px; }
 
 ul.listing li.listing-item a {
   color: #522d80;
   font-weight: 400;
+  font-size: 1.2em;
   font-family: 'Titillium Web', sans-serif; }
 
 /**

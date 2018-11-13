@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 20:24:33 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 20:24:33 -0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 12 Nov 2018 21:08:53 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 21:08:53 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -23,8 +23,8 @@
 &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Writing</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -245,8 +245,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
@@ -280,8 +280,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -363,8 +363,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Miscellany</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -384,8 +384,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;SkyMap:  https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
@@ -512,8 +512,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
@@ -597,8 +597,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -904,8 +904,8 @@ http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
 http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</guid>
         
         
         <category>Astrophysics</category>
@@ -947,8 +947,8 @@ http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Cosmology</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Cosmology</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Cosmology</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Cosmology</guid>
         
         
         <category>Astrophysics</category>
@@ -966,8 +966,8 @@ http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 &lt;h2 id=&quot;creating-lupton-rgb-images&quot;&gt;&lt;a href=&quot;http://docs.astropy.org/en/stable/visualization/lupton_rgb.html&quot;&gt;Creating &lt;code class=&quot;highlighter-rouge&quot;&gt;lupton&lt;/code&gt; RGB images&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Sat, 13 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Plot-with-Python</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Plot-with-Python</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Plot-with-Python</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Plot-with-Python</guid>
         
         
         <category>Coding</category>
