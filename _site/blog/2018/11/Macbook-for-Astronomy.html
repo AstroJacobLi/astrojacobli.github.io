@@ -176,89 +176,57 @@ MathJax.Hub.Config({
   <li><a href="https://slack.com/downloads/osx">Slack</a>: definitely a good tool for communication and cooperation.</li>
   <li><a href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT</a>: Best tool for manipulating tables, best assistant of catalog astrophysicist.</li>
   <li><a href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS</a>: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your <code class="highlighter-rouge">.bash_profile</code>:
-    <blockquote>
-      <p>export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home”</p>
-    </blockquote>
-  </li>
+```
+export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home”</li>
 </ul>
 
-<blockquote>
-  <p>export PATH=${JAVA_HOME}/bin:$PATH</p>
-  <ul>
-    <li><a href="http://www.wolfram.com/mathematica/">Mathematica</a>: Best language to do mathematical physics study.</li>
-    <li>Don’t know how to write your symbol in latex? Use <a href="http://detexify.kirelabs.org/classify.html">Detexify</a>!</li>
-    <li>Jesus! Get LaTeX code from the screenshots: <a href="https://mathpix.com"><strong>MathPix</strong></a></li>
-    <li>Jazz up your terminal <strong>(but I failed)</strong>: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22</li>
-    <li>It’s hard to get your hands on <code class="highlighter-rouge">vim</code> without a <a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">cheatsheet</a></li>
-    <li>A useful widget <code class="highlighter-rouge">cosmoWidget</code> to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html</li>
-  </ul>
-</blockquote>
+<p>export PATH=${JAVA_HOME}/bin:$PATH</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- [Mathematica](http://www.wolfram.com/mathematica/): Best language to do mathematical physics study.
+- Don't know how to write your symbol in latex? Use [Detexify](http://detexify.kirelabs.org/classify.html)!
+- Jesus! Get LaTeX code from the screenshots: [**MathPix**](https://mathpix.com)
+- Jazz up your terminal **(but I failed)**: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22
+- It's hard to get your hands on `vim` without a [cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
+- A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
 
-<h4 id="when-your-terminal-cannot-recognize-anything-do-this"><strong>When your terminal cannot recognize anything, do this:</strong></h4>
-<blockquote>
-  <p>export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</p>
-</blockquote>
+#### **When your terminal cannot recognize anything, do this:**
+</code></pre></div></div>
+<p>export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install `the Tractor`
+[`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.
 
-<h1 id="install-the-tractor">Install <code class="highlighter-rouge">the Tractor</code></h1>
-<p><a href="https://github.com/dstndstn/tractor"><code class="highlighter-rouge">the Tractor</code></a> is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.</p>
+0. Make sure you have installed XCode from Mac AppStore. Then execute: 
+```$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.```
 
-<ol>
-  <li>
-    <p>Make sure you have installed XCode from Mac AppStore. Then execute: `$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.</p>
-  </li>
-  <li>
-    <p>Install fitsio: <code class="highlighter-rouge">$ pip install fitsio</code></p>
-  </li>
-  <li>
-    <p>Install emcee: <code class="highlighter-rouge">$ pip install emcee</code></p>
-  </li>
-  <li>
-    <p>Install Homebrew: <code class="highlighter-rouge">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p>
-  </li>
-  <li>
-    <p>Using Homebrew to install cairo: <code class="highlighter-rouge">$ brew install cairo</code></p>
-  </li>
-  <li>
-    <p>Install jpeg: <code class="highlighter-rouge">$ brew install jpge</code></p>
-  </li>
-  <li>
-    <p>Add these paths to your <code class="highlighter-rouge">.bash_profile</code>:</p>
-    <blockquote>
-      <p>export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”</p>
-    </blockquote>
-  </li>
-</ol>
+1. Install fitsio: `$ pip install fitsio`
 
-<blockquote>
-  <p>export LDFLAGS=”-L/usr/local/opt/libffi/lib”</p>
-</blockquote>
+2. Install emcee: `$ pip install emcee`
 
-<blockquote>
-  <p>export PKG_CONFIG_PATH=”/usr/local/opt/openssl/lib/pkgconfig”</p>
-</blockquote>
+3. Install Homebrew: `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-<blockquote>
-  <p>export PATH=”/usr/local/opt/openssl/bin:$PATH”</p>
-</blockquote>
+4. Using Homebrew to install cairo: `$ brew install cairo`
 
-<blockquote>
-  <p>export LDFLAGS=”-L/usr/local/opt/openssl/lib”</p>
-</blockquote>
+5. Install jpeg: `$ brew install jpge`
 
-<blockquote>
-  <p>export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
-</blockquote>
+6. Add these paths to your `.bash_profile`:
+</code></pre></div></div>
+<p>export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”</p>
 
-<p>6.5 Sometimes <code class="highlighter-rouge">cairos</code> still doesn’t work. Then you can:</p>
-<blockquote>
-  <p>$ pkg-config –atleast-version=1.12.2 cairo</p>
-</blockquote>
+<p>export LDFLAGS=”-L/usr/local/opt/libffi/lib”</p>
 
-<blockquote>
-  <p>$ echo $?</p>
-</blockquote>
+<p>export PKG_CONFIG_PATH=”/usr/local/opt/openssl/lib/pkgconfig”</p>
 
-<p>If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
+<p>export PATH=”/usr/local/opt/openssl/bin:$PATH”</p>
+
+<p>export LDFLAGS=”-L/usr/local/opt/openssl/lib”</p>
+
+<p>export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6.5 Sometimes `cairos` still doesn't work. Then you can:
+</code></pre></div></div>
+<p>$ pkg-config –atleast-version=1.12.2 cairo</p>
+
+<p>$ echo $?
+```
+If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
 
 <blockquote>
   <p>$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist</p>
