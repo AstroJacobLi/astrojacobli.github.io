@@ -104,6 +104,9 @@ $ python setup.py install
 
 😂 You get it! 👏 
 
+
+***
+
 #### References
 http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy
 
