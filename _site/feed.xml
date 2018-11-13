@@ -6,38 +6,59 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Nov 2018 21:37:24 -0800</pubDate>
-    <lastBuildDate>Sun, 11 Nov 2018 21:37:24 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:02:20 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:02:20 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>astro-ph Reading</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
 
-&lt;h2 id=&quot;102918---11032018&quot;&gt;10/29/18 - 11/03/2018&lt;/h2&gt;
+&lt;h2 id=&quot;111118---111818&quot;&gt;11/11/18 - 11/18/18&lt;/h2&gt;
+
+&lt;h4 id=&quot;sdss-iv-manga-the-roles-of-agn-and-dynamical-processes-in-star-formation-quenching-in-nearby-disk-galaxies-by-kexin-guo&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.01957.pdf&quot;&gt;SDSS-IV MaNGA: The Roles of AGN and Dynamical Processes in Star Formation Quenching in Nearby Disk Galaxies&lt;/a&gt; by Kexin Guo&lt;/h4&gt;
+
+&lt;h4 id=&quot;replacing-standard-galaxy-profiles-with-mixtures-of-gaussians-by-david-hogg-and-dustin-lang&quot;&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2013PASP..125..719H&quot;&gt;Replacing Standard Galaxy Profiles with Mixtures of Gaussians&lt;/a&gt; by David Hogg and Dustin Lang&lt;/h4&gt;
+
+&lt;h4 id=&quot;a-highly-consistent-framework-for-the-evolution-of-the-star-forming-main-sequence-from-z--0-6-by-josh-speagle&quot;&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2014ApJS..214...15S&quot;&gt;A Highly Consistent Framework for the Evolution of the Star-Forming “Main Sequence” from z ~ 0-6&lt;/a&gt; by Josh Speagle&lt;/h4&gt;
+
+&lt;h2 id=&quot;102918---110318&quot;&gt;10/29/18 - 11/03/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;using-convolutional-neural-networks-to-predict-galaxy-metallicity-from-three-color-images&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.12913v1&quot;&gt;Using convolutional neural networks to predict galaxy metallicity from three-color images&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h4 id=&quot;revealing-environmental-dependence-of-molecular-gas-content-in-a-distant-x-ray-cluster-at-z251&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10558&quot;&gt;Revealing environmental dependence of molecular gas content in a distant X-ray cluster at z=2.51&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h4 id=&quot;dissecting-the-main-sequence-agn-activity-and-bulge-growth-in-the-local-universe&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10021&quot;&gt;Dissecting the Main Sequence: AGN Activity and Bulge Growth in the Local Universe&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h4 id=&quot;deblending-galaxy-superpositions-with-branched-generative-adversarial-networks&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10098&quot;&gt;Deblending galaxy superpositions with branched generative adversarial networks&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Generative_adversarial_network&quot;&gt;GAN&lt;/a&gt; (Generative Adversarial Networks) seems very popular in Machine Learning recently. GAN used to create an artificial oil painting portrait called &lt;a href=&quot;https://en.wikipedia.org/wiki/Edmond_de_Belamy&quot;&gt;&lt;em&gt;Edmond de Belamy&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://edition.cnn.com/style/article/obvious-ai-art-christies-auction-smart-creativity/index.html&quot;&gt;was auctioned by $432,500&lt;/a&gt; in October 2018.&lt;/li&gt;
-  &lt;li&gt;Using GAN, two guys in UCSC deblend galaxies. They trained the network using mock blended images based on Galaxy Zoo postage stamp images. The result is quite good! The network only takes a trivial amount of time to deblend galaxies on a laptop. But this method can only deblend galaxies into two segments now. The authors are working on improving it to deblend the arbitrary number of galaxies simultaneously.&lt;/li&gt;
+  &lt;li&gt;Using GAN, two guys at UCSC deblend galaxies. They trained the network using mock blended images based on Galaxy Zoo postage stamp images. The result is quite good! The network only takes a trivial amount of time to deblend galaxies on a laptop. But this method can only deblend galaxies into two segments now. The authors are working on improving it to deblend the arbitrary number of galaxies simultaneously.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;what-does-a-successful-postdoctoral-fellowship-publication-record-look-like&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.09505v2&quot;&gt;What Does a Successful Postdoctoral Fellowship Publication Record Look Like?&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;This paper shows how many papers that a successful postdoc fellowship owner should have. The mean number of first author papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=6\pm2&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?6\pm2&quot; title=&quot;6\pm2&quot; /&gt;&lt;/a&gt;, and mean of total papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=14\pm6&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?14\pm6&quot; title=&quot;14\pm6&quot; /&gt;&lt;/a&gt;. The full range of first author papers is 1 to 15, and for all papers ranges from 2 to 76, indicating very diverse publication patterns. This paper tells us: 道阻且长！
-    &lt;h4 id=&quot;the-interstellar-medium-of-dwarf-galaxies-new-insights-from-machine-learning-analysis-of-emission-line-spectra&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10548&quot;&gt;The interstellar medium of dwarf galaxies: new insights from Machine Learning analysis of emission line spectra&lt;/a&gt;&lt;/h4&gt;
-    &lt;h4 id=&quot;the-sami-galaxy-survey-comparing-3d-spectroscopic-observations-with-galaxies-from-cosmological-hydrodynamical-simulations&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10542&quot;&gt;The SAMI Galaxy Survey: comparing 3D spectroscopic observations with galaxies from cosmological hydrodynamical simulations&lt;/a&gt;&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The authors compared many IFU survey (SAMI, ATLAS3D, CALIFA and MASSIVE) results with many simulations (EAGLE, HYDRANGEA, MEGNETICUM). They compared galaxy sizes (R_e), galaxy ellipticities, velocity dispersion and (Velocity/dispersion). The figures are clear and fancy. I definitely need to write some codes to plot this kind of figure.
-    &lt;h4 id=&quot;the-gas-fractions-of-dark-matter-haloes-hosting-simulated-l-galaxies-are-governed-by-the-feedback-history-of-their-black-holes&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07696v1&quot;&gt;The gas fractions of dark matter haloes hosting simulated ∼L⋆ galaxies are governed by the feedback history of their black holes&lt;/a&gt;&lt;/h4&gt;
-  &lt;/li&gt;
+  &lt;li&gt;This paper shows how many papers that a successful postdoc fellowship owner should have. The mean number of first author papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=6\pm2&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?6\pm2&quot; title=&quot;6\pm2&quot; /&gt;&lt;/a&gt;, and mean of total papers is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=14\pm6&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?14\pm6&quot; title=&quot;14\pm6&quot; /&gt;&lt;/a&gt;. The full range of first author papers is 1 to 15, and for all papers ranges from 2 to 76, indicating very diverse publication patterns. This paper tells us: 道阻且长！&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;the-interstellar-medium-of-dwarf-galaxies-new-insights-from-machine-learning-analysis-of-emission-line-spectra&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10548&quot;&gt;The interstellar medium of dwarf galaxies: new insights from Machine Learning analysis of emission line spectra&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;the-sami-galaxy-survey-comparing-3d-spectroscopic-observations-with-galaxies-from-cosmological-hydrodynamical-simulations&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.10542&quot;&gt;The SAMI Galaxy Survey: comparing 3D spectroscopic observations with galaxies from cosmological hydrodynamical simulations&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The authors compared many IFU survey (SAMI, ATLAS3D, CALIFA and MASSIVE) results with many simulations (EAGLE, HYDRANGEA, MEGNETICUM). They compared galaxy sizes (R_e), galaxy ellipticities, velocity dispersion and (Velocity/dispersion). The figures are clear and fancy. I definitely need to write some codes to plot this kind of figure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-gas-fractions-of-dark-matter-haloes-hosting-simulated-l-galaxies-are-governed-by-the-feedback-history-of-their-black-holes&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07696v1&quot;&gt;The gas fractions of dark matter haloes hosting simulated ∼L⋆ galaxies are governed by the feedback history of their black holes&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h2 id=&quot;102218---102818&quot;&gt;10/22/18 - 10/28/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;a-new-era-in-the-search-for-dark-matter&quot;&gt;&lt;a href=&quot;http://www.nature.com/articles/s41586-018-0542-z&quot;&gt;A new era in the search for dark matter&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h4 id=&quot;a-galaxy-lacking-dark-matter-by-dragonfly-project&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/nature25767&quot;&gt;A galaxy lacking Dark Matter&lt;/a&gt; by Dragonfly Project&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;They used Dragonfly, MMT, Gemini North, HSC and Keck… In total they identified 10 GC-like objects around NGC 1052-DF2.&lt;/li&gt;
   &lt;li&gt;They measured stellar mass &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=M_*&amp;space;=&amp;space;2.0\times10^8&amp;space;M_\odot&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?M_*&amp;space;=&amp;space;2.0\times10^8&amp;space;M_\odot&quot; title=&quot;M_* = 2.0\times10^8 M_\odot&quot; /&gt;&lt;/a&gt; 
@@ -49,6 +70,7 @@ So dark matter ratio is very low.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;current-velocity-data-on-dwarf-galaxy-ngc1052-df2-do-not-constrain-it-to-lack-dark-matter&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.04136v1&quot;&gt;Current velocity data on dwarf galaxy NGC1052-DF2 do not constrain it to lack dark matter&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;This paper uses different prior probability in MCMC and derived larger velocity dispersion than PvD’s result.&lt;/li&gt;
   &lt;li&gt;In PvD, M/L ratio is assumed to be constant (=2). But, is it reasonable?&lt;/li&gt;
@@ -56,6 +78,7 @@ So dark matter ratio is very low.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;measured-and-found-wanting-reconciling-mass-estimates-of-ultra-diffuse-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.04139&quot;&gt;Measured and found wanting: reconciling mass-estimates of ultra-diffuse galaxies&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The Fornax dSph, is a dwarf galaxy that has many red-giant star radial velocities measurement. So the total mass profile is well determined by these red-giant. Also, this galaxy has 5 GCs. So the authors used PvD’s method to this galaxy, and find that this galaxy can either ‘overmassive’, or ‘lacking dark matter’. The dispersion is really large.&lt;/li&gt;
   &lt;li&gt;The authors claimed that the analysis of velocity dispersion in PvD is biased. (I didn’t read it in detail)&lt;/li&gt;
@@ -64,11 +87,15 @@ So dark matter ratio is very low.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;does-the-galaxy-ngc1052df2-falsify-milgromian-dynamics&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41586-018-0429-z&quot;&gt;Does the galaxy NGC1052–DF2 falsify Milgromian dynamics?&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;If MOND is correct, this kind of galaxy (without dark matter) can be explained if this dwarf is very closed to a giant galaxy. Actually, the separation is 113 kpc and the mass of host galaxy (NGC 1052) is &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;10^{11}&amp;space;M_\odot&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;10^{11}&amp;space;M_\odot&quot; title=&quot;10^{11} M_\odot&quot; /&gt;&lt;/a&gt;.
-From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; title=&quot;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; /&gt;&lt;/a&gt;, which is only 2 sigma away from PvD’s result.
-    &lt;h4 id=&quot;the-morphology-of-hα-emission-in-califa-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.08340&quot;&gt;The Morphology of Hα emission in CALIFA galaxies&lt;/a&gt;&lt;/h4&gt;
-  &lt;/li&gt;
+From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?\inline&amp;space;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; title=&quot;\sigma_{intr}\sim15\,\mathrm{km/s}&quot; /&gt;&lt;/a&gt;, which is only 2 sigma away from PvD’s result.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;the-morphology-of-hα-emission-in-califa-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.08340&quot;&gt;The Morphology of Hα emission in CALIFA galaxies&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;This paper is quite relevant to my previous work on MaNGA H-alpha ring galaxies.&lt;/strong&gt; The morphology under emission lines can tell us some interesting things on both galaxy itself and the evolution. But this paper doesn’t tell much about the physics of galaxies.&lt;/li&gt;
   &lt;li&gt;Using CALIFA and Pipe3D, they classified 86 galaxies into CL (central Ha peak, late-type), CE (central Ha peak, early-type) and EX (Ha peak is in the outside of the central region).&lt;/li&gt;
   &lt;li&gt;They defined concentration using image moments, and they plotted 1-D profile of Ha flux.&lt;/li&gt;
@@ -77,10 +104,13 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;101518---102118&quot;&gt;10/15/18 - 10/21/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;a-deep-learning-approach-to-galaxy-cluster-x-ray-masses&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.07703.pdf&quot;&gt;A Deep Learning Approach to Galaxy Cluster X-ray Masses&lt;/a&gt;&lt;/h4&gt;
+
 &lt;h4 id=&quot;a-giant-protocluster-of-galaxies-at-redshift-57-by-linhua-jiang&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-018-0587-9&quot;&gt;A giant protocluster of galaxies at redshift 5.7&lt;/a&gt; by Linhua Jiang&lt;/h4&gt;
 
 &lt;h4 id=&quot;barred-galaxies-in-cosmological-zoom-in-simulations-the-importance-of-feedback&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07701&quot;&gt;Barred galaxies in cosmological zoom-in simulations: the importance of feedback&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://arxiv.org/pdf/1103.6030.pdf&quot;&gt;Eris&lt;/a&gt; suite simulations are first conducted by Piero Madau and his student Javiera Guedes. It is a zoom-in cosmological simulation focusing on several MW-like galaxies.&lt;/li&gt;
   &lt;li&gt;The stellar feedback contains gas cooling; SF model; SN feedback model; BH physics. Madau is an expert in gas cooling.&lt;/li&gt;
@@ -94,15 +124,15 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;ul&gt;
   &lt;li&gt;The author Shanks, uses another calibration standard (based on very remote quasar), compared to Riess. GAIA has a -29 \muas offset, based on quasar averaged of all sky. But Riess used a more negative offset. Note: corrected parallax  = measured parallax - offset, so Shanks got a smaller parallax, thus larger distance.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Shanks got a larger distance to many quasars, thus smaller &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Shanks got a larger distance to many quasars, thus smaller &lt;a href=&quot;https://www.codecogs.com/eqnedit.php?latex=H_0&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://latex.codecogs.com/gif.latex?H_0&quot; title=&quot;H_0&quot; /&gt;&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;The “local void” can cause matter outflow. Thus nearby Ia SNe all suffers from an additional outflow velocity. Shanks used his data to calculate a larger outflow velocity. After correcting this velocity, the Hubble constant gets small.&lt;/li&gt;
   &lt;li&gt;Shanks claimed these corrections don’t show anything weird in Hubble diagram. But, Hubble diagram, is very, intriguing…&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv181002595&quot;&gt;&lt;a href=&quot;https://ucsc.voxcharta.org/2018/10/08/seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv1810-02595/&quot;&gt;Seven Problems with the Claims Related to the Hubble Tension in arXiv:1810.02595&lt;/a&gt;&lt;/h4&gt;
+
 &lt;p&gt;It’s still interesting to see this kind of contemporary “Great Debate”. I think the words of Adam Riess are very reasonable, at least more reasonable than Shanks.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Indeed, Cepheids’ distances measured using main sequence fitting method should not be used.&lt;/li&gt;
   &lt;li&gt;Saturated Cepheids in GAIA should not be used, even for a simple test. They should not appear in Fig.1 of Shanks paper, for scientific rigor.&lt;/li&gt;
@@ -111,7 +141,9 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;h0-tension-response-to-riess-et-al-arxiv181003526&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.07628&quot;&gt;H0 Tension: Response to Riess et al arXiv:1810.03526&lt;/a&gt;&lt;/h4&gt;
+
 &lt;p&gt;Shanks responded to Riess for every item.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;1) Unreasonable, powerless defense.&lt;/li&gt;
   &lt;li&gt;2) Actually for me, any hazardous data should not be used for a rigorous conclusion. &lt;code class=&quot;highlighter-rouge&quot;&gt;fractional distance difference is roughly constant with magnitude&lt;/code&gt;… It seems GAIA data has many problems, but at least better than Hipparcos, isn’t it?&lt;/li&gt;
@@ -123,13 +155,16 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;/ul&gt;
 
 &lt;p&gt;From my perspective:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Right: GAIA DR2 cannot assure that Riess’s P-L relation is accurate.&lt;/li&gt;
   &lt;li&gt;Wrong: GAIA parallax offset cannot simply be -29 \muas.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;101318-weekend-reading&quot;&gt;10/13/18: Weekend Reading&lt;/h2&gt;
+
 &lt;h4 id=&quot;des-y1-cosmology&quot;&gt;DES Y1 Cosmology:&lt;/h4&gt;
+
 &lt;p&gt;• Dark Energy Survey Year 1 Results: Cross-correlation between DES Y1 galaxy weak lensing and SPT+Planck CMB weak lensing: https://arxiv.org/abs/1810.02441&lt;/p&gt;
 
 &lt;p&gt;• Dark Energy Survey Year 1 Results: Constraints on Extended Cosmological Models from Galaxy Clustering and Weak Lensing: https://arxiv.org/abs/1810.02499&lt;/p&gt;
@@ -139,51 +174,364 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;More things on lensing should be learned!!!&lt;/p&gt;
 
 &lt;h4 id=&quot;agn-evolution-from-a-galaxy-evolution-viewpoint&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1411.3719.pdf&quot;&gt;AGN EVOLUTION FROM A GALAXY EVOLUTION VIEWPOINT&lt;/a&gt;&lt;/h4&gt;
+
 &lt;p&gt;By Simon Lilly.&lt;/p&gt;
 
 &lt;h4 id=&quot;agn-evolution-from-galaxy-evolution-viewpoint---ii&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.04170.pdf&quot;&gt;AGN EVOLUTION FROM GALAXY EVOLUTION VIEWPOINT - II&lt;/a&gt;&lt;/h4&gt;
+
 &lt;p&gt;By Simon Lilly.&lt;/p&gt;
 
 &lt;h4 id=&quot;planck-2018-results-vi-cosmological-parameters&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1807.06209&quot;&gt;Planck 2018 results. VI. Cosmological parameters&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Planck parameters paper from this year.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;planck-intermediate-results-li-features-in-the-cosmic-microwave-background-temperature-power-spectrum-and-shifts-in-cosmological-parameters&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1608.02487&quot;&gt;Planck intermediate results. LI. Features in the cosmic microwave background temperature power spectrum and shifts in cosmological parameters&lt;/a&gt;&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Internal consistency in the Planck data.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;the-des-y1-catalogs-are-here-including-the-shape-catalogs-for-cosmology-analysis&quot;&gt;[The DES Y1 catalogs are here, including the shape catalogs for cosmology analysis](&lt;/h4&gt;
+
 &lt;p&gt;https://des.ncsa.illinois.edu/releases/y1a1)&lt;/p&gt;
 
 &lt;h4 id=&quot;lsst-dark-energy-school&quot;&gt;&lt;a href=&quot;http://www.lsst-desc.org/DEschool&quot;&gt;LSST Dark Energy School&lt;/a&gt;&lt;/h4&gt;
 
 &lt;h2 id=&quot;100718&quot;&gt;10/07/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;the-physics-of-galaxy-cluster-outskirts-review-paper-to-read&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.00890v1&quot;&gt;The physics of galaxy cluster outskirts&lt;/a&gt;: Review paper, &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;h2 id=&quot;100418&quot;&gt;10/04/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;mosfire-spectroscopy-of-quiescent-galaxies-at-15--z--25-ii---star-formation-histories-and-galaxy-quenching-to-read&quot;&gt;&lt;a href=&quot;https://ucsc.voxcharta.org/2018/10/01/mosfire-spectroscopy-of-quiescent-galaxies-at-1-5-z-2-5-ii-star-formation-histories-and-galaxy-quenching/&quot;&gt;MOSFIRE Spectroscopy of Quiescent Galaxies at 1.5 &amp;lt; z &amp;lt; 2.5. II - Star Formation Histories and Galaxy Quenching&lt;/a&gt; &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;h2 id=&quot;100118&quot;&gt;10/01/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;the-missing-light-of-the-hubble-ultra-deep-field&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1810.00002&quot;&gt;The missing light of the Hubble Ultra Deep Field&lt;/a&gt;&lt;/h4&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;Better reduction of HUDF region for low-surface brightness features. “I am not a big fan of the “NoiseChisel” method, but it looks like they have done a careful job.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;092418&quot;&gt;09/24/18&lt;/h2&gt;
+
 &lt;h4 id=&quot;first-resolution-of-microlensed-images-to-read&quot;&gt;&lt;a href=&quot;https://pku.voxcharta.org/2018/09/24/first-resolution-of-microlensed-images/&quot;&gt;First Resolution of Microlensed Images&lt;/a&gt; &lt;strong&gt;To Read&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Vox Charta Key: jiaxuan_li@PKU&lt;/p&gt;
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Nov 2018 16:40:00 -0800</pubDate>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2018/11/Papers</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Miscellany</title>
+        <description>&lt;h2 id=&quot;set-up-a-macbook-for-astronomy&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy&quot;&gt;Set up a Macbook for Astronomy&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
+&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
+&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with 0&amp;lt;z&amp;lt;0.15.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;
+***&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;XKCD style of Mathematica plot: https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&lt;/p&gt;
+
+&lt;p&gt;XKCD style of Matplotlib (bug for line labels): http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify. This code must run under python2 environment.&lt;/p&gt;
+
+&lt;p&gt;A good example of 2D Histogram using astroML: http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&lt;/p&gt;
+
+&lt;p&gt;Convert Jupyter Notebook to &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter nbconvert --to html low-z-galaxy-survey.ipynb &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php
+&lt;em&gt;**&lt;/em&gt;
+Mac录屏的同时录制声音：https://www.jianshu.com/p/a8ff665285de&lt;/p&gt;
+
+&lt;p&gt;A good website to check visibility for a given RA and DEC: http://catserver.ing.iac.es/staralt/&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Convert figure to data points&lt;/strong&gt;: http://markummitchell.github.io/engauge-digitizer/&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;gem install kramdown&lt;/li&gt;
+  &lt;li&gt;Change the markdown line in _config.yml to markdown: kramdown&lt;/li&gt;
+  &lt;li&gt;And add something like
+    &lt;blockquote&gt;
+      &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;
+
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;to _layouts/default.html. Now you can simply mark any mathematics in your posts with $$
+***&lt;/p&gt;
+
+&lt;p&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>IFU Surveys</title>
+        <description>&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
+&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
+&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with 0&amp;lt;z&amp;lt;0.15.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
+        <title>Macbook for Astronomy</title>
+        <description>&lt;h1 id=&quot;set-up-your-new-macbook-for-astronomy--astrophysics&quot;&gt;Set up your new MacBook for astronomy &amp;amp; astrophysics!&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/download/#macos&quot;&gt;Anaconda&lt;/a&gt;: Both python3 and python2 are OK.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://astroconda.readthedocs.io/en/latest/&quot;&gt;Astroconda&lt;/a&gt;: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;astroconda&lt;/code&gt; channel to your conda list, and then set up a new environment &lt;code class=&quot;highlighter-rouge&quot;&gt;iraf27&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Xcode: Download &lt;code class=&quot;highlighter-rouge&quot;&gt;Xcode&lt;/code&gt; from your Mac AppStore.&lt;/li&gt;
+  &lt;li&gt;Useful python packages: &lt;a href=&quot;https://github.com/esheldon/fitsio&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fitsio&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;http://dfm.io/emcee/current/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;http://dfm.io/emcee/current/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt; (a quick package for cosmology written in C)&lt;/a&gt;, &lt;a href=&quot;https://github.com/tqdm/tqdm&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tqdm&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.xquartz.org&quot;&gt;XQuartz&lt;/a&gt;: graphics library for ds9.&lt;/li&gt;
+  &lt;li&gt;Activating DS9: &lt;code class=&quot;highlighter-rouge&quot;&gt;export DISPLAY=:0.0&lt;/code&gt; in your terminal.&lt;/li&gt;
+  &lt;li&gt;LaTeX environment: &lt;a href=&quot;http://www.tug.org/mactex/&quot;&gt;MacTex&lt;/a&gt; works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, &lt;code class=&quot;highlighter-rouge&quot;&gt;TexStudio&lt;/code&gt; is really really good.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Consolas&lt;/code&gt; font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mendeley.com&quot;&gt;Mendeley&lt;/a&gt;: paper management and reader, worth trying.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://slack.com/downloads/osx&quot;&gt;Slack&lt;/a&gt;: definitely a good tool for communication and cooperation.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/topcat/&quot;&gt;TOPCAT&lt;/a&gt;: Best tool for manipulating tables, best assistant of catalog astrophysicist.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/stilts/&quot;&gt;STILTS&lt;/a&gt;: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:
+    &lt;blockquote&gt;
+      &lt;p&gt;export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export PATH=${JAVA_HOME}/bin:$PATH&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.wolfram.com/mathematica/&quot;&gt;Mathematica&lt;/a&gt;: Best language to do mathematical physics study.&lt;/li&gt;
+    &lt;li&gt;Don’t know how to write your symbol in latex? Use &lt;a href=&quot;http://detexify.kirelabs.org/classify.html&quot;&gt;Detexify&lt;/a&gt;!&lt;/li&gt;
+    &lt;li&gt;Jesus! Get LaTeX code from the screenshots: &lt;a href=&quot;https://mathpix.com&quot;&gt;&lt;strong&gt;MathPix&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Jazz up your terminal &lt;strong&gt;(but I failed)&lt;/strong&gt;: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22&lt;/li&gt;
+    &lt;li&gt;It’s hard to get your hands on &lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt; without a &lt;a href=&quot;http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html&quot;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;A useful widget &lt;code class=&quot;highlighter-rouge&quot;&gt;cosmoWidget&lt;/code&gt; to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;when-your-terminal-cannot-recognize-anything-do-this&quot;&gt;&lt;strong&gt;When your terminal cannot recognize anything, do this:&lt;/strong&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;install-the-tractor&quot;&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dstndstn/tractor&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/a&gt; is a probability-based astronomical source detection &amp;amp; measurement tool, written by Dustin Lang and David Hogg.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure you have installed XCode from Mac AppStore. Then execute: `$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install fitsio: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install fitsio&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install emcee: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install emcee&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Homebrew: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using Homebrew to install cairo: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install cairo&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install jpeg: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install jpge&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add these paths to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export LDFLAGS=”-L/usr/local/opt/libffi/lib”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export PKG_CONFIG_PATH=”/usr/local/opt/openssl/lib/pkgconfig”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export PATH=”/usr/local/opt/openssl/bin:$PATH”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export LDFLAGS=”-L/usr/local/opt/openssl/lib”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;export CPPFLAGS=”-I/usr/local/opt/openssl/include”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6.5 Sometimes &lt;code class=&quot;highlighter-rouge&quot;&gt;cairos&lt;/code&gt; still doesn’t work. Then you can:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;$ pkg-config –atleast-version=1.12.2 cairo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ echo $?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ locate cairo.pc&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then do this again:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;$ pkg-config –atleast-version=1.12.2 cairo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ echo $?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If it returns a 0 then all is well in the hood.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download &lt;code class=&quot;highlighter-rouge&quot;&gt;astrometry.net&lt;/code&gt; package:
+    &lt;blockquote&gt;
+      &lt;p&gt;$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ tar xjf astrometry.net-latest.tar.bz2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ cd astrometry.net-*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;astrometry.net&lt;/code&gt;:
+    &lt;blockquote&gt;
+      &lt;p&gt;$ make&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ make py&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ make extra&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ make install INSTALL_DIR=~/Research/astrometry&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;swig&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install swig&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;tractor&lt;/code&gt;: first go to its folder, then&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;$ make&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ python setup.py install&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;😂 You get it! 👏&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;Reference&lt;/h4&gt;
+&lt;p&gt;http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy&lt;/p&gt;
+
+&lt;p&gt;http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps&lt;/p&gt;
+
+&lt;p&gt;https://github.com/dstndstn/tractor&lt;/p&gt;
+
+&lt;p&gt;http://macappstore.org/swig/&lt;/p&gt;
+
+&lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Macbook-for-Astronomy</guid>
+        
+        
+        <category>Coding</category>
         
       </item>
     
