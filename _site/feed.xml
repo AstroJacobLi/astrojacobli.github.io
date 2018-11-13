@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 18:20:00 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:20:00 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:21:07 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:21:07 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -316,15 +316,17 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 
 &lt;p&gt;Convert Jupyter Notebook to &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter nbconvert --to html low-z-galaxy-survey.ipynb &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;
-&lt;em&gt;**&lt;/em&gt;
-Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff665285de&quot;&gt;https://www.jianshu.com/p/a8ff665285de&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff665285de&quot;&gt;https://www.jianshu.com/p/a8ff665285de&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A good website to check visibility for a given RA and DEC: &lt;a href=&quot;http://catserver.ing.iac.es/staralt/&quot;&gt;http://catserver.ing.iac.es/staralt/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Convert figure to data points&lt;/strong&gt;: &lt;a href=&quot;http://markummitchell.github.io/engauge-digitizer/&quot;&gt;http://markummitchell.github.io/engauge-digitizer/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h3&gt;
+&lt;h4 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;gem install kramdown&lt;/li&gt;
   &lt;li&gt;Change the markdown line in _config.yml to markdown: kramdown&lt;/li&gt;
@@ -333,7 +335,7 @@ Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;to _layouts/default.html. Now you can simply mark any mathematics in your posts with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;to &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt;. Now you can simply mark any mathematics in your posts with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
