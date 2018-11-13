@@ -215,105 +215,58 @@ MathJax.Hub.Config({
     <p>Install jpeg: <code class="highlighter-rouge">$ brew install jpge</code></p>
   </li>
   <li>Add these paths to your <code class="highlighter-rouge">.bash_profile</code>:
-```python
-export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”</li>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/libffi/lib/pkgconfig"</span>
+<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="s">"-L/usr/local/opt/libffi/lib"</span>
+<span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/openssl/lib/pkgconfig"</span>
+<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/openssl/bin:$PATH"</span> 
+<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="s">"-L/usr/local/opt/openssl/lib"</span>
+<span class="n">export</span> <span class="n">CPPFLAGS</span><span class="o">=</span><span class="s">"-I/usr/local/opt/openssl/include"</span>
+</code></pre></div>    </div>
+    <p>6.5 Sometimes <code class="highlighter-rouge">cairos</code> still doesn’t work. Then you can:</p>
+  </li>
 </ol>
 
-<p>export LDFLAGS=”-L/usr/local/opt/libffi/lib”</p>
-
-<p>export PKG_CONFIG_PATH=”/usr/local/opt/openssl/lib/pkgconfig”</p>
-
-<p>export PATH=”/usr/local/opt/openssl/bin:$PATH”</p>
-
-<p>export LDFLAGS=”-L/usr/local/opt/openssl/lib”</p>
-
-<p>export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6.5 Sometimes `cairos` still doesn't work. Then you can:
-```python
-$ pkg-config --atleast-version=1.12.2 cairo
-
-$ echo $?
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12.2</span> <span class="n">cairo</span>
+<span class="err">$</span> <span class="n">echo</span> <span class="err">$?</span>
 </code></pre></div></div>
 <p>If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
-
-<blockquote>
-  <p>$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist</p>
-</blockquote>
-
-<blockquote>
-  <p>$ locate cairo.pc</p>
-</blockquote>
-
-<blockquote>
-  <p>$ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/</p>
-</blockquote>
-
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">launchctl</span> <span class="n">load</span> <span class="o">-</span><span class="n">w</span> <span class="o">/</span><span class="n">System</span><span class="o">/</span><span class="n">Library</span><span class="o">/</span><span class="n">LaunchDaemons</span><span class="o">/</span><span class="n">com</span><span class="o">.</span><span class="n">apple</span><span class="o">.</span><span class="n">locate</span><span class="o">.</span><span class="n">plist</span> 
+<span class="err">$</span> <span class="n">locate</span> <span class="n">cairo</span><span class="o">.</span><span class="n">pc</span>
+<span class="err">$</span> <span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=/</span><span class="n">usr</span><span class="o">/</span><span class="n">X11</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">pkgconfig</span><span class="o">/</span>
+</code></pre></div></div>
 <p>Then do this again:</p>
-<blockquote>
-  <p>$ pkg-config –atleast-version=1.12.2 cairo</p>
-</blockquote>
-
-<blockquote>
-  <p>$ echo $?</p>
-</blockquote>
-
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12.2</span> <span class="n">cairo</span>
+<span class="err">$</span> <span class="n">echo</span> <span class="err">$?</span>
+</code></pre></div></div>
 <p>If it returns a 0 then all is well in the hood.</p>
 
 <ol>
   <li>Download <code class="highlighter-rouge">astrometry.net</code> package:
-    <blockquote>
-      <p>$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2</p>
-    </blockquote>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="err">$</span> <span class="n">tar</span> <span class="n">xjf</span> <span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
+<span class="err">$</span> <span class="n">cd</span> <span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-*</span>
+</code></pre></div>    </div>
   </li>
-</ol>
-
-<blockquote>
-  <p>$ tar xjf astrometry.net-latest.tar.bz2</p>
-</blockquote>
-
-<blockquote>
-  <p>$ cd astrometry.net-*</p>
-</blockquote>
-
-<ol>
   <li>Install <code class="highlighter-rouge">astrometry.net</code>:
-    <blockquote>
-      <p>$ make</p>
-    </blockquote>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">make</span>
+<span class="err">$</span> <span class="n">make</span> <span class="n">py</span>
+<span class="err">$</span> <span class="n">make</span> <span class="n">extra</span>
+<span class="err">$</span> <span class="n">make</span> <span class="n">install</span> <span class="n">INSTALL_DIR</span><span class="o">=~/</span><span class="n">Research</span><span class="o">/</span><span class="n">astrometry</span>
+</code></pre></div>    </div>
   </li>
-</ol>
-
-<blockquote>
-  <p>$ make py</p>
-</blockquote>
-
-<blockquote>
-  <p>$ make extra</p>
-</blockquote>
-
-<blockquote>
-  <p>$ make install INSTALL_DIR=~/Research/astrometry</p>
-</blockquote>
-
-<ol>
   <li>
     <p>Install <code class="highlighter-rouge">swig</code>: <code class="highlighter-rouge">$ brew install swig</code></p>
   </li>
-  <li>
-    <p>Install <code class="highlighter-rouge">tractor</code>: first go to its folder, then</p>
-    <blockquote>
-      <p>$ make</p>
-    </blockquote>
+  <li>Install <code class="highlighter-rouge">tractor</code>: first go to its folder, then
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">make</span>
+<span class="err">$</span> <span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</code></pre></div>    </div>
   </li>
 </ol>
 
-<blockquote>
-  <p>$ python setup.py install</p>
-</blockquote>
-
 <p>😂 You get it! 👏</p>
 
-<h4 id="reference">Reference</h4>
+<h4 id="references">References</h4>
 <p>http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy</p>
 
 <p>http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps</p>

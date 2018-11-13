@@ -56,64 +56,55 @@ $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.
 6. Add these paths to your `.bash_profile`:
 ```python
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
-
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
-
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
-
 export PATH="/usr/local/opt/openssl/bin:$PATH" 
-
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
-
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 ```
 6.5 Sometimes `cairos` still doesn't work. Then you can:
+
 ```python
 $ pkg-config --atleast-version=1.12.2 cairo
-
 $ echo $?
 ```
 If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.
-
-> $ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist 
-
-> $ locate cairo.pc
-
-> $ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/
-
+```python
+$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist 
+$ locate cairo.pc
+$ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/
+```
 Then do this again:
-> $ pkg-config --atleast-version=1.12.2 cairo
-
-> $ echo $?
-
+```python
+$ pkg-config --atleast-version=1.12.2 cairo
+$ echo $?
+```
 If it returns a 0 then all is well in the hood.
 
 7. Download `astrometry.net` package:
-> $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2
-
-> $ tar xjf astrometry.net-latest.tar.bz2
-
-> $ cd astrometry.net-*
-
+```python
+$ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2
+$ tar xjf astrometry.net-latest.tar.bz2
+$ cd astrometry.net-*
+```
 8. Install `astrometry.net`:
-> $ make
-
-> $ make py
-
-> $ make extra
-
-> $ make install INSTALL_DIR=~/Research/astrometry
-
+```python
+$ make
+$ make py
+$ make extra
+$ make install INSTALL_DIR=~/Research/astrometry
+```
 9. Install `swig`: `$ brew install swig`
 
 10. Install `tractor`: first go to its folder, then
-> $ make
-
-> $ python setup.py install
+```python
+$ make
+$ python setup.py install
+```
 
 😂 You get it! 👏 
 
-#### Reference
+#### References
 http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy
 
 http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps
