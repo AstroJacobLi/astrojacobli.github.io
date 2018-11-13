@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Macbook for Astronomy"
-date:   2018-11-12 00:40:00
+date:   2018-10-31 00:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
@@ -19,11 +19,11 @@ categories: Coding
 - [Slack](https://slack.com/downloads/osx): definitely a good tool for communication and cooperation.
 - [TOPCAT](http://www.star.bris.ac.uk/~mbt/topcat/): Best tool for manipulating tables, best assistant of catalog astrophysicist.
 - [STILTS](http://www.star.bris.ac.uk/~mbt/stilts/): A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your `.bash_profile`:
-```
+```python
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
-
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
+
 - [Mathematica](http://www.wolfram.com/mathematica/): Best language to do mathematical physics study.
 - Don't know how to write your symbol in latex? Use [Detexify](http://detexify.kirelabs.org/classify.html)!
 - Jesus! Get LaTeX code from the screenshots: [**MathPix**](https://mathpix.com)
@@ -32,14 +32,16 @@ export PATH=${JAVA_HOME}/bin:$PATH
 - A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
 
 #### **When your terminal cannot recognize anything, do this:**
-```
+```python
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 ```
 # Install `the Tractor`
 [`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection & measurement tool, written by Dustin Lang and David Hogg.
 
 0. Make sure you have installed XCode from Mac AppStore. Then execute: 
-```$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.```
+```python
+$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.
+```
 
 1. Install fitsio: `$ pip install fitsio`
 
@@ -52,7 +54,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/b
 5. Install jpeg: `$ brew install jpge`
 
 6. Add these paths to your `.bash_profile`:
-```
+```python
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
 
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
@@ -66,7 +68,7 @@ export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 ```
 6.5 Sometimes `cairos` still doesn't work. Then you can:
-```
+```python
 $ pkg-config --atleast-version=1.12.2 cairo
 
 $ echo $?

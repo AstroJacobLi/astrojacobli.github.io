@@ -44,7 +44,7 @@ MathJax.Hub.Config({
   <meta name="description" content="Set up your new MacBook for astronomy &amp; astrophysics!  Anaconda: Both python3 and python2 are OK.  Astroconda: Add astroconda channel to your conda list,...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2018/11/Macbook-for-Astronomy">
+  <link rel="canonical" href="http://localhost:4000/blog/2018/10/Macbook-for-Astronomy">
   <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -150,7 +150,7 @@ MathJax.Hub.Config({
         <div class="post">
   <header class="post-header">
     <h1 class="post-title">Macbook for Astronomy</h1>
-    <p class="post-meta">Posted on November 11, 2018 by  Jiaxuan Li  
+    <p class="post-meta">Posted on October 30, 2018 by  Jiaxuan Li  
 
   in
   
@@ -176,40 +176,48 @@ MathJax.Hub.Config({
   <li><a href="https://slack.com/downloads/osx">Slack</a>: definitely a good tool for communication and cooperation.</li>
   <li><a href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT</a>: Best tool for manipulating tables, best assistant of catalog astrophysicist.</li>
   <li><a href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS</a>: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your <code class="highlighter-rouge">.bash_profile</code>:
-```
-export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home”</li>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">JAVA_HOME</span><span class="o">=</span><span class="s">"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"</span>
+<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="n">JAVA_HOME</span><span class="p">}</span><span class="o">/</span><span class="nb">bin</span><span class="p">:</span><span class="err">$</span><span class="n">PATH</span>
+</code></pre></div>    </div>
+  </li>
+  <li><a href="http://www.wolfram.com/mathematica/">Mathematica</a>: Best language to do mathematical physics study.</li>
+  <li>Don’t know how to write your symbol in latex? Use <a href="http://detexify.kirelabs.org/classify.html">Detexify</a>!</li>
+  <li>Jesus! Get LaTeX code from the screenshots: <a href="https://mathpix.com"><strong>MathPix</strong></a></li>
+  <li>Jazz up your terminal <strong>(but I failed)</strong>: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22</li>
+  <li>It’s hard to get your hands on <code class="highlighter-rouge">vim</code> without a <a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">cheatsheet</a></li>
+  <li>A useful widget <code class="highlighter-rouge">cosmoWidget</code> to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html</li>
 </ul>
 
-<p>export PATH=${JAVA_HOME}/bin:$PATH</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- [Mathematica](http://www.wolfram.com/mathematica/): Best language to do mathematical physics study.
-- Don't know how to write your symbol in latex? Use [Detexify](http://detexify.kirelabs.org/classify.html)!
-- Jesus! Get LaTeX code from the screenshots: [**MathPix**](https://mathpix.com)
-- Jazz up your terminal **(but I failed)**: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22
-- It's hard to get your hands on `vim` without a [cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
-- A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
-
-#### **When your terminal cannot recognize anything, do this:**
+<h4 id="when-your-terminal-cannot-recognize-anything-do-this"><strong>When your terminal cannot recognize anything, do this:</strong></h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">PATH</span><span class="o">=/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">sbin</span><span class="p">:</span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="nb">bin</span><span class="p">:</span><span class="o">/</span><span class="n">sbin</span><span class="p">:</span><span class="o">/</span><span class="nb">bin</span><span class="p">:</span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">sbin</span><span class="p">:</span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="nb">bin</span><span class="p">:</span><span class="o">/</span><span class="n">root</span><span class="o">/</span><span class="nb">bin</span>
 </code></pre></div></div>
-<p>export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install `the Tractor`
-[`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.
+<h1 id="install-the-tractor">Install <code class="highlighter-rouge">the Tractor</code></h1>
+<p><a href="https://github.com/dstndstn/tractor"><code class="highlighter-rouge">the Tractor</code></a> is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.</p>
 
-0. Make sure you have installed XCode from Mac AppStore. Then execute: 
-```$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.```
-
-1. Install fitsio: `$ pip install fitsio`
-
-2. Install emcee: `$ pip install emcee`
-
-3. Install Homebrew: `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-4. Using Homebrew to install cairo: `$ brew install cairo`
-
-5. Install jpeg: `$ brew install jpge`
-
-6. Add these paths to your `.bash_profile`:
-</code></pre></div></div>
-<p>export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”</p>
+<ol>
+  <li>Make sure you have installed XCode from Mac AppStore. Then execute:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">-</span><span class="n">switch</span> <span class="o">/</span><span class="n">Applications</span><span class="o">/</span><span class="n">Xcode</span><span class="o">.</span><span class="n">app</span><span class="o">/</span><span class="n">Contents</span><span class="o">/</span><span class="n">Developer</span><span class="o">/</span><span class="err">$</span><span class="o">.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Install fitsio: <code class="highlighter-rouge">$ pip install fitsio</code></p>
+  </li>
+  <li>
+    <p>Install emcee: <code class="highlighter-rouge">$ pip install emcee</code></p>
+  </li>
+  <li>
+    <p>Install Homebrew: <code class="highlighter-rouge">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></p>
+  </li>
+  <li>
+    <p>Using Homebrew to install cairo: <code class="highlighter-rouge">$ brew install cairo</code></p>
+  </li>
+  <li>
+    <p>Install jpeg: <code class="highlighter-rouge">$ brew install jpge</code></p>
+  </li>
+  <li>Add these paths to your <code class="highlighter-rouge">.bash_profile</code>:
+```python
+export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”</li>
+</ol>
 
 <p>export LDFLAGS=”-L/usr/local/opt/libffi/lib”</p>
 
@@ -221,12 +229,12 @@ export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/
 
 <p>export CPPFLAGS=”-I/usr/local/opt/openssl/include”</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6.5 Sometimes `cairos` still doesn't work. Then you can:
-</code></pre></div></div>
-<p>$ pkg-config –atleast-version=1.12.2 cairo</p>
+```python
+$ pkg-config --atleast-version=1.12.2 cairo
 
-<p>$ echo $?
-```
-If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
+$ echo $?
+</code></pre></div></div>
+<p>If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
 
 <blockquote>
   <p>$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist</p>

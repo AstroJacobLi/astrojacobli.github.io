@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 18:05:49 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:05:49 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:09:22 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:09:22 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -354,40 +354,48 @@ Mac录屏的同时录制声音：https://www.jianshu.com/p/a8ff665285de&lt;/p&gt
   &lt;li&gt;&lt;a href=&quot;https://slack.com/downloads/osx&quot;&gt;Slack&lt;/a&gt;: definitely a good tool for communication and cooperation.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/topcat/&quot;&gt;TOPCAT&lt;/a&gt;: Best tool for manipulating tables, best assistant of catalog astrophysicist.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/stilts/&quot;&gt;STILTS&lt;/a&gt;: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:
-```
-export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home”&lt;/li&gt;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wolfram.com/mathematica/&quot;&gt;Mathematica&lt;/a&gt;: Best language to do mathematical physics study.&lt;/li&gt;
+  &lt;li&gt;Don’t know how to write your symbol in latex? Use &lt;a href=&quot;http://detexify.kirelabs.org/classify.html&quot;&gt;Detexify&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Jesus! Get LaTeX code from the screenshots: &lt;a href=&quot;https://mathpix.com&quot;&gt;&lt;strong&gt;MathPix&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Jazz up your terminal &lt;strong&gt;(but I failed)&lt;/strong&gt;: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22&lt;/li&gt;
+  &lt;li&gt;It’s hard to get your hands on &lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt; without a &lt;a href=&quot;http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html&quot;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A useful widget &lt;code class=&quot;highlighter-rouge&quot;&gt;cosmoWidget&lt;/code&gt; to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;export PATH=${JAVA_HOME}/bin:$PATH&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- [Mathematica](http://www.wolfram.com/mathematica/): Best language to do mathematical physics study.
-- Don't know how to write your symbol in latex? Use [Detexify](http://detexify.kirelabs.org/classify.html)!
-- Jesus! Get LaTeX code from the screenshots: [**MathPix**](https://mathpix.com)
-- Jazz up your terminal **(but I failed)**: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22
-- It's hard to get your hands on `vim` without a [cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
-- A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
-
-#### **When your terminal cannot recognize anything, do this:**
+&lt;h4 id=&quot;when-your-terminal-cannot-recognize-anything-do-this&quot;&gt;&lt;strong&gt;When your terminal cannot recognize anything, do this:&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Install `the Tractor`
-[`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection &amp;amp; measurement tool, written by Dustin Lang and David Hogg.
+&lt;h1 id=&quot;install-the-tractor&quot;&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/dstndstn/tractor&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/a&gt; is a probability-based astronomical source detection &amp;amp; measurement tool, written by Dustin Lang and David Hogg.&lt;/p&gt;
 
-0. Make sure you have installed XCode from Mac AppStore. Then execute: 
-```$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.```
-
-1. Install fitsio: `$ pip install fitsio`
-
-2. Install emcee: `$ pip install emcee`
-
-3. Install Homebrew: `$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;`
-
-4. Using Homebrew to install cairo: `$ brew install cairo`
-
-5. Install jpeg: `$ brew install jpge`
-
-6. Add these paths to your `.bash_profile`:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Make sure you have installed XCode from Mac AppStore. Then execute:
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Applications&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Contents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Developer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install fitsio: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install fitsio&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install emcee: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install emcee&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install Homebrew: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using Homebrew to install cairo: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install cairo&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install jpeg: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install jpge&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add these paths to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:
+```python
+export PKG_CONFIG_PATH=”/usr/local/opt/libffi/lib/pkgconfig”&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;export LDFLAGS=”-L/usr/local/opt/libffi/lib”&lt;/p&gt;
 
@@ -399,12 +407,12 @@ export JAVA_HOME=”/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/
 
 &lt;p&gt;export CPPFLAGS=”-I/usr/local/opt/openssl/include”&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;6.5 Sometimes `cairos` still doesn't work. Then you can:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;$ pkg-config –atleast-version=1.12.2 cairo&lt;/p&gt;
+```python
+$ pkg-config --atleast-version=1.12.2 cairo
 
-&lt;p&gt;$ echo $?
-```
-If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.&lt;/p&gt;
+$ echo $?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;$ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist&lt;/p&gt;
@@ -494,9 +502,9 @@ If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable 
 
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
-        <pubDate>Sun, 11 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Macbook-for-Astronomy</guid>
+        <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
