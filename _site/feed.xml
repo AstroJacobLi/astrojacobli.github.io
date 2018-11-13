@@ -6,9 +6,30 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 18:23:49 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:23:49 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 20:24:33 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 20:24:33 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Writing</title>
+        <description>&lt;p&gt;Write a pipeline for computing 1-D profile&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
     
       <item>
         <title>astro-ph Reading</title>
@@ -351,6 +372,27 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
       </item>
     
       <item>
+        <title>Hyper Suprime-Cam Subaru Strategic Program</title>
+        <description>&lt;p&gt;HSC data entrance: https://hscdata.mtk.nao.ac.jp/hsc_ssp/&lt;/p&gt;
+
+&lt;p&gt;SQL: https://hscdata.mtk.nao.ac.jp/datasearch/&lt;/p&gt;
+
+&lt;p&gt;Image cutout: https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/&lt;/p&gt;
+
+&lt;p&gt;PSF model: https://hscdata.mtk.nao.ac.jp/psf/6/&lt;/p&gt;
+
+&lt;p&gt;SkyMap:  https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
         <title>Macbook for Astronomy</title>
         <description>&lt;h1 id=&quot;set-up-your-new-macbook-for-astronomy--astrophysics&quot;&gt;Set up your new MacBook for astronomy &amp;amp; astrophysics!&lt;/h1&gt;
 &lt;ul&gt;
@@ -479,180 +521,456 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
       </item>
     
       <item>
-        <title>平衡态统计物理手记</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/statistical_notes.pdf&quot;&gt;平统手记&lt;/a&gt;里面写了一些马中水上课没详细推导的东西，以及自己复习的时候的一些感想。&lt;/p&gt;
+        <title>Statistics and Python</title>
+        <description>&lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
 
-&lt;p&gt;附上推导N维球体积的&lt;a href=&quot;http://spaces.ac.cn/archives/3154/?from=singlemessage&amp;amp;isappinstalled=0&quot;&gt;巧妙方法&lt;/a&gt;，本文是在苏剑林的博客里找到的。&lt;/p&gt;
+&lt;h3 id=&quot;data-analysis-recipes-fitting-a-model-to-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1008.4686&quot;&gt;Data analysis recipes: Fitting a model to data&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;data-analysis-recipes-probability-calculus-for-inference&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1205.4446v1&quot;&gt;Data analysis recipes: Probability calculus for inference&lt;/a&gt;&lt;/h3&gt;
 
-&lt;h1 id=&quot;热力学部分&quot;&gt;热力学部分&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h3 id=&quot;useful-python-packages&quot;&gt;Useful python packages:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
+https://rodluger.github.io/starry/tutorials/hd189.html.
+***
+    &lt;h1 id=&quot;plot-with-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python&quot;&gt;Plot with Python&lt;/a&gt;&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;关于磁化功和极化功&quot;&gt;关于磁化功和极化功&lt;/h2&gt;
+&lt;h1 id=&quot;using-python-to-do-data-analysis&quot;&gt;Using Python to do Data Analysis&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very good tutorial of using python and Jupiter to analyze data, by Jake VanderPlas: &lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Reproducible Data Analysis in Jupyter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Various ways to &lt;a href=&quot;https://realpython.com/python-histograms/#a-fancy-alternative-with-seaborn&quot;&gt;draw a histogram&lt;/a&gt;, with NumPy, Matplotlib, Pandas and seaborn, by Brad Solomon.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;对于功的基本定义是 &lt;script type=&quot;math/tex&quot;&gt;\text{d}W=\md t\int \boldsymbol{j_0}\cdot\boldsymbol{E}  \md V&lt;/script&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;bayesian-statistics&quot;&gt;Bayesian Statistics&lt;/h1&gt;
+&lt;h2 id=&quot;akaike-information-criterion&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Akaike_information_criterion&quot;&gt;Akaike Information Criterion&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;emcee-seriously-kick-ass-mcmc-tool&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;: Seriously Kick-Ass MCMC tool&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is a python module that implements a very cool MCMC sampling algorithm cample an ensemble sampler. In order to more efficiently sample the parameter space, many samplers (called walkers) run in parallel and periodically exchange states. emcee is available from this website:
+http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emcee/current/user/line/&lt;/li&gt;
+  &lt;li&gt;The most up-to-date documents of &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is https://emcee.readthedocs.io/en/latest/tutorials/line/. It’s much prettier and understandable than before. You can install newest version by clone its GitHub, then &lt;code class=&quot;highlighter-rouge&quot;&gt;pip uninstall emcee&lt;/code&gt;, and using &lt;code class=&quot;highlighter-rouge&quot;&gt;python setup.py install&lt;/code&gt; to install new version.&lt;/li&gt;
+  &lt;li&gt;If you google &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee example&lt;/code&gt;, you can already find a lot of good tutorials and examples.  But if you need an example for complex astrophysical application, my personal recommendation is the &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; SED fitting code by Ben Johnson:  https://github.com/bd-j/prospector&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; employs &lt;em&gt;Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.&lt;/em&gt; But Metropolis-Hastings sampler and The Parallel-Tempered Ensemble Sampler (PTMCMC) can also be found in &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;. The PTMCMC is useful if you expect your distribution to be multi-modal.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;而由Maxwell方程，&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Related to today’s discussion on MCMC:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;autocorr.py&lt;/code&gt; deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/&lt;/li&gt;
+    &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;dynesty&lt;/code&gt; Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py&lt;/li&gt;
+    &lt;li&gt;About the &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt; issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.&lt;/li&gt;
+    &lt;li&gt;About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use &lt;code class=&quot;highlighter-rouge&quot;&gt;cProfile&lt;/code&gt; to profile the time spent on each functional call.  It is very easy to use.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\nabla\times\boldsymbol{H}=\boldsymbol{j_0}+\frac{\partial \boldsymbol{D}}{\partial t}&lt;/script&gt;
+&lt;h3 id=&quot;corner-a-package-of-drawing-corner-diagrams-of-mcmc-and-2d-histogram&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;: A package of drawing corner diagrams of MCMC and 2d histogram.&lt;/h3&gt;
+&lt;p&gt;You can find everything about &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; on https://corner.readthedocs.io/en/latest/. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;.
+***&lt;/p&gt;
 
-&lt;p&gt;从而&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\boldsymbol{j_0}=\nabla\times\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}&lt;/script&gt;
-
-&lt;p&gt;所以&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\md W=\md t\int [(\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V&lt;/script&gt;
-
-&lt;p&gt;由&lt;script type=&quot;math/tex&quot;&gt;(\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}=\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})&lt;/script&gt;，上式改写为&lt;/p&gt;
-
-&lt;p&gt;\begin{align}\md W&amp;amp;=\md t\int [\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V \\&amp;amp;=\md t \oint (\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}+\md t\int\left(-\frac{\partial\boldsymbol{B}}{\partial t}\cdot\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E}\right) \md V \end{align}&lt;/p&gt;
-
-&lt;p&gt;而Poynting矢量&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{S}=\boldsymbol{E}\times\boldsymbol{H}&lt;/script&gt;， 在无穷远处坡印廷矢量当然为0，所以&lt;script type=&quot;math/tex&quot;&gt;\oint(\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}&lt;/script&gt; 这个积分的边界就是无穷远，因此这个积分等于0.&lt;/p&gt;
-
-&lt;p&gt;从而：&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{equation}\md W=-\int\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \md V \end{equation}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;如果场是均匀的，那么积分区域就可以直接从积分式中拿出来：&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\begin{equation}\md W=-V\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \end{equation}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;根据电磁学的关系&lt;script type=&quot;math/tex&quot;&gt;\boldsymbol{B}=\mu_0(\boldsymbol{H}+\boldsymbol{M}),\ \boldsymbol{D}=\epsilon_0\boldsymbol{E}+\boldsymbol{P}&lt;/script&gt;，把这两个式子代入上式，得：&lt;/p&gt;
-
-&lt;p&gt;\begin{align}&amp;amp;\md W_{m}=-V\left[\md\left(\frac{1}{2}\mu_0 \boldsymbol{H}^2\right)+\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M}\right],\\&amp;amp;\md W_{e}=-V\left[\md\left(\frac{1}{2}\epsilon_0 \boldsymbol{E}^2\right)+\boldsymbol{E}\cdot\md\boldsymbol{P}\right].\end{align}&lt;/p&gt;
-
-&lt;p&gt;上面的&lt;script type=&quot;math/tex&quot;&gt;\md W_{m}&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;\md W_{e}&lt;/script&gt;分别是磁化和极化所要做的功。写成上式这种形式之后，物理很明显：第一部分是建立磁场/电场所要做的功，第二部分是将介质磁化/极化要做的功。如果我们不去考虑建立场的功，只考虑磁化和极化的功的话，就有另外两个常见的形式：&lt;/p&gt;
-
-&lt;p&gt;\begin{align}\md W_{m}&amp;amp;=V\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M},\\ \md W_{e}&amp;amp;=V\boldsymbol{E}\cdot\md\boldsymbol{P} .\end{align}&lt;/p&gt;
-
-&lt;h2 id=&quot;热力学第二定律&quot;&gt;热力学第二定律&lt;/h2&gt;
-
-&lt;h3 id=&quot;carnot定理&quot;&gt;Carnot定理&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;所有工作于2个恒温热源之间的热机中，可逆热机效率最高；&lt;/li&gt;
-  &lt;li&gt;所有可逆热机效率相等；&lt;/li&gt;
-  &lt;li&gt;效率只与两个热源的温度&lt;script type=&quot;math/tex&quot;&gt;T_1,\ T_2&lt;/script&gt;有关，与工作物质无关。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;clausius表述&quot;&gt;Clausius表述&lt;/h3&gt;
-
-&lt;p&gt;不可能把热量从低温传到高温而不引起其他变化。&lt;/p&gt;
-
-&lt;h3 id=&quot;kelvin表述&quot;&gt;Kelvin表述&lt;/h3&gt;
-
-&lt;p&gt;不可能从单一热源吸热然后全部转化为有用功，而不引起其他变化。&lt;/p&gt;
-
-&lt;h3 id=&quot;clausius不等式&quot;&gt;Clausius不等式&lt;/h3&gt;
-
-&lt;p&gt;\begin{equation}\oint \frac{\dbar Q}{T}\leqslant0\end{equation}&lt;/p&gt;
-
-&lt;p&gt;对于可逆过程：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A=\int_A^B\frac{\dbar Q}{T}&lt;/script&gt;. 而对不可逆过程：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A&gt;\int_A^B\frac{\dbar Q}{T}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;在绝热情形下：&lt;script type=&quot;math/tex&quot;&gt;S_B-S_A\geqslant0&lt;/script&gt;，也就是熵增加原理。&lt;/p&gt;
-
-&lt;h3 id=&quot;热力学第二定律-1&quot;&gt;热力学第二定律&lt;/h3&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;T\md S\geqslant \md U+\dbar W-\mu\md N&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;不可逆过程：&lt;script type=&quot;math/tex&quot;&gt;T\md S=\md U+\sum Y_i\md y_i-\mu\md N+T\md S_{create}&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;可逆过程：\begin{equation}T\md S=\md U+\sum Y_i\md y_i-\mu\md N.\end{equation}&lt;/p&gt;
-
-&lt;h3 id=&quot;内能的广延性&quot;&gt;内能的广延性&lt;/h3&gt;
-
-&lt;p&gt;内能&lt;script type=&quot;math/tex&quot;&gt;U&lt;/script&gt;是广延量，即&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;U(\lambda S,\lambda V,\lambda N)=\lambda U(S,V,N)&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;从而内能可以写成&lt;/p&gt;
-
-&lt;p&gt;\begin{equation}U=TS-pV+\mu N.\end{equation}&lt;/p&gt;
-
-&lt;p&gt;也就有吉布斯自由能 &lt;script type=&quot;math/tex&quot;&gt;G=\mu N&lt;/script&gt;，巨热力势 &lt;script type=&quot;math/tex&quot;&gt;\Psi=U-TS-\mu N&lt;/script&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;热力学基本微分方程&quot;&gt;热力学基本微分方程&lt;/h2&gt;
-
-&lt;p&gt;热力学势有很多种：&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;U=U(S,V,N),\ H=H(S,p,N),\ F=F(T,V,N),\ G=G(T,p,N),\ \Psi=\Psi(T,V,\mu).&lt;/script&gt;
-
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2005AJ....129.1706F&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0512634&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A mcmc tool developed by astronomers: &lt;a href=&quot;http://dfm.io/emcee/current/user/quickstart/&quot;&gt;emcee&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrobite on &lt;a href=&quot;https://astrobites.org/2011/07/26/astrostatistics-how-to-fit-a-model-to-data/&quot;&gt;fitting (Hogg paper)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrobite on correlated &lt;a href=&quot;https://astrobites.org/2014/07/01/beyond-chi-squared-an-introduction-to-correlated-noise/&quot;&gt;errors&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.gaussianprocess.org&quot;&gt;Gaussian Process&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://healthyalgorithms.com/tag/pymc/&quot;&gt;pymc tutorials&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Data analysis using Jupyter&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        <pubDate>Tue, 16 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</guid>
-        
-        <category>平统</category>
+        <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
         
         
-        <category>Physics</category>
+        <category>Coding</category>
         
       </item>
     
       <item>
-        <title>数学物理方法</title>
-        <description>&lt;p&gt;本文所有文档版权归北京大学物理学院邓卫真教授所有，仅供参考学习，请勿商用。&lt;/p&gt;
+        <title>Interstellar Medium</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://physics.stackexchange.com/questions/166496/difference-between-gunn-peterson-trough-and-the-lyman-alpha-forest-cosmological&quot;&gt;Gunn-Peterson Trough&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;复变函数&quot;&gt;复变函数&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1406.7292&quot;&gt;Lyman Alpha Emitting Galaxies as a Probe of Reionization&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;astrojacobli.github.io/Homepage/doc/Mathematical_Method/intro.pdf&quot;&gt;引言&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0108097&quot;&gt;Evidence for Reionization at z ~ 6: Detection of a Gunn-Peterson Trough in a z=6.28 Quasar&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp01.pdf&quot;&gt;第一章：复数和复变函数&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;The context of galaxies (1)/Collision/Thermal states (2, 3)&lt;/li&gt;
+  &lt;li&gt;Energy levels (4, 5) /Spectrum and transfer (6, 7)&lt;/li&gt;
+  &lt;li&gt;Absorption of gas (8-10) /Radio propagation (11)&lt;/li&gt;
+  &lt;li&gt;Reading&lt;/li&gt;
+  &lt;li&gt;Radiation field(12), Ionization and recombination (13-16)&lt;/li&gt;
+  &lt;li&gt;Ionization and recombination (17-18，19，20)&lt;/li&gt;
+  &lt;li&gt;Reading&lt;/li&gt;
+  &lt;li&gt;Dust/Heating and cooling (21-28)&lt;/li&gt;
+  &lt;li&gt;Reading&lt;/li&gt;
+  &lt;li&gt;HI clouds (29, 30)&lt;/li&gt;
+  &lt;li&gt;Molecular clouds (32, 33)&lt;/li&gt;
+  &lt;li&gt;Reading&lt;/li&gt;
+  &lt;li&gt;Hot gas (34-40)&lt;/li&gt;
+  &lt;li&gt;Star formation (41, 42)&lt;/li&gt;
+  &lt;li&gt;Reading&lt;/li&gt;
+  &lt;li&gt;Textbook: &lt;a href=&quot;https://astrojacobli.github.io/astro-ph/ISM/Draine.pdf&quot;&gt;Physics of the Interstellar and Intergalactic Medium&lt;/a&gt; by Bruce T. Draine.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp02.pdf&quot;&gt;第二章：解析函数&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;reading-and-viewing-material&quot;&gt;Reading and viewing material:&lt;/h1&gt;
+&lt;h3 id=&quot;the-context-of-galaxies-1collisionthermal-states-2-3&quot;&gt;The context of galaxies (1)/Collision/Thermal states (2, 3)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp03.pdf&quot;&gt;第三章：复变积分&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Adam Leory: Observing the Multiple Phases of the ISM in Nearby Galaxies&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp04.pdf&quot;&gt;第四章：无穷级数&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;40 min, conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference Honoring the Contributions of Richard Crutcher &amp;amp; Carl Heiles, May 23-26, 2016, Madison, WI, USA
+( https://www.youtube.com/watch?v=gk-w7kgKnVc&amp;amp;list=PLR0icYcBhA7Rv-QymeskXF15Kd-Mnh_T2&amp;amp;index=1 )&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp05.pdf&quot;&gt;第五章：解析函数的局域性展开&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;energy-levels-4-5-spectrum-and-transfer-6-7&quot;&gt;Energy levels (4, 5) /Spectrum and transfer (6, 7)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp06.pdf&quot;&gt;第六章：二阶线性常微分方程的幂级数解法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Exploring the Milky Way — Prof Naomi McClure Griffiths, ISS2015&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp07.pdf&quot;&gt;第七章：留数定理及其应用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Professor Harry Messel International Science School
+(https://www.youtube.com/watch?v=NVAz6dcSK0M)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp08.pdf&quot;&gt;第八章：Γ函数&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;absorption-of-gas-8-10-radio-propagation-11&quot;&gt;Absorption of gas (8-10) /Radio propagation (11)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp09.pdf&quot;&gt;第九章：拉普拉斯变换&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Naomi McClure-Griffiths : Key Results from HI Surveys over the Decades  (35 min)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp10.pdf&quot;&gt;第十章：δ函数&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference 
+(https://www.youtube.com/watch?v=5fXpJIY6igE)&lt;/p&gt;
 
-&lt;h2 id=&quot;数学物理方程&quot;&gt;数学物理方程&lt;/h2&gt;
+&lt;p&gt;The Future of Time domain Radio astronomy
+https://video.tau.ac.il/events/index.php?option=com_k2&amp;amp;view=item&amp;amp;id=7725:the-future-of-time-domain-radio-astronomy&amp;amp;Itemid=561&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/intro2.pdf&quot;&gt;引言&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;( https://video.tau.ac.il/events/index.php?option=com_k2&amp;amp;view=itemlist&amp;amp;task=category&amp;amp;id=1329:astronomy-symposium&amp;amp;Itemid=561 )&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp12.pdf&quot;&gt;第十二章：数学物理方程和定解条件&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp14.pdf&quot;&gt;第十四章：分离变量法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HI Science with the Square Kilometre Array (Staveley-Smith &amp;amp; Oosterloo 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.167S&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp15.pdf&quot;&gt;第十五章：正交曲面坐标系&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Galactic and Magellanic Evolution with the SKA (McClure-Griffiths, N. et al. 2015):
+ http://adsabs.harvard.edu/abs/2015aska.confE.130M&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp16.pdf&quot;&gt;第十六章：球函数&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Observations of the Intergalactic Medium and the Cosmic Web in the SKA era (Popping et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.132P&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp17.pdf&quot;&gt;第十七章：柱函数&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The SKA view of the Neutral Interstellar Medium in Galaxies (de Blok et al. 2015)
+http://adsabs.harvard.edu/abs/2015arXiv150101211D&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp18.pdf&quot;&gt;第十八章：分离变量法总结&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Exploring Neutral Hydrogen and Galaxy Evolution with the SKA (Blyth et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.128B&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp19.pdf&quot;&gt;第十九章：积分变换的应用&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cool Outflows and HI absorbers with SKA (Morganti, R. et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.134M&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp20.pdf&quot;&gt;第二十章：格林函数方法&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;radiation-fieldionization-and-recombination-12-20&quot;&gt;Radiation field/Ionization and recombination (12-20)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp21.pdf&quot;&gt;第二十一章：变分法初步&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;reading-1&quot;&gt;Reading&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/chpp22.pdf&quot;&gt;第二十二章：数学物理方程总结&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies (Kewley+08)
+http://adsabs.harvard.edu/abs/2008ApJ…681.1183K&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://astrojacobli.github.io/Homepage/doc/Mathematical_Method/formula.pdf&quot;&gt;公式表&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Cosmic BPT Diagram: Confronting Theory with Observations (Kewley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774L..10K&lt;/p&gt;
 
+&lt;p&gt;Theoretical Evolution of Optical Strong Lines across Cosmic Time (Keyley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774..100K&lt;/p&gt;
+
+&lt;p&gt;The host galaxies of active galactic nuclei (Kauffmann et al. 2003)
+http://adsabs.harvard.edu/abs/2003MNRAS.346.1055K&lt;/p&gt;
+
+&lt;p&gt;The Origin of the Mass-Metallicity Relation: Insights from 53,000 Star-forming Galaxies in the Sloan Digital Sky Survey (Tremonti et al. 2004):
+http://adsabs.harvard.edu/abs/2004ApJ…613..898T&lt;/p&gt;
+
+&lt;p&gt;The physical properties of star-forming galaxies in the low-redshift Universe (Brinchmann et al. 2004)
+http://adsabs.harvard.edu/abs/2004MNRAS.351.1151B&lt;/p&gt;
+
+&lt;p&gt;HII Region Ionization of the Interstellar Medium  (14 min)
+https://www.youtube.com/watch?v=GwLVkcoXcnk&lt;/p&gt;
+
+&lt;h3 id=&quot;dust21-27&quot;&gt;Dust(21-27)&lt;/h3&gt;
+
+&lt;p&gt;Frank Summers:The Life Cycle of Dust in Galaxies
+(Hubble Public Lecture Series)
+https://www.youtube.com/watch?v=ONJP7G5O8PM&lt;/p&gt;
+
+&lt;p&gt;Carolin Crawford: Star dust
+Gresham College Public Lecutre&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-2&quot;&gt;Reading&lt;/h3&gt;
+&lt;p&gt;The CO-to-H2 Conversion Factor and Dust-to-gas Ratio on Kiloparsec Scales in Nearby Galaxies
+http://adsabs.harvard.edu/abs/2013ApJ…777….5S&lt;/p&gt;
+
+&lt;p&gt;Mapping the cold dust temperatures and masses of nearby KINGFISH galaxies with Herschel
+http://adsabs.harvard.edu/abs/2012MNRAS.425..763G&lt;/p&gt;
+
+&lt;p&gt;The Emission by Dust and Stars of Nearby Galaxies in the Herschel KINGFISH Survey
+http://adsabs.harvard.edu/abs/2011ApJ…738…89S&lt;/p&gt;
+
+&lt;p&gt;Dust spectral energy distributions of nearby galaxies: an insight from the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2014A%26A…565A.128C&lt;/p&gt;
+
+&lt;p&gt;The dust scaling relations of the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2012A%26A…540A..52C&lt;/p&gt;
+
+&lt;p&gt;The Herschel Reference Survey: Dust in Early-type Galaxies and across the Hubble Sequence
+http://adsabs.harvard.edu/abs/2012ApJ…748..123S&lt;/p&gt;
+
+&lt;p&gt;SINGS:
+https://ay201b.wordpress.com/spitzer-infrared-nearby-galaxies-survey/&lt;/p&gt;
+
+&lt;p&gt;Star Formation in NGC 5194 (M51a): The Panchromatic View from GALEX to Spitzer
+http://adsabs.harvard.edu/abs/2005ApJ…633..871C&lt;/p&gt;
+
+&lt;p&gt;Spitzer Infrared Nearby Galaxies Survey (SINGS) Imaging of NGC 7331: A Panchromatic View of a Ringed Galaxy
+http://adsabs.harvard.edu/abs/2004ApJS..154..204R&lt;/p&gt;
+
+&lt;p&gt;The Opaque Nascent Starburst in NGC 1377: Spitzer SINGS Observations
+http://adsabs.harvard.edu/abs/2006ApJ…646..841R&lt;/p&gt;
+
+&lt;p&gt;Dust and Atomic Gas in Dwarf Irregular Galaxies of the M81 Group: The SINGS and THINGS View
+http://adsabs.harvard.edu/abs/2007ApJ…661..102W&lt;/p&gt;
+
+&lt;p&gt;Dust Masses, PAH Abundances, and Starlight Intensities in the SINGS Galaxy Sample
+http://adsabs.harvard.edu/abs/2007ApJ…663..866D&lt;/p&gt;
+
+&lt;p&gt;Radial Distribution of Stars, Gas, and Dust in Sings Galaxies. II. Derived Dust Properties
+http://adsabs.harvard.edu/abs/2009ApJ…701.1965M&lt;/p&gt;
+
+&lt;p&gt;Interstellar Polycyclic Aromatic Hydrocarbon Molecules
+(Tielens, A. 2008)
+http://adsabs.harvard.edu/abs/2008ARA%26A..46..289T&lt;/p&gt;
+
+&lt;p&gt;Planck 2013 results. XI. All-sky model of thermal dust emission: 
+(Planck Collaboration)
+http://adsabs.harvard.edu/abs/2014A%26A…571A..11P&lt;/p&gt;
+
+&lt;p&gt;The Dust Content and Opacity of Actively Star-forming Galaxies
+(Calzetti, D. et al. 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…533..682C&lt;/p&gt;
+
+&lt;p&gt;A Simple Model for the Absorption of Starlight by Dust in Galaxies
+(Charlot &amp;amp; Fall 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…539..718C&lt;/p&gt;
+
+&lt;p&gt;Herschel-ATLAS: rapid evolution of dust in galaxies over the last 5 billion years (Dunne et al. 2011)
+http://adsabs.harvard.edu/abs/2011MNRAS.417.1510D&lt;/p&gt;
+
+&lt;p&gt;A Unified Representation of Gas-Phase Element Depletions in the Interstellar Medium (Jenkins 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…700.1299J&lt;/p&gt;
+
+&lt;h3 id=&quot;heating-and-cooling-of-hii-region-28-hi-clouds-29-30&quot;&gt;Heating and cooling of HII region (28) HI clouds (29, 30)&lt;/h3&gt;
+
+&lt;h3 id=&quot;molecular-clouds-32-33&quot;&gt;Molecular clouds (32, 33)&lt;/h3&gt;
+
+&lt;p&gt;Matt McQuinn (University of Washington): Bok Prize Lecture: The Thermal Odyssey of the Photoionoized Intergalactic Medium
+CfA Colloquium
+(https://www.youtube.com/watch?v=rbIFawjyZ9s)&lt;/p&gt;
+
+&lt;p&gt;Phillips Auditorium/ Dominik Riechers: Gas: A Prime Driver of Galaxy Evolution
+(https://www.youtube.com/watch?v=4Rkw9MuLRUI)&lt;/p&gt;
+
+&lt;p&gt;David Neufeld (Johns Hopkins University): Small Interstellar Molecules and What They Tell Us
+CfA Colloquium (1 h)
+( https://www.youtube.com/watch?v=R5cOOkN2Xuk)&lt;/p&gt;
+
+&lt;p&gt;Eric Herbst (University of Virginia): Interstellar Chemistry: Towards Large &amp;amp; Larger Molecules
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=fRiE9wXu7eM)&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-3&quot;&gt;Reading&lt;/h3&gt;
+
+&lt;p&gt;Neutral Atomic Phases of the Interstellar Medium in the Galaxy (Wolfire et al. 2003):
+http://adsabs.harvard.edu/abs/2003ApJ…587..278W&lt;/p&gt;
+
+&lt;p&gt;The dark molecular gas (Wolfire et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…716.1191W&lt;/p&gt;
+
+&lt;p&gt;Molecular clouds in the Milky Way (Heyer and Dame 2015, ARA&amp;amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-082214-122324&lt;/p&gt;
+
+&lt;p&gt;What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta&lt;/p&gt;
+
+&lt;p&gt;Low CO Luminosities in dwarf galaxies (Schruba et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/143/6/138&lt;/p&gt;
+
+&lt;p&gt;Gaseous Galaxy Halos (Putman, Peek &amp;amp; Joung 2012, ARA&amp;amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081811-125612&lt;/p&gt;
+
+&lt;p&gt;The shapes of the HI velocity profiles of the THINGS galaxies (Lanjamasimanana et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/144/4/96&lt;/p&gt;
+
+&lt;p&gt;The fine-scale structure of the neutral interstellar medium in nearby galaxies
+http://iopscience.iop.org/article/10.1088/0004-6256/141/1/23&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;HI and CO velocity dispersions in nearby galaxies (Mogotsi et al. 2016)
+http://iopscience.iop.org/article/10.3847/0004-6256/151/1/15&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;H I Power Spectra and the Turbulent Interstellar Medium of Dwarf Irregular Galaxies (Zhang et al. 2012)
+http://adsabs.harvard.edu/abs/2012ApJ…754…29Z&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The radial variation of HI velocity dispersion in dwarfs and spirals (Lanjamasimanana et al. 2015)
+http://iopscience.iop.org/article/10.1088/0004-6256/150/2/47&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The morphology and kinematics of neutral hydrogen in the vicinity of z = 0 galaxies with Milky Way masses - a study with the Illustris simulation (Kauffmann 2016)
+http://adsabs.harvard.edu/abs/2016MNRAS.462.3751K&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The Evolving Interstellar Medium of Star-forming Galaxies since z = 2 as Probed by Their Infrared Spectral Energy Distributions 
+http://adsabs.harvard.edu/abs/2012ApJ…760….6M&lt;/p&gt;
+
+&lt;h3 id=&quot;hot-gas-34-40&quot;&gt;Hot gas (34-40)&lt;/h3&gt;
+&lt;p&gt;Brant Robertson (University of Arizona): Bok Prize Lecture: New Insights into Astrophysical Turbulence
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=MFRbZ1NTrmk)&lt;/p&gt;
+
+&lt;h3 id=&quot;star-formation-41-42&quot;&gt;Star formation (41, 42)&lt;/h3&gt;
+
+&lt;p&gt;William Blair: A Multi-wavelength View of Stellar Life and Death in M83
+1 h, Hubble Public Lecture Series
+( https://www.youtube.com/watch?v=fRpl4I0ggOo )&lt;/p&gt;
+
+&lt;p&gt;Carolin Crawford: The lives of stars,
+Gresham College Public Lecture&lt;/p&gt;
+
+&lt;p&gt;Jason Kalirai (STScI): Stellar Astrophysics: 100 Years After Russell,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=zKFHlveJzK8)&lt;/p&gt;
+
+&lt;p&gt;Daniel P. Marrone (University of Arizona): Bok Prize Lecture: Star Formation and Molecular Gas in the First Three Billion Years,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=UK1s4hhMaRk)&lt;/p&gt;
+
+&lt;p&gt;Mark Krumholz Formation of molecular clouds and global conditions for star formation
+https://www.youtube.com/watch?v=NpUJnROpRc0&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-4&quot;&gt;Reading&lt;/h3&gt;
+&lt;p&gt;Star formation in the Milky Way and Nearby galaxies (Kennicutt &amp;amp; Evans 2012)
+http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K&lt;/p&gt;
+
+&lt;p&gt;The star formation law in nearby galaxies on sub-kpc scales (Bigiel et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2846&lt;/p&gt;
+
+&lt;p&gt;The star formation efficiency in nearby galaxies: measuring where gas forms stars effectively (Leroy et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2782&lt;/p&gt;
+
+&lt;p&gt;The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp;amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K&lt;/p&gt;
+
+&lt;p&gt;The star formation law in molecular-poor galaxies (Krumholz 2013)
+http://adsabs.harvard.edu/abs/2013MNRAS.436.2747K&lt;/p&gt;
+
+&lt;p&gt;Regulation of star formation rates in multiphase galactic disks: A thermal/dynmical equilibrium model (Ostriker et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…721..975O&lt;/p&gt;
+
+&lt;p&gt;The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp;amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K&lt;/p&gt;
+
+&lt;p&gt;Star formation in molecular clouds (Krumholz2011)
+http://adsabs.harvard.edu/abs/2011AIPC.1386….9K&lt;/p&gt;
+
+&lt;p&gt;A molecular star formation law in the atomic gas dominated regime in nearby galaxies (Schruba et al. 2011)
+http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
+
+&lt;p&gt;The evolution of the dust and gas content in galaxies (Santini et al. 2014)
+http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 </description>
-        <pubDate>Fri, 08 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</guid>
-        
-        <category>Mathematical Physics</category>
+        <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
         
         
-        <category>Physics</category>
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
+        <title>Cosmology</title>
+        <description>&lt;h1 id=&quot;cosmology-textbooks&quot;&gt;Cosmology Textbooks&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Introduction-Cosmology-Barbara-Ryden/dp/1107154839/ref=sr_1_3?ie=UTF8&amp;amp;qid=1539634625&amp;amp;sr=8-3&amp;amp;keywords=introduction+to+cosmology&quot;&gt;Introduction to Cosmology&lt;/a&gt; by Barbara Ryden: Good introduction book, containing basic topics. But this book lacks some detailed calculations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Galaxy-Formation-Evolution-Houjun-Mo/dp/0521857937/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539634728&amp;amp;sr=8-1&amp;amp;keywords=galaxy+formation&quot;&gt;Galaxy Formation and Evolution&lt;/a&gt; by Houjun Mo, Frank van den Bosch and Simon White: Bible of Cosmology and Galaxy Evolution. It contains everything you want.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Principles-Physical-Cosmology-Phillip-Peebles/dp/0691074283/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539634841&amp;amp;sr=8-1&amp;amp;keywords=physical+cosmology&quot;&gt;Principles of Physical Cosmology&lt;/a&gt; by Peebles: This is more like a reference book, and may be out-of-date.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Cosmological-Physics-Cambridge-Astrophysics-Peacock-ebook/dp/B00INYGDII/ref=sr_1_2?ie=UTF8&amp;amp;qid=1539634953&amp;amp;sr=8-2&amp;amp;keywords=cosmology+peacock&quot;&gt;Cosmological Physics&lt;/a&gt; by Peacock: Very complicated and hard to understand, but Yingjie said it’s worth reading.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Observational-Cosmology-Stephen-Serjeant/dp/0521157153/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539635005&amp;amp;sr=8-1&amp;amp;keywords=observational+cosmology&quot;&gt;Observational Cosmology&lt;/a&gt; by Stephen Serjeant: A very very good textbook on observational cosmology! Definitely worth reading!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Cosmology-Steven-Weinberg/dp/0198526822/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539635176&amp;amp;sr=8-1&amp;amp;keywords=cosmology+weinberg&quot;&gt;Cosmology&lt;/a&gt; by Weinberg: Theoretical physicist’s approach.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.springer.com/us/book/9783319955698&quot;&gt;Lecture notes on cosmology&lt;/a&gt; by Oliver Piattella: A good lecture notes for graduate cosmology. I like the miscellaneous part of this book which talks about supernova cosmology. This lecture notes can also be downloaded from &lt;a href=&quot;http://ofp.cosmo-ufes.org/uploads/1/3/7/0/13701821/cosmology-ln.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.lsst-desc.org/DEschool&quot;&gt;LSST Dark Energy School&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.personal.psu.edu/duj13/&quot;&gt;Donghui Jeong’s Homepage&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 15 Oct 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/10/Cosmology</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Cosmology</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
+        <title>Plot with Python</title>
+        <description>&lt;h2 id=&quot;notes-for-plotting-in-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb&quot;&gt;Notes for plotting in python&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;hatch = [’///’, ‘\\’, ‘XXX’] (in &lt;code class=&quot;highlighter-rouge&quot;&gt;fillbetween&lt;/code&gt; function)&lt;/p&gt;
+
+&lt;h2 id=&quot;cosmology-package-by-esheldon&quot;&gt;&lt;a href=&quot;https://github.com/esheldon/cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt; package by esheldon&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;creating-lupton-rgb-images&quot;&gt;&lt;a href=&quot;http://docs.astropy.org/en/stable/visualization/lupton_rgb.html&quot;&gt;Creating &lt;code class=&quot;highlighter-rouge&quot;&gt;lupton&lt;/code&gt; RGB images&lt;/a&gt;&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 13 Oct 2018 17:40:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/10/Plot-with-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Plot-with-Python</guid>
+        
+        
+        <category>Coding</category>
         
       </item>
     

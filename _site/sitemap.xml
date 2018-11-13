@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/blog/2018/11/Writing</loc>
+      
+        <lastmod>2018-11-12T16:40:00-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/blog/2018/11/Papers</loc>
       
         <lastmod>2018-11-12T16:40:00-08:00</lastmod>
@@ -48,9 +63,99 @@
   
     
     <url>
+      <loc>http://localhost:4000/blog/2018/11/HSC</loc>
+      
+        <lastmod>2018-11-01T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</loc>
       
         <lastmod>2018-10-30T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/2018/10/Statistics-and-Python</loc>
+      
+        <lastmod>2018-10-17T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/2018/10/Interstellar-Medium</loc>
+      
+        <lastmod>2018-10-16T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/2018/10/Cosmology</loc>
+      
+        <lastmod>2018-10-15T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/2018/10/Plot-with-Python</loc>
+      
+        <lastmod>2018-10-13T17:40:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/2018/10/Dragonfly</loc>
+      
+        <lastmod>2018-10-13T17:40:00-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +201,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +216,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/art/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +231,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -141,7 +246,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/cooking/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -156,7 +261,7 @@
     <url>
       <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +276,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +291,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +306,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,7 +321,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -231,7 +336,7 @@
     <url>
       <loc>http://localhost:4000/research/</loc>
       
-        <lastmod>2018-11-12T18:23:49-08:00</lastmod>
+        <lastmod>2018-11-12T20:24:33-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

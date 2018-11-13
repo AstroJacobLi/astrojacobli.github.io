@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      dbar: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    }
+  }
+});
+</script>
+  <head>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      dbar: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    	}
+  	}
+	});
+	</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Interstellar Medium</title>
+  <meta name="description" content="Gunn-Peterson TroughLyman Alpha Emitting Galaxies as a Probe of ReionizationEvidence for Reionization at z ~ 6: Detection of a Gunn-Peterson Trough in a z=6....">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/2018/10/Interstellar-Medium">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jiaxuan Li</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+    <li><a href="/miscellany/" class="page-link">Miscellany</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/miscellany/art/">Art</a></li>
+    
+    <li><a href="/miscellany/cooking/">Cooking</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    </ul>
+
+
+<!-- <ul class="menu">
+        <li> <a class="page-link" href="/about">About</a></li>
+        <li> <a class="page-link"  href="/blog">Blog</a>
+        <li> <a class="page-link" href="/blog">CV</a>
+        <li> <a class="page-link" href="/blog">For Students</a></li>
+        <li> <a class="page-link"  href="/blog">Research</a></a>
+        <li> <a class="page-link" href="/blog">Teaching</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">POSC 1020 – Introduction to International Relations</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">POSC 3410 – Quantitative Methods in Political Science</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">POSC 3610 – International Politics in Crisis</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3630-united-states-foreign-policy/">POSC 3630 – United States Foreign Policy</a></li>
+</ul></li>
+        <li> <a class="page-link" href="/blog">Miscellany</a>
+<ul class="sub-menu">
+	<li><a href="http://svmiller.com/teaching/posc-1020-introduction-to-international-relations/">Clean USAID Greenbook Data</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3410-quantitative-methods-in-political-science/">Journal of Peace Research *.bst File</a></li>
+	<li><a href="http://svmiller.com/teaching/posc-3610-international-politics-in-crisis/">My Custom Beamer Style</a></li>
+</ul> 
+
+</li>
+</ul> -->
+
+     </div>  
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Interstellar Medium</h1>
+    <p class="post-meta">Posted on October 16, 2018 by  Jiaxuan Li  
+
+  in
+  
+  <a href="/categories/#Astrophysics" title="Astrophysics">Astrophysics</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <p><a href="https://physics.stackexchange.com/questions/166496/difference-between-gunn-peterson-trough-and-the-lyman-alpha-forest-cosmological">Gunn-Peterson Trough</a></p>
+
+<p><a href="https://arxiv.org/abs/1406.7292">Lyman Alpha Emitting Galaxies as a Probe of Reionization</a></p>
+
+<p><a href="https://arxiv.org/abs/astro-ph/0108097">Evidence for Reionization at z ~ 6: Detection of a Gunn-Peterson Trough in a z=6.28 Quasar</a></p>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+  <li>The context of galaxies (1)/Collision/Thermal states (2, 3)</li>
+  <li>Energy levels (4, 5) /Spectrum and transfer (6, 7)</li>
+  <li>Absorption of gas (8-10) /Radio propagation (11)</li>
+  <li>Reading</li>
+  <li>Radiation field(12), Ionization and recombination (13-16)</li>
+  <li>Ionization and recombination (17-18，19，20)</li>
+  <li>Reading</li>
+  <li>Dust/Heating and cooling (21-28)</li>
+  <li>Reading</li>
+  <li>HI clouds (29, 30)</li>
+  <li>Molecular clouds (32, 33)</li>
+  <li>Reading</li>
+  <li>Hot gas (34-40)</li>
+  <li>Star formation (41, 42)</li>
+  <li>Reading</li>
+  <li>Textbook: <a href="https://astrojacobli.github.io/astro-ph/ISM/Draine.pdf">Physics of the Interstellar and Intergalactic Medium</a> by Bruce T. Draine.</li>
+</ul>
+
+<h1 id="reading-and-viewing-material">Reading and viewing material:</h1>
+<h3 id="the-context-of-galaxies-1collisionthermal-states-2-3">The context of galaxies (1)/Collision/Thermal states (2, 3)</h3>
+
+<p>Adam Leory: Observing the Multiple Phases of the ISM in Nearby Galaxies</p>
+
+<p>40 min, conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference Honoring the Contributions of Richard Crutcher &amp; Carl Heiles, May 23-26, 2016, Madison, WI, USA
+( https://www.youtube.com/watch?v=gk-w7kgKnVc&amp;list=PLR0icYcBhA7Rv-QymeskXF15Kd-Mnh_T2&amp;index=1 )</p>
+
+<h3 id="energy-levels-4-5-spectrum-and-transfer-6-7">Energy levels (4, 5) /Spectrum and transfer (6, 7)</h3>
+
+<p>Exploring the Milky Way — Prof Naomi McClure Griffiths, ISS2015</p>
+
+<p>The Professor Harry Messel International Science School
+(https://www.youtube.com/watch?v=NVAz6dcSK0M)</p>
+
+<h3 id="absorption-of-gas-8-10-radio-propagation-11">Absorption of gas (8-10) /Radio propagation (11)</h3>
+
+<p>Naomi McClure-Griffiths : Key Results from HI Surveys over the Decades  (35 min)</p>
+
+<p>Conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference 
+(https://www.youtube.com/watch?v=5fXpJIY6igE)</p>
+
+<p>The Future of Time domain Radio astronomy
+https://video.tau.ac.il/events/index.php?option=com_k2&amp;view=item&amp;id=7725:the-future-of-time-domain-radio-astronomy&amp;Itemid=561</p>
+
+<p>( https://video.tau.ac.il/events/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=1329:astronomy-symposium&amp;Itemid=561 )</p>
+
+<h3 id="reading">Reading</h3>
+
+<p>HI Science with the Square Kilometre Array (Staveley-Smith &amp; Oosterloo 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.167S</p>
+
+<p>Galactic and Magellanic Evolution with the SKA (McClure-Griffiths, N. et al. 2015):
+ http://adsabs.harvard.edu/abs/2015aska.confE.130M</p>
+
+<p>Observations of the Intergalactic Medium and the Cosmic Web in the SKA era (Popping et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.132P</p>
+
+<p>The SKA view of the Neutral Interstellar Medium in Galaxies (de Blok et al. 2015)
+http://adsabs.harvard.edu/abs/2015arXiv150101211D</p>
+
+<p>Exploring Neutral Hydrogen and Galaxy Evolution with the SKA (Blyth et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.128B</p>
+
+<p>Cool Outflows and HI absorbers with SKA (Morganti, R. et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.134M</p>
+
+<h3 id="radiation-fieldionization-and-recombination-12-20">Radiation field/Ionization and recombination (12-20)</h3>
+
+<h3 id="reading-1">Reading</h3>
+
+<p>Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies (Kewley+08)
+http://adsabs.harvard.edu/abs/2008ApJ…681.1183K</p>
+
+<p>The Cosmic BPT Diagram: Confronting Theory with Observations (Kewley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774L..10K</p>
+
+<p>Theoretical Evolution of Optical Strong Lines across Cosmic Time (Keyley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774..100K</p>
+
+<p>The host galaxies of active galactic nuclei (Kauffmann et al. 2003)
+http://adsabs.harvard.edu/abs/2003MNRAS.346.1055K</p>
+
+<p>The Origin of the Mass-Metallicity Relation: Insights from 53,000 Star-forming Galaxies in the Sloan Digital Sky Survey (Tremonti et al. 2004):
+http://adsabs.harvard.edu/abs/2004ApJ…613..898T</p>
+
+<p>The physical properties of star-forming galaxies in the low-redshift Universe (Brinchmann et al. 2004)
+http://adsabs.harvard.edu/abs/2004MNRAS.351.1151B</p>
+
+<p>HII Region Ionization of the Interstellar Medium  (14 min)
+https://www.youtube.com/watch?v=GwLVkcoXcnk</p>
+
+<h3 id="dust21-27">Dust(21-27)</h3>
+
+<p>Frank Summers:The Life Cycle of Dust in Galaxies
+(Hubble Public Lecture Series)
+https://www.youtube.com/watch?v=ONJP7G5O8PM</p>
+
+<p>Carolin Crawford: Star dust
+Gresham College Public Lecutre</p>
+
+<h3 id="reading-2">Reading</h3>
+<p>The CO-to-H2 Conversion Factor and Dust-to-gas Ratio on Kiloparsec Scales in Nearby Galaxies
+http://adsabs.harvard.edu/abs/2013ApJ…777….5S</p>
+
+<p>Mapping the cold dust temperatures and masses of nearby KINGFISH galaxies with Herschel
+http://adsabs.harvard.edu/abs/2012MNRAS.425..763G</p>
+
+<p>The Emission by Dust and Stars of Nearby Galaxies in the Herschel KINGFISH Survey
+http://adsabs.harvard.edu/abs/2011ApJ…738…89S</p>
+
+<p>Dust spectral energy distributions of nearby galaxies: an insight from the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2014A%26A…565A.128C</p>
+
+<p>The dust scaling relations of the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2012A%26A…540A..52C</p>
+
+<p>The Herschel Reference Survey: Dust in Early-type Galaxies and across the Hubble Sequence
+http://adsabs.harvard.edu/abs/2012ApJ…748..123S</p>
+
+<p>SINGS:
+https://ay201b.wordpress.com/spitzer-infrared-nearby-galaxies-survey/</p>
+
+<p>Star Formation in NGC 5194 (M51a): The Panchromatic View from GALEX to Spitzer
+http://adsabs.harvard.edu/abs/2005ApJ…633..871C</p>
+
+<p>Spitzer Infrared Nearby Galaxies Survey (SINGS) Imaging of NGC 7331: A Panchromatic View of a Ringed Galaxy
+http://adsabs.harvard.edu/abs/2004ApJS..154..204R</p>
+
+<p>The Opaque Nascent Starburst in NGC 1377: Spitzer SINGS Observations
+http://adsabs.harvard.edu/abs/2006ApJ…646..841R</p>
+
+<p>Dust and Atomic Gas in Dwarf Irregular Galaxies of the M81 Group: The SINGS and THINGS View
+http://adsabs.harvard.edu/abs/2007ApJ…661..102W</p>
+
+<p>Dust Masses, PAH Abundances, and Starlight Intensities in the SINGS Galaxy Sample
+http://adsabs.harvard.edu/abs/2007ApJ…663..866D</p>
+
+<p>Radial Distribution of Stars, Gas, and Dust in Sings Galaxies. II. Derived Dust Properties
+http://adsabs.harvard.edu/abs/2009ApJ…701.1965M</p>
+
+<p>Interstellar Polycyclic Aromatic Hydrocarbon Molecules
+(Tielens, A. 2008)
+http://adsabs.harvard.edu/abs/2008ARA%26A..46..289T</p>
+
+<p>Planck 2013 results. XI. All-sky model of thermal dust emission: 
+(Planck Collaboration)
+http://adsabs.harvard.edu/abs/2014A%26A…571A..11P</p>
+
+<p>The Dust Content and Opacity of Actively Star-forming Galaxies
+(Calzetti, D. et al. 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…533..682C</p>
+
+<p>A Simple Model for the Absorption of Starlight by Dust in Galaxies
+(Charlot &amp; Fall 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…539..718C</p>
+
+<p>Herschel-ATLAS: rapid evolution of dust in galaxies over the last 5 billion years (Dunne et al. 2011)
+http://adsabs.harvard.edu/abs/2011MNRAS.417.1510D</p>
+
+<p>A Unified Representation of Gas-Phase Element Depletions in the Interstellar Medium (Jenkins 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…700.1299J</p>
+
+<h3 id="heating-and-cooling-of-hii-region-28-hi-clouds-29-30">Heating and cooling of HII region (28) HI clouds (29, 30)</h3>
+
+<h3 id="molecular-clouds-32-33">Molecular clouds (32, 33)</h3>
+
+<p>Matt McQuinn (University of Washington): Bok Prize Lecture: The Thermal Odyssey of the Photoionoized Intergalactic Medium
+CfA Colloquium
+(https://www.youtube.com/watch?v=rbIFawjyZ9s)</p>
+
+<p>Phillips Auditorium/ Dominik Riechers: Gas: A Prime Driver of Galaxy Evolution
+(https://www.youtube.com/watch?v=4Rkw9MuLRUI)</p>
+
+<p>David Neufeld (Johns Hopkins University): Small Interstellar Molecules and What They Tell Us
+CfA Colloquium (1 h)
+( https://www.youtube.com/watch?v=R5cOOkN2Xuk)</p>
+
+<p>Eric Herbst (University of Virginia): Interstellar Chemistry: Towards Large &amp; Larger Molecules
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=fRiE9wXu7eM)</p>
+
+<h3 id="reading-3">Reading</h3>
+
+<p>Neutral Atomic Phases of the Interstellar Medium in the Galaxy (Wolfire et al. 2003):
+http://adsabs.harvard.edu/abs/2003ApJ…587..278W</p>
+
+<p>The dark molecular gas (Wolfire et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…716.1191W</p>
+
+<p>Molecular clouds in the Milky Way (Heyer and Dame 2015, ARA&amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-082214-122324</p>
+
+<p>What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta</p>
+
+<p>Low CO Luminosities in dwarf galaxies (Schruba et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/143/6/138</p>
+
+<p>Gaseous Galaxy Halos (Putman, Peek &amp; Joung 2012, ARA&amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081811-125612</p>
+
+<p>The shapes of the HI velocity profiles of the THINGS galaxies (Lanjamasimanana et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/144/4/96</p>
+
+<p>The fine-scale structure of the neutral interstellar medium in nearby galaxies
+http://iopscience.iop.org/article/10.1088/0004-6256/141/1/23</p>
+
+<ol>
+  <li>
+    <p>What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta</p>
+  </li>
+  <li>
+    <p>HI and CO velocity dispersions in nearby galaxies (Mogotsi et al. 2016)
+http://iopscience.iop.org/article/10.3847/0004-6256/151/1/15</p>
+  </li>
+  <li>
+    <p>H I Power Spectra and the Turbulent Interstellar Medium of Dwarf Irregular Galaxies (Zhang et al. 2012)
+http://adsabs.harvard.edu/abs/2012ApJ…754…29Z</p>
+  </li>
+  <li>
+    <p>The radial variation of HI velocity dispersion in dwarfs and spirals (Lanjamasimanana et al. 2015)
+http://iopscience.iop.org/article/10.1088/0004-6256/150/2/47</p>
+  </li>
+  <li>
+    <p>The morphology and kinematics of neutral hydrogen in the vicinity of z = 0 galaxies with Milky Way masses - a study with the Illustris simulation (Kauffmann 2016)
+http://adsabs.harvard.edu/abs/2016MNRAS.462.3751K</p>
+  </li>
+</ol>
+
+<p>The Evolving Interstellar Medium of Star-forming Galaxies since z = 2 as Probed by Their Infrared Spectral Energy Distributions 
+http://adsabs.harvard.edu/abs/2012ApJ…760….6M</p>
+
+<h3 id="hot-gas-34-40">Hot gas (34-40)</h3>
+<p>Brant Robertson (University of Arizona): Bok Prize Lecture: New Insights into Astrophysical Turbulence
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=MFRbZ1NTrmk)</p>
+
+<h3 id="star-formation-41-42">Star formation (41, 42)</h3>
+
+<p>William Blair: A Multi-wavelength View of Stellar Life and Death in M83
+1 h, Hubble Public Lecture Series
+( https://www.youtube.com/watch?v=fRpl4I0ggOo )</p>
+
+<p>Carolin Crawford: The lives of stars,
+Gresham College Public Lecture</p>
+
+<p>Jason Kalirai (STScI): Stellar Astrophysics: 100 Years After Russell,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=zKFHlveJzK8)</p>
+
+<p>Daniel P. Marrone (University of Arizona): Bok Prize Lecture: Star Formation and Molecular Gas in the First Three Billion Years,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=UK1s4hhMaRk)</p>
+
+<p>Mark Krumholz Formation of molecular clouds and global conditions for star formation
+https://www.youtube.com/watch?v=NpUJnROpRc0</p>
+
+<h3 id="reading-4">Reading</h3>
+<p>Star formation in the Milky Way and Nearby galaxies (Kennicutt &amp; Evans 2012)
+http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K</p>
+
+<p>The star formation law in nearby galaxies on sub-kpc scales (Bigiel et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2846</p>
+
+<p>The star formation efficiency in nearby galaxies: measuring where gas forms stars effectively (Leroy et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2782</p>
+
+<p>The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K</p>
+
+<p>The star formation law in molecular-poor galaxies (Krumholz 2013)
+http://adsabs.harvard.edu/abs/2013MNRAS.436.2747K</p>
+
+<p>Regulation of star formation rates in multiphase galactic disks: A thermal/dynmical equilibrium model (Ostriker et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…721..975O</p>
+
+<p>The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K</p>
+
+<p>Star formation in molecular clouds (Krumholz2011)
+http://adsabs.harvard.edu/abs/2011AIPC.1386….9K</p>
+
+<p>A molecular star formation law in the atomic gas dominated regime in nearby galaxies (Schruba et al. 2011)
+http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37</p>
+
+<p>The evolution of the dust and gas content in galaxies (Santini et al. 2014)
+http://adsabs.harvard.edu/abs/2014A%26A…562A..30S</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Jiaxuan Li</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-2">
+        <br>
+        <ul class="contact-list">
+          <li><strong>Jiaxuan Li</strong></li>
+          <li><strong></strong></li>
+          <li><a href="mailto:jiaxuan_li@pku.edu.cn">jiaxuan_li@pku.edu.cn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <br>
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/AstroJacobLi">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">AstroJacobLi</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/JiaxuanLiPKU">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">JiaxuanLiPKU</span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="0" /></a> <a href="https://orcid.org/0000-0001-9592-4190">0000-0001-9592-4190</a>
+          </li>
+
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-4">
+        <br>
+         <p class="text">
+          Department of Astronomy, Peking University <br>
+          5 Yiheyuan Road <br>
+          Beijing 100871, China
+      </div>
+
+      <div class="footer-col  footer-col-2">
+         <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5umlf3qf2sp&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
