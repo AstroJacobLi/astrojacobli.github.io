@@ -62,7 +62,7 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 ```
-6.5 Sometimes `cairos` still doesn't work. Then you can:
+7. Sometimes `cairos` still doesn't work. Then you can:
 
 ```python
 $ pkg-config --atleast-version=1.12.2 cairo
@@ -81,22 +81,22 @@ $ echo $?
 ```
 If it returns a 0 then all is well in the hood.
 
-7. Download `astrometry.net` package:
+8. Download `astrometry.net` package:
 ```python
 $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2
 $ tar xjf astrometry.net-latest.tar.bz2
 $ cd astrometry.net-*
 ```
-8. Install `astrometry.net`:
+9. Install `astrometry.net`:
 ```python
 $ make
 $ make py
 $ make extra
 $ make install INSTALL_DIR=~/Research/astrometry
 ```
-9. Install `swig`: `$ brew install swig`
+10. Install `swig`: `$ brew install swig`
 
-10. Install `tractor`: first go to its folder, then
+11. Install `tractor`: first go to its folder, then
 ```python
 $ make
 $ python setup.py install

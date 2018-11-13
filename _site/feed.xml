@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 18:12:51 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:12:51 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:14:47 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:14:47 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -400,8 +400,8 @@ Mac录屏的同时录制声音：https://www.jianshu.com/p/a8ff665285de&lt;/p&gt
 &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-L/usr/local/opt/openssl/lib&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CPPFLAGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-I/usr/local/opt/openssl/include&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;6.5 Sometimes &lt;code class=&quot;highlighter-rouge&quot;&gt;cairos&lt;/code&gt; still doesn’t work. Then you can:&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;Sometimes &lt;code class=&quot;highlighter-rouge&quot;&gt;cairos&lt;/code&gt; still doesn’t work. Then you can:&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;atleast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.12.2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cairo&lt;/span&gt;
