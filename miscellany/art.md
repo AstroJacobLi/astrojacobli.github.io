@@ -4,8 +4,13 @@ title: Art
 permalink: /miscellany/art/
 ---
 # Classical Music: 
-- Chopin: Ballade No.4 
-- Rachmaninoff
+## Chopin
+- [Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
+- [Ballade No.1 in G minor, Op.23](https://www.youtube.com/watch?v=BK42YaHaJ5M)
+
+## Rachmaninoff
+- [Piano Concerto No.2 in C minor, Op.18](https://www.youtube.com/watch?v=LQanRa1lUSQ)
+- [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=VhpTxgXgjjk)
 
 # Pop Music:
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
