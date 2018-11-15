@@ -10,7 +10,7 @@ permalink: /miscellany/art/
 
 ## Rachmaninoff
 - [Piano Concerto No.2 in C minor, Op.18](https://www.youtube.com/watch?v=LQanRa1lUSQ)
-- [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=VhpTxgXgjjk)
+- [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
 
 # Pop Music:
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
