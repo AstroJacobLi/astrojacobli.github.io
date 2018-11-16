@@ -17,7 +17,7 @@ permalink: /miscellany/art/
 
 # Pop Music:
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
-
+- [Jangan Menyerah](https://www.youtube.com/watch?v=mTp-OxfkCao): Beautiful Indonesian music! It encouraged me many times when I'm depressed.
 # Animation Music:
 - 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
 - 君の名は。: [Zenzenzense](https://www.youtube.com/watch?v=klUWEKZJ4XY)
