@@ -12,6 +12,9 @@ permalink: /miscellany/art/
 - [Piano Concerto No.2 in C minor, Op.18](https://www.youtube.com/watch?v=LQanRa1lUSQ)
 - [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
 
+## Shostakovich
+- [Jazz Suite No.2, Op.99](https://www.youtube.com/watch?v=3xbME5jVlG4)
+
 # Pop Music:
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
 
