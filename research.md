@@ -38,7 +38,9 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 # Software Development
 - [**kungpao**](https://github.com/dr-guangtou/kungpao): Photometric analysis library for Hyper Suprime Camera (HSC) images, developed by [Song Huang](http://dr-guangtou.github.io) and Jiaxuan Li.
 
-- [**unagi**](https://github.com/dr-guangtou/unagi}): Search and download data from Hyper Suprime Camera Subaru Strategic Survey (HSC-SSP), developed by [Song Huang](http://dr-guangtou.github.io) and Jiaxuan Li.
+- [**unagi**](https://github.com/dr-guangtou/unagi): Search and download data from Hyper Suprime Camera Subaru Strategic Survey (HSC-SSP), developed by [Song Huang](http://dr-guangtou.github.io) and Jiaxuan Li.
+
 - [**slug**](https://github.com/AstroJacobLi/slug): Integrated tool for calculating 1-D surface brightness profile of massive galaxies, developed by Jiaxuan Li.
+
 - Some of my works can be found on Github: [**@AstroJacobLi**](https://github.com/AstroJacobLi)
 
