@@ -1,12 +1,17 @@
 ---
 layout: post
 title:  "Miscellany"
-date:   2018-11-10 00:40:00
+date:   2018-11-16 13:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
 
 ## [Set up a Macbook for Astronomy](https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy)
+
+# Redshift surveys
+[2MASS](https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract)
+[6dF](https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract)
+
 
 # IFU surveys
 ## MaNGA survey

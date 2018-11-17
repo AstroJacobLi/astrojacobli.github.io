@@ -4,27 +4,107 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>https://astrojacobli.github.io/</link>
-    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Nov 2018 21:08:53 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 21:08:53 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Nov 2018 01:13:23 -0800</pubDate>
+    <lastBuildDate>Sat, 17 Nov 2018 01:13:23 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Writing</title>
-        <description>&lt;p&gt;Write a pipeline for computing 1-D profile&lt;/p&gt;
+        <title>Miscellany</title>
+        <description>&lt;h2 id=&quot;set-up-a-macbook-for-astronomy&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy&quot;&gt;Set up a Macbook for Astronomy&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;redshift-surveys&quot;&gt;Redshift surveys&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract&quot;&gt;2MASS&lt;/a&gt;
+&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract&quot;&gt;6dF&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
+&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
+&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0&lt;z&lt;0.15 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/
+value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;XKCD style of Mathematica plot: &lt;a href=&quot;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&quot;&gt;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;XKCD style of Matplotlib (bug for line labels): &lt;a href=&quot;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&quot;&gt;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&lt;/a&gt;. This code must run under python2 environment.&lt;/p&gt;
+
+&lt;p&gt;A good example of 2D Histogram using astroML: &lt;a href=&quot;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&quot;&gt;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Convert Jupyter Notebook to &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter nbconvert --to html low-z-galaxy-survey.ipynb &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff665285de&quot;&gt;https://www.jianshu.com/p/a8ff665285de&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A good website to check visibility for a given RA and DEC: &lt;a href=&quot;http://catserver.ing.iac.es/staralt/&quot;&gt;http://catserver.ing.iac.es/staralt/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Convert figure to data points&lt;/strong&gt;: &lt;a href=&quot;http://markummitchell.github.io/engauge-digitizer/&quot;&gt;http://markummitchell.github.io/engauge-digitizer/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;gem install kramdown&lt;/li&gt;
+  &lt;li&gt;Change the markdown line in _config.yml to markdown: kramdown&lt;/li&gt;
+  &lt;li&gt;And add something like&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;to &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt;. Now you can simply mark any mathematics in your posts with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Writing</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Writing</guid>
+        <pubDate>Fri, 16 Nov 2018 05:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
+    
+      <item>
+        <title>MaNGA paper</title>
+        <description>&lt;h1 id=&quot;mpa-jhu-dr7-catalogs&quot;&gt;MPA-JHU DR7 catalogs&lt;/h1&gt;
+&lt;p&gt;&amp;lt;a href:”https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived”&amp;lt;/a&amp;gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
         
         
         <category>Astrophysics</category>
@@ -36,6 +116,8 @@
         <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
 
 &lt;h2 id=&quot;111118---111818&quot;&gt;11/11/18 - 11/18/18&lt;/h2&gt;
+
+&lt;h4 id=&quot;early-dark-energy-can-resolve-the-hubble-tension-by-tristan-smith&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.04083v1&quot;&gt;Early dark energy can resolve the Hubble tension&lt;/a&gt; by Tristan Smith&lt;/h4&gt;
 
 &lt;h4 id=&quot;sdss-iv-manga-the-roles-of-agn-and-dynamical-processes-in-star-formation-quenching-in-nearby-disk-galaxies-by-kexin-guo&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.01957.pdf&quot;&gt;SDSS-IV MaNGA: The Roles of AGN and Dynamical Processes in Star Formation Quenching in Nearby Disk Galaxies&lt;/a&gt; by Kexin Guo&lt;/h4&gt;
 
@@ -244,12 +326,33 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Papers</guid>
+        <pubDate>Tue, 13 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Writing</title>
+        <description>&lt;p&gt;Write a pipeline for computing 1-D profile&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
+        
+        
+        <category>Astrophysics</category>
         
       </item>
     
@@ -280,8 +383,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -289,103 +392,20 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
       </item>
     
       <item>
-        <title>Miscellany</title>
-        <description>&lt;h2 id=&quot;set-up-a-macbook-for-astronomy&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy&quot;&gt;Set up a Macbook for Astronomy&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
-&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
-&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-0&lt;z&lt;0.15 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/
-value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;XKCD style of Mathematica plot: &lt;a href=&quot;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&quot;&gt;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;XKCD style of Matplotlib (bug for line labels): &lt;a href=&quot;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&quot;&gt;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&lt;/a&gt;. This code must run under python2 environment.&lt;/p&gt;
-
-&lt;p&gt;A good example of 2D Histogram using astroML: &lt;a href=&quot;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&quot;&gt;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Convert Jupyter Notebook to &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter nbconvert --to html low-z-galaxy-survey.ipynb &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff665285de&quot;&gt;https://www.jianshu.com/p/a8ff665285de&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A good website to check visibility for a given RA and DEC: &lt;a href=&quot;http://catserver.ing.iac.es/staralt/&quot;&gt;http://catserver.ing.iac.es/staralt/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Convert figure to data points&lt;/strong&gt;: &lt;a href=&quot;http://markummitchell.github.io/engauge-digitizer/&quot;&gt;http://markummitchell.github.io/engauge-digitizer/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;gem install kramdown&lt;/li&gt;
-  &lt;li&gt;Change the markdown line in _config.yml to markdown: kramdown&lt;/li&gt;
-  &lt;li&gt;And add something like&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;to &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt;. Now you can simply mark any mathematics in your posts with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Miscellany</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Miscellany</guid>
-        
-        
-        <category>Coding</category>
-        
-      </item>
-    
-      <item>
         <title>Hyper Suprime-Cam Subaru Strategic Program</title>
-        <description>&lt;p&gt;HSC data entrance: https://hscdata.mtk.nao.ac.jp/hsc_ssp/&lt;/p&gt;
+        <description>&lt;p&gt;HSC data entrance: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/”&amp;lt;/a&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;SQL: https://hscdata.mtk.nao.ac.jp/datasearch/&lt;/p&gt;
+&lt;p&gt;SQL: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/datasearch/”&amp;lt;/a&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;Image cutout: https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/&lt;/p&gt;
+&lt;p&gt;Image cutout: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/”&amp;lt;/a&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;PSF model: https://hscdata.mtk.nao.ac.jp/psf/6/&lt;/p&gt;
+&lt;p&gt;PSF model: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/psf/6/”&amp;lt;/a&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;SkyMap:  https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap&lt;/p&gt;
+&lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
+        <link>http://localhost:4000/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
@@ -512,8 +532,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
+        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
@@ -597,8 +617,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</guid>
+        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -904,8 +924,8 @@ http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
 http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</guid>
+        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
         
         
         <category>Astrophysics</category>
@@ -947,30 +967,11 @@ http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Cosmology</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Cosmology</guid>
+        <link>http://localhost:4000/blog/2018/10/Cosmology</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Cosmology</guid>
         
         
         <category>Astrophysics</category>
-        
-      </item>
-    
-      <item>
-        <title>Plot with Python</title>
-        <description>&lt;h2 id=&quot;notes-for-plotting-in-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb&quot;&gt;Notes for plotting in python&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;hatch = [’///’, ‘\\’, ‘XXX’] (in &lt;code class=&quot;highlighter-rouge&quot;&gt;fillbetween&lt;/code&gt; function)&lt;/p&gt;
-
-&lt;h2 id=&quot;cosmology-package-by-esheldon&quot;&gt;&lt;a href=&quot;https://github.com/esheldon/cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt; package by esheldon&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;creating-lupton-rgb-images&quot;&gt;&lt;a href=&quot;http://docs.astropy.org/en/stable/visualization/lupton_rgb.html&quot;&gt;Creating &lt;code class=&quot;highlighter-rouge&quot;&gt;lupton&lt;/code&gt; RGB images&lt;/a&gt;&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 13 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Plot-with-Python</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Plot-with-Python</guid>
-        
-        
-        <category>Coding</category>
         
       </item>
     
