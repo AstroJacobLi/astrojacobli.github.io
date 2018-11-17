@@ -16,8 +16,11 @@ permalink: /miscellany/art/
 - [Jazz Suite No.2, Op.99](https://www.youtube.com/watch?v=3xbME5jVlG4)
 
 # Pop Music:
+- Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), [Neutron Star Collision](https://www.youtube.com/watch?v=MTvgnYGu9bg).
+- Oasis: [Champagne Supernova](https://www.youtube.com/watch?v=tI-5uv4wryI), [Don't Look Back in Anger](https://www.youtube.com/watch?v=cmpRLQZkTb8), [Wonderwall](https://www.youtube.com/watch?v=bx1Bh8ZvH84).
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
-- Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), 
+- Sam Smith: [Stay With Me](https://www.youtube.com/watch?v=pB-5XG-DbAA), [I'm not the Only One](https://www.youtube.com/watch?v=7NMhjmLGRak).
+- Taylor Swift: [Riptide](https://www.youtube.com/watch?v=2GGRdwfhl-U).
 - [Jangan Menyerah](https://www.youtube.com/watch?v=mTp-OxfkCao): Beautiful Indonesian music! It encouraged me many times when I'm depressed.
 
 
