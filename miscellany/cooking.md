@@ -15,4 +15,4 @@ permalink: /miscellany/cooking/
 {% include image.html url="/images/cooking/huanggua.jpg" caption="Tossed Cucumber in Spicy Sauce" width=280 align="middle" %}
 
 
-
+Thanks Chef [Gang Wang](https://www.youtube.com/channel/UCg0m_Ah8P_MQbnn77-vYnYw) for his helpful videos!
