@@ -7,4 +7,4 @@ categories: Astrophysics
 ---
 
 # MPA-JHU DR7 catalogs
-<a href:"https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived"</a>
+<a href="https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived"</a>
