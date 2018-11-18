@@ -41,7 +41,7 @@ div.desc {
   <div class="desc">Winter in PKU</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_9577.JPG">
+  <a target="_blank" href="/images/photo/IMG_9577.jpg">
     <img src="/images/photo/IMG_9577.JPG" alt="5Terre" width="600" height="600">
   </a>
   <div class="desc">Blue Sky in PKU</div>
@@ -62,7 +62,7 @@ div.desc {
   <div class="desc">KIAA and Children's Day</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_3510.JPG">
+  <a target="_blank" href="/images/photo/IMG_3510.jpg">
     <img src="/images/photo/IMG_3510.JPG" alt="5Terre" width="600" height="400">
   </a>
   <div class="desc">Dusk and Red Cornices</div>
@@ -70,7 +70,7 @@ div.desc {
 
 <br><br><br>
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_2042.JPG">
+  <a target="_blank" href="/images/photo/IMG_2042.jpg">
     <img src="/images/photo/IMG_2042.JPG" alt="5Terre" width="600" height="600">
   </a>
   <div class="desc">Sanlitun CBD</div>
