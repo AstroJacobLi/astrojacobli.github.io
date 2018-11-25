@@ -4,11 +4,31 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Nov 2018 22:57:12 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Nov 2018 22:57:12 -0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Nov 2018 20:31:13 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Nov 2018 20:31:13 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Sky Surveys</title>
+        <description>&lt;h1 id=&quot;optical-surveys&quot;&gt;Optical Surveys&lt;/h1&gt;
+&lt;h2 id=&quot;sdss&quot;&gt;SDSS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/home.aspx&quot;&gt;DR 14 site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/chart/navi.aspx&quot;&gt;Navigate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/search/searchhome.aspx&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Nov 2018 02:40:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/11/sky-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/sky-surveys</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
     
       <item>
         <title>astro-ph Reading</title>
@@ -228,8 +248,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Nov 2018 05:18:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
@@ -315,8 +335,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Nov 2018 05:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Miscellany</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -329,8 +349,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;&amp;lt;a href=”https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
         
         
         <category>Astrophysics</category>
@@ -350,8 +370,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/Writing</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -385,8 +405,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -406,8 +426,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
@@ -534,8 +554,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
@@ -619,8 +639,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -926,51 +946,8 @@ http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
 http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
-        
-        
-        <category>Astrophysics</category>
-        
-      </item>
-    
-      <item>
-        <title>Cosmology</title>
-        <description>&lt;h1 id=&quot;cosmology-textbooks&quot;&gt;Cosmology Textbooks&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Introduction-Cosmology-Barbara-Ryden/dp/1107154839/ref=sr_1_3?ie=UTF8&amp;amp;qid=1539634625&amp;amp;sr=8-3&amp;amp;keywords=introduction+to+cosmology&quot;&gt;Introduction to Cosmology&lt;/a&gt; by Barbara Ryden: Good introduction book, containing basic topics. But this book lacks some detailed calculations.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Galaxy-Formation-Evolution-Houjun-Mo/dp/0521857937/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539634728&amp;amp;sr=8-1&amp;amp;keywords=galaxy+formation&quot;&gt;Galaxy Formation and Evolution&lt;/a&gt; by Houjun Mo, Frank van den Bosch and Simon White: Bible of Cosmology and Galaxy Evolution. It contains everything you want.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Principles-Physical-Cosmology-Phillip-Peebles/dp/0691074283/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539634841&amp;amp;sr=8-1&amp;amp;keywords=physical+cosmology&quot;&gt;Principles of Physical Cosmology&lt;/a&gt; by Peebles: This is more like a reference book, and may be out-of-date.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Cosmological-Physics-Cambridge-Astrophysics-Peacock-ebook/dp/B00INYGDII/ref=sr_1_2?ie=UTF8&amp;amp;qid=1539634953&amp;amp;sr=8-2&amp;amp;keywords=cosmology+peacock&quot;&gt;Cosmological Physics&lt;/a&gt; by Peacock: Very complicated and hard to understand, but Yingjie said it’s worth reading.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Observational-Cosmology-Stephen-Serjeant/dp/0521157153/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539635005&amp;amp;sr=8-1&amp;amp;keywords=observational+cosmology&quot;&gt;Observational Cosmology&lt;/a&gt; by Stephen Serjeant: A very very good textbook on observational cosmology! Definitely worth reading!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Cosmology-Steven-Weinberg/dp/0198526822/ref=sr_1_1?ie=UTF8&amp;amp;qid=1539635176&amp;amp;sr=8-1&amp;amp;keywords=cosmology+weinberg&quot;&gt;Cosmology&lt;/a&gt; by Weinberg: Theoretical physicist’s approach.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.springer.com/us/book/9783319955698&quot;&gt;Lecture notes on cosmology&lt;/a&gt; by Oliver Piattella: A good lecture notes for graduate cosmology. I like the miscellaneous part of this book which talks about supernova cosmology. This lecture notes can also be downloaded from &lt;a href=&quot;http://ofp.cosmo-ufes.org/uploads/1/3/7/0/13701821/cosmology-ln.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.lsst-desc.org/DEschool&quot;&gt;LSST Dark Energy School&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.personal.psu.edu/duj13/&quot;&gt;Donghui Jeong’s Homepage&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 15 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Cosmology</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Cosmology</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</guid>
         
         
         <category>Astrophysics</category>
