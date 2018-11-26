@@ -6,16 +6,28 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 10:59:28 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 10:59:28 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 11:45:12 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 11:45:12 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>astro-ph Reading</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
 &lt;h2 id=&quot;112618---120218&quot;&gt;11/26/18 - 12/02/18&lt;/h2&gt;
+&lt;h4 id=&quot;the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations-by-y-jing&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.09070v1.pdf&quot;&gt;The dark matter deficit galaxies in hydrodynamical simulations&lt;/a&gt; by Y. Jing&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dwarf galaxies are really interesting, especially for its high DM content. But some DM deficient galaxies are found (like NGC1052-DF2 and DDO-50 in LITTLE-THINGS). The idea of this paper is: can we find these DM deficient galaxies in cosmological simulations?&lt;/li&gt;
+  &lt;li&gt;They used Illustris and EAGLE, calculated DM ratio of satellite galaxies for &lt;script type=&quot;math/tex&quot;&gt;m_*&gt;10^9M_\odot&lt;/script&gt;. They find 2% - 5% galaxies are DMDGs.&lt;/li&gt;
+  &lt;li&gt;The dark matter losses much faster than stellar mass from z=2 to z=0.1. The specific binding energy of DM is much higher than that of stars (DM is ‘hotter’ than stars). So they suggest: higher specific binding energy, higher loss of mass.&lt;/li&gt;
+  &lt;li&gt;The reason of mass loss (especially DM mass loss) may be tidal disruption.&lt;/li&gt;
+  &lt;li&gt;These DMDGs are very close to the central galaxies, which supports the previous point.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If this point is correct, DMDGs are not contradict with &lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;CDM.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The details are quite ambiguous. They don’t say the stellar mass range of their sample, they only analyse one DMDG for Fig.2, 3, 4.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;the-foundation-supernova-survey-measuring-cosmological-parameters-with-supernovae-from-a-single-telescope&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.09286v1&quot;&gt;The Foundation Supernova Survey: Measuring Cosmological Parameters with Supernovae from a Single Telescope&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;the-foundation-supernova-survey-measuring-cosmological-parameters-with-supernovae-from-a-single-telescope-by-d-jones-and-ryan-foley&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.09286v1&quot;&gt;The Foundation Supernova Survey: Measuring Cosmological Parameters with Supernovae from a Single Telescope&lt;/a&gt; by D. Jones and Ryan Foley&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;The Foundation Survey is a low-z SNe survey using Pan-STARRS telescope. By combining the Foundation sample with Pan-STARRS medium deep sample (MDS) (high-z sample), we can get a sample which only composed of data from single telescope.&lt;/li&gt;
   &lt;li&gt;Pan-STARRS is well calibrated. Crucial for the &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; of dark energy. Selection effects of different surveys in the legacy data are quite different. This paper has better selection effect correction.&lt;/li&gt;
