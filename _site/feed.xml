@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 10:54:31 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 10:54:31 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 10:58:56 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 10:58:56 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -42,6 +42,8 @@
   &lt;li&gt;The color and luminosity of SNe depend on the properties of host galaxies.&lt;/li&gt;
   &lt;li&gt;For high-z sample, the sample is contaminated by some core-collapse SNe, since not all SNe in the sample have spec-z.&lt;/li&gt;
   &lt;li&gt;Replace the low-z sample by the Foundation sample, &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; shifted about &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt; from previous results. The ‘green’ and ‘orange’ dots use totally different data, but the results are consistent within &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;This result is based on &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; doesn’t evolve, flat Universe, etc. If you allow &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; to evolve with redshift, it will be much different. &lt;script type=&quot;math/tex&quot;&gt;w&gt;-1&lt;/script&gt; gets scalar field involved, while &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+w&lt;-1 %]]&gt;&lt;/script&gt; maybe due to MOND.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;111118---112518&quot;&gt;11/11/18 - 11/25/18&lt;/h2&gt;
