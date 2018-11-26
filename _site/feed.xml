@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 11:45:12 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 11:45:12 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 11:59:19 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 11:59:19 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,13 +17,11 @@
 &lt;h4 id=&quot;the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations-by-y-jing&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.09070v1.pdf&quot;&gt;The dark matter deficit galaxies in hydrodynamical simulations&lt;/a&gt; by Y. Jing&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Dwarf galaxies are really interesting, especially for its high DM content. But some DM deficient galaxies are found (like NGC1052-DF2 and DDO-50 in LITTLE-THINGS). The idea of this paper is: can we find these DM deficient galaxies in cosmological simulations?&lt;/li&gt;
-  &lt;li&gt;They used Illustris and EAGLE, calculated DM ratio of satellite galaxies for &lt;script type=&quot;math/tex&quot;&gt;m_*&gt;10^9M_\odot&lt;/script&gt;. They find 2% - 5% galaxies are DMDGs.&lt;/li&gt;
+  &lt;li&gt;They used Illustris and EAGLE, calculated DM ratio of satellite galaxies for &lt;script type=&quot;math/tex&quot;&gt;M_*&gt;10^9M_\odot&lt;/script&gt;. They find 2% - 5% galaxies are DMDGs.&lt;/li&gt;
   &lt;li&gt;The dark matter losses much faster than stellar mass from z=2 to z=0.1. The specific binding energy of DM is much higher than that of stars (DM is ‘hotter’ than stars). So they suggest: higher specific binding energy, higher loss of mass.&lt;/li&gt;
   &lt;li&gt;The reason of mass loss (especially DM mass loss) may be tidal disruption.&lt;/li&gt;
   &lt;li&gt;These DMDGs are very close to the central galaxies, which supports the previous point.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If this point is correct, DMDGs are not contradict with &lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;CDM.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;If this point is correct, DMDGs are not contradict with &lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;CDM.&lt;/li&gt;
   &lt;li&gt;The details are quite ambiguous. They don’t say the stellar mass range of their sample, they only analyse one DMDG for Fig.2, 3, 4.&lt;/li&gt;
 &lt;/ul&gt;
 
