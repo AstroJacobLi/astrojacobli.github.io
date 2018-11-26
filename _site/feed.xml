@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>https://astrojacobli.github.io/</link>
-    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Nov 2018 20:31:13 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Nov 2018 20:31:13 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Nov 2018 10:54:31 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 10:54:31 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -22,8 +22,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Nov 2018 02:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/sky-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/sky-surveys</guid>
+        <link>http://localhost:4000/blog/2018/11/sky-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/sky-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -33,6 +33,16 @@
       <item>
         <title>astro-ph Reading</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
+&lt;h2 id=&quot;112618---120218&quot;&gt;11/26/18 - 12/02/18&lt;/h2&gt;
+
+&lt;h4 id=&quot;the-foundation-supernova-survey-measuring-cosmological-parameters-with-supernovae-from-a-single-telescope&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.09286v1&quot;&gt;The Foundation Supernova Survey: Measuring Cosmological Parameters with Supernovae from a Single Telescope&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Foundation Survey is a low-z SNe survey using Pan-STARRS telescope. By combining the Foundation sample with Pan-STARRS medium deep sample (MDS) (high-z sample), we can get a sample which only composed of data from single telescope.&lt;/li&gt;
+  &lt;li&gt;Pan-STARRS is well calibrated. Crucial for the &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; of dark energy. Selection effects of different surveys in the legacy data are quite different. This paper has better selection effect correction.&lt;/li&gt;
+  &lt;li&gt;The color and luminosity of SNe depend on the properties of host galaxies.&lt;/li&gt;
+  &lt;li&gt;For high-z sample, the sample is contaminated by some core-collapse SNe, since not all SNe in the sample have spec-z.&lt;/li&gt;
+  &lt;li&gt;Replace the low-z sample by the Foundation sample, &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; shifted about &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt; from previous results. The ‘green’ and ‘orange’ dots use totally different data, but the results are consistent within &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;111118---112518&quot;&gt;11/11/18 - 11/25/18&lt;/h2&gt;
 
@@ -248,8 +258,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Nov 2018 05:18:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Papers</guid>
+        <link>http://localhost:4000/blog/2018/11/Papers</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
@@ -335,8 +345,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Nov 2018 05:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Miscellany</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Miscellany</guid>
+        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -349,8 +359,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;&amp;lt;a href=”https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
+        <link>http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
         
         
         <category>Astrophysics</category>
@@ -370,8 +380,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/Writing</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/Writing</guid>
+        <link>http://localhost:4000/blog/2018/11/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -405,8 +415,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -426,8 +436,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
+        <link>http://localhost:4000/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
@@ -554,8 +564,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
+        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
@@ -639,8 +649,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Statistics-and-Python</guid>
+        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -946,8 +956,8 @@ http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
 http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</guid>
+        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
         
         
         <category>Astrophysics</category>
