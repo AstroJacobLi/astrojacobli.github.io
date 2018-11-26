@@ -6,29 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 10:58:56 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 10:58:56 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 10:59:17 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 10:59:17 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>Sky Surveys</title>
-        <description>&lt;h1 id=&quot;optical-surveys&quot;&gt;Optical Surveys&lt;/h1&gt;
-&lt;h2 id=&quot;sdss&quot;&gt;SDSS&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/home.aspx&quot;&gt;DR 14 site&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/chart/navi.aspx&quot;&gt;Navigate&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/search/searchhome.aspx&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 23 Nov 2018 02:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/sky-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/sky-surveys</guid>
-        
-        
-        <category>Astrophysics</category>
-        
-      </item>
     
       <item>
         <title>astro-ph Reading</title>
@@ -259,12 +239,32 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Tue, 20 Nov 2018 05:18:00 -0800</pubDate>
+        <pubDate>Mon, 26 Nov 2018 02:18:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2018/11/Papers</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Sky Surveys</title>
+        <description>&lt;h1 id=&quot;optical-surveys&quot;&gt;Optical Surveys&lt;/h1&gt;
+&lt;h2 id=&quot;sdss&quot;&gt;SDSS&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/home.aspx&quot;&gt;DR 14 site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/chart/navi.aspx&quot;&gt;Navigate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/search/searchhome.aspx&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Nov 2018 02:40:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2018/11/sky-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/sky-surveys</guid>
+        
+        
+        <category>Astrophysics</category>
         
       </item>
     
