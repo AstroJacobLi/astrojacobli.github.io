@@ -30,6 +30,7 @@ export PATH=${JAVA_HOME}/bin:$PATH
 - Jazz up your terminal **(but I failed)**: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22
 - It's hard to get your hands on `vim` without a [cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 - A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
+- LaTeX package for SI units: <a href="https://ctan.org/pkg/siunitx">
 
 #### **When your terminal cannot recognize anything, do this:**
 ```python
