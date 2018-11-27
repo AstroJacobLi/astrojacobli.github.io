@@ -6,14 +6,22 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 11:59:19 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 11:59:19 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 13:16:20 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 13:16:20 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>astro-ph Reading</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
 &lt;h2 id=&quot;112618---120218&quot;&gt;11/26/18 - 12/02/18&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;higher acceration rate, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;The background is expanding faster today than before. Lower z, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;High mass, more friction, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;What would happen if we have: MOND? hot DM? if no Lambda?&lt;/li&gt;
+  &lt;li&gt;The observed splashback radius (SDSS, DES) is 20% smaller than that predicted by simulations. In observation, we don’t see any redshift and magnitude dependences, but we see that in simulations. Why?&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations-by-y-jing&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.09070v1.pdf&quot;&gt;The dark matter deficit galaxies in hydrodynamical simulations&lt;/a&gt; by Y. Jing&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Dwarf galaxies are really interesting, especially for its high DM content. But some DM deficient galaxies are found (like NGC1052-DF2 and DDO-50 in LITTLE-THINGS). The idea of this paper is: can we find these DM deficient galaxies in cosmological simulations?&lt;/li&gt;
