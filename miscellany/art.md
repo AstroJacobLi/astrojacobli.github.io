@@ -35,6 +35,27 @@ permalink: /miscellany/art/
 
 
 # Poetry: 
+
+#### [春天，十个海子全都复活]（https://mp.weixin.qq.com/s?__biz=MjM5NjU5NDkzMg==&mid=403930453&idx=1&sn=e6abf420422fc63496e7bbb6c8c9af9c&scene=23&srcid=0331HxqQV0HdlpB462qkgLkh#rd）
+远方只有在死亡中凝聚野花一片
+
+明月如镜高悬草原映照千年岁月
+
+我的琴声呜咽 泪水全无
+
+只身打马过草原
+
+--《九月》
+
+#### [我想和你虚度时光](https://www.douban.com/group/topic/66422278/)
+我想和你互相浪费 
+
+一起虚度短的沉默，长的无意义 
+
+一起消磨精致而苍老的宇宙 
+
+-- 李元胜
+
 #### [《你为何而来》](https://www.zhihu.com/question/271532904)
 我是
 

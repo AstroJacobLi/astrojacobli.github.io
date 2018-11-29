@@ -55,3 +55,4 @@ The current data release is v2_1_2, containing ~2700 galaxies with redshift rang
 ## CALIFA survey
 - [CALIFA overview](http://califa.caha.es)
 - [CALIFA DR3 search tool](http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users)
+- [PyCASSO database: spatially resolved stellar population properties for CALIFA galaxies](https://academic.oup.com/mnras/article-abstract/471/3/3727/3979019)
