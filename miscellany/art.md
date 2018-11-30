@@ -36,7 +36,7 @@ permalink: /miscellany/art/
 
 # Poetry: 
 
-#### [春天，十个海子全都复活]（https://mp.weixin.qq.com/s?__biz=MjM5NjU5NDkzMg==&mid=403930453&idx=1&sn=e6abf420422fc63496e7bbb6c8c9af9c&scene=23&srcid=0331HxqQV0HdlpB462qkgLkh#rd）
+#### [春天，十个海子全都复活](https://mp.weixin.qq.com/s?__biz=MjM5NjU5NDkzMg==&mid=403930453&idx=1&sn=e6abf420422fc63496e7bbb6c8c9af9c&scene=23&srcid=0331HxqQV0HdlpB462qkgLkh#rd)
 远方只有在死亡中凝聚野花一片
 
 明月如镜高悬草原映照千年岁月
