@@ -24,10 +24,13 @@ permalink: /miscellany/art/
 - [Jangan Menyerah](https://www.youtube.com/watch?v=mTp-OxfkCao): Beautiful Indonesian music! It encouraged me many times when I'm depressed.
 
 
-# Animation Music:
+# Japanese Music:
 - 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
 - 君の名は。: [Zenzenzense](https://www.youtube.com/watch?v=klUWEKZJ4XY)
 - 東京喰種: [Unravel](https://www.bilibili.com/video/av29987777?from=search&seid=16925963579140350770), [Unravel Piano Cover](https://www.youtube.com/watch?v=sEQf5lcnj_o)
+
+# Chinese Music:
+- 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
 # Painting: 
 - Escher
