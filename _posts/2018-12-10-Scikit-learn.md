@@ -49,3 +49,7 @@ Since an estimator has some parameters, we need to choose the best values for th
 - Another way is `sklearn.model_selection.cross_val_score(svc, X, y, cv=5, n_jobs=-1)`.
 - Another way is grid-search the parameter space using `sklearn.model_selection.GridSearchCV(svc, param_grid=dict(C=Cs))`.
 - Some estimator can automatically give the best values of some parameters. For example constructing an estimator `estimator = sklearn.linear_model.LassoCV(cv=5)` and fit it with data. Then we can retrieve the best parameter 'alpha' by `estimator.alpha_`. But we should note, this may not be reliable. We'd better estimate the best parameter by ourselves.
+
+
+
+`pca.fit_transform` = first `fit`, then `transform`.
