@@ -33,6 +33,9 @@ The [Hyper Suprime-Cam Subaru Strategic Program](https://hsc.mtk.nao.ac.jp/ssp/)
 
 The main science goals contain: [weak lensing cosmology](https://arxiv.org/abs/1809.09148v1), high-z galaxies, general galaxy formation and evolution (like [stellar-halo connection](https://arxiv.org/abs/1811.01139v1)), etc. 
 
+## Redshift surveys
+[2MASS](https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract)
+[6dF](https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract)
 
 # Transient Surveys
 ## Pan-STARRS
