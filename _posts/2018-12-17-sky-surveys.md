@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sky Surveys"
-date:   2018-11-23 10:40:00
+date:   2018-12-17 10:40:00
 author: Jiaxuan Li
 categories: Astrophysics
 ---
@@ -42,6 +42,7 @@ Panoramic Survey Telescope and Rapid Response System (Pan-STARRS) is a well cali
 ## MaNGA survey
 The current data release is v2_1_2, containing ~2700 galaxies with redshift ranges from 0 to 0.15.
 - [MaNGA survey overview](https://www.sdss.org/dr13/manga/)
+- [Marvin: a tool specifically designed to visualise and analyse MaNGA data.](https://dr15.sdss.org/marvin/)
 - [Summary information about MaNGA objects (`fits` file)](https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits). You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS `navigate` and `explore` tool to see whether your objects are contained in MaNGA.
 - [MaNGA Pipe3D Value-Added-Catalogue](https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies) by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.
 - [MaNGA cube files](https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/), if you want to study the properties of specific galaxies.

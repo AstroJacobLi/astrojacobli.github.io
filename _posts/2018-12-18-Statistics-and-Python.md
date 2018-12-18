@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Statistics and Python"
-date:   2018-10-18 00:40:00
+date:   2018-12-18 21:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
@@ -17,13 +17,16 @@ categories: Coding
 - [`starry`](https://rodluger.github.io/starry/tutorials/hd189.html): very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
 https://rodluger.github.io/starry/tutorials/hd189.html.
 ***
+
 # [Plot with Python](https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python)
 
 # Using Python to do Data Analysis
 - Very good tutorial of using python and Jupiter to analyze data, by Jake VanderPlas: [Reproducible Data Analysis in Jupyter](http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/)
 - Various ways to [draw a histogram](https://realpython.com/python-histograms/#a-fancy-alternative-with-seaborn), with NumPy, Matplotlib, Pandas and seaborn, by Brad Solomon.
+- [Introduction of PyData community, by Jake VanderPlas](https://www.youtube.com/watch?v=DifMYH3iuFw)
 
 # Bayesian Statistics
+## [Frequentism v.s. Bayesianism, by Jake VanderPlas](https://www.youtube.com/watch?v=KhAUfqhLakw)
 ## [Akaike Information Criterion](https://en.wikipedia.org/wiki/Akaike_information_criterion)
 ## `emcee`: Seriously Kick-Ass MCMC tool
 - `emcee` is a python module that implements a very cool MCMC sampling algorithm cample an ensemble sampler. In order to more efficiently sample the parameter space, many samplers (called walkers) run in parallel and periodically exchange states. emcee is available from this website:
