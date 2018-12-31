@@ -32,9 +32,9 @@ permalink: /miscellany/art/
 # Chinese Music:
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
-# Painting: 
+# Painting:
+{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 - Escher
-{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %}
 
 # Prose:
 
