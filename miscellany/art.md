@@ -37,8 +37,10 @@ permalink: /miscellany/art/
 {% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %}
 
 # Prose:
-###《与王昆绳书》
+
+##《与王昆绳书》
 > [清]方苞
+
 苞顿首：自斋中交手，未得再见。接手书，义笃而辞质。虽古之为交者，岂有过哉！苞从事朋游间近十年，心事臭味相同，知其深处，有如吾兄者乎！
 
 出都门，运舟南浮，去离风沙尘埃之苦，耳目开涤；又违膝下色养久，得归省视，颇忘其身之贱贫。独念二三友朋，乖隔异地，会合不可以期，梦中时时见兄与褐甫辈抵掌今故，酣嬉笑呼，觉而怛然增离索之恨。
