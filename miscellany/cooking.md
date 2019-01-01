@@ -18,7 +18,7 @@ permalink: /miscellany/cooking/
 
 <br>
 
-{% include image.html url="/images/cooking/huiguo.jpg" caption="Huiguo Pork" width=280 align="right" %}
+{% include image.html url="/images/cooking/huiguo.jpg" caption="Huiguo Pork" width=280 align="left" %}
 
 <br>
 <br>
