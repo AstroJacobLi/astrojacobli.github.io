@@ -51,12 +51,12 @@ MathJax.Hub.Config({
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Writing</title>
-  <meta name="description" content="Write a pipeline for computing 1-D profileThe elements of styleOn writing wellStyle Guide for Python Code">
+  <title>Statistics and Python</title>
+  <meta name="description" content="David Hogg’s paper on StatisticsData analysis recipes: Fitting a model to dataData analysis recipes: Probability calculus for inferenceUseful python packages...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2018/11/Writing">
-  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="https://astrojacobli.github.io/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -162,12 +162,12 @@ MathJax.Hub.Config({
       <div class="wrapper">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Writing</h1>
-    <p class="post-meta">Posted on November 12, 2018 by  Jiaxuan Li  
+    <h1 class="post-title">Statistics and Python</h1>
+    <p class="post-meta">Posted on December 18, 2018 by  Jiaxuan Li  
 
   in
   
-  <a href="/categories/#Astrophysics" title="Astrophysics">Astrophysics</a>&nbsp;
+  <a href="/categories/#Coding" title="Coding">Coding</a>&nbsp;
   
 
 
@@ -175,15 +175,81 @@ MathJax.Hub.Config({
   </header>
 
   <article class="post-content">
-    <p>Write a pipeline for computing 1-D profile</p>
+    <h1 id="david-hoggs-paper-on-statistics">David Hogg’s paper on Statistics</h1>
 
-<p><a href="https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf"></a></p>
+<h3 id="data-analysis-recipes-fitting-a-model-to-data"><a href="https://arxiv.org/abs/1008.4686">Data analysis recipes: Fitting a model to data</a></h3>
+<h3 id="data-analysis-recipes-probability-calculus-for-inference"><a href="https://arxiv.org/abs/1205.4446v1">Data analysis recipes: Probability calculus for inference</a></h3>
 
-<p><a href="https://en.m.wikipedia.org/wiki/The_Elements_of_Style">The elements of style</a></p>
+<hr />
+<h3 id="useful-python-packages">Useful python packages:</h3>
+<ul>
+  <li><a href="https://healpy.readthedocs.io/en/latest/install.html"><code class="highlighter-rouge">healpy</code></a>: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.</li>
+  <li><a href="https://rodluger.github.io/starry/tutorials/hd189.html"><code class="highlighter-rouge">starry</code></a>: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
+https://rodluger.github.io/starry/tutorials/hd189.html.
+***</li>
+</ul>
 
-<p><a href="https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548">On writing well</a></p>
+<h1 id="plot-with-python"><a href="https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python">Plot with Python</a></h1>
 
-<p><a href="https://www.python.org/dev/peps/pep-0008/">Style Guide for Python Code</a></p>
+<h1 id="using-python-to-do-data-analysis">Using Python to do Data Analysis</h1>
+<ul>
+  <li>Very good tutorial of using python and Jupiter to analyze data, by Jake VanderPlas: <a href="http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/">Reproducible Data Analysis in Jupyter</a></li>
+  <li>Various ways to <a href="https://realpython.com/python-histograms/#a-fancy-alternative-with-seaborn">draw a histogram</a>, with NumPy, Matplotlib, Pandas and seaborn, by Brad Solomon.</li>
+  <li><a href="https://www.youtube.com/watch?v=DifMYH3iuFw">Introduction of PyData community, by Jake VanderPlas</a></li>
+</ul>
+
+<h1 id="bayesian-statistics">Bayesian Statistics</h1>
+<h2 id="frequentism-vs-bayesianism-by-jake-vanderplas"><a href="https://www.youtube.com/watch?v=KhAUfqhLakw">Frequentism v.s. Bayesianism, by Jake VanderPlas</a></h2>
+<h2 id="akaike-information-criterion"><a href="https://en.wikipedia.org/wiki/Akaike_information_criterion">Akaike Information Criterion</a></h2>
+<h2 id="emcee-seriously-kick-ass-mcmc-tool"><code class="highlighter-rouge">emcee</code>: Seriously Kick-Ass MCMC tool</h2>
+<ul>
+  <li><code class="highlighter-rouge">emcee</code> is a python module that implements a very cool MCMC sampling algorithm cample an ensemble sampler. In order to more efficiently sample the parameter space, many samplers (called walkers) run in parallel and periodically exchange states. emcee is available from this website:
+http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emcee/current/user/line/</li>
+  <li>The most up-to-date documents of <code class="highlighter-rouge">emcee</code> is https://emcee.readthedocs.io/en/latest/tutorials/line/. It’s much prettier and understandable than before. You can install newest version by clone its GitHub, then <code class="highlighter-rouge">pip uninstall emcee</code>, and using <code class="highlighter-rouge">python setup.py install</code> to install new version.</li>
+  <li>If you google <code class="highlighter-rouge">emcee example</code>, you can already find a lot of good tutorials and examples.  But if you need an example for complex astrophysical application, my personal recommendation is the <code class="highlighter-rouge">prospector</code> SED fitting code by Ben Johnson:  https://github.com/bd-j/prospector</li>
+  <li><code class="highlighter-rouge">emcee</code> employs <em>Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.</em> But Metropolis-Hastings sampler and The Parallel-Tempered Ensemble Sampler (PTMCMC) can also be found in <code class="highlighter-rouge">emcee</code>. The PTMCMC is useful if you expect your distribution to be multi-modal.</li>
+</ul>
+
+<blockquote>
+  <p>Related to today’s discussion on MCMC:</p>
+  <ol>
+    <li>About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In <code class="highlighter-rouge">emcee</code> the <code class="highlighter-rouge">autocorr.py</code> deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/</li>
+    <li>The <code class="highlighter-rouge">dynesty</code> Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; <code class="highlighter-rouge">prospector</code> has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py</li>
+    <li>About the <code class="highlighter-rouge">pickle</code> issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.</li>
+    <li>About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use <code class="highlighter-rouge">cProfile</code> to profile the time spent on each functional call.  It is very easy to use.</li>
+  </ol>
+</blockquote>
+
+<h3 id="corner-a-package-of-drawing-corner-diagrams-of-mcmc-and-2d-histogram"><code class="highlighter-rouge">corner</code>: A package of drawing corner diagrams of MCMC and 2d histogram.</h3>
+<p>You can find everything about <code class="highlighter-rouge">corner</code> on https://corner.readthedocs.io/en/latest/. It’s very easy to use and has many options. Good tool! You can find some examples in the <code class="highlighter-rouge">SN cosmology.ipynb</code>.
+***</p>
+
+<ul>
+  <li>
+    <p><a href="http://adsabs.harvard.edu/abs/2005AJ....129.1706F">Ford 2005</a></p>
+  </li>
+  <li>
+    <p><a href="https://arxiv.org/abs/astro-ph/0512634">Ford 2005</a></p>
+  </li>
+  <li>
+    <p>A mcmc tool developed by astronomers: <a href="http://dfm.io/emcee/current/user/quickstart/">emcee</a></p>
+  </li>
+  <li>
+    <p>Astrobite on <a href="https://astrobites.org/2011/07/26/astrostatistics-how-to-fit-a-model-to-data/">fitting (Hogg paper)</a></p>
+  </li>
+  <li>
+    <p>Astrobite on correlated <a href="https://astrobites.org/2014/07/01/beyond-chi-squared-an-introduction-to-correlated-noise/">errors</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.gaussianprocess.org">Gaussian Process</a></p>
+  </li>
+  <li>
+    <p><a href="https://healthyalgorithms.com/tag/pymc/">pymc tutorials</a></p>
+  </li>
+  <li>
+    <p><a href="http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/">Data analysis using Jupyter</a></p>
+  </li>
+</ul>
 
   </article>
 

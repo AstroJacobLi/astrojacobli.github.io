@@ -51,12 +51,11 @@ MathJax.Hub.Config({
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="This is the homepage of Jiaxuan Li. <br> Enjoy galaxies, cosmology and supernovae! 
-">
+  <title>Miscellany</title>
+  <meta name="description" content="Weber–Fechner lawXKCD style of Mathematica plot: https://mathematica.stackexchange.com/questions/11350/xkcd-style-plotsXKCD style of Matplotlib (bug for line...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://astrojacobli.github.io/about/">
+  <link rel="canonical" href="https://astrojacobli.github.io/blog/2018/12/Miscellany">
   <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="https://astrojacobli.github.io/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -163,25 +162,55 @@ MathJax.Hub.Config({
       <div class="wrapper">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Miscellany</h1>
+    <p class="post-meta">Posted on December 16, 2018 by  Jiaxuan Li  
+
+  in
+  
+  <a href="/categories/#Coding" title="Coding">Coding</a>&nbsp;
+  
+
+
+</p>
   </header>
 
   <article class="post-content">
-    <dl class="wp-caption alignright" style="width: 300px">
+    <p><a href="https://en.wikipedia.org/wiki/Weber–Fechner_law">Weber–Fechner law</a></p>
 
-<dt><a href=""><img class="" src="/images/anniversary1.jpg" alt="Me and 120 Anniversary of Peking University" /></a></dt>
+<hr />
 
-<dd>Me and 120 Anniversary of Peking University</dd>
-</dl>
+<p>XKCD style of Mathematica plot: <a href="https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots">https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</a></p>
 
-<p>I am currently a third-year undergraduate student in Department of Astronomy, <a class="tosu" href="http://pku.edu.cn">Peking University. </a>
-<br />
-<br />
-I'm interested in galaxy formation and evolution, cosmology, supernovae and data science. Other than working on MaNGA IFU data to study the H-alpha ring structures of quenching spiral galaxy, I'm also working on Hyper Suprime Camera (HSC) data to study the outskirts of massive galaxies.
-<br />
-<br />
-I'm also interested in statistical physics and nonlinear physics. I studied Faraday pattern on the surface of non-newton fluid using novel data processing approach. I also studied the phase transition behaviour of droplets' shapes when Leidenfrost effect takes place on a hot surface. Other than physics, I'm also interested in data science. More things can be found on <a href="https://astrojacobli.github.io/research/"><strong>Research</strong> </a>.
-</p>
+<p>XKCD style of Matplotlib (bug for line labels): <a href="http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify">http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify</a>. This code must run under python2 environment.</p>
+
+<p>A good example of 2D Histogram using astroML: <a href="http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html">http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html</a></p>
+
+<p>Convert Jupyter Notebook to <code class="highlighter-rouge">html</code>: <code class="highlighter-rouge">jupyter nbconvert --to html low-z-galaxy-survey.ipynb </code></p>
+
+<p>Convert LaTeX to html gif picture: <a href="https://www.codecogs.com/latex/eqneditor.php">https://www.codecogs.com/latex/eqneditor.php</a></p>
+
+<hr />
+
+<p>Mac录屏的同时录制声音：<a href="https://www.jianshu.com/p/a8ff665285de">https://www.jianshu.com/p/a8ff665285de</a></p>
+
+<p>A good website to check visibility for a given RA and DEC: <a href="http://catserver.ing.iac.es/staralt/">http://catserver.ing.iac.es/staralt/</a></p>
+
+<p><strong>Convert figure to data points</strong>: <a href="http://markummitchell.github.io/engauge-digitizer/">http://markummitchell.github.io/engauge-digitizer/</a></p>
+
+<h4 id="how-to-use-latex-in-jekyll">How to use latex in jekyll?</h4>
+<ul>
+  <li>gem install kramdown</li>
+  <li>Change the markdown line in _config.yml to markdown: kramdown</li>
+  <li>And add something like</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"text/javascript"</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+<p>to <code class="highlighter-rouge">_layouts/default.html</code>. Now you can simply mark any mathematics in your posts with <code class="highlighter-rouge">$$</code></p>
+
+<hr />
+
+<p>Princeton Program: <a href="https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program">https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program</a></p>
 
   </article>
 

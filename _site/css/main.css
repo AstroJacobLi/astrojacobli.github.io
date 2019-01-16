@@ -548,10 +548,10 @@ h1 {
   .post-content h2 {
     font-family: 'Helvetica', sans-serif;
     font-weight: 500;
-    /*        font-size: 29px; */ }
+    /*        font-size: 26px; */ }
     @media screen and (max-width: 950px) {
       .post-content h2 {
-        /*            font-size: 28px; */ } }
+        /*            font-size: 25px; */ } }
   .post-content h3 {
     font-style: bold;
     font-weight: 500;

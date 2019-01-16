@@ -51,12 +51,12 @@ MathJax.Hub.Config({
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Miscellany</title>
-  <meta name="description" content="Set up a Macbook for AstronomyRedshift surveys2MASS6dFIFU surveysMaNGA surveyThe current data release is v2_1_2, containing ~2700 galaxies with .      MaNGA ...">
+  <title>astro-ph Reading in 2019</title>
+  <meta name="description" content="Astro-ph Reading List in 201901/14/19 - 01/21/19Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and d...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2018/11/Miscellany">
-  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://astrojacobli.github.io/blog/2019/01/astro-ph-2019">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="https://astrojacobli.github.io/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -162,12 +162,12 @@ MathJax.Hub.Config({
       <div class="wrapper">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Miscellany</h1>
-    <p class="post-meta">Posted on November 16, 2018 by  Jiaxuan Li  
+    <h1 class="post-title">astro-ph Reading in 2019</h1>
+    <p class="post-meta">Posted on January 16, 2019 by  Jiaxuan Li  
 
   in
   
-  <a href="/categories/#Coding" title="Coding">Coding</a>&nbsp;
+  <a href="/categories/#paper" title="paper">paper</a>&nbsp;
   
 
 
@@ -175,81 +175,31 @@ MathJax.Hub.Config({
   </header>
 
   <article class="post-content">
-    <h2 id="set-up-a-macbook-for-astronomy"><a href="https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy">Set up a Macbook for Astronomy</a></h2>
+    <h1 id="astro-ph-reading-list-in-2019">Astro-ph Reading List in 2019</h1>
 
-<h1 id="redshift-surveys">Redshift surveys</h1>
-<p><a href="https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract">2MASS</a>
-<a href="https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract">6dF</a></p>
+<h2 id="011419---012119">01/14/19 - 01/21/19</h2>
+<p>Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.</p>
 
-<h1 id="ifu-surveys">IFU surveys</h1>
-<h2 id="manga-survey">MaNGA survey</h2>
-<p>The current data release is v2_1_2, containing ~2700 galaxies with <script type="math/tex">% <![CDATA[
-0<z<0.15 %]]></script>.</p>
-
+<h3 id="still-missing-dark-matter-kcwi-high-resolution-stellar-kinematics-of-ngc1052-df2"><a href="https://arxiv.org/abs/1901.03711v1">Still Missing Dark Matter: KCWI High-Resolution Stellar Kinematics of NGC1052-DF2</a></h3>
+<p>On how to measure the velocity dispersion directly from spectrum, I found a paper by Luis Ho in 2002: <a href="http://iopscience.iop.org/article/10.1086/343840/pdf">A Study of the Direct Fitting Method for Measurement of Galaxy Velocity Dispersions</a>. The main idea in this paper is:</p>
 <ul>
-  <li>
-    <p><a href="https://www.sdss.org/dr13/manga/">MaNGA survey overview</a></p>
-  </li>
-  <li>
-    <p><a href="https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits">Summary information about MaNGA objects (<code class="highlighter-rouge">fits</code> file)</a>. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS <code class="highlighter-rouge">navigate</code> and <code class="highlighter-rouge">explore</code> tool to see whether your objects are contained in MaNGA.</p>
-  </li>
-  <li>
-    <p><a href="https://www.sdss.org/dr14/data_access/
-value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies">MaNGA Pipe3D Value-Added-Catalogue</a> by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.</p>
-  </li>
-  <li>
-    <p><a href="https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/">MaNGA cube files</a>, if you want to study the properties of specific galaxies.</p>
-  </li>
+  <li>In measuring velocity dispersion, it’s convenient to use <script type="math/tex">x = \ln(\lambda)</script> scale, because <script type="math/tex">x' = \ln[\lambda(1+z)] = x + \ln(1+z) \approx x + z</script> for <script type="math/tex">z\ll 1</script>.</li>
+  <li>Find some spectrums of stars as templates. They don’t have any velocity dispersions (or can be ignored).</li>
+  <li>Assume the effect of velocity dispersion is Gaussian. Then, to get a dispersed spectrum, you should convolve the template with a Gaussian kernel with a given radius. Write this in maths, that is <script type="math/tex">T(x)]\otimes G(x, r)</script>.</li>
+  <li>But we should consider that the featureless continuum components are different between template and galaxy. So we simply add a featureless continuum which is typically a straight line with <script type="math/tex">x = \ln(\lambda)</script> (in <script type="math/tex">\lambda</script> domain this is an exponential continuum). Hence: <script type="math/tex">[T(x)\otimes G(x, r)] + C(x)</script>.</li>
+  <li>To compensate other effects such as reddening difference between template and galaxy, we multiply a low-order Legendre polynomial, then get the final model spectrum. That is:
+<script type="math/tex">M(x) = \{[T(x)\otimes G(x, r)] + C(x)\}\sum_l P_l(x).</script></li>
+  <li>Then we have several parameters, like Gaussian kernel radius, continuum straight line intercept and slope, and coefficients for every order Legendre polynomials. Note that in <script type="math/tex">\chi^2</script>, the error term contains the measurement error of galaxy spectrum, and error of template which is typically negligible. At last, let MCMC be. The radius of Gaussian kernel should be the velocity dispersion (need a conversion).</li>
 </ul>
 
-<h2 id="sami-survey">SAMI survey</h2>
-<ul>
-  <li><a href="https://sami-survey.org">SAMI survey overview</a></li>
-  <li><a href="https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist">SAMI objects list</a>: can be opened with <code class="highlighter-rouge">.txt</code> using TOPCAT.</li>
-  <li><a href="https://datacentral.org.au/services/sov/">SAMI single object viewer</a>: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the <code class="highlighter-rouge">CATID</code>, then related files can be downloaded.</li>
-  <li><a href="https://datacentral.org.au/services/query/">SAMI data query using SQL</a></li>
-</ul>
+<p>Now for the NGC1052-DF2 case, Shany make a spectrum combining spectrums of all special region. And this spectrum has been broadened. Shany uses templates from two Global Clusters, say M3 and M13. The templates here has already been broadened by velocity dispersion (Gaussian). And we know the <script type="math/tex">\sigma</script> of two Gaussian obeys <script type="math/tex">\sigma_{\mathrm{star}}^2 = \sigma_{\mathrm{template}}^2 + \sigma_{\mathrm{measure}}^2</script>, where <script type="math/tex">\sigma_{\mathrm{star}}</script> is the velocity dispersion of DF2. So we can measure <script type="math/tex">\sigma_{\mathrm{measure}}</script> by the same method as stated above, and then get the velocity dispersion of DF2 <script type="math/tex">\sigma_{\mathrm{star}}</script>, which is <script type="math/tex">\sigma_{\mathrm{star}} = 8.4\pm2.1\ \mathrm{km
+ s}^{-1}</script>.</p>
 
-<h2 id="califa-survey">CALIFA survey</h2>
-<ul>
-  <li><a href="http://califa.caha.es">CALIFA overview</a></li>
-  <li><a href="http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users">CALIFA DR3 search tool</a></li>
-</ul>
+<p>How to calculate the dynamical mass given the velocity dispersion? I need to figure out.</p>
 
-<hr />
+<p>Vox Charta Key: jiaxuan_li@PKU</p>
 
-<p>XKCD style of Mathematica plot: <a href="https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots">https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</a></p>
-
-<p>XKCD style of Matplotlib (bug for line labels): <a href="http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify">http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify</a>. This code must run under python2 environment.</p>
-
-<p>A good example of 2D Histogram using astroML: <a href="http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html">http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html</a></p>
-
-<p>Convert Jupyter Notebook to <code class="highlighter-rouge">html</code>: <code class="highlighter-rouge">jupyter nbconvert --to html low-z-galaxy-survey.ipynb </code></p>
-
-<p>Convert LaTeX to html gif picture: <a href="https://www.codecogs.com/latex/eqneditor.php">https://www.codecogs.com/latex/eqneditor.php</a></p>
-
-<hr />
-
-<p>Mac录屏的同时录制声音：<a href="https://www.jianshu.com/p/a8ff665285de">https://www.jianshu.com/p/a8ff665285de</a></p>
-
-<p>A good website to check visibility for a given RA and DEC: <a href="http://catserver.ing.iac.es/staralt/">http://catserver.ing.iac.es/staralt/</a></p>
-
-<p><strong>Convert figure to data points</strong>: <a href="http://markummitchell.github.io/engauge-digitizer/">http://markummitchell.github.io/engauge-digitizer/</a></p>
-
-<h4 id="how-to-use-latex-in-jekyll">How to use latex in jekyll?</h4>
-<ul>
-  <li>gem install kramdown</li>
-  <li>Change the markdown line in _config.yml to markdown: kramdown</li>
-  <li>And add something like</li>
-</ul>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"text/javascript"</span> <span class="nx">src</span><span class="o">=</span><span class="s2">"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
-</span></code></pre></div></div>
-<p>to <code class="highlighter-rouge">_layouts/default.html</code>. Now you can simply mark any mathematics in your posts with <code class="highlighter-rouge">$$</code></p>
-
-<hr />
-
-<p>Princeton Program: <a href="https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program">https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program</a></p>
+<p>Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php</p>
 
   </article>
 

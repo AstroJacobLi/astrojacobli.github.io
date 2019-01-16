@@ -4,27 +4,86 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Nov 2018 00:07:10 -0800</pubDate>
-    <lastBuildDate>Wed, 28 Nov 2018 00:07:10 -0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Jan 2019 15:11:35 -0800</pubDate>
+    <lastBuildDate>Wed, 16 Jan 2019 15:11:35 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>astro-ph Reading</title>
-        <description>&lt;h1 id=&quot;astro-ph-reading-list&quot;&gt;Astro-ph Reading List&lt;/h1&gt;
-&lt;h2 id=&quot;112618---120218&quot;&gt;11/26/18 - 12/02/18&lt;/h2&gt;
+        <title>astro-ph Reading in 2019</title>
+        <description>&lt;h1 id=&quot;astro-ph-reading-list-in-2019&quot;&gt;Astro-ph Reading List in 2019&lt;/h1&gt;
 
-&lt;h4 id=&quot;splashback-radius-as-a-probe-of-cluster-physics-and-cosmology-talk-by-susmita-adhikari-kipac--stanford&quot;&gt;Splashback radius as a probe of Cluster physics and Cosmology, talk by Susmita Adhikari (KIPAC / Stanford)&lt;/h4&gt;
+&lt;h2 id=&quot;011419---012119&quot;&gt;01/14/19 - 01/21/19&lt;/h2&gt;
+&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;still-missing-dark-matter-kcwi-high-resolution-stellar-kinematics-of-ngc1052-df2&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.03711v1&quot;&gt;Still Missing Dark Matter: KCWI High-Resolution Stellar Kinematics of NGC1052-DF2&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;On how to measure the velocity dispersion directly from spectrum, I found a paper by Luis Ho in 2002: &lt;a href=&quot;http://iopscience.iop.org/article/10.1086/343840/pdf&quot;&gt;A Study of the Direct Fitting Method for Measurement of Galaxy Velocity Dispersions&lt;/a&gt;. The main idea in this paper is:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Higher acceration rate, smaller splashback radius.&lt;/li&gt;
-  &lt;li&gt;The background is expanding faster today than before. Lower z, smaller splashback radius.&lt;/li&gt;
-  &lt;li&gt;High mass, more friction, smaller splashback radius.&lt;/li&gt;
-  &lt;li&gt;What would happen if we have: MOND? hot DM? if no Lambda?&lt;/li&gt;
-  &lt;li&gt;The observed splashback radius (SDSS, DES) is 20% smaller than that predicted by simulations. In observation, we don’t see any redshift and magnitude dependences, but we see that in simulations. Why?&lt;/li&gt;
+  &lt;li&gt;In measuring velocity dispersion, it’s convenient to use &lt;script type=&quot;math/tex&quot;&gt;x = \ln(\lambda)&lt;/script&gt; scale, because &lt;script type=&quot;math/tex&quot;&gt;x' = \ln[\lambda(1+z)] = x + \ln(1+z) \approx x + z&lt;/script&gt; for &lt;script type=&quot;math/tex&quot;&gt;z\ll 1&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;Find some spectrums of stars as templates. They don’t have any velocity dispersions (or can be ignored).&lt;/li&gt;
+  &lt;li&gt;Assume the effect of velocity dispersion is Gaussian. Then, to get a dispersed spectrum, you should convolve the template with a Gaussian kernel with a given radius. Write this in maths, that is &lt;script type=&quot;math/tex&quot;&gt;T(x)]\otimes G(x, r)&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;But we should consider that the featureless continuum components are different between template and galaxy. So we simply add a featureless continuum which is typically a straight line with &lt;script type=&quot;math/tex&quot;&gt;x = \ln(\lambda)&lt;/script&gt; (in &lt;script type=&quot;math/tex&quot;&gt;\lambda&lt;/script&gt; domain this is an exponential continuum). Hence: &lt;script type=&quot;math/tex&quot;&gt;[T(x)\otimes G(x, r)] + C(x)&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;To compensate other effects such as reddening difference between template and galaxy, we multiply a low-order Legendre polynomial, then get the final model spectrum. That is:
+&lt;script type=&quot;math/tex&quot;&gt;M(x) = \{[T(x)\otimes G(x, r)] + C(x)\}\sum_l P_l(x).&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;Then we have several parameters, like Gaussian kernel radius, continuum straight line intercept and slope, and coefficients for every order Legendre polynomials. Note that in &lt;script type=&quot;math/tex&quot;&gt;\chi^2&lt;/script&gt;, the error term contains the measurement error of galaxy spectrum, and error of template which is typically negligible. At last, let MCMC be. The radius of Gaussian kernel should be the velocity dispersion (need a conversion).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations-by-y-jing&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.09070v1.pdf&quot;&gt;The dark matter deficit galaxies in hydrodynamical simulations&lt;/a&gt; by Y. Jing&lt;/h4&gt;
+&lt;p&gt;Now for the NGC1052-DF2 case, Shany make a spectrum combining spectrums of all special region. And this spectrum has been broadened. Shany uses templates from two Global Clusters, say M3 and M13. The templates here has already been broadened by velocity dispersion (Gaussian). And we know the &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; of two Gaussian obeys &lt;script type=&quot;math/tex&quot;&gt;\sigma_{\mathrm{star}}^2 = \sigma_{\mathrm{template}}^2 + \sigma_{\mathrm{measure}}^2&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\sigma_{\mathrm{star}}&lt;/script&gt; is the velocity dispersion of DF2. So we can measure &lt;script type=&quot;math/tex&quot;&gt;\sigma_{\mathrm{measure}}&lt;/script&gt; by the same method as stated above, and then get the velocity dispersion of DF2 &lt;script type=&quot;math/tex&quot;&gt;\sigma_{\mathrm{star}}&lt;/script&gt;, which is &lt;script type=&quot;math/tex&quot;&gt;\sigma_{\mathrm{star}} = 8.4\pm2.1\ \mathrm{km
+ s}^{-1}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;How to calculate the dynamical mass given the velocity dispersion? I need to figure out.&lt;/p&gt;
+
+&lt;p&gt;Vox Charta Key: jiaxuan_li@PKU&lt;/p&gt;
+
+&lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Jan 2019 03:38:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>astro-ph Reading in 2018</title>
+        <description>&lt;h1 id=&quot;astro-ph-reading-list-in-2018&quot;&gt;Astro-ph Reading List in 2018&lt;/h1&gt;
+
+&lt;h2 id=&quot;120218---123118&quot;&gt;12/02/18 - 12/31/18&lt;/h2&gt;
+
+&lt;h4 id=&quot;constraints-on-intragroup-stellar-mass-from-hostless-type-ia-supernovae&quot;&gt;&lt;a href=&quot;https://academic.oup.com/mnrasl/article/403/1/L79/1187683&quot;&gt;Constraints on intragroup stellar mass from hostless Type Ia supernovae&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;dark-energy-survey-year-1-results-detection-of-intra-cluster-light-at-redshift-zsim025&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1812.04004.pdf&quot;&gt;DARK ENERGY SURVEY YEAR 1 RESULTS: DETECTION OF INTRA-CLUSTER LIGHT AT REDSHIFT $z\sim0.25$&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h2 id=&quot;112618---120218&quot;&gt;11/26/18 - 12/02/18&lt;/h2&gt;
+
+&lt;h4 id=&quot;mapreduce&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/MapReduce&quot;&gt;Mapreduce&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;starvation-as-the-primary-quenching-mechanism-in-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.09283v1&quot;&gt;Starvation as the primary quenching mechanism in galaxies&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;probing-planets-in-extragalactic-galaxies-using-quasar-microlensing&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1802.00049&quot;&gt;Probing Planets in Extragalactic Galaxies Using Quasar Microlensing&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;crossing-the-line-active-galactic-nuclei-in-the-star-forming-region-of-the-bpt-diagram&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.11755v1&quot;&gt;Crossing the Line: Active Galactic Nuclei in the Star-forming region of the BPT Diagram&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;photometric-and-spectroscopic-properties-of-type-ia-supernova-2018oh-with-early-excess-emission-from-the-kepler-2-observations-by-tsinghua-univ&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.10056&quot;&gt;Photometric and Spectroscopic Properties of Type Ia Supernova 2018oh with Early Excess Emission from the Kepler 2 Observations&lt;/a&gt; by Tsinghua Univ.&lt;/h4&gt;
+
+&lt;h4 id=&quot;k2-observations-of-sn-2018oh-reveal-a-two-component-rising-light-curve-for-a-type-ia-supernova-by-ucsc&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.10061v1&quot;&gt;K2 Observations of SN 2018oh Reveal a Two-Component Rising Light Curve for a Type Ia Supernova&lt;/a&gt; by UCSC&lt;/h4&gt;
+
+&lt;h4 id=&quot;seeing-double-asassn-18bt-exhibits-a-two-component-rise-in-the-early-time-k2-light-curve-by-carnegie&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1807.11526&quot;&gt;Seeing Double: ASASSN-18bt Exhibits a Two-Component Rise in the Early-Time K2 Light Curve&lt;/a&gt; by Carnegie&lt;/h4&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;how-to-measure-galaxy-star-formation-histories-i-parametric-models&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.03635&quot;&gt;How to measure galaxy star-formation histories I: Parametric models&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;how-to-measure-galaxy-star-formation-histories-ii-nonparametric-models&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.03637&quot;&gt;How to measure galaxy star formation histories II: Nonparametric models&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;flexible-stellar-population-synthesis-for-python&quot;&gt;&lt;a href=&quot;http://dfm.io/python-fsps/current/#&quot;&gt;Flexible Stellar Population Synthesis for Python&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;prospector-python-code-for-stellar-population-inference-from-spectra-and-seds&quot;&gt;&lt;a href=&quot;https://github.com/bd-j/prospector&quot;&gt;Prospector: Python code for Stellar Population Inference from Spectra and SEDs&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;overview-of-stellar-population-synthesis&quot;&gt;&lt;a href=&quot;https://ned.ipac.caltech.edu/level5/Sept14/Conroy/Conroy2.html&quot;&gt;OVERVIEW OF STELLAR POPULATION SYNTHESIS&lt;/a&gt;&lt;/h4&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1811.09070v1.pdf&quot;&gt;The dark matter deficit galaxies in hydrodynamical simulations&lt;/a&gt;&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Dwarf galaxies are really interesting, especially for its high DM content. But some DM deficient galaxies are found (like NGC1052-DF2 and DDO-50 in LITTLE-THINGS). The idea of this paper is: can we find these DM deficient galaxies in cosmological simulations?&lt;/li&gt;
   &lt;li&gt;They used Illustris and EAGLE, calculated DM ratio of satellite galaxies for &lt;script type=&quot;math/tex&quot;&gt;M_*&gt;10^9M_\odot&lt;/script&gt;. They find 2% - 5% galaxies are DMDGs.&lt;/li&gt;
@@ -44,6 +103,15 @@
   &lt;li&gt;Replace the low-z sample by the Foundation sample, &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; shifted about &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt; from previous results. The ‘green’ and ‘orange’ dots use totally different data, but the results are consistent within &lt;script type=&quot;math/tex&quot;&gt;1\sigma&lt;/script&gt;.&lt;/li&gt;
   &lt;li&gt;This result is based on &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; doesn’t evolve, flat Universe, etc. If you allow &lt;script type=&quot;math/tex&quot;&gt;w&lt;/script&gt; to evolve with redshift, it will be much different. &lt;script type=&quot;math/tex&quot;&gt;w&gt;-1&lt;/script&gt; gets scalar field involved, while &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 w&lt;-1 %]]&gt;&lt;/script&gt; maybe due to MOND.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;splashback-radius-as-a-probe-of-cluster-physics-and-cosmology-talk-by-susmita-adhikari-kipac--stanford&quot;&gt;Splashback radius as a probe of Cluster physics and Cosmology, talk by Susmita Adhikari (KIPAC / Stanford)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Higher acceration rate, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;The background is expanding faster today than before. Lower z, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;High mass, more friction, smaller splashback radius.&lt;/li&gt;
+  &lt;li&gt;What would happen if we have: MOND? hot DM? if no Lambda?&lt;/li&gt;
+  &lt;li&gt;The observed splashback radius (SDSS, DES) is 20% smaller than that predicted by simulations. In observation, we don’t see any redshift and magnitude dependences, but we see that in simulations. Why?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;111118---112518&quot;&gt;11/11/18 - 11/25/18&lt;/h2&gt;
@@ -259,12 +327,171 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Mon, 26 Nov 2018 02:18:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Papers</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Papers</guid>
+        <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Writing</title>
+        <description>&lt;h1 id=&quot;latex-templates&quot;&gt;LaTex templates&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://journals.aas.org/aastex-package-for-manuscript-preparation/&quot;&gt;AASTeX&lt;/a&gt;: templates for ApJ, ApJL and ApJS. Note that ApJL has a limitation for the number of figures. Check the overleaf version here: &lt;a href=&quot;https://www.overleaf.com/latex/templates/aastex-template-for-submissions-to-the-astrophysical-journal/bpkjwktvsqwp&quot;&gt;AASTeX Template for submissions to AAS Journals &lt;/a&gt;. Personally I prefer AAS templates than MNRAS one.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/latex/templates/monthly-notices-of-the-royal-astronomical-society-mnras-latex-template-and-guide-for-authors/kqnjzrwjwjth&quot;&gt;MNRAS&lt;/a&gt;: template for MNRAS. Alexie likes this template.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Curriculum Vitae: I recommend this &lt;a href=&quot;https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm&quot;&gt;template&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Template for book: I highly recommend &lt;a href=&quot;https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc&quot;&gt;Legrand Orange Book Template&lt;/a&gt;. I wrote a book using this template for the astronomy olympiad training last year.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Chinese templates, check &lt;a href=&quot;http://www.latexstudio.net&quot;&gt;LaTex开源小屋&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;LaTeX is also very convenient for taking notes on physics classes. Check my notes on Statistical Physics &lt;a href=&quot;https://astrojacobli.github.io/Docs/LaTeX/NotesTemplate.zip&quot;&gt;here&lt;/a&gt;. (You can compile the &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file succesfully by putting &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt; in the same folder.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;books-on-writing&quot;&gt;Books on writing&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP8: Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;toefl&quot;&gt;TOEFL&lt;/h1&gt;
+
+&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
+&lt;p&gt;Foul, obstruct, accord, immutable, Sturdy, impel, compel, copious, consensual, consent, edifice, groom, infest, nomad, unprecedented, notorious, sheer.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
+&lt;p&gt;Pavilion, Ductile, epidemic, haunt, spontaneous, instantaneous, simultaneous, paddle, pedal, petal, sepal, puddle, venom, aliment, ailment, lush, fourish, malnourish, assimilate, congest, converse, corrosive gas, credential, credible, detergent, evacuation, engrave imprint, lament(悲叹)/mourn/eulogy, Substantiate, allegiance, carp (鲤鱼), catfish (鲶鱼), goldfish, salmon (鲑鱼，三文鱼), tuna (金枪鱼), sardines (沙丁鱼), cod (鳕鱼), Cornerstone, Crow, seagull, ogle, eagle, finch, woodpecker, Fire extinguisher, evacuation map, grout, Eligible, Impromptu music, Inconspicuous, Palate, soft palate/velar consonant, pinnipeds, seal, sea lion, walrus, nerve sheath tumor, tenant, landlord, tenement/slum, avenue, boulevard, Eliminate, diminish, vanish, irritated, chronic, exasperated/irritated.&lt;/p&gt;
+
+&lt;h2 id=&quot;day3&quot;&gt;Day3&lt;/h2&gt;
+&lt;p&gt;adorn/ornament/varnish/furbish, debris, entitle, gospel, hamper/hinder/obscure/obstacle/stunt/thwart, sewage/drain/sewerage/drainage/ooze/silt/clog/receptacle, laureate/eminent/eminem/preeminent/prominent/distinguished, reckless/crude oil, piano recital/soprano/alto/tenor/baritone, treadmill/scuba/avalanche, scramble/crawl/creep, listless, thorn/throne, auction/patent/petition, complacence/amenity, concord/harmonious/congruous/congruity/incongruity/incompatible, trepidation/intrepid, wither/wilt.&lt;/p&gt;
+
+&lt;p&gt;delicatessen, dairy, pasture (is the sub-unit of a ranch), ranch, meadow, hen house, hive, bovine, cowshed, enclosure, fodder corn, silo, barn, graze, fallow.&lt;/p&gt;
+
+&lt;p&gt;Enoki/oyster/shiitake/cultivated mushroom, truffle, wood ear, kelp, seaweed, nori, scallion, leeks, celery cabbage, bulb, rib, bundle, as’paragus, fiddlehead fern, spear.&lt;/p&gt;
+
+&lt;p&gt;Yuletide, nativity of Jesus, feast宗教节日, winter solstice, carols圣诞颂歌，&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Writing</guid>
+        
+        
+        <category>Astrophysics</category>
+        
+      </item>
+    
+      <item>
+        <title>Statistics and Python</title>
+        <description>&lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
+
+&lt;h3 id=&quot;data-analysis-recipes-fitting-a-model-to-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1008.4686&quot;&gt;Data analysis recipes: Fitting a model to data&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;data-analysis-recipes-probability-calculus-for-inference&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1205.4446v1&quot;&gt;Data analysis recipes: Probability calculus for inference&lt;/a&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;useful-python-packages&quot;&gt;Useful python packages:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
+https://rodluger.github.io/starry/tutorials/hd189.html.
+***&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;plot-with-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python&quot;&gt;Plot with Python&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h1 id=&quot;using-python-to-do-data-analysis&quot;&gt;Using Python to do Data Analysis&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very good tutorial of using python and Jupiter to analyze data, by Jake VanderPlas: &lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Reproducible Data Analysis in Jupyter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Various ways to &lt;a href=&quot;https://realpython.com/python-histograms/#a-fancy-alternative-with-seaborn&quot;&gt;draw a histogram&lt;/a&gt;, with NumPy, Matplotlib, Pandas and seaborn, by Brad Solomon.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DifMYH3iuFw&quot;&gt;Introduction of PyData community, by Jake VanderPlas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;bayesian-statistics&quot;&gt;Bayesian Statistics&lt;/h1&gt;
+&lt;h2 id=&quot;frequentism-vs-bayesianism-by-jake-vanderplas&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=KhAUfqhLakw&quot;&gt;Frequentism v.s. Bayesianism, by Jake VanderPlas&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;akaike-information-criterion&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Akaike_information_criterion&quot;&gt;Akaike Information Criterion&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;emcee-seriously-kick-ass-mcmc-tool&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;: Seriously Kick-Ass MCMC tool&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is a python module that implements a very cool MCMC sampling algorithm cample an ensemble sampler. In order to more efficiently sample the parameter space, many samplers (called walkers) run in parallel and periodically exchange states. emcee is available from this website:
+http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emcee/current/user/line/&lt;/li&gt;
+  &lt;li&gt;The most up-to-date documents of &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is https://emcee.readthedocs.io/en/latest/tutorials/line/. It’s much prettier and understandable than before. You can install newest version by clone its GitHub, then &lt;code class=&quot;highlighter-rouge&quot;&gt;pip uninstall emcee&lt;/code&gt;, and using &lt;code class=&quot;highlighter-rouge&quot;&gt;python setup.py install&lt;/code&gt; to install new version.&lt;/li&gt;
+  &lt;li&gt;If you google &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee example&lt;/code&gt;, you can already find a lot of good tutorials and examples.  But if you need an example for complex astrophysical application, my personal recommendation is the &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; SED fitting code by Ben Johnson:  https://github.com/bd-j/prospector&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; employs &lt;em&gt;Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.&lt;/em&gt; But Metropolis-Hastings sampler and The Parallel-Tempered Ensemble Sampler (PTMCMC) can also be found in &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;. The PTMCMC is useful if you expect your distribution to be multi-modal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Related to today’s discussion on MCMC:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;autocorr.py&lt;/code&gt; deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/&lt;/li&gt;
+    &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;dynesty&lt;/code&gt; Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py&lt;/li&gt;
+    &lt;li&gt;About the &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt; issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.&lt;/li&gt;
+    &lt;li&gt;About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use &lt;code class=&quot;highlighter-rouge&quot;&gt;cProfile&lt;/code&gt; to profile the time spent on each functional call.  It is very easy to use.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;corner-a-package-of-drawing-corner-diagrams-of-mcmc-and-2d-histogram&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;: A package of drawing corner diagrams of MCMC and 2d histogram.&lt;/h3&gt;
+&lt;p&gt;You can find everything about &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; on https://corner.readthedocs.io/en/latest/. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;.
+***&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2005AJ....129.1706F&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0512634&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A mcmc tool developed by astronomers: &lt;a href=&quot;http://dfm.io/emcee/current/user/quickstart/&quot;&gt;emcee&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrobite on &lt;a href=&quot;https://astrobites.org/2011/07/26/astrostatistics-how-to-fit-a-model-to-data/&quot;&gt;fitting (Hogg paper)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrobite on correlated &lt;a href=&quot;https://astrobites.org/2014/07/01/beyond-chi-squared-an-introduction-to-correlated-noise/&quot;&gt;errors&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.gaussianprocess.org&quot;&gt;Gaussian Process&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://healthyalgorithms.com/tag/pymc/&quot;&gt;pymc tutorials&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Data analysis using Jupyter&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 18 Dec 2018 13:40:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</guid>
+        
+        
+        <category>Coding</category>
         
       </item>
     
@@ -299,6 +526,10 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;The main science goals contain: &lt;a href=&quot;https://arxiv.org/abs/1809.09148v1&quot;&gt;weak lensing cosmology&lt;/a&gt;, high-z galaxies, general galaxy formation and evolution (like &lt;a href=&quot;https://arxiv.org/abs/1811.01139v1&quot;&gt;stellar-halo connection&lt;/a&gt;), etc.&lt;/p&gt;
 
+&lt;h2 id=&quot;redshift-surveys&quot;&gt;Redshift surveys&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract&quot;&gt;2MASS&lt;/a&gt;
+&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract&quot;&gt;6dF&lt;/a&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;transient-surveys&quot;&gt;Transient Surveys&lt;/h1&gt;
 &lt;h2 id=&quot;pan-starrs&quot;&gt;Pan-STARRS&lt;/h2&gt;
 &lt;p&gt;Panoramic Survey Telescope and Rapid Response System (Pan-STARRS) is a well calibrated telescope for transient surveys.&lt;/p&gt;
@@ -308,6 +539,7 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with redshift ranges from 0 to 0.15.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dr15.sdss.org/marvin/&quot;&gt;Marvin: a tool specifically designed to visualise and analyse MaNGA data.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
@@ -325,11 +557,12 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article-abstract/471/3/3727/3979019&quot;&gt;PyCASSO database: spatially resolved stellar population properties for CALIFA galaxies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 23 Nov 2018 02:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/sky-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/sky-surveys</guid>
+        <pubDate>Mon, 17 Dec 2018 02:40:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/sky-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/sky-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -338,46 +571,7 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
     
       <item>
         <title>Miscellany</title>
-        <description>&lt;h2 id=&quot;set-up-a-macbook-for-astronomy&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Macbook-for-Astronomy&quot;&gt;Set up a Macbook for Astronomy&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h1 id=&quot;redshift-surveys&quot;&gt;Redshift surveys&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract&quot;&gt;2MASS&lt;/a&gt;
-&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract&quot;&gt;6dF&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
-&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
-&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-0&lt;z&lt;0.15 %]]&gt;&lt;/script&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/
-value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Weber–Fechner_law&quot;&gt;Weber–Fechner law&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -414,9 +608,9 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Nov 2018 05:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Miscellany</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Miscellany</guid>
+        <pubDate>Sun, 16 Dec 2018 05:40:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/Miscellany</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -424,37 +618,76 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
       </item>
     
       <item>
-        <title>MaNGA paper</title>
-        <description>&lt;h1 id=&quot;mpa-jhu-dr7-catalogs&quot;&gt;MPA-JHU DR7 catalogs&lt;/h1&gt;
-&lt;p&gt;&amp;lt;a href=”https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived”&amp;lt;/a&amp;gt;&lt;/p&gt;
+        <title>Scikit-learn</title>
+        <description>&lt;h1 id=&quot;quick-start&quot;&gt;Quick Start&lt;/h1&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine learning&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Supervised learning: Classification, Regression. (Learn the map &lt;script type=&quot;math/tex&quot;&gt;X\to y&lt;/script&gt;)&lt;/li&gt;
+  &lt;li&gt;Unsupervised learning: Clustering, density estimation.&lt;/li&gt;
+  &lt;li&gt;Dimensionality reduction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 500px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/ml_map.png&quot; alt=&quot;Scikit-learn Cheat Sheet&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Scikit-learn Cheat Sheet&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;scikit-learn&quot;&gt;Scikit-learn&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data is constructed by the format: (n_samples, n_features)&lt;/li&gt;
+  &lt;li&gt;Datasets Examples: iris, diabetes, digits, etc.&lt;/li&gt;
+  &lt;li&gt;Every &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; class has &lt;code class=&quot;highlighter-rouge&quot;&gt;.fit(X_train, y_train)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.predict(X_test, y_test)&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Export the &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; into a file:
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'filename.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;clf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'filename.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can change the parameters of an &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; after construct it by using &lt;code class=&quot;highlighter-rouge&quot;&gt;.set_params()&lt;/code&gt; method.&lt;/li&gt;
+  &lt;li&gt;In classification, &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; can have multi-labels (like in iris). You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.preprocessing.LabelBinarizer&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.preprocessing.MultiLabelBinarizer&lt;/code&gt;, and classify using &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.multiclass.OneVsRestClassifier&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;supervised-learning-predicting-an-output-variable-from-high-dimensional-observations&quot;&gt;&lt;a href=&quot;https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html&quot;&gt;Supervised learning: predicting an output variable from high-dimensional observations&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;nearest-neighbor-classification&quot;&gt;Nearest Neighbor Classification&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;kNN (k-th nearest neighbor classification): &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.neighbors.KNeighborsClassifier&lt;/code&gt; is also an estimator.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Curse_of_dimensionality&quot;&gt;Curse of dimensionality&lt;/a&gt;: if your sample is small and dimension is high, then your sample will be very sparse. Also it’s very interesting that in high dimensions, the high-dimensional unit hypercube can be said to consist almost entirely of the “corners” of the hypercube, with almost no “middle”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;linear-model-regression&quot;&gt;Linear model: Regression&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Linear models: &lt;script type=&quot;math/tex&quot;&gt;y = X \beta + \epsilon&lt;/script&gt;, in which &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; are &lt;script type=&quot;math/tex&quot;&gt;(n\times 1)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;(n\times m)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;(m\times 1)&lt;/script&gt;. Here &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is data, &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is target, &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; is coefficients and &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; is observation noise.&lt;/li&gt;
+  &lt;li&gt;Linear Regression estimator: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.LinearRegression&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Shrinkage: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.Ridge&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.Lasso&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If we use linear model to do classification, remember using ‘logistic’ or ‘sigmoid’ function: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.LogisticRegression&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;support-vector-machines-svms&quot;&gt;Support Vector Machines (SVMs)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;SVMs has regularization parameter &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;, smaller &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; means more regularization. &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.svm.SVC&lt;/code&gt; is the estimator.&lt;/li&gt;
+  &lt;li&gt;Different kernels give different results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;model-selection-and-cross-validation&quot;&gt;&lt;a href=&quot;https://scikit-learn.org/stable/tutorial/statistical_inference/model_selection.html&quot;&gt;Model selection and cross-validation&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Since an estimator has some parameters, we need to choose the best values for these parameters to get the best behavior. So we use &lt;code class=&quot;highlighter-rouge&quot;&gt;score&lt;/code&gt; and ‘cross-validation’.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CV generators: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.KFold&lt;/code&gt; can be used as &lt;code class=&quot;highlighter-rouge&quot;&gt;kfold = KFold(n_splits=5)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;for train, test in kfold.split(X):&lt;/code&gt;. This can generate 5 groups of training samples and test samples. Then we can calculate scores for each set.&lt;/li&gt;
+  &lt;li&gt;Another way is &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.cross_val_score(svc, X, y, cv=5, n_jobs=-1)&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Another way is grid-search the parameter space using &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.GridSearchCV(svc, param_grid=dict(C=Cs))&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Some estimator can automatically give the best values of some parameters. For example constructing an estimator &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator = sklearn.linear_model.LassoCV(cv=5)&lt;/code&gt; and fit it with data. Then we can retrieve the best parameter ‘alpha’ by &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator.alpha_&lt;/code&gt;. But we should note, this may not be reliable. We’d better estimate the best parameter by ourselves.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pca.fit_transform&lt;/code&gt; = first &lt;code class=&quot;highlighter-rouge&quot;&gt;fit&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 15 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/MaNGA-H-alpha-Ring-Galaxies</guid>
+        <pubDate>Mon, 10 Dec 2018 02:18:00 -0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2018/12/Scikit-learn</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Scikit-learn</guid>
         
         
-        <category>Astrophysics</category>
-        
-      </item>
-    
-      <item>
-        <title>Writing</title>
-        <description>&lt;p&gt;Write a pipeline for computing 1-D profile&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/Writing</guid>
-        
-        
-        <category>Astrophysics</category>
+        <category>coding</category>
         
       </item>
     
@@ -485,8 +718,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -506,8 +739,8 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
@@ -635,403 +868,11 @@ value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved
 &lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</guid>
+        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
         
         
         <category>Coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Statistics and Python</title>
-        <description>&lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
-
-&lt;h3 id=&quot;data-analysis-recipes-fitting-a-model-to-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1008.4686&quot;&gt;Data analysis recipes: Fitting a model to data&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;data-analysis-recipes-probability-calculus-for-inference&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1205.4446v1&quot;&gt;Data analysis recipes: Probability calculus for inference&lt;/a&gt;&lt;/h3&gt;
-
-&lt;hr /&gt;
-&lt;h3 id=&quot;useful-python-packages&quot;&gt;Useful python packages:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
-https://rodluger.github.io/starry/tutorials/hd189.html.
-***
-    &lt;h1 id=&quot;plot-with-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python&quot;&gt;Plot with Python&lt;/a&gt;&lt;/h1&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;using-python-to-do-data-analysis&quot;&gt;Using Python to do Data Analysis&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Very good tutorial of using python and Jupiter to analyze data, by Jake VanderPlas: &lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Reproducible Data Analysis in Jupyter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Various ways to &lt;a href=&quot;https://realpython.com/python-histograms/#a-fancy-alternative-with-seaborn&quot;&gt;draw a histogram&lt;/a&gt;, with NumPy, Matplotlib, Pandas and seaborn, by Brad Solomon.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;bayesian-statistics&quot;&gt;Bayesian Statistics&lt;/h1&gt;
-&lt;h2 id=&quot;akaike-information-criterion&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Akaike_information_criterion&quot;&gt;Akaike Information Criterion&lt;/a&gt;&lt;/h2&gt;
-&lt;h2 id=&quot;emcee-seriously-kick-ass-mcmc-tool&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;: Seriously Kick-Ass MCMC tool&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is a python module that implements a very cool MCMC sampling algorithm cample an ensemble sampler. In order to more efficiently sample the parameter space, many samplers (called walkers) run in parallel and periodically exchange states. emcee is available from this website:
-http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emcee/current/user/line/&lt;/li&gt;
-  &lt;li&gt;The most up-to-date documents of &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; is https://emcee.readthedocs.io/en/latest/tutorials/line/. It’s much prettier and understandable than before. You can install newest version by clone its GitHub, then &lt;code class=&quot;highlighter-rouge&quot;&gt;pip uninstall emcee&lt;/code&gt;, and using &lt;code class=&quot;highlighter-rouge&quot;&gt;python setup.py install&lt;/code&gt; to install new version.&lt;/li&gt;
-  &lt;li&gt;If you google &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee example&lt;/code&gt;, you can already find a lot of good tutorials and examples.  But if you need an example for complex astrophysical application, my personal recommendation is the &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; SED fitting code by Ben Johnson:  https://github.com/bd-j/prospector&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; employs &lt;em&gt;Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler.&lt;/em&gt; But Metropolis-Hastings sampler and The Parallel-Tempered Ensemble Sampler (PTMCMC) can also be found in &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;. The PTMCMC is useful if you expect your distribution to be multi-modal.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Related to today’s discussion on MCMC:&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;autocorr.py&lt;/code&gt; deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/&lt;/li&gt;
-    &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;dynesty&lt;/code&gt; Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py&lt;/li&gt;
-    &lt;li&gt;About the &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt; issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.&lt;/li&gt;
-    &lt;li&gt;About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use &lt;code class=&quot;highlighter-rouge&quot;&gt;cProfile&lt;/code&gt; to profile the time spent on each functional call.  It is very easy to use.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;corner-a-package-of-drawing-corner-diagrams-of-mcmc-and-2d-histogram&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;: A package of drawing corner diagrams of MCMC and 2d histogram.&lt;/h3&gt;
-&lt;p&gt;You can find everything about &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; on https://corner.readthedocs.io/en/latest/. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;.
-***&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2005AJ....129.1706F&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0512634&quot;&gt;Ford 2005&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A mcmc tool developed by astronomers: &lt;a href=&quot;http://dfm.io/emcee/current/user/quickstart/&quot;&gt;emcee&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Astrobite on &lt;a href=&quot;https://astrobites.org/2011/07/26/astrostatistics-how-to-fit-a-model-to-data/&quot;&gt;fitting (Hogg paper)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Astrobite on correlated &lt;a href=&quot;https://astrobites.org/2014/07/01/beyond-chi-squared-an-introduction-to-correlated-noise/&quot;&gt;errors&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.gaussianprocess.org&quot;&gt;Gaussian Process&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://healthyalgorithms.com/tag/pymc/&quot;&gt;pymc tutorials&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/&quot;&gt;Data analysis using Jupyter&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 17 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Statistics-and-Python</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Statistics-and-Python</guid>
-        
-        
-        <category>Coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Interstellar Medium</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://physics.stackexchange.com/questions/166496/difference-between-gunn-peterson-trough-and-the-lyman-alpha-forest-cosmological&quot;&gt;Gunn-Peterson Trough&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1406.7292&quot;&gt;Lyman Alpha Emitting Galaxies as a Probe of Reionization&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0108097&quot;&gt;Evidence for Reionization at z ~ 6: Detection of a Gunn-Peterson Trough in a z=6.28 Quasar&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;The context of galaxies (1)/Collision/Thermal states (2, 3)&lt;/li&gt;
-  &lt;li&gt;Energy levels (4, 5) /Spectrum and transfer (6, 7)&lt;/li&gt;
-  &lt;li&gt;Absorption of gas (8-10) /Radio propagation (11)&lt;/li&gt;
-  &lt;li&gt;Reading&lt;/li&gt;
-  &lt;li&gt;Radiation field(12), Ionization and recombination (13-16)&lt;/li&gt;
-  &lt;li&gt;Ionization and recombination (17-18，19，20)&lt;/li&gt;
-  &lt;li&gt;Reading&lt;/li&gt;
-  &lt;li&gt;Dust/Heating and cooling (21-28)&lt;/li&gt;
-  &lt;li&gt;Reading&lt;/li&gt;
-  &lt;li&gt;HI clouds (29, 30)&lt;/li&gt;
-  &lt;li&gt;Molecular clouds (32, 33)&lt;/li&gt;
-  &lt;li&gt;Reading&lt;/li&gt;
-  &lt;li&gt;Hot gas (34-40)&lt;/li&gt;
-  &lt;li&gt;Star formation (41, 42)&lt;/li&gt;
-  &lt;li&gt;Reading&lt;/li&gt;
-  &lt;li&gt;Textbook: &lt;a href=&quot;https://astrojacobli.github.io/astro-ph/ISM/Draine.pdf&quot;&gt;Physics of the Interstellar and Intergalactic Medium&lt;/a&gt; by Bruce T. Draine.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;reading-and-viewing-material&quot;&gt;Reading and viewing material:&lt;/h1&gt;
-&lt;h3 id=&quot;the-context-of-galaxies-1collisionthermal-states-2-3&quot;&gt;The context of galaxies (1)/Collision/Thermal states (2, 3)&lt;/h3&gt;
-
-&lt;p&gt;Adam Leory: Observing the Multiple Phases of the ISM in Nearby Galaxies&lt;/p&gt;
-
-&lt;p&gt;40 min, conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference Honoring the Contributions of Richard Crutcher &amp;amp; Carl Heiles, May 23-26, 2016, Madison, WI, USA
-( https://www.youtube.com/watch?v=gk-w7kgKnVc&amp;amp;list=PLR0icYcBhA7Rv-QymeskXF15Kd-Mnh_T2&amp;amp;index=1 )&lt;/p&gt;
-
-&lt;h3 id=&quot;energy-levels-4-5-spectrum-and-transfer-6-7&quot;&gt;Energy levels (4, 5) /Spectrum and transfer (6, 7)&lt;/h3&gt;
-
-&lt;p&gt;Exploring the Milky Way — Prof Naomi McClure Griffiths, ISS2015&lt;/p&gt;
-
-&lt;p&gt;The Professor Harry Messel International Science School
-(https://www.youtube.com/watch?v=NVAz6dcSK0M)&lt;/p&gt;
-
-&lt;h3 id=&quot;absorption-of-gas-8-10-radio-propagation-11&quot;&gt;Absorption of gas (8-10) /Radio propagation (11)&lt;/h3&gt;
-
-&lt;p&gt;Naomi McClure-Griffiths : Key Results from HI Surveys over the Decades  (35 min)&lt;/p&gt;
-
-&lt;p&gt;Conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference 
-(https://www.youtube.com/watch?v=5fXpJIY6igE)&lt;/p&gt;
-
-&lt;p&gt;The Future of Time domain Radio astronomy
-https://video.tau.ac.il/events/index.php?option=com_k2&amp;amp;view=item&amp;amp;id=7725:the-future-of-time-domain-radio-astronomy&amp;amp;Itemid=561&lt;/p&gt;
-
-&lt;p&gt;( https://video.tau.ac.il/events/index.php?option=com_k2&amp;amp;view=itemlist&amp;amp;task=category&amp;amp;id=1329:astronomy-symposium&amp;amp;Itemid=561 )&lt;/p&gt;
-
-&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
-
-&lt;p&gt;HI Science with the Square Kilometre Array (Staveley-Smith &amp;amp; Oosterloo 2015)
-http://adsabs.harvard.edu/abs/2015aska.confE.167S&lt;/p&gt;
-
-&lt;p&gt;Galactic and Magellanic Evolution with the SKA (McClure-Griffiths, N. et al. 2015):
- http://adsabs.harvard.edu/abs/2015aska.confE.130M&lt;/p&gt;
-
-&lt;p&gt;Observations of the Intergalactic Medium and the Cosmic Web in the SKA era (Popping et al. 2015)
-http://adsabs.harvard.edu/abs/2015aska.confE.132P&lt;/p&gt;
-
-&lt;p&gt;The SKA view of the Neutral Interstellar Medium in Galaxies (de Blok et al. 2015)
-http://adsabs.harvard.edu/abs/2015arXiv150101211D&lt;/p&gt;
-
-&lt;p&gt;Exploring Neutral Hydrogen and Galaxy Evolution with the SKA (Blyth et al. 2015)
-http://adsabs.harvard.edu/abs/2015aska.confE.128B&lt;/p&gt;
-
-&lt;p&gt;Cool Outflows and HI absorbers with SKA (Morganti, R. et al. 2015)
-http://adsabs.harvard.edu/abs/2015aska.confE.134M&lt;/p&gt;
-
-&lt;h3 id=&quot;radiation-fieldionization-and-recombination-12-20&quot;&gt;Radiation field/Ionization and recombination (12-20)&lt;/h3&gt;
-
-&lt;h3 id=&quot;reading-1&quot;&gt;Reading&lt;/h3&gt;
-
-&lt;p&gt;Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies (Kewley+08)
-http://adsabs.harvard.edu/abs/2008ApJ…681.1183K&lt;/p&gt;
-
-&lt;p&gt;The Cosmic BPT Diagram: Confronting Theory with Observations (Kewley+13)
-http://adsabs.harvard.edu/abs/2013ApJ…774L..10K&lt;/p&gt;
-
-&lt;p&gt;Theoretical Evolution of Optical Strong Lines across Cosmic Time (Keyley+13)
-http://adsabs.harvard.edu/abs/2013ApJ…774..100K&lt;/p&gt;
-
-&lt;p&gt;The host galaxies of active galactic nuclei (Kauffmann et al. 2003)
-http://adsabs.harvard.edu/abs/2003MNRAS.346.1055K&lt;/p&gt;
-
-&lt;p&gt;The Origin of the Mass-Metallicity Relation: Insights from 53,000 Star-forming Galaxies in the Sloan Digital Sky Survey (Tremonti et al. 2004):
-http://adsabs.harvard.edu/abs/2004ApJ…613..898T&lt;/p&gt;
-
-&lt;p&gt;The physical properties of star-forming galaxies in the low-redshift Universe (Brinchmann et al. 2004)
-http://adsabs.harvard.edu/abs/2004MNRAS.351.1151B&lt;/p&gt;
-
-&lt;p&gt;HII Region Ionization of the Interstellar Medium  (14 min)
-https://www.youtube.com/watch?v=GwLVkcoXcnk&lt;/p&gt;
-
-&lt;h3 id=&quot;dust21-27&quot;&gt;Dust(21-27)&lt;/h3&gt;
-
-&lt;p&gt;Frank Summers:The Life Cycle of Dust in Galaxies
-(Hubble Public Lecture Series)
-https://www.youtube.com/watch?v=ONJP7G5O8PM&lt;/p&gt;
-
-&lt;p&gt;Carolin Crawford: Star dust
-Gresham College Public Lecutre&lt;/p&gt;
-
-&lt;h3 id=&quot;reading-2&quot;&gt;Reading&lt;/h3&gt;
-&lt;p&gt;The CO-to-H2 Conversion Factor and Dust-to-gas Ratio on Kiloparsec Scales in Nearby Galaxies
-http://adsabs.harvard.edu/abs/2013ApJ…777….5S&lt;/p&gt;
-
-&lt;p&gt;Mapping the cold dust temperatures and masses of nearby KINGFISH galaxies with Herschel
-http://adsabs.harvard.edu/abs/2012MNRAS.425..763G&lt;/p&gt;
-
-&lt;p&gt;The Emission by Dust and Stars of Nearby Galaxies in the Herschel KINGFISH Survey
-http://adsabs.harvard.edu/abs/2011ApJ…738…89S&lt;/p&gt;
-
-&lt;p&gt;Dust spectral energy distributions of nearby galaxies: an insight from the Herschel Reference Survey
-http://adsabs.harvard.edu/abs/2014A%26A…565A.128C&lt;/p&gt;
-
-&lt;p&gt;The dust scaling relations of the Herschel Reference Survey
-http://adsabs.harvard.edu/abs/2012A%26A…540A..52C&lt;/p&gt;
-
-&lt;p&gt;The Herschel Reference Survey: Dust in Early-type Galaxies and across the Hubble Sequence
-http://adsabs.harvard.edu/abs/2012ApJ…748..123S&lt;/p&gt;
-
-&lt;p&gt;SINGS:
-https://ay201b.wordpress.com/spitzer-infrared-nearby-galaxies-survey/&lt;/p&gt;
-
-&lt;p&gt;Star Formation in NGC 5194 (M51a): The Panchromatic View from GALEX to Spitzer
-http://adsabs.harvard.edu/abs/2005ApJ…633..871C&lt;/p&gt;
-
-&lt;p&gt;Spitzer Infrared Nearby Galaxies Survey (SINGS) Imaging of NGC 7331: A Panchromatic View of a Ringed Galaxy
-http://adsabs.harvard.edu/abs/2004ApJS..154..204R&lt;/p&gt;
-
-&lt;p&gt;The Opaque Nascent Starburst in NGC 1377: Spitzer SINGS Observations
-http://adsabs.harvard.edu/abs/2006ApJ…646..841R&lt;/p&gt;
-
-&lt;p&gt;Dust and Atomic Gas in Dwarf Irregular Galaxies of the M81 Group: The SINGS and THINGS View
-http://adsabs.harvard.edu/abs/2007ApJ…661..102W&lt;/p&gt;
-
-&lt;p&gt;Dust Masses, PAH Abundances, and Starlight Intensities in the SINGS Galaxy Sample
-http://adsabs.harvard.edu/abs/2007ApJ…663..866D&lt;/p&gt;
-
-&lt;p&gt;Radial Distribution of Stars, Gas, and Dust in Sings Galaxies. II. Derived Dust Properties
-http://adsabs.harvard.edu/abs/2009ApJ…701.1965M&lt;/p&gt;
-
-&lt;p&gt;Interstellar Polycyclic Aromatic Hydrocarbon Molecules
-(Tielens, A. 2008)
-http://adsabs.harvard.edu/abs/2008ARA%26A..46..289T&lt;/p&gt;
-
-&lt;p&gt;Planck 2013 results. XI. All-sky model of thermal dust emission: 
-(Planck Collaboration)
-http://adsabs.harvard.edu/abs/2014A%26A…571A..11P&lt;/p&gt;
-
-&lt;p&gt;The Dust Content and Opacity of Actively Star-forming Galaxies
-(Calzetti, D. et al. 2000)
-http://adsabs.harvard.edu/abs/2000ApJ…533..682C&lt;/p&gt;
-
-&lt;p&gt;A Simple Model for the Absorption of Starlight by Dust in Galaxies
-(Charlot &amp;amp; Fall 2000)
-http://adsabs.harvard.edu/abs/2000ApJ…539..718C&lt;/p&gt;
-
-&lt;p&gt;Herschel-ATLAS: rapid evolution of dust in galaxies over the last 5 billion years (Dunne et al. 2011)
-http://adsabs.harvard.edu/abs/2011MNRAS.417.1510D&lt;/p&gt;
-
-&lt;p&gt;A Unified Representation of Gas-Phase Element Depletions in the Interstellar Medium (Jenkins 2009)
-http://adsabs.harvard.edu/abs/2009ApJ…700.1299J&lt;/p&gt;
-
-&lt;h3 id=&quot;heating-and-cooling-of-hii-region-28-hi-clouds-29-30&quot;&gt;Heating and cooling of HII region (28) HI clouds (29, 30)&lt;/h3&gt;
-
-&lt;h3 id=&quot;molecular-clouds-32-33&quot;&gt;Molecular clouds (32, 33)&lt;/h3&gt;
-
-&lt;p&gt;Matt McQuinn (University of Washington): Bok Prize Lecture: The Thermal Odyssey of the Photoionoized Intergalactic Medium
-CfA Colloquium
-(https://www.youtube.com/watch?v=rbIFawjyZ9s)&lt;/p&gt;
-
-&lt;p&gt;Phillips Auditorium/ Dominik Riechers: Gas: A Prime Driver of Galaxy Evolution
-(https://www.youtube.com/watch?v=4Rkw9MuLRUI)&lt;/p&gt;
-
-&lt;p&gt;David Neufeld (Johns Hopkins University): Small Interstellar Molecules and What They Tell Us
-CfA Colloquium (1 h)
-( https://www.youtube.com/watch?v=R5cOOkN2Xuk)&lt;/p&gt;
-
-&lt;p&gt;Eric Herbst (University of Virginia): Interstellar Chemistry: Towards Large &amp;amp; Larger Molecules
-CfA Colloquium (1h)
-(https://www.youtube.com/watch?v=fRiE9wXu7eM)&lt;/p&gt;
-
-&lt;h3 id=&quot;reading-3&quot;&gt;Reading&lt;/h3&gt;
-
-&lt;p&gt;Neutral Atomic Phases of the Interstellar Medium in the Galaxy (Wolfire et al. 2003):
-http://adsabs.harvard.edu/abs/2003ApJ…587..278W&lt;/p&gt;
-
-&lt;p&gt;The dark molecular gas (Wolfire et al. 2010)
-http://adsabs.harvard.edu/abs/2010ApJ…716.1191W&lt;/p&gt;
-
-&lt;p&gt;Molecular clouds in the Milky Way (Heyer and Dame 2015, ARA&amp;amp;A)
-https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-082214-122324&lt;/p&gt;
-
-&lt;p&gt;What is driving the HI velocity dispersion? (Tomburro et a. 2009)
-http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta&lt;/p&gt;
-
-&lt;p&gt;Low CO Luminosities in dwarf galaxies (Schruba et al. 2012)
-http://iopscience.iop.org/article/10.1088/0004-6256/143/6/138&lt;/p&gt;
-
-&lt;p&gt;Gaseous Galaxy Halos (Putman, Peek &amp;amp; Joung 2012, ARA&amp;amp;A)
-https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081811-125612&lt;/p&gt;
-
-&lt;p&gt;The shapes of the HI velocity profiles of the THINGS galaxies (Lanjamasimanana et al. 2012)
-http://iopscience.iop.org/article/10.1088/0004-6256/144/4/96&lt;/p&gt;
-
-&lt;p&gt;The fine-scale structure of the neutral interstellar medium in nearby galaxies
-http://iopscience.iop.org/article/10.1088/0004-6256/141/1/23&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is driving the HI velocity dispersion? (Tomburro et a. 2009)
-http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;HI and CO velocity dispersions in nearby galaxies (Mogotsi et al. 2016)
-http://iopscience.iop.org/article/10.3847/0004-6256/151/1/15&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;H I Power Spectra and the Turbulent Interstellar Medium of Dwarf Irregular Galaxies (Zhang et al. 2012)
-http://adsabs.harvard.edu/abs/2012ApJ…754…29Z&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The radial variation of HI velocity dispersion in dwarfs and spirals (Lanjamasimanana et al. 2015)
-http://iopscience.iop.org/article/10.1088/0004-6256/150/2/47&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The morphology and kinematics of neutral hydrogen in the vicinity of z = 0 galaxies with Milky Way masses - a study with the Illustris simulation (Kauffmann 2016)
-http://adsabs.harvard.edu/abs/2016MNRAS.462.3751K&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The Evolving Interstellar Medium of Star-forming Galaxies since z = 2 as Probed by Their Infrared Spectral Energy Distributions 
-http://adsabs.harvard.edu/abs/2012ApJ…760….6M&lt;/p&gt;
-
-&lt;h3 id=&quot;hot-gas-34-40&quot;&gt;Hot gas (34-40)&lt;/h3&gt;
-&lt;p&gt;Brant Robertson (University of Arizona): Bok Prize Lecture: New Insights into Astrophysical Turbulence
-CfA Colloquium (1h)
-(https://www.youtube.com/watch?v=MFRbZ1NTrmk)&lt;/p&gt;
-
-&lt;h3 id=&quot;star-formation-41-42&quot;&gt;Star formation (41, 42)&lt;/h3&gt;
-
-&lt;p&gt;William Blair: A Multi-wavelength View of Stellar Life and Death in M83
-1 h, Hubble Public Lecture Series
-( https://www.youtube.com/watch?v=fRpl4I0ggOo )&lt;/p&gt;
-
-&lt;p&gt;Carolin Crawford: The lives of stars,
-Gresham College Public Lecture&lt;/p&gt;
-
-&lt;p&gt;Jason Kalirai (STScI): Stellar Astrophysics: 100 Years After Russell,
-CfA Colloquium (1 h)
-(https://www.youtube.com/watch?v=zKFHlveJzK8)&lt;/p&gt;
-
-&lt;p&gt;Daniel P. Marrone (University of Arizona): Bok Prize Lecture: Star Formation and Molecular Gas in the First Three Billion Years,
-CfA Colloquium (1 h)
-(https://www.youtube.com/watch?v=UK1s4hhMaRk)&lt;/p&gt;
-
-&lt;p&gt;Mark Krumholz Formation of molecular clouds and global conditions for star formation
-https://www.youtube.com/watch?v=NpUJnROpRc0&lt;/p&gt;
-
-&lt;h3 id=&quot;reading-4&quot;&gt;Reading&lt;/h3&gt;
-&lt;p&gt;Star formation in the Milky Way and Nearby galaxies (Kennicutt &amp;amp; Evans 2012)
-http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K&lt;/p&gt;
-
-&lt;p&gt;The star formation law in nearby galaxies on sub-kpc scales (Bigiel et al. 2008)
-http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2846&lt;/p&gt;
-
-&lt;p&gt;The star formation efficiency in nearby galaxies: measuring where gas forms stars effectively (Leroy et al. 2008)
-http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2782&lt;/p&gt;
-
-&lt;p&gt;The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp;amp; Tumlinson 2009)
-http://adsabs.harvard.edu/abs/2009ApJ…699..850K&lt;/p&gt;
-
-&lt;p&gt;The star formation law in molecular-poor galaxies (Krumholz 2013)
-http://adsabs.harvard.edu/abs/2013MNRAS.436.2747K&lt;/p&gt;
-
-&lt;p&gt;Regulation of star formation rates in multiphase galactic disks: A thermal/dynmical equilibrium model (Ostriker et al. 2010)
-http://adsabs.harvard.edu/abs/2010ApJ…721..975O&lt;/p&gt;
-
-&lt;p&gt;The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp;amp; Tumlinson 2009)
-http://adsabs.harvard.edu/abs/2009ApJ…699..850K&lt;/p&gt;
-
-&lt;p&gt;Star formation in molecular clouds (Krumholz2011)
-http://adsabs.harvard.edu/abs/2011AIPC.1386….9K&lt;/p&gt;
-
-&lt;p&gt;A molecular star formation law in the atomic gas dominated regime in nearby galaxies (Schruba et al. 2011)
-http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37&lt;/p&gt;
-
-&lt;p&gt;The evolution of the dust and gas content in galaxies (Santini et al. 2014)
-http://adsabs.harvard.edu/abs/2014A%26A…562A..30S&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Oct 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/10/Interstellar-Medium</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/10/Interstellar-Medium</guid>
-        
-        
-        <category>Astrophysics</category>
         
       </item>
     
