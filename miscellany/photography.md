@@ -41,10 +41,10 @@ div.desc {
   <div class="desc">Winter in PKU</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_9577.jpg">
-    <img src="/images/photo/IMG_9577.jpg" alt="5Terre" width="600" height="600">
+  <a target="_blank" href="/images/photo/milky-way.jpg">
+    <img src="/images/photo/milky-way.jpg" alt="5Terre" width="600" height="600">
   </a>
-  <div class="desc">Blue Sky in PKU</div>
+  <div class="desc">Milky Way on Mauna Kea</div>
 </div>
 
 
@@ -62,10 +62,10 @@ div.desc {
   <div class="desc">KIAA and Children's Day</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_3510.jpg">
-    <img src="/images/photo/IMG_3510.jpg" alt="5Terre" width="600" height="400">
+  <a target="_blank" href="/images/photo/keck-subaru.jpg">
+    <img src="/images/photo/keck-subaru.jpg" alt="5Terre" width="600" height="400">
   </a>
-  <div class="desc">Dusk and Red Cornices</div>
+  <div class="desc">Keck and Subaru</div>
 </div>
 
 <br><br><br>
@@ -84,10 +84,10 @@ div.desc {
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="/images/photo/IMG_8456.JPG">
-    <img src="/images/photo/IMG_8456.JPG" alt="5Terre" width="600" height="600">
+  <a target="_blank" href="/images/photo/subaru-sunset.jpg">
+    <img src="/images/photo/subaru-sunset.jpg" alt="5Terre" width="600" height="600">
   </a>
-  <div class="desc">Autumn in PKU</div>
+  <div class="desc">Sunset with Subaru</div>
 </div>
 <br>
 
