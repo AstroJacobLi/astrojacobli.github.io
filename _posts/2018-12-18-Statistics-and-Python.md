@@ -5,6 +5,8 @@ date:   2018-12-18 21:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
+# Gaussian Process
+[Gaussian Process for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
 
 # David Hogg's paper on Statistics
 
