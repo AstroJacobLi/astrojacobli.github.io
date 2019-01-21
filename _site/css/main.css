@@ -556,14 +556,16 @@ h1 {
   .post-content h3 {
     font-style: bold;
     font-weight: 500;
-    font-size: 23px; }
+    font-size: 23px;
+    color: #063cae; }
     @media screen and (max-width: 950px) {
       .post-content h3 {
         /*            font-size: 25px; */ } }
   .post-content h4 {
-    font-family: 'Arial', san-serif;
-    /*      font-size: 22px; 
-            font-weight: 400; */ }
+    font-family: 'Gothic', sans-serif;
+    color: #007081;
+    font-size: 22px;
+    font-weight: 500; }
     @media screen and (max-width: 950px) {
       .post-content h4 {
         /*            font-size: 22px; */ } }

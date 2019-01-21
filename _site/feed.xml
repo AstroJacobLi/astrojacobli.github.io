@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>https://astrojacobli.github.io/</link>
-    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Jan 2019 18:41:09 -0800</pubDate>
-    <lastBuildDate>Sun, 20 Jan 2019 18:41:09 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Jan 2019 22:28:38 -0800</pubDate>
+    <lastBuildDate>Sun, 20 Jan 2019 22:28:38 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -85,8 +85,8 @@
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Jan 2019 07:38:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</guid>
+        <link>http://localhost:4000/blog/2019/01/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -135,7 +135,7 @@ Plug in these transformation and express &lt;script type=&quot;math/tex&quot;&gt
 \[M_{0, 2}’ = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\]
 \[M_{1, 1}’ = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\]
 Then we can define a complex ellipticity which goes like
-\[\widetilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\]
+\[\widetilde{e} = \frac{M_{2, 0}’ - M_{0, 2}’ + 2i M_{1, 1}’}{M_{2, 0}’ + M_{0, 2}’}.\]
 And it turns out to be
 \[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\]
 where &lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt; is the axis ratio &lt;script type=&quot;math/tex&quot;&gt;b/a&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;(1-q^2) / (1+q^2) = e&lt;/script&gt; is the ellipticity of the ellipse. Thus
@@ -147,6 +147,31 @@ Hence we have many combinations to express the shape (ellipticity and position a
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;from-images-to-catalogs&quot;&gt;From Images to Catalogs&lt;/h3&gt;
+&lt;p&gt;The signal of weak lensing is so weak that can be easily covered by all kinds of systematics. What observers need to do is to minimize these systematics.&lt;/p&gt;
+&lt;h4 id=&quot;psf-modeling&quot;&gt;PSF modeling&lt;/h4&gt;
+&lt;p&gt;The effective PSF is composed of atmospheric PSF, optical PSF, pixel response difference, etc (P.S. Rachel Mandelbaum is one of the authors of GalSim). The optical PSF can be generally modeled and is easier compared to atmospheric PSF.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why does PSF affect weak lensing? Weak lensing measures the shapes of (faint) galaxies, PSF can make the galaxy itself more circular, make the shape of outskirts irregular (due to PSF anisotropy), and also make deblending very hard.&lt;/li&gt;
+  &lt;li&gt;How to measure PSF? Generally we measure the profiles of stars in the field as PSF models, then interpolate (using regular polynomials or Chebyshev polynomials) these models to other positions where we concern. But interpolation often make sense only on single CCD level. PSF model behaves bad on the edges of CCDs (but can use dithering and PCA interpolation to mitigate).&lt;/li&gt;
+  &lt;li&gt;PSF estimated by stars might not be accurate for galaxies. PSF actually depends on the SED of objects, but stars and galaxies have different SEDs. This effect is especially severe for very-wide-band surveys (Euclid). Also the PSF estimated by bright stars are not suitable for galaxies (even not suitable for bright galaxies).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detector-systematics&quot;&gt;Detector Systematics&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Brighter-fatter effect. The electric field sourced by charges accumulated within a pixel can deflect the later coming electrons away, and the consequence is to enlarge the boundaries of the object. So we don’t measure PSF from bright stars. Also saturation is an additional factor.&lt;/li&gt;
+  &lt;li&gt;Some other defects of detectors can also considered as systematics. The difference of pixel sized among all pixels results in astrometric and photometric errors. The responding of pixels may also correlated with galaxy shape and position. In the next generation near infrared survey (WFIRST), we need to mitigate systematics related to NIR detector defects (they are not CCDs).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;deblending&quot;&gt;Deblending&lt;/h4&gt;
+&lt;p&gt;The final goal of deblending is to separate the lights from blended objects, and then measure the shapes. There are generally two kinds of blending. One is called ‘recognized blending’, in which you/algorithms can clearly detect two or more objects. The other is called ‘unrecognized blending’, in which you cannot tell things apart by eyes/algorithms easily.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).&lt;/li&gt;
+  &lt;li&gt;Deblending allow us to give sources better photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt;. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; can go weird.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It’s easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package &lt;a href=&quot;https://arxiv.org/abs/1802.10157&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scarlet&lt;/code&gt;&lt;/a&gt; based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) &lt;a href=&quot;https://arxiv.org/abs/1810.10098&quot;&gt;🔗&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&quot;the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756&quot;&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;the-faintest-dwarf-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/h2&gt;
@@ -156,8 +181,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Sat, 19 Jan 2019 13:38:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/01/ARAA-notes</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/ARAA-notes</guid>
+        <link>http://localhost:4000/blog/2019/01/ARAA-notes</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ARAA-notes</guid>
         
         
         <category>paper</category>
@@ -445,8 +470,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
+        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
@@ -517,8 +542,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 </description>
         <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Writing</guid>
+        <link>http://localhost:4000/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -607,8 +632,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 18 Dec 2018 13:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</guid>
+        <link>http://localhost:4000/blog/2018/12/Statistics-and-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -681,8 +706,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 17 Dec 2018 02:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/sky-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/sky-surveys</guid>
+        <link>http://localhost:4000/blog/2018/12/sky-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/sky-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -729,8 +754,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 05:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Miscellany</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Miscellany</guid>
+        <link>http://localhost:4000/blog/2018/12/Miscellany</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -803,8 +828,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pca.fit_transform&lt;/code&gt; = first &lt;code class=&quot;highlighter-rouge&quot;&gt;fit&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 02:18:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Scikit-learn</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Scikit-learn</guid>
+        <link>http://localhost:4000/blog/2018/12/Scikit-learn</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Scikit-learn</guid>
         
         
         <category>coding</category>
@@ -838,8 +863,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -859,8 +884,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
+        <link>http://localhost:4000/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
