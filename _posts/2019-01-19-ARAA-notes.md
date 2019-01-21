@@ -29,11 +29,11 @@ The order of moment is defined as $$m+n$$. Here after we usually assume a unity 
 - Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness $$\mu$$ (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it's straightforward to calculate its second order moments as:
 \\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\\]
 We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by $$\theta$$ (pink ellipse). We are very familiar with the coordinate transformation between $$(x, y)$$ and $$(x', y')$$, which is written as
-\\[x' = \cos\theta x - \sin\theta y,\ y' = \sin\theta x + \cos\theta y.\\]
+\\[x' = x\cos\theta - y\sin\theta,\ y' = x\sin\theta + y\cos\theta.\\]
 Plug in these transformation and express $$M_{2, 0}'$$ using $$M_{2, 0},\ M_{0, 2},\ M_{1,1}$$, also noticing the Jacobian of this transformation is unity, we have:
-\\[M_{2, 0}' = \frac{1}{4}(\cos^2\theta a^2 + \sin^2\theta b^2),\\]
-\\[M_{0, 2}' = \frac{1}{4}(\sin^2\theta a^2 + \cos^2\theta b^2),\\]
-\\[M_{1, 1}' = \frac{1}{4}\sin\theta\cos\theta(a^2 - b^2).\\]
+\\[M_{2, 0}' = \frac{1}{4}(a^2\cos^2\theta + b^2\sin^2\theta),\\]
+\\[M_{0, 2}' = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\\]
+\\[M_{1, 1}' = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\\]
 Then we can define a complex ellipticity which goes like
 \\[\tilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\\]
 And it turns out to be
