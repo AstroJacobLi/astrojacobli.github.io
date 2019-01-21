@@ -25,8 +25,15 @@ The order of moment is defined as $$m+n$$. Here after we usually assume a unity 
 
 - Zero order moment: $$M_{0, 0} = \sum_x \sum_y I(x, y)$$ is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.
 - First order moment: $$M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}$$ is the $$x$$ centroid of the image with an arbitrary coordinate origin. The centroid of image is $$(M_{1, 0}, M_{0, 1})$$. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.
-{% include image.html url="/images/ellipse-moment.png" caption="Second order moment of ellipse" width=280 align="right" %}
-- Second order moment: Here we discuss the second order moment of an ellipse with constance surface brightness $$\mu$$ (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. 
+{% include image.html url="/images/ellipse-moment.png" caption="Second order moments of ellipse" width=280 align="right" %}
+- Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness $$\mu$$ (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it's straightforward to calculate its second order moments as:
+\\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\\]
+We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by $$\theta$$ (pink ellipse). We are very familiar with the coordinate transformation between $$(x, y)$$ and $$(x', y')$$, which is written as
+\\[x' = \cos\theta x - \sin\theta y,\ y' = \sin\theta x + \cos\theta y.\\]
+Plug in these transformation and express $$M_{2, 0}'$$ using $$M_{2, 0},\ M_{0, 2},\ M_{1,1}$$, also noticing the Jacobian of this transformation is unity, we have:
+\\[M_{2, 0}' = \frac{1}{4}(\cos^2\theta a^2 + \sin^2\theta b^2),\\]
+\\[M_{0, 2}' = \frac{1}{4}(\sin^2\theta a^2 + \cos^2\theta b^2),\\]
+\\[M_{1, 1}' = \frac{1}{4}\sin\theta\cos\theta(a^2 - b^2).\\]
 
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
