@@ -63,6 +63,9 @@ The final goal of deblending is to separate the lights from blended objects, and
 
 Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It's easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package [`scarlet`](https://arxiv.org/abs/1802.10157) based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) [&#x1f517;](https://arxiv.org/abs/1810.10098).
 
+#### Image Combination
+http://adsabs.harvard.edu/abs/2011ApJ...741...46R
+
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
 ## [The Faintest Dwarf Galaxies](https://arxiv.org/abs/1901.05465)
