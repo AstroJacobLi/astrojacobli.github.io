@@ -35,7 +35,7 @@ Plug in these transformation and express $$M_{2, 0}'$$ using $$M_{2, 0},\ M_{0, 
 \\[M_{0, 2}' = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\\]
 \\[M_{1, 1}' = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\\]
 Then we can define a complex ellipticity which goes like
-\\[\widetilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\\]
+\\[\widetilde{e} = \frac{M_{2, 0}' - M_{0, 2}' + 2i M_{1, 1}'}{M_{2, 0}' + M_{0, 2}'}.\\]
 And it turns out to be
 \\[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\\]
 where $$q$$ is the axis ratio $$b/a$$, and $$ (1-q^2) / (1+q^2) = e$$ is the ellipticity of the ellipse. Thus
@@ -56,7 +56,10 @@ The effective PSF is composed of atmospheric PSF, optical PSF, pixel response di
 - Brighter-fatter effect. The electric field sourced by charges accumulated within a pixel can deflect the later coming electrons away, and the consequence is to enlarge the boundaries of the object. So we don't measure PSF from bright stars. Also saturation is an additional factor.
 - Some other defects of detectors can also considered as systematics. The difference of pixel sized among all pixels results in astrometric and photometric errors. The responding of pixels may also correlated with galaxy shape and position. In the next generation near infrared survey (WFIRST), we need to mitigate systematics related to NIR detector defects (they are not CCDs).
 
-
+#### Deblending
+The final goal of deblending is to separate the lights from blended objects, and then measure the shapes. There are generally two kinds of blending. One is called 'recognized blending', in which you/algorithms can clearly detect two or more objects. The other is called 'unrecognized blending', in which you cannot tell things apart by eyes/algorithms easily. 
+- Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).
+- Deblending allow us to give sources better photo-$$z$$. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-$$z$$ can go weird. 
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 

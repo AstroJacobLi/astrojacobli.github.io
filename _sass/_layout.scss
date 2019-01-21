@@ -209,14 +209,15 @@ h1 /* .post-title */ {
 		font-style: bold;
         font-weight: 500;
         font-size: 23px;
-
+        color: #fb6500;
         @include media-query($on-laptop) {
 /*            font-size: 25px; */
         }
     }
 
     h4 {font-family: 'Times New Roman', serif;
-        ont-size: 20px; 
+        color: #1fe37b;
+        ont-size: 22px; 
         font-weight: 500;
 
         @include media-query($on-laptop) {
