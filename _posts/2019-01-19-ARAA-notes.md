@@ -34,7 +34,13 @@ Plug in these transformation and express $$M_{2, 0}'$$ using $$M_{2, 0},\ M_{0, 
 \\[M_{2, 0}' = \frac{1}{4}(\cos^2\theta a^2 + \sin^2\theta b^2),\\]
 \\[M_{0, 2}' = \frac{1}{4}(\sin^2\theta a^2 + \cos^2\theta b^2),\\]
 \\[M_{1, 1}' = \frac{1}{4}\sin\theta\cos\theta(a^2 - b^2).\\]
-
+Then we can define a complex ellipticity which goes like
+\\[\tilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\\]
+And it turns out to be
+\\[\tilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\\]
+where $$q$$ is the axis ratio $$b/a$$, and $$ (1-q^2) / (1+q^2) = e$$ is the ellipticity of the ellipse. Thus
+\\[\tilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\\]
+Hence we have many combinations to express the shape (ellipticity and position angle) and size: $$(\theta, e)$$, $$(e_1, e_2)$$, etc.
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
