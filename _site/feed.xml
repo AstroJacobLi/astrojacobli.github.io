@@ -4,20 +4,51 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>https://astrojacobli.github.io/</link>
-    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Jan 2019 15:11:35 -0800</pubDate>
-    <lastBuildDate>Wed, 16 Jan 2019 15:11:35 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Jan 2019 16:50:56 -0800</pubDate>
+    <lastBuildDate>Sun, 20 Jan 2019 16:50:56 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>astro-ph Reading in 2019</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list-in-2019&quot;&gt;Astro-ph Reading List in 2019&lt;/h1&gt;
-
-&lt;h2 id=&quot;011419---012119&quot;&gt;01/14/19 - 01/21/19&lt;/h2&gt;
 &lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
 
-&lt;h3 id=&quot;still-missing-dark-matter-kcwi-high-resolution-stellar-kinematics-of-ngc1052-df2&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.03711v1&quot;&gt;Still Missing Dark Matter: KCWI High-Resolution Stellar Kinematics of NGC1052-DF2&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&quot;011419---012119&quot;&gt;01/14/19 - 01/21/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;sdss-iv-manga-inside-out-vs-outside-in-quenching-in-different-local-environments&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05126&quot;&gt;SDSS-IV MaNGA: Inside-out vs. outside-in quenching in different local environments&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-massive-survey---xii-connecting-stellar-populations-of-early-type-galaxies-to-kinematics-and-environment-by-jenny-greene&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.01271&quot;&gt;The MASSIVE Survey - XII Connecting Stellar Populations of Early-Type Galaxies to Kinematics and Environment, by Jenny Greene&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;a-mass-dependent-slope-of-the-galaxy-size-mass-relation-out-to-z3-further-evidence-for-a-direct-relation-between-median-galaxy-size-and-median-halo-mass-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05014v1&quot;&gt;A mass-dependent slope of the galaxy size-mass relation out to z~3: further evidence for a direct relation between median galaxy size and median halo mass, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Continued from the following paper, which says &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; may be related to galaxy halo. This paper studies this further and gets some interesting results. After reading this paper, I feel intensively that good science is linking difference fields. Dirac linked analytical mechanics (Poisson brackets) with quantum phenomena, then quantum mechanics was born. This paper superficially links the stellar mass - &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; size diagram with the well-known stellar mass - halo mass relation, and get some interesting (maybe wrong, maybe correct) results.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05017v1&quot;&gt;Miller et al. 2019&lt;/a&gt; already shows that the stellar mass - &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; size diagram cannot tell the SF and passive galaxies apart. Fig. 1 shows that the median lines of stellar mass - &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; size diagram are like two pieces of power law. Then they fit this ‘broken power law’ and define the pivot mass &lt;script type=&quot;math/tex&quot;&gt;M_{p}&lt;/script&gt;, where the line turns up a little bit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then they find the pivot mass evolve with redshift significantly. The first slope (which is lower) changes slightly over redshift, but the second slope changes much. Actually the first slope (piece) is just composed of the passive galaxy branch, and the second slope (piece) is presented by SF galaxies.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Most interestingly, they remind of the stellar mass - halo mass relation. If the x-axis is stellar mass and y-axis is halo mass, the SMHM relation resembles this stellar mass - size diagram in &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt;. So what’s the physics behind this? First, the halo mass is proportional to the cubed virial radius &lt;script type=&quot;math/tex&quot;&gt;R_{vir}&lt;/script&gt;. And if &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; is proportional to &lt;script type=&quot;math/tex&quot;&gt;R_{vir}&lt;/script&gt;, then it’s reasonable that &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; is a proxy of halo mass. So they just fit this coefficient for the most nearby redshift bin and find &lt;script type=&quot;math/tex&quot;&gt;r_{80} = 0.047 R_{vir}&lt;/script&gt;. Assuming this holds for all redshift ranges, they plot SMHM relation predicted by &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt;, which is now a proxy of halo mass. They find it’s good to &lt;script type=&quot;math/tex&quot;&gt;z\sim 2&lt;/script&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In measuring the SMHM relation, there are many methods such as g-g lensing and clustering (which is more direct and more observational), abundance matching, and halo occupation distribution. But different methods gives different results and have different detection ability on redshift. They author also define a pivot masses for the SMHM relations and study their evolution. They don’t match with stellar mass - size one. So they suspect the intrinsic scatter may cause huge caveat when convert a halo-to-stellar relation to stellar-to-halo relation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;a-new-view-of-the-size-mass-distribution-of-galaxies-using-r_20-and-r_80-instead-of-r_50-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05017v1&quot;&gt;A New View of the Size-Mass Distribution of Galaxies: Using &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; instead of &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt;, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The classfication of galaxies can not only based on stellar mass - color diagram (also stellar mass - SFR diagram), bust also based on stellar mass - size diagram. In the past, people usually use the effective radius &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt; as a proxy of galaxy size. (But I have been suspecting how well can &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt; describe the size of a galaxy for a long time.) As a common sense, massive elliptical galaxies are more extended in the outskirts, but spirals are not. If we fit a galaxy using a single Sersic model, ellipticals tend to have larger Sersic index &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;. In this paper, Pieter and his collaborators check what would happen if we use &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; as proxies of galaxy sizes. And I remember that Sandy Faber talked about this quite a lot in a colloquium in KIAA.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This paper is quite straightforward. (But I didn’t dig deep into the sample selection part.) They find that if we use &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt;, then using the stellar mass - size diagram can easily distinguish star-forming and passive galaxies apart. But using &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt;, SF and passive behaves similarly.&lt;/li&gt;
+  &lt;li&gt;In this paper, authors use some new algorithms/terms in statistics: &lt;a href=&quot;https://cran.r-project.org/web/packages/diptest/&quot;&gt;Hartigan’s dip test&lt;/a&gt;; Gaussian mixture models; Bayesian information criterion; Ashman’s &lt;script type=&quot;math/tex&quot;&gt;D&lt;/script&gt; parameter; Kolmogorov-Smirnov test. But actually these are also straightforward.&lt;/li&gt;
+  &lt;li&gt;They suspect &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt; has something to do with star-forming / quenching. Since &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; is not very different between SF and passive galaxies, it may be related to the galaxy halo.&lt;/li&gt;
+  &lt;li&gt;Besides, I find that log-normal distribution is interesting, see this paper &lt;a href=&quot;https://academic.oup.com/bioscience/article/51/5/341/243981&quot;&gt;Log-normal distributions across the science: keys and clues&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;still-missing-dark-matter-kcwi-high-resolution-stellar-kinematics-of-ngc1052-df2-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.03711v1&quot;&gt;Still Missing Dark Matter: KCWI High-Resolution Stellar Kinematics of NGC1052-DF2, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;On how to measure the velocity dispersion directly from spectrum, I found a paper by Luis Ho in 2002: &lt;a href=&quot;http://iopscience.iop.org/article/10.1086/343840/pdf&quot;&gt;A Study of the Direct Fitting Method for Measurement of Galaxy Velocity Dispersions&lt;/a&gt;. The main idea in this paper is:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;In measuring velocity dispersion, it’s convenient to use &lt;script type=&quot;math/tex&quot;&gt;x = \ln(\lambda)&lt;/script&gt; scale, because &lt;script type=&quot;math/tex&quot;&gt;x' = \ln[\lambda(1+z)] = x + \ln(1+z) \approx x + z&lt;/script&gt; for &lt;script type=&quot;math/tex&quot;&gt;z\ll 1&lt;/script&gt;.&lt;/li&gt;
@@ -34,13 +65,56 @@
 
 &lt;p&gt;How to calculate the dynamical mass given the velocity dispersion? I need to figure out.&lt;/p&gt;
 
+&lt;p&gt;Intrinsic shape or rotation axis (minor axis rotation.)&lt;/p&gt;
+
+&lt;p&gt;Kevin: it’s not necessarily weird that we detect a galaxy lacking dark matter in its central region. Given the large scatter of halo mass and halo concentration of a given stellar mass in the low-mass end, it’s probably that we just encountered a galaxy with low halo mass and low halo concentration.&lt;/p&gt;
+
+&lt;h2 id=&quot;araa-papers&quot;&gt;ARAA papers&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/li&gt;
+  &lt;li&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.01428v1&quot;&gt;The Most Luminous Supernovae&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;gaussian-process&quot;&gt;Gaussian process&lt;/h2&gt;
+&lt;p&gt;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&lt;/p&gt;
+
 &lt;p&gt;Vox Charta Key: jiaxuan_li@PKU&lt;/p&gt;
 
-&lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
+&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 16 Jan 2019 03:38:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</guid>
+        <pubDate>Sun, 20 Jan 2019 07:38:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2019/01/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/astro-ph-2019</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>ARAA notes</title>
+        <description>&lt;h1 id=&quot;araa-notes&quot;&gt;ARAA notes&lt;/h1&gt;
+&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;h2 id=&quot;weak-lensing-for-precision-cosmology-by-rachel-mandelbaum&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928&quot;&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&quot;moments-of-images&quot;&gt;Moments of images&lt;/h4&gt;
+&lt;p&gt;The moment of a distribution is defined as a kind of average (this definition is straightforward):
+&lt;script type=&quot;math/tex&quot;&gt;M_{m, n} = \frac{\int \rho(x, y)x^m y^n \md x\md y}{\int \rho(x, y)\md x\md y}.&lt;/script&gt;
+Thus&lt;/p&gt;
+
+&lt;h2 id=&quot;the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756&quot;&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-faintest-dwarf-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-most-luminous-supernovae&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.01428v1&quot;&gt;The Most Luminous Supernovae&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 19 Jan 2019 13:38:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2019/01/ARAA-notes</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ARAA-notes</guid>
         
         
         <category>paper</category>
@@ -328,8 +402,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
+        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
@@ -400,8 +474,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 </description>
         <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Writing</guid>
+        <link>http://localhost:4000/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -410,7 +484,10 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
     
       <item>
         <title>Statistics and Python</title>
-        <description>&lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;gaussian-process&quot;&gt;Gaussian Process&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process for Machine Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
 
 &lt;h3 id=&quot;data-analysis-recipes-fitting-a-model-to-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1008.4686&quot;&gt;Data analysis recipes: Fitting a model to data&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id=&quot;data-analysis-recipes-probability-calculus-for-inference&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1205.4446v1&quot;&gt;Data analysis recipes: Probability calculus for inference&lt;/a&gt;&lt;/h3&gt;
@@ -487,8 +564,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 18 Dec 2018 13:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</guid>
+        <link>http://localhost:4000/blog/2018/12/Statistics-and-Python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -561,8 +638,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 17 Dec 2018 02:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/sky-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/sky-surveys</guid>
+        <link>http://localhost:4000/blog/2018/12/sky-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/sky-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -609,8 +686,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 05:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Miscellany</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Miscellany</guid>
+        <link>http://localhost:4000/blog/2018/12/Miscellany</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -683,8 +760,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pca.fit_transform&lt;/code&gt; = first &lt;code class=&quot;highlighter-rouge&quot;&gt;fit&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 02:18:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/Scikit-learn</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Scikit-learn</guid>
+        <link>http://localhost:4000/blog/2018/12/Scikit-learn</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Scikit-learn</guid>
         
         
         <category>coding</category>
@@ -718,8 +795,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
+        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -739,140 +816,11 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
+        <link>http://localhost:4000/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>
-        
-      </item>
-    
-      <item>
-        <title>Macbook for Astronomy</title>
-        <description>&lt;h1 id=&quot;set-up-your-new-macbook-for-astronomy--astrophysics&quot;&gt;Set up your new MacBook for astronomy &amp;amp; astrophysics!&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.anaconda.com/download/#macos&quot;&gt;Anaconda&lt;/a&gt;: Both python3 and python2 are OK.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://astroconda.readthedocs.io/en/latest/&quot;&gt;Astroconda&lt;/a&gt;: Add &lt;code class=&quot;highlighter-rouge&quot;&gt;astroconda&lt;/code&gt; channel to your conda list, and then set up a new environment &lt;code class=&quot;highlighter-rouge&quot;&gt;iraf27&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Xcode: Download &lt;code class=&quot;highlighter-rouge&quot;&gt;Xcode&lt;/code&gt; from your Mac AppStore.&lt;/li&gt;
-  &lt;li&gt;Useful python packages: &lt;a href=&quot;https://github.com/esheldon/fitsio&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fitsio&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;http://dfm.io/emcee/current/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;http://dfm.io/emcee/current/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt; (a quick package for cosmology written in C)&lt;/a&gt;, &lt;a href=&quot;https://github.com/tqdm/tqdm&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tqdm&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.xquartz.org&quot;&gt;XQuartz&lt;/a&gt;: graphics library for ds9.&lt;/li&gt;
-  &lt;li&gt;Activating DS9: &lt;code class=&quot;highlighter-rouge&quot;&gt;export DISPLAY=:0.0&lt;/code&gt; in your terminal.&lt;/li&gt;
-  &lt;li&gt;LaTeX environment: &lt;a href=&quot;http://www.tug.org/mactex/&quot;&gt;MacTex&lt;/a&gt; works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, &lt;code class=&quot;highlighter-rouge&quot;&gt;TexStudio&lt;/code&gt; is really really good.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Consolas&lt;/code&gt; font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mendeley.com&quot;&gt;Mendeley&lt;/a&gt;: paper management and reader, worth trying.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://slack.com/downloads/osx&quot;&gt;Slack&lt;/a&gt;: definitely a good tool for communication and cooperation.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/topcat/&quot;&gt;TOPCAT&lt;/a&gt;: Best tool for manipulating tables, best assistant of catalog astrophysicist.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.star.bris.ac.uk/~mbt/stilts/&quot;&gt;STILTS&lt;/a&gt;: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.wolfram.com/mathematica/&quot;&gt;Mathematica&lt;/a&gt;: Best language to do mathematical physics study.&lt;/li&gt;
-  &lt;li&gt;Don’t know how to write your symbol in latex? Use &lt;a href=&quot;http://detexify.kirelabs.org/classify.html&quot;&gt;Detexify&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;Jesus! Get LaTeX code from the screenshots: &lt;a href=&quot;https://mathpix.com&quot;&gt;&lt;strong&gt;MathPix&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Jazz up your terminal &lt;strong&gt;(but I failed)&lt;/strong&gt;: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22&lt;/li&gt;
-  &lt;li&gt;It’s hard to get your hands on &lt;code class=&quot;highlighter-rouge&quot;&gt;vim&lt;/code&gt; without a &lt;a href=&quot;http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html&quot;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A useful widget &lt;code class=&quot;highlighter-rouge&quot;&gt;cosmoWidget&lt;/code&gt; to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html&lt;/li&gt;
-  &lt;li&gt;LaTeX package for SI units: &lt;a href=&quot;https://ctan.org/pkg/siunitx&quot;&gt;siunitx&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;when-your-terminal-cannot-recognize-anything-do-this&quot;&gt;&lt;strong&gt;When your terminal cannot recognize anything, do this:&lt;/strong&gt;&lt;/h4&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sbin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bin&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;install-the-tractor&quot;&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/dstndstn/tractor&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;the Tractor&lt;/code&gt;&lt;/a&gt; is a probability-based astronomical source detection &amp;amp; measurement tool, written by Dustin Lang and David Hogg.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Make sure you have installed XCode from Mac AppStore. Then execute:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;switch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Applications&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Xcode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Contents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Developer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install fitsio: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install fitsio&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install emcee: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ pip install emcee&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install Homebrew: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Using Homebrew to install cairo: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install cairo&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install jpeg: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install jpge&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Add these paths to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/usr/local/opt/libffi/lib/pkgconfig&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-L/usr/local/opt/libffi/lib&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/usr/local/opt/openssl/lib/pkgconfig&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/usr/local/opt/openssl/bin:$PATH&quot;&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-L/usr/local/opt/openssl/lib&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CPPFLAGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;-I/usr/local/opt/openssl/include&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Sometimes &lt;code class=&quot;highlighter-rouge&quot;&gt;cairos&lt;/code&gt; still doesn’t work. Then you can:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;atleast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.12.2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cairo&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$?&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;launchctl&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;load&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LaunchDaemons&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plist&lt;/span&gt; 
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;locate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cairo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pc&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pkgconfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Then do this again:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;atleast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.12.2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cairo&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$?&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;If it returns a 0 then all is well in the hood.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Download &lt;code class=&quot;highlighter-rouge&quot;&gt;astrometry.net&lt;/code&gt; package:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wget&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astrometry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astrometry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bz2&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xjf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;astrometry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bz2&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;astrometry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-*&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;astrometry.net&lt;/code&gt;:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;make&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;extra&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;INSTALL_DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=~/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Research&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astrometry&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;swig&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;$ brew install swig&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;tractor&lt;/code&gt;: first go to its folder, then
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;make&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;😂 You get it! 👏&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;references&quot;&gt;References&lt;/h4&gt;
-&lt;p&gt;http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy&lt;/p&gt;
-
-&lt;p&gt;http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps&lt;/p&gt;
-
-&lt;p&gt;https://github.com/dstndstn/tractor&lt;/p&gt;
-
-&lt;p&gt;http://macappstore.org/swig/&lt;/p&gt;
-
-&lt;p&gt;https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Oct 2018 17:40:00 -0700</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</guid>
-        
-        
-        <category>Coding</category>
         
       </item>
     
