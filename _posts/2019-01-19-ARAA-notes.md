@@ -58,8 +58,10 @@ The effective PSF is composed of atmospheric PSF, optical PSF, pixel response di
 
 #### Deblending
 The final goal of deblending is to separate the lights from blended objects, and then measure the shapes. There are generally two kinds of blending. One is called 'recognized blending', in which you/algorithms can clearly detect two or more objects. The other is called 'unrecognized blending', in which you cannot tell things apart by eyes/algorithms easily. 
-- Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).
-- Deblending allow us to give sources better photo-$$z$$. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-$$z$$ can go weird. 
+1. Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).
+2. Deblending allow us to give sources better photo-$$z$$. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-$$z$$ can go weird. 
+
+Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It's easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package [`scarlet`](https://arxiv.org/abs/1802.10157) based on multi-band images. And guys at UCSC also try to deblend images using GAN [:link:](https://arxiv.org/abs/1810.10098).
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
