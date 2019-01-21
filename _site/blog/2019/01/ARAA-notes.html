@@ -55,8 +55,8 @@ MathJax.Hub.Config({
   <meta name="description" content="ARAA notesFeel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.Weak Lensing for Pre...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2019/01/ARAA-notes">
-  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://astrojacobli.github.io/blog/2019/01/ARAA-notes">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="https://astrojacobli.github.io/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -179,10 +179,53 @@ MathJax.Hub.Config({
 <p>Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.</p>
 
 <h2 id="weak-lensing-for-precision-cosmology-by-rachel-mandelbaum"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928">Weak Lensing for Precision Cosmology, by Rachel Mandelbaum</a></h2>
-<h4 id="moments-of-images">Moments of images</h4>
-<p>The moment of a distribution is defined as a kind of average (this definition is straightforward):
-<script type="math/tex">M_{m, n} = \frac{\int \rho(x, y)x^m y^n \md x\md y}{\int \rho(x, y)\md x\md y}.</script>
-Thus</p>
+
+<h3 id="moments-of-images">Moments of images</h3>
+<p>The moment of a 2-D distribution about the point <script type="math/tex">(c_x, c_y)</script> is defined as a kind of average (this definition is straightforward):
+\[M_{m, n} = \frac{\int \rho(x, y) (x-c_x)^m (y-c_y)^n \md x\md y}{\int \rho(x, y)\md x\md y}.\]</p>
+
+<p>The moment can be generalized with a weighting function:
+\[M_{m, n} = \frac{\int I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\int I(x, y)W(x, y)\md x\md y},\]
+where <script type="math/tex">I(x, y)</script> is the intensity map and <script type="math/tex">W(x, y)</script> is a weighting function.</p>
+
+<p>Since the images are discrete instead of continuous, we write the integral to summation:
+\[M_{m, n} = \frac{\sum_x \sum_y I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\sum_x \sum_y  I(x, y)W(x, y)\md x\md y}.\]</p>
+
+<p>The order of moment is defined as <script type="math/tex">m+n</script>. Here after we usually assume a unity weighting function.</p>
+
+<ul>
+  <li>Zero order moment: <script type="math/tex">M_{0, 0} = \sum_x \sum_y I(x, y)</script> is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.</li>
+  <li>First order moment: <script type="math/tex">M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}</script> is the <script type="math/tex">x</script> centroid of the image with an arbitrary coordinate origin. The centroid of image is <script type="math/tex">(M_{1, 0}, M_{0, 1})</script>. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.</li>
+</ul>
+<dl class="wp-caption alignright" style="width: 280px">
+
+<dt><a href=""><img class="" src="/images/ellipse-moment.png" alt="Second order moments of ellipse" /></a></dt>
+
+<dd>Second order moments of ellipse</dd>
+</dl>
+
+<ul>
+  <li>
+    <p>Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness <script type="math/tex">\mu</script> (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it’s straightforward to calculate its second order moments as:
+\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\]
+We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by <script type="math/tex">\theta</script> (pink ellipse). We are very familiar with the coordinate transformation between <script type="math/tex">(x, y)</script> and <script type="math/tex">(x', y')</script>, which is written as
+\[x’ = x\cos\theta - y\sin\theta,\ y’ = x\sin\theta + y\cos\theta.\]
+Plug in these transformation and express <script type="math/tex">M_{2, 0}'</script> using <script type="math/tex">M_{2, 0},\ M_{0, 2},\ M_{1,1}</script>, also noticing the Jacobian of this transformation is unity, we have:
+\[M_{2, 0}’ = \frac{1}{4}(a^2\cos^2\theta + b^2\sin^2\theta),\]
+\[M_{0, 2}’ = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\]
+\[M_{1, 1}’ = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\]
+Then we can define a complex ellipticity which goes like
+\[\widetilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\]
+And it turns out to be
+\[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\]
+where <script type="math/tex">q</script> is the axis ratio <script type="math/tex">b/a</script>, and <script type="math/tex">(1-q^2) / (1+q^2) = e</script> is the ellipticity of the ellipse. Thus
+\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\]
+Hence we have many combinations to express the shape (ellipticity and position angle) and size: <script type="math/tex">(\theta, e)</script>, <script type="math/tex">(e_1, e_2)</script>, etc.</p>
+  </li>
+  <li>
+    <p>Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave.</p>
+  </li>
+</ul>
 
 <h2 id="the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756">The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker</a></h2>
 

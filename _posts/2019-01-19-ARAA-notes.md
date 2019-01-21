@@ -42,6 +42,9 @@ where $$q$$ is the axis ratio $$b/a$$, and $$ (1-q^2) / (1+q^2) = e$$ is the ell
 \\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\\]
 Hence we have many combinations to express the shape (ellipticity and position angle) and size: $$(\theta, e)$$, $$(e_1, e_2)$$, etc.
 
+- Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave.
+ 
+
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
 ## [The Faintest Dwarf Galaxies](https://arxiv.org/abs/1901.05465)

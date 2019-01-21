@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Jan 2019 16:50:56 -0800</pubDate>
-    <lastBuildDate>Sun, 20 Jan 2019 16:50:56 -0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Jan 2019 18:41:09 -0800</pubDate>
+    <lastBuildDate>Sun, 20 Jan 2019 18:41:09 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -85,8 +85,8 @@
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Jan 2019 07:38:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2019/01/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/astro-ph-2019</guid>
+        <link>https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -99,10 +99,53 @@
 &lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
 
 &lt;h2 id=&quot;weak-lensing-for-precision-cosmology-by-rachel-mandelbaum&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928&quot;&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/a&gt;&lt;/h2&gt;
-&lt;h4 id=&quot;moments-of-images&quot;&gt;Moments of images&lt;/h4&gt;
-&lt;p&gt;The moment of a distribution is defined as a kind of average (this definition is straightforward):
-&lt;script type=&quot;math/tex&quot;&gt;M_{m, n} = \frac{\int \rho(x, y)x^m y^n \md x\md y}{\int \rho(x, y)\md x\md y}.&lt;/script&gt;
-Thus&lt;/p&gt;
+
+&lt;h3 id=&quot;moments-of-images&quot;&gt;Moments of images&lt;/h3&gt;
+&lt;p&gt;The moment of a 2-D distribution about the point &lt;script type=&quot;math/tex&quot;&gt;(c_x, c_y)&lt;/script&gt; is defined as a kind of average (this definition is straightforward):
+\[M_{m, n} = \frac{\int \rho(x, y) (x-c_x)^m (y-c_y)^n \md x\md y}{\int \rho(x, y)\md x\md y}.\]&lt;/p&gt;
+
+&lt;p&gt;The moment can be generalized with a weighting function:
+\[M_{m, n} = \frac{\int I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\int I(x, y)W(x, y)\md x\md y},\]
+where &lt;script type=&quot;math/tex&quot;&gt;I(x, y)&lt;/script&gt; is the intensity map and &lt;script type=&quot;math/tex&quot;&gt;W(x, y)&lt;/script&gt; is a weighting function.&lt;/p&gt;
+
+&lt;p&gt;Since the images are discrete instead of continuous, we write the integral to summation:
+\[M_{m, n} = \frac{\sum_x \sum_y I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\sum_x \sum_y  I(x, y)W(x, y)\md x\md y}.\]&lt;/p&gt;
+
+&lt;p&gt;The order of moment is defined as &lt;script type=&quot;math/tex&quot;&gt;m+n&lt;/script&gt;. Here after we usually assume a unity weighting function.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Zero order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{0, 0} = \sum_x \sum_y I(x, y)&lt;/script&gt; is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.&lt;/li&gt;
+  &lt;li&gt;First order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}&lt;/script&gt; is the &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; centroid of the image with an arbitrary coordinate origin. The centroid of image is &lt;script type=&quot;math/tex&quot;&gt;(M_{1, 0}, M_{0, 1})&lt;/script&gt;. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 280px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/ellipse-moment.png&quot; alt=&quot;Second order moments of ellipse&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Second order moments of ellipse&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it’s straightforward to calculate its second order moments as:
+\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\]
+We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; (pink ellipse). We are very familiar with the coordinate transformation between &lt;script type=&quot;math/tex&quot;&gt;(x, y)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(x', y')&lt;/script&gt;, which is written as
+\[x’ = x\cos\theta - y\sin\theta,\ y’ = x\sin\theta + y\cos\theta.\]
+Plug in these transformation and express &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0}'&lt;/script&gt; using &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0},\ M_{0, 2},\ M_{1,1}&lt;/script&gt;, also noticing the Jacobian of this transformation is unity, we have:
+\[M_{2, 0}’ = \frac{1}{4}(a^2\cos^2\theta + b^2\sin^2\theta),\]
+\[M_{0, 2}’ = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\]
+\[M_{1, 1}’ = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\]
+Then we can define a complex ellipticity which goes like
+\[\widetilde{e} = \frac{M_{2, 0} - M_{0, 2} + 2i M_{1, 1}}{M_{2, 0} + M_{0, 2}}.\]
+And it turns out to be
+\[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\]
+where &lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt; is the axis ratio &lt;script type=&quot;math/tex&quot;&gt;b/a&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;(1-q^2) / (1+q^2) = e&lt;/script&gt; is the ellipticity of the ellipse. Thus
+\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\]
+Hence we have many combinations to express the shape (ellipticity and position angle) and size: &lt;script type=&quot;math/tex&quot;&gt;(\theta, e)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;(e_1, e_2)&lt;/script&gt;, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756&quot;&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/a&gt;&lt;/h2&gt;
 
@@ -113,8 +156,8 @@ Thus&lt;/p&gt;
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Sat, 19 Jan 2019 13:38:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2019/01/ARAA-notes</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ARAA-notes</guid>
+        <link>https://astrojacobli.github.io/blog/2019/01/ARAA-notes</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/01/ARAA-notes</guid>
         
         
         <category>paper</category>
@@ -402,8 +445,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
@@ -474,8 +517,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 </description>
         <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Writing</guid>
         
         
         <category>Astrophysics</category>
@@ -564,8 +607,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 18 Dec 2018 13:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Statistics-and-Python</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Statistics-and-Python</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</guid>
         
         
         <category>Coding</category>
@@ -638,8 +681,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 17 Dec 2018 02:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/sky-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/sky-surveys</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/sky-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/sky-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -686,8 +729,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 05:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Miscellany</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Miscellany</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/Miscellany</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Miscellany</guid>
         
         
         <category>Coding</category>
@@ -760,8 +803,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pca.fit_transform&lt;/code&gt; = first &lt;code class=&quot;highlighter-rouge&quot;&gt;fit&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 02:18:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Scikit-learn</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Scikit-learn</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/Scikit-learn</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Scikit-learn</guid>
         
         
         <category>coding</category>
@@ -795,8 +838,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 12 Nov 2018 16:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/IFU-surveys</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
@@ -816,8 +859,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 &lt;p&gt;SkyMap: &amp;lt;a href=”https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap”&amp;lt;/a&amp;gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Nov 2018 17:40:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/11/HSC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/HSC</guid>
+        <link>https://astrojacobli.github.io/blog/2018/11/HSC</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/11/HSC</guid>
         
         
         <category>Astrophysics</category>

@@ -243,10 +243,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -325,7 +325,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 14px;
+  font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eef; }
@@ -511,7 +511,7 @@ a.tosu {
   padding: 30px 0; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 25px; }
 
 .post-list {
   margin-left: 0;
@@ -534,37 +534,39 @@ a.tosu {
   margin-bottom: 30px; }
 
 h1 {
-  /*    font-size: 46px; */
+  font-size: 30px;
   letter-spacing: 0px;
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
   color: #522d80; }
   @media screen and (max-width: 950px) {
     h1 {
-      /*        font-size: 36px; */ } }
+      /*        font-size: 40px; */ } }
 
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Georgia', serif;
+    color: #94070a;
     font-weight: 500;
-    /*        font-size: 26px; */ }
+    font-size: 27px; }
     @media screen and (max-width: 950px) {
       .post-content h2 {
-        /*            font-size: 25px; */ } }
+        /*            font-size: 26px; */ } }
   .post-content h3 {
     font-style: bold;
     font-weight: 500;
-    /*        font-size: 26px; */ }
+    font-size: 23px; }
     @media screen and (max-width: 950px) {
       .post-content h3 {
-        /*            font-size: 22px; */ } }
+        /*            font-size: 25px; */ } }
   .post-content h4 {
-    /*       font-size: 20px; 
-            font-weight: 300; */ }
+    font-family: 'Arial', san-serif;
+    /*      font-size: 22px; 
+            font-weight: 400; */ }
     @media screen and (max-width: 950px) {
       .post-content h4 {
-        /*            font-size: 18px; */ } }
+        /*            font-size: 22px; */ } }
 
 .footnotes ol li {
   list-style-type: decimal; }

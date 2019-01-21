@@ -148,7 +148,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .post-list {
@@ -180,14 +180,14 @@
 }
 
 h1 /* .post-title */ {
-/*    font-size: 46px; */
+    font-size: 30px;
     letter-spacing: 0px;
     line-height: 1;
 		font-family: 'Titillium Web', sans-serif;
 		color: #522d80;
 
     @include media-query($on-laptop) {
-/*        font-size: 36px; */
+/*        font-size: 40px; */
     }
 }
 
@@ -195,31 +195,32 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Helvetica', sans-serif;
+		font-family: 'Georgia', serif;
+        color: $pku-red;
 	    font-weight: 500;
-/*        font-size: 26px; */
+        font-size: 27px;
 
         @include media-query($on-laptop) {
-/*            font-size: 25px; */
+/*            font-size: 26px; */
         }
     }
 
     h3 {
 		font-style: bold;
         font-weight: 500;
-/*        font-size: 26px; */
+        font-size: 23px;
 
         @include media-query($on-laptop) {
-/*            font-size: 22px; */
+/*            font-size: 25px; */
         }
     }
 
-    h4 {
-/*       font-size: 20px; 
-        font-weight: 300; */
+    h4 {font-family: 'Arial', san-serif;
+/*      font-size: 22px; 
+        font-weight: 400; */
 
         @include media-query($on-laptop) {
-/*            font-size: 18px; */
+/*            font-size: 22px; */
         }
     }
 }
