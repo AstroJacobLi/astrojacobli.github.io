@@ -21,9 +21,13 @@ where $$I(x, y)$$ is the intensity map and $$W(x, y)$$ is a weighting function.
 Since the images are discrete instead of continuous, we write the integral to summation:
 \\[M_{m, n} = \frac{\sum_x \sum_y I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\sum_x \sum_y  I(x, y)W(x, y)\md x\md y}.\\]
 
-The order of moment is defined as $$m+n$$.
+The order of moment is defined as $$m+n$$. Here after we usually assume a unity weighting function.
 
 - Zero order moment: $$M_{0, 0} = \sum_x \sum_y I(x, y)$$ is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.
+- First order moment: $$M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}$$ is the $$x$$ centroid of the image with an arbitrary coordinate origin. The centroid of image is $$(M_{1, 0}, M_{0, 1})$$. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.
+{% include image.html url="/images/ellipse-moment.png" caption="Second order moment of ellipse" width=280 align="right" %}
+- Second order moment: Here we discuss the second order moment of an ellipse with constance surface brightness $$\mu$$ (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. 
+
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
