@@ -30,6 +30,8 @@ permalink: /miscellany/art/
 - 東京喰種: [Unravel](https://www.bilibili.com/video/av29987777?from=search&seid=16925963579140350770), [Unravel Piano Cover](https://www.youtube.com/watch?v=sEQf5lcnj_o)
 
 # Chinese Music:
+- 逃跑计划: [闪光的回忆 Shining Memories](https://www.youtube.com/watch?v=kTHhOQJRHNU), [Brightest Star in the Sky](https://www.youtube.com/watch?v=mSO3e1N8lLU)
+
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
 # Painting:

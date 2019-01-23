@@ -64,6 +64,10 @@ The final goal of deblending is to separate the lights from blended objects, and
 Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It's easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package [`scarlet`](https://arxiv.org/abs/1802.10157) based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) [&#x1f517;](https://arxiv.org/abs/1810.10098).
 
 #### Image Combination
+We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called 'coadd'. But 'coadd' is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled. 
+- What is Nyquist sample rate? For a sinusoidal time series with frequency $$f$$, if the sampling rate (frequency) is smaller than $$2f$$, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below $$2f$$, you cannot distinguish between two frequencies since they behave similar under this sampling rate. 
+{% include image.html url="https://i.stack.imgur.com/B4hCQ.gif" caption="Nyquist Sampling Rate" width=300 align="right" %} 
+
 http://adsabs.harvard.edu/abs/2011ApJ...741...46R
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
