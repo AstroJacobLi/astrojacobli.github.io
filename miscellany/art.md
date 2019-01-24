@@ -7,6 +7,7 @@ permalink: /miscellany/art/
 ## Chopin
 - [Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
 - [Ballade No.1 in G minor, Op.23](https://www.youtube.com/watch?v=BK42YaHaJ5M)
+- [Piano Concerto No. 1 E-minor](https://www.youtube.com/watch?v=2bFo65szAP0)
 
 ## Rachmaninoff
 - [Piano Concerto No.2 in C minor, Op.18](https://www.youtube.com/watch?v=LQanRa1lUSQ)
