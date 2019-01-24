@@ -64,11 +64,19 @@ The final goal of deblending is to separate the lights from blended objects, and
 Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It's easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package [`scarlet`](https://arxiv.org/abs/1802.10157) based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) [&#x1f517;](https://arxiv.org/abs/1810.10098).
 
 #### Image Combination
-We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called 'coadd'. But 'coadd' is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled. 
-- What is Nyquist sample rate? For a sinusoidal time series with frequency $$f$$, if the sampling rate (frequency) is smaller than $$2f$$, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below $$2f$$, you cannot distinguish between two frequencies since they behave similar under this sampling rate. 
 {% include image.html url="https://i.stack.imgur.com/B4hCQ.gif" caption="Nyquist Sampling Rate" width=300 align="right" %} 
 
-http://adsabs.harvard.edu/abs/2011ApJ...741...46R
+We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called 'coadd'. But 'coadd' is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled. 
+- What is Nyquist sample rate? For a sinusoidal time series with frequency $$f$$, if the sampling rate (frequency) is smaller than $$2f$$, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below $$2f$$, you cannot distinguish between two frequencies since they behave similar under this sampling rate. 
+
+This paper [&#x1f517;](http://adsabs.harvard.edu/abs/2011ApJ...741...46R) describes the obstacle of space telescopes whose pixel sizes are limited by some reasons. If the pixel size is small and also large FOV is wanted, then you will need more CCDs, thus a heavier satellite will be launched with much more money. For Euclid, the pixel size is larger than the Nyquist pixel size (which is determined by the resolution $$\lambda/D$$), thus the images are under-sampled. But this can be mitigated by dithering, which is also image combination.
+
+For ground-based telescopes, there are basically two ways of using coadds. One is to do all science (measure flux, shape and estimate PSF) based on coadds. The other is to estimate PSF on the appropriate weighted combination of single-exposure PSF, but use coadds to measure properties of galaxies. This way doesn't waste the frame with best seeing.
+
+"Representing the galaxy and PSF models as sums of Gaussians with different scale radii can drastically speed up the calculations."
+
+#### Other Aspects of Image Processing
+Sky subtraction always affect everything. Errors in sky subtraction can cause coherent problems with object detection, photometry, and shear estimation near very bright objects—bright stars or collections of bright galaxies (e.g., in galaxy clusters).
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
