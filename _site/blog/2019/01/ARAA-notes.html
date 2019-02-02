@@ -163,7 +163,7 @@ MathJax.Hub.Config({
         <div class="post">
   <header class="post-header">
     <h1 class="post-title">ARAA notes</h1>
-    <p class="post-meta">Posted on January 19, 2019 by  Jiaxuan Li  
+    <p class="post-meta">Posted on January 20, 2019 by  Jiaxuan Li  
 
   in
   
@@ -251,6 +251,28 @@ Hence we have many combinations to express the shape (ellipticity and position a
 </ol>
 
 <p>Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It’s easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package <a href="https://arxiv.org/abs/1802.10157"><code class="highlighter-rouge">scarlet</code></a> based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) <a href="https://arxiv.org/abs/1810.10098">🔗</a>.</p>
+
+<h4 id="image-combination">Image Combination</h4>
+<dl class="wp-caption alignright" style="width: 300px">
+
+<dt><a href=""><img class="" src="https://i.stack.imgur.com/B4hCQ.gif" alt="Nyquist Sampling Rate" /></a></dt>
+
+<dd>Nyquist Sampling Rate</dd>
+</dl>
+
+<p>We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called ‘coadd’. But ‘coadd’ is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled.</p>
+<ul>
+  <li>What is Nyquist sample rate? For a sinusoidal time series with frequency <script type="math/tex">f</script>, if the sampling rate (frequency) is smaller than <script type="math/tex">2f</script>, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below <script type="math/tex">2f</script>, you cannot distinguish between two frequencies since they behave similar under this sampling rate.</li>
+</ul>
+
+<p>This paper <a href="http://adsabs.harvard.edu/abs/2011ApJ...741...46R">🔗</a> describes the obstacle of space telescopes whose pixel sizes are limited by some reasons. If the pixel size is small and also large FOV is wanted, then you will need more CCDs, thus a heavier satellite will be launched with much more money. For Euclid, the pixel size is larger than the Nyquist pixel size (which is determined by the resolution <script type="math/tex">\lambda/D</script>), thus the images are under-sampled. But this can be mitigated by dithering, which is also image combination.</p>
+
+<p>For ground-based telescopes, there are basically two ways of using coadds. One is to do all science (measure flux, shape and estimate PSF) based on coadds. The other is to estimate PSF on the appropriate weighted combination of single-exposure PSF, but use coadds to measure properties of galaxies. This way doesn’t waste the frame with best seeing.</p>
+
+<p>“Representing the galaxy and PSF models as sums of Gaussians with different scale radii can drastically speed up the calculations.”</p>
+
+<h4 id="other-aspects-of-image-processing">Other Aspects of Image Processing</h4>
+<p>Sky subtraction always affect everything. Errors in sky subtraction can cause coherent problems with object detection, photometry, and shear estimation near very bright objects—bright stars or collections of bright galaxies (e.g., in galaxy clusters).</p>
 
 <h2 id="the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756">The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker</a></h2>
 

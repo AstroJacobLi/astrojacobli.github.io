@@ -5,6 +5,7 @@ date:   2019-02-01 11:40:00
 author: Jiaxuan Li
 categories: Miscellany
 ---
+
 # Journey to the West
 
 偶然一次在Alexie办公室书架上看见了一本叫做“Journey to the West"的书，翻译作“西游记”。仅借“Journey to the West"作文来分享一下西游四个月的所见所闻所感。

@@ -3,9 +3,24 @@
   
     
     <url>
+      <loc>http://localhost:4000/blog/2019/02/US-journey</loc>
+      
+        <lastmod>2019-02-01T19:40:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/blog/2019/01/astro-ph-2019</loc>
       
-        <lastmod>2019-01-20T07:38:00-08:00</lastmod>
+        <lastmod>2019-01-20T23:38:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -20,7 +35,7 @@
     <url>
       <loc>http://localhost:4000/blog/2019/01/ARAA-notes</loc>
       
-        <lastmod>2019-01-19T13:38:00-08:00</lastmod>
+        <lastmod>2019-01-20T05:38:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -35,7 +50,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/astro-ph-2018</loc>
       
-        <lastmod>2018-12-31T03:38:00-08:00</lastmod>
+        <lastmod>2018-12-31T19:38:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -50,7 +65,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/Writing</loc>
       
-        <lastmod>2018-12-22T06:40:00-08:00</lastmod>
+        <lastmod>2018-12-22T22:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -65,7 +80,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/Statistics-and-Python</loc>
       
-        <lastmod>2018-12-18T13:40:00-08:00</lastmod>
+        <lastmod>2018-12-19T05:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -80,7 +95,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/sky-surveys</loc>
       
-        <lastmod>2018-12-17T02:40:00-08:00</lastmod>
+        <lastmod>2018-12-17T18:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -95,7 +110,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/Miscellany</loc>
       
-        <lastmod>2018-12-16T05:40:00-08:00</lastmod>
+        <lastmod>2018-12-16T21:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -110,7 +125,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/12/Scikit-learn</loc>
       
-        <lastmod>2018-12-10T02:18:00-08:00</lastmod>
+        <lastmod>2018-12-10T18:18:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -125,7 +140,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/11/IFU-surveys</loc>
       
-        <lastmod>2018-11-12T16:40:00-08:00</lastmod>
+        <lastmod>2018-11-13T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -140,7 +155,22 @@
     <url>
       <loc>http://localhost:4000/blog/2018/11/HSC</loc>
       
-        <lastmod>2018-11-01T17:40:00-07:00</lastmod>
+        <lastmod>2018-11-02T08:40:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/.htaccess</loc>
+      
+        <lastmod>2018-11-02T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -155,7 +185,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</loc>
       
-        <lastmod>2018-10-30T17:40:00-07:00</lastmod>
+        <lastmod>2018-10-31T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -170,7 +200,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/10/Interstellar-Medium</loc>
       
-        <lastmod>2018-10-16T17:40:00-07:00</lastmod>
+        <lastmod>2018-10-17T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -185,7 +215,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/10/Cosmology</loc>
       
-        <lastmod>2018-10-15T17:40:00-07:00</lastmod>
+        <lastmod>2018-10-16T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -200,7 +230,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/10/Plot-with-Python</loc>
       
-        <lastmod>2018-10-13T17:40:00-07:00</lastmod>
+        <lastmod>2018-10-14T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -215,7 +245,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/10/Dragonfly</loc>
       
-        <lastmod>2018-10-13T17:40:00-07:00</lastmod>
+        <lastmod>2018-10-14T08:40:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -230,7 +260,7 @@
     <url>
       <loc>http://localhost:4000/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</loc>
       
-        <lastmod>2018-01-16T00:00:00-08:00</lastmod>
+        <lastmod>2018-01-16T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -245,7 +275,7 @@
     <url>
       <loc>http://localhost:4000/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</loc>
       
-        <lastmod>2017-12-08T00:00:00-08:00</lastmod>
+        <lastmod>2017-12-08T00:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -261,7 +291,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -276,7 +306,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/art/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -291,7 +321,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -306,7 +336,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/cooking/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -321,7 +351,7 @@
     <url>
       <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -336,7 +366,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -351,7 +381,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -366,7 +396,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -381,7 +411,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -396,7 +426,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/photography/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -411,7 +441,7 @@
     <url>
       <loc>http://localhost:4000/research/</loc>
       
-        <lastmod>2019-01-20T22:28:38-08:00</lastmod>
+        <lastmod>2019-02-02T08:45:53+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
