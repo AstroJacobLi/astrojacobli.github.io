@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Astronomical Spectroscopy"
-date:   2019-01-19 21:38:00
+date:   2019-02-18 21:38:00
 author: Jiaxuan Li
 categories: paper
 ---
