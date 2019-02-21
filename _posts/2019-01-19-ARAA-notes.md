@@ -8,6 +8,9 @@ categories: paper
 # ARAA notes
 Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.
 
+## [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy](https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf)
+
+
 ## [Weak Lensing for Precision Cosmology, by Rachel Mandelbaum](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928)
 
 ### Moments of images
@@ -77,6 +80,8 @@ For ground-based telescopes, there are basically two ways of using coadds. One i
 
 #### Other Aspects of Image Processing
 Sky subtraction always affect everything. Errors in sky subtraction can cause coherent problems with object detection, photometry, and shear estimation near very bright objects—bright stars or collections of bright galaxies (e.g., in galaxy clusters).
+
+
 
 ## [The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker](https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756)
 
