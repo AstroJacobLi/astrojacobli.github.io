@@ -5,7 +5,26 @@ date:   2018-12-18 21:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
+# 普通统计学
+
+## 第一章
+
+调查的两种方法：实验和观察。观察到的信息无法做casual的判断，只能给出correlation。但是实验室做实验可以做出因果关系来。天文观测没法给出casaul link，这需要注意。天文观测没法控制变量。我们只能知道结果，但是可以通过贝叶斯方法来推断是什么原因产生了这些结果（通过一定的概率模型）。
+
+普查有time-delay。给定一个概率抽样，那么就可以算出抽样误差。
+
+整群抽样能够减小调查的成本，但是需要注意群与群之间差异要较小。
+
+非概率抽样很难做统计推断，很难推广到总体。
+
+一个个体被调查到的概率是$$p$$， 则其代表性是$$1/p$$.
+
+
+
+SImpson悖论：如果忘记了一些混淆因素，那么结论很可能完全不可信。
+
 # Gaussian Process
+
 [Gaussian Process for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
 
 # David Hogg's paper on Statistics
@@ -38,7 +57,8 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 - `emcee` employs _Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler._ But Metropolis-Hastings sampler and The Parallel-Tempered Ensemble Sampler (PTMCMC) can also be found in `emcee`. The PTMCMC is useful if you expect your distribution to be multi-modal.
 
 > Related to today’s discussion on MCMC:
-1.  About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In `emcee` the `autocorr.py` deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/
+>
+> 1.  About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In `emcee` the `autocorr.py` deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/
 2. The `dynesty` Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; `prospector` has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py
 3. About the `pickle` issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.
 4. About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use `cProfile` to profile the time spent on each functional call.  It is very easy to use.

@@ -76,3 +76,6 @@ categories: paper
   So excitation is only significant when temperature is about 20000 K. (Blue stars)
 
   For $$r$$-time ionization, Boltzmann Equation still holds for a fixed $$r$$.
+
+
+
