@@ -224,6 +224,16 @@ h1 /* .post-title */ {
 /*            font-size: 22px; */
         }
     }
+
+    h5 {font-family: 'Helvatica', sans-serif;
+        color: #007081;
+        font-size: 15px; 
+        font-weight: 500;
+
+        @include media-query($on-laptop) {
+/*            font-size: 22px; */
+        }
+    }
 }
 
 						.footnotes ol li {list-style-type:decimal;}
