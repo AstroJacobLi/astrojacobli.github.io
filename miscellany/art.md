@@ -56,6 +56,17 @@ permalink: /miscellany/art/
 
 # Poetry: 
 
+#### [To See a World... (Fragments from "Auguries of Innocence")](https://www.poetryloverspage.com/poets/blake/to_see_world.html)
+To see a World in a Grain of Sand
+
+And a Heaven in a Wild Flower,
+
+Hold Infinity in the palm of your hand 
+
+And Eternity in an hour.
+
+-- William Blake
+
 #### [春天，十个海子全都复活](https://mp.weixin.qq.com/s?__biz=MjM5NjU5NDkzMg==&mid=403930453&idx=1&sn=e6abf420422fc63496e7bbb6c8c9af9c&scene=23&srcid=0331HxqQV0HdlpB462qkgLkh#rd)
 远方只有在死亡中凝聚野花一片
 
