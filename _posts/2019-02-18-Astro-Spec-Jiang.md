@@ -81,4 +81,18 @@ categories: paper
 
 ## 第二讲 氢原子光谱
 
-电子分布率
+电子分布率 
+
+电子离中间最近
+
+年老星系中Na黄光，Mg线，Ca K H, Ca II (triplet) 线很明显很重要。
+
+UV is the best proxy of SFR. But UV will be attenuated by dust seriously. 
+
+FIR is the radiation of dust, FIR can be the proxy of starburst. 100-200 micron.
+
+反响映射: photons emitted from the accretion disk around BH are very energetic, they excite the atoms in the broad line region (far from BH), and the clouds in broad line region emit emission lines (H$$\beta$$). We learn the radial distance of broad line region from 反响映射, and we build empirical relations between distance and luminosity (continuum luminosity, near 5100 angstrom) of galaxy nucleus.  
+
+Balmer break: larger break, older this galaxy is.
+
+Fe[II] line: ~20000 K. Often appear in H[II] region.
