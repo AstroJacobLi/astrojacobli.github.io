@@ -81,3 +81,4 @@ categories: paper
 
 ## 第二讲 氢原子光谱
 
+电子分布率
