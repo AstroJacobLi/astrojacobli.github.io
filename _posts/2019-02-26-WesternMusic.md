@@ -247,3 +247,21 @@ Bach：只能在教堂里刷存在感，为上帝-为主子-为儿子
    3. 反击动机，预示着全面反攻
    4. 胜利动机！音响！
    5. 幻想交响曲
+
+贝五/七：Carlos Kleiber, 罗马尼亚指挥家 Sergiu Celibidache
+
+德奥音乐的特征：高度克制前提下尊重形式美感；结构整洁，秩序感，做人做事有边界，这就是classic的意思（有教养的）。
+
+## 第四讲 03/12/19
+
+西城故事、美洲美洲：音乐剧
+
+Trombone For Two: Be-Bop是爵士乐后期最高即兴炫技风格的称谓，给定主题后，每件乐器挨个即兴。上海曾为远东爵士乐中心，1949年以后Jazz在中国大陆绝迹。Igudensman & Joo二重奏土耳其进行曲。
+
+Das Gelbe Vom El: 威廉退尔
+
+听到重复的乐段会加强内心情感和共鸣
+
+Fantasi Symphonie: Idee Fixe 固定动机
+
+Dies Irae melody 中世纪圣咏《末日经》
