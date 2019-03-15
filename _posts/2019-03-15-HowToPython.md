@@ -6,7 +6,7 @@ author: Jiaxuan Li
 categories: Coding
 ---
 
-# How to use `Python` as an astronomer
+# How to use Python as an astronomer
 
 ## Data Visualization
 
@@ -18,7 +18,7 @@ Really really nice book on principles of plotting and visualizing data. Like it!
 hatch = ['///', '\\\\', 'XXX'] (in `fillbetween` function)
 
 
-### [Creating ``lupton`` RGB images](http://docs.astropy.org/en/stable/visualization/lupton_rgb.html)
+### [Creating Lupton RGB images](http://docs.astropy.org/en/stable/visualization/lupton_rgb.html)
 
 ## Useful `Python` packages in astrophysics:
 
