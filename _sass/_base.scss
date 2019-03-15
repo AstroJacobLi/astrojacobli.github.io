@@ -114,7 +114,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -128,28 +128,22 @@ blockquote {
 /**
  * Code formatting
  */
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 10px;
+}
+
 pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: 1px;
+    background-color: $grey-color-light;
 }
 
-code {
-    padding: 1px 5px;
-}
 
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
 
 
 

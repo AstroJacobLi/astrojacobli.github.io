@@ -51,11 +51,11 @@ MathJax.Hub.Config({
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Plot with Python</title>
-  <meta name="description" content="Notes for plotting in pythonhatch = [’///’, ‘\\’, ‘XXX’] (in fillbetween function)cosmology package by esheldonCreating lupton RGB images">
+  <title>Astronomical Spectroscopy</title>
+  <meta name="description" content="天体光谱学 — 江林华第一讲热动平衡下的热力学和统计物理一个热力学系统， are fixed. We assume energy levels  , and corresponding degeneracy  There are $n_1, n_2, …$ particles on each energy lev...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2018/10/Plot-with-Python">
+  <link rel="canonical" href="http://localhost:4000/blog/2019/02/Astro-Spec-Jiang">
   <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
@@ -162,12 +162,12 @@ MathJax.Hub.Config({
       <div class="wrapper">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Plot with Python</h1>
-    <p class="post-meta">Posted on October 14, 2018 by  Jiaxuan Li  
+    <h1 class="post-title">Astronomical Spectroscopy</h1>
+    <p class="post-meta">Posted on February 19, 2019 by  Jiaxuan Li  
 
   in
   
-  <a href="/categories/#Coding" title="Coding">Coding</a>&nbsp;
+  <a href="/categories/#paper" title="paper">paper</a>&nbsp;
   
 
 
@@ -175,13 +175,97 @@ MathJax.Hub.Config({
   </header>
 
   <article class="post-content">
-    <h2 id="notes-for-plotting-in-python"><a href="https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb">Notes for plotting in python</a></h2>
+    <h1 id="天体光谱学--江林华"><a href="http://kiaa.pku.edu.cn/~jiang/teaching.html#teach=class3">天体光谱学 — 江林华</a></h1>
 
-<p>hatch = [’///’, ‘\\’, ‘XXX’] (in <code class="highlighter-rouge">fillbetween</code> function)</p>
+<h2 id="第一讲">第一讲</h2>
 
-<h2 id="cosmology-package-by-esheldon"><a href="https://github.com/esheldon/cosmology"><code class="highlighter-rouge">cosmology</code> package by esheldon</a></h2>
+<h3 id="热动平衡下的热力学和统计物理">热动平衡下的热力学和统计物理</h3>
 
-<h2 id="creating-lupton-rgb-images"><a href="http://docs.astropy.org/en/stable/visualization/lupton_rgb.html">Creating <code class="highlighter-rouge">lupton</code> RGB images</a></h2>
+<p>一个热力学系统，<script type="math/tex">N, E, V</script> are fixed. We assume energy levels <script type="math/tex">\epsilon_1, \epsilon_2…</script> , and corresponding degeneracy <script type="math/tex">g_1, g_2, …</script> There are $n_1, n_2, …$ particles on each energy levels. Thus <script type="math/tex">\sum_i n_i = N, \sum_i n_i \epsilon_i = E</script> constrain this system.</p>
+
+<ul>
+  <li>
+    <p><strong>Boltzmann Distribution</strong></p>
+
+    <p>Particles are Discriminable.</p>
+
+    <p>Differentiate <script type="math/tex">\Omega_{M.B.} = \frac{N!}{\Pi_i n_i}\Pi_i g_i^{n_i}</script> and use the constrain above, we get Boltzmann Distribution. <script type="math/tex">n_i = g_i e^{- \alpha - \beta\epsilon_i}</script>.</p>
+  </li>
+  <li>
+    <p><strong>Bose-Einstein Distribution</strong></p>
+
+    <p>Particles are indistinguishable. And no Pauli law.
+<script type="math/tex">n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} - 1}.</script></p>
+  </li>
+  <li>
+    <p><strong>Fermi-Dirac Distribution</strong>
+<script type="math/tex">n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} + 1}.</script>
+Under classical limit, FD and BE distribution go back to Boltzmann.</p>
+  </li>
+  <li>
+    <p>Boltzmann Equation (so-called)</p>
+
+    <p><script type="math/tex">n_i = g_i e^{- \alpha - \beta\epsilon_i}</script>, thus <script type="math/tex">N = e^{-\alpha} \sum_i g_i e^{-\beta \epsilon_i} = e^{-\alpha} G</script>. We define partition function <script type="math/tex">G</script>. 
+<script type="math/tex">\frac{n_i}{N} = \frac{g_i}{G} e^{-\epsilon_i/k_BT}, \frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_j-\epsilon_i)/k_BT} .</script></p>
+  </li>
+  <li>
+    <p><strong>Maxwell Distribution</strong>
+<script type="math/tex">f_M(\vec{v}) = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right) = f(v_x) f(v_y) f(v_z).</script>
+This is <script type="math/tex">dP = f_M(\vec{v}) dv_x dv_y dv_z</script>.
+<script type="math/tex">F_M(v) = 4\pi v^2 \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right)</script>
+This is <script type="math/tex">dP = F_M(v) dv</script>.</p>
+  </li>
+</ul>
+
+<h3 id="原子跃迁和电离">原子跃迁和电离</h3>
+
+<ul>
+  <li>
+    <p>An atom jumps from <script type="math/tex">j</script> to <script type="math/tex">i</script>, we have ​<script type="math/tex">\frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_i-\epsilon_j)/k_BT} .</script></p>
+
+    <p>Recall <a href="https://en.wikipedia.org/wiki/Einstein_coefficients">Einstein coefficients</a>. See “Detailed Balancing”.</p>
+
+    <p>I once calculated the occupation of Cobalt in a radiation field for Ping, see this <a href="https://nbviewer.jupyter.org/github/astroJacobLi/astro-ph/blob/master/Ping/Cobalt.ipynb">notebook</a>, and this <a href="https://github.com/AstroJacobLi/astro-ph/tree/master/Ping">folder</a>.</p>
+  </li>
+  <li>
+    <p>Blackbody Radiation: 
+<script type="math/tex">r_B(\nu) = \frac{2\pi h \nu^3}{c^2} \frac{1}{e^{h\nu^/k_BT - 1}}.</script>
+This is the energy emitted in unit time unit area unit frequency, and has nothing to do with radiation direction.</p>
+  </li>
+  <li>
+    <p>Ionization</p>
+
+    <p><script type="math/tex">\chi_{0, 1}</script> Is not excited neutral atom. Former number is about ionization, latter number is about excitation.</p>
+
+    <p>Photo-electric: <script type="math/tex">h\nu = \chi_{r, k} + \frac{1}{2} m_e v^2</script>.</p>
+
+    <p>For <script type="math/tex">r</script>-time ionization: <script type="math/tex">\frac{n_{r, j}}{n_{r, i}} = \frac{g_{r, j}}{g_{r, i}} e^{-(\epsilon_i-\epsilon_j)/k_BT} .</script></p>
+
+    <p>For HI: $r=0, j=2, i=1$: <script type="math/tex">T(\text{K}) = 6000, 10000, 20000</script>, the corresponding <script type="math/tex">\frac{n_{0,2}}{n_{0,1}} = 10^{-8}, 3\times10^{-5}, 10^{-2}</script>.</p>
+
+    <p>So excitation is only significant when temperature is about 20000 K. (Blue stars)</p>
+
+    <p>For <script type="math/tex">r</script>-time ionization, Boltzmann Equation still holds for a fixed <script type="math/tex">r</script>.</p>
+  </li>
+</ul>
+
+<h2 id="第二讲-氢原子光谱">第二讲 氢原子光谱</h2>
+
+<p>电子分布率</p>
+
+<p>电子离中间最近</p>
+
+<p>年老星系中Na黄光，Mg线，Ca K H, Ca II (triplet) 线很明显很重要。</p>
+
+<p>UV is the best proxy of SFR. But UV will be attenuated by dust seriously.</p>
+
+<p>FIR is the radiation of dust, FIR can be the proxy of starburst. 100-200 micron.</p>
+
+<p>反响映射: photons emitted from the accretion disk around BH are very energetic, they excite the atoms in the broad line region (far from BH), and the clouds in broad line region emit emission lines (H<script type="math/tex">\beta</script>). We learn the radial distance of broad line region from 反响映射, and we build empirical relations between distance and luminosity (continuum luminosity, near 5100 angstrom) of galaxy nucleus.</p>
+
+<p>Balmer break: larger break, older this galaxy is.</p>
+
+<p>Fe[II] line: ~20000 K. Often appear in H[II] region.</p>
 
   </article>
 

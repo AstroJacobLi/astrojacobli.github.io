@@ -6,63 +6,314 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Feb 2019 08:54:33 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Feb 2019 08:54:33 +0800</lastBuildDate>
+    <pubDate>Fri, 15 Mar 2019 22:36:04 +0800</pubDate>
+    <lastBuildDate>Fri, 15 Mar 2019 22:36:04 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Journey to the West</title>
-        <description>&lt;h1 id=&quot;journey-to-the-west&quot;&gt;Journey to the West&lt;/h1&gt;
+        <title>大国崛起-钱乘旦</title>
+        <description>&lt;h1 id=&quot;大国崛起-rise-of-the-great-powers&quot;&gt;大国崛起 Rise of the Great Powers&lt;/h1&gt;
 
-&lt;p&gt;偶然一次在Alexie办公室书架上看见了一本叫做“Journey to the West”的书，翻译作“西游记”。仅借“Journey to the West”作文来分享一下西游四个月的所见所闻所感。&lt;/p&gt;
+&lt;h3 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h3&gt;
 
-&lt;p&gt;很荣幸能遇到这么多对我很有帮助而且很可爱的人。Alexie和黄崧（下称光头）自然不用说，Kevin Bundy做的一手好菜，尤其是muffin好吃极了；Douglas Lin林潮老师很热情的请我们去他家吃饭，席间讲了很多他的感受；David Koo跟所有人都自来熟，刚到Santa Cruz的几天他经常敲门跟我聊天，很遗憾的是走之前没来得及当面道别；室友张云皓申请路途坎坷不平，日常一起做饭看鬼畜扯犊子，他帮我搞清楚了下面要分享的很多东西。我很感激这些帮助过我的人！&lt;/p&gt;
+&lt;p&gt;教材：齐世荣、钱乘旦、张宏毅：《15世纪以来世界九强兴衰史》，人民出版社，2009&lt;/p&gt;
+
+&lt;p&gt;期中：论文；期末：开卷考试。&lt;/p&gt;
+
+&lt;h2 id=&quot;0-大国崛起总论&quot;&gt;0. “大国崛起”总论&lt;/h2&gt;
+
+&lt;h4 id=&quot;什么是世界大国&quot;&gt;&lt;strong&gt;什么是世界大国&lt;/strong&gt;？&lt;/h4&gt;
+
+&lt;p&gt;世界大/强国是从资本主义世界体系开始形成，对世界的整体发展和格局有重要影响的国家。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;世界体系&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;世界体系的出现远远晚于世界的形成，非常靠近当代才形成。Homo Sapiens很早就形成了，但最早的文明5000年前才在两河流域形成。人类形成过很多文明：两河流域、埃及尼罗河文明、印度河文明、黄河长江流域文明…… 这些文明形成，到世界变成一个全球村，经过了很多时间。大多数时间内，文明之间独立发展，没有联系（自然环境原因、技术不发达、种族宗教等原因）。比如古中国人和古欧洲人几乎没有来往，相互隔绝。到了AC1500年前后，globalization开始了，全球化将不同地区不同国家文化人民联系起来，出现了“世界”，而后形成了“世界体系”。世界体系的出现晚于人类文明的出现，更晚于人类的出现。在这500多年里，世界人民共有的一个“世界”发展到了今天。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;影响&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;世界体系的形成才孕育了“世界强国”的现象。在“世界体系”形成之前，只存在地区性的强国（东方强国中国/成吉思汗的蒙古帝国，西方强国古罗马帝国/阿拉伯帝国/奥斯曼土耳其帝国，印度次大陆孔雀王朝等）。他们对整个世界的发展格局没有重要影响，通常是地区性的，因为当时世界还尚未相连。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;按照这种标准，世界大国有9个：葡萄牙，西班牙，荷兰，英国，法国，德国，日本，苏联，美国。这9个国家，面积都不大，但是”影响力“大。&lt;/p&gt;
+
+&lt;h4 id=&quot;世界大国的特征&quot;&gt;世界大国的特征&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;很多同志貌似不想出国读博，原因可能是在北大生活更稳定、不用面对语言的挑战、等等，但是出国读博（尤其是去美国）有很多好处：
-    &lt;ul&gt;
-      &lt;li&gt;锻炼语言和交流。下面也会提到语言和交流有多么重要。我本人对接触不同的文化有着很强烈的兴趣，到一个新的国家生活、了解一个新的文化、学习一门新的语言，对我有着很强的吸引力。出国交流能让人走出舒适圈，干一些自己从没干过的事，学一点新东西，还有人给你掏钱，岂不美哉？&lt;/li&gt;
-      &lt;li&gt;对天文而言，虽然中国天文发展迅速，但是制约发展的一个重要因素还是没有望远镜和观测时间。如果没有望远镜，那么能做的只能是玩别人玩剩下的（catalog science）。作Catalog science固然很考验科研人员的智商和水平，但是有意思的发现很多都不来自于catalog science。The next era: large survey era即将来临（stage IV），但中国貌似还没跟上脚步。因此我觉得选学校得选参与了这些large survey (i.e. LSST, DES, DESI, HSC, ZTF, etc.) 的学校，选老板也得选手里有观测时间/数据的老板。当然如果你做理论，就当我没说。在KIAA手里有观测数据和时间的人真的不多，但是美国老板们手里的新数据爆炸，观测时间甚至用不完。。。&lt;/li&gt;
-      &lt;li&gt;跟不同背景的人学习。在美国，读天文博士的人背景来源很广，大家各有各擅长的东西。Aristotle Socrates就是一个很好的例子。美国学术交流的氛围很融洽，不像在中国，没人敢说话。&lt;/li&gt;
-      &lt;li&gt;走出自己的舒适圈。一个心理学实验很有意思：实验者被关在一个屋子里，里面只有一个按钮，每按一次实验者就会被电击一次。结果表明，比起干坐着什么也不敢，实验者都不甘寂寞去寻求刺激，一次次按下电击按钮。走出舒适圈，接触新事物，恰恰满足了大脑持续被刺激的需要。甘于现状固步自封，小心大脑退化。。。&lt;/li&gt;
-      &lt;li&gt;出国读博是为了自己的职业发展，但是一个人不能将个体和祖国分离开来。适当的时候一定要回到伟大的祖国，培养更多的人才，壮大我国实力。&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;&lt;strong&gt;强劲的经济基础和综合实力&lt;/strong&gt;：改革开放的“一个基本点”&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;整合的国家制度和社会结构&lt;/strong&gt;：制度和结构在任何人类文明中/动物种群中都存在，但是需要被&lt;strong&gt;&lt;u&gt;整合&lt;/u&gt;&lt;/strong&gt;。如果制度之间彼此扯后腿、南辕北辙、不齐心协力，那么这种制度会对社会发展有些负面的影响。社会制度不存在价值的判断，不存在好与坏。好和坏完全是主观的。不存在一个满足“世界大国”要求的制度和社会结构。现在有人以为某一种制度是唯一的确定的好，其实不是。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;具有吸引力的文化与精神特点&lt;/strong&gt;：关键是要有&lt;strong&gt;&lt;u&gt;吸引力&lt;/u&gt;&lt;/strong&gt;，需要国民大众喜欢。至于文化是否真实、好坏，这种判断同样不存在。例如，昆曲艺术水平高，但是对大众没有吸引力。而流行音乐对于大众有吸引力。这并不能说明昆曲和流行音乐哪个好。具备吸引力的事物要么神秘，要么容易懂，要么能迅速让人们享受。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;具备能够在全球施加的国际战略影响力&lt;/strong&gt;：这才能让一个国家影响世界。这一点往往依赖于前三点。“世界大国问题多，很多人都不喜欢世界大国。因为世界大国是世界大国。“ 这种现象会一直存在，只要”世界体系“还存在着。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-重商主义时期的强国-葡萄牙西班牙和荷兰&quot;&gt;1. 重商主义时期的强国： 葡萄牙，西班牙和荷兰&lt;/h2&gt;
+
+&lt;h3 id=&quot;葡萄牙&quot;&gt;葡萄牙&lt;/h3&gt;
+
+&lt;p&gt;葡萄牙，Portugal，九万平方公里，1500年前后有200万人，首都里斯本。西班牙与葡萄牙都在伊比利亚半岛，位于欧洲西南角。葡萄牙与西班牙成为世界大国的原因在于地理大发现（大航海时代）。葡萄牙人要去探索东方，他们通过绕过非洲好望角去探索东方古国印度。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;葡萄牙西班牙人为什么要去探索东方呢？&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;strong&gt;寻求财富。&lt;/strong&gt;地理大发现之前，世界的格局是东方发达富裕先进，西方（西欧）落后贫穷。从西罗马帝国解体（公元5世纪）之后1000年的时间内，东方（除了西欧之外的世界上有文明的地区，不包括非洲南美洲西伯利亚等）比西方富裕发达得多。一个例子就是中国，从汉代开始到唐宋，高度发达，香火不断。另一个例子是中东地区的阿拉伯帝国、奥斯曼帝国。南亚地区的发展也不错。东欧的拜占庭帝国也较发达。在这种语境下，西方人对东方的幻想非常强烈，都希望去东方发财，他们以为东方到处是黄金丝绸茶叶。&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;基督教与伊斯兰教。&lt;/strong&gt;从12世纪末开始，土耳其人建立的奥斯曼帝国一度非常强大，控制的范围几乎涵盖了整个中东地区。奥斯曼帝国信奉伊斯兰教，而西欧地区信奉基督教。两个宗教之间隔阂冲突历来都很严重。因为奥斯曼帝国发展强大，所以陆地上丝绸之路（马可波罗通过陆路前往东方）前往东方的道路被宗教切段了。所以西欧人想去寻求一条通往东方的海路。实际上，运送香料的陆上丝绸之路先是被阿拉伯商人垄断，而后奥斯曼土耳其帝国发达以后，被奥斯曼土耳其垄断。完全没给欧洲人可能性。在抢夺陆上丝绸之路的过程中，欧洲人与奥斯曼土耳其也发生过几次战争，但都失败了。&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
-  &lt;li&gt;用英语交流的重要性。我不是不爱国，但英语作为全球通用语言的事实不可否认。学术来源于交流，普林斯顿IAS的大佬们每天花大量时间喝咖啡聊天是有道理的。相信每个做科研的人都会承认，美丽的idea都来源于交流，无论是不同人之间的交流还是不同学科之间的交流。
+&lt;/ul&gt;
+
+&lt;p&gt;在当时欧洲人眼里，向南航行时越走越热，于是根据简单外推可以知道到了某条线再往南走，人就会被热死。所以葡萄牙人惧怕一直往南走。当时引导葡萄牙人向南走的是葡萄牙王子、“航海家”&lt;strong&gt;亨利&lt;/strong&gt;（也叫做恩里克王子）。亨利从来没去过远方，从来没真正航海过。亨利在葡萄牙最南方建立了航海学校，招募了优秀学员和数学家、天象学家、地理学家、博物学家等来他的航海学校。这些水手具备欧洲最先进的自然科学知识，且具备卓越水上航行能力。于是亨利王子派出很多批舰队向南航行。现在有个地方叫做罗卡角，是象征着葡萄牙航海起点和欧洲人探索世界支点的地方。葡萄牙最伟大的诗人卡蒙斯写道：“陆地在这里结束，海洋从这里开始”。&lt;/p&gt;
+
+&lt;p&gt;最早向南航行的目的是去找黄金。因为据说穿越撒哈拉沙漠后就能进入盛产黄金的地方。西非确实有黄金，加纳被称为黄金海岸。还据说西非有一个基督教的国度，国王叫做约翰长老。因为欧洲人与阿拉伯人的冲突，西欧人希望去寻找和拉拢约翰长老形成同盟，从而限制和消灭穆斯林。这个基督教国家大概是今天的埃塞俄比亚。&lt;/p&gt;
+
+&lt;p&gt;随着船队向非洲航行，非洲的黄金、象牙、胡椒源源不断地流入里斯本。往南走的过程中水手和亨利王子意识到，或许可以开辟通往东方的海上道路。慢慢的葡萄牙航海的目的变成了去东方寻宝：黄金、丝绸（当时西方只有最高贵的人才能使用丝绸）、瓷器、茶叶、糖（西方人很长时间缺少糖，伊索寓言格林童话中，蜂蜜很常见但是糖不常见）、香料（盛产于东南亚，尤其是印尼的一个小岛上，用于腌制食品防腐、香水香氛等）。&lt;/p&gt;
+
+&lt;p&gt;亨利王子去世之后，其叔父若昂二世继续航海事业。最后到了1488年，迪亚士来到了非洲的最南端Cape of Good Hope (&lt;em&gt;Cabo da Boa Esperança&lt;/em&gt; in Portuguese, means “Cape of Storms”，风暴角是迪亚士起的名字，而若昂二世将其改为好望角，意为带来好希望). 迪亚士在好望角遇到了十几天的大风暴，风暴停止之后他们想上岸休息，所以向东航行，但是越走离海岸越远。迪亚士突然明白他们没走对，于是他们改向北走，果然到了陆地。这样迪亚士一行绕过了非洲。十年后达伽马沿着差不多的路线也绕过了好望角，穿越了印度洋，到达了印度。达伽马到达印度时，世界已经被教皇子午线分成了两半。这样，葡萄牙人花了100年时间终于打通了通往东方的海上道路。葡萄牙人为此付出了惨重代价，但也获得了他们梦寐以求的宝贝。葡萄牙人走到了中国的澳门，澳门曾经将欧洲和亚洲的经济联系在了一起。葡萄牙人最远曾到达过日本。&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 280px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Iberia_regions_map.png/398px-Iberia_regions_map.png&quot; alt=&quot;Iberian Peninsula&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Iberian Peninsula&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;西班牙&quot;&gt;西班牙&lt;/h3&gt;
+
+&lt;p&gt;葡萄牙将东方的宝物转手卖给欧洲国家，赚取了大量财富。作为葡萄牙的邻居，西班牙人对葡萄牙人十分眼红。西班牙人也开始准备航海。哥伦布Christopher Columbus是意大利热那亚人，长期在西班牙居住，有着海上航行经历。哥伦布建议葡萄牙国王向西航海，理由是他认为向西航海会更方便地进入东方。&lt;/p&gt;
+
+&lt;p&gt;哥伦布相信地是球形的，这种想法来自于“文艺复兴”。在意大利人看起来，古代欧洲非常辉煌，当时的欧洲极其灰暗。意大利人想回到古代的辉煌，因此叫做“文艺复兴”。部分古代希腊哲人认为地球是球形，但是基督教认为地是一块平面。哥伦布受到文艺复兴的影响，并且吸收了水手兄弟们的经验，认为地球是圆的（可怜的美国现在还有认为地球是平面的人）。哥伦布给葡萄牙国王写proposal的时候把地球半径少写了1/3，但是葡萄牙国王不相信。于是哥伦布给西班牙国王看了同样的proposal，在三个月谈判后1492年得到了西班牙的国王们（伊莎贝尓女王，斐迪南）的强烈支持。伊莎贝尓女王用了23年缔造了统一的西班牙民族国家，又支持了哥伦布远洋航海。于是哥伦布到了“印度”，也带回了“印度人Indians”。哥伦布犯下的伟大错误引起了伟大的发现——发现新大陆。当时人们认为，大海属于发现者。1494年6月7日，在罗马教皇主持下，葡萄牙和西班牙签署条约，按照教皇子午线将地球一分为二，葡萄牙拥有东方，西班牙人拥有西方。&lt;/p&gt;
+
+&lt;p&gt;但是新大陆令西班牙人很失望：没有黄金珠宝，遍地荒芜。最早认为这个新大陆不是印度和中国的人叫做阿美利哥·维斯普西 Americ Vespvck，因此现在这块大陆叫做亚美利哥。哥伦布发现美洲是在1492年10月12日，后来被定为西班牙的国庆日。&lt;/p&gt;
+
+&lt;p&gt;哥伦布犯下错误之后失宠了，最后死于饥寒交迫。但是哥伦布为西班牙的确带来了财富和黄金。西班牙人征服了美洲之后，西班牙人才发现了黄金。印第安人眼里，黄金不是财富，而是荣誉和地位的象征，往往被藏在山洞、宫殿里。美洲还有大量银矿贮藏。西班牙人提炼出了大量金银，西班牙人在一个世界多内向西班牙本国输送了两百吨黄金和一万八千吨白银。大量财富流入西班牙，西班牙成为了欧洲最富裕的第一大强国和霸主（尤其是在查理五世在位期间）。当时西班牙在欧洲的地位相当于现在美国在世界的地位。于是欧洲其他国家联盟对抗西班牙，于是形成了联盟对抗西班牙的历史。&lt;/p&gt;
+
+&lt;p&gt;西班牙不仅在拉丁美洲有大量殖民地，而且在意大利北部、最南部（西西里），奥地利帝国（奥地利匈牙利捷克斯洛伐克等），尼德兰地区（荷兰比利时卢森堡）都在西班牙的控制之下。&lt;/p&gt;
+
+&lt;h3 id=&quot;葡萄牙西班牙崛起对世界的影响&quot;&gt;葡萄牙西班牙崛起对世界的影响&lt;/h3&gt;
+
+&lt;p&gt;葡萄牙西班牙崛起以后，世界练成了一个整体，逐渐形成了资本主义世界贸易体系。从此以后，殖民扩张开始出现，“帝国”也开始出现了。从那时起到20世纪中期，这些帝国持续在海外扩张殖民地；直到20世纪中期，这些帝国纷纷解体。从葡萄牙西班牙崛起开始，黑人被非洲慢慢运送到欧洲和美洲。西方的霸权是从葡萄牙西班牙崛起开始的，并不是从世界出现之后西方就是霸权。西方的霸权到了今天仍然没有消失。&lt;/p&gt;
+
+&lt;h3 id=&quot;为什么是葡萄牙西班牙崛起&quot;&gt;为什么是葡萄牙、西班牙崛起？&lt;/h3&gt;
+
+&lt;p&gt;葡萄牙西班牙扩张时期相当于中国的明朝晚期。为什么不是中国崛起？为什么不是奥斯曼土耳其、印度、沙皇俄国、英法德？&lt;/p&gt;
+
+&lt;h5 id=&quot;专制王权和民族国家&quot;&gt;专制王权和民族国家&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;征服是从被征服开始的。&lt;/strong&gt;从公元九世纪开始，阿拉伯人入侵了Iberian半岛。阿拉伯半岛很长时间以来是一个分裂的、处于部落状态的地区。从公元七世纪开始，伊斯兰教的形成团结了阿拉伯民族，从而导致了阿拉伯民族带着伊斯兰教向外扩张。向西一直扩张到了Iberian半岛。十世纪时哈里发政权（伊斯兰政权）控制了Iberian半岛的大部分面积。Iberian半岛上的原住民（信基督教）被压缩到了半岛的最北边。Iberian半岛北部多山，地理条件一般。随着时间发展，到了十二世纪左右，基督教国家向南发展，发展出了”葡萄牙伯国“（伯爵领地）。慢慢的，葡萄牙王国（1143年建立，是欧洲大陆上第一个统一的民族国家）、卡斯提尔王国、阿拉贡王国发展壮大，到了1476年，阿拉伯人的领地变得很小很南。恰好在哥伦布发现新大陆那年，西班牙人收服了阿拉伯人占据的那块领地（格兰纳达 Granada，其中最出名的是阿尔罕布拉宫）。&lt;strong&gt;1479年&lt;/strong&gt;阿拉贡王国和卡斯提尔王国通过联姻合并成了西班牙。阿拉伯人在Iberian半岛从公元8世纪生存到了15世纪，这700年时间被叫做”收复失地运动“。700年可不短，Iberian半岛的社会和文化和政治制度全部被改变了。&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/iberian.JPG&quot; alt=&quot;Iberian半岛变化历史&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Iberian半岛变化历史&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;中国的封建社会与西方的封建社会有什么区别？中国人脑子里的封建社会从秦始皇延续到了大清灭亡。西欧封建社会最大的特点是：政治权利完全分散，土地是层层分封的。西欧的土地分封是层层分封，最高级的是国王，把土地层层分给大贵族们（留一小块自己使用）；大贵族又把土地分给小贵族。理论上分封的次数可以无数次。给土地的叫“封君”，得到土地的叫“封臣”。给予土地意味着给予他人这块土地的管理权（政治军事财政税务、铸造货币、司法立法等等）、使用权等等。层层分封意味着土地和权力都被分割了。这样的话社会完全被分割了，社会变成了破碎的。按照这样的分封，社会完全破碎，“国家”的概念不存在。今天“国家”的概念中强调土地不可分割，主权不可以被让出。因此，在西方封建社会里，“国王”没有任何实权，只是在封建主中的一号人物。国王能管辖的范围只能是自己管辖的那一小块土地。这种制度就导致了西欧在西罗马帝国崩溃之后1000内持续的落后于东方。（西方分封的最初目的是以土地为交换条件，要求封臣跟着封君去打仗。）&lt;/p&gt;
+
+&lt;p&gt;在700年的“收复失地运动”中，欧洲人发现一盘散沙似的国家没法抵抗穆斯林。在战争的驱动下，国王的权力慢慢聚集，在战争接近胜利时，Iberian半岛上出现了两个不同于以往西方封建国家的集权国家，就是葡萄牙和西班牙。一种新的政治形态——专制王权——形成了。Iberian半岛上的封建时代逐渐消失。一种新的国家形态——民族国家——形成了。早期民族国家都是专制王权形式的。专制王权将西欧从破碎的封建制度中解救出来，是一种巨大的进步。得益于“收复失地运动”（也是一种民族解放运动），这种政治形态最早出现在伊比利亚半岛。（西方发达国家一个个都经历过民族解放运动）经历过民族解放运动的国家是以一个共同的民族作为共同支撑点，这使得一个国家可以发展。对于葡萄牙西班牙，“发展”就意味着去海外殖民掠夺。&lt;/p&gt;
+
+&lt;p&gt;在葡萄牙形成统一的民族国家时，英格兰和法兰西仍然处于封建体制中，贵族间战争不断。德意志土地上的邦国也在战争，意大利仍然满足于传统贸易带来的甜蜜。这给了葡萄牙将近一个世纪的可乘之机。&lt;/p&gt;
+
+&lt;h5 id=&quot;重商主义&quot;&gt;重商主义&lt;/h5&gt;
+
+&lt;p&gt;葡萄牙西班牙，在国家刚刚形成时，财政非常拮据。中国传统的经济理论是重本抑末，重农轻商。农民支持着庞大的古代中国发展。但是对于葡萄牙西班牙，种地得到财富的速度太慢，不足以快速补充国库。&lt;/p&gt;
+
+&lt;p&gt;但是，在当时“重商主义”的经济理论在欧洲传播开来。重商主义理论中，财富只有一种，是货币（金银等贵金属）。一个国家的财富是以储存多少贵金属来判断的。其他的东西在重商主义看起来都不是财富。现在来看这个理论不太对。在这种理论的引导下，一个国家要获得财富，就需要通过疯狂卖东西来获得黄金白银。卖东西比种地得到财富来得快，但是抢东西比卖东西更轻松。抢来东西再卖。西班牙将美洲的黄金白银掠夺一空，这就是重商主义的影响。海外殖民扩张、世界贸易体系，等等，都建立在重商主义的基础上。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;在强大的政权、统一的国家保护下，葡萄牙西班牙人走进海洋、抢劫世界，成为世界大国。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;世界大国 = 专制王权 + 重商主义&lt;/strong&gt;。  &lt;strong&gt;专制王权，独立的民族国家；重商主义，国家推行。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;东方航海壮举郑和下西洋&quot;&gt;东方航海壮举：郑和下西洋&lt;/h4&gt;
+
+&lt;p&gt;明朝时（公元1500年），郑和七下西洋。郑和前几次下西洋规模巨大，数量极多（几百艘），船只规模巨大（宝船）。但是最后什么结果都没留下来。郑和下西洋的目的，一般的说法是宣扬国威皇威。皇帝一个人的意志是不能持久的，对比西方去抢夺黄金白银的意志，就弱很多了。其次，当时中国人认为地球仍然是一块平板，不敢走远。&lt;/p&gt;
+
+&lt;h3 id=&quot;epilogue&quot;&gt;Epilogue&lt;/h3&gt;
+
+&lt;p&gt;西班牙获得了大量财富之后，为了拓宽殖民地和维护统治，迎来了大量的战争。西班牙采用暴力方式获取美洲的金银财宝。西班牙人给宗教信仰投入了很多金银财宝。西班牙贵族挥霍了金银财宝，又把金银财宝转移到了欧洲其他国家，没有留在国内。这个特点在西班牙非常突出。西班牙人还将数以万计的从事工商业的外国人赶走。这些金银财宝没有在西班牙国内没有转化成生产性的资本，反而给别人创造了机会。葡萄牙西班牙的重商主义突出表现为暴力、战争，与其他的重商主义相比突出了蛮横无理。&lt;/p&gt;
+
+&lt;p&gt;麦哲伦在1520年前后环绕地球，但是麦哲伦本人在菲律宾被杀。船员仅剩18人幸存。西班牙作家塞万提斯生活在地理大发现时代。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么西班牙殖民美洲时，美国没有被殖民？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-荷兰重商主义的高峰&quot;&gt;2. 荷兰：重商主义的高峰&lt;/h2&gt;
+
+&lt;h3 id=&quot;地理位置和历史&quot;&gt;地理位置和历史&lt;/h3&gt;
+
+&lt;p&gt;Netherland包括了荷兰、比利时（卢森堡），意思是低地 low land。荷兰1/3的国土都低于海平面，如果不是防水堤坝，荷兰会被淹没。荷兰的面积很小，海岸线很长。荷兰的资源有捕鱼（鱼罐头），荷兰的水资源丰富。马斯河和莱茵河在荷兰入海。这两条河流发挥着运输作用，所以荷兰算是水路枢纽。&lt;/p&gt;
+
+&lt;p&gt;荷兰人每年可以从北海中捕获大量鲱鱼，100万人中有五分之一的人口从事捕鱼业。为了争夺渔场，荷兰和苏格兰之间爆发过3次战争。荷兰人发明了用盐腌制鲱鱼的特殊办法，从而畅销欧洲。（荷兰有种吃法是，鲱鱼去除内脏后直接蘸盐吃）鲱鱼开启了荷兰的商业贸易，鹿特丹Rotterdam也曾是世界第一大港。荷兰发达的水路（为了排涝）提供了成为交通枢纽的可能性。&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.iamexpat.nl/sites/default/files/sitefiles_2017-07/map-netherlands.png&quot; alt=&quot;Netherland地图&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Netherland地图&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;当时英格兰的势力也很强大，但是荷兰人发明了更低造价的商船。英国商船可以假设火炮和武器，但是荷兰人的船不能装置火炮。虽然很危险，但是造船成本低了。而且荷兰的船肚子大甲板小，因为斯堪的纳维亚半岛付关税是正比于甲板面积。荷兰商人令人难以置信的是，荷兰商人从未侵占别人的货物，信用极好。荷兰人创造了流传后世的经商法则，以及赢得了世界人民的信任。&lt;/p&gt;
+
+&lt;p&gt;考虑到奥斯曼土耳其的崛起，欧洲人开发了水路为主的运输方式。荷兰在16世纪已经是欧洲西北角的商业中心了。17世纪时荷兰已经有一半人居住在城市里。城市作为交易的市场、储存货物的仓库、维修船只的工程，逐渐兴盛起来。（城市多了以后，大家开始思考由谁来管理城市。荷兰人通过从贵族手中购买来了城市自治权。荷兰的民主政治来的很早。）荷兰历史上只有封建领地，从未形成过专制“国家”。荷兰人觉得管理民族国家不利于增加财富，还是每个城市独立赚钱比较好。16世纪时，荷兰的领地，甚至整个的尼德兰被落到了西班牙的手里（通过政治联姻的方式）。西班牙把Netherland当成了摇钱树，疯狂摇钱。终于1566年，Netherland人民开始反抗西班牙的压迫，开始与西班牙战争。刚开始战争时，西班牙强大的军队迅速削弱了荷兰的实力，最后荷兰北部七个城市开始联合起来反抗西班牙。（刚把西班牙国王赶走后，荷兰人还是懒得管理政治，将荷兰托付给了英国伊丽莎白一世女王，让她派军队保护荷兰，而荷兰自己管理好自己的生意。但是荷兰很快发现，英国向他们收的保护费过高。）1609年，北部Netherland独立，成为了荷兰。南部的Netherland退出了战争，重回西班牙的怀抱，最后19世纪才独立为今天的Belgium。Netherland南北的命运悬殊，北部成为了世界大国，南部直到19世纪才独立。&lt;u&gt;国家的命运与现代国家制度的形成密切相关。&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;荷兰独立后充分利用地理优势，在1600年荷兰的商船达到了10000艘，可是当时人口只有100万人。这样的话一百人一条船，而只有50个男性上船工作，除去老人小孩，那么人船比例确实很高，等于全国人民都在船上。荷兰所有人都从事“船”相关的事情，后勤保障、航行、造船，等等。当时荷兰的船数达到了西班牙葡萄牙英国法国的数量总和，吨位之和为欧洲的3/4。17世纪世界的海洋上遍布荷兰的船，荷兰垄断了海洋贸易。荷兰崛起之后，东方的商业控制权逐渐从葡萄牙人手里转移到了荷兰人手里，其中值得一提的是好望角。好望角战略位置突出，是东西海路的战略枢纽。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在当时，如何从欧洲到达东方（中国、印度）是葡萄牙人的机密，荷兰人拿不到航海图。荷兰人派间谍去应聘葡萄牙水手，偷来了葡萄牙的机密。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;教皇子午线将葡萄牙和西班牙的实力范围划分开。教皇是上帝的使者，上帝将地球化为两半。所以荷兰人要控制葡萄牙的领地，需要找一个“上帝的”理由。于是荷兰人找到了荷兰人格劳秀斯，让他创作一个合理的理论让荷兰人去代替葡萄牙。格劳秀斯说“上帝创造了海洋，供人类自由航行”，现在这句话是美国人在说。格劳秀斯是国际法、海洋法的创始人。创造国际法、海洋法的目的是为了荷兰人去代替葡萄牙人在东方的地位。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;荷兰人在海上到处游荡，被叫作了“海上马车夫”。荷兰的商业活动是做搬运工，将一个地方的物产搬运到另一个地方卖掉，搬来搬去买来卖去（最开始是给葡萄牙西班牙运送货物）。为了保护海上商业活动，荷兰还创造了强大的海上舰队。17世纪荷兰的舰队比英国更强大。&lt;/p&gt;
+
+&lt;p&gt;荷兰给今天的世界留下了相当多的遗产，特别表现在商业活动的机制上。信贷、信用、金融、簿记（复式记账法）、&lt;strong&gt;证券交易所、银行&lt;/strong&gt;都是荷兰人创造完善的。在现代社会，证券交易所和银行在世界经济中起着至关重要的作用。中国的钱庄票号、犹太人的钱庄都不是银行。荷兰的银行最大的特点是国家出面担保银行，银行信誉大大提高，大大降低了运营银行的成本。荷兰人通过发行股票来融资，同时承诺给股票持有人分红。这样荷兰东印度公司融到了大量资金。荷兰的银行给参与战争的国家贷款，而荷兰总保持中立。这样，荷兰的银行吸引了欧洲大量的闲散资金。这样荷兰人用别的国家的钱来赚自己的钱，荷兰的阿姆斯特丹成为第一个&lt;strong&gt;世界金融中心&lt;/strong&gt;。以后，任何一个世界大国必须是世界金融中心。后来的伦敦、法兰克福、东京、纽约是世界金融中心。在重商主义的引领下，荷兰通过海上贸易和金融业，将17世纪变为了“荷兰的世纪”。&lt;/p&gt;
+
+&lt;p&gt;荷兰在东方得到了一块很大的殖民地——印度尼西亚。在荷兰统治之前，印尼从未成为过一个“国家”。当然，葡萄牙是最先入侵印尼的国家。当时印尼非常落后，存在一些小苏丹国。这种情况一直延续到二战，日本人入侵印尼，将荷兰人赶走。二战之后荷兰人重新进入印尼，最后印尼开始了民族解放运动，成了今天的印尼。总的来说，印尼长期是荷兰的殖民地。荷兰人还觊觎澳门，打仗三次之后没成功，于是荷兰人去了台湾淡水（郑成功打红毛）。荷兰到达最东方的地方是日本。明治维新时西方的意识形态叫做兰学，即荷兰之学。荷兰在南美洲的殖民地乌拉圭和巴西，在北美洲的新阿姆斯特丹（即纽约），在大洋洲荷兰人用他们一个省的名字命名了新西兰New Zealand。&lt;/p&gt;
+
+&lt;p&gt;1656年，荷兰的使团到达北京，入主中原刚刚8年的大清王朝接待了他们。画家伦勃朗是荷兰人。荷兰的绘画描绘的是平凡人，营养充足，人民富足安宁。&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Dutch_Empire35.PNG&quot; alt=&quot;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;荷兰的经商模式有很大的漏洞。商业买卖必须要依靠实体，但是重商主义的理论提倡卖而不买。荷兰没有自己的东西可卖，一旦天灾人祸，荷兰商业的基础就受到动摇了。荷兰没有实体经济，一旦海上贸易受到打击，则荷兰经济很难恢复。到了17、18世纪交界的时期，英国和法国（面积、人口、资源比荷兰多得多）学会了荷兰的把戏，荷兰的地位就丧失了。&lt;/p&gt;
+
+&lt;h2 id=&quot;3-资本主义早期工业化时期的世界大国&quot;&gt;3. 资本主义早期工业化时期的世界大国&lt;/h2&gt;
+
+&lt;h3 id=&quot;英国第一个工业化国家&quot;&gt;英国：第一个工业化国家&lt;/h3&gt;
+
+&lt;h4 id=&quot;地理位置和历史-1&quot;&gt;地理位置和历史&lt;/h4&gt;
+
+&lt;p&gt;英国作为国家：大不列颠（Great Britain）及北爱尔兰联合王国（United Kingdom）。大不列颠包含英格兰、苏格兰、威尔士，再加上北爱尔兰组成了UK。英国这个概念不准确，讲历史的时候通常是讲England的故事。英国是岛国，被海洋所包围。20万年以前，不列颠岛屿上已经有人类活动了，但是没有找到自然产生的人类，所以猜测是欧洲大陆迁徙到英国的。英吉利海峡最狭窄的地方在远古时期是路桥，所以远古欧洲人沿着陆桥进入不列颠岛。公元前后罗马人进入不列颠岛，统治了将近400年，我们叫做罗马不列颠（统治当地克尔特人）。后来罗马军队撤出不列颠岛，盎格鲁人和撒克逊人（属于日耳曼人）在AC五世纪以后大批量进入不列颠岛。England的概念来自于盎格鲁人，意思是“盎格鲁人的家”。Anglo-Saxon人刚进入不列颠时还处于部落阶段，但经过几百年，部落之间相互吞并，部落变成小国家，最后形成了大的国家，朝着封建主义的方向发展。&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://geology.com/world/united-kingdom-map.gif&quot; alt=&quot;不列颠及爱尔兰地区地图。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;不列颠及爱尔兰地区地图。&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;strong&gt;1066年&lt;/strong&gt;，法国诺曼底的一个公国的公爵（威廉公爵）带着由法国骑士组成的军队，攻打英格兰。最后法国骑士占领了苏格兰首府爱丁堡以南的大片不列颠。法国人将大陆的封建制度移植到了不列颠岛，这样英国也进入了封建社会。英国国王的权力相对比较大，存在着类似于中央政府的机构，但是仍然是处于分封制下。英国国王的权力比欧洲其他封建社会要大。从1066年以后到十三世纪，英国国王和贵族之间相互遵守着那些不成文的规矩，履行义务并享受权力，国家比较稳定和平。&lt;/p&gt;
+
+&lt;p&gt;在欧洲大陆，封君和封臣形成了保护和服从的关系，“封臣的封臣不是我的封臣”。但是在英国不是这样的，所有的领主封臣首先要效忠国王。英格兰贵族的数量很少（通常是几十个），这些贵族里无论是多大的贵族，势力都不足以与国王抗衡。在法国、德国，有些贵族的力量非常大，富可敌国。在英国，如果20-30个贵族联手对抗国王，那国王就遇到麻烦了。英格兰封建时代经常出现贵族联手与国王抗衡的现象，而一旦出现，英格兰的土地上就会出现动乱和战争。&lt;/p&gt;
+
+&lt;h4 id=&quot;封建社会的遗产大宪章和议会&quot;&gt;封建社会的遗产：大宪章和议会&lt;/h4&gt;
+
+&lt;p&gt;这种封建时代给英国后来的发展留下了两个重要的遗产：&lt;strong&gt;大宪章&lt;/strong&gt;（&lt;strong&gt;1215年&lt;/strong&gt;）和&lt;strong&gt;议会&lt;/strong&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Parliament_of_the_United_Kingdom&quot;&gt;parliament&lt;/a&gt;)（追溯到13世纪，1295年）。&lt;/p&gt;
+
+&lt;p&gt;13世纪在位的约翰王是一个好战却又屡战屡败的国王，在连年的战争中，约翰王是去了英格兰在欧洲大陆上几乎全部的领地，因此又被称为“失地王”。约翰王为了给战争募资，成倍提高各种税，造成了贵族和人民的不满。1215年，贵族联手讨伐国王，声称国王没有履行自己的义务，却要求享有更多的权力。走投无路的约翰王在泰晤士河边的一个小亭子旁签署了《大宪章》(Magna Carta Libertatum)。&lt;strong&gt;这份文件规定了国王（约翰王）在封建常态下需要做的事情（遵守封建规范）&lt;/strong&gt;，也是一个停战协议。&lt;strong&gt;大宪章不是欧洲、世界的民主和宪政的起点&lt;/strong&gt;，而是封建时期贵族和国王有了剧烈冲突之后形成的文件，都是为了保护贵族的权力和利益（liberties在当时的语境下意思是“特权”）。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No free man is to be arrested, or imprisoned, or disseised, or outlawed, or exiled, or in any other way ruined, nor will we go against him or send against him, except by the lawful judgment of his peers or by the law of the land. — Clause 39, Magna Carta Libertatum 1215&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;国王最初召开议会的目的是向全国人民征税要钱（最初要钱的办法是起码去全国各地跟人讨价还价，国王没有王宫国家没有首都，很辛苦；然后发展成随从代替国王去要钱；最后发展成将国民聚集起来一起要钱）。议会召开以后，人民代表很不开心，因为人民代表需要自己掏旅费盘缠，而且还要被国王敲诈。所以早期的议员都不是好差事。所有的贵族都要去参加议会。到了14世纪，贵族和平民开会不在一个房间里开会，这样就形成了上下两院(bicameral parliament: House of Lords and House of People)。&lt;/p&gt;
+
+&lt;p&gt;欧洲大陆很多地方存在着“等级会议“（法国有三级会议），按照职能/职业来分会场。法国三级会议中，贵族一级，僧侣一级，剩下的人一级。北欧有些地方按照职业分类，农民、商人、渔夫等等分开。英国的两级上下两院的状况与欧洲大陆不同。英国的贵族是指有头衔有封号的人，这些贵族 (Lords) 一起开会就形成了上议院（只有几十上百人），没有头衔的所有人 (People) 都在下议院开会。这些贵族拥有土地，贵族就是主导社会的人群。所以上议院是主导议会的成分。那么议会跟政治有什么关系呢？&lt;/p&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.ilimvemedeniyet.com/wp-content/uploads/2016/07/8737181234_3fac28af34_b-702x336.jpg&quot; alt=&quot;伦敦Westminster宫（即国会大厦）中的英国议会&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;伦敦Westminster宫（即国会大厦）中的英国议会&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;后来人们发现去开议会，掏腰包之后可以顺带提一个要求。过了两三百年之后，议会不仅仅是国王要钱，而且议员会向国王提各种各样的要求和意见。这样慢慢的议会就掌握了一些权力，贵族可以在议会中跟国王提要求，介入王国的各种事务。议会得到的最基本的权力和权利是：征税权。国王想向老百姓要钱，必须得到议会的同意，这样的话议会控制了国王的钱袋子。附带着还有：向国王情愿的权利、决定是否打仗、外交事务、宗教事务等等。这是议会在长期演化中才得到的权力。实际上这种机制的出现对限制王权有着很重要的作用。&lt;/p&gt;
+
+&lt;h4 id=&quot;百年战争和玫瑰战争&quot;&gt;百年战争和玫瑰战争&lt;/h4&gt;
+
+&lt;p&gt;在西班牙葡萄牙强大的过程中，统一的民族国家和强大的王权是关键因素。英国民族国家的形成中有两次战争：英法百年大战（1337-1453），玫瑰战争（1455-1485）。&lt;/p&gt;
+
+&lt;p&gt;百年大战：英国国王派军队去法国抢占土地和王权（历史重演了）。法国人侵略英国时的那些法国贵族的后代仍有土地在法国，这些人想去抢回法国的土地。英国和法国之间的关系非常复杂。大部分时间是英国军队在法国打仗，把法国打得稀巴烂，最后法国还是打赢了，英国人被彻底赶出了法国。这场战争造成了两个民族国家的形成：英国和法国。并且英国从此之后再也不惦记法国了。&lt;/p&gt;
+
+&lt;p&gt;玫瑰战争：内战，是英王爱德华三世（1327年-1377年在位）的两支后裔——兰开斯特家族和约克家族的支持者为了争夺英格兰王位而发生断续的内战。参与玫瑰战争的人很少（几百人在战场上），但是都是贵族参与。这样英国所有贵族都分成了两支，必须政治战队。结果是两边都在战争中死伤惨烈，旧的贵族们都死得差不多了。鹬蚌相争，渔人获利。一个威尔士的小贵族“亨利都铎”组建了都铎王朝 (House of Tudor)。这个王朝建立在一片废墟上，形成了“专制主义王权”国家。&lt;/p&gt;
+
+&lt;h4 id=&quot;都铎王朝仍是重商主义&quot;&gt;都铎王朝：仍是重商主义&lt;/h4&gt;
+
+&lt;p&gt;英国专制王权与欧洲大陆上的差不多。国王与城市结盟来对抗旧的贵族，旧的贵族力量已经完全不足以跟国王的专制统治抗衡。王权的专制需要建立一个官僚制度来为国王服务，而这些&lt;strong&gt;官僚就变成了新贵族&lt;/strong&gt;。这些人从以前的中等阶级一下变成了真正的贵族，为国王办事的人得到了贵族称号。国王依靠这些人实行专制统治。由此，英国摆脱了有土地的军事贵族，走向了中央集权专制的社会。&lt;/p&gt;
+
+&lt;p&gt;都铎王朝的三位君主发挥了关键作用：亨利都铎（亨利七世）、亨利八世、&lt;a href=&quot;https://en.wikipedia.org/wiki/Elizabeth_I_of_England&quot;&gt;伊丽莎白女王一世&lt;/a&gt;（1558-1603，&lt;strong&gt;专制王权得到了极大巩固&lt;/strong&gt;，英国的民族国家基本完成了建构，走向了繁荣昌盛，评价很高，但是她是Virgin Queen童贞女王，Virginia就是按照她命名的）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1588年&lt;/strong&gt;，英国在伊丽莎白一世领导下战胜了西班牙的无敌舰队Armada，这标志着西班牙势力的衰弱已经不可挽回，同时英国成为了强大的国家。随着英国崛起、商业贸易（羊毛工业）和海外扩张，与西班牙的业务有了冲突。英国羊毛工业依赖于Netherland地区，而Netherland被西班牙控制，所以英国和西班牙也有贸易冲突。亨利八世在位时期脱离了天主教阵营，西班牙是罗马天主教会最坚定的支持者，所以英国和西班牙还有宗教冲突。&lt;/p&gt;
+
+&lt;p&gt;在经济方面，都铎王朝仍然执行重商主义（欧洲所有国家一旦出现民族国家和专制主义，则一定奉行重商主义），因此海外扩张变得很重要（就像西班牙葡萄牙一样）。英国人海外扩张避开了西班牙葡萄牙的殖民地，主要是去北美。1497年就有代表英国国王亨利七世的舰队来到北美洲，这个人叫卡波特，结果发现北美没什么好东西。英国人还北上去北冰洋寻找通往东方的道路。到了伊丽莎白女王时期，英国开始挑战西班牙葡萄牙的势力，去美洲发财，但是发现拼不过西班牙。英国人还在海上做海盗（杀人抢劫），去抢劫西班牙的运宝船。英国资本主义原始积累的第一桶金就是做海盗抢来的。&lt;strong&gt;德雷克&lt;/strong&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Francis_Drake&quot;&gt;Drake&lt;/a&gt;) 是最有名的海盗，他沿着南美洲东岸，绕过了麦哲伦海峡（之前只有麦哲伦自己穿越过麦哲伦海峡），在南美殖民地西岸大肆抢劫（西班牙在南美西岸没有布防），结果发现回不去了，于是德雷克就一直向西航行，最后绕过非洲西岸到达了英国。到达英国后德雷克收到了英雄般的欢迎，女王还给德雷克封了爵位。这也是无敌舰队战争的一个导火索。女王给德雷克投了资，&lt;u&gt;重商主义、殖民扩张是国家行为&lt;/u&gt;。&lt;/p&gt;
+
+&lt;p&gt;专制制度帮助欧洲一个又一个国家走出封建分裂的状态，开始走进现代社会，开启了崛起的道路。&lt;/p&gt;
+
+&lt;h4 id=&quot;克服专制统治&quot;&gt;克服专制统治&lt;/h4&gt;
+
+&lt;p&gt;如果英国在战胜了西班牙之后固步不前，那么现在的英国和现在的西班牙应该是同样的影响力。西班牙到了顶峰之后就没有继续发展下去，而英国在成为欧洲老大之后继续往前走了关键的一步。专制统治是走出封建分裂的关键，在那个时刻专制王朝发挥了历史积极作用，但是专制权力自己的内在矛盾是自己无法克服的。伊丽莎白以民族代表的身份调动了民族力量，使得民族团结起来打败了西班牙舰队。&lt;strong&gt;专制的权力是以民族代言人的身份出现的&lt;/strong&gt;，专制权力的基础是全体英国人组成的名族，专制权力只有以民族代表的身份出现时，它才有真正的力量。但实际上，”民族代表”的利益和整个民族的利益是有冲突的。在伊丽莎白统治后期，尽管冲突已经表现出来了，但是女王的个人威望、统治理念和政治头脑维持住了社会的稳定。女王去世之后，女王的苏格兰亲戚来到了英格兰做国王，都铎王朝结束了，斯图亚特王朝 (House of Steward) 开始了（苏格兰和英格兰当时还属于两个国家，苏格兰比英格兰落后，特别是在国家统合方面，苏格兰北部还处于部落状态）。17世纪的英国，专制王权崩溃了，新的政治制度形成了，这标志着英国向前大大的跨出了一步，将英国带到了世界舞台的最前沿。&lt;/p&gt;
+
+&lt;p&gt;苏格兰很羡慕英格兰国王的权力，苏格兰国王詹姆士一世来到英格兰之后，一方面继承了都铎王朝的王权，另一方面他想把专制主义推向更高的程度。这样国王和国民之间的矛盾被激化，这个矛盾尤其体现在议会和国王之间。詹姆士一世不明白议会的体制，很快对议会发起了挑战。他对议会征税的权力不以为然，经常把议会不当回事，绕开议会来征税。詹姆士一世在其他方面也表现出越来越专制，他相信自己的权力来自于神，即&lt;strong&gt;“君权神授”&lt;/strong&gt;，这样詹姆士一世认为议会对他是一种障碍。最终议会与君主之间的矛盾演化成了议会反抗君主。詹姆士一世和查理一世按照君权神授的理论，认为王权来自上天，因此国家的最高权力是国王；而议会认为国家的权力来自于议会议员们。&lt;/p&gt;
+
+&lt;p&gt;查理一世在位以后，曾经有11年没有开过议会。查理一世完全是绕开了议会来行事。1639年，苏格兰发生暴乱，查理一世不得已召开议会。&lt;strong&gt;1640年英国爆发革命&lt;/strong&gt;，目标就是推翻专制统治。詹姆士一世和查理一世不明白专制统治应该已经走到尽头，反而还加强专制统治。这样就挑起了人民和王权之间的矛盾。这里跳过战争的细节。克伦威尔领导的军队战胜了国王的军队，将国王逮捕且判处国王有罪（国王背叛人民，犯下了叛逆罪），英吉利共和国成立。之前的叛逆罪是指百姓背叛君主，而这里反过来了。议会发表了宣言：上帝之下，统治这个国家的人是人民选出的代表，最高权力属于人民/议会。&lt;strong&gt;17世纪的英国是世界上第一个说“国家的权力属于人民”的国家。&lt;/strong&gt;这个理念在后来得以实现。英国人的做法超越了当时欧洲的政治观念。&lt;strong&gt;1649年&lt;/strong&gt;查理一世被处死，而当时大清才刚刚入关五年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;查理一世&lt;/strong&gt;被处死之后，英国不断更换自己的政治制度，做了很多尝试。但每次尝试都没有建立完整的政治制度。最后英国把国家的最高权力交给了军队，而军队的领导人克伦威尔成了国家的领导人（要管国家必须要先管好军队）。克伦威尔是出色的军事家，真诚的清教徒，他不得已被推倒了权力的顶端，从而开始了军人专制（军事独裁）。这样革命的目的和革命的结果相矛盾了。克伦威尔不接受国王的称号，而被称为护国主。其实护国主的权力比国王还大，因为国王的权力一直受到议会的制约，但是护国主和议会是一派的。1653年，议会再次被解散（上次是查理一世解散的）。克伦威尔去世之后，这种矛盾愈发严重。克伦威尔手下的将军们有可能出现军阀混战，那么英国的发展就会变得非常复杂。有人主张：与其让军阀混战，不如回到革命原点：斯图亚特复辟。这样，军队的人把在荷兰流亡的查理二世请回了英国，但是有条件：复辟后的君主必须和议会共同统治这个国家。查理二世去世后，&lt;strong&gt;詹姆士二世&lt;/strong&gt;（其弟弟）慢慢又走回了专制统治的道路，没有兑现当时的承诺，甚至比革命前更专制。如果再次发动暴力革命，人们不禁会怀疑历史会重演。&lt;/p&gt;
+
+&lt;p&gt;这样议会发动了不流血不打仗的革命，去荷兰又把“威廉三世”请到了英国。威廉三世将荷兰军队带到英国，受到议会邀请来帮助英国恢复自由和民主。詹姆士二世也派军队去抵抗威廉三世的军队，但是詹姆士二世的军队临时倒戈，与威廉三世的军队一起向伦敦进发，詹姆士二世逃亡到了法国。英国宣布：在英国面临巨大危机的时候，国王詹姆士二世叛国逃跑，这样就请&lt;strong&gt;威廉三世&lt;/strong&gt;做了国王。实际上威廉三世是詹姆士二世的女婿。这就是&lt;strong&gt;光荣革命&lt;/strong&gt;(Glorious Revolution, &lt;strong&gt;1688&lt;/strong&gt;)。光荣革命后，威廉三世和他老婆玛丽二世登上了王位。看起来政治制度没有发生任何变化，国王还存在。但实际上威廉三世接受了议会提出的&lt;strong&gt;“权利法案”&lt;/strong&gt;，从而才登上了王位，国王必须要接受议会制定的“法律”的约束。这样就把国王的权力放在了议会之下，威廉三世的王位也确实是议会赋予他的。王位继承法规定了议会去选择国王的权力（君权民授），而非君权神授。形式上看，光荣革命没有改变英国政治制度的外在变化，但实质性的变化已经出现了。这种制度就是“&lt;strong&gt;君主立宪制&lt;/strong&gt;”。国王需要在议会多数党中选出首相来统治国家。&lt;/p&gt;
+
+&lt;p&gt;实际上，这个制度在查理一世被处死时已经说过了。在光荣革命之后，这种理念实现了。在光荣革命之后，越来越多的国家开始接受这种思想理念，“国家的权力属于人民”。正是这一步政治制度的变革将英国推向了发展的最前沿。光荣革命之后，英国并没有走进民主制度。虽然专制制度被消灭，但是统治英国的仍然是百十来个贵族，即贵族制、寡头制。&lt;/p&gt;
+
+&lt;p&gt;法国威廉、约翰王、亨利都铎、伊丽莎白一世、苏格兰的詹姆士一世、查理一世、查理二世、詹姆士二世、威廉三世和他老婆。&lt;/p&gt;
+
+&lt;h4 id=&quot;发展现代经济&quot;&gt;发展现代经济&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;农业革命&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;技术：&lt;/strong&gt;在工业革命之前，英国的农业已经展开了革命。内容包括培育良种、改变耕作方式、采用新的农作工具、开沟挖渠灌溉排涝等等，培育出了新的品种。牛羊猪养殖水平都提升了，“以前的羊看起来像狗，现在的羊看起来像牛”。英国农业革命的内容在中国历史上早就出现了，精耕细作在中国汉代时就已经有了，中国人早就知道如何施肥灌溉。而英国人到了17世纪才知道种地要施肥。&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;制度：&lt;/strong&gt;圈地运动。光荣革命以前，都铎王朝和斯图亚特王朝不允许圈地。光荣革命以后，议会通过立法的形式允许圈地，因为圈地代表着贵族们的利益。圈地之前，贵族的土地是分散的土地；圈地之后，贵族的土地被集中起来，再用篱笆、树木围起来。这样就使得新的农业技术可行了，从而提高了农业生产力。小农得到小块土地时，贵族还给小农赔偿。但是小农的土地都是贫瘠的土地，没法种东西。时间长了，小农之能卖掉自己的土地，从而变成了无地农民，只好出去打工。圈地归根结底是以损害小农的利益为基础的，且使得贫富分化越来越悬殊。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;工业革命&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;技术：&lt;/strong&gt;Glasgow是英国烟草中心，瓦特就是Glasgow的Greenock人。英国工业革命造成了工业产品产量的巨大增长。英国工业的核心是棉纺织业，其产量从1785年到1850年增长了49倍。英国将优质棉布卖到世界各地，打开了世界各国的大门。棉纺织业催生了机器的使用，从而带动了煤炭和生铁的发展。人们认为1780年左右英国的工业革命开始。1850年，英国建造了“水晶宫”，是当时欧洲最宏伟的建筑。1851年英国就在水晶宫中举办了第一次世界博览会EXPO （伦敦万国工业产品大博览会），当时在位的女王是维多利亚女王。到了1850年，英国的工业产值已经超过了农业，英国成为了世界上第一个工业国家。到了1860年，工业产量占全世界的40-50%，对外贸易额是全世界的1/5-1/4. 英国 = 全世界。英国想打谁就打谁，成了称霸世界的国家。英国来到了中华帝国，而中国抵挡不住英国了。当时的英国是前无古人后无来者的霸权。维多利亚女王在位时在政治方面什么都不做，也造就了维多利亚时代。&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;制度：&lt;/strong&gt;工厂制。工业革命之前，制造业是以家庭、作坊为单位的，工业革命诞生的工厂将大家聚集起来，大大提升生产效率。厂房中很多人都在做同一件事情，这与之前作坊生产时的分工完全不同。&lt;strong&gt;亚当斯密的国富论&lt;/strong&gt;：分工就是生产力。机器的基础就是分工。工厂制的精髓不在机器，而在&lt;strong&gt;分工&lt;/strong&gt;。工业革命结束时，大部分产业都完成了向工厂制的转变，工厂可以没有机器，但是必须分工。&lt;strong&gt;亚当斯密：自由竞争 free trade。&lt;/strong&gt;&lt;/p&gt;
+
     &lt;ul&gt;
-      &lt;li&gt;在中国，本科教育很少强调表达和交流的培养，大家只是做题念书。在传统中国文化的影响下，中国人交流表达能力极弱，能说会道之人都不干正事。随便拉一个人让讲讲自己的工作，八成磕磕巴巴讲不清楚。何况是用英文？中国大学生的英文水平虽然都在提升，但是在日常口语表达上离美国人还差距很大。中国高中生天天研究的虚拟语气强调句等高级语法，在美国只有写文章的时候会用。但是美国人喝咖啡点菜买单甚至问好时候用的英语，中国人却从来没学过。这些东西一部分可以从托福里学来，但是托福也不会教你Have a nice day. 总而言之，提升英语表达能力是至关重要的。英语好能极大提升教授对你的印象，反之亦然。&lt;/li&gt;
-      &lt;li&gt;光头和Alexie都讲过美国招聘faculty时候的评委们的标准。报告内容不一定大家都能听懂，但是表达能力是一眼就可以看出来的。如果你连自己的工作都讲不清楚，评审委员会评审么相信你能给学生们讲清楚课呢？中国人/日本人在美帝读本科/博士的人那么多，找到教职的人却很少。抛开美国对华人/日本人的歧视不谈，英语差、表达能力捉急是客观存在的。想在美国找到工作？赶紧练英语吧！&lt;/li&gt;
-      &lt;li&gt;科研的产出表现在paper上，良好的写作能力，清晰的flow，干净准确的用词都能让自己的学术路走得更顺利，也能让审稿人早点睡觉。这种能力不仅局限于英语。光头写微博的内容可以说是信达雅，每次读来都让自己惭愧万分。&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;英国的霸权来自何处？英国的工业革命如何能爆发？为什么工业革命爆发在英国？&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;p&gt;这个原因在政治领域。&lt;strong&gt;贵族寡头制&lt;/strong&gt; (aristocracy) 为英国创造了轻松稳定的社会环境，老百姓可以信赖政府，英国普通老百姓的创造力被激发出来，导致了农业革命、工业革命中的创造发明。人们的创造力并非不存在，而是被压抑。社会的束缚和政治的压抑使得人们存在的创造力无法释放。&lt;/p&gt;
+
+        &lt;p&gt;例子：传统制作袜子的方法是用勾针来制作，在工业革命中，人们使用了一个工具来帮助织袜子，这个工具大大提高了制作袜子的速度。但是这个工具在16世纪已经诞生了，这个工具在诞生后得到了英国王室的禁止，因为这个工具会取代传统工人。&lt;/p&gt;
+
+        &lt;p&gt;工业革命不发生在专制统治时期，也不发生在多数人的民主时期，而就发生在贵族制时期。其他国家崛起和工业革命都发生在贵族制时期。英国对世界发展产生了巨大的影响，当之无愧是世界大国。&lt;/p&gt;
+
+        &lt;p&gt;瓦特当时的收入来源不是蒸汽机工厂，而是来自于反复转手的高效蒸汽机发明专利。英国最早建立起专利法，这对英国自然科学发展有着深远意义。&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;在语言学里有一个很著名的假说叫做Sapier-Wolf hypothesis：说不同语言的人经历着不同的世界。对我而言，不同语言造成的差异集中体现在与导师交流上。用汉语跟导师交流总有一种老师居高临下学生战战兢兢的感觉，但是用英语跟导师交流更显平等。这也包含着中西文化的差异。跟西方/尤其是美国老师交流，他们更倾向于叫做advisor，跟学生是学术伙伴关系；在中国，老师更像是supervisor，跟学生是上下级关系。更平等的关系更容易产出好的科研成果，也更有利于交流。&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;英国经济发展道路&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;分工制度虽然提高了生产效率、创造了巨大的财富，但是无数工人遭遇了无穷的苦难。“曼彻斯特的阴沟里流的黑水都是黄金”，然鹅曼彻斯特的居民平均寿命是三十多岁。这一切都是&lt;u&gt;**”自由放任“**&lt;/u&gt;的后果。亚当斯密的观点就是：国家远离经济领域，国家只起“守夜人”的作用。当时劳动人民的工资低、劳动环境差，为了压低成本，为了在自由竞争中脱颖而出，政府千万不干预经济。亚当斯密的理论是双刃剑，英国当时的经济发展道路是有问题的，为其他国家的发展留90下了深刻的教训。&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;去林老师家吃饭的时候林老师语重心长地向我们仨讲了他如何看待do research。
-    &lt;ul&gt;
-      &lt;li&gt;首先要找到一个好问题去解决。虽然在本科/博士阶段可能很多问题都是老板给的，但是这些问题好不好、有没有意思/意义，往往决定了你的学术生涯。寻找自己喜欢的工作去做，避免搬毫无意义的砖。搬砖虽然难以避免，但是你需要找到搬砖的意义。比如给大的survey写pipeline确实枯燥乏味，跟science丝毫不沾边，但是如果你成为了core member，掌握了survey的数据来源，能把自己的名字挂在各种paper上，那也是很好的。有些课题之所以做不出来，是因为他提问的方式就不对。换个问法之后说不定就迎刃而解了。&lt;/li&gt;
-      &lt;li&gt;其次是要找到自己擅长的方法去解决问题。如果你有CS背景，你就可以用机器学习/深度学习来解决一个科学问题。解决问题有很多方法，尝试选择一个自己擅长而且舒服的方法去解决，往往事半功倍。&lt;/li&gt;
-      &lt;li&gt;将自己的结果展示给别人，这包括作报告、跟老板讨论、写paper。林老师很有意思地提了一个说法：作报告的时候要学会提问。厉害的人提的问题往往乍一看很naive，但是经常会让人答不上来。在arxiv discussion的时候Kevin Bundy经常提这样的问题，切中要害。但是作为作报告的人，一定要对大的picture有很好的把握，因为听众往往都不关心技术细节。如果能回答上Kevin的这种巧妙提问，并且向提问者再抛出一个问题，显得你对他问的问题了如指掌，这样你就离找到教职不远了 :)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;对于初学者，research往往像是在搬砖，原因就是初学者还没有领会到搬砖背后的science。诚然在科研中science很少，但是technical stuff很多，因此不要觉得搬砖就怎么怎么地，但是要keep the science in mind! 慢慢的当你学会了一些technical skills，science就变成了你更关心的内容。因此我觉得尽快熟悉掌握各种technical skills是有好处的。天文观测里头无非就是image reduction, spectroscopy reduction, photometry, photo-z, SED fitting… 这些东西迟早都得学，所以迟学不如早学！&lt;/li&gt;
-  &lt;li&gt;科研和生活。很多人做科研之后都抑郁了，我觉得是他们把生活的全部献给了科研/工作。我们可以让自己的爱好填充生活，但是要意识到，做天文研究并不是爱好，而是职业/工作。我觉得这是天文爱好者转变为天文学家面临的重大挑战。会发现搞科研并没有看星星一样吸引人，慢慢觉得搞科研只是自己的工作，并且自己热爱这份工作。如果生活中除了工作之外别无他物，那么工作失败了，人生也就失败了。把工作和生活分开，周六周日给自己留点时间出去玩，亲近自然，认识朋友，学习新知识。。。都比周末还拼命干活来的好。&lt;/li&gt;
-  &lt;li&gt;Connection/人缘。说中国是人情社会，其实哪国都是人情社会。拥有广泛和稳定的人缘/connection，对于自己职业发展非常重要。作为一个法国人，Alexie在美帝学术圈混的风生水起，一个原因就是她非常会搞人际关系，堪称“粘合剂”。Galaxy-halo connection的几个人都围绕着Alexie被粘合了起来。搞人际关系需要自己先牛逼，但当然少不了一些trick，相信中国人在这方面还是比外国人更懂的。&lt;/li&gt;
-  &lt;li&gt;申请PhD项目。最重要的是有没有paper，同样重要的是有没有respectful的大佬给你写strong recommendation letters. 其次才是你去哪暑研、你的connection。再次是绩点，最没用的是TOEFL/GRE/GRE sub。写推荐信这里头道道很多，会写的人可以写的天花乱坠，而中国教授普遍都不太会写，三两句泛泛而谈了事，缺乏事实和细节。因此申请美国PhD项目，最好还是找在committee里待过的有经验的教授写。&lt;/li&gt;
-  &lt;li&gt;如何给教授留下好印象。认真工作！Make fast/nice progress! 让你的表现超出教授对你的预期。长期来看，你需要多涉猎新的东西，积极参加各种学术活动，对一切东西保持好奇和批判精神，多思考自己的工作并提出好的idea。当然跟教授合作是否愉快还是得看缘分，人跟人合不来的话一点办法也没有。&lt;/li&gt;
-  &lt;li&gt;一些“政治正确”的东西。
-    &lt;ul&gt;
-      &lt;li&gt;加州是一个推崇所谓”政治正确“的州，其实”政治正确“的东西里面很多东西都是正确的。UCSC尊重不同种族的人，尊重不同性别的人，有all gender restroom可以使用。厕所里还有举报霸凌电话。&lt;/li&gt;
-      &lt;li&gt;“No hate in UCSC”令我印象深刻。我通常都以一些刻板印象来判断一个人，如果刻板印象不好的话我甚至会很讨厌这个人。”Don’t judge others, embrace diversity.” 你只有权管好你自己，只要别人不侵犯你的权利，最好不要要求/嫌弃别人如何如何。被嫌弃/鄙视过的东西最后都会跑到自己身上来。&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;尊重他人&lt;/strong&gt;是小学生都应该明白的道理。跟外国人在一起的时候避免用汉语“开小会”，更别说用汉语“代号”诋毁侮辱别人。尊重the minority, embrace diversity!&lt;/li&gt;
-      &lt;li&gt;不要让自己给别人带来麻烦，要多给别人带来方便。跟人合租记得收拾好自己的东西，用过的东西归位，脏了的东西及时清理，热水喝完了也帮别人烧一壶，做完饭把灶台清理干净，别人没扫地你就去帮忙扫。。。这不是为了打动自己还是感动别人，这仅仅是一种美德。自私的人不会开心，常为别人着想的人才是幸福的人。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;殖民地巨大的包袱&quot;&gt;殖民地：巨大的包袱&lt;/h4&gt;
+
+&lt;p&gt;随着世界范围内民族解放运动的发展，英国在世界各国的殖民地成了英国身上巨大的包袱；英国不仅很难挣到钱，而且还需要投入巨大的管理成本。从19世纪后期开始，德国美国迎头赶上，最后在20世纪，大英帝国解体了。&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 01 Feb 2019 19:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/02/US-journey</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/US-journey</guid>
+        <pubDate>Tue, 12 Mar 2019 23:10:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/03/GreatPower</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/03/GreatPower</guid>
         
         
         <category>Miscellany</category>
@@ -73,6 +324,142 @@
         <title>astro-ph Reading in 2019</title>
         <description>&lt;h1 id=&quot;astro-ph-reading-list-in-2019&quot;&gt;Astro-ph Reading List in 2019&lt;/h1&gt;
 &lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;
+&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;031219---031919&quot;&gt;03/12/19 - 03/19/19&lt;/h2&gt;
+
+&lt;h4 id=&quot;subo-supernovae&quot;&gt;Subo: Supernovae&lt;/h4&gt;
+
+&lt;p&gt;Kinetic energy is &lt;script type=&quot;math/tex&quot;&gt;10^{51}&lt;/script&gt; erg.&lt;/p&gt;
+
+&lt;p&gt;Radiation energy is &lt;script type=&quot;math/tex&quot;&gt;10^{49}&lt;/script&gt; erg.&lt;/p&gt;
+
+&lt;p&gt;10000 km/s is the typical velocity for SN explosion.&lt;/p&gt;
+
+&lt;p&gt;Zwicky: pioneer of searching SN.&lt;/p&gt;
+
+&lt;p&gt;SN1987A: in LMC, but is type II.&lt;/p&gt;
+
+&lt;p&gt;Gravitational binding energy: &lt;script type=&quot;math/tex&quot;&gt;10^{53}&lt;/script&gt; erg. Where has energy gone? Neutrino!&lt;/p&gt;
+
+&lt;p&gt;Neutrino energy: &lt;script type=&quot;math/tex&quot;&gt;10^{53}&lt;/script&gt; erg.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We still don’t know the explosion mechanism of CC SN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Detection power: &lt;script type=&quot;math/tex&quot;&gt;A(\mathrm{m}^2)\times\Omega(\mathrm{deg}^2)&lt;/script&gt;, and LSST stands out!&lt;/p&gt;
+
+&lt;p&gt;SNe Ia are the “main sequence” of SNe, they are regularity and continuous.&lt;/p&gt;
+
+&lt;p&gt;Type II and Type Ib/Ic trace star formation. Type Ia doesn’t depend on environment too much.&lt;/p&gt;
+
+&lt;p&gt;The light of SN comes from &lt;script type=&quot;math/tex&quot;&gt;^{56}\mathrm{Ni}&lt;/script&gt; decay. Low luminosity Ia are from elliptical galaxies, on the contrast, Ia in spirals are more luminous. Every theory should be able to produce an order of magnitude difference of Nicole. 1991bg: low luminosity; 1991T: super luminosity.&lt;/p&gt;
+
+&lt;p&gt;We don’t know how to trigger the explosion. (Maoz et al., 2014 ARAA); Duran Kushnir, Boaz Katz, Dan Maoz&lt;/p&gt;
+
+&lt;p&gt;Try to find close WD pairs as SN progenitors: SPY survey.&lt;/p&gt;
+
+&lt;p&gt;Subo: major channel WD-WD direct collision. ~20% WD in triples can explain the major channel of SN Ia.&lt;/p&gt;
+
+&lt;p&gt;Long time to produce low mass WD, thus more sub luminous Ia in ETG.&lt;/p&gt;
+
+&lt;p&gt;Just explode: we only see photosphere, ejecta are optical thick. With time goes on, we see deeper into that. After months, the ejecta gets nearly transparent, and turns into nebular phase.&lt;/p&gt;
+
+&lt;p&gt;Smoking gun paper: using cobalt line and found bimodal velocity distribution. Two chunks of Ni56! Fraction: 3/20. But viewing angle should be taking into consideration!&lt;/p&gt;
+
+&lt;p&gt;Non-equal mass of WD pairs leads to blueshift-redshift of cobalt lines.&lt;/p&gt;
+
+&lt;p&gt;Ping’s new work: H&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; line, thin, less than 200 km/s. Maybe Ia-CSM?&lt;/p&gt;
+
+&lt;h2 id=&quot;030419---031119&quot;&gt;03/04/19 - 03/11/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;illuminating-low-surface-brightness-galaxies-with-the-hyper-suprime-cam-survey&quot;&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2018ApJ...857..104G&quot;&gt;Illuminating Low Surface Brightness Galaxies with the Hyper Suprime-Cam Survey&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;spectroscopic-constraints-on-the-build-up-of-the-intracluster-light-in-the-coma-cluster&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1810.13242.pdf&quot;&gt;Spectroscopic Constraints on the Build-up of the Intracluster Light in the Coma Cluster&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;effects-of-gas-on-formation-and-evolution-of-stellar-bars-and-nuclear-rings-in-disk-galaxies&quot;&gt;&lt;a href=&quot;https://iopscience.iop.org/article/10.3847/1538-4357/aafc5f/meta&quot;&gt;Effects of Gas on Formation and Evolution of Stellar Bars and Nuclear Rings in Disk Galaxies&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interesting one. TO READ.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-distance-supernova-rate-and-supernova-progenitors-of-ngc-6946&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1903.00173&quot;&gt;The distance, supernova rate and supernova progenitors of NGC 6946&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;We can estimate the SFR over the last &lt;script type=&quot;math/tex&quot;&gt;\sim 100&lt;/script&gt; Myrs using core-collapse SNe rate. This is only the lower limit of SFR since there are more missed or failed CC-SNe that we didn’t see.&lt;/li&gt;
+  &lt;li&gt;Given a SFR and metallicity, one can calculate the FUV luminosity of a galaxy. After applying extinction (both from the foreground and intrinsic) corrections and comparing it with observation, a luminosity distance can be determined.&lt;/li&gt;
+  &lt;li&gt;The distance to SN is crucial for determining the intrinsic luminosity of it. Larger distance here implies brighter/more massive progenitors. Using the new distance, two events become normal and can be explained from stellar physics models. Distances should be paid attention to!&lt;/li&gt;
+  &lt;li&gt;The homepage of first author: &lt;a href=&quot;https://jjeldridge.blogs.auckland.ac.nz&quot;&gt;Dr. J. J. Eldridge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;on-stellar-population-synthesis&quot;&gt;On Stellar Population Synthesis:&lt;/h3&gt;
+&lt;h4 id=&quot;how-to-measure-galaxy-star-formation-histories-i-parametric-models&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.03635&quot;&gt;How to measure galaxy star-formation histories I: Parametric models&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;how-to-measure-galaxy-star-formation-histories-ii-nonparametric-models&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.03637&quot;&gt;How to measure galaxy star formation histories II: Nonparametric models&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;stellar-population-synthesis-at-the-resolution-of-2003-bc03&quot;&gt;&lt;a href=&quot;http://adsabs.harvard.edu/abs/2003MNRAS.344.1000B&quot;&gt;Stellar population synthesis at the resolution of 2003 (BC03)&lt;/a&gt;&lt;/h4&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;022519---030319&quot;&gt;02/25/19 - 03/03/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-nanograv-11-year-data-set-limits-on-gravitational-waves-from-individual-supermassive-black-hole-binaries&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.11585&quot;&gt;The NANOGrav 11-Year Data Set: Limits on Gravitational Waves from Individual Supermassive Black Hole Binaries&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Just read this &lt;a href=&quot;https://astrobites.org/2019/02/21/searching-for-gravitational-waves-from-binary-supermassive-black-holes-with-cosmic-lighthouses/&quot;&gt;astrobite&lt;/a&gt; on this paper.&lt;/li&gt;
+  &lt;li&gt;NANOGrav project provides another approach of detecting gravitational waves. LIGO (and other ground-based experiments) is sensitive to high-frequency GW (1-1000 Hz), which is usually excited by binary BH mergers or binary NS mergers. Pulsar timing array is sensitive to low-frequency GW (nano-Hz), usually excited by the merger of supermassive BHs which are the result of galaxy-galaxy mergers.&lt;/li&gt;
+  &lt;li&gt;(Submilimeter) Pulsar is the lighthouse in the universe. If the gravitational wave propagate in the direction from the pulsar to us, the period of pulsar will be slightly different. This paper analyzes the past 11-year data from 43 pulsars, and find no GW event above a certain strain.
+    &lt;blockquote&gt;
+      &lt;p&gt;We find that there are no SMBHBs with a chirp mass greater than &lt;script type=&quot;math/tex&quot;&gt;10^9&lt;/script&gt; solar masses within a distance of 120 Mpc and none with chirp passes greater than &lt;script type=&quot;math/tex&quot;&gt;10^{10}&lt;/script&gt; solar masses within 5.5 Gpc. Using this data set, the collaboration has determined that there are no SMBHBs in the Virgo Cluster with a chirp mass greater than &lt;script type=&quot;math/tex&quot;&gt;1.6 \times 10^9&lt;/script&gt; solar masses emitting gravitational waves at a frequency of 9 nHz, which implies that none of the galaxies NGC 4472, NGC 4486, or NGC 4649 (which are all candidates for gravitational waves in the Virgo Cluster) could contain SMBHBs emitting gravitational waves in this frequency range.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;I know very little about this area. But it will be quite exciting if we detected the GW from SMBHs merger in the nearby galaxies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;a-brief-history-of-gravitational-waves&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1609.09400.pdf&quot;&gt;A Brief History of Gravitational Waves&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The discovery of the first GW event is quite interesting and exciting. It’s worth noting that ‘inject’ events test the correct judgment of GW events.&lt;/li&gt;
+  &lt;li&gt;Unlike electromagnetic wave, which can be excited by electric dipole (one positive, one negative), the gravitational wave cannot be simply excited by a dipole, since there’s nothing with negative mass.&lt;/li&gt;
+  &lt;li&gt;Imagine we have two points A and B. We can only detect the transverse GW which is propagating perpendicular to A-B. Only this type of GW could stretch the distance between A and B. The best ‘ruler’ of measuring distance is light. The speed of light is constant and unaltered by a gravitational wave.&lt;/li&gt;
+  &lt;li&gt;Richard Feynmann designed a gedanken experiment to show that gravitational waves do carry energy. “I was surprised to find that a whole day of the conference was spent on this issue and that ‘experts’ were confused. That’s what happens when one is considering energy conservation tensors, etc. instead of questioning, can waves do work?”&lt;/li&gt;
+  &lt;li&gt;Joseph Weber designed the very first GW detector, names “Weber bar”. But limited by the suspension techniques and thermal noise isolation, Weber published wrong results of detections. This kind of intense GW comes from the central SMBH of milky way will make our galaxy disperse before we human beings exist.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 400px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/GW-spectrum.png&quot; alt=&quot;Gravitational wave spectrum showing wavelength and frequency along with some anticipated sources and the kind of detectors one might use. Credit: NASA Goddard Space Flight Center.&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Gravitational wave spectrum showing wavelength and frequency along with some anticipated sources and the kind of detectors one might use. Credit: NASA Goddard Space Flight Center.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The coalescences between stellar mass black holes produces GW with the amplitude of &lt;script type=&quot;math/tex&quot;&gt;h = 10^{-21}&lt;/script&gt;.&lt;/li&gt;
+  &lt;li&gt;In designing an interferometer to detect GW, the optimal size of the arms is one-forth of the GW wavelength. (100 Hz corresponds to 750 km) Rainer Weiss came up with the idea of building an interferometer to detect GW in an undergraduate seminar on GR in MIT.&lt;/li&gt;
+  &lt;li&gt;Prior to LIGO, German has constructed a 600-m interferometer called GEO-600 (1994), which contributed a lot to this industry. France and Italy also built VIRGO (2003) detector at the same time with LIGO.&lt;/li&gt;
+  &lt;li&gt;Weiss cooperated with Thorne and Drever (both from Caltech) on building LIGO at first, but difficulties emerged between Weiss and Drever. Latter Barish took the position of Drever and became the leader of LIGO. He founded the laboratory LIGo and scientific collaboration LIGO, separately.&lt;/li&gt;
+  &lt;li&gt;“Initial” LIGO runs from 2002 to 2010 but got no results. But right before the official run of “Advanced” LIGO, a GW from BH-BH merger was detected by aLIGO during an experimental run. After then, more and more GWs are detected by LIGO. Weiss, Thorne and Barish were awarded 2017 Nobel Prize in Physics. The new era has come.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;021819---0224-19&quot;&gt;02/18/19 - 02/24-19&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-local-and-distant-universe-stellar-ages-and-h_0&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1902.07081.pdf&quot;&gt;The local and distant Universe: stellar ages and $H_0$&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Hubble tension again. We measure &lt;script type=&quot;math/tex&quot;&gt;H_0&lt;/script&gt; from different aspects, but mainly from local distance ladder and CMB. The measurement of &lt;script type=&quot;math/tex&quot;&gt;H_0&lt;/script&gt; by using CMB is heavily based on &lt;script type=&quot;math/tex&quot;&gt;\Lambda&lt;/script&gt;CDM model and basic physics in the early Universe. In the middle between CMB and local universe, SNe and BAO take part in. (Also notice that CMB could be used to probe all the physics from last scattering surface to today.) The determination of &lt;script type=&quot;math/tex&quot;&gt;H_0&lt;/script&gt; on local universe is based on some stellar physics (Cepheids, supernovae Ia). Note that local distance measurement relies on the flatness of Euclidean space. Gravitational Wave and counterparts, time-delay lensing,&lt;/p&gt;
+
+&lt;p&gt;To be read.&lt;/p&gt;
+
+&lt;h3 id=&quot;dependence-of-type-ia-supernova-luminosities-on-their-local-environment&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1706.07697&quot;&gt;Dependence of Type Ia supernova luminosities on their local environment&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I just read this &lt;a href=&quot;https://astrobites.org/2019/02/18/type-ia-supernovae-could-use-some-more-color/&quot;&gt;astrobite&lt;/a&gt; about this paper.&lt;/li&gt;
+  &lt;li&gt;People used to calibrate SNe Ia using color (B-V) and &lt;script type=&quot;math/tex&quot;&gt;m_{15}&lt;/script&gt;. Now this paper suggest that the color of local environment of SNe (their surroundings) should also be considered as a factor of calibration. Redder color implies low SFR. Previous analyses have found that galaxies that are not forming many stars tend to host SNe Ia that are brighter than SNe Ia from very active galaxies even &lt;em&gt;after standardization&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;They test the distribution of Hubble residual &lt;script type=&quot;math/tex&quot;&gt;\mu - \mu_{model}&lt;/script&gt; for SNe in different local environments (different &lt;script type=&quot;math/tex&quot;&gt;U-V&lt;/script&gt; color). They find significant difference (&lt;script type=&quot;math/tex&quot;&gt;7\sigma&lt;/script&gt;).&lt;/li&gt;
+  &lt;li&gt;Hence, while calibrating things, we should not only consider the things themselves, but also the environments where they’re located.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wfirst-the-wide-field-infrared-survey-telescope-100-hubbles-for-the-2020s&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1902.05569.pdf&quot;&gt;WFIRST, The Wide Field Infrared Survey Telescope: 100 Hubbles for the 2020s&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Scientific goal: weak lensing survey; find exoplanets by transient/microlensing and direct imaging (using coronagraph); supernova Ia survey and monitoring; general observation by submitting proposal. No data protection!&lt;/li&gt;
+  &lt;li&gt;Really &lt;strong&gt;Wide Field&lt;/strong&gt;! &lt;strong&gt;WFIRST can do COSMOS survey x125 faster; CANDELS-Wide 1050x faster;  3D-HST 730x faster&lt;/strong&gt;. (See Fig. 2 in this paper)&lt;/li&gt;
+  &lt;li&gt;Nice video about WFIRST: &lt;a href=&quot;https://youtu.be/LbJpVHMV1m4&quot;&gt;WFIRST: The best of both worlds&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;WFIRST can discover (we hope so) 20,000 galaxies with &lt;script type=&quot;math/tex&quot;&gt;z&gt;8&lt;/script&gt; (at the age of 0.6 Gyr) per month, 100 exoplanets per month, and about 8000 SNe Ia in total.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;012119---012719&quot;&gt;01/21/19 - 01/27/19&lt;/h2&gt;
 &lt;h3 id=&quot;a-second-galaxy-missing-dark-matter-in-the-ngc1052-group-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05973v1&quot;&gt;A second galaxy missing dark matter in the NGC1052 group, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
@@ -101,7 +488,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;a-new-view-of-the-size-mass-distribution-of-galaxies-using-r_20-and-r_80-instead-of-r_50-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05017v1&quot;&gt;A New View of the Size-Mass Distribution of Galaxies: Using &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; instead of &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt;, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;a-new-view-of-the-size-mass-distribution-of-galaxies-using-r_20-and-r_80-instead-of-r_50-by-pieter-van-dokkum-group&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05017v1&quot;&gt;A New View of the Size-Mass Distribution of Galaxies: Using $r_{20}$ and $r_{80}$ instead of $r_{50}$, by Pieter van Dokkum group&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The classfication of galaxies can not only based on stellar mass - color diagram (also stellar mass - SFR diagram), bust also based on stellar mass - size diagram. In the past, people usually use the effective radius &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt; as a proxy of galaxy size. (But I have been suspecting how well can &lt;script type=&quot;math/tex&quot;&gt;r_{50}&lt;/script&gt; describe the size of a galaxy for a long time.) As a common sense, massive elliptical galaxies are more extended in the outskirts, but spirals are not. If we fit a galaxy using a single Sersic model, ellipticals tend to have larger Sersic index &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;. In this paper, Pieter and his collaborators check what would happen if we use &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt; as proxies of galaxy sizes. And I remember that Sandy Faber talked about this quite a lot in a colloquium in KIAA.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;This paper is quite straightforward. (But I didn’t dig deep into the sample selection part.) They find that if we use &lt;script type=&quot;math/tex&quot;&gt;r_{20}&lt;/script&gt;, then using the stellar mass - size diagram can easily distinguish star-forming and passive galaxies apart. But using &lt;script type=&quot;math/tex&quot;&gt;r_{80}&lt;/script&gt;, SF and passive behaves similarly.&lt;/li&gt;
@@ -131,14 +518,6 @@
 
 &lt;p&gt;Kevin: it’s not necessarily weird that we detect a galaxy lacking dark matter in its central region. Given the large scatter of halo mass and halo concentration of a given stellar mass in the low-mass end, it’s probably that we just encountered a galaxy with low halo mass and low halo concentration.&lt;/p&gt;
 
-&lt;h2 id=&quot;araa-papers&quot;&gt;ARAA papers&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/li&gt;
-  &lt;li&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.01428v1&quot;&gt;The Most Luminous Supernovae&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&quot;gaussian-process&quot;&gt;Gaussian process&lt;/h2&gt;
 &lt;p&gt;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&lt;/p&gt;
 
@@ -146,9 +525,520 @@
 
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 20 Jan 2019 23:38:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/01/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/astro-ph-2019</guid>
+        <pubDate>Mon, 04 Mar 2019 22:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/03/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/03/astro-ph-2019</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>西方音乐欣赏</title>
+        <description>&lt;h1 id=&quot;西方音乐欣赏-enjoyment-of-music&quot;&gt;西方音乐欣赏 Enjoyment of Music&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一讲-021919&quot;&gt;第一讲 02/19/19&lt;/h2&gt;
+
+&lt;p&gt;如何入门、如何听歌曲、如何听器乐、如何听人（作曲家 —&amp;gt; 演奏家）、如何听美、如何听道（音乐的哲学，不同历史、文化如何理解音乐）。终极目标：面对陌生音乐的时候，如何听明白它。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.douban.com/note/487336260/&quot;&gt;20世纪西方音乐笔记&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;欣赏方式：&lt;/p&gt;
+
+&lt;h3 id=&quot;1-健脑化欣赏&quot;&gt;&lt;strong&gt;1. 健脑化欣赏&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;一种消遣形式的欣赏，刺激大脑不常使用的区域，通过音乐提高脑的年轻态。耳廓，鼓膜，耳蜗，耳蜗上有很多听觉纤毛。音乐可以同时将脑皮质反射区面积达到最大（～1/3）。健脑化欣赏的重要部分是有歌词的歌曲。健脑化欣赏的最大目标是保持你的“感觉”，让脑工作锻炼起来。&lt;/p&gt;
+
+&lt;p&gt;世界音乐Enya的歌曲四个要素：vocal歌曲，结构简单，规则容易跟从，画面帮助。歌曲利用MV的形式加入了更多吸引人的成分（图像与动态）。&lt;/p&gt;
+
+&lt;p&gt;世界音乐Secret Garden来自挪威，vocal与器乐结合紧密，比Enya抒情平静。&lt;/p&gt;
+
+&lt;p&gt;Vocal Bass Beats，歌曲/部分器乐的三要素。A Capella (Borrowed from Italian alla &lt;em&gt;cappella&lt;/em&gt; (“in the manner of the [Sistine] chapel”)&lt;/p&gt;
+
+&lt;h3 id=&quot;2-科学化欣赏&quot;&gt;&lt;strong&gt;2. 科学化欣赏&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;科学音乐产生了作曲法（J. S. Bach）。音乐可视化、图像化、AI。通过音乐的方式，促进智力发展（研究群论）。&lt;/p&gt;
+
+&lt;p&gt;例子：crab canon from Musical Offering （羽管键琴）；大家熟知的卡农。&lt;/p&gt;
+
+&lt;p&gt;声音的四个要素：高度长度强度音色。音乐是数学排列时间的艺术。作曲法形成之后，创作音乐需要系统学习。德奥音乐成功的背后是德奥强大的哲学、数学、工程。&lt;/p&gt;
+
+&lt;h4 id=&quot;音乐的史纲&quot;&gt;音乐的史纲&lt;/h4&gt;
+
+&lt;p&gt;西方音乐是一个历史与地理共同作用下的文化体，该文化的历史段分全球学界公认为7个阶段：
+&lt;strong&gt;（1）古希腊古罗马时期&lt;/strong&gt;（公元前11世纪的荷马时代~公元5世纪）。古希腊罗马（BC11-AC5）悼亡歌曲《塞吉洛斯的墓志铭》，情感克制。
+&lt;strong&gt;（2）中世纪时期&lt;/strong&gt;（公元5世纪~公元16世纪）（文化中心：法国）。感情被宗教剥夺，音乐用来与上帝交流，以及用于礼仪。格里高利圣咏是单声部（男生无伴奏，为上帝而歌，肃穆庄严），后来发展到多声部（奥尔加农是一种二重唱复调音乐）。（Mass弥撒）
+&lt;strong&gt;（3）文艺复兴时期&lt;/strong&gt;（公元16世纪~公元17世纪）（文化中心：意大利）。目标是复兴古希腊雅典的音乐，实际上反对神权文化，多声部音乐发展，器乐长足发展弥补vocal单调的不足。
+&lt;strong&gt;（4）巴洛克时期&lt;/strong&gt;（1600年~1750年）（文化中心：德奥）。JS Bach，维瓦尔弟Vivaldi，亨德尔。
+&lt;strong&gt;（5）古典主义时期&lt;/strong&gt;（1750年~1810年）（文化中心：奥地利维也纳）。Haydn，Mozart，Beethoven为代表。作曲法成熟，克制的激情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（6）浪漫主义时期&lt;/strong&gt;（1810年~1900年）（文化中心：欧洲）。风靡欧洲，Debussy，柴可夫斯基。表情丰富，激情奔放。马勒：表现主义。
+&lt;strong&gt;（7）20世纪时期&lt;/strong&gt;（1900年以来）（文化中心：从1945年前的维也纳、巴黎和伦敦转向1945年以后的纽约）&lt;/p&gt;
+
+&lt;p&gt;二十世纪流派林立，音乐种类繁多。&lt;/p&gt;
+
+&lt;p&gt;宏观特点：
+【关键词1】&lt;strong&gt;散而有序&lt;/strong&gt;（散：地域，音乐活动中心的移动变化；序：时间，时间的连续性）
+【关键词2】&lt;strong&gt;乐以表情&lt;/strong&gt;（早期音乐用于宗教活动，西方人最终探索出了用音乐来表达情感的办法。）&lt;/p&gt;
+
+&lt;p&gt;聆听样本：肖斯塔科维奇《大提琴协奏曲》。&lt;/p&gt;
+
+&lt;h4 id=&quot;音乐的风格&quot;&gt;音乐的风格&lt;/h4&gt;
+
+&lt;p&gt;style是尖头笔。乐府：秦代建立，汉代发展。使命：采集民歌，保存文化（采&lt;strong&gt;风&lt;/strong&gt;）。&lt;/p&gt;
+
+&lt;p&gt;风 → 民歌
+格 → 样式&lt;/p&gt;
+
+&lt;p&gt;音乐风格体的构成要素有6个：
+（1）&lt;strong&gt;旋律Melody&lt;/strong&gt;（歌曲）
+（2）&lt;strong&gt;节奏Rhythm&lt;/strong&gt;（节拍Mete/Beats为先，固定的时间值。节奏是基于单拍子即单个点的变化的时间。）
+（3）&lt;strong&gt;和声Harmony&lt;/strong&gt;（音响的协和关系）
+（4）&lt;strong&gt;织体Texture&lt;/strong&gt;（单声织体——单旋律线条；主调织体——主旋律＋伴奏，有主次关系；复调织体——很多旋律，没有主次只有先后）例子：卡农
+（5）&lt;strong&gt;音色Timbre&lt;/strong&gt;（不同声音的色彩）
+（6）&lt;strong&gt;曲式Form&lt;/strong&gt;（音乐的构成形式——两段体曲式：A＋B。范例：前奏＋A＋B）
+认清了什么是音乐的风格，就能去主动了解音乐的风格，学习明白音乐的风格。&lt;/p&gt;
+
+&lt;p&gt;穆索尔斯基：图画展览会，回旋曲式。&lt;/p&gt;
+
+&lt;h2 id=&quot;第二讲-022619&quot;&gt;第二讲 02/26/19&lt;/h2&gt;
+
+&lt;p&gt;世界音乐 songs of the fire，熊熊篝火燃烧时产生的音乐。Yule log. 世界音乐让人放松。&lt;/p&gt;
+
+&lt;p&gt;Angel of healing: 古典音乐与流行音乐1:1混合。久石让是世界音乐的。菊次郎之夏天，音色钢琴，旋律是日本童谣的，是世界音乐的典型做法。世界音乐将流行和古典的优点集中起来，缺点隐藏起来，让所有人都喜欢。&lt;/p&gt;
+
+&lt;p&gt;贝多芬 黎明奏鸣曲 第三乐章 就是世界音乐的例子。这个乐章的主题是莱茵河下游民歌的旋律。第三乐章大小调交换明显。大调温暖明亮，小调阴柔婉转。将通俗旋律运用技术展开成复杂形式，也是世界音乐所运用的。&lt;/p&gt;
+
+&lt;p&gt;每种音乐都有自己的史纲有自己的风格。脱离了对音乐风格的把握，音乐的发展和史纲就无从谈起。&lt;/p&gt;
+
+&lt;h3 id=&quot;3-实践化的欣赏&quot;&gt;3. 实践化的欣赏&lt;/h3&gt;
+
+&lt;p&gt;需要听众投入和参与进去，成为音乐的主人。跳舞、唱歌、演奏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实践化法宝第一&lt;/strong&gt;：样本比较，同一作品找不同版本来听。互为参照，拒绝盲从。贝多芬 《热情钢琴奏鸣曲》。作家的曲子是音乐时间方案，需要演奏家去实践。如同菜谱，不同厨师做出的菜可以完全不同。&lt;/p&gt;
+
+&lt;p&gt;Arthur Robinstein是波兰人，是演奏肖邦的大家，含蓄敏感内敛。Fazil Say是土耳其人，演奏风格狂野奔放。&lt;/p&gt;
+
+&lt;p&gt;《A大调钢琴奏鸣曲第三乐章》土耳其进行曲借用了土耳其的打击乐节奏，用钢琴模拟土耳其军乐打击乐，而非借用土耳其的旋律。左手锣鼓，右手是号角。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实践化法宝第二&lt;/strong&gt;：找最爱。找到某段音乐最喜欢的部分。循环播放反复听。没有一个作品是从第一个字开始写起来的，艺术创作通常不是从头到尾的线性过程。所以找到自己的最爱，去主动听音乐。带着侦探心理和寻宝态度。与时俱进，有备而来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;实践化法宝第三&lt;/strong&gt;：打入音乐，参与音乐创作和再创作。做过饭的和吃过饭的不一样。Lips synchronization。可以提升感同身受。将实践音乐融入生活。&lt;/p&gt;
+
+&lt;p&gt;听觉纤毛是肌肉运动&lt;/p&gt;
+
+&lt;p&gt;注意力需要集中&lt;/p&gt;
+
+&lt;p&gt;熟能生巧&lt;/p&gt;
+
+&lt;p&gt;情感与理智综合发展，更多美的来源&lt;/p&gt;
+
+&lt;p&gt;通过练习和重复，可以增加包裹axon轴突的物质，从而使得信号在轴突上传播时更少丢失。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;音乐的空间&quot;&gt;音乐的空间&lt;/h4&gt;
+
+&lt;p&gt;“音乐是流动的建筑，建筑是凝固的音乐。”&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;音乐的线条&lt;/strong&gt;：音乐随着时间方向的变化。&lt;/p&gt;
+
+    &lt;p&gt;卡农：轮唱。&lt;/p&gt;
+
+    &lt;p&gt;听东西不在多，在得法。&lt;/p&gt;
+
+    &lt;p&gt;本杰明布里顿《青少年管弦乐指南》（指导如何聆听交响乐）核心旋律线条有：
+（1）单线条运动态：主题明确
+（2）多线条空间运动态：协同合作&lt;/p&gt;
+
+    &lt;p&gt;音乐的空间是由运动的声音线条完成的，运动的线条是音乐空间形成的第一要素。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;音乐的段落&lt;/strong&gt;：作曲家有组织的使用音乐线条形成的结果。&lt;/p&gt;
+
+    &lt;p&gt;段落好比屋子，一个大建筑需要好多不同的屋子。我们看到的紫禁城并不一定是全部的紫禁城。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;作曲家创作音乐时通常心里都有一个音乐空间的框架，然后依靠框架向其中填东西。&lt;u&gt;音乐作为伴奏，与其被伴奏的旋律需要有何种关系？&lt;/u&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;音乐的时间&quot;&gt;音乐的时间&lt;/h4&gt;
+
+&lt;p&gt;荒腔 off tune、走板 off time、不搭调 off key&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;节拍型 Meter Pattern&lt;/p&gt;
+
+    &lt;p&gt;三拍子 triple meter 常见于舞曲&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;时值型 Duration Pattern&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;节奏型Rhythm Pattern&lt;/p&gt;
+
+    &lt;p&gt;人们对节奏性的判断不断被音色所干扰。&lt;/p&gt;
+
+    &lt;p&gt;法国 圣桑《动物狂欢节》
+俄国 穆索尔斯基《图画展览会》&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;重拍型Accent Pattern&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;速度型Tempo Pattern&lt;/p&gt;
+
+    &lt;p&gt;1816年（梅尔采尔）梅氏节拍器&lt;/p&gt;
+
+    &lt;p&gt;一个四分音符 = 60，意思是一分钟60个四分音符&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这个世界很混乱，人类的存在是去寻找有顺序有逻辑有美感的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;作业：命运交响曲&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;第三讲-030519&quot;&gt;第三讲 03/05/19&lt;/h2&gt;
+
+&lt;p&gt;音乐风格的争议：风格不是法律术语；歌曲是复杂的风格曲，定义音乐的剽窃很难定义，剽窃旋律最常见。&lt;/p&gt;
+
+&lt;p&gt;Vivaldi 580 / Bach 1065. 意大利是西方弦乐发源地，巴洛克弦乐集中地。弦乐和美声唱法相互模仿。&lt;/p&gt;
+
+&lt;p&gt;巴洛克晚期三杰：Vivaldi，亨德尔，JS Bach。Bach也抄过别人的。&lt;/p&gt;
+
+&lt;p&gt;MC = main character&lt;/p&gt;
+
+&lt;h4 id=&quot;4-精锐化欣赏&quot;&gt;4. 精锐化欣赏&lt;/h4&gt;
+
+&lt;p&gt;保持脑的年轻态，&lt;/p&gt;
+
+&lt;p&gt;精锐化欣赏的前提是调节好情绪&lt;/p&gt;
+
+&lt;p&gt;强烈依赖于个人经验 和音乐互动合体 听音乐的同时也听到了自己 成为灵魂的镜子 因时间而存在的流体几乎等于人类的灵魂&lt;/p&gt;
+
+&lt;p&gt;中西互证 货比三家 综合分析 作曲家人格 + 作曲风格 + 聆听者风格&lt;/p&gt;
+
+&lt;p&gt;西方音乐厅保留了宗教传统&lt;/p&gt;
+
+&lt;p&gt;Bach：只能在教堂里刷存在感，为上帝-为主子-为儿子&lt;/p&gt;
+
+&lt;p&gt;海顿：一生都是宫廷的仆人&lt;/p&gt;
+
+&lt;p&gt;贝多芬开始处理音乐家与社会生存的关系&lt;/p&gt;
+
+&lt;p&gt;卡拉扬和critical thinking&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;音乐中的重复是一种更新&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;听音乐的顺序：音乐体量，速度，拍子，音色，旋律，结构&lt;/p&gt;
+
+    &lt;p&gt;体量：响度+长度&lt;/p&gt;
+
+    &lt;p&gt;速度：跟听众性格和气质相关&lt;/p&gt;
+
+    &lt;p&gt;节拍：体现音乐的规则性&lt;/p&gt;
+
+    &lt;p&gt;音色：timber&lt;/p&gt;
+
+    &lt;p&gt;旋律：音乐线条，表达感情。可以是一个motive动机，动机结合起来构成旋律。&lt;/p&gt;
+
+    &lt;p&gt;结构：曲式，音乐体裁，sonata， concerto。。。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;听叙事&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;音乐是有上下文的时间流体&lt;/li&gt;
+      &lt;li&gt;德国音乐：分门别类，充满整洁设计感。低音厚重，贝多芬常常将动机安排在低音区。&lt;/li&gt;
+      &lt;li&gt;独创旋律，没有像Bach一样，以动机为细胞构建整个个体。&lt;/li&gt;
+      &lt;li&gt;反映个人心路历程1804-1808，已经知道自己要聋了。&lt;/li&gt;
+      &lt;li&gt;贝多芬用4个音的动机完成了4个乐章。贝多芬将人的心里、人生、体验融入到了交响乐中，而非巴洛克时期的宗教机械感。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;贝多芬第五交响曲&quot;&gt;贝多芬第五交响曲&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;第一乐章：命运的残暴和伪善，对耳聋的反抗&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;第一四音主题：你去死吧！&lt;/li&gt;
+      &lt;li&gt;第二八音主题：人生如此灿烂辉煌&lt;/li&gt;
+      &lt;li&gt;动机变调变慢&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;贝多芬音响设计确实不一样。&lt;/p&gt;
+
+    &lt;p&gt;第一乐章结尾：命运不可战胜&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第二乐章：思考人生的过程。从希望到叹息，一次比一次强烈。&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;希望 — 坚定 — 质疑 — 坚定 — 质疑 — 没有坚定了&lt;/li&gt;
+      &lt;li&gt;更大的希望 — 坚定（加入了低音）— 质疑 — 坚定 —&lt;/li&gt;
+      &lt;li&gt;斗争 — 机关枪（低音部分出现）&lt;/li&gt;
+      &lt;li&gt;更更大希望 （完全无叹息）— 休息（木管）&lt;/li&gt;
+      &lt;li&gt;斗争（低音加入）&lt;/li&gt;
+      &lt;li&gt;希望渺茫 — 坚定希望&lt;/li&gt;
+      &lt;li&gt;最后一次希望 — 叹息 — 坚定的cycle&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第三乐章：&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;命运恐吓 — 第一次反击动机（机关枪，低音给力， xxxxXXXX）&lt;/li&gt;
+      &lt;li&gt;第二次反击动机（低音为主，音响宏大）Fugue？？？？&lt;/li&gt;
+      &lt;li&gt;反击动机，预示着全面反攻&lt;/li&gt;
+      &lt;li&gt;胜利动机！音响！&lt;/li&gt;
+      &lt;li&gt;幻想交响曲&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;贝五/七：Carlos Kleiber, 罗马尼亚指挥家 Sergiu Celibidache&lt;/p&gt;
+
+&lt;p&gt;德奥音乐的特征：高度克制前提下尊重形式美感；结构整洁，秩序感，做人做事有边界，这就是classic的意思（有教养的）。&lt;/p&gt;
+
+&lt;h2 id=&quot;第四讲-031219&quot;&gt;第四讲 03/12/19&lt;/h2&gt;
+
+&lt;p&gt;西城故事、美洲美洲：音乐剧&lt;/p&gt;
+
+&lt;p&gt;Trombone For Two: Be-Bop是爵士乐后期最高即兴炫技风格的称谓，给定主题后，每件乐器挨个即兴。上海曾为远东爵士乐中心，1949年以后Jazz在中国大陆绝迹。Igudensman &amp;amp; Joo二重奏土耳其进行曲。&lt;/p&gt;
+
+&lt;p&gt;Das Gelbe Vom El: 威廉退尔&lt;/p&gt;
+
+&lt;p&gt;听到重复的乐段会加强内心情感和共鸣&lt;/p&gt;
+
+&lt;p&gt;Fantasi Symphonie: Idee Fixe 固定动机&lt;/p&gt;
+
+&lt;p&gt;Dies Irae melody 中世纪圣咏《末日经》&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Feb 2019 05:30:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
+        
+        
+        <category>Miscellany</category>
+        
+      </item>
+    
+      <item>
+        <title>形势与政策</title>
+        <description>&lt;h1 id=&quot;形式与政策&quot;&gt;形式与政策&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一讲-中美贸易摩擦&quot;&gt;第一讲 中美贸易摩擦&lt;/h2&gt;
+
+&lt;h3 id=&quot;新时代&quot;&gt;新时代&lt;/h3&gt;
+
+&lt;p&gt;金融危机造成了世界各国GDP大量损失，现在还没有完全恢复。&lt;/p&gt;
+
+&lt;p&gt;经济不景气，对低质量商品销量影响很大，但是对高端产品影响不大。高端产品大量掌握在发达国家手里。中国的出口量受到很大影响。&lt;/p&gt;
+
+&lt;p&gt;失业率对国家重要。美国的就业率不断改善，接近历史上较好水平。&lt;/p&gt;
+
+&lt;p&gt;在这个背景下爆发了贸易争端。&lt;/p&gt;
+
+&lt;h3 id=&quot;美国&quot;&gt;美国&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;要了解特朗普，不能直接简单黑化特朗普。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;特朗普在大选冲刺阶段2016年推出了“百日计划”，复兴美国经济。&lt;/p&gt;
+
+&lt;p&gt;特朗普的“百日新政”成果：废除了奥巴马医疗改革；退出TPP，重新谈NAFTA；减税，买美国货，雇佣美国人。&lt;/p&gt;
+
+&lt;p&gt;后期政策：搅屎棍，退出伊朗核协议，金特会，退出联合国人权理事会等。&lt;/p&gt;
+
+&lt;p&gt;美国人支持特朗普是直接支持特朗普，而不是先支持共和党再支持特朗普。特朗普的作风不是传统共和党的作风。维持特朗普支持率的办法就是继续推行其“百日目标”。企业要重视特朗普的支持率，不能看不起那些支持特朗普的人。特朗普个性强，新闻多，但经济又好，所以人们没有理由不喜欢他。&lt;/p&gt;
+
+&lt;p&gt;现在民主党压力很大。特朗普不是典型政治家，可能“恐怕无意中终结一个时代”。&lt;/p&gt;
+
+&lt;p&gt;特朗普财政政策是减税和增加国防，公司税降低为20%。美国减税之后世界各国为了防止资本流向美国也纷纷减税。&lt;/p&gt;
+
+&lt;p&gt;特朗普从中兴开始，跟中国开始贸易摩擦，声称要给中国5000亿的关税。加征关税长期会导致美元升值，从而扩大美国财政赤字。加征关税对美国经济短期可能有效。中国想买美国的东西美国不卖，但是美国想让中国人买的东西，中国人买就划不来了。&lt;/p&gt;
+
+&lt;p&gt;特朗普批评中国人侵犯知识产权。知识产权规则尚不完善，利于发达国家不利于发展中国家。但WTO审查中国之后对中国经济发展和对世界经济贡献高度评价。&lt;/p&gt;
+
+&lt;p&gt;货币政策：美国经济过度繁荣，有再次发生金融危机的可能性。美国的股市和房价远好过06年。&lt;/p&gt;
+
+&lt;p&gt;美国的以上种种政策都是为了美国好，美国优先。美国联邦政府债务远超GDP，特别是特朗普执政以来。特朗普折腾完了以后，美国贸易赤字扩大了。中国没有能力通过进口美国货物让美国经济变得太好。美国债务是美元霸权主义的表现，现在美元与黄金脱钩了，美元不代表价值，只是一张纸。&lt;/p&gt;
+
+&lt;h3 id=&quot;中美贸易摩擦的原因&quot;&gt;中美贸易摩擦的原因&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;个人因素：Think Big，敢想敢赢。扬长避短，先想坏的。手段要多样化，不让别人轻易了解自己的手腕。了解市场，他不相信专家，但是相信直觉、相信朋友。借助杠杆外力，谈生意要精神饱满有激情。贸易战我们不能全退，要有进有退。强化地位，通过心理战鼓动人心（以弱胜强就要装的像个疯子）。善于宣传，讲好故事，让人感动流泪。以德报德，以直报怨，谁占便宜就打谁。卖真货，不能骗人。想开点，have fun。&lt;/p&gt;
+
+    &lt;p&gt;如果中国糟糕美国很好，那么民主党会乘胜追击，其他国家一拥而上。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;社会因素：老龄化和老年人的高投票率。老年人多，关心政治。美国最大的利益集团是养老保险的集团。得老年人得天下。老年人无所畏惧，敢说话。老龄化代表着保守化。&lt;/p&gt;
+
+    &lt;p&gt;生育率和种族结构。非西班牙裔白人女性生育率低，其他民族较高。2016年白人出生率首次低于死亡率。&lt;/p&gt;
+
+    &lt;p&gt;经济不平等导致阶级固化更加严重，从而精英政治不了解底层民众的生活。&lt;/p&gt;
+
+    &lt;p&gt;特朗普让社会意识到了社交网络的重要性。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;政治因素：中国日渐强大，世界对中国的认识改变了。美国人（亨廷顿）对东亚文化十分警惕。美国学者对中国很警惕。&lt;/li&gt;
+  &lt;li&gt;美国对华战略National Security Strategy：中俄挑战威胁美国，偷取美国的东西。奥巴马：我们欢迎中国崛起，中国未来不可限量，我们要跟中国建立伙伴关系。鼓励台湾和美国交流。传统大国崛起的过程中都爆发过大规模战争，所以美国认为中国遭受打压是理所当然的。美国多元化的皮肤裹在核心价值观外面，核心价值观长期以来变化不大。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;贸易战暂时可能还不会有结果，但是可能在特朗普第二个任期内有个说法。&lt;/li&gt;
+  &lt;li&gt;特朗普连任：特朗普的黑点别人早知道了，但是其他民主党的传统政治家的黑点暴露的话就完了。传统政治家很难与特朗普抗衡。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;对策&quot;&gt;对策&lt;/h3&gt;
+
+&lt;p&gt;中美贸易战的实质是，美国认为自己先进中国野蛮，美国要教化中国。美国人的“胜者全得”观念虽然能鞭策进步，但后果是社会差距越来越大。金字塔尖的人要不断打压下面的人。美国是唯一的超级大国，中国人现在意识到了。&lt;/p&gt;
+
+&lt;p&gt;中美贸易战有一定必然性，美国要霸权必须要打压中国。贸易战的关键在于中国自己，如果中国经济仍然蓬勃，那特朗普也没办法。中国一定要搞定内忧，然后推行一带一路等更广泛的开放。&lt;/p&gt;
+
+&lt;h2 id=&quot;第二讲一带一路谱写中非经贸合作发展新篇章&quot;&gt;第二讲：“一带一路”谱写中非经贸合作发展新篇章&lt;/h2&gt;
+
+&lt;p&gt;商务部：内贸、外贸、引进外资、向外投资等。&lt;/p&gt;
+
+&lt;p&gt;“一带一路”由习近平在2014年提出，现在接近6年。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;推动“一带一路”落实工作的主要体会
+    &lt;ul&gt;
+      &lt;li&gt;一带一路是充满东方智慧的中国方案。丝绸之路从BC2世纪到AC16世纪。丝绸之路精神：和平合作，开放包容，互学互鉴，互利共赢。历史证明了：和平发展才是正确的道路。&lt;/li&gt;
+      &lt;li&gt;对于国内：一带一路是推动形成全面对外开放新格局的重大举措，有利于中国经济全面深度融入世界经济。国内的广大西部地区，对外开放不够。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;一带一路和非洲
+    &lt;ul&gt;
+      &lt;li&gt;非洲是一带一路的自然和历史延伸，郑和船队联系了非洲和中国。
+        &lt;ul&gt;
+          &lt;li&gt;中非建交到改革开放前：中非贸易打基础，主要是对外援助，团结第三世界，应对帝国主义的威胁。第一个援助埃及、医疗队援助阿尔及利亚、坦赞铁路。“非洲兄弟把我们抬进了联合国”。&lt;/li&gt;
+          &lt;li&gt;改革开放到世纪之交：中非合作调整阶段。非洲是最大的爱国主义教育基地。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本次讲座由商务部西亚非洲司江伟司长讲解了“一带一路”战略在中非经济贸易合作中发挥的重要作用。“一带一路”是“丝绸之路经济带”和“21世纪海上丝绸之路”的简称，由习近平总书记在2013年底提出，到现在接近6年时间。“一带一路”以和平发展为主题，积极建设与沿线国家的经贸合作伙伴关系，共同打造政治互信、经济融合、文化包容的利益共同体、命运共同体和责任共同体。“一带一路”方案提出之后受到了世界各国的欢迎和认可，也为沿线国家带来了实在的经济利益。江伟司长向我们讲解了他在非洲落实“一带一路”的具体感想。“一带一路”是充满东方智慧的中国方案，它提倡和平合作，开放包容，互学互鉴，互利共赢。对于国内，“一带一路”是推动形成全面对外开放新格局的重大举措，有利于中国经济全面深度融入世界经济。目前国内的广大西部地区对外开放程度仍然不够，需要扩大开放，吸引外资。对于非洲，“一带一路”是历史上海上丝绸之路的自然延伸，为非洲人民带来了切实的好处。江伟司长说非洲是最大的爱国主义教育基地，很多去非洲支教、工作、援助的同志们回来之后都更加爱国了。我们要将中华民族的优良作风传播出去，要关心关爱来中国留学的非洲学生，将大国风范体现在日常生活待人的点点滴滴中。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Feb 2019 23:30:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/02/XingCe</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
+        
+        
+        <category>Miscellany</category>
+        
+      </item>
+    
+      <item>
+        <title>Astronomical Spectroscopy</title>
+        <description>&lt;h1 id=&quot;天体光谱学--江林华&quot;&gt;&lt;a href=&quot;http://kiaa.pku.edu.cn/~jiang/teaching.html#teach=class3&quot;&gt;天体光谱学 — 江林华&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一讲&quot;&gt;第一讲&lt;/h2&gt;
+
+&lt;h3 id=&quot;热动平衡下的热力学和统计物理&quot;&gt;热动平衡下的热力学和统计物理&lt;/h3&gt;
+
+&lt;p&gt;一个热力学系统，&lt;script type=&quot;math/tex&quot;&gt;N, E, V&lt;/script&gt; are fixed. We assume energy levels &lt;script type=&quot;math/tex&quot;&gt;\epsilon_1, \epsilon_2…&lt;/script&gt; , and corresponding degeneracy &lt;script type=&quot;math/tex&quot;&gt;g_1, g_2, …&lt;/script&gt; There are $n_1, n_2, …$ particles on each energy levels. Thus &lt;script type=&quot;math/tex&quot;&gt;\sum_i n_i = N, \sum_i n_i \epsilon_i = E&lt;/script&gt; constrain this system.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Boltzmann Distribution&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Particles are Discriminable.&lt;/p&gt;
+
+    &lt;p&gt;Differentiate &lt;script type=&quot;math/tex&quot;&gt;\Omega_{M.B.} = \frac{N!}{\Pi_i n_i}\Pi_i g_i^{n_i}&lt;/script&gt; and use the constrain above, we get Boltzmann Distribution. &lt;script type=&quot;math/tex&quot;&gt;n_i = g_i e^{- \alpha - \beta\epsilon_i}&lt;/script&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bose-Einstein Distribution&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;Particles are indistinguishable. And no Pauli law.
+&lt;script type=&quot;math/tex&quot;&gt;n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} - 1}.&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Fermi-Dirac Distribution&lt;/strong&gt;
+&lt;script type=&quot;math/tex&quot;&gt;n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} + 1}.&lt;/script&gt;
+Under classical limit, FD and BE distribution go back to Boltzmann.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boltzmann Equation (so-called)&lt;/p&gt;
+
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n_i = g_i e^{- \alpha - \beta\epsilon_i}&lt;/script&gt;, thus &lt;script type=&quot;math/tex&quot;&gt;N = e^{-\alpha} \sum_i g_i e^{-\beta \epsilon_i} = e^{-\alpha} G&lt;/script&gt;. We define partition function &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;. 
+&lt;script type=&quot;math/tex&quot;&gt;\frac{n_i}{N} = \frac{g_i}{G} e^{-\epsilon_i/k_BT}, \frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_j-\epsilon_i)/k_BT} .&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Maxwell Distribution&lt;/strong&gt;
+&lt;script type=&quot;math/tex&quot;&gt;f_M(\vec{v}) = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right) = f(v_x) f(v_y) f(v_z).&lt;/script&gt;
+This is &lt;script type=&quot;math/tex&quot;&gt;dP = f_M(\vec{v}) dv_x dv_y dv_z&lt;/script&gt;.
+&lt;script type=&quot;math/tex&quot;&gt;F_M(v) = 4\pi v^2 \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right)&lt;/script&gt;
+This is &lt;script type=&quot;math/tex&quot;&gt;dP = F_M(v) dv&lt;/script&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;原子跃迁和电离&quot;&gt;原子跃迁和电离&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;An atom jumps from &lt;script type=&quot;math/tex&quot;&gt;j&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;, we have ​&lt;script type=&quot;math/tex&quot;&gt;\frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_i-\epsilon_j)/k_BT} .&lt;/script&gt;&lt;/p&gt;
+
+    &lt;p&gt;Recall &lt;a href=&quot;https://en.wikipedia.org/wiki/Einstein_coefficients&quot;&gt;Einstein coefficients&lt;/a&gt;. See “Detailed Balancing”.&lt;/p&gt;
+
+    &lt;p&gt;I once calculated the occupation of Cobalt in a radiation field for Ping, see this &lt;a href=&quot;https://nbviewer.jupyter.org/github/astroJacobLi/astro-ph/blob/master/Ping/Cobalt.ipynb&quot;&gt;notebook&lt;/a&gt;, and this &lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/tree/master/Ping&quot;&gt;folder&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Blackbody Radiation: 
+&lt;script type=&quot;math/tex&quot;&gt;r_B(\nu) = \frac{2\pi h \nu^3}{c^2} \frac{1}{e^{h\nu^/k_BT - 1}}.&lt;/script&gt;
+This is the energy emitted in unit time unit area unit frequency, and has nothing to do with radiation direction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ionization&lt;/p&gt;
+
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\chi_{0, 1}&lt;/script&gt; Is not excited neutral atom. Former number is about ionization, latter number is about excitation.&lt;/p&gt;
+
+    &lt;p&gt;Photo-electric: &lt;script type=&quot;math/tex&quot;&gt;h\nu = \chi_{r, k} + \frac{1}{2} m_e v^2&lt;/script&gt;.&lt;/p&gt;
+
+    &lt;p&gt;For &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;-time ionization: &lt;script type=&quot;math/tex&quot;&gt;\frac{n_{r, j}}{n_{r, i}} = \frac{g_{r, j}}{g_{r, i}} e^{-(\epsilon_i-\epsilon_j)/k_BT} .&lt;/script&gt;&lt;/p&gt;
+
+    &lt;p&gt;For HI: $r=0, j=2, i=1$: &lt;script type=&quot;math/tex&quot;&gt;T(\text{K}) = 6000, 10000, 20000&lt;/script&gt;, the corresponding &lt;script type=&quot;math/tex&quot;&gt;\frac{n_{0,2}}{n_{0,1}} = 10^{-8}, 3\times10^{-5}, 10^{-2}&lt;/script&gt;.&lt;/p&gt;
+
+    &lt;p&gt;So excitation is only significant when temperature is about 20000 K. (Blue stars)&lt;/p&gt;
+
+    &lt;p&gt;For &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;-time ionization, Boltzmann Equation still holds for a fixed &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;第二讲-氢原子光谱&quot;&gt;第二讲 氢原子光谱&lt;/h2&gt;
+
+&lt;p&gt;电子分布率&lt;/p&gt;
+
+&lt;p&gt;电子离中间最近&lt;/p&gt;
+
+&lt;p&gt;年老星系中Na黄光，Mg线，Ca K H, Ca II (triplet) 线很明显很重要。&lt;/p&gt;
+
+&lt;p&gt;UV is the best proxy of SFR. But UV will be attenuated by dust seriously.&lt;/p&gt;
+
+&lt;p&gt;FIR is the radiation of dust, FIR can be the proxy of starburst. 100-200 micron.&lt;/p&gt;
+
+&lt;p&gt;反响映射: photons emitted from the accretion disk around BH are very energetic, they excite the atoms in the broad line region (far from BH), and the clouds in broad line region emit emission lines (H&lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;). We learn the radial distance of broad line region from 反响映射, and we build empirical relations between distance and luminosity (continuum luminosity, near 5100 angstrom) of galaxy nucleus.&lt;/p&gt;
+
+&lt;p&gt;Balmer break: larger break, older this galaxy is.&lt;/p&gt;
+
+&lt;p&gt;Fe[II] line: ~20000 K. Often appear in H[II] region.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Feb 2019 05:38:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</guid>
         
         
         <category>paper</category>
@@ -159,6 +1049,8 @@
         <title>ARAA notes</title>
         <description>&lt;h1 id=&quot;araa-notes&quot;&gt;ARAA notes&lt;/h1&gt;
 &lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;h2 id=&quot;markov-chain-monte-carlo-methods-for-bayesian-data-analysis-in-astronomy&quot;&gt;&lt;a href=&quot;https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf&quot;&gt;Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy&lt;/a&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;weak-lensing-for-precision-cosmology-by-rachel-mandelbaum&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928&quot;&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/a&gt;&lt;/h2&gt;
 
@@ -642,7 +1534,36 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
     
       <item>
         <title>Statistics and Python</title>
-        <description>&lt;h1 id=&quot;gaussian-process&quot;&gt;Gaussian Process&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;普通统计学&quot;&gt;普通统计学&lt;/h1&gt;
+
+&lt;h2 id=&quot;第一章&quot;&gt;第一章&lt;/h2&gt;
+
+&lt;p&gt;调查的两种方法：实验和观察。观察到的信息无法做casual的判断，只能给出correlation。但是实验室做实验可以做出因果关系来。天文观测没法给出casaul link，这需要注意。天文观测没法控制变量。我们只能知道结果，但是可以通过贝叶斯方法来推断是什么原因产生了这些结果（通过一定的概率模型）。&lt;/p&gt;
+
+&lt;p&gt;普查有time-delay。给定一个概率抽样，那么就可以算出抽样误差。&lt;/p&gt;
+
+&lt;p&gt;整群抽样能够减小调查的成本，但是需要注意群与群之间差异要较小。&lt;/p&gt;
+
+&lt;p&gt;非概率抽样很难做统计推断，很难推广到总体。&lt;/p&gt;
+
+&lt;p&gt;一个个体被调查到的概率是&lt;script type=&quot;math/tex&quot;&gt;p&lt;/script&gt;， 则其代表性是&lt;script type=&quot;math/tex&quot;&gt;1/p&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;SImpson悖论：如果忘记了一些混淆因素，那么结论很可能完全不可信。&lt;/p&gt;
+
+&lt;p&gt;如果是概率抽样，那么抽样误差可以算出来。在&lt;script type=&quot;math/tex&quot;&gt;N&lt;/script&gt;个样本中抽样，那么一个标准差一定小于&lt;script type=&quot;math/tex&quot;&gt;1/\sqrt{N}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;未响应样本：给人打电话有人不接。这样可以算出来总统支持率的上下限。&lt;/p&gt;
+
+&lt;p&gt;数据挖掘里的EM算法（Expectation &amp;amp; Maximization）：通过迭代，把未响应数据填入列联表。这个算法成立要求“随机不相应”。&lt;/p&gt;
+
+&lt;p&gt;响应误差：注意措辞。调查时有可能强加给人一个观点，这对中立的人/不了解情况的人不公平。访员对结果也有影响。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;试验是检验变量间因果关系的一种方法。&lt;/strong&gt;做调查没法得到因果关系，只能得到相关信息。相关关系可以做预测，但是没法做决策。给定一个巧克力消耗量，我可以预测诺贝尔奖量。但是没法让说让一个国家猛吃巧克力，然后这个国家诺贝尔奖量就猛的上升了。决策靠的是因果，预测靠的是相关。在做实验时，一定要控制其他变量相同（或者完全随机，随机选择实验对象），然后控制一个变量不同。要考虑到各种因素，不要带来Simpson悖论。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;随机化实验方法：&lt;/strong&gt;随机选取病人，从而各种因素在两组内分布都是相近的。随机化对照是&lt;strong&gt;金标准&lt;/strong&gt;。随机对照和历史对照可以完全不一样，衡量药品的药效一定要做&lt;strong&gt;随机化对照&lt;/strong&gt;。对人做实验是有ethical committee来判断是否合乎伦理。&lt;/p&gt;
+
+&lt;h1 id=&quot;gaussian-process&quot;&gt;Gaussian Process&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process for Machine Learning&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;david-hoggs-paper-on-statistics&quot;&gt;David Hogg’s paper on Statistics&lt;/h1&gt;
@@ -651,13 +1572,6 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;h3 id=&quot;data-analysis-recipes-probability-calculus-for-inference&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1205.4446v1&quot;&gt;Data analysis recipes: Probability calculus for inference&lt;/a&gt;&lt;/h3&gt;
 
 &lt;hr /&gt;
-&lt;h3 id=&quot;useful-python-packages&quot;&gt;Useful python packages:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
-https://rodluger.github.io/starry/tutorials/hd189.html.
-***&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h1 id=&quot;plot-with-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python&quot;&gt;Plot with Python&lt;/a&gt;&lt;/h1&gt;
 
@@ -682,6 +1596,7 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 
 &lt;blockquote&gt;
   &lt;p&gt;Related to today’s discussion on MCMC:&lt;/p&gt;
+
   &lt;ol&gt;
     &lt;li&gt;About autocorrelation time in emcee: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/ In &lt;code class=&quot;highlighter-rouge&quot;&gt;emcee&lt;/code&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;autocorr.py&lt;/code&gt; deals with this, and more here on how to use it to check convergence in real application: https://emcee.readthedocs.io/en/latest/tutorials/monitor/&lt;/li&gt;
     &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;dynesty&lt;/code&gt; Dynamic Nested Sampling code is here: https://dynesty.readthedocs.io/en/latest/ ; &lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt; has an example of its application here: https://github.com/bd-j/prospector/blob/master/prospect/fitting/nested.py&lt;/li&gt;
@@ -690,9 +1605,7 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
   &lt;/ol&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;corner-a-package-of-drawing-corner-diagrams-of-mcmc-and-2d-histogram&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;: A package of drawing corner diagrams of MCMC and 2d histogram.&lt;/h3&gt;
-&lt;p&gt;You can find everything about &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; on https://corner.readthedocs.io/en/latest/. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;.
-***&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -798,163 +1711,6 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
         <pubDate>Mon, 17 Dec 2018 18:40:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2018/12/sky-surveys</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/12/sky-surveys</guid>
-        
-        
-        <category>Astrophysics</category>
-        
-      </item>
-    
-      <item>
-        <title>Miscellany</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Weber–Fechner_law&quot;&gt;Weber–Fechner law&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;XKCD style of Mathematica plot: &lt;a href=&quot;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&quot;&gt;https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;XKCD style of Matplotlib (bug for line labels): &lt;a href=&quot;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&quot;&gt;http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify&lt;/a&gt;. This code must run under python2 environment.&lt;/p&gt;
-
-&lt;p&gt;A good example of 2D Histogram using astroML: &lt;a href=&quot;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&quot;&gt;http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Convert Jupyter Notebook to &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter nbconvert --to html low-z-galaxy-survey.ipynb &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Mac录屏的同时录制声音：&lt;a href=&quot;https://www.jianshu.com/p/a8ff665285de&quot;&gt;https://www.jianshu.com/p/a8ff665285de&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A good website to check visibility for a given RA and DEC: &lt;a href=&quot;http://catserver.ing.iac.es/staralt/&quot;&gt;http://catserver.ing.iac.es/staralt/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Convert figure to data points&lt;/strong&gt;: &lt;a href=&quot;http://markummitchell.github.io/engauge-digitizer/&quot;&gt;http://markummitchell.github.io/engauge-digitizer/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;how-to-use-latex-in-jekyll&quot;&gt;How to use latex in jekyll?&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;gem install kramdown&lt;/li&gt;
-  &lt;li&gt;Change the markdown line in _config.yml to markdown: kramdown&lt;/li&gt;
-  &lt;li&gt;And add something like&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;to &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt;. Now you can simply mark any mathematics in your posts with &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Princeton Program: &lt;a href=&quot;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&quot;&gt;https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Dec 2018 21:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Miscellany</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Miscellany</guid>
-        
-        
-        <category>Coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Scikit-learn</title>
-        <description>&lt;h1 id=&quot;quick-start&quot;&gt;Quick Start&lt;/h1&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine learning&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Supervised learning: Classification, Regression. (Learn the map &lt;script type=&quot;math/tex&quot;&gt;X\to y&lt;/script&gt;)&lt;/li&gt;
-  &lt;li&gt;Unsupervised learning: Clustering, density estimation.&lt;/li&gt;
-  &lt;li&gt;Dimensionality reduction.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 500px&quot;&gt;
-
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/ml_map.png&quot; alt=&quot;Scikit-learn Cheat Sheet&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
-
-&lt;dd&gt;Scikit-learn Cheat Sheet&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;scikit-learn&quot;&gt;Scikit-learn&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data is constructed by the format: (n_samples, n_features)&lt;/li&gt;
-  &lt;li&gt;Datasets Examples: iris, diabetes, digits, etc.&lt;/li&gt;
-  &lt;li&gt;Every &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; class has &lt;code class=&quot;highlighter-rouge&quot;&gt;.fit(X_train, y_train)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.predict(X_test, y_test)&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Export the &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; into a file:
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'filename.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;clf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'filename.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;You can change the parameters of an &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator&lt;/code&gt; after construct it by using &lt;code class=&quot;highlighter-rouge&quot;&gt;.set_params()&lt;/code&gt; method.&lt;/li&gt;
-  &lt;li&gt;In classification, &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; can have multi-labels (like in iris). You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.preprocessing.LabelBinarizer&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.preprocessing.MultiLabelBinarizer&lt;/code&gt;, and classify using &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.multiclass.OneVsRestClassifier&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;supervised-learning-predicting-an-output-variable-from-high-dimensional-observations&quot;&gt;&lt;a href=&quot;https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html&quot;&gt;Supervised learning: predicting an output variable from high-dimensional observations&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;nearest-neighbor-classification&quot;&gt;Nearest Neighbor Classification&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;kNN (k-th nearest neighbor classification): &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.neighbors.KNeighborsClassifier&lt;/code&gt; is also an estimator.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Curse_of_dimensionality&quot;&gt;Curse of dimensionality&lt;/a&gt;: if your sample is small and dimension is high, then your sample will be very sparse. Also it’s very interesting that in high dimensions, the high-dimensional unit hypercube can be said to consist almost entirely of the “corners” of the hypercube, with almost no “middle”.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;linear-model-regression&quot;&gt;Linear model: Regression&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Linear models: &lt;script type=&quot;math/tex&quot;&gt;y = X \beta + \epsilon&lt;/script&gt;, in which &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; are &lt;script type=&quot;math/tex&quot;&gt;(n\times 1)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;(n\times m)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;(m\times 1)&lt;/script&gt;. Here &lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt; is data, &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is target, &lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt; is coefficients and &lt;script type=&quot;math/tex&quot;&gt;\epsilon&lt;/script&gt; is observation noise.&lt;/li&gt;
-  &lt;li&gt;Linear Regression estimator: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.LinearRegression&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Shrinkage: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.Ridge&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.Lasso&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;If we use linear model to do classification, remember using ‘logistic’ or ‘sigmoid’ function: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.linear_model.LogisticRegression&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;support-vector-machines-svms&quot;&gt;Support Vector Machines (SVMs)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;SVMs has regularization parameter &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt;, smaller &lt;script type=&quot;math/tex&quot;&gt;C&lt;/script&gt; means more regularization. &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.svm.SVC&lt;/code&gt; is the estimator.&lt;/li&gt;
-  &lt;li&gt;Different kernels give different results.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;model-selection-and-cross-validation&quot;&gt;&lt;a href=&quot;https://scikit-learn.org/stable/tutorial/statistical_inference/model_selection.html&quot;&gt;Model selection and cross-validation&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Since an estimator has some parameters, we need to choose the best values for these parameters to get the best behavior. So we use &lt;code class=&quot;highlighter-rouge&quot;&gt;score&lt;/code&gt; and ‘cross-validation’.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CV generators: &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.KFold&lt;/code&gt; can be used as &lt;code class=&quot;highlighter-rouge&quot;&gt;kfold = KFold(n_splits=5)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;for train, test in kfold.split(X):&lt;/code&gt;. This can generate 5 groups of training samples and test samples. Then we can calculate scores for each set.&lt;/li&gt;
-  &lt;li&gt;Another way is &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.cross_val_score(svc, X, y, cv=5, n_jobs=-1)&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Another way is grid-search the parameter space using &lt;code class=&quot;highlighter-rouge&quot;&gt;sklearn.model_selection.GridSearchCV(svc, param_grid=dict(C=Cs))&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Some estimator can automatically give the best values of some parameters. For example constructing an estimator &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator = sklearn.linear_model.LassoCV(cv=5)&lt;/code&gt; and fit it with data. Then we can retrieve the best parameter ‘alpha’ by &lt;code class=&quot;highlighter-rouge&quot;&gt;estimator.alpha_&lt;/code&gt;. But we should note, this may not be reliable. We’d better estimate the best parameter by ourselves.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pca.fit_transform&lt;/code&gt; = first &lt;code class=&quot;highlighter-rouge&quot;&gt;fit&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Dec 2018 18:18:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Scikit-learn</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Scikit-learn</guid>
-        
-        
-        <category>coding</category>
-        
-      </item>
-    
-      <item>
-        <title>IFU Surveys</title>
-        <description>&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU surveys&lt;/h1&gt;
-&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
-&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with 0&amp;lt;z&amp;lt;0.15.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 13 Nov 2018 08:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/11/IFU-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/11/IFU-surveys</guid>
         
         
         <category>Astrophysics</category>
