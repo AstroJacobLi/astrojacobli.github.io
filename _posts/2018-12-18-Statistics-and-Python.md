@@ -51,11 +51,6 @@ SImpson悖论：如果忘记了一些混淆因素，那么结论很可能完全�
 ### [Data analysis recipes: Probability calculus for inference](https://arxiv.org/abs/1205.4446v1)
 
 ***
-### Useful python packages:
-- [`healpy`](https://healpy.readthedocs.io/en/latest/install.html): It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it's super useful, its python documentation is really unfriendly for beginners.
-- [`starry`](https://rodluger.github.io/starry/tutorials/hd189.html): very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial:
-https://rodluger.github.io/starry/tutorials/hd189.html.
-***
 
 # [Plot with Python](https://github.com/AstroJacobLi/astro-ph/wiki/Plot-with-Python)
 
@@ -81,8 +76,6 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
 3. About the `pickle` issue, the general description of “pickleable” objects can be found here: https://docs.python.org/3/library/pickle.html#pickle-picklable  Although in real application, this can get tricky.
 4. About the time spent on each realization of the likelihood, if you think there might be room for improvement, I always use `cProfile` to profile the time spent on each functional call.  It is very easy to use.
 
-### `corner`: A package of drawing corner diagrams of MCMC and 2d histogram.
-You can find everything about `corner` on https://corner.readthedocs.io/en/latest/. It's very easy to use and has many options. Good tool! You can find some examples in the `SN cosmology.ipynb`.
 ***
 
 - [Ford 2005](http://adsabs.harvard.edu/abs/2005AJ....129.1706F)
