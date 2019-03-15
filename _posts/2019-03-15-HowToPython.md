@@ -80,3 +80,23 @@ sdss_corner.set_size_inches(14, 14)
     ```
 
     There are various backends for this `Parallel` function, such as `loky`, `threading` and also `multiprocessing` as stated above. 
+
+    
+
+  - ```python
+    # Dump and load
+    
+    from sklearn.neighbors import KNeighborsClassifier
+    knn = KNeighborsClassifier()
+    knn.fit(X_train, y_train)
+    print(metrics.classification_report(y_test, knn.predict(X_test)))
+    
+    # After training a classifier using scikit-learn, 
+    # you want to dump it and use it next time.
+    import joblib
+    joblib.dump(knn, './clf_cache/knn.joblib')
+    # If you want to dump the file after compressing, use this.
+    joblib.dump(knn, './clf_cache/knn.joblib.compress', compress=True)  
+    ```
+
+- 
