@@ -20,7 +20,7 @@ hatch = ['///', '\\\\', 'XXX'] (in `fillbetween` function)
 
 ### [Creating Lupton RGB images](http://docs.astropy.org/en/stable/visualization/lupton_rgb.html)
 
-## Useful `Python` packages in astrophysics:
+## Useful Python packages in astrophysics:
 
 - [`healpy`](https://healpy.readthedocs.io/en/latest/install.html): It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it's super useful, its python documentation is really unfriendly for beginners.
 

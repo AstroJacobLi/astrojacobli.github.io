@@ -111,18 +111,28 @@ a {
 /**
  * Blockquotes
  */
+
+/*  This is the old one.
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 1.4;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0px;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
+*/
 
+ blockquote {
+      background-color: #f6f6f6;
+      border-style: solid;
+      border-color: #dddddd;
+      border-width: 1px;
+      padding: 5px;
+ }
 
 
 /**
@@ -130,21 +140,16 @@ blockquote {
  */
 pre code {
   background-color: #eee;
-  border: 1px solid #999;
-  border-radius: 1px;
   display: block;
   padding: 10px;
 }
 
 pre,
 code {
+    padding: 1px 5px;
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 1px;
     background-color: $grey-color-light;
 }
-
-
 
 
 
