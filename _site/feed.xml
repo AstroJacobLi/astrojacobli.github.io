@@ -6,9 +6,155 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Mar 2019 22:59:32 +0800</pubDate>
-    <lastBuildDate>Fri, 15 Mar 2019 22:59:32 +0800</lastBuildDate>
+    <pubDate>Sun, 17 Mar 2019 19:32:19 +0800</pubDate>
+    <lastBuildDate>Sun, 17 Mar 2019 19:32:19 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How to use Python as an astronomer</title>
+        <description>&lt;h1 id=&quot;data-visualization&quot;&gt;Data Visualization&lt;/h1&gt;
+
+&lt;h3 id=&quot;fundamentals-of-data-visualization&quot;&gt;&lt;a href=&quot;https://serialmentor.com/dataviz/visualizing-amounts.html&quot;&gt;Fundamentals of Data Visualization&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Really really nice book on principles of plotting and visualizing data. Like it! I will post some content below later.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-own-notes-for-plotting-in-python&quot;&gt;&lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb&quot;&gt;My own notes for plotting in python&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;hatch = [’///’, ‘\\’, ‘XXX’] (in &lt;code class=&quot;highlighter-rouge&quot;&gt;fillbetween&lt;/code&gt; function)&lt;/p&gt;
+
+&lt;h3 id=&quot;creating-lupton-rgb-images&quot;&gt;&lt;a href=&quot;http://docs.astropy.org/en/stable/visualization/lupton_rgb.html&quot;&gt;Creating Lupton RGB images&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mpld3.github.io/notebooks/interactive_legend.html&quot;&gt;mpld3&lt;/a&gt;: renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/altair-viz/altair&quot;&gt;Altair&lt;/a&gt; is a relatively new declarative visualization library for Python. It’s easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plot.ly/&quot;&gt;plot.ly&lt;/a&gt; can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;useful-python-packages-in-astrophysics&quot;&gt;Useful Python packages in astrophysics:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial: &lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;A map of the hot jupiter HD 189733b&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/esheldon/cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt;&lt;/a&gt;: cosmology package based on C, written by esheldon. Fast calculate distances. It can also be replaced by &lt;a href=&quot;http://docs.astropy.org/en/stable/cosmology/index.html#module-astropy.cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;astropy.cosmology&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://corner.readthedocs.io/en/latest/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;&lt;/a&gt;: A package of drawing corner diagrams of MCMC and 2d histogram. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;. &lt;a href=&quot;http://dr-guangtou.github.io&quot;&gt;Song Huang&lt;/a&gt; also uses &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; to “explore” data: plot everything with everything. It can check the dependence between variables directly. Example by Song Huang:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;corner&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;sdss_labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;r'$u-g$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;r'$g-i$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;r'$\log \mathrm{EW}_{\mathrm{H}\alpha}$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;r'$\log \mathrm{EW}_{\mathrm{H}\beta}$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;r'$\log \mathrm{EW}_{[\mathrm{OIII}]}$'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;sdss_corner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;corner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;corner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;sdss_obs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_cmap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'coolwarm'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;smooth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;labels&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdss_labels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;label_kwargs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'fontsize'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;quantiles&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.84&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;plot_contours&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fill_contours&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;show_titles&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title_kwargs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fontsize&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;hist_kwargs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;histtype&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'stepfilled'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;alpha&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;edgecolor&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;none&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;use_math_text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;sdss_corner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_size_inches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://docs.python.org/3.7/library/multiprocessing.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;multiprocess.Pool&lt;/code&gt;&lt;/a&gt;: simple tool to run your loop tasks on multiple cores. This is embedded in &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; itself, and goes like below. For more complicated usage (multiple arguments as input), please refer to the documentation.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;multiprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Number of processor to use:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj_cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://joblib.readthedocs.io/en/latest/parallel.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;joblib&lt;/code&gt;&lt;/a&gt;: an awesome tool of building pipelines in python. Just like a superior &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt;, it can dump and load functions and data (especially large data arrays) efficiently. It can also distribute loop tasks to multiple processors. See the usages below:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Parallel computing
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delayed&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;backend&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'loky'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delayed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj_cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;There are various backends for this &lt;code class=&quot;highlighter-rouge&quot;&gt;Parallel&lt;/code&gt; function, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;loky&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;threading&lt;/code&gt; and also &lt;code class=&quot;highlighter-rouge&quot;&gt;multiprocessing&lt;/code&gt; as stated above.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Dump and load
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.neighbors&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    
+&lt;span class=&quot;c1&quot;&gt;# After training a classifier using scikit-learn, 
+# you want to dump it and use it next time.
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;joblib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'./clf_cache/knn.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# If you want to dump the file after compressing, use this.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;joblib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'./clf_cache/knn.joblib.compress'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compress&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://ipyparallel.readthedocs.io/en/latest/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ipyparallel&lt;/code&gt;&lt;/a&gt;: Using IPython for parallel computing&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;tricks&quot;&gt;Tricks&lt;/h1&gt;
+
+&lt;h3 id=&quot;jupyter-notebook&quot;&gt;Jupyter Notebook&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%%time&lt;/code&gt;: Magic command to time your cell for a single run. Useful!&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%%timeit&lt;/code&gt;: this command can be used to test your code’s performance. It runs your cell for many times and calculate the mean time consumed.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%matplotlib inline&lt;/code&gt;: show Matplotlib figures inline. Useful!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%run ./two-histograms.ipynb&lt;/code&gt;: this will run the notebook directly and shows every output from that notebook under this cell.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%load ./download_tri_color_images.py&lt;/code&gt;: load the functions and constants defined in the input python file, and run this file.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%config InlineBackend.figure_format ='retina'&lt;/code&gt;: show high resolution figures for Mac Retina screen. This won’t affect the figure which is saved, it only affect the figure which is showed using &lt;code class=&quot;highlighter-rouge&quot;&gt;plt.show()&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt; means the previous output. By adding &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt; in the end of a command, it will suppress the useless output of a function.
+    &lt;ul&gt;
+      &lt;li&gt;Basic shell commands: &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; is external shell command, and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt; is to run this command as background.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Click + &lt;code class=&quot;highlighter-rouge&quot;&gt;control&lt;/code&gt;: Jupyter supports multiple cursors, similar to Sublime Text. (Use &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; on Windows)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&quot;&gt;Jupyter extensions&lt;/a&gt;: my favorite extensions are  Codefolding, Nofity and Code prettify.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 16 Mar 2019 05:40:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/03/HowToPython</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/03/HowToPython</guid>
+        
+        
+        <category>Coding</category>
+        
+      </item>
     
       <item>
         <title>大国崛起-钱乘旦</title>
@@ -1640,80 +1786,6 @@ http://dan.iel.fm/emcee/current/. And some examples for EMCEE: http://dfm.io/emc
         
         
         <category>Coding</category>
-        
-      </item>
-    
-      <item>
-        <title>Sky Surveys</title>
-        <description>&lt;h1 id=&quot;optical-surveys&quot;&gt;Optical Surveys&lt;/h1&gt;
-
-&lt;h2 id=&quot;sdss&quot;&gt;SDSS&lt;/h2&gt;
-&lt;p&gt;The Sloan Digital Sky Survey has created the most detailed three-dimensional maps of the Universe ever made, with deep multi-color images of one third of the sky, and spectra for more than three million astronomical objects. Learn and explore all phases and surveys—past, present, and future—of the SDSS.&lt;/p&gt;
-
-&lt;p&gt;It’s just 20 years old. See &lt;a href=&quot;https://www.sdss.org/press-releases/sdss20/&quot;&gt;
-&lt;a href=&quot;https://twitter.com/sdssurveys/status/994412430167040000?s=21&quot;&gt;The first high-z quasar of SDSS&lt;/a&gt; was observed by Xiaohui Fan and Micheal Strauss on the Thanksgiving morning, 1998.&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/home.aspx&quot;&gt;DR 14 site&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/chart/navi.aspx&quot;&gt;Navigate&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://skyserver.sdss.org/dr14/en/tools/search/searchhome.aspx&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr12/tutorials/&quot;&gt;Overview of Tutorial&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shuang-astronomy.wikia.com/wiki/SDSS_Image_Analysis&quot;&gt;SDSS Image Analysis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived&quot;&gt;MPA-JHU DR7 catalogs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;des&quot;&gt;DES&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&quot;http://www.darkenergysurvey.org/&quot;&gt;Dark Energy Survey&lt;/a&gt; (DES) is a visible and near-infrared survey that aims to probe the dynamics of the expansion of the Universe and the growth of large-scale structure. The survey uses the 4-meter Victor M. Blanco Telescope located at Cerro Tololo Inter-American Observatory (CTIO) in Chile. It uses g, r, i, z, and Y bands. DECam has one of the widest fields of view (2.2-degree diameter) available for ground-based optical and infrared imaging.&lt;/p&gt;
-
-&lt;p&gt;It can do: &lt;a href=&quot;https://arxiv.org/abs/1811.02376v1&quot;&gt;supernovae cosmology&lt;/a&gt;, BAO, galaxy cluster finder, &lt;a href=&quot;https://arxiv.org/abs/1708.01530&quot;&gt;weak lensing&lt;/a&gt;, etc.&lt;/p&gt;
-
-&lt;p&gt;I uses &lt;a href=&quot;http://legacysurvey.org/decamls/&quot;&gt;DECaLS&lt;/a&gt; (DECam Legacy Survey). Dustin Lang made a wonderful &lt;a href=&quot;http://legacysurvey.org/viewer#IC%20968&quot;&gt;skyview map&lt;/a&gt;. Currently DES is only a photometric survey.&lt;/p&gt;
-
-&lt;h2 id=&quot;hsc&quot;&gt;HSC&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&quot;https://hsc.mtk.nao.ac.jp/ssp/&quot;&gt;Hyper Suprime-Cam Subaru Strategic Program&lt;/a&gt; (HSC-SSP) is led by the astronomical communities of Japan and Taiwan, and Princeton University. It’s a photometric survey for 1400 square degrees using Hyper Suprime-Cam mounted on 8.2m &lt;a href=&quot;https://subarutelescope.org&quot;&gt;Subaru Telescope&lt;/a&gt;. It is now the seriously kicking-ass survey for galaxies and cosmology.&lt;/p&gt;
-
-&lt;p&gt;The main science goals contain: &lt;a href=&quot;https://arxiv.org/abs/1809.09148v1&quot;&gt;weak lensing cosmology&lt;/a&gt;, high-z galaxies, general galaxy formation and evolution (like &lt;a href=&quot;https://arxiv.org/abs/1811.01139v1&quot;&gt;stellar-halo connection&lt;/a&gt;), etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;redshift-surveys&quot;&gt;Redshift surveys&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract&quot;&gt;2MASS&lt;/a&gt;
-&lt;a href=&quot;https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract&quot;&gt;6dF&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;transient-surveys&quot;&gt;Transient Surveys&lt;/h1&gt;
-&lt;h2 id=&quot;pan-starrs&quot;&gt;Pan-STARRS&lt;/h2&gt;
-&lt;p&gt;Panoramic Survey Telescope and Rapid Response System (Pan-STARRS) is a well calibrated telescope for transient surveys.&lt;/p&gt;
-
-&lt;h1 id=&quot;ifu-surveys&quot;&gt;IFU Surveys&lt;/h1&gt;
-&lt;h2 id=&quot;manga-survey&quot;&gt;MaNGA survey&lt;/h2&gt;
-&lt;p&gt;The current data release is v2_1_2, containing ~2700 galaxies with redshift ranges from 0 to 0.15.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr13/manga/&quot;&gt;MaNGA survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dr15.sdss.org/marvin/&quot;&gt;Marvin: a tool specifically designed to visualise and analyse MaNGA data.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits&quot;&gt;Summary information about MaNGA objects (&lt;code class=&quot;highlighter-rouge&quot;&gt;fits&lt;/code&gt; file)&lt;/a&gt;. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS &lt;code class=&quot;highlighter-rouge&quot;&gt;navigate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;explore&lt;/code&gt; tool to see whether your objects are contained in MaNGA.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies&quot;&gt;MaNGA Pipe3D Value-Added-Catalogue&lt;/a&gt; by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/&quot;&gt;MaNGA cube files&lt;/a&gt;, if you want to study the properties of specific galaxies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sami-survey&quot;&gt;SAMI survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org&quot;&gt;SAMI survey overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist&quot;&gt;SAMI objects list&lt;/a&gt;: can be opened with &lt;code class=&quot;highlighter-rouge&quot;&gt;.txt&lt;/code&gt; using TOPCAT.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/sov/&quot;&gt;SAMI single object viewer&lt;/a&gt;: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the &lt;code class=&quot;highlighter-rouge&quot;&gt;CATID&lt;/code&gt;, then related files can be downloaded.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://datacentral.org.au/services/query/&quot;&gt;SAMI data query using SQL&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;califa-survey&quot;&gt;CALIFA survey&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://califa.caha.es&quot;&gt;CALIFA overview&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users&quot;&gt;CALIFA DR3 search tool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article-abstract/471/3/3727/3979019&quot;&gt;PyCASSO database: spatially resolved stellar population properties for CALIFA galaxies&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Dec 2018 18:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/sky-surveys</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/sky-surveys</guid>
-        
-        
-        <category>Astrophysics</category>
         
       </item>
     

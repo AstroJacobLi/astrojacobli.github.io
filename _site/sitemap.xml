@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/blog/2019/03/HowToPython</loc>
+      
+        <lastmod>2019-03-16T05:40:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/blog/2019/03/GreatPower</loc>
       
         <lastmod>2019-03-12T23:10:00+08:00</lastmod>
@@ -321,7 +336,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -336,7 +351,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/art/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -351,7 +366,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -366,7 +381,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/cooking/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -381,7 +396,7 @@
     <url>
       <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -396,7 +411,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -411,7 +426,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -426,7 +441,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -441,7 +456,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -456,7 +471,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/photography/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -471,7 +486,7 @@
     <url>
       <loc>http://localhost:4000/research/</loc>
       
-        <lastmod>2019-03-15T22:59:32+08:00</lastmod>
+        <lastmod>2019-03-17T19:32:19+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

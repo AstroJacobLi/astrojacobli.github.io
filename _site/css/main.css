@@ -333,7 +333,7 @@ blockquote {
  * Code formatting
  */
 pre code {
-  background-color: #eee;
+  background-color: #f6f6f6;
   display: block;
   padding: 10px; }
 
@@ -341,7 +341,7 @@ pre,
 code {
   padding: 1px 5px;
   font-size: 15px;
-  background-color: #e8e8e8; }
+  background-color: #f6f6f6; }
 
 /**
  * Wrapper
