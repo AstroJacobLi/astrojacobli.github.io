@@ -6,9 +6,7 @@ author: Jiaxuan Li
 categories: Coding
 ---
 
-# How to use Python as an astronomer
-
-## Data Visualization
+# Data Visualization
 
 ### [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/visualizing-amounts.html)
 
@@ -17,10 +15,13 @@ Really really nice book on principles of plotting and visualizing data. Like it!
 ### [My own notes for plotting in python](https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb)
 hatch = ['///', '\\\\', 'XXX'] (in `fillbetween` function)
 
-
 ### [Creating Lupton RGB images](http://docs.astropy.org/en/stable/visualization/lupton_rgb.html)
 
-## Useful Python packages in astrophysics:
+- [mpld3](http://mpld3.github.io/notebooks/interactive_legend.html): renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!
+- [Altair](https://github.com/altair-viz/altair) is a relatively new declarative visualization library for Python. It's easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.
+- [plot.ly](https://plot.ly/) can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!
+
+# Useful Python packages in astrophysics:
 
 - [`healpy`](https://healpy.readthedocs.io/en/latest/install.html): It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it's super useful, its python documentation is really unfriendly for beginners.
 
@@ -85,7 +86,6 @@ sdss_corner.set_size_inches(14, 14)
 
   - ```python
     # Dump and load
-    
     from sklearn.neighbors import KNeighborsClassifier
     knn = KNeighborsClassifier()
     knn.fit(X_train, y_train)
@@ -99,4 +99,23 @@ sdss_corner.set_size_inches(14, 14)
     joblib.dump(knn, './clf_cache/knn.joblib.compress', compress=True)  
     ```
 
-- 
+- [`ipyparallel`](https://ipyparallel.readthedocs.io/en/latest/index.html): Using IPython for parallel computing
+
+
+
+# Tricks
+
+### Jupyter Notebook
+
+- `%%time`: Magic command to time your cell for a single run. Useful!
+- `%%timeit`: this command can be used to test your code's performance. It runs your cell for many times and calculate the mean time consumed. 
+- `%matplotlib inline`: show Matplotlib figures inline. Useful!
+
+- `%run ./two-histograms.ipynb`: this will run the notebook directly and shows every output from that notebook under this cell.
+- `%load ./download_tri_color_images.py`: load the functions and constants defined in the input python file, and run this file.
+- `%config InlineBackend.figure_format ='retina'`: show high resolution figures for Mac Retina screen. This won't affect the figure which is saved, it only affect the figure which is showed using `plt.show()`.
+- `_` means the previous output. By adding `;` in the end of a command, it will suppress the useless output of a function.
+  - Basic shell commands: `!` is external shell command, and `&` is to run this command as background.
+
+- Click + `control`: Jupyter supports multiple cursors, similar to Sublime Text. (Use `alt` on Windows)
+- [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify.
