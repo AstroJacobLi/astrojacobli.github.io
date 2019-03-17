@@ -8,14 +8,14 @@ categories: Coding
 
 # Data Visualization
 
-### [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/visualizing-amounts.html)
+### [Book: Fundamentals of Data Visualization](https://serialmentor.com/dataviz/visualizing-amounts.html)
 
 Really really nice book on principles of plotting and visualizing data. Like it! I will post some content below later.
 
-### [My own notes for plotting in python](https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb)
-hatch = ['///', '\\\\', 'XXX'] (in `fillbetween` function)
-
+### [My own notes for plotting in python](https://nbviewer.jupyter.org/github/astrojacobli/astro-ph/blob/master/Notes%20for%20Coding.ipynb)
 ### [Creating Lupton RGB images](http://docs.astropy.org/en/stable/visualization/lupton_rgb.html)
+
+### Other packages for plot
 
 - [mpld3](http://mpld3.github.io/notebooks/interactive_legend.html): renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!
 - [Altair](https://github.com/altair-viz/altair) is a relatively new declarative visualization library for Python. It's easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.
