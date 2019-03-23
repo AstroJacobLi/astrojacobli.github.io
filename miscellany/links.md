@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Art
+title: Links
 permalink: /miscellany/links/
 ---
 Alexie Leauthaud: [https://alexie.sites.ucsc.edu](https://alexie.sites.ucsc.edu)
