@@ -107,6 +107,8 @@ sdss_corner.set_size_inches(14, 14)
 
 ### Jupyter Notebook
 
+- `%load_ext autoreload`: import the IPython extension called `autoreload`. Then `%autoreload 2` will reload every module again automatically before executing.
+
 - `%%time`: Magic command to time your cell for a single run. Useful!
 - `%%timeit`: this command can be used to test your code's performance. It runs your cell for many times and calculate the mean time consumed. 
 - `%matplotlib inline`: show Matplotlib figures inline. Useful!
@@ -119,3 +121,7 @@ sdss_corner.set_size_inches(14, 14)
 
 - Click + `control`: Jupyter supports multiple cursors, similar to Sublime Text. (Use `alt` on Windows)
 - [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify.
+
+### Formating strings
+
+https://pyformat.info
