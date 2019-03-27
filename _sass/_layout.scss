@@ -180,7 +180,7 @@
 }
 
 h1 /* .post-title */ {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 0px;
     line-height: 1;
 		font-family: 'Titillium Web', sans-serif;
@@ -198,7 +198,7 @@ h1 /* .post-title */ {
 		font-family: 'Georgia', serif;
         color: $pku-red;
 	    font-weight: 500;
-        font-size: 27px;
+        font-size: 30px;
 
         @include media-query($on-laptop) {
 /*            font-size: 26px; */
@@ -208,7 +208,7 @@ h1 /* .post-title */ {
     h3 {
 		font-style: bold;
         font-weight: 500;
-        font-size: 23px;
+        font-size: 25px;
         color: #063cae;
         @include media-query($on-laptop) {
 /*            font-size: 25px; */
