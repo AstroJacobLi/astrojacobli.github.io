@@ -33,10 +33,11 @@ permalink: /miscellany/art/
 # Chinese Music:
 - 逃跑计划: [闪光的回忆 Shining Memories](https://www.youtube.com/watch?v=kTHhOQJRHNU), [Brightest Star in the Sky](https://www.youtube.com/watch?v=mSO3e1N8lLU)
 
+{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
+
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
 # Visual Art:
-{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 - Escher
 
 - Origami: Wolfram Logo Spikey [Origami Toturial](https://community.wolfram.com/groups/-/m/t/413928)
