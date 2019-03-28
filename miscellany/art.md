@@ -35,9 +35,15 @@ permalink: /miscellany/art/
 
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
-# Painting:
+# Visual Art:
 {% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 - Escher
+
+- Origami: Wolfram Logo Spikey [Origami Toturial](https://community.wolfram.com/groups/-/m/t/413928)
+
+{% include image.html url="https://langorigami.com/wp-content/uploads/2018/11/roses_and_thorns-1024x683.jpg" caption="Roses and Thorns (Robert Lang)" width=300 align="right" %} 
+- Robert Lang: [Roses and Thorns](https://langorigami.com/artwork/roses-and-thorns-opus-754/)
+
 
 # Prose:
 
