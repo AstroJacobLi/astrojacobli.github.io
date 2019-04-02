@@ -6,7 +6,7 @@ permalink: /about/
 
 {% include image.html url="/images/anniversary1.jpg" caption="Me and 120 Anniversary of Peking University" width=300 align="right" %}
 
-<p>I am Jiaxuan Li 李嘉轩, which is probably pronounced as Chia-Shuien Lee. I am currently a third-year undergraduate student in Department of Astronomy, <a class="tosu" href="http://pku.edu.cn">Peking University. </a>
+<p>I am Jiaxuan Li 李嘉轩, which is pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>. I am currently a third-year undergraduate student in Department of Astronomy, <a class="tosu" href="http://pku.edu.cn">Peking University. </a>
 <br>
 <br>
 I'm interested in galaxy formation and evolution, cosmology, supernova and data science. Other than working on MaNGA IFU data to study the H-alpha ring structures of quenching spiral galaxy, I'm also working on Hyper Suprime Camera (HSC) data to study the outskirts of massive galaxies.
