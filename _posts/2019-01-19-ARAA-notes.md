@@ -8,6 +8,18 @@ categories: paper
 # ARAA notes
 Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.
 
+---
+## Deep learning and Astrophysics
+
+### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/pdf/1904.06199v1.pdf)
+
+### [Photometric redshifts from SDSS images using a Convolutional Neural Network](https://arxiv.org/pdf/1806.06607.pdf)
+
+### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/abs/1904.06199v1)
+
+---
+
+
 ## [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy](https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf)
 
 
