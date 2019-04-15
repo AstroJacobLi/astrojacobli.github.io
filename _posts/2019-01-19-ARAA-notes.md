@@ -24,6 +24,9 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
 ### [Identification of Low Surface Brightness Tidal Features in Galaxies Using Convolutional Neural Networks](https://arxiv.org/abs/1811.11616)
 
+### [DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning](https://arxiv.org/abs/1904.05920v1)
+
+
 ---
 
 
