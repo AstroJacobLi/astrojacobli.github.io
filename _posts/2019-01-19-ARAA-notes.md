@@ -17,6 +17,13 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
 ### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/abs/1904.06199v1)
 
+### [Tidal Features at $$0.05 < z < 0.45$$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels](https://arxiv.org/abs/1805.05970)
+- Her talk on her paper: [Characterizing Tidal Features Across the Mass Scale with HSC](https://www.youtube.com/watch?v=sdQYZFN7dH8)
+
+### [The Origin of Faint Tidal Features Around Galaxies in the RESOLVE Survey](https://arxiv.org/abs/1803.05447)
+
+### [Identification of Low Surface Brightness Tidal Features in Galaxies Using Convolutional Neural Networks](https://arxiv.org/abs/1811.11616)
+
 ---
 
 
