@@ -125,3 +125,33 @@ sdss_corner.set_size_inches(14, 14)
 ### Formating strings
 
 https://pyformat.info
+
+
+
+# Unix
+
+#### Rsync
+
+We use `rsync` to transfer files between two computers. It often goes like:
+
+`rsync -avz --progress jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/Document/xxx.fits ~/Research/`
+
+#### SSH
+
+SSH is a tunnel through which you can connect with another computer (with fixed IP). It often goes like:
+
+Login kungpao: `ssh -A -Y jiaxuanli@kungpao.ucsc.edu`
+
+Using the internet of kungpao: `ssh -g -qfnNT -D 7070 jiaxuanli@kungpao.ucsc.edu` and then set the port of SOCKS to be 7070.
+
+Using Jupiter Notebook on kungpao but control it locally: `ssh -Y -N -L localhost:9999:localhost:9999 jiaxuanli@kungpao.ucsc.edu` (on your laptop); `jupyter notebook --no-browser --port=9999` (on your server kungpao).
+
+#### SSHFS
+
+When you find that using `ssh` and `rsync` is not convenient to see what you did, you need `sshfs` to mount your remote server to the local directory. 
+
+First, you need to download and install `OSXFUSE` and `SSHFS` on [https://osxfuse.github.io](https://osxfuse.github.io) (directly download the `.pkg` files under "Stable Releases" and then install them.) Then, you need to set a mounting folder (need to be empty). For example, `mkdir ~/Research/kungpao`. 
+
+Finally, it goes like `sshfs jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/ /Users/jiaxuanli/Research/kungpao/ -ovolname=kungpao`.
+
+You will see a disk icon in folder `~/Research`. To unmount this "disk", type `diskutil unmount ~/Research/kungpao/`.
