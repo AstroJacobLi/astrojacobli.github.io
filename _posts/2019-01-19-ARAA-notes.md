@@ -17,7 +17,7 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
 ### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/abs/1904.06199v1)
 
-### [Tidal Features at $$0.05 < z < 0.45$$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels](https://arxiv.org/abs/1805.05970)
+### [Tidal Features at $0.05 < z < 0.45$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels](https://arxiv.org/abs/1805.05970)
 - Her talk on her paper: [Characterizing Tidal Features Across the Mass Scale with HSC](https://www.youtube.com/watch?v=sdQYZFN7dH8)
 
 ### [The Origin of Faint Tidal Features Around Galaxies in the RESOLVE Survey](https://arxiv.org/abs/1803.05447)
@@ -26,10 +26,11 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
 ### [DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning](https://arxiv.org/abs/1904.05920v1)
 
-
 ---
 
+## [Modeling the Panchromatic Spectral Energy Distributions of Galaxies](https://ned.ipac.caltech.edu/level5/Sept14/Conroy/paper.pdf)
 
+---
 ## [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy](https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf)
 
 
