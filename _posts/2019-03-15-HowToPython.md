@@ -126,8 +126,19 @@ sdss_corner.set_size_inches(14, 14)
 
 https://pyformat.info
 
+### Using Tqdm to show progress
+See https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar.
 
-
+```python
+from slug.imutils import TqdmUpTo
+url = imutils.gen_url_hsc_s18a(obj['RA'], obj['Dec'], 
+                       size * slug.HSC_pixel_scale, 
+                       size * slug.HSC_pixel_scale, band)[0]
+#urllib.request.urlretrieve(url, filename, imutils.reporthook)
+with TqdmUpTo(unit='B', unit_scale=True, miniters=1, desc=prefix) as t:  # all optional kwargs
+    urllib.request.urlretrieve(url, filename=filename,
+                       reporthook=t.update_to, data=None)
+```
 # Unix
 
 #### Rsync

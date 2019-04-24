@@ -561,3 +561,5 @@ Sonata：第一次出现叫呈示部，第二次是再现，中间的间隔作�
 贝多芬的Sonata和Concerto
 
 钢琴可以变化强弱，而非harpsichord只能变化乐音而不能变化强弱。
+
+[曲式结构概要](http://blog.sina.com.cn/s/blog_4bda89f40100n3ge.html)
