@@ -120,7 +120,7 @@ sdss_corner.set_size_inches(14, 14)
   - Basic shell commands: `!` is external shell command, and `&` is to run this command as background.
 
 - Click + `control`: Jupyter supports multiple cursors, similar to Sublime Text. (Use `alt` on Windows)
-- [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify.
+- [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by `pip install jupyter_contrib_nbextensions` or `conda install -c conda-forge jupyter_contrib_nbextensions`. 
 
 ### Formating strings
 
