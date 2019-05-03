@@ -24,6 +24,7 @@ permalink: /miscellany/art/
 - Taylor Swift: [Riptide](https://www.youtube.com/watch?v=2GGRdwfhl-U).
 - [Jangan Menyerah](https://www.youtube.com/watch?v=mTp-OxfkCao): Beautiful Indonesian music! It encouraged me many times when I'm depressed.
 
+{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 
 # Japanese Music:
 - 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
@@ -32,8 +33,6 @@ permalink: /miscellany/art/
 
 # Chinese Music:
 - 逃跑计划: [闪光的回忆 Shining Memories](https://www.youtube.com/watch?v=kTHhOQJRHNU), [Brightest Star in the Sky](https://www.youtube.com/watch?v=mSO3e1N8lLU)
-
-{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
