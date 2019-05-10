@@ -26,6 +26,10 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
 ### [DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning](https://arxiv.org/abs/1904.05920v1)
 
+### [Photometry of high-redshift blended galaxies using deep learning](https://arxiv.org/pdf/1905.01324.pdf)
+
+
+
 ---
 
 ## [Modeling the Panchromatic Spectral Energy Distributions of Galaxies](https://ned.ipac.caltech.edu/level5/Sept14/Conroy/paper.pdf)
