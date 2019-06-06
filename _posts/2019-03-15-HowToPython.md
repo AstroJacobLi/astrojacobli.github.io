@@ -108,19 +108,21 @@ sdss_corner.set_size_inches(14, 14)
 ### Jupyter Notebook
 
 - `%load_ext autoreload`: import the IPython extension called `autoreload`. Then `%autoreload 2` will reload every module again automatically before executing.
-
 - `%%time`: Magic command to time your cell for a single run. Useful!
 - `%%timeit`: this command can be used to test your code's performance. It runs your cell for many times and calculate the mean time consumed. 
 - `%matplotlib inline`: show Matplotlib figures inline. Useful!
-
 - `%run ./two-histograms.ipynb`: this will run the notebook directly and shows every output from that notebook under this cell.
 - `%load ./download_tri_color_images.py`: load the functions and constants defined in the input python file, and run this file.
 - `%config InlineBackend.figure_format ='retina'`: show high resolution figures for Mac Retina screen. This won't affect the figure which is saved, it only affect the figure which is showed using `plt.show()`.
 - `_` means the previous output. By adding `;` in the end of a command, it will suppress the useless output of a function.
   - Basic shell commands: `!` is external shell command, and `&` is to run this command as background.
-
 - Click + `control`: Jupyter supports multiple cursors, similar to Sublime Text. (Use `alt` on Windows)
 - [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by `pip install jupyter_contrib_nbextensions` or `conda install -c conda-forge jupyter_contrib_nbextensions`. 
+
+### Matplotlib
+
+- If you find your figure too large, pass `rasterized=True` to `plt.savefig()`.
+- Useful arguments in `plt.savefig(bbox_inches='tight', dpi=200)`
 
 ### Formating strings
 
