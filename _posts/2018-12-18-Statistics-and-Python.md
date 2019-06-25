@@ -37,7 +37,7 @@ SImpson悖论：如果忘记了一些混淆因素，那么结论很可能完全�
 
 **随机化实验方法：**随机选取病人，从而各种因素在两组内分布都是相近的。随机化对照是**金标准**。随机对照和历史对照可以完全不一样，衡量药品的药效一定要做**随机化对照**。对人做实验是有ethical committee来判断是否合乎伦理。
 
-
+[Median absolute deviation](https://en.wikipedia.org/wiki/Median_absolute_deviation): $$\text{MAD} = \text{median}(|X_i - \text{median}(X)|)$$.
 
 
 

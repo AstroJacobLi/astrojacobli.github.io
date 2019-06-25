@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to use Python as an astronomer"
-date:   2019-03-15 21:40:00
+date:   2019-06-25 21:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
@@ -104,6 +104,9 @@ sdss_corner.set_size_inches(14, 14)
 
 
 # Tricks
+### Build your package
+- [How to write `requirements.txt` for a package](https://pip.readthedocs.io/en/1.1/requirements.html#requirements-file-format)
+- [Python Packaging User Guier (PyPI)](https://packaging.python.org)
 
 ### Jupyter Notebook
 
