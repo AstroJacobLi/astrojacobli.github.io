@@ -5,7 +5,6 @@ date:   2019-07-02 10:38:00
 author: Jiaxuan Li
 categories: paper
 ---
-# Notes on Review papers
 Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.
 
 ---
