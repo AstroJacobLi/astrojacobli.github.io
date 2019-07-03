@@ -110,6 +110,12 @@ sdss_corner.set_size_inches(14, 14)
 
 ### Jupyter Notebook
 
+No matter under macOs or Linux, or even under Windows, you'll find that a quick check of Jupiter Notebook is hard and cumbersome. You need to open `jupyter notebook` in this folder to check, then terminate this thread. However, using a new tool [ipynb-quicklook](https://github.com/tuxu/ipynb-quicklook/) and a new app [Jupyter Notebook Viewer](https://github.com/tuxu/nbviewer-app), things get much more easier (under macOS and linux). Simply press `space` and check your notebooks!
+
+The following are some other tricks involved when using `jupyter notebook`.
+
+- `Command + click`: multiple cursors in a cell.
+
 - `%load_ext autoreload`: import the IPython extension called `autoreload`. Then `%autoreload 2` will reload every module again automatically before executing.
 - `%%time`: Magic command to time your cell for a single run. Useful!
 - `%%timeit`: this command can be used to test your code's performance. It runs your cell for many times and calculate the mean time consumed. 
