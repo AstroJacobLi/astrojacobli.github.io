@@ -4,10 +4,10 @@
     <title>Jiaxuan Li</title>
     <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jul 2019 16:01:58 -0400</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2019 16:01:58 -0400</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 07 Jul 2019 16:05:44 -0400</pubDate>
+    <lastBuildDate>Sun, 07 Jul 2019 16:05:44 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -243,8 +243,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Tue, 02 Jul 2019 06:38:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
+        <link>https://astrojacobli.github.io/blog/2019/07/ReviewNotes</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/07/ReviewNotes</guid>
         
         
         <category>paper</category>
@@ -913,8 +913,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Jun 2019 19:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/06/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/06/astro-ph-2019</guid>
+        <link>https://astrojacobli.github.io/blog/2019/06/astro-ph-2019</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/06/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -1120,8 +1120,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;p&gt;You will see a disk icon in folder &lt;code class=&quot;highlighter-rouge&quot;&gt;~/Research&lt;/code&gt;. To unmount this “disk”, type &lt;code class=&quot;highlighter-rouge&quot;&gt;diskutil unmount ~/Research/kungpao/&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 25 Jun 2019 17:40:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/06/HowToPython</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/06/HowToPython</guid>
+        <link>https://astrojacobli.github.io/blog/2019/06/HowToPython</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/06/HowToPython</guid>
         
         
         <category>Coding</category>
@@ -1161,8 +1161,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;h3 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h3&gt;
 </description>
         <pubDate>Wed, 15 May 2019 11:38:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/05/astro-DL</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/05/astro-DL</guid>
+        <link>https://astrojacobli.github.io/blog/2019/05/astro-DL</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/05/astro-DL</guid>
         
         
         <category>paper</category>
@@ -2060,8 +2060,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Apr 2019 11:10:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/04/GreatPower</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/04/GreatPower</guid>
+        <link>https://astrojacobli.github.io/blog/2019/04/GreatPower</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/04/GreatPower</guid>
         
         
         <category>Miscellany</category>
@@ -2758,8 +2758,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 26 Feb 2019 16:30:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
+        <link>https://astrojacobli.github.io/blog/2019/02/WesternMusic</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/WesternMusic</guid>
         
         
         <category>Miscellany</category>
@@ -3417,8 +3417,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;6.8是最后一次大报告。&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Feb 2019 10:30:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/02/XingCe</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
+        <link>https://astrojacobli.github.io/blog/2019/02/XingCe</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/XingCe</guid>
         
         
         <category>Miscellany</category>
@@ -3520,8 +3520,8 @@ This is the energy emitted in unit time unit area unit frequency, and has nothin
 &lt;p&gt;Fe[II] line: ~20000 K. Often appear in H[II] region.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Feb 2019 16:38:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</guid>
+        <link>https://astrojacobli.github.io/blog/2019/02/Astro-Spec-Jiang</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/Astro-Spec-Jiang</guid>
         
         
         <category>paper</category>
@@ -3809,8 +3809,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 06:38:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
@@ -3887,8 +3887,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 </description>
         <pubDate>Sat, 22 Dec 2018 09:40:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/Writing</guid>
         
         
         <category>Astrophysics</category>
