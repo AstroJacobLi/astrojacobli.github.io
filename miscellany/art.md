@@ -10,7 +10,7 @@ permalink: /miscellany/art/
 - [Piano Concerto No. 1 E-minor](https://www.youtube.com/watch?v=2bFo65szAP0)
 
 ## Rachmaninoff
-- [Piano Concerto No.2 in C minor, Op.18](https://www.youtube.com/watch?v=LQanRa1lUSQ)
+- [Piano Concerto No.2 in C minor, Op.18, by Zimerman](https://www.youtube.com/watch?v=xa7GhdVLg1c&t=1126s)
 - [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
 
 ## Shostakovich
@@ -123,4 +123,4 @@ by 吟游诗人
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a short video produced by me, which aims at showing the journey of a astronomy student at Peking University, and also conveying the spirit of PKUer. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
