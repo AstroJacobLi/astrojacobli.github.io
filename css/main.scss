@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: 'Helvetica', Helvetica, Arial, sans-serif; //, 
-$base-font-size:   1.5em;
+$base-font-size:   1.0em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -27,10 +27,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 
 // Width of the content area
-$content-width:    1150px;
+$content-width:    1050px;
 
 $on-palm:          600px;
-$on-laptop:        1150px;
+$on-laptop:        1050px;
 
 
 

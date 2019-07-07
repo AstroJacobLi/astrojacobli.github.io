@@ -198,7 +198,7 @@ h1 /* .post-title */ {
 		font-family: 'Georgia', serif;
         color: $pku-red;
 	    font-weight: 500;
-        font-size: 30px;
+        font-size: 31.5px;
 
         @include media-query($on-laptop) {
 /*            font-size: 26px; */
@@ -208,7 +208,7 @@ h1 /* .post-title */ {
     h3 {
 		font-style: bold;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 27.5px;
         color: #063cae;
         @include media-query($on-laptop) {
 /*            font-size: 25px; */
@@ -217,7 +217,7 @@ h1 /* .post-title */ {
 
     h4 {font-family: 'Gothic', sans-serif;
         color: #007081;
-        font-size: 20px; 
+        font-size: 22.5px; 
         font-weight: 500;
 
         @include media-query($on-laptop) {
@@ -227,7 +227,7 @@ h1 /* .post-title */ {
 
     h5 {font-family: 'Helvatica', sans-serif;
         color: #007081;
-        font-size: 15px; 
+        font-size: 20px; 
         font-weight: 500;
 
         @include media-query($on-laptop) {

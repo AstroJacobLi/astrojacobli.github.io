@@ -244,7 +244,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   line-height: 1.5;
   font-weight: 400;
   color: #111;
@@ -273,7 +273,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 1.3125em; }
+  font-size: 0.875em; }
 
 /**
  * Lists
@@ -347,16 +347,16 @@ code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1150px - (30px * 2));
-  max-width: calc(1150px - (30px * 2));
+  max-width: -webkit-calc(1050px - (30px * 2));
+  max-width: calc(1050px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1050px) {
     .wrapper {
-      max-width: -webkit-calc(1150px - (30px));
-      max-width: calc(1150px - (30px));
+      max-width: -webkit-calc(1050px - (30px));
+      max-width: calc(1050px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -492,7 +492,7 @@ a.tosu {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -522,7 +522,7 @@ a.tosu {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 1.3125em;
+  font-size: 0.875em;
   color: #828282; }
 
 .post-link {
@@ -541,7 +541,7 @@ h1 {
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
   color: #522d80; }
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1050px) {
     h1 {
       /*        font-size: 40px; */ } }
 
@@ -551,32 +551,32 @@ h1 {
     font-family: 'Georgia', serif;
     color: #94070a;
     font-weight: 500;
-    font-size: 30px; }
-    @media screen and (max-width: 1150px) {
+    font-size: 31.5px; }
+    @media screen and (max-width: 1050px) {
       .post-content h2 {
         /*            font-size: 26px; */ } }
   .post-content h3 {
     font-style: bold;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 27.5px;
     color: #063cae; }
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1050px) {
       .post-content h3 {
         /*            font-size: 25px; */ } }
   .post-content h4 {
     font-family: 'Gothic', sans-serif;
     color: #007081;
-    font-size: 20px;
+    font-size: 22.5px;
     font-weight: 500; }
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1050px) {
       .post-content h4 {
         /*            font-size: 22px; */ } }
   .post-content h5 {
     font-family: 'Helvatica', sans-serif;
     color: #007081;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500; }
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 1050px) {
       .post-content h5 {
         /*            font-size: 22px; */ } }
 
