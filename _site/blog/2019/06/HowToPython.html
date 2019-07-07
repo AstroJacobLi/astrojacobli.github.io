@@ -52,15 +52,37 @@ MathJax.Hub.Config({
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>How to use Python as an astronomer</title>
-  <meta name="description" content="Data VisualizationFundamentals of Data VisualizationReally really nice book on principles of plotting and visualizing data. Like it! I will post some content...">
+  <meta name="description" content="Data VisualizationBook: Fundamentals of Data VisualizationReally really nice book on principles of plotting and visualizing data. Like it! I will post some c...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2019/03/HowToPython">
+  <link rel="canonical" href="http://localhost:4000/blog/2019/06/HowToPython">
   <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li" href="http://localhost:4000/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
-<link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./images/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./images/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="./images/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="./images/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="./images/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="./images/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="./images/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="./images/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="./images/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png" />
+
 
 
 
@@ -122,6 +144,8 @@ MathJax.Hub.Config({
     
     <li><a href="/miscellany/photography">Photography</a></li>
     
+    <li><a href="/miscellany/links">Links</a></li>
+    
     </ul>
     
     </li>
@@ -165,7 +189,7 @@ MathJax.Hub.Config({
         <div class="post">
   <header class="post-header">
     <h1 class="post-title">How to use Python as an astronomer</h1>
-    <p class="post-meta">Posted on March 16, 2019 by  Jiaxuan Li  
+    <p class="post-meta">Posted on June 25, 2019 by  Jiaxuan Li  
 
   in
   
@@ -179,14 +203,14 @@ MathJax.Hub.Config({
   <article class="post-content">
     <h1 id="data-visualization">Data Visualization</h1>
 
-<h3 id="fundamentals-of-data-visualization"><a href="https://serialmentor.com/dataviz/visualizing-amounts.html">Fundamentals of Data Visualization</a></h3>
+<h3 id="book-fundamentals-of-data-visualization"><a href="https://serialmentor.com/dataviz/visualizing-amounts.html">Book: Fundamentals of Data Visualization</a></h3>
 
 <p>Really really nice book on principles of plotting and visualizing data. Like it! I will post some content below later.</p>
 
-<h3 id="my-own-notes-for-plotting-in-python"><a href="https://github.com/AstroJacobLi/astro-ph/blob/master/Notes%20for%20Coding.ipynb">My own notes for plotting in python</a></h3>
-<p>hatch = [’///’, ‘\\’, ‘XXX’] (in <code class="highlighter-rouge">fillbetween</code> function)</p>
-
+<h3 id="my-own-notes-for-plotting-in-python"><a href="https://nbviewer.jupyter.org/github/astrojacobli/astro-ph/blob/master/Notes%20for%20Coding.ipynb">My own notes for plotting in python</a></h3>
 <h3 id="creating-lupton-rgb-images"><a href="http://docs.astropy.org/en/stable/visualization/lupton_rgb.html">Creating Lupton RGB images</a></h3>
+
+<h3 id="other-packages-for-plot">Other packages for plot</h3>
 
 <ul>
   <li><a href="http://mpld3.github.io/notebooks/interactive_legend.html">mpld3</a>: renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!</li>
@@ -291,15 +315,25 @@ MathJax.Hub.Config({
 </ul>
 
 <h1 id="tricks">Tricks</h1>
+<h3 id="build-your-package">Build your package</h3>
+<ul>
+  <li><a href="https://pip.readthedocs.io/en/1.1/requirements.html#requirements-file-format">How to write <code class="highlighter-rouge">requirements.txt</code> for a package</a></li>
+  <li><a href="https://packaging.python.org">Python Packaging User Guier (PyPI)</a></li>
+</ul>
 
 <h3 id="jupyter-notebook">Jupyter Notebook</h3>
 
+<p>No matter under macOs or Linux, or even under Windows, you’ll find that a quick check of Jupiter Notebook is hard and cumbersome. You need to open <code class="highlighter-rouge">jupyter notebook</code> in this folder to check, then terminate this thread. However, using a new tool <a href="https://github.com/tuxu/ipynb-quicklook/">ipynb-quicklook</a> and a new app <a href="https://github.com/tuxu/nbviewer-app">Jupyter Notebook Viewer</a>, things get much more easier (under macOS and linux). Simply press <code class="highlighter-rouge">space</code> and check your notebooks!</p>
+
+<p>The following are some other tricks involved when using <code class="highlighter-rouge">jupyter notebook</code>.</p>
+
 <ul>
+  <li><code class="highlighter-rouge">Command + click</code>: multiple cursors in a cell.</li>
+  <li><code class="highlighter-rouge">%load_ext autoreload</code>: import the IPython extension called <code class="highlighter-rouge">autoreload</code>. Then <code class="highlighter-rouge">%autoreload 2</code> will reload every module again automatically before executing.</li>
   <li><code class="highlighter-rouge">%%time</code>: Magic command to time your cell for a single run. Useful!</li>
   <li><code class="highlighter-rouge">%%timeit</code>: this command can be used to test your code’s performance. It runs your cell for many times and calculate the mean time consumed.</li>
-  <li>
-    <p><code class="highlighter-rouge">%matplotlib inline</code>: show Matplotlib figures inline. Useful!</p>
-  </li>
+  <li><code class="highlighter-rouge">%matplotlib inline</code>: show Matplotlib figures inline. Useful!</li>
+  <li><code class="highlighter-rouge">%matplotlib qt</code>: show Matplotlib figures outside in a <code class="highlighter-rouge">Qt</code> interface, in which you can check positions and corresponding value of points.</li>
   <li><code class="highlighter-rouge">%run ./two-histograms.ipynb</code>: this will run the notebook directly and shows every output from that notebook under this cell.</li>
   <li><code class="highlighter-rouge">%load ./download_tri_color_images.py</code>: load the functions and constants defined in the input python file, and run this file.</li>
   <li><code class="highlighter-rouge">%config InlineBackend.figure_format ='retina'</code>: show high resolution figures for Mac Retina screen. This won’t affect the figure which is saved, it only affect the figure which is showed using <code class="highlighter-rouge">plt.show()</code>.</li>
@@ -309,8 +343,59 @@ MathJax.Hub.Config({
     </ul>
   </li>
   <li>Click + <code class="highlighter-rouge">control</code>: Jupyter supports multiple cursors, similar to Sublime Text. (Use <code class="highlighter-rouge">alt</code> on Windows)</li>
-  <li><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Jupyter extensions</a>: my favorite extensions are  Codefolding, Nofity and Code prettify.</li>
+  <li><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Jupyter extensions</a>: my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by <code class="highlighter-rouge">pip install jupyter_contrib_nbextensions</code> or <code class="highlighter-rouge">conda install -c conda-forge jupyter_contrib_nbextensions</code>.</li>
 </ul>
+
+<h3 id="matplotlib">Matplotlib</h3>
+
+<ul>
+  <li>If you find your figure too large, pass <code class="highlighter-rouge">rasterized=True</code> to <code class="highlighter-rouge">plt.savefig()</code>.</li>
+  <li>Useful arguments in <code class="highlighter-rouge">plt.savefig(bbox_inches='tight', dpi=200)</code></li>
+</ul>
+
+<h3 id="formating-strings">Formating strings</h3>
+
+<p>https://pyformat.info</p>
+
+<h3 id="using-tqdm-to-show-progress">Using Tqdm to show progress</h3>
+<p>See https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">slug.imutils</span> <span class="kn">import</span> <span class="n">TqdmUpTo</span>
+<span class="n">url</span> <span class="o">=</span> <span class="n">imutils</span><span class="o">.</span><span class="n">gen_url_hsc_s18a</span><span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s">'RA'</span><span class="p">],</span> <span class="n">obj</span><span class="p">[</span><span class="s">'Dec'</span><span class="p">],</span> 
+                       <span class="n">size</span> <span class="o">*</span> <span class="n">slug</span><span class="o">.</span><span class="n">HSC_pixel_scale</span><span class="p">,</span> 
+                       <span class="n">size</span> <span class="o">*</span> <span class="n">slug</span><span class="o">.</span><span class="n">HSC_pixel_scale</span><span class="p">,</span> <span class="n">band</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="c1">#urllib.request.urlretrieve(url, filename, imutils.reporthook)
+</span><span class="k">with</span> <span class="n">TqdmUpTo</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="s">'B'</span><span class="p">,</span> <span class="n">unit_scale</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">miniters</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">desc</span><span class="o">=</span><span class="n">prefix</span><span class="p">)</span> <span class="k">as</span> <span class="n">t</span><span class="p">:</span>  <span class="c1"># all optional kwargs
+</span>    <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span>
+                       <span class="n">reporthook</span><span class="o">=</span><span class="n">t</span><span class="o">.</span><span class="n">update_to</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+</code></pre></div></div>
+<h1 id="unix">Unix</h1>
+
+<h4 id="rsync">Rsync</h4>
+
+<p>We use <code class="highlighter-rouge">rsync</code> to transfer files between two computers. It often goes like:</p>
+
+<p><code class="highlighter-rouge">rsync -avz --progress jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/Document/xxx.fits ~/Research/</code></p>
+
+<h4 id="ssh">SSH</h4>
+
+<p>SSH is a tunnel through which you can connect with another computer (with fixed IP). It often goes like:</p>
+
+<p>Login kungpao: <code class="highlighter-rouge">ssh -A -Y jiaxuanli@kungpao.ucsc.edu</code></p>
+
+<p>Using the internet of kungpao: <code class="highlighter-rouge">ssh -g -qfnNT -D 7070 jiaxuanli@kungpao.ucsc.edu</code> and then set the port of SOCKS to be 7070.</p>
+
+<p>Using Jupiter Notebook on kungpao but control it locally: <code class="highlighter-rouge">ssh -Y -N -L localhost:9999:localhost:9999 jiaxuanli@kungpao.ucsc.edu</code> (on your laptop); <code class="highlighter-rouge">jupyter notebook --no-browser --port=9999</code> (on your server kungpao).</p>
+
+<h4 id="sshfs">SSHFS</h4>
+
+<p>When you find that using <code class="highlighter-rouge">ssh</code> and <code class="highlighter-rouge">rsync</code> is not convenient to see what you did, you need <code class="highlighter-rouge">sshfs</code> to mount your remote server to the local directory.</p>
+
+<p>First, you need to download and install <code class="highlighter-rouge">OSXFUSE</code> and <code class="highlighter-rouge">SSHFS</code> on <a href="https://osxfuse.github.io">https://osxfuse.github.io</a> (directly download the <code class="highlighter-rouge">.pkg</code> files under “Stable Releases” and then install them.) Then, you need to set a mounting folder (need to be empty). For example, <code class="highlighter-rouge">mkdir ~/Research/kungpao</code>.</p>
+
+<p>Finally, it goes like <code class="highlighter-rouge">sshfs jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/ /Users/jiaxuanli/Research/kungpao/ -ovolname=kungpao</code>.</p>
+
+<p>You will see a disk icon in folder <code class="highlighter-rouge">~/Research</code>. To unmount this “disk”, type <code class="highlighter-rouge">diskutil unmount ~/Research/kungpao/</code>.</p>
 
   </article>
 

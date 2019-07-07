@@ -34,7 +34,7 @@
   text-align: right;
   float: right;
   padding-top: 9px;
-  font-size: 85%;
+  font-size: 110%;
   letter-spacing: 1px;
   line-height: 1em;
   font-weight: 600;
@@ -246,7 +246,7 @@ body {
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 400;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -536,7 +536,7 @@ a.tosu {
   margin-bottom: 30px; }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 0px;
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
@@ -551,14 +551,14 @@ h1 {
     font-family: 'Georgia', serif;
     color: #94070a;
     font-weight: 500;
-    font-size: 27px; }
+    font-size: 30px; }
     @media screen and (max-width: 950px) {
       .post-content h2 {
         /*            font-size: 26px; */ } }
   .post-content h3 {
     font-style: bold;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 25px;
     color: #063cae; }
     @media screen and (max-width: 950px) {
       .post-content h3 {
