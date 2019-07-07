@@ -208,17 +208,17 @@ h1 /* .post-title */ {
     h3 {
 		font-style: bold;
         font-weight: 500;
-        font-size: 27.5px;
+        font-size: 25.5px;
         color: #063cae;
         @include media-query($on-laptop) {
 /*            font-size: 25px; */
         }
     }
 
-    h4 {font-family: 'Gothic', sans-serif;
+    h4 {font-family: 'Palatino', sans-serif;
         color: #007081;
-        font-size: 22.5px; 
-        font-weight: 500;
+        font-size: 23.0px; 
+        font-weight: 600;
 
         @include media-query($on-laptop) {
 /*            font-size: 22px; */
@@ -227,8 +227,8 @@ h1 /* .post-title */ {
 
     h5 {font-family: 'Helvatica', sans-serif;
         color: #007081;
-        font-size: 20px; 
-        font-weight: 500;
+        font-size: 21px; 
+        font-weight: 300;
 
         @include media-query($on-laptop) {
 /*            font-size: 22px; */
