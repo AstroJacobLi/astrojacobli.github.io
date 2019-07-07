@@ -12,14 +12,14 @@
 }
 
 .site-title {
-    font-size: 29px;
-/* 		margin-top: 15px;
-    line-height: 40px; */
+    font-size: 28px;
+ 	margin-top: 0px;
+    /*line-height: 40px; */
     letter-spacing: 0px;
     margin-bottom: 0;
     float: left;
-    font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+		font-family: 'Palatino', sans-serif;
     color: #ffffff;
     &,
     &:visited {
@@ -45,10 +45,10 @@
 	text-align: right;
 	float: right;
 	padding-top: 9px;
-	font-size: 110%;
+	font-size: 95%;
 	letter-spacing: 1px;
 	line-height: 1em;
-	font-weight: 600;
+	font-weight: 500;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -80,8 +80,8 @@
 	font-weight: normal;
 	height: auto;
 	letter-spacing: 0;
-	line-height: 1.2em;
-	padding: 4px 10px;
+	line-height: 1.0em;
+	padding: 4px 5px;
 color: #522d80;
 
 }
@@ -92,7 +92,7 @@ color: #522d80;
 .site-nav  .sub-menu {
 	background: #ffffff;
 	border-color: $clemson-purple;
-	min-width: 265px;
+	min-width: 105px;
 
 	z-index:2147483647;
 }
