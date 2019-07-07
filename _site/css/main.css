@@ -347,16 +347,16 @@ code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(950px - (30px * 2));
-  max-width: calc(950px - (30px * 2));
+  max-width: -webkit-calc(1150px - (30px * 2));
+  max-width: calc(1150px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1150px) {
     .wrapper {
-      max-width: -webkit-calc(950px - (30px));
-      max-width: calc(950px - (30px));
+      max-width: -webkit-calc(1150px - (30px));
+      max-width: calc(1150px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -492,7 +492,7 @@ a.tosu {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -541,7 +541,7 @@ h1 {
   line-height: 1;
   font-family: 'Titillium Web', sans-serif;
   color: #522d80; }
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1150px) {
     h1 {
       /*        font-size: 40px; */ } }
 
@@ -552,7 +552,7 @@ h1 {
     color: #94070a;
     font-weight: 500;
     font-size: 30px; }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 1150px) {
       .post-content h2 {
         /*            font-size: 26px; */ } }
   .post-content h3 {
@@ -560,7 +560,7 @@ h1 {
     font-weight: 500;
     font-size: 25px;
     color: #063cae; }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 1150px) {
       .post-content h3 {
         /*            font-size: 25px; */ } }
   .post-content h4 {
@@ -568,7 +568,7 @@ h1 {
     color: #007081;
     font-size: 20px;
     font-weight: 500; }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 1150px) {
       .post-content h4 {
         /*            font-size: 22px; */ } }
   .post-content h5 {
@@ -576,7 +576,7 @@ h1 {
     color: #007081;
     font-size: 15px;
     font-weight: 500; }
-    @media screen and (max-width: 950px) {
+    @media screen and (max-width: 1150px) {
       .post-content h5 {
         /*            font-size: 22px; */ } }
 
