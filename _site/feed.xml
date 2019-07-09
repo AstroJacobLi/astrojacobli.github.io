@@ -2,254 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jiaxuan Li</title>
-    <description>This is the homepage of Jiaxuan Li. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
+    <description>This is the homepage of Jiaxuan Li, a senior Student in Department of Astronomy, Peking University. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jul 2019 16:06:43 -0400</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2019 16:06:43 -0400</lastBuildDate>
+    <pubDate>Tue, 09 Jul 2019 17:04:14 -0400</pubDate>
+    <lastBuildDate>Tue, 09 Jul 2019 17:04:14 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>Notes on Review papers</title>
-        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;an-introduction-to-astrophysical-observables-in-gravitational-wave-detections&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1906.03643&quot;&gt;An introduction to astrophysical observables in gravitational wave detections&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Introduction&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.&lt;/li&gt;
-      &lt;li&gt;GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Long story short&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;The maximum observed NS is 2.1 solar mass. How did they form if single degenerate SN model is correct and Chandrasekhar is total right.&lt;/li&gt;
-      &lt;li&gt;NS is not totally made of neutron. It has lighter elements and iron (predominate) on the surface, and then heavier elements with more neutron, and then compact exotic matter (strange quark matter? &lt;a href=&quot;http://www.phy.pku.edu.cn/~xurenxin/index.html&quot;&gt;@xrx&lt;/a&gt;) The EoS of NS has not been understood yet.&lt;/li&gt;
-      &lt;li&gt;A rotating BH comes from stellar collapse which has non-zero angular momentum before collapsing. There are many problems related to BH which remain mysteries now: mass function, mid-mass BH, etc.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ground-based laser interferometers&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/li&gt;
-      &lt;li&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/li&gt;
-      &lt;li&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/li&gt;
-      &lt;li&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/li&gt;
-      &lt;li&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Double BH merger: GW150914&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/li&gt;
-      &lt;li&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/li&gt;
-      &lt;li&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/li&gt;
-      &lt;li&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/li&gt;
-      &lt;li&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;GW170817, GRB170817A, AT 2017gfo&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;Respectively - the GW event, the gamma-ray burst 1.7 s later, the afterglow in different wavelengths (kilonova).&lt;/li&gt;
-      &lt;li&gt;GW170817 - toward the end of the data run of O2 of aLIGO and aVirgo
-        &lt;ul&gt;
-          &lt;li&gt;NS binary - produce a GW signal observable by &lt;strong&gt;ground-based&lt;/strong&gt; detectors in the final minutes before the massive objects collide.
-            &lt;ul&gt;
-              &lt;li&gt;Detection rate for advanced detectors (per year) - $\mathcal{O}(0.1)\sim\mathcal{O}(100)$ (astrophysical uncertainty).&lt;/li&gt;
-              &lt;li&gt;First indirect observation of GW - &lt;strong&gt;the Hulse and Taylor pulsar&lt;/strong&gt;.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Position localization - 28 deg$^2$ (purely GW signal restriction).&lt;/li&gt;
-          &lt;li&gt;Again, the chirp mass $\mathcal{M}$ ($\sim1.1\ M_\odot$ in the source frame and $\mathcal{M}^{d e t}=1.1977 M_{\odot}$ in the detectors frame when $z=0.008$ which) and the radius $R$ of the system are directly determined by observed $\omega$ and $\dot\omega$ during the inspiral phase. The amplitude $h$ is $\sim10^{-22}$ so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
-          &lt;li&gt;As $R$ approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio $q=m_2/m_1$ (where $m_2&amp;gt;m_1$) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass $\mathcal{M}$ differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
-          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately $1.4M_\odot$.&lt;/li&gt;
-          &lt;li&gt;The inclination of the system $\Theta \leq 28^{\circ}$.&lt;/li&gt;
-          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency $\nu_{g w} \simeq 600\ \mathrm{Hz}$. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
-          &lt;li&gt;The final state depends on individual masses. It can be a NS with a torus, a supra-massive/hypermassive NS which turns into a BH with a torus soon, or directly a BH with a torus.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;GRB170817A - the prompt emission is attributed to internal energy dissipation inside a relativistic jet (&lt;strong&gt;relativistic expanding fireballs&lt;/strong&gt;)
-        &lt;ul&gt;
-          &lt;li&gt;Short GRB ($\Delta t \leq 2\ \mathrm{s}$) - first direct observation evidence.&lt;/li&gt;
-          &lt;li&gt;1.7 s later than the GW, which is consistent with models of NS mergers&lt;/li&gt;
-          &lt;li&gt;The luminosity assuming an isotropic radiation is $\sim 4 \times 10^{46} \text { erg}$, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;AT 2017gfo - afterglow of GRB170817A caused by forward shocks propagating in the surrounding ambient material and the related elemental decays
-        &lt;ul&gt;
-          &lt;li&gt;Atoms heavier than $\ce{Fe}$ are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/li&gt;
-          &lt;li&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/li&gt;
-          &lt;li&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo ($\sim 0.05M_\odot$), we can estimate the event rate of (detectable) NS mergers, which is of $\mathcal{O}(1)\sim\mathcal{O}(10)$ within $\sim200$ Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Astrophysics of stellar BHs after GW150914&lt;/p&gt;
-
-    &lt;p&gt;Until now we have detected a couple dozens of BH mergers. They are typically more massive that our past observed BHs (typically X-ray binaries). This challenges the formation theories of stellar mass BHs. We also observed a gap in the BH mass spectrum between 2.5 solar mass (below which are all neutron stars) and 5 solar mass. Also, we don’t find many intermediate-mass BHs.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;deep-learning-and-astrophysics&quot;&gt;Deep learning and Astrophysics&lt;/h2&gt;
-
-&lt;h3 id=&quot;deep-learning-for-galaxy-surface-brightness-profile-fitting&quot;&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article/475/1/894/4725057&quot;&gt;Deep learning for galaxy surface brightness profile fitting&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;an-automatic-taxonomy-of-galaxy-morphology-using-unsupervised-machine-learning&quot;&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article/473/1/1108/4159372&quot;&gt;An automatic taxonomy of galaxy morphology using unsupervised machine learning&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;the-use-of-convolutional-neural-networks-for-modeling-large-optically-selected-strong-galaxy-lens-samples&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1904.06199v1.pdf&quot;&gt;The use of convolutional neural networks for modeling large optically-selected strong galaxy-lens samples&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;photometric-redshifts-from-sdss-images-using-a-convolutional-neural-network&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1806.06607.pdf&quot;&gt;Photometric redshifts from SDSS images using a Convolutional Neural Network&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;the-use-of-convolutional-neural-networks-for-modelling-large-optically-selected-strong-galaxy-lens-samples&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.06199v1&quot;&gt;The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;tidal-features-at-005--z--045-in-the-hyper-suprime-cam-subaru-strategic-program-properties-and-formation-channels&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1805.05970&quot;&gt;Tidal Features at $0.05 &amp;lt; z &amp;lt; 0.45$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Her talk on her paper: &lt;a href=&quot;https://www.youtube.com/watch?v=sdQYZFN7dH8&quot;&gt;Characterizing Tidal Features Across the Mass Scale with HSC&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-origin-of-faint-tidal-features-around-galaxies-in-the-resolve-survey&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1803.05447&quot;&gt;The Origin of Faint Tidal Features Around Galaxies in the RESOLVE Survey&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;identification-of-low-surface-brightness-tidal-features-in-galaxies-using-convolutional-neural-networks&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.11616&quot;&gt;Identification of Low Surface Brightness Tidal Features in Galaxies Using Convolutional Neural Networks&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;deepstreaks-identifying-fast-moving-objects-in-the-zwicky-transient-facility-data-with-deep-learning&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.05920v1&quot;&gt;DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&quot;photometry-of-high-redshift-blended-galaxies-using-deep-learning&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1905.01324.pdf&quot;&gt;Photometry of high-redshift blended galaxies using deep learning&lt;/a&gt;&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;modeling-the-panchromatic-spectral-energy-distributions-of-galaxies&quot;&gt;&lt;a href=&quot;https://ned.ipac.caltech.edu/level5/Sept14/Conroy/paper.pdf&quot;&gt;Modeling the Panchromatic Spectral Energy Distributions of Galaxies&lt;/a&gt;&lt;/h2&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;markov-chain-monte-carlo-methods-for-bayesian-data-analysis-in-astronomy&quot;&gt;&lt;a href=&quot;https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf&quot;&gt;Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;weak-lensing-for-precision-cosmology-by-rachel-mandelbaum&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928&quot;&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;moments-of-images&quot;&gt;Moments of images&lt;/h3&gt;
-&lt;p&gt;The moment of a 2-D distribution about the point &lt;script type=&quot;math/tex&quot;&gt;(c_x, c_y)&lt;/script&gt; is defined as a kind of average (this definition is straightforward):
-\[M_{m, n} = \frac{\int \rho(x, y) (x-c_x)^m (y-c_y)^n \md x\md y}{\int \rho(x, y)\md x\md y}.\]&lt;/p&gt;
-
-&lt;p&gt;The moment can be generalized with a weighting function:
-\[M_{m, n} = \frac{\int I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\int I(x, y)W(x, y)\md x\md y},\]
-where &lt;script type=&quot;math/tex&quot;&gt;I(x, y)&lt;/script&gt; is the intensity map and &lt;script type=&quot;math/tex&quot;&gt;W(x, y)&lt;/script&gt; is a weighting function.&lt;/p&gt;
-
-&lt;p&gt;Since the images are discrete instead of continuous, we write the integral to summation:
-\[M_{m, n} = \frac{\sum_x \sum_y I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\sum_x \sum_y  I(x, y)W(x, y)\md x\md y}.\]&lt;/p&gt;
-
-&lt;p&gt;The order of moment is defined as &lt;script type=&quot;math/tex&quot;&gt;m+n&lt;/script&gt;. Here after we usually assume a unity weighting function.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Zero order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{0, 0} = \sum_x \sum_y I(x, y)&lt;/script&gt; is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.&lt;/li&gt;
-  &lt;li&gt;First order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}&lt;/script&gt; is the &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; centroid of the image with an arbitrary coordinate origin. The centroid of image is &lt;script type=&quot;math/tex&quot;&gt;(M_{1, 0}, M_{0, 1})&lt;/script&gt;. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 280px&quot;&gt;
-
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/ellipse-moment.png&quot; alt=&quot;Second order moments of ellipse&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
-
-&lt;dd&gt;Second order moments of ellipse&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it’s straightforward to calculate its second order moments as:
-\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\]
-We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; (pink ellipse). We are very familiar with the coordinate transformation between &lt;script type=&quot;math/tex&quot;&gt;(x, y)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(x', y')&lt;/script&gt;, which is written as
-\[x’ = x\cos\theta - y\sin\theta,\ y’ = x\sin\theta + y\cos\theta.\]
-Plug in these transformation and express &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0}'&lt;/script&gt; using &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0},\ M_{0, 2},\ M_{1,1}&lt;/script&gt;, also noticing the Jacobian of this transformation is unity, we have:
-\[M_{2, 0}’ = \frac{1}{4}(a^2\cos^2\theta + b^2\sin^2\theta),\]
-\[M_{0, 2}’ = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\]
-\[M_{1, 1}’ = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\]
-Then we can define a complex ellipticity which goes like
-\[\widetilde{e} = \frac{M_{2, 0}’ - M_{0, 2}’ + 2i M_{1, 1}’}{M_{2, 0}’ + M_{0, 2}’}.\]
-And it turns out to be
-\[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\]
-where &lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt; is the axis ratio &lt;script type=&quot;math/tex&quot;&gt;b/a&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;(1-q^2) / (1+q^2) = e&lt;/script&gt; is the ellipticity of the ellipse. Thus
-\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\]
-Hence we have many combinations to express the shape (ellipticity and position angle) and size: &lt;script type=&quot;math/tex&quot;&gt;(\theta, e)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;(e_1, e_2)&lt;/script&gt;, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;from-images-to-catalogs&quot;&gt;From Images to Catalogs&lt;/h3&gt;
-&lt;p&gt;The signal of weak lensing is so weak that can be easily covered by all kinds of systematics. What observers need to do is to minimize these systematics.&lt;/p&gt;
-&lt;h4 id=&quot;psf-modeling&quot;&gt;PSF modeling&lt;/h4&gt;
-&lt;p&gt;The effective PSF is composed of atmospheric PSF, optical PSF, pixel response difference, etc (P.S. Rachel Mandelbaum is one of the authors of GalSim). The optical PSF can be generally modeled and is easier compared to atmospheric PSF.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Why does PSF affect weak lensing? Weak lensing measures the shapes of (faint) galaxies, PSF can make the galaxy itself more circular, make the shape of outskirts irregular (due to PSF anisotropy), and also make deblending very hard.&lt;/li&gt;
-  &lt;li&gt;How to measure PSF? Generally we measure the profiles of stars in the field as PSF models, then interpolate (using regular polynomials or Chebyshev polynomials) these models to other positions where we concern. But interpolation often make sense only on single CCD level. PSF model behaves bad on the edges of CCDs (but can use dithering and PCA interpolation to mitigate).&lt;/li&gt;
-  &lt;li&gt;PSF estimated by stars might not be accurate for galaxies. PSF actually depends on the SED of objects, but stars and galaxies have different SEDs. This effect is especially severe for very-wide-band surveys (Euclid). Also the PSF estimated by bright stars are not suitable for galaxies (even not suitable for bright galaxies).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;detector-systematics&quot;&gt;Detector Systematics&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Brighter-fatter effect. The electric field sourced by charges accumulated within a pixel can deflect the later coming electrons away, and the consequence is to enlarge the boundaries of the object. So we don’t measure PSF from bright stars. Also saturation is an additional factor.&lt;/li&gt;
-  &lt;li&gt;Some other defects of detectors can also considered as systematics. The difference of pixel sized among all pixels results in astrometric and photometric errors. The responding of pixels may also correlated with galaxy shape and position. In the next generation near infrared survey (WFIRST), we need to mitigate systematics related to NIR detector defects (they are not CCDs).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;deblending&quot;&gt;Deblending&lt;/h4&gt;
-&lt;p&gt;The final goal of deblending is to separate the lights from blended objects, and then measure the shapes. There are generally two kinds of blending. One is called ‘recognized blending’, in which you/algorithms can clearly detect two or more objects. The other is called ‘unrecognized blending’, in which you cannot tell things apart by eyes/algorithms easily.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).&lt;/li&gt;
-  &lt;li&gt;Deblending allow us to give sources better photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt;. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; can go weird.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It’s easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package &lt;a href=&quot;https://arxiv.org/abs/1802.10157&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scarlet&lt;/code&gt;&lt;/a&gt; based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) &lt;a href=&quot;https://arxiv.org/abs/1810.10098&quot;&gt;🔗&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;image-combination&quot;&gt;Image Combination&lt;/h4&gt;
-&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 300px&quot;&gt;
-
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://i.stack.imgur.com/B4hCQ.gif&quot; alt=&quot;Nyquist Sampling Rate&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
-
-&lt;dd&gt;Nyquist Sampling Rate&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called ‘coadd’. But ‘coadd’ is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;What is Nyquist sample rate? For a sinusoidal time series with frequency &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;, if the sampling rate (frequency) is smaller than &lt;script type=&quot;math/tex&quot;&gt;2f&lt;/script&gt;, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below &lt;script type=&quot;math/tex&quot;&gt;2f&lt;/script&gt;, you cannot distinguish between two frequencies since they behave similar under this sampling rate.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This paper &lt;a href=&quot;http://adsabs.harvard.edu/abs/2011ApJ...741...46R&quot;&gt;🔗&lt;/a&gt; describes the obstacle of space telescopes whose pixel sizes are limited by some reasons. If the pixel size is small and also large FOV is wanted, then you will need more CCDs, thus a heavier satellite will be launched with much more money. For Euclid, the pixel size is larger than the Nyquist pixel size (which is determined by the resolution &lt;script type=&quot;math/tex&quot;&gt;\lambda/D&lt;/script&gt;), thus the images are under-sampled. But this can be mitigated by dithering, which is also image combination.&lt;/p&gt;
-
-&lt;p&gt;For ground-based telescopes, there are basically two ways of using coadds. One is to do all science (measure flux, shape and estimate PSF) based on coadds. The other is to estimate PSF on the appropriate weighted combination of single-exposure PSF, but use coadds to measure properties of galaxies. This way doesn’t waste the frame with best seeing.&lt;/p&gt;
-
-&lt;p&gt;“Representing the galaxy and PSF models as sums of Gaussians with different scale radii can drastically speed up the calculations.”&lt;/p&gt;
-
-&lt;h4 id=&quot;other-aspects-of-image-processing&quot;&gt;Other Aspects of Image Processing&lt;/h4&gt;
-&lt;p&gt;Sky subtraction always affect everything. Errors in sky subtraction can cause coherent problems with object detection, photometry, and shear estimation near very bright objects—bright stars or collections of bright galaxies (e.g., in galaxy clusters).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756&quot;&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-faintest-dwarf-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-most-luminous-supernovae&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.01428v1&quot;&gt;The Most Luminous Supernovae&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
-</description>
-        <pubDate>Tue, 02 Jul 2019 06:38:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
-        
-        
-        <category>paper</category>
-        
-      </item>
     
       <item>
         <title>astro-ph Reading in 2019</title>
@@ -257,6 +16,28 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;
 &lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;070819---071419&quot;&gt;07/08/19 - 07/14/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;galactic-cirri-in-deep-optical-imaging&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.00978&quot;&gt;Galactic cirri in deep optical imaging&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The detection of low surface brightness region is affected by several systematic effects: Poor data reduction pipeline: create artifacts; Incorrect sky subtractions; scattered lights from bright sources due to fat PSF.&lt;/p&gt;
+
+    &lt;p&gt;The “Galactic cirri” are now a major barrier for extragalactic astronomers. They have peak emission in far-IR, but could also be detected in optical bands. IRAS, Planck, and Herschel shed lights on them, but are limited to poor spacial resolution or modest sky coverage. The study (or even to discern and remove them) are of great importance, not only to LSB study, but also for cosmologist (CMB polarization and Infrared cosmic background).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-messier-surveyor-unveiling-the-ultra-low-surface-brightness-universe&quot;&gt;&lt;a href=&quot;https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/messier-surveyor-unveiling-the-ultralow-surface-brightness-universe/7B703B76C671159B7B99ED8324D49984&quot;&gt;The MESSIER surveyor: unveiling the ultra-low surface brightness universe&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Youtube talk video: https://www.youtube.com/watch?v=xFGaqSRRFfQ&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;optical-characteristics-of-galactic-100-micron-cirrus&quot;&gt;&lt;a href=&quot;http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1989ApJ...346..773G&amp;amp;data_type=PDF_HIGH&amp;amp;whole_paper=YES&amp;amp;type=PRINTER&amp;amp;filetype=.pdf&quot;&gt;OPTICAL CHARACTERISTICS OF GALACTIC 100 MICRON CIRRUS&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h2 id=&quot;070119---070719&quot;&gt;07/01/19 - 07/07/19&lt;/h2&gt;
 
@@ -912,9 +693,250 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 28 Jun 2019 19:00:00 -0400</pubDate>
-        <link>http://localhost:4000/blog/2019/06/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/06/astro-ph-2019</guid>
+        <pubDate>Mon, 08 Jul 2019 16:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2019/07/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/astro-ph-2019</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Notes on Review papers</title>
+        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;an-introduction-to-astrophysical-observables-in-gravitational-wave-detections&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1906.03643&quot;&gt;An introduction to astrophysical observables in gravitational wave detections&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Introduction&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.&lt;/li&gt;
+      &lt;li&gt;GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Long story short&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The maximum observed NS is 2.1 solar mass. How did they form if single degenerate SN model is correct and Chandrasekhar is total right.&lt;/li&gt;
+      &lt;li&gt;NS is not totally made of neutron. It has lighter elements and iron (predominate) on the surface, and then heavier elements with more neutron, and then compact exotic matter (strange quark matter? &lt;a href=&quot;http://www.phy.pku.edu.cn/~xurenxin/index.html&quot;&gt;@xrx&lt;/a&gt;) The EoS of NS has not been understood yet.&lt;/li&gt;
+      &lt;li&gt;A rotating BH comes from stellar collapse which has non-zero angular momentum before collapsing. There are many problems related to BH which remain mysteries now: mass function, mid-mass BH, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ground-based laser interferometers&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/li&gt;
+      &lt;li&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/li&gt;
+      &lt;li&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/li&gt;
+      &lt;li&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/li&gt;
+      &lt;li&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Double BH merger: GW150914&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/li&gt;
+      &lt;li&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/li&gt;
+      &lt;li&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/li&gt;
+      &lt;li&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/li&gt;
+      &lt;li&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/li&gt;
+      &lt;li&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/li&gt;
+      &lt;li&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GW170817, GRB170817A, AT 2017gfo&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Respectively - the GW event, the gamma-ray burst 1.7 s later, the afterglow in different wavelengths (kilonova).&lt;/li&gt;
+      &lt;li&gt;GW170817 - toward the end of the data run of O2 of aLIGO and aVirgo
+        &lt;ul&gt;
+          &lt;li&gt;NS binary - produce a GW signal observable by &lt;strong&gt;ground-based&lt;/strong&gt; detectors in the final minutes before the massive objects collide.
+            &lt;ul&gt;
+              &lt;li&gt;Detection rate for advanced detectors (per year) - $\mathcal{O}(0.1)\sim\mathcal{O}(100)$ (astrophysical uncertainty).&lt;/li&gt;
+              &lt;li&gt;First indirect observation of GW - &lt;strong&gt;the Hulse and Taylor pulsar&lt;/strong&gt;.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Position localization - 28 deg$^2$ (purely GW signal restriction).&lt;/li&gt;
+          &lt;li&gt;Again, the chirp mass $\mathcal{M}$ ($\sim1.1\ M_\odot$ in the source frame and $\mathcal{M}^{d e t}=1.1977 M_{\odot}$ in the detectors frame when $z=0.008$ which) and the radius $R$ of the system are directly determined by observed $\omega$ and $\dot\omega$ during the inspiral phase. The amplitude $h$ is $\sim10^{-22}$ so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
+          &lt;li&gt;As $R$ approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio $q=m_2/m_1$ (where $m_2&amp;gt;m_1$) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass $\mathcal{M}$ differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
+          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately $1.4M_\odot$.&lt;/li&gt;
+          &lt;li&gt;The inclination of the system $\Theta \leq 28^{\circ}$.&lt;/li&gt;
+          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency $\nu_{g w} \simeq 600\ \mathrm{Hz}$. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
+          &lt;li&gt;The final state depends on individual masses. It can be a NS with a torus, a supra-massive/hypermassive NS which turns into a BH with a torus soon, or directly a BH with a torus.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;GRB170817A - the prompt emission is attributed to internal energy dissipation inside a relativistic jet (&lt;strong&gt;relativistic expanding fireballs&lt;/strong&gt;)
+        &lt;ul&gt;
+          &lt;li&gt;Short GRB ($\Delta t \leq 2\ \mathrm{s}$) - first direct observation evidence.&lt;/li&gt;
+          &lt;li&gt;1.7 s later than the GW, which is consistent with models of NS mergers&lt;/li&gt;
+          &lt;li&gt;The luminosity assuming an isotropic radiation is $\sim 4 \times 10^{46} \text { erg}$, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;AT 2017gfo - afterglow of GRB170817A caused by forward shocks propagating in the surrounding ambient material and the related elemental decays
+        &lt;ul&gt;
+          &lt;li&gt;Atoms heavier than $\ce{Fe}$ are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/li&gt;
+          &lt;li&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/li&gt;
+          &lt;li&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo ($\sim 0.05M_\odot$), we can estimate the event rate of (detectable) NS mergers, which is of $\mathcal{O}(1)\sim\mathcal{O}(10)$ within $\sim200$ Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Astrophysics of stellar BHs after GW150914&lt;/p&gt;
+
+    &lt;p&gt;Until now we have detected a couple dozens of BH mergers. They are typically more massive that our past observed BHs (typically X-ray binaries). This challenges the formation theories of stellar mass BHs. We also observed a gap in the BH mass spectrum between 2.5 solar mass (below which are all neutron stars) and 5 solar mass. Also, we don’t find many intermediate-mass BHs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;deep-learning-and-astrophysics&quot;&gt;Deep learning and Astrophysics&lt;/h2&gt;
+
+&lt;h3 id=&quot;deep-learning-for-galaxy-surface-brightness-profile-fitting&quot;&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article/475/1/894/4725057&quot;&gt;Deep learning for galaxy surface brightness profile fitting&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;an-automatic-taxonomy-of-galaxy-morphology-using-unsupervised-machine-learning&quot;&gt;&lt;a href=&quot;https://academic.oup.com/mnras/article/473/1/1108/4159372&quot;&gt;An automatic taxonomy of galaxy morphology using unsupervised machine learning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-use-of-convolutional-neural-networks-for-modeling-large-optically-selected-strong-galaxy-lens-samples&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1904.06199v1.pdf&quot;&gt;The use of convolutional neural networks for modeling large optically-selected strong galaxy-lens samples&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;photometric-redshifts-from-sdss-images-using-a-convolutional-neural-network&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1806.06607.pdf&quot;&gt;Photometric redshifts from SDSS images using a Convolutional Neural Network&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-use-of-convolutional-neural-networks-for-modelling-large-optically-selected-strong-galaxy-lens-samples&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.06199v1&quot;&gt;The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;tidal-features-at-005--z--045-in-the-hyper-suprime-cam-subaru-strategic-program-properties-and-formation-channels&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1805.05970&quot;&gt;Tidal Features at $0.05 &amp;lt; z &amp;lt; 0.45$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Her talk on her paper: &lt;a href=&quot;https://www.youtube.com/watch?v=sdQYZFN7dH8&quot;&gt;Characterizing Tidal Features Across the Mass Scale with HSC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-origin-of-faint-tidal-features-around-galaxies-in-the-resolve-survey&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1803.05447&quot;&gt;The Origin of Faint Tidal Features Around Galaxies in the RESOLVE Survey&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;identification-of-low-surface-brightness-tidal-features-in-galaxies-using-convolutional-neural-networks&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1811.11616&quot;&gt;Identification of Low Surface Brightness Tidal Features in Galaxies Using Convolutional Neural Networks&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;deepstreaks-identifying-fast-moving-objects-in-the-zwicky-transient-facility-data-with-deep-learning&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.05920v1&quot;&gt;DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;photometry-of-high-redshift-blended-galaxies-using-deep-learning&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1905.01324.pdf&quot;&gt;Photometry of high-redshift blended galaxies using deep learning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;modeling-the-panchromatic-spectral-energy-distributions-of-galaxies&quot;&gt;&lt;a href=&quot;https://ned.ipac.caltech.edu/level5/Sept14/Conroy/paper.pdf&quot;&gt;Modeling the Panchromatic Spectral Energy Distributions of Galaxies&lt;/a&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;markov-chain-monte-carlo-methods-for-bayesian-data-analysis-in-astronomy&quot;&gt;&lt;a href=&quot;https://astrojacobli.github.io/Docs/MCMC-2017ARAA.pdf&quot;&gt;Markov Chain Monte Carlo Methods for Bayesian Data Analysis in Astronomy&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;weak-lensing-for-precision-cosmology-by-rachel-mandelbaum&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051928&quot;&gt;Weak Lensing for Precision Cosmology, by Rachel Mandelbaum&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;moments-of-images&quot;&gt;Moments of images&lt;/h3&gt;
+&lt;p&gt;The moment of a 2-D distribution about the point &lt;script type=&quot;math/tex&quot;&gt;(c_x, c_y)&lt;/script&gt; is defined as a kind of average (this definition is straightforward):
+\[M_{m, n} = \frac{\int \rho(x, y) (x-c_x)^m (y-c_y)^n \md x\md y}{\int \rho(x, y)\md x\md y}.\]&lt;/p&gt;
+
+&lt;p&gt;The moment can be generalized with a weighting function:
+\[M_{m, n} = \frac{\int I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\int I(x, y)W(x, y)\md x\md y},\]
+where &lt;script type=&quot;math/tex&quot;&gt;I(x, y)&lt;/script&gt; is the intensity map and &lt;script type=&quot;math/tex&quot;&gt;W(x, y)&lt;/script&gt; is a weighting function.&lt;/p&gt;
+
+&lt;p&gt;Since the images are discrete instead of continuous, we write the integral to summation:
+\[M_{m, n} = \frac{\sum_x \sum_y I(x, y)W(x, y)( x-c_x)^m (y-c_y)^n \md x\md y}{\sum_x \sum_y  I(x, y)W(x, y)\md x\md y}.\]&lt;/p&gt;
+
+&lt;p&gt;The order of moment is defined as &lt;script type=&quot;math/tex&quot;&gt;m+n&lt;/script&gt;. Here after we usually assume a unity weighting function.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Zero order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{0, 0} = \sum_x \sum_y I(x, y)&lt;/script&gt; is the total brightness of an image. We ignore the denominator here otherwise it will yield trivial result.&lt;/li&gt;
+  &lt;li&gt;First order moment: &lt;script type=&quot;math/tex&quot;&gt;M_{1, 0} = \frac{\sum_x \sum_y I(x, y) x}{\sum_x \sum_y I(x, y)}&lt;/script&gt; is the &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; centroid of the image with an arbitrary coordinate origin. The centroid of image is &lt;script type=&quot;math/tex&quot;&gt;(M_{1, 0}, M_{0, 1})&lt;/script&gt;. Given the centroid, we can remove the origin of image to the centroid, and calculate higher order moments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 280px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/ellipse-moment.png&quot; alt=&quot;Second order moments of ellipse&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Second order moments of ellipse&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Second order moments: Here we discuss the second order moment of an ellipse with constance surface brightness &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; (not in magnitude). Assume we have correct the coordinate origin to the center of this ellipse. The the horizontal aligned ellipse (black one in the right figure), it’s straightforward to calculate its second order moments as:
+\[M_{2, 0} = \frac{1}{4}a^2,\ M_{0, 2} = \frac{1}{4}b^2,\ M_{1, 1} = 0.\]
+We already see that the second order moments contain information about the shape, size and orientation of an ellipse. Then we study a non-trivial case by rotating the ellipse by &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; (pink ellipse). We are very familiar with the coordinate transformation between &lt;script type=&quot;math/tex&quot;&gt;(x, y)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(x', y')&lt;/script&gt;, which is written as
+\[x’ = x\cos\theta - y\sin\theta,\ y’ = x\sin\theta + y\cos\theta.\]
+Plug in these transformation and express &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0}'&lt;/script&gt; using &lt;script type=&quot;math/tex&quot;&gt;M_{2, 0},\ M_{0, 2},\ M_{1,1}&lt;/script&gt;, also noticing the Jacobian of this transformation is unity, we have:
+\[M_{2, 0}’ = \frac{1}{4}(a^2\cos^2\theta + b^2\sin^2\theta),\]
+\[M_{0, 2}’ = \frac{1}{4}(a^2\sin^2\theta + b^2\cos^2\theta),\]
+\[M_{1, 1}’ = \frac{1}{4}(a^2 - b^2)\sin\theta\cos\theta.\]
+Then we can define a complex ellipticity which goes like
+\[\widetilde{e} = \frac{M_{2, 0}’ - M_{0, 2}’ + 2i M_{1, 1}’}{M_{2, 0}’ + M_{0, 2}’}.\]
+And it turns out to be
+\[\widetilde{e} = \frac{1-q^2}{1+q^2}(\cos 2\theta + i\sin 2\theta),\]
+where &lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt; is the axis ratio &lt;script type=&quot;math/tex&quot;&gt;b/a&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;(1-q^2) / (1+q^2) = e&lt;/script&gt; is the ellipticity of the ellipse. Thus
+\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\]
+Hence we have many combinations to express the shape (ellipticity and position angle) and size: &lt;script type=&quot;math/tex&quot;&gt;(\theta, e)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;(e_1, e_2)&lt;/script&gt;, etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;from-images-to-catalogs&quot;&gt;From Images to Catalogs&lt;/h3&gt;
+&lt;p&gt;The signal of weak lensing is so weak that can be easily covered by all kinds of systematics. What observers need to do is to minimize these systematics.&lt;/p&gt;
+&lt;h4 id=&quot;psf-modeling&quot;&gt;PSF modeling&lt;/h4&gt;
+&lt;p&gt;The effective PSF is composed of atmospheric PSF, optical PSF, pixel response difference, etc (P.S. Rachel Mandelbaum is one of the authors of GalSim). The optical PSF can be generally modeled and is easier compared to atmospheric PSF.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why does PSF affect weak lensing? Weak lensing measures the shapes of (faint) galaxies, PSF can make the galaxy itself more circular, make the shape of outskirts irregular (due to PSF anisotropy), and also make deblending very hard.&lt;/li&gt;
+  &lt;li&gt;How to measure PSF? Generally we measure the profiles of stars in the field as PSF models, then interpolate (using regular polynomials or Chebyshev polynomials) these models to other positions where we concern. But interpolation often make sense only on single CCD level. PSF model behaves bad on the edges of CCDs (but can use dithering and PCA interpolation to mitigate).&lt;/li&gt;
+  &lt;li&gt;PSF estimated by stars might not be accurate for galaxies. PSF actually depends on the SED of objects, but stars and galaxies have different SEDs. This effect is especially severe for very-wide-band surveys (Euclid). Also the PSF estimated by bright stars are not suitable for galaxies (even not suitable for bright galaxies).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;detector-systematics&quot;&gt;Detector Systematics&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Brighter-fatter effect. The electric field sourced by charges accumulated within a pixel can deflect the later coming electrons away, and the consequence is to enlarge the boundaries of the object. So we don’t measure PSF from bright stars. Also saturation is an additional factor.&lt;/li&gt;
+  &lt;li&gt;Some other defects of detectors can also considered as systematics. The difference of pixel sized among all pixels results in astrometric and photometric errors. The responding of pixels may also correlated with galaxy shape and position. In the next generation near infrared survey (WFIRST), we need to mitigate systematics related to NIR detector defects (they are not CCDs).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;deblending&quot;&gt;Deblending&lt;/h4&gt;
+&lt;p&gt;The final goal of deblending is to separate the lights from blended objects, and then measure the shapes. There are generally two kinds of blending. One is called ‘recognized blending’, in which you/algorithms can clearly detect two or more objects. The other is called ‘unrecognized blending’, in which you cannot tell things apart by eyes/algorithms easily.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Deblending allow us to use larger sample, otherwise we have to exclude (e.g. CFHTLenS) those blended sources (which account for 50% in HSC).&lt;/li&gt;
+  &lt;li&gt;Deblending allow us to give sources better photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt;. If two galaxies with different SED/redshift blend together and we consider them as one source, then the photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; can go weird.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now there are many deblending algorithms, some of them take the advantages of the state-of-art machine learning and deep learning techniques. It’s easier to distinguish objects by combining multi-band images than just looking at single band. Peter Melchoir write the deblending package &lt;a href=&quot;https://arxiv.org/abs/1802.10157&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scarlet&lt;/code&gt;&lt;/a&gt; based on multi-band images. And guys at UCSC also try to deblend images using GAN (Generative Adversarial Networks) &lt;a href=&quot;https://arxiv.org/abs/1810.10098&quot;&gt;🔗&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;image-combination&quot;&gt;Image Combination&lt;/h4&gt;
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 300px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://i.stack.imgur.com/B4hCQ.gif&quot; alt=&quot;Nyquist Sampling Rate&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Nyquist Sampling Rate&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;We all know that longer exposure time gives better S/N image. So we stack single-CCD images together to get deeper detections. The stacked image is usually called ‘coadd’. But ‘coadd’ is not only for getting deeper (which is usually the case for ground-based telescopes). The pixel sizes of space-based telescopes are mostly quite large, so the image is under-sampled.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What is Nyquist sample rate? For a sinusoidal time series with frequency &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;, if the sampling rate (frequency) is smaller than &lt;script type=&quot;math/tex&quot;&gt;2f&lt;/script&gt;, you cannot get the correct frequency from the sampled data. Also if the sampling rate is below &lt;script type=&quot;math/tex&quot;&gt;2f&lt;/script&gt;, you cannot distinguish between two frequencies since they behave similar under this sampling rate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This paper &lt;a href=&quot;http://adsabs.harvard.edu/abs/2011ApJ...741...46R&quot;&gt;🔗&lt;/a&gt; describes the obstacle of space telescopes whose pixel sizes are limited by some reasons. If the pixel size is small and also large FOV is wanted, then you will need more CCDs, thus a heavier satellite will be launched with much more money. For Euclid, the pixel size is larger than the Nyquist pixel size (which is determined by the resolution &lt;script type=&quot;math/tex&quot;&gt;\lambda/D&lt;/script&gt;), thus the images are under-sampled. But this can be mitigated by dithering, which is also image combination.&lt;/p&gt;
+
+&lt;p&gt;For ground-based telescopes, there are basically two ways of using coadds. One is to do all science (measure flux, shape and estimate PSF) based on coadds. The other is to estimate PSF on the appropriate weighted combination of single-exposure PSF, but use coadds to measure properties of galaxies. This way doesn’t waste the frame with best seeing.&lt;/p&gt;
+
+&lt;p&gt;“Representing the galaxy and PSF models as sums of Gaussians with different scale radii can drastically speed up the calculations.”&lt;/p&gt;
+
+&lt;h4 id=&quot;other-aspects-of-image-processing&quot;&gt;Other Aspects of Image Processing&lt;/h4&gt;
+&lt;p&gt;Sky subtraction always affect everything. Errors in sky subtraction can cause coherent problems with object detection, photometry, and shear estimation near very bright objects—bright stars or collections of bright galaxies (e.g., in galaxy clusters).&lt;/p&gt;
+
+&lt;h2 id=&quot;the-connection-between-galaxies-and-their-dark-matter-halos-by-risa-wechsler-and-jeremy-tinker&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081817-051756&quot;&gt;The Connection Between Galaxies and Their Dark Matter Halos, by Risa Wechsler and Jeremy Tinker&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-faintest-dwarf-galaxies&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1901.05465&quot;&gt;The Faintest Dwarf Galaxies&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-most-luminous-supernovae&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1812.01428v1&quot;&gt;The Most Luminous Supernovae&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
+</description>
+        <pubDate>Tue, 02 Jul 2019 06:38:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
         
         
         <category>paper</category>
