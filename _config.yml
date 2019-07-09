@@ -1,9 +1,9 @@
 # Site settings
 title: Jiaxuan Li
-positin: Junior Undergraduate
+positin: Senior Undergraduate
 email: jiaxuan_li@pku.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
-  This is the homepage of Jiaxuan Li. <br>
+  This is the homepage of Jiaxuan Li, a senior Student in Department of Astronomy, Peking University. <br>
   Enjoy galaxies, cosmology and supernovae! 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
@@ -23,6 +23,9 @@ plugins:
   - image
   - jekyll-seo-tag
 # SEO stuff
+twitter:
+  username: JiaxuanLiPKU
+  card: summary
 # google_author: ""
 # google_site_verification: ""
 # bing_webmastertools_id: ""
