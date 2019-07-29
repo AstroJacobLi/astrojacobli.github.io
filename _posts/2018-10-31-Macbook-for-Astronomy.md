@@ -31,12 +31,13 @@ export PATH=${JAVA_HOME}/bin:$PATH
 - It's hard to get your hands on `vim` without a [cheatsheet](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
 - A useful widget `cosmoWidget` to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html
 - LaTeX package for SI units: [siunitx](https://ctan.org/pkg/siunitx)
+- [Homebrew](https://docs.brew.sh/FAQ) is another good tool for installing packages, especially those written in C/C++. Sometimes `brew` will update itself automatically, then you can stop it directly by `control + C`. 
 
 #### **When your terminal cannot recognize anything, do this:**
 ```python
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 ```
-# Install `the Tractor`
+## Install `the Tractor`
 [`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection & measurement tool, written by Dustin Lang and David Hogg.
 
 0. Make sure you have installed XCode from Mac AppStore. Then execute: 
@@ -107,7 +108,14 @@ $ python setup.py install
 
 ***
 
+## Install [Imfit](http://www.mpe.mpg.de/~erwin/code/imfit/markdown/index.html)
+
+Requirements: [CFITSIO](https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio_macosx.html), [GNU Scientific Library](http://ftp.wayne.edu/gnu/gsl/), [FFTW](http://www.fftw.org) (which is used by many other packages as well), [NLopt](https://nlopt.readthedocs.io/en/latest/). You also need to install `CMake` by `$ brew install cmake` to install `NLopt`. Almost all of these packages should be installed by `$ ./configure & make & make install`. However, please check `INSTALL` file for more detailed description. You also need to install `pip install scons`. After all these preparation, install `imfit` with `$ scons —no-openmp imfit & scons —no-openmp imfit-mcmc & scons —no-openmp makeimage`.
+
+---
+
 #### References
+
 http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy
 
 http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps
