@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiaxuan Li</title>
-    <description>This is the homepage of Jiaxuan Li, a senior Student in Department of Astronomy, Peking University. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
+    <title>Jiaxuan Li 李嘉轩</title>
+    <description>Homepage of Jiaxuan Li 李嘉轩, a senior Student in Department of Astronomy, Peking University. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jul 2019 17:04:14 -0400</pubDate>
-    <lastBuildDate>Tue, 09 Jul 2019 17:04:14 -0400</lastBuildDate>
+    <pubDate>Mon, 29 Jul 2019 13:49:15 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 13:49:15 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,7 +17,44 @@
 &lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;
 &lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;071519---072119&quot;&gt;07/15/19 - 07/21/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;review-cosmic-reionisation&quot;&gt;&lt;a href=&quot;https://www.tandfonline.com/eprint/ZZJXYQFJZDXZCDVNIN2K/full?target=10.1080%2F00107514.2019.1631548&amp;amp;&quot;&gt;Review: Cosmic reionisation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Background astrophysics
+    &lt;ul&gt;
+      &lt;li&gt;The universe undergoes several phase transition. Some are the split of forces. Reionisation is also a phase transition.&lt;/li&gt;
+      &lt;li&gt;Given a spherical DM halo collapsing in an expanding Universe, the mean density &lt;script type=&quot;math/tex&quot;&gt;\rho_h = 18\pi^2\rho_c (1+z)^3&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\rho_c&lt;/script&gt; is the critical density at the collapse time. Given the halo mass &lt;script type=&quot;math/tex&quot;&gt;M_h&lt;/script&gt; and mean density &lt;script type=&quot;math/tex&quot;&gt;\rho_h&lt;/script&gt;, we could compute halo radius &lt;script type=&quot;math/tex&quot;&gt;r_c&lt;/script&gt; (assuming a flat density profile), circular velocity &lt;script type=&quot;math/tex&quot;&gt;V_c&lt;/script&gt; at halo radius, and viral temperature (defined as &lt;script type=&quot;math/tex&quot;&gt;k_b T_{vir} = mV_c^2&lt;/script&gt;).&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-carnegie-chicago-hubble-program-viii-an-independent-determination-of-the-hubble-constant-based-on-the-tip-of-the-red-giant-branch&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.05922&quot;&gt;The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-frequency-of-tidal-features-associated-with-nearby-luminous-elliptical-galaxies-from-a-statistically-complete-sample&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2009AJ....138.1417T/abstract&quot;&gt;The Frequency of Tidal Features Associated with Nearby Luminous Elliptical Galaxies From a Statistically Complete Sample&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Galaxies which we stack are not identical. Galaxy (or its profile) can be modeled by several parameters. The value of parameters follow certain distributions (such as Sersic index &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; and effective radius &lt;script type=&quot;math/tex&quot;&gt;r_0&lt;/script&gt; can be described by Gamma distribution with two parameters.) But both image or profile contain observational error.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question&lt;/strong&gt;: How can we recover the distribution of parameters given a set of images / profiles?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Assume that &lt;script type=&quot;math/tex&quot;&gt;f_i&lt;/script&gt; is the surface brightness profile (or image) for each galaxy, with error &lt;script type=&quot;math/tex&quot;&gt;\delta f_i&lt;/script&gt;, and &lt;script type=&quot;math/tex&quot;&gt;\vec{\xi}&lt;/script&gt; is parameters. So we need to know $$P(\vec{\xi}&lt;/td&gt;
+      &lt;td&gt;f_i \pm \delta f_i)\propto P(f_i \pm \delta f_i&lt;/td&gt;
+      &lt;td&gt;\vec{\xi}) P(\vec{\xi})&lt;script type=&quot;math/tex&quot;&gt;.&lt;/script&gt;P(f_i\pm \delta f_i&lt;/td&gt;
+      &lt;td&gt;\vec{\xi})&lt;script type=&quot;math/tex&quot;&gt;can be calculated by simulations: simulate 1000 galaxies based on&lt;/script&gt;\vec{\xi}&lt;script type=&quot;math/tex&quot;&gt;, and then calculated the probability&lt;/script&gt;P(f_i \pm \delta f_i)$$ numerically.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So when stacking galaxies together, we get an image. We can read the pixel value, and also the statistical error (introduced by stacking) of each pixel value. Besides, we have measurement error of each pixel before stacking.&lt;/p&gt;
+
 &lt;h2 id=&quot;070819---071419&quot;&gt;07/08/19 - 07/14/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;applying-liouvilles-theorem-to-gaia-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.00987&quot;&gt;Applying Liouville’s Theorem to Gaia Data&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;galactic-cirri-in-deep-optical-imaging&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.00978&quot;&gt;Galactic cirri in deep optical imaging&lt;/a&gt;&lt;/h3&gt;
 
@@ -34,7 +71,9 @@
 
 &lt;ul&gt;
   &lt;li&gt;Youtube talk video: https://www.youtube.com/watch?v=xFGaqSRRFfQ&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
+  &lt;li&gt;For point source, &lt;script type=&quot;math/tex&quot;&gt;F_{\text{point}} \sim (D/2)^2 t_{\text{exp}} 10^{-0.4 m}&lt;/script&gt;. But for extended objects, &lt;script type=&quot;math/tex&quot;&gt;SB_{\text{extended}}\sim (f/D)^{-2} t_{\text{exp}} s^2_{\text{pix}} N_{\text{pix}} 10^{-0.4 \mu}&lt;/script&gt;. Hence fast telescope with huge CCD is needed.&lt;/li&gt;
+  &lt;li&gt;This satellite could detect low surface brightness regime down to 34 mag/arcsec^2 in optical bands and to 37 mag/arcsec^2 in UV bands. It has no lenses (hence no Cherenkov radiation) , so that the PSF could be very simple (compared with other large telescopes). The f-ratio could be smaller than 3, and no central obscuration. It will cover 150-1000 nm with 4 optical bands and several UV narrow-bands.&lt;/li&gt;
+  &lt;li&gt;MESSIER mission will make a whole skymap in all bands. It could reveal much more UDGs and satellites, try to examine the LCDM in unprecedented accuracy. The data could also be used to study large-scale network of filaments, galaxy-halo connection, etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;optical-characteristics-of-galactic-100-micron-cirrus&quot;&gt;&lt;a href=&quot;http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1989ApJ...346..773G&amp;amp;data_type=PDF_HIGH&amp;amp;whole_paper=YES&amp;amp;type=PRINTER&amp;amp;filetype=.pdf&quot;&gt;OPTICAL CHARACTERISTICS OF GALACTIC 100 MICRON CIRRUS&lt;/a&gt;&lt;/h3&gt;
@@ -67,7 +106,7 @@
 &lt;dd&gt;NGC 5907 in the eye of Dragonfly&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;p&gt;Pieter van Dokkum今天发了挺有意思的一篇小文章。NGC 5907是一个挺近 (17 Mpc) 的侧向 (edge-on) 星系，1998年一位中国天文学家用北京天文台的0.6/0.9m施密特望远镜发现了这个星系周围环绕着的&lt;em&gt;一圈&lt;/em&gt;疑似潮汐瓦解遗迹的低面亮度特征&lt;a href=&quot;https://iopscience.iop.org/article/10.1086/311563&quot;&gt;🔗&lt;/a&gt;。而后这个星系又被很多人观测过，其中一位叫做Martínez- Delgado的业余天文学家在2008年也用他0.5m的RC望远镜拍了这个星系&lt;a href=&quot;https://www.cosmotography.com/images/small_ring_ngc5907.html&quot;&gt;🔗&lt;/a&gt; - &lt;a href=&quot;https://www.cosmotography.com/images/ngc5907_confirmation.html&quot;&gt;🔗&lt;/a&gt;，但是他们发现了两个“环”。十年过去了，Pieter van Dokkum领导的Dragonfly团队（就是发现缺少暗物质的星系的那个）又重新拍摄了这个星系，基本确认了NGC 5907在 29 mag/arcsec2 以上只有一个长长的右尾巴和一个90度拐角的左尾巴。而且Martínez- Delgado图中第一条”尾巴“的位置也跟Dragonfly和北京天文台拍的对不上。那么问题来了：到底是Dragonfly错了，还是那位业余天文学家错了呢？😏&lt;/p&gt;
+&lt;p&gt;Pieter van Dokkum今天发了挺有意思的一篇小文章。NGC 5907是一个挺近 (17 Mpc) 的侧向 (edge-on) 星系，1998年一位中国天文学家用北京天文台的0.6/0.9m施密特望远镜发现了这个星系周围环绕着的 &lt;strong&gt;一圈&lt;/strong&gt; 疑似潮汐瓦解遗迹的低面亮度特征&lt;a href=&quot;https://iopscience.iop.org/article/10.1086/311563&quot;&gt;🔗&lt;/a&gt;。而后这个星系又被很多人观测过，其中一位叫做Martínez- Delgado的业余天文学家在2008年也用他0.5m的RC望远镜拍了这个星系&lt;a href=&quot;https://www.cosmotography.com/images/small_ring_ngc5907.html&quot;&gt;🔗&lt;/a&gt; - &lt;a href=&quot;https://www.cosmotography.com/images/ngc5907_confirmation.html&quot;&gt;🔗&lt;/a&gt;，但是他们发现了两个“环”。十年过去了，Pieter van Dokkum领导的Dragonfly团队（就是发现缺少暗物质的星系的那个）又重新拍摄了这个星系，基本确认了NGC 5907在 29 mag/arcsec2 以上只有一个长长的右尾巴和一个90度拐角的左尾巴。而且Martínez- Delgado图中第一条”尾巴“的位置也跟Dragonfly和北京天文台拍的对不上。那么问题来了：到底是Dragonfly错了，还是那位业余天文学家错了呢？😏&lt;/p&gt;
 
 &lt;p&gt;这些痕迹的面亮度都非常暗（27-29 mag/arcsec2)，Dragonfly望远镜对“尾巴”细节的精确捕捉正体现出了Dragonfly对于探测低面亮度细节的强大威力。Dragonfly现在正在进行wide field巡天，而我也在写帮助他们更容易低面亮度特征的代码，期待以后会有更多有意思的发现。&lt;/p&gt;
 
@@ -80,41 +119,75 @@
     &lt;p&gt;Introduction&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.
-     - GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Long story short&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;The maximum observed NS is 2.1 solar mass. How did they form if single degenerate SN model is correct and Chandrasekhar is total right.&lt;/li&gt;
-      &lt;li&gt;NS is not totally made of neutron. It has lighter elements and iron (predominate) on the surface, and then heavier elements with more neutron, and then compact exotic matter (strange quark matter? &lt;a href=&quot;http://www.phy.pku.edu.cn/~xurenxin/index.html&quot;&gt;@xrx&lt;/a&gt;) The EoS of NS has not been understood yet.&lt;/li&gt;
-      &lt;li&gt;A rotating BH comes from stellar collapse which has non-zero angular momentum before collapsing. There are many problems related to BH which remain mysteries now: mass function, mid-mass BH, etc.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The maximum observed NS is 2.1 solar mass. How did they form if single degenerate SN model is correct and Chandrasekhar is total right.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;NS is not totally made of neutron. It has lighter elements and iron (predominate) on the surface, and then heavier elements with more neutron, and then compact exotic matter (strange quark matter? &lt;a href=&quot;http://www.phy.pku.edu.cn/~xurenxin/index.html&quot;&gt;@xrx&lt;/a&gt;) The EoS of NS has not been understood yet.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;A rotating BH comes from stellar collapse which has non-zero angular momentum before collapsing. There are many problems related to BH which remain mysteries now: mass function, mid-mass BH, etc.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Ground-based laser interferometers&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/li&gt;
-      &lt;li&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/li&gt;
-      &lt;li&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/li&gt;
-      &lt;li&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/li&gt;
-      &lt;li&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Double BH merger: GW150914&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/li&gt;
-      &lt;li&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/li&gt;
-      &lt;li&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/li&gt;
-      &lt;li&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/li&gt;
-      &lt;li&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -122,35 +195,38 @@
 
     &lt;ul&gt;
       &lt;li&gt;Respectively - the GW event, the gamma-ray burst 1.7 s later, the afterglow in different wavelengths (kilonova).&lt;/li&gt;
-      &lt;li&gt;GW170817 - toward the end of the data run of O2 of aLIGO and aVirgo
+      &lt;li&gt;GW170817 - toward the end of the data run of O2 of aLIGO and aVirgo&lt;/li&gt;
+      &lt;li&gt;NS binary - produce a GW signal observable by &lt;strong&gt;ground-based&lt;/strong&gt; detectors in the final minutes before the massive objects collide.
         &lt;ul&gt;
-          &lt;li&gt;NS binary - produce a GW signal observable by &lt;strong&gt;ground-based&lt;/strong&gt; detectors in the final minutes before the massive objects collide.
-            &lt;ul&gt;
-              &lt;li&gt;Detection rate for advanced detectors (per year) - $\mathcal{O}(0.1)\sim\mathcal{O}(100)$ (astrophysical uncertainty).&lt;/li&gt;
-              &lt;li&gt;First indirect observation of GW - &lt;strong&gt;the Hulse and Taylor pulsar&lt;/strong&gt;.&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Position localization - 28 deg$^2$ (purely GW signal restriction).&lt;/li&gt;
-          &lt;li&gt;Again, the chirp mass $\mathcal{M}$ ($\sim1.1\ M_\odot$ in the source frame and $\mathcal{M}^{d e t}=1.1977 M_{\odot}$ in the detectors frame when $z=0.008$ which) and the radius $R$ of the system are directly determined by observed $\omega$ and $\dot\omega$ during the inspiral phase. The amplitude $h$ is $\sim10^{-22}$ so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
-          &lt;li&gt;As $R$ approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio $q=m_2/m_1$ (where $m_2&amp;gt;m_1$) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass $\mathcal{M}$ differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
-          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately $1.4M_\odot$.&lt;/li&gt;
-          &lt;li&gt;The inclination of the system $\Theta \leq 28^{\circ}$.&lt;/li&gt;
-          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency $\nu_{g w} \simeq 600\ \mathrm{Hz}$. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
+          &lt;li&gt;Detection rate for advanced detectors (per year) - &lt;script type=&quot;math/tex&quot;&gt;\mathcal{O}(0.1)\sim\mathcal{O}(100)&lt;/script&gt; (astrophysical uncertainty).&lt;/li&gt;
+          &lt;li&gt;First indirect observation of GW - &lt;strong&gt;the Hulse and Taylor pulsar&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;Position localization - 28 deg&lt;script type=&quot;math/tex&quot;&gt;^2&lt;/script&gt; (purely GW signal restriction).&lt;/li&gt;
+          &lt;li&gt;Again, the chirp mass &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;\sim1.1\ M_\odot&lt;/script&gt; in the source frame and &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}^{d e t}=1.1977 M_{\odot}&lt;/script&gt; in the detectors frame when &lt;script type=&quot;math/tex&quot;&gt;z=0.008&lt;/script&gt; which) and the radius &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; of the system are directly determined by observed &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot\omega&lt;/script&gt; during the inspiral phase. The amplitude &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\sim10^{-22}&lt;/script&gt; so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
+          &lt;li&gt;As &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio &lt;script type=&quot;math/tex&quot;&gt;q=m_2/m_1&lt;/script&gt; (where &lt;script type=&quot;math/tex&quot;&gt;m_2&gt;m_1&lt;/script&gt;) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}&lt;/script&gt; differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
+          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately &lt;script type=&quot;math/tex&quot;&gt;1.4M_\odot&lt;/script&gt;.&lt;/li&gt;
+          &lt;li&gt;The inclination of the system &lt;script type=&quot;math/tex&quot;&gt;\theta \leq 28^{\circ}&lt;/script&gt;.&lt;/li&gt;
+          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency &lt;script type=&quot;math/tex&quot;&gt;\nu_{g w} \simeq 600\ \mathrm{Hz}&lt;/script&gt;. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
           &lt;li&gt;The final state depends on individual masses. It can be a NS with a torus, a supra-massive/hypermassive NS which turns into a BH with a torus soon, or directly a BH with a torus.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;GRB170817A - the prompt emission is attributed to internal energy dissipation inside a relativistic jet (&lt;strong&gt;relativistic expanding fireballs&lt;/strong&gt;)
         &lt;ul&gt;
-          &lt;li&gt;Short GRB ($\Delta t \leq 2\ \mathrm{s}$) - first direct observation evidence.&lt;/li&gt;
+          &lt;li&gt;Short GRB (&lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq 2\ \mathrm{s}&lt;/script&gt;) - first direct observation evidence.&lt;/li&gt;
           &lt;li&gt;1.7 s later than the GW, which is consistent with models of NS mergers&lt;/li&gt;
-          &lt;li&gt;The luminosity assuming an isotropic radiation is $\sim 4 \times 10^{46} \text { erg}$, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
+          &lt;li&gt;The luminosity assuming an isotropic radiation is &lt;script type=&quot;math/tex&quot;&gt;\sim 4 \times 10^{46} \text { erg}&lt;/script&gt;, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;AT 2017gfo - afterglow of GRB170817A caused by forward shocks propagating in the surrounding ambient material and the related elemental decays
         &lt;ul&gt;
-          &lt;li&gt;Atoms heavier than $\ce{Fe}$ are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/li&gt;
-          &lt;li&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/li&gt;
-          &lt;li&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo ($\sim 0.05M_\odot$), we can estimate the event rate of (detectable) NS mergers, which is of $\mathcal{O}(1)\sim\mathcal{O}(10)$ within $\sim200$ Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Atoms heavier than &lt;script type=&quot;math/tex&quot;&gt;\ce{Fe}&lt;/script&gt; are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo (&lt;script type=&quot;math/tex&quot;&gt;\sim 0.05M_\odot&lt;/script&gt;), we can estimate the event rate of (detectable) NS mergers, which is of &lt;script type=&quot;math/tex&quot;&gt;\mathcal{O}(1)\sim\mathcal{O}(10)&lt;/script&gt; within &lt;script type=&quot;math/tex&quot;&gt;\sim200&lt;/script&gt; Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/p&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -693,7 +769,7 @@
 
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 08 Jul 2019 16:00:00 -0400</pubDate>
+        <pubDate>Mon, 29 Jul 2019 13:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2019/07/astro-ph-2019</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/07/astro-ph-2019</guid>
         
@@ -714,8 +790,12 @@
     &lt;p&gt;Introduction&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.&lt;/li&gt;
-      &lt;li&gt;GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW170817 (double NS) provides clues for the formation of elements heavies than iron (gold and platinum observed in the spectrum). It is also accompanied by a short GRB.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW only transfers very small amount of energy, hence it can penetrate very dense matter field.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -731,24 +811,48 @@
     &lt;p&gt;Ground-based laser interferometers&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/li&gt;
-      &lt;li&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/li&gt;
-      &lt;li&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/li&gt;
-      &lt;li&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/li&gt;
-      &lt;li&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;After the failure of Weber bar and knowing that strain from astronomical events is of magnitude of &lt;script type=&quot;math/tex&quot;&gt;h\sim 10^{-22}&lt;/script&gt;, people began to build interferometers, including LIGO (USA, 4-km), Virgo (France and Italy, 3-km) and GEO (UK and Germany). More will be built in the near future (LISA, Tianqin, DECIGO, etc.)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The interferometers are set up to make the interference destructive at the photodetector. Note that interferometer is only sensible to strain (&lt;script type=&quot;math/tex&quot;&gt;h\sim 1/r&lt;/script&gt;), not to radiation power (&lt;script type=&quot;math/tex&quot;&gt;P\sim1/r^2&lt;/script&gt;).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;LIGO is built to be sensitive in 20-20000 Hz, the noises are dominated by seismic on low-frequency end and quantum effects on high-frequency end.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Optical system makes use of “Fabry-Perot cavities” to increase the distance light travels and “power recycling mirrors” to increase the power of laser light. LIGO uses 1064 nm infrared laser with ~40 W power. Mirrors are well designed, they only absorb one photon out of 300,000 photons, avoiding mirror heating, which could change the shapes of mirrors.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The test masses are suspended by a passive damping system. LIGO also uses active (and kind of adaptive) damping system to fight against human-generated vibrations.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Double BH merger: GW150914&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/li&gt;
-      &lt;li&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/li&gt;
-      &lt;li&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/li&gt;
-      &lt;li&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/li&gt;
-      &lt;li&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/li&gt;
-      &lt;li&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW150914 is the first GW event detected by human!! A brand new era of astrophysics started!&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;LIGO people generate 250000 templates based on post-Newtonian and numerical relativity to fit the detected signals. Templates range from 1 solar mass to 90 solar masses. The S/N of GW150914 is 24.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Based on Newtonian mechanics, during the inspiral process, we could estimate the chirp mass by &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot{\omega}&lt;/script&gt;. And it turns out &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M} \sim 30 M_\odot&lt;/script&gt;. The coalescence stage begins when the Schwarzchild radius of two BHs contact with each other. For GW150914 the coalescence begins at &lt;script type=&quot;math/tex&quot;&gt;\nu\sim 330\ \text{Hz}&lt;/script&gt;, so the total mass of two BHs can be estimated &lt;script type=&quot;math/tex&quot;&gt;M\sim 70 M_\odot&lt;/script&gt;. Given chirp mass and total mass, the mass of two BH can be worked out:  &lt;script type=&quot;math/tex&quot;&gt;m_1^{obs} = 42M_\odot,\ m_2^{obs} = 28 M_\odot&lt;/script&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The flux and total luminosity of binary BH merger can be given by GR. Hence we could derive the luminosity distance for this event &lt;script type=&quot;math/tex&quot;&gt;D_L = 400\ \text{Mpc}&lt;/script&gt;. If we know the redshift (say from possible EM counterpart), we could yield a Hubble constant. Also, given this luminosity distance and LCDM cosmology, the redshift &lt;script type=&quot;math/tex&quot;&gt;z\sim 0.1&lt;/script&gt;. Notice that cosmological effects (redshift and time dilution) affect the measurement of mass. In source coordinate, the mass is &lt;script type=&quot;math/tex&quot;&gt;m = m^{obs} / (1+z)&lt;/script&gt;.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;GW150914 emits 4 solar mass energy within a tenth of second, however our sun emits 0.01 solar mass in 10 Gyr.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;After the ringdown process, a Kerr BH will be formed. Notice that a Kerr BH has smaller horizon area than a Schwarzchild BH of the same mass. Hence Kerr BH is more compact. The study of Kerr BH after ringdown could give us insights to strong field regime of gravity and further inspection of the validity of GR.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The sky location resolution of LIGO is &lt;script type=&quot;math/tex&quot;&gt;\Delta \theta = \lambda / L \sim 28^{\circ}&lt;/script&gt; for this event.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -760,31 +864,37 @@
         &lt;ul&gt;
           &lt;li&gt;NS binary - produce a GW signal observable by &lt;strong&gt;ground-based&lt;/strong&gt; detectors in the final minutes before the massive objects collide.
             &lt;ul&gt;
-              &lt;li&gt;Detection rate for advanced detectors (per year) - $\mathcal{O}(0.1)\sim\mathcal{O}(100)$ (astrophysical uncertainty).&lt;/li&gt;
+              &lt;li&gt;Detection rate for advanced detectors (per year) - &lt;script type=&quot;math/tex&quot;&gt;\mathcal{O}(0.1)\sim\mathcal{O}(100)&lt;/script&gt; (astrophysical uncertainty).&lt;/li&gt;
               &lt;li&gt;First indirect observation of GW - &lt;strong&gt;the Hulse and Taylor pulsar&lt;/strong&gt;.&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Position localization - 28 deg$^2$ (purely GW signal restriction).&lt;/li&gt;
-          &lt;li&gt;Again, the chirp mass $\mathcal{M}$ ($\sim1.1\ M_\odot$ in the source frame and $\mathcal{M}^{d e t}=1.1977 M_{\odot}$ in the detectors frame when $z=0.008$ which) and the radius $R$ of the system are directly determined by observed $\omega$ and $\dot\omega$ during the inspiral phase. The amplitude $h$ is $\sim10^{-22}$ so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
-          &lt;li&gt;As $R$ approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio $q=m_2/m_1$ (where $m_2&amp;gt;m_1$) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass $\mathcal{M}$ differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
-          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately $1.4M_\odot$.&lt;/li&gt;
-          &lt;li&gt;The inclination of the system $\Theta \leq 28^{\circ}$.&lt;/li&gt;
-          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency $\nu_{g w} \simeq 600\ \mathrm{Hz}$. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
+          &lt;li&gt;Position localization - 28 deg&lt;script type=&quot;math/tex&quot;&gt;^2&lt;/script&gt; (purely GW signal restriction).&lt;/li&gt;
+          &lt;li&gt;Again, the chirp mass &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}&lt;/script&gt; (&lt;script type=&quot;math/tex&quot;&gt;\sim1.1\ M_\odot&lt;/script&gt; in the source frame and &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}^{d e t}=1.1977 M_{\odot}&lt;/script&gt; in the detectors frame when &lt;script type=&quot;math/tex&quot;&gt;z=0.008&lt;/script&gt; which) and the radius &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; of the system are directly determined by observed &lt;script type=&quot;math/tex&quot;&gt;\omega&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\dot\omega&lt;/script&gt; during the inspiral phase. The amplitude &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; is &lt;script type=&quot;math/tex&quot;&gt;\sim10^{-22}&lt;/script&gt; so we can derive a luminosity distance and redshift, which are consistent with the known results of NGC 4993&lt;/li&gt;
+          &lt;li&gt;As &lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt; approaches the size of the bodies, PN theory is no longer valid, relativistic effects related to the mass ratio &lt;script type=&quot;math/tex&quot;&gt;q=m_2/m_1&lt;/script&gt; (where &lt;script type=&quot;math/tex&quot;&gt;m_2&gt;m_1&lt;/script&gt;) as well as spin-orbit and spin-spin couplings become more significant. The derived chirp mass &lt;script type=&quot;math/tex&quot;&gt;\mathcal{M}&lt;/script&gt; differs from values at early times, which means the details of the objects’ internal structure become important.&lt;/li&gt;
+          &lt;li&gt;Individual masses are more difficult to determined. By assuming high/low spins, the masses of both objects are approximately &lt;script type=&quot;math/tex&quot;&gt;1.4M_\odot&lt;/script&gt;.&lt;/li&gt;
+          &lt;li&gt;The inclination of the system &lt;script type=&quot;math/tex&quot;&gt;\Theta \leq 28^{\circ}&lt;/script&gt;.&lt;/li&gt;
+          &lt;li&gt;Tidal effects are important for NS binaries (not important for BHs because they are &lt;strong&gt;bald&lt;/strong&gt; as astronomers always do) especially when the two objects get really close, which corresponds to a high frequency &lt;script type=&quot;math/tex&quot;&gt;\nu_{g w} \simeq 600\ \mathrm{Hz}&lt;/script&gt;. This is at present too hard for a ground-base interferometer to achieve, but once it is detected, we would gain a better understanding of the EoS of a NS.&lt;/li&gt;
           &lt;li&gt;The final state depends on individual masses. It can be a NS with a torus, a supra-massive/hypermassive NS which turns into a BH with a torus soon, or directly a BH with a torus.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;GRB170817A - the prompt emission is attributed to internal energy dissipation inside a relativistic jet (&lt;strong&gt;relativistic expanding fireballs&lt;/strong&gt;)
         &lt;ul&gt;
-          &lt;li&gt;Short GRB ($\Delta t \leq 2\ \mathrm{s}$) - first direct observation evidence.&lt;/li&gt;
+          &lt;li&gt;Short GRB (&lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq 2\ \mathrm{s}&lt;/script&gt;) - first direct observation evidence.&lt;/li&gt;
           &lt;li&gt;1.7 s later than the GW, which is consistent with models of NS mergers&lt;/li&gt;
-          &lt;li&gt;The luminosity assuming an isotropic radiation is $\sim 4 \times 10^{46} \text { erg}$, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
+          &lt;li&gt;The luminosity assuming an isotropic radiation is &lt;script type=&quot;math/tex&quot;&gt;\sim 4 \times 10^{46} \text { erg}&lt;/script&gt;, which three orders of magnitude lower than a typical short GRB - a beamed emisson&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;AT 2017gfo - afterglow of GRB170817A caused by forward shocks propagating in the surrounding ambient material and the related elemental decays
         &lt;ul&gt;
-          &lt;li&gt;Atoms heavier than $\ce{Fe}$ are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/li&gt;
-          &lt;li&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/li&gt;
-          &lt;li&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo ($\sim 0.05M_\odot$), we can estimate the event rate of (detectable) NS mergers, which is of $\mathcal{O}(1)\sim\mathcal{O}(10)$ within $\sim200$ Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Atoms heavier than &lt;script type=&quot;math/tex&quot;&gt;\ce{Fe}&lt;/script&gt; are now able to form in &lt;em&gt;r-process&lt;/em&gt;, where an atom captures neutrons &lt;em&gt;rapidly&lt;/em&gt; enough to exceed the decay of neutrons. The complex absorption lines come from these new atoms.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;The newly formed atoms then decay to emit thermal radiation, which leads to the afterglow.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;By assuming all heavy atoms come from NS mergers and applying the heavy elements producing rate of AT 2017gfo (&lt;script type=&quot;math/tex&quot;&gt;\sim 0.05M_\odot&lt;/script&gt;), we can estimate the event rate of (detectable) NS mergers, which is of &lt;script type=&quot;math/tex&quot;&gt;\mathcal{O}(1)\sim\mathcal{O}(10)&lt;/script&gt; within &lt;script type=&quot;math/tex&quot;&gt;\sim200&lt;/script&gt; Mpc. If too many similar events are detected, some refinements regarding the theoretical models would be necessary. If we are not able to detect such events that much, other mechanisms of heavy elements production may also be important.&lt;/p&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -934,7 +1044,7 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
-        <pubDate>Tue, 02 Jul 2019 06:38:00 -0400</pubDate>
+        <pubDate>Tue, 02 Jul 2019 03:38:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
         
@@ -1141,7 +1251,7 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;p&gt;You will see a disk icon in folder &lt;code class=&quot;highlighter-rouge&quot;&gt;~/Research&lt;/code&gt;. To unmount this “disk”, type &lt;code class=&quot;highlighter-rouge&quot;&gt;diskutil unmount ~/Research/kungpao/&lt;/code&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 25 Jun 2019 17:40:00 -0400</pubDate>
+        <pubDate>Tue, 25 Jun 2019 14:40:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2019/06/HowToPython</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/06/HowToPython</guid>
         
@@ -1154,6 +1264,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
         <title>DL in astronomy</title>
         <description>&lt;hr /&gt;
 &lt;h2 id=&quot;deep-learning-and-astrophysics&quot;&gt;Deep learning and Astrophysics&lt;/h2&gt;
+
+&lt;h3 id=&quot;finding-strong-gravitational-lenses-in-the-desi-decam-legacy-survey&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1906.00970.pdf&quot;&gt;Finding Strong Gravitational Lenses in the DESI DECam Legacy Survey&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;cluster-finder-song&quot;&gt;Cluster finder (Song)&lt;/h3&gt;
 
@@ -1182,7 +1294,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;h3 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h3&gt;
 </description>
-        <pubDate>Wed, 15 May 2019 11:38:00 -0400</pubDate>
+        <pubDate>Wed, 15 May 2019 08:38:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2019/05/astro-DL</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/05/astro-DL</guid>
         
@@ -2081,7 +2193,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 16 Apr 2019 11:10:00 -0400</pubDate>
+        <pubDate>Tue, 16 Apr 2019 08:10:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2019/04/GreatPower</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/04/GreatPower</guid>
         
@@ -2779,7 +2891,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Tue, 26 Feb 2019 16:30:00 -0500</pubDate>
+        <pubDate>Tue, 26 Feb 2019 13:30:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
         
@@ -3438,7 +3550,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;p&gt;6.8是最后一次大报告。&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Feb 2019 10:30:00 -0500</pubDate>
+        <pubDate>Wed, 20 Feb 2019 07:30:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2019/02/XingCe</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
         
@@ -3541,7 +3653,7 @@ This is the energy emitted in unit time unit area unit frequency, and has nothin
 
 &lt;p&gt;Fe[II] line: ~20000 K. Often appear in H[II] region.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 18 Feb 2019 16:38:00 -0500</pubDate>
+        <pubDate>Mon, 18 Feb 2019 13:38:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</guid>
         
@@ -3830,7 +3942,7 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Mon, 31 Dec 2018 06:38:00 -0500</pubDate>
+        <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
         
@@ -3908,7 +4020,7 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 22 Dec 2018 09:40:00 -0500</pubDate>
+        <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2018/12/Writing</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
         
