@@ -37,7 +37,7 @@ export PATH=${JAVA_HOME}/bin:$PATH
 ```python
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 ```
-## Install `the Tractor`
+## Install [the Tractor](https://github.com/dstndstn/tractor)
 [`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection & measurement tool, written by Dustin Lang and David Hogg.
 
 0. Make sure you have installed XCode from Mac AppStore. Then execute: 
