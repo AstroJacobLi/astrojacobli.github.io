@@ -10,7 +10,7 @@ permalink: /miscellany/art/
 - [Piano Concerto No. 1 E-minor](https://www.youtube.com/watch?v=2bFo65szAP0)
 
 ## Rachmaninoff
-- [Piano Concerto No.2 in C minor, Op.18, by Zimerman](https://www.youtube.com/watch?v=xa7GhdVLg1c&t=1126s)
+- [Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
 - [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
 
 ## Shostakovich
