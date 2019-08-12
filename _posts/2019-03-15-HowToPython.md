@@ -22,7 +22,7 @@ Really really nice book on principles of plotting and visualizing data. Like it!
 - [plot.ly](https://plot.ly/) can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!
 
 ### [Incredible cheat sheet for Matplotlib!](https://github.com/rougier/matplotlib-cheatsheet)
-{% include image.html url="/images/matplotlib-cheatsheet.png" caption="`Matplotlib` cheatsheet" width=500 align="center" %}
+{% include image.html url="/images/matplotlib-cheatsheet.png" caption="`Matplotlib` cheatsheet" width=900 align="center" %}
 
 # Useful Python packages in astrophysics:
 
