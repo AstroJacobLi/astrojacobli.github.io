@@ -21,6 +21,9 @@ Really really nice book on principles of plotting and visualizing data. Like it!
 - [Altair](https://github.com/altair-viz/altair) is a relatively new declarative visualization library for Python. It's easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.
 - [plot.ly](https://plot.ly/) can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!
 
+### [Incredible cheat sheet for Matplotlib!](https://github.com/rougier/matplotlib-cheatsheet)
+{% include image.html url="/images/matplotlib-cheatsheet.png" caption="`Matplotlib` cheatsheet" width=500 align="center" %}
+
 # Useful Python packages in astrophysics:
 
 - [`healpy`](https://healpy.readthedocs.io/en/latest/install.html): It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it's super useful, its python documentation is really unfriendly for beginners.
