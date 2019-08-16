@@ -33,7 +33,55 @@ The [Hyper Suprime-Cam Subaru Strategic Program](https://hsc.mtk.nao.ac.jp/ssp/)
 
 The main science goals contain: [weak lensing cosmology](https://arxiv.org/abs/1809.09148v1), high-z galaxies, general galaxy formation and evolution (like [stellar-halo connection](https://arxiv.org/abs/1811.01139v1)), etc. 
 
+HSC data entrance: [https://hscdata.mtk.nao.ac.jp/hsc_ssp/](https://hscdata.mtk.nao.ac.jp/hsc_ssp/)
+
+SQL: [https://hscdata.mtk.nao.ac.jp/datasearch/](https://hscdata.mtk.nao.ac.jp/datasearch/)
+
+Image cutout: [https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/](https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/)
+
+PSF model: [https://hscdata.mtk.nao.ac.jp/psf/6/](https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/)
+
+SkyMap: [https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap](https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap)
+
+HSC Public DR2: [https://hsc-release.mtk.nao.ac.jp/doc/](https://hsc-release.mtk.nao.ac.jp/doc/)
+
+1. Header: `ra`, `dec`, `layer` (such as `s18a-wide`), `z_spec`, `z_phot`, etc.
+2. `i-band`: 
+   - `image`
+   - `image_header`
+   - `hsc_mask` (This is the binary mask produced by HSC pipeline)
+   - `hsc_mask_header`
+   - `variance`
+   - `variance_header`
+   - `mask` (This is the mask used for ELLIPSE)
+   - `ell_free`
+   - `ell_fix`
+   - `info`
+     - `img_size`: size in pix, such as [1000, 1000]
+     - `m10` or `m100`
+     - `bad_mask`: if the center of galaxy is obscured by mask
+     - `mean_interval`: such as 20 kpc - 50 kpc
+     - `mean_e`: mean ellipticity within `mean_interval`
+     - `mean_pa`: mean PA within `mean_interval`
+     - `global_bkg`: the background measured by `sep` after masking out satellittes
+     - `global_rms`: the `rms` measured by `sep`
+     - `mean_skyobj`: the mean value of `skyobj` within [1 arcmin, 3 arcmin] and 8.4 arcsec.
+3. `r-band`
+4. `g-band`
+
+## Dragonfly
+
+<a href="http://iopscience.iop.org/article/10.1086/674875/pdf">
+
+- Canon 400mm f/2.8 IS II lens + SBIG STF-8300M CCD
+- Aperture: D = 134 mm
+- CCD: 3326 × 2504 pixels, 43% efficiency in R and G, 2.8"/pixel, 2.6 deg*1.9 deg FOV.
+- Read noise: 10 electrons. Gain: 0.37 electrons/ADU. 
+- Dark noise: 0.04 electrons/s.
+- Tracking error: rms = 1.5".
+
 ## Redshift surveys
+
 [2MASS](https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract)
 [6dF](https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract)
 
