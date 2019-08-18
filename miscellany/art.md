@@ -35,12 +35,11 @@ permalink: /miscellany/art/
 
 # Visual Art:
 - My (very first) Vlog: Yale Art Gallery Tour
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Origami: Wolfram Logo Spikey [Origami Toturial](https://community.wolfram.com/groups/-/m/t/413928)
+<center>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
-{% include image.html url="https://langorigami.com/wp-content/uploads/2018/11/roses_and_thorns-1024x683.jpg" caption="Roses and Thorns (Robert Lang)" width=300 align="right" %} 
-- Robert Lang: [Roses and Thorns](https://langorigami.com/artwork/roses-and-thorns-opus-754/)
 
 # Prose:
 
