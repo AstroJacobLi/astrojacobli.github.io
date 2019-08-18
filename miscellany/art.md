@@ -13,9 +13,6 @@ permalink: /miscellany/art/
 - [Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
 - [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
 
-## Shostakovich
-- [Jazz Suite No.2, Op.99](https://www.youtube.com/watch?v=3xbME5jVlG4)
-
 # Pop Music:
 - Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), [Neutron Star Collision](https://www.youtube.com/watch?v=MTvgnYGu9bg).
 - Oasis: [Champagne Supernova](https://www.youtube.com/watch?v=tI-5uv4wryI), [Don't Look Back in Anger](https://www.youtube.com/watch?v=cmpRLQZkTb8), [Wonderwall](https://www.youtube.com/watch?v=bx1Bh8ZvH84).
@@ -37,13 +34,13 @@ permalink: /miscellany/art/
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 
 # Visual Art:
-- Escher
+- My (very first) Vlog: Yale Art Gallery Tour
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Origami: Wolfram Logo Spikey [Origami Toturial](https://community.wolfram.com/groups/-/m/t/413928)
 
 {% include image.html url="https://langorigami.com/wp-content/uploads/2018/11/roses_and_thorns-1024x683.jpg" caption="Roses and Thorns (Robert Lang)" width=300 align="right" %} 
 - Robert Lang: [Roses and Thorns](https://langorigami.com/artwork/roses-and-thorns-opus-754/)
-
 
 # Prose:
 
@@ -84,15 +81,6 @@ And Eternity in an hour.
 只身打马过草原
 
 --《九月》
-
-#### [我想和你虚度时光](https://www.douban.com/group/topic/66422278/)
-我想和你互相浪费 
-
-一起虚度短的沉默，长的无意义 
-
-一起消磨精致而苍老的宇宙 
-
--- 李元胜
 
 #### [《你为何而来》](https://www.zhihu.com/question/271532904)
 我是
