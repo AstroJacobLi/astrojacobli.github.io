@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "English Readings"
-date:   2019-08-09 20:00:00
+date:   2019-08-01 20:00:00
 author: Jiaxuan Li
 categories: paper
 ---
