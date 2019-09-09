@@ -52,6 +52,12 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 >
 </script>
 
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
 <!-- Prepare a container for your calendar. -->
 <div class="calendar">
     <!-- Loading stuff -->
