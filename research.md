@@ -46,16 +46,15 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 
 - Some of my works can be found on Github: [**@AstroJacobLi**](https://github.com/AstroJacobLi)
 
-<!-- Prepare a container for your calendar. -->
+<!-- Include the library. -->
 <script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
->
-</script>
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link
-  rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
 <!-- Prepare a container for your calendar. -->
@@ -65,5 +64,7 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 </div>
 
 <script>
-    new GitHubCalendar(".calendar", "astrojacobli");
+    GitHubCalendar(".calendar", "your-username");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "your-username", { responsive: true });
 </script>
