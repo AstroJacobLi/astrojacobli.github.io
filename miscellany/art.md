@@ -7,11 +7,12 @@ permalink: /miscellany/art/
 ## Chopin
 - [Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
 - [Ballade No.1 in G minor, Op.23](https://www.youtube.com/watch?v=BK42YaHaJ5M)
-- [Piano Concerto No. 1 E-minor](https://www.youtube.com/watch?v=2bFo65szAP0)
+- [Piano Concerto No. 1 E-minor, by Olga Scheps](https://www.youtube.com/watch?v=2bFo65szAP0)
 
 ## Rachmaninoff
 - [Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
-- [Piano Trio "élégiaque" No. 1](https://www.youtube.com/watch?v=Ba-N5T2TpIo)
+- [Piano Concerto No.2 in C minor, Op.18, by Lang Lang](https://www.youtube.com/watch?v=e-x01ddG0x4) 
+- [Piano Trio "élégiaque" No. 1, by Lang Lang](https://www.youtube.com/watch?v=y7wrtcuF4WI)
 
 # Pop Music:
 - Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), [Neutron Star Collision](https://www.youtube.com/watch?v=MTvgnYGu9bg).
