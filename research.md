@@ -64,7 +64,7 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "your-username");
+    GitHubCalendar(".calendar", "astrojacobli");
     // or enable responsive functionality
-    GitHubCalendar(".calendar", "your-username", { responsive: true });
+    GitHubCalendar(".calendar", "astrojacobli", { responsive: true });
 </script>
