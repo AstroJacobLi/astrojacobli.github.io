@@ -46,7 +46,7 @@ We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at 
 
 - [**slug**](https://github.com/AstroJacobLi/slug): Integrated tool for calculating 1-D surface brightness profile of massive galaxies, developed by [Jiaxuan Li](http://astrojacobli.github.io).
 
-- Some of my works can be found on Github: [**@AstroJacobLi**](https://github.com/AstroJacobLi) Please star if you like them!
+- Some of my works can be found on Github: [**@AstroJacobLi**](https://github.com/AstroJacobLi). Please star if you like them!
 
 <!-- https://ionicabizau.github.io/github-calendar/example/ -->
 <!-- Include the library. -->
