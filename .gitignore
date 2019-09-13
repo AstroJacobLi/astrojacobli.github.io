@@ -3,4 +3,5 @@
 _site/
 .DS_Store
 */.DS_Store
-_*/.DS_Store
+_posts/.DS_Store
+Docs/.DS_Store
