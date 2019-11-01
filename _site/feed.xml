@@ -6,16 +6,119 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jul 2019 13:49:15 -0700</pubDate>
-    <lastBuildDate>Mon, 29 Jul 2019 13:49:15 -0700</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2019 17:58:26 +0800</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2019 17:58:26 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>astro-ph Reading in 2019</title>
         <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018.   I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;
-&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;101419---102019&quot;&gt;10/14/19 - 10/20/19&lt;/h2&gt;
+&lt;h3 id=&quot;milgrom-mond-vs-dark-matter-in-light-of-historical-parallels&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.04368&quot;&gt;Milgrom: MOND vs. dark matter in light of historical parallels&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;shany-a-tip-of-the-red-giant-branch-distance-to-the-dark-matter-deficient-galaxy-ngc-1052-df4-from-deep-hubble-space-telescope-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.07529&quot;&gt;Shany: A Tip of the Red Giant Branch Distance to the Dark Matter Deficient Galaxy NGC 1052-DF4 from Deep Hubble Space Telescope Data&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;100719---101319&quot;&gt;10/07/19 - 10/13/19&lt;/h2&gt;
+&lt;h3 id=&quot;nearly-all-massive-quiescent-disk-galaxies-have-a-surprisingly-large-atomic-gas-reservoir&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.02093&quot;&gt;Nearly all Massive Quiescent Disk Galaxies have a Surprisingly Large Atomic Gas Reservoir&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-two-ligovirgo-binary-black-hole-mergers-on-2019-august-28-were-not-strongly-lensed&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1910.03601.pdf&quot;&gt;The Two LIGO/Virgo Binary Black Hole Mergers on 2019 August 28 Were Not Strongly Lensed&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The LIGO/Virgo gravitational wave events S190828j and S190828l were detected only 21 minutes apart, from nearby regions of sky, and with the same source classifications (binary black hole mergers). However, the large separation is much more consistent with two independent, unrelated events that occurred close in time by chance. &lt;em&gt;S190828j and S190828l were probably not lensed images of the same merger.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-psf-based-approach-to-tess-high-quality-data-of-stellar-clusters-pathos--i-search-for-exoplanets-and-variable-stars-in-the-field-of-47-tuc&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.03592&quot;&gt;A PSF-based Approach to TESS High quality data Of Stellar clusters (PATHOS) – I. Search for exoplanets and variable stars in the field of 47 Tuc&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;How to convert an image from TESS to the light curve? Precise photometry is crucial for discovering exoplanets. This paper harnessed a PSF-based method which is alike our MRF. They calculate (stack) a PSF and then interpolate it for a given position. Then surrounding stars will be subtracted using that PSF and GAIA magnitudes, leaving the target star. At last a PSF-photometry will be applied to that star. Overall they find good consistence with existing methods and find a new exoplanet candidates in a GC called 47 Tuc (famous for amateur.)&lt;/p&gt;
+
+&lt;p&gt;PSF stacking: Anderson J., Bedin L. R., Piotto G., Yadav R. S., Bellini A., 2006,&lt;/p&gt;
+
+&lt;h3 id=&quot;seeing-cosmology-grow&quot;&gt;&lt;a href=&quot;https://www.annualreviews.org/doi/10.1146/annurev-astro-081811-125526&quot;&gt;Seeing Cosmology Grow&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Peebles!!! Peebles!!! Peebles!!!&lt;/p&gt;
+
+&lt;h3 id=&quot;the-globular-cluster-population-of-ngc-1052-df2-evidence-for-rotation&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.02778&quot;&gt;The Globular Cluster Population of NGC 1052-DF2: Evidence for Rotation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Main points against Pieter’s paper: 1. Wrong distance (should be 10 Mpc); 2. Wrong statistical approach when calculating the velocity dispersion.&lt;/p&gt;
+
+&lt;p&gt;The mass estimation relies on the assumption: relaxed and pressure supported. The estimation of dynamical mass would change if GCs are dominated by a global rotation. The author employed a toy rotation model into the Bayesian statistics. They find that the amplitude of rotation component is large (13 km/s) and the rotation axis seems to coincide with the minor axis of DF2 (the rotation axis of stellar component is along the major axis, so DF2 is a prolate rotator).&lt;/p&gt;
+
+&lt;p&gt;Based on a toy mass estimator (which gives the lower limit of mass) and taking inclination angle into account, they find the &lt;script type=&quot;math/tex&quot;&gt;M_{\mathrm{tot}}/M_{*}&lt;/script&gt; can be around 10, still way smaller than 100.&lt;/p&gt;
+
+&lt;p&gt;Issues: The rotation model doesn’t take radial distance into account???  Toy mass estimator? Any lessons learned from M31?&lt;/p&gt;
+
+&lt;h3 id=&quot;hsc-xd-52-an-x-ray-detected-agn-in-a-low-mass-galaxy-at-zsim056&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.02173&quot;&gt;HSC-XD 52: An X-ray detected AGN in a low-mass galaxy at &lt;script type=&quot;math/tex&quot;&gt;z\sim0.56&lt;/script&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;They found a luminous (massive) AGN (MBH) in a low-mass galaxy ($3\times10^9 M_\odot$) at redshift 0.56 using HSC and XMM. How did MBH formed in a low-mass galaxy? &lt;a href=&quot;https://wwwastro.msfc.nasa.gov/lynx/&quot;&gt;&lt;strong&gt;Lynx&lt;/strong&gt;&lt;/a&gt; will provide high SNR X-ray spectra of AGN in dwarf galaxies, breaking the degeneracy between emission from AGN and stellar processes. The synergy between LISA and ground-based telescopes will provide more on how MBHs form and grow.&lt;/p&gt;
+
+&lt;h2 id=&quot;092319---092919&quot;&gt;09/23/19 - 09/29/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;why-are-some-galaxy-clusters-underluminous-the-very-low-concentration-of-the-cl2015-mass-profile&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.11491&quot;&gt;Why are some galaxy clusters underluminous? The very low concentration of the CL2015 mass profile&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;CL2015 is a very massive cluster with very low X-ray luminosity, this work thinks it is caused by low concentration of the cluster. There are very few bright galaxy around the BCG, the galaxy concentration is also low. (From Song Huang)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-if-planet-9-is-a-primordial-black-hole&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.11090?from=groupmessage&amp;amp;isappinstalled=0&quot;&gt;What if Planet 9 is a Primordial Black Hole?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Two explanations of Planet 9 (&lt;script type=&quot;math/tex&quot;&gt;M_9 \sim 5 − 15\,M_{\mathrm{Earth}}&lt;/script&gt; ): free-floating planets (FFP) or primordial black holes (PBH), which are captured by the solar system. The PBH scenario could be confirmed through annihilation signals from the dark matter micro-halo around the PBH.&lt;/p&gt;
+
+&lt;h3 id=&quot;evidence-of-non-luminous-matter-in-the-center-of-m62&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.11091#&quot;&gt;Evidence of non-luminous matter in the center of M62&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;confirmation-of-planet-mass-objects-in-extragalactic-systems&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.11610&quot;&gt;Confirmation of Planet-Mass Objects in Extragalactic Systems&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;a-hybrid-deep-learning-approach-to-cosmological-constraints-from-galaxy-redshift-surveys&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.10527&quot;&gt;A Hybrid Deep Learning Approach to Cosmological Constraints From Galaxy Redshift Surveys&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;galaxy-morphological-classification-in-deep-wide-surveys-via-unsupervised-machine-learning&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.10537&quot;&gt;Galaxy morphological classification in deep-wide surveys via unsupervised machine learning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;an-ising-model-for-galaxy-bias&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.09171#&quot;&gt;An Ising model for galaxy bias&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;pea-galaxy&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Pea_galaxy&quot;&gt;Pea galaxy&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;data-challenges-as-a-tool-for-time-domain-astronomy&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019PASP..131k8001H/abstract&quot;&gt;Data challenges as a tool for time-domain astronomy&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Data challenges serve as important “think tank” for astronomy in this big-data era. This paper focuses on time-domain astronomy as an example. The challenges themselves, however, have typically yielded new and surprising results and challenge techniques beyond the initial expectations of those initiating the data challenges, making them an attractive tool for time-domain astronomy. &lt;a href=&quot;https://www.lsst.org/scientists/keynumbers&quot;&gt;LSST key numbers&lt;/a&gt;; &lt;a href=&quot;https://lisa-ldc.lal.in2p3.fr/ldc&quot;&gt;LISA data challenge&lt;/a&gt;; &lt;a href=&quot;https://www.kaggle.com/c/PLAsTiCC-2018&quot;&gt;PLAsTiCC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Both the multi-wavelength and non-uniform sampling of the data make astronomical time-series data rich and complex. In previous data challenges on SN classification, the outstanding issues are non-representativity and potential classification bias (such as SNPhotCC which simulate DES detections). In PLAsTiCC, the training sample is thus designed to be non-representative and then used to be test whether the resultant classification is objective or not.&lt;/p&gt;
+
+&lt;p&gt;People focus on two factors in data classification: purity (you don’t want many type II SNe in your “pure” SNe Ia sample) and efficiency (assume there’re 100 SNe Ia in 1000 SNe events, you don’t want to get a “pure” Ia sample with only 5 SNe). Hence the metric for evaluate classifier performance should consider both purity and efficiency. Actually, efficiency = TP rate = TruePositive / (TruePositive + False Negative). FP rate = FP / (FP + TN). ROC diagram and AUC is two key factors of evaluating model behaviors.&lt;/p&gt;
+
+&lt;p&gt;In time-domain astronomy, training data sets can be time series, and can also be images directly. Three kinds of learning: supervised, unsupervised and semi-supervised which makes use of labels when they’re available.&lt;/p&gt;
+
+&lt;p&gt;Some of the greatest scientific challenges and areas of interest are to detect and understand anomalies in astronomical data. This is especially true for rare transients where follow up resources need to be triggered as soon as possible. Anomaly detection is important for both time-domain data and also photo-&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; estimation.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-population-of-dwarf-galaxies-deficient-in-dark-matter&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv190800046G/abstract&quot;&gt;A population of dwarf galaxies deficient in dark matter&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;deep-imaging-of-diffuse-light-around-galaxies-and-clusters-progress-and-challenges&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.09456&quot;&gt;Deep Imaging of Diffuse Light Around Galaxies and Clusters: Progress and Challenges&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;probing-primordial-gravitational-waves-ali-cmb-polarization-telescope&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1710.03047&quot;&gt;Probing Primordial Gravitational Waves: Ali CMB Polarization Telescope&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;090919---091619&quot;&gt;09/09/19 - 09/16/19&lt;/h2&gt;
+
+&lt;p&gt;Oops, how many days I’ve squandered…&lt;/p&gt;
+&lt;h3 id=&quot;the-ultra-diffuse-dwarf-galaxies-ngc-1052-df2-and-1052-df4-are-in-conflict-with-standard-cosmology&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.04663&quot;&gt;The ultra-diffuse dwarf galaxies NGC 1052-DF2 and 1052-DF4 are in conflict with standard cosmology&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;evidence-of-absence-of-tidal-features-in-the-outskirts-of-ultra-diffuse-galaxies-in-the-coma-cluster&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2017ApJ...851...27M/abstract&quot;&gt;Evidence of Absence of Tidal Features in the Outskirts of Ultra Diffuse Galaxies in the Coma Cluster&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;ngc-1052-df2-paper-list&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/search/q=title%3A(NGC%20%221052-DF2%22)&amp;amp;sort=date%20desc%2C%20bibcode%20desc&amp;amp;p_=0&quot;&gt;NGC 1052-DF2 paper list&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;ml-at-scale-astrophysics&quot;&gt;&lt;a href=&quot;https://speakerdeck.com/profjsb/machine-learning-at-scale-astrophysics&quot;&gt;ML at Scale: Astrophysics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;-a-new-sample-of-wandering-massive-black-holes-in-dwarf-galaxies-from-high-resolution-radio-observations&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1909.04670&quot;&gt; A New Sample of (Wandering) Massive Black Holes in Dwarf Galaxies from High Resolution Radio Observations&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;081219---081919&quot;&gt;08/12/19 - 08/19/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;a-dominant-population-of-optically-invisible-massive-galaxies-in-the-early-universe&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1908.02372v1&quot;&gt;A dominant population of optically invisible massive galaxies in the early Universe&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;machine-learning-and-the-future-of-supernova-cosmology&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0860-6&quot;&gt;Machine learning and the future of supernova cosmology&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This paper is interesting. The author &lt;a href=&quot;http://www.emilleishida.com&quot;&gt;Emile Ishida&lt;/a&gt; discussed the various application of ML in supernova surveys, along with many examples. With the advent of ZTF and LSST, countless of SN candidates emerge every night. Efficient algorithms for classification are called.&lt;/li&gt;
+  &lt;li&gt;In 2010, SuperNova Photometric Classification Challenge (SNPCC) provides 20,000 simulated light curves as well as 1,100 labels (whether or not is SN/Ia) for participants to train and test (of course it’s a supervised learning). This is the beginning of photometric classification marathon. Then people find that &lt;strong&gt;semi-supervised&lt;/strong&gt; learning and &lt;strong&gt;data augmentation&lt;/strong&gt; could help a lot in this task. In SN, we refer data augmentation as simulating light curves from Gaussian process fit to instances of underrepresented classes.&lt;/li&gt;
+  &lt;li&gt;Followed by SNPCC, &lt;a href=&quot;https://www.kaggle.com/c/PLAsTiCC-2018&quot;&gt;PLAsTiCC&lt;/a&gt; is another famous Kaggle challenge on SN classification. The winning team relies heavily on data augmentation and uses a tree-based algorithm. Of course, PLAsTiCC is another triumph in synthetic light curves.&lt;/li&gt;
+  &lt;li&gt;One should notice that all our training sample is biased toward SN Ia, nearby events, and also events with high SNR. Hence vanilla DL algorithms cannot achieve a balanced perception towards those underrepresented classes. DL needs large training sample, which we don’t have in astronomy. &lt;strong&gt;PELICAN&lt;/strong&gt; (deeP architecturE for the LIght Curve ANalysis) could overcome this underrepresentation issue (using autoencoder). Trained from simulated data (mixed with real light curves) based on SDSS, it could work quite well on real data. However, in LSST era, if we only look at objects which are yielded by algorithms, the future training sample will largely be biased.&lt;/li&gt;
+  &lt;li&gt;It would be great if the classifier works when only feeding it partial light curves (e.g. two day around SN maximum). &lt;strong&gt;SuperNNova&lt;/strong&gt; (bidirectional recurrent neural network, RNN) could do this, as well as giving the posterior probability distribution of each class.&lt;/li&gt;
+  &lt;li&gt;Another strategy regarding the underrepresentation issue is &lt;strong&gt;Active learning (AL)&lt;/strong&gt;, which adaptively learn the representativeness of a given object. It knows which is more informative and should be learned with priority. &lt;a href=&quot;https://cosmostatistics-initiative.org&quot;&gt;COsmostatistics INitiative (COIN)&lt;/a&gt; is now doing this. :cool:&lt;/li&gt;
+  &lt;li&gt;And… Astrostatistics group &lt;a href=&quot;https://community.amstat.org/astrostats/home&quot;&gt;https://community.amstat.org/astrostats/home&lt;/a&gt; ?&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;071519---072119&quot;&gt;07/15/19 - 07/21/19&lt;/h2&gt;
 
@@ -25,13 +128,33 @@
   &lt;li&gt;Background astrophysics
     &lt;ul&gt;
       &lt;li&gt;The universe undergoes several phase transition. Some are the split of forces. Reionisation is also a phase transition.&lt;/li&gt;
-      &lt;li&gt;Given a spherical DM halo collapsing in an expanding Universe, the mean density &lt;script type=&quot;math/tex&quot;&gt;\rho_h = 18\pi^2\rho_c (1+z)^3&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\rho_c&lt;/script&gt; is the critical density at the collapse time. Given the halo mass &lt;script type=&quot;math/tex&quot;&gt;M_h&lt;/script&gt; and mean density &lt;script type=&quot;math/tex&quot;&gt;\rho_h&lt;/script&gt;, we could compute halo radius &lt;script type=&quot;math/tex&quot;&gt;r_c&lt;/script&gt; (assuming a flat density profile), circular velocity &lt;script type=&quot;math/tex&quot;&gt;V_c&lt;/script&gt; at halo radius, and viral temperature (defined as &lt;script type=&quot;math/tex&quot;&gt;k_b T_{vir} = mV_c^2&lt;/script&gt;).&lt;/li&gt;
-      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;Given a spherical DM halo collapsing in an expanding Universe, the mean density is&lt;script type=&quot;math/tex&quot;&gt;\rho_h = 18\pi^2\rho_c (1+z)^3&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\rho_c&lt;/script&gt; is the critical density at the collapse time. Given the halo mass &lt;script type=&quot;math/tex&quot;&gt;M_h&lt;/script&gt; and mean density &lt;script type=&quot;math/tex&quot;&gt;\rho_h&lt;/script&gt;, we could compute halo radius &lt;script type=&quot;math/tex&quot;&gt;r_c&lt;/script&gt; (assuming a flat density profile), circular velocity &lt;script type=&quot;math/tex&quot;&gt;V_c&lt;/script&gt; at halo radius, and viral temperature (defined as &lt;script type=&quot;math/tex&quot;&gt;k_b T_{vir} = mV_c^2&lt;/script&gt;).&lt;/li&gt;
+      &lt;li&gt;Reionisation and recombination could achieve an equilibrium. By equating reionisation rate and recombination rate, one can calculate a ionization fraction &lt;script type=&quot;math/tex&quot;&gt;\chi_e = n_e / n_{H}&lt;/script&gt;. Reionisation rate depends on electron density times proton density, temperature and also which state &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; it goes to. We don’t consider photon recombines to &lt;script type=&quot;math/tex&quot;&gt;n=1&lt;/script&gt; since the photon it emits can ionize another atom.  **H II ** region is generally highly ionized, with ionization fraction ~1 and neutral H fraction &lt;script type=&quot;math/tex&quot;&gt;10^{-4}&lt;/script&gt;.&lt;/li&gt;
+      &lt;li&gt;Present day IGM is about &lt;script type=&quot;math/tex&quot;&gt;10^5&lt;/script&gt; K, and is fully ionized, including H and He (hot ionized gas). But how?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ending the cold dark ages
+    &lt;ul&gt;
+      &lt;li&gt;Different DM halos could host different kind of celestial bodies. With the merger of DM halos, more and more massive galaxies begin to form. Cold gas falls into the potential well of DM halo, fuel the star formation. Cold gas becomes warmer when falling inside, then the shocked gas undergoes cooling. Two key processes: efficiency of radiative cooling, and ability of the halo to retain heated gas (by radiation and SNe). They are related to halo mass. Star formation relies on cooling efficiency.&lt;/li&gt;
+      &lt;li&gt;The relative velocity between DM halo and gas is supersonic!! This is because that DM is collision-less but photos/electrons don’t. This velocity is called streaming velocity, which decays as &lt;script type=&quot;math/tex&quot;&gt;a^{-1}&lt;/script&gt;.  For a scenario without streaming velocity, the Jean mass is 32000 solar mass at z=30, decreases as &lt;script type=&quot;math/tex&quot;&gt;a^{-1.5}&lt;/script&gt;.&lt;/li&gt;
+      &lt;li&gt;Population 1, 2, 3. Since population 3 protostar is lacking of metals, the cooling ability is low, making these stars more massive (tens of solar mass) than population 1 or 2. So how does metal-free ionized hydrogen get cooled? Through H2 formation with free electron as a catalyst. However this process is fragile. Considering the Lyman-Werner lines and also streaming velocity, the lowest halo mass to hold the first star is around &lt;script type=&quot;math/tex&quot;&gt;10^6&lt;/script&gt; solar mass. Although the forming rate of first stars is low, they could emit tremendous ionizing photons and cause the reionisation since they are all very massive. There is only ONE generation of Population 3 stars.&lt;/li&gt;
+      &lt;li&gt;The death of Pop 3 star gave birth to black hole core. BH grows by accretion. Accretion disk forms because of the conservation of angular momentum. The temperature in the disk could reach &lt;script type=&quot;math/tex&quot;&gt;10^4&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;10^7&lt;/script&gt; K, emitting strong X-ray. The UV luminosity of BH is not as strong as massive stars, but X-ray penetrates farther and ionize IGM to 100 kpc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Observational constrains
+    &lt;ul&gt;
+      &lt;li&gt;QSO. Gunn-Peterson trough indicates an elevated neutral hydrogen fraction. By observing high-z QSO with Gunn-Peterson trough, we can determine when the trough disappeared, then further determine the ending of reionisation. Btw, a tiny amount of neutral hydrogen will be optically thick enough and absorb all light at &lt;script type=&quot;math/tex&quot;&gt;1216(1+z)&lt;/script&gt; angstrom. Anyway, QSO spectra probe the end of cosmic reionisation.&lt;/li&gt;
+      &lt;li&gt;CMB. CMB photons can be scattered by free electrons (Thomson scattering). By measuring the total amount of CMB photons and calculating the total amount of CMB photos theoretically, an optical depth could be calculated. Then the time of reionisation can be worked out by assuming some reionisation models. Planck data indicates &lt;script type=&quot;math/tex&quot;&gt;z=7.82\pm0.71&lt;/script&gt; when the universe is half-ionized.&lt;/li&gt;
+      &lt;li&gt;21-cm lines. We can define a spin temperature &lt;script type=&quot;math/tex&quot;&gt;T_s = T_* \ln(3n_0 / n_1)&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;T_* = E_{21}/k_B&lt;/script&gt;. This temperature depicts the distribution of states on hyperfine levels. Before everything got ionized, the spin temperature is tightly bonded with CMB temperature. Absorption and emission will change the spin temperature slightly for &lt;script type=&quot;math/tex&quot;&gt;\delta T_b&lt;/script&gt;. Stars began to form after &lt;script type=&quot;math/tex&quot;&gt;z\sim30&lt;/script&gt;, decrease &lt;script type=&quot;math/tex&quot;&gt;\delta T_b&lt;/script&gt;. X-ray sources will increase &lt;script type=&quot;math/tex&quot;&gt;\delta T_b&lt;/script&gt;. Overall, &lt;script type=&quot;math/tex&quot;&gt;\delta T_b&lt;/script&gt; would decrease to negative and smoothly converge to zero. We have observed a trough from EDGES centering at &lt;script type=&quot;math/tex&quot;&gt;z\sim 18&lt;/script&gt;, indicating many interesting new physics.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;the-carnegie-chicago-hubble-program-viii-an-independent-determination-of-the-hubble-constant-based-on-the-tip-of-the-red-giant-branch&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.05922&quot;&gt;The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Related article from Quantum magzine: &lt;a href=&quot;https://www.quantamagazine.org/cosmologists-debate-how-fast-the-universe-is-expanding-20190808/&quot;&gt;&lt;strong&gt;Cosmologists Debate How Fast the Universe Is Expanding&lt;/strong&gt;&lt;/a&gt; – very well written and really fascinating!!! Perhaps I’ll adopt this paper as a problem for CNAO next year!&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;the-frequency-of-tidal-features-associated-with-nearby-luminous-elliptical-galaxies-from-a-statistically-complete-sample&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2009AJ....138.1417T/abstract&quot;&gt;The Frequency of Tidal Features Associated with Nearby Luminous Elliptical Galaxies From a Statistically Complete Sample&lt;/a&gt;&lt;/h3&gt;
 
@@ -55,6 +178,10 @@
 &lt;h2 id=&quot;070819---071419&quot;&gt;07/08/19 - 07/14/19&lt;/h2&gt;
 
 &lt;h3 id=&quot;applying-liouvilles-theorem-to-gaia-data&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.00987&quot;&gt;Applying Liouville’s Theorem to Gaia Data&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To be finished.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;galactic-cirri-in-deep-optical-imaging&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1907.00978&quot;&gt;Galactic cirri in deep optical imaging&lt;/a&gt;&lt;/h3&gt;
 
@@ -769,9 +896,59 @@
 
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 29 Jul 2019 13:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2019/07/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/astro-ph-2019</guid>
+        <pubDate>Fri, 11 Oct 2019 08:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/10/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/10/astro-ph-2019</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Distance Measurements in Astrophysics</title>
+        <description>&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ewpeng/PKUdistances19&quot;&gt;Course Homepage of Eric&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lecture-1-introduction&quot;&gt;Lecture 1: Introduction&lt;/h1&gt;
+
+&lt;p&gt;Precise: small scatter, but may not correct
+Accurate: Correct, but may with large scatter&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How to measure the distance to the sun?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Everything involved in the distance measurement is based on the astronomical unit AU.&lt;/p&gt;
+
+&lt;p&gt;Benchmark: the distance to the galactic center $R_0$&lt;/p&gt;
+
+&lt;p&gt;Dust attenuation must be considered in the distance measurement.&lt;/p&gt;
+
+&lt;p&gt;Period-Luminosity relation of Cepheids: Cepheids have different kinds (Population I and II)&lt;/p&gt;
+
+&lt;p&gt;Water vapor maser frequency: 22 GHz. Maser sources are often around AGB stars. We can measure the motion of maser spots around the galactic center. This gives us the distances to galactic center using geometric method. Masers are around the AGB stars, with expansion.&lt;/p&gt;
+
+&lt;p&gt;R0=8.0 kpc. (IAU recommended)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 23 Sep 2019 04:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/09/DistanceMeasurement</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/09/DistanceMeasurement</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>English Readings</title>
+        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-yorker-the-family-that-built-an-empire-of-pain&quot;&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2017/10/30/the-family-that-built-an-empire-of-pain?source=EDT_NYR_EDIT_NEWSLETTER_0_imagenewsletter_Daily_ZZ&amp;amp;utm_campaign=aud-dev&amp;amp;utm_source=nl&amp;amp;utm_brand=tny&amp;amp;utm_mailing=TNY_Daily_082819&amp;amp;utm_medium=email&amp;amp;bxid=5d65da0920122e62d838f975&amp;amp;cndid=&amp;amp;esrc=&amp;amp;mbid=&amp;amp;utm_term=TNY_Daily&quot;&gt;New Yorker: The family that built an empire of pain&lt;/a&gt;&lt;/h3&gt;
+</description>
+        <pubDate>Fri, 02 Aug 2019 04:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/08/english-reading</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/english-reading</guid>
         
         
         <category>paper</category>
@@ -1044,7 +1221,7 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
-        <pubDate>Tue, 02 Jul 2019 03:38:00 -0700</pubDate>
+        <pubDate>Tue, 02 Jul 2019 18:38:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
         
@@ -1061,9 +1238,6 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;p&gt;Really really nice book on principles of plotting and visualizing data. Like it! I will post some content below later.&lt;/p&gt;
 
-&lt;h3 id=&quot;my-own-notes-for-plotting-in-python&quot;&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/astrojacobli/astro-ph/blob/master/Notes%20for%20Coding.ipynb&quot;&gt;My own notes for plotting in python&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;creating-lupton-rgb-images&quot;&gt;&lt;a href=&quot;http://docs.astropy.org/en/stable/visualization/lupton_rgb.html&quot;&gt;Creating Lupton RGB images&lt;/a&gt;&lt;/h3&gt;
-
 &lt;h3 id=&quot;other-packages-for-plot&quot;&gt;Other packages for plot&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -1072,24 +1246,57 @@ Hence we have many combinations to express the shape (ellipticity and position a
   &lt;li&gt;&lt;a href=&quot;https://plot.ly/&quot;&gt;plot.ly&lt;/a&gt; can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;incredible-cheat-sheet-for-matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/rougier/matplotlib-cheatsheet&quot;&gt;Incredible cheat sheet for Matplotlib!&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;width: 950px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/matplotlib-cheatsheet.png&quot; alt=&quot;`Matplotlib` cheatsheet&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;`Matplotlib` cheatsheet&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;And here are some commands in common use.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inline&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load_ext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;autoreload&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;autoreload&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;IPython.display&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clear_output&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'figure.dpi'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;200.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'figure.facecolor'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'w'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'font.family'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'serif'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'font.size'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;25.0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'text.usetex'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subplots&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;figsize&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Two columns
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tick_params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;direction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'in'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;# Set tick direction to 'in'
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_shared_y_axes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ax2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Share axis
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ax&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'off'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# No frame when showing images
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;savefig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'xxx.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bbox_inches&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'tight'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Save without empty margin
+# If you find your figure too large, pass `rasterized=True` to `plt.savefig()`.
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;h1 id=&quot;useful-python-packages-in-astrophysics&quot;&gt;Useful Python packages in astrophysics:&lt;/h1&gt;
+
+&lt;p&gt;Here I only list several nice packages in astrophysics research. For more please check my GitHub &lt;a href=&quot;https://github.com/AstroJacobLi?tab=stars&quot;&gt;stars&lt;/a&gt; and GitHub &lt;a href=&quot;https://github.com/topics/astrophysics&quot;&gt;astrophysics&lt;/a&gt; and &lt;a href=&quot;https://github.com/topics/astronomy&quot;&gt;astronomy&lt;/a&gt; topics.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/dr-guangtou/taotie&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;taotie&lt;/code&gt;&lt;/a&gt;: A curated collection of resources for astrophysical research, best tutorial for anyone in this field!&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dr-guangtou/unagi&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;unagi&lt;/code&gt;&lt;/a&gt;: Search and download data from Hyper Suprime-Cam (HSC) Subaru Strategic Survey (SSP). Useful for people working with HSC data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/astropy/photutils&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;photutils&lt;/code&gt;&lt;/a&gt;: Astropy package for source detection and photometry, basically substitutes of many IRAF functions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GalSim-developers/GalSim&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;galsim&lt;/code&gt;&lt;/a&gt;: Galaxy image simulation tool, broadly used in weak lensing and mock tests in galaxy research.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bd-j/prospector&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;prospector&lt;/code&gt;&lt;/a&gt;: Python code for Stellar Population Inference from Spectra and SEDs.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial: &lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;A map of the hot jupiter HD 189733b&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/bd-j/sedpy&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sedpy&lt;/code&gt;&lt;/a&gt;: Utilities for astronomical spectral energy distributions.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://github.com/esheldon/cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt;&lt;/a&gt;: cosmology package based on C, written by esheldon. Fast calculate distances. It can also be replaced by &lt;a href=&quot;http://docs.astropy.org/en/stable/cosmology/index.html#module-astropy.cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;astropy.cosmology&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://healpy.readthedocs.io/en/latest/install.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;healpy&lt;/code&gt;&lt;/a&gt;: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;starry&lt;/code&gt;&lt;/a&gt;: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial: &lt;a href=&quot;https://rodluger.github.io/starry/tutorials/hd189.html&quot;&gt;A map of the hot jupiter HD 189733b&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/esheldon/cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cosmology&lt;/code&gt;&lt;/a&gt;: cosmology package based on C, written by esheldon. Fast calculate distances. It can also be replaced by &lt;a href=&quot;http://docs.astropy.org/en/stable/cosmology/index.html#module-astropy.cosmology&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;astropy.cosmology&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://corner.readthedocs.io/en/latest/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt;&lt;/a&gt;: A package of drawing corner diagrams of MCMC and 2d histogram. It’s very easy to use and has many options. Good tool! You can find some examples in the &lt;code class=&quot;highlighter-rouge&quot;&gt;SN cosmology.ipynb&lt;/code&gt;. &lt;a href=&quot;http://dr-guangtou.github.io&quot;&gt;Song Huang&lt;/a&gt; also uses &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; to “explore” data: plot everything with everything. It can check the dependence between variables directly. Example by Song Huang:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;corner&lt;/span&gt; 
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;corner&lt;/span&gt; 
 &lt;span class=&quot;n&quot;&gt;sdss_labels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
       &lt;span class=&quot;s&quot;&gt;r'$u-g$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;r'$g-i$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;s&quot;&gt;r'$\log \mathrm{EW}_{\mathrm{H}\alpha}$'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -1108,71 +1315,60 @@ Hence we have many combinations to express the shape (ellipticity and position a
       &lt;span class=&quot;n&quot;&gt;use_math_text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;sdss_corner&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_size_inches&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://docs.python.org/3.7/library/multiprocessing.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;multiprocess.Pool&lt;/code&gt;&lt;/a&gt;: simple tool to run your loop tasks on multiple cores. This is embedded in &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; itself, and goes like below. For more complicated usage (multiple arguments as input), please refer to the documentation.&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;multiprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;multiprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Number of processor to use:'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj_cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;https://joblib.readthedocs.io/en/latest/parallel.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;joblib&lt;/code&gt;&lt;/a&gt;: an awesome tool of building pipelines in python. Just like a superior &lt;code class=&quot;highlighter-rouge&quot;&gt;pickle&lt;/code&gt;, it can dump and load functions and data (especially large data arrays) efficiently. It can also distribute loop tasks to multiple processors. See the usages below:&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Parallel computing
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Parallel computing
 &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;delayed&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        
+&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
 &lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n_jobs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;backend&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'loky'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delayed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj_cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delayed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run_SBP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj_cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
 
-        &lt;p&gt;There are various backends for this &lt;code class=&quot;highlighter-rouge&quot;&gt;Parallel&lt;/code&gt; function, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;loky&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;threading&lt;/code&gt; and also &lt;code class=&quot;highlighter-rouge&quot;&gt;multiprocessing&lt;/code&gt; as stated above.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Dump and load
+    &lt;p&gt;There are various backends for this &lt;code class=&quot;highlighter-rouge&quot;&gt;Parallel&lt;/code&gt; function, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;loky&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;threading&lt;/code&gt; and also &lt;code class=&quot;highlighter-rouge&quot;&gt;multiprocessing&lt;/code&gt; as stated above.&lt;/p&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Dump and load
 &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sklearn.neighbors&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;KNeighborsClassifier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classification_report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
-    
+
 &lt;span class=&quot;c1&quot;&gt;# After training a classifier using scikit-learn, 
 # you want to dump it and use it next time.
 &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;joblib&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;joblib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'./clf_cache/knn.joblib'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;# If you want to dump the file after compressing, use this.
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;joblib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dump&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;knn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'./clf_cache/knn.joblib.compress'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compress&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://ipyparallel.readthedocs.io/en/latest/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ipyparallel&lt;/code&gt;&lt;/a&gt;: Using IPython for parallel computing&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ipyparallel.readthedocs.io/en/latest/index.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ipyparallel&lt;/code&gt;&lt;/a&gt;: Using IPython for parallel computing&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;tricks&quot;&gt;Tricks&lt;/h1&gt;
 &lt;h3 id=&quot;build-your-package&quot;&gt;Build your package&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://pip.readthedocs.io/en/1.1/requirements.html#requirements-file-format&quot;&gt;How to write &lt;code class=&quot;highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt; for a package&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://packaging.python.org&quot;&gt;Python Packaging User Guier (PyPI)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pythonhosted.org/an_example_pypi_project/sphinx.html&quot;&gt;How to write documentation using &lt;code class=&quot;highlighter-rouge&quot;&gt;sphinx&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://docs.readthedocs.io/page/intro/getting-started-with-sphinx.html&quot;&gt;publish using &lt;code class=&quot;highlighter-rouge&quot;&gt;Readthedocs&lt;/code&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packaging.python.org&quot;&gt;Python Packaging User Guier (PyPI)&lt;/a&gt;: note that when pushing your local files in &lt;code class=&quot;highlighter-rouge&quot;&gt;dist&lt;/code&gt; to PyPI, you only need to do &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 -m twine upload dist/*&lt;/code&gt;. Don’t forget to add non-Python files in &lt;code class=&quot;highlighter-rouge&quot;&gt;MANIFEST.in&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;setup.py&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;jupyter-notebook&quot;&gt;Jupyter Notebook&lt;/h3&gt;
@@ -1200,19 +1396,16 @@ Hence we have many combinations to express the shape (ellipticity and position a
   &lt;li&gt;&lt;a href=&quot;https://github.com/ipython-contrib/jupyter_contrib_nbextensions&quot;&gt;Jupyter extensions&lt;/a&gt;: my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install jupyter_contrib_nbextensions&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;conda install -c conda-forge jupyter_contrib_nbextensions&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;matplotlib&quot;&gt;Matplotlib&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you find your figure too large, pass &lt;code class=&quot;highlighter-rouge&quot;&gt;rasterized=True&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;plt.savefig()&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Useful arguments in &lt;code class=&quot;highlighter-rouge&quot;&gt;plt.savefig(bbox_inches='tight', dpi=200)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&quot;formating-strings&quot;&gt;Formating strings&lt;/h3&gt;
 
-&lt;p&gt;https://pyformat.info&lt;/p&gt;
+&lt;p&gt;Tutorial: &lt;a href=&quot;https://pyformat.info&quot;&gt;https://pyformat.info&lt;/a&gt;. I often use &lt;code class=&quot;highlighter-rouge&quot;&gt;length = {:.2f}.format(3.1415)&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;name = &quot;DECaLS_{}&quot;.format('g_band'}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;regex-regular-expression&quot;&gt;RegEx: Regular Expression&lt;/h3&gt;
+
+&lt;p&gt;Tutorial: &lt;a href=&quot;https://github.com/ziishaned/learn-regex&quot;&gt;https://github.com/ziishaned/learn-regex&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;using-tqdm-to-show-progress&quot;&gt;Using Tqdm to show progress&lt;/h3&gt;
-&lt;p&gt;See https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar&quot;&gt;https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;slug.imutils&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TqdmUpTo&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imutils&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gen_url_hsc_s18a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'RA'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Dec'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; 
@@ -1235,11 +1428,13 @@ Hence we have many combinations to express the shape (ellipticity and position a
 
 &lt;p&gt;SSH is a tunnel through which you can connect with another computer (with fixed IP). It often goes like:&lt;/p&gt;
 
-&lt;p&gt;Login kungpao: &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh -A -Y jiaxuanli@kungpao.ucsc.edu&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Login kungpao: &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh -A -Y jiaxuanli@kungpao.ucsc.edu&lt;/code&gt;. However you can set alias for this command by write &lt;code class=&quot;highlighter-rouge&quot;&gt;alias login_kungpao='ssh -A -Y jiaxuanli@kungpao.ucsc.edu'&lt;/code&gt; in your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Using the internet of kungpao: &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh -g -qfnNT -D 7070 jiaxuanli@kungpao.ucsc.edu&lt;/code&gt; and then set the port of SOCKS to be 7070.&lt;/p&gt;
 
 &lt;p&gt;Using Jupiter Notebook on kungpao but control it locally: &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh -Y -N -L localhost:9999:localhost:9999 jiaxuanli@kungpao.ucsc.edu&lt;/code&gt; (on your laptop); &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter notebook --no-browser --port=9999&lt;/code&gt; (on your server kungpao).&lt;/p&gt;
+
+&lt;p&gt;The SSH session may be timeout very soon, check &lt;a href=&quot;https://bjornjohansen.no/ssh-timeout&quot;&gt;here&lt;/a&gt; for solutions.&lt;/p&gt;
 
 &lt;h4 id=&quot;sshfs&quot;&gt;SSHFS&lt;/h4&gt;
 
@@ -1250,8 +1445,14 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;p&gt;Finally, it goes like &lt;code class=&quot;highlighter-rouge&quot;&gt;sshfs jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/ /Users/jiaxuanli/Research/kungpao/ -ovolname=kungpao&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;You will see a disk icon in folder &lt;code class=&quot;highlighter-rouge&quot;&gt;~/Research&lt;/code&gt;. To unmount this “disk”, type &lt;code class=&quot;highlighter-rouge&quot;&gt;diskutil unmount ~/Research/kungpao/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;screen&quot;&gt;Screen&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;screen&lt;/code&gt; enables me to use multiple windows in the background when using &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Make a new screen window using &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -S Jiaxuan&lt;/code&gt;; then do whatever you want in that terminal; and detach that window using &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl-a + d&lt;/code&gt;. After got detached, the screen terminal is still running in the background. You can reconnect that terminal with &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -r Jiaxuan&lt;/code&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 25 Jun 2019 14:40:00 -0700</pubDate>
+        <pubDate>Wed, 26 Jun 2019 05:40:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/06/HowToPython</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/06/HowToPython</guid>
         
@@ -1263,6 +1464,20 @@ Hence we have many combinations to express the shape (ellipticity and position a
       <item>
         <title>DL in astronomy</title>
         <description>&lt;hr /&gt;
+&lt;h2 id=&quot;cs-231n-convolutional-neural-networks-for-visual-recognition&quot;&gt;&lt;a href=&quot;http://cs231n.stanford.edu/index.html&quot;&gt;CS 231n: Convolutional Neural Networks for Visual Recognition&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cs231n.stanford.edu/syllabus.html&quot;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=h7iBpEHGVNc&amp;amp;list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&amp;amp;index=3&quot;&gt;2017 class video&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/auto-regressive-generative-models-pixelrnn-pixelcnn-32d192911173&quot;&gt;PixelCNN&lt;/a&gt;: could complete the data (Bach’s music). Neural density estimation could also generate fake video/voice/images.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;https://towardsdatascience.com/auto-regressive-generative-models-pixelrnn-pixelcnn-32d192911173&lt;/p&gt;
+
+&lt;p&gt;https://google.github.io/tacotron/&lt;/p&gt;
+
 &lt;h2 id=&quot;deep-learning-and-astrophysics&quot;&gt;Deep learning and Astrophysics&lt;/h2&gt;
 
 &lt;h3 id=&quot;finding-strong-gravitational-lenses-in-the-desi-decam-legacy-survey&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1906.00970.pdf&quot;&gt;Finding Strong Gravitational Lenses in the DESI DECam Legacy Survey&lt;/a&gt;&lt;/h3&gt;
@@ -1294,7 +1509,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;h3 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h3&gt;
 </description>
-        <pubDate>Wed, 15 May 2019 08:38:00 -0700</pubDate>
+        <pubDate>Wed, 15 May 2019 23:38:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/05/astro-DL</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/05/astro-DL</guid>
         
@@ -2193,7 +2408,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 16 Apr 2019 08:10:00 -0700</pubDate>
+        <pubDate>Tue, 16 Apr 2019 23:10:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/04/GreatPower</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/04/GreatPower</guid>
         
@@ -2891,7 +3106,7 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        <pubDate>Tue, 26 Feb 2019 13:30:00 -0800</pubDate>
+        <pubDate>Wed, 27 Feb 2019 05:30:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
         
@@ -2903,6 +3118,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
       <item>
         <title>形势与政策</title>
         <description>&lt;h1 id=&quot;形式与政策&quot;&gt;形式与政策&lt;/h1&gt;
+
+&lt;p&gt;本笔记基于2019年春季学期《形势与政策》课程，由李嘉轩、刘畅、亢议共同贡献，但不对笔记的正确性和客观性负责。&lt;/p&gt;
 
 &lt;h2 id=&quot;第一讲-中美贸易摩擦&quot;&gt;第一讲 中美贸易摩擦&lt;/h2&gt;
 
@@ -3550,115 +3767,12 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 
 &lt;p&gt;6.8是最后一次大报告。&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Feb 2019 07:30:00 -0800</pubDate>
+        <pubDate>Wed, 20 Feb 2019 23:30:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2019/02/XingCe</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
         
         
         <category>Miscellany</category>
-        
-      </item>
-    
-      <item>
-        <title>Astronomical Spectroscopy</title>
-        <description>&lt;h1 id=&quot;天体光谱学--江林华&quot;&gt;&lt;a href=&quot;http://kiaa.pku.edu.cn/~jiang/teaching.html#teach=class3&quot;&gt;天体光谱学 — 江林华&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;第一讲&quot;&gt;第一讲&lt;/h2&gt;
-
-&lt;h3 id=&quot;热动平衡下的热力学和统计物理&quot;&gt;热动平衡下的热力学和统计物理&lt;/h3&gt;
-
-&lt;p&gt;一个热力学系统，&lt;script type=&quot;math/tex&quot;&gt;N, E, V&lt;/script&gt; are fixed. We assume energy levels &lt;script type=&quot;math/tex&quot;&gt;\epsilon_1, \epsilon_2…&lt;/script&gt; , and corresponding degeneracy &lt;script type=&quot;math/tex&quot;&gt;g_1, g_2, …&lt;/script&gt; There are $n_1, n_2, …$ particles on each energy levels. Thus &lt;script type=&quot;math/tex&quot;&gt;\sum_i n_i = N, \sum_i n_i \epsilon_i = E&lt;/script&gt; constrain this system.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Boltzmann Distribution&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;Particles are Discriminable.&lt;/p&gt;
-
-    &lt;p&gt;Differentiate &lt;script type=&quot;math/tex&quot;&gt;\Omega_{M.B.} = \frac{N!}{\Pi_i n_i}\Pi_i g_i^{n_i}&lt;/script&gt; and use the constrain above, we get Boltzmann Distribution. &lt;script type=&quot;math/tex&quot;&gt;n_i = g_i e^{- \alpha - \beta\epsilon_i}&lt;/script&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Bose-Einstein Distribution&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;Particles are indistinguishable. And no Pauli law.
-&lt;script type=&quot;math/tex&quot;&gt;n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} - 1}.&lt;/script&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Fermi-Dirac Distribution&lt;/strong&gt;
-&lt;script type=&quot;math/tex&quot;&gt;n_i = \frac{g_i}{e^{\alpha + \beta\epsilon_i} + 1}.&lt;/script&gt;
-Under classical limit, FD and BE distribution go back to Boltzmann.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Boltzmann Equation (so-called)&lt;/p&gt;
-
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n_i = g_i e^{- \alpha - \beta\epsilon_i}&lt;/script&gt;, thus &lt;script type=&quot;math/tex&quot;&gt;N = e^{-\alpha} \sum_i g_i e^{-\beta \epsilon_i} = e^{-\alpha} G&lt;/script&gt;. We define partition function &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;. 
-&lt;script type=&quot;math/tex&quot;&gt;\frac{n_i}{N} = \frac{g_i}{G} e^{-\epsilon_i/k_BT}, \frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_j-\epsilon_i)/k_BT} .&lt;/script&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Maxwell Distribution&lt;/strong&gt;
-&lt;script type=&quot;math/tex&quot;&gt;f_M(\vec{v}) = \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right) = f(v_x) f(v_y) f(v_z).&lt;/script&gt;
-This is &lt;script type=&quot;math/tex&quot;&gt;dP = f_M(\vec{v}) dv_x dv_y dv_z&lt;/script&gt;.
-&lt;script type=&quot;math/tex&quot;&gt;F_M(v) = 4\pi v^2 \left(\frac{m}{2\pi k_B T}\right)^{3/2} \exp\left(-\frac{mv^2}{2k_B T}\right)&lt;/script&gt;
-This is &lt;script type=&quot;math/tex&quot;&gt;dP = F_M(v) dv&lt;/script&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;原子跃迁和电离&quot;&gt;原子跃迁和电离&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;An atom jumps from &lt;script type=&quot;math/tex&quot;&gt;j&lt;/script&gt; to &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;, we have ​&lt;script type=&quot;math/tex&quot;&gt;\frac{n_i}{n_j} = \frac{g_i}{g_j} e^{-(\epsilon_i-\epsilon_j)/k_BT} .&lt;/script&gt;&lt;/p&gt;
-
-    &lt;p&gt;Recall &lt;a href=&quot;https://en.wikipedia.org/wiki/Einstein_coefficients&quot;&gt;Einstein coefficients&lt;/a&gt;. See “Detailed Balancing”.&lt;/p&gt;
-
-    &lt;p&gt;I once calculated the occupation of Cobalt in a radiation field for Ping, see this &lt;a href=&quot;https://nbviewer.jupyter.org/github/astroJacobLi/astro-ph/blob/master/Ping/Cobalt.ipynb&quot;&gt;notebook&lt;/a&gt;, and this &lt;a href=&quot;https://github.com/AstroJacobLi/astro-ph/tree/master/Ping&quot;&gt;folder&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Blackbody Radiation: 
-&lt;script type=&quot;math/tex&quot;&gt;r_B(\nu) = \frac{2\pi h \nu^3}{c^2} \frac{1}{e^{h\nu^/k_BT - 1}}.&lt;/script&gt;
-This is the energy emitted in unit time unit area unit frequency, and has nothing to do with radiation direction.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ionization&lt;/p&gt;
-
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\chi_{0, 1}&lt;/script&gt; Is not excited neutral atom. Former number is about ionization, latter number is about excitation.&lt;/p&gt;
-
-    &lt;p&gt;Photo-electric: &lt;script type=&quot;math/tex&quot;&gt;h\nu = \chi_{r, k} + \frac{1}{2} m_e v^2&lt;/script&gt;.&lt;/p&gt;
-
-    &lt;p&gt;For &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;-time ionization: &lt;script type=&quot;math/tex&quot;&gt;\frac{n_{r, j}}{n_{r, i}} = \frac{g_{r, j}}{g_{r, i}} e^{-(\epsilon_i-\epsilon_j)/k_BT} .&lt;/script&gt;&lt;/p&gt;
-
-    &lt;p&gt;For HI: $r=0, j=2, i=1$: &lt;script type=&quot;math/tex&quot;&gt;T(\text{K}) = 6000, 10000, 20000&lt;/script&gt;, the corresponding &lt;script type=&quot;math/tex&quot;&gt;\frac{n_{0,2}}{n_{0,1}} = 10^{-8}, 3\times10^{-5}, 10^{-2}&lt;/script&gt;.&lt;/p&gt;
-
-    &lt;p&gt;So excitation is only significant when temperature is about 20000 K. (Blue stars)&lt;/p&gt;
-
-    &lt;p&gt;For &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;-time ionization, Boltzmann Equation still holds for a fixed &lt;script type=&quot;math/tex&quot;&gt;r&lt;/script&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;第二讲-氢原子光谱&quot;&gt;第二讲 氢原子光谱&lt;/h2&gt;
-
-&lt;p&gt;电子分布率&lt;/p&gt;
-
-&lt;p&gt;电子离中间最近&lt;/p&gt;
-
-&lt;p&gt;年老星系中Na黄光，Mg线，Ca K H, Ca II (triplet) 线很明显很重要。&lt;/p&gt;
-
-&lt;p&gt;UV is the best proxy of SFR. But UV will be attenuated by dust seriously.&lt;/p&gt;
-
-&lt;p&gt;FIR is the radiation of dust, FIR can be the proxy of starburst. 100-200 micron.&lt;/p&gt;
-
-&lt;p&gt;反响映射: photons emitted from the accretion disk around BH are very energetic, they excite the atoms in the broad line region (far from BH), and the clouds in broad line region emit emission lines (H&lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;). We learn the radial distance of broad line region from 反响映射, and we build empirical relations between distance and luminosity (continuum luminosity, near 5100 angstrom) of galaxy nucleus.&lt;/p&gt;
-
-&lt;p&gt;Balmer break: larger break, older this galaxy is.&lt;/p&gt;
-
-&lt;p&gt;Fe[II] line: ~20000 K. Often appear in H[II] region.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Feb 2019 13:38:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/Astro-Spec-Jiang</guid>
-        
-        
-        <category>paper</category>
         
       </item>
     
@@ -3942,90 +4056,12 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
-        <pubDate>Mon, 31 Dec 2018 03:38:00 -0800</pubDate>
+        <pubDate>Mon, 31 Dec 2018 19:38:00 +0800</pubDate>
         <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
-        
-      </item>
-    
-      <item>
-        <title>Writing</title>
-        <description>&lt;h1 id=&quot;essays-and-articles&quot;&gt;Essays and Articles&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://inference-review.com/letter/an-ode-to-ugly-physics&quot;&gt;An Ode to Ugly Physics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/pdf/1758976.pdf&quot;&gt;A Plea for Pure Science&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;latex-templates&quot;&gt;LaTex templates&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://journals.aas.org/aastex-package-for-manuscript-preparation/&quot;&gt;AASTeX&lt;/a&gt;: templates for ApJ, ApJL and ApJS. Note that ApJL has a limitation for the number of figures. Check the overleaf version here: &lt;a href=&quot;https://www.overleaf.com/latex/templates/aastex-template-for-submissions-to-the-astrophysical-journal/bpkjwktvsqwp&quot;&gt;AASTeX Template for submissions to AAS Journals &lt;/a&gt;. Personally I prefer AAS templates than MNRAS one.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/latex/templates/monthly-notices-of-the-royal-astronomical-society-mnras-latex-template-and-guide-for-authors/kqnjzrwjwjth&quot;&gt;MNRAS&lt;/a&gt;: template for MNRAS. Alexie likes this template.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Curriculum Vitae: I recommend this &lt;a href=&quot;https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm&quot;&gt;template&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Template for book: I highly recommend &lt;a href=&quot;https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc&quot;&gt;Legrand Orange Book Template&lt;/a&gt;. I wrote a book using this template for the astronomy olympiad training last year.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For Chinese templates, check &lt;a href=&quot;http://www.latexstudio.net&quot;&gt;LaTex开源小屋&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;LaTeX is also very convenient for taking notes on physics classes. Check my notes on Statistical Physics &lt;a href=&quot;https://astrojacobli.github.io/Docs/LaTeX/NotesTemplate.zip&quot;&gt;here&lt;/a&gt;. (You can compile the &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file succesfully by putting &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt; in the same folder.)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;books-on-writing&quot;&gt;Books on writing&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP8: Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;toefl&quot;&gt;TOEFL&lt;/h1&gt;
-
-&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
-&lt;p&gt;Foul, obstruct, accord, immutable, Sturdy, impel, compel, copious, consensual, consent, edifice, groom, infest, nomad, unprecedented, notorious, sheer.&lt;/p&gt;
-
-&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
-&lt;p&gt;Pavilion, Ductile, epidemic, haunt, spontaneous, instantaneous, simultaneous, paddle, pedal, petal, sepal, puddle, venom, aliment, ailment, lush, fourish, malnourish, assimilate, congest, converse, corrosive gas, credential, credible, detergent, evacuation, engrave imprint, lament(悲叹)/mourn/eulogy, Substantiate, allegiance, carp (鲤鱼), catfish (鲶鱼), goldfish, salmon (鲑鱼，三文鱼), tuna (金枪鱼), sardines (沙丁鱼), cod (鳕鱼), Cornerstone, Crow, seagull, ogle, eagle, finch, woodpecker, Fire extinguisher, evacuation map, grout, Eligible, Impromptu music, Inconspicuous, Palate, soft palate/velar consonant, pinnipeds, seal, sea lion, walrus, nerve sheath tumor, tenant, landlord, tenement/slum, avenue, boulevard, Eliminate, diminish, vanish, irritated, chronic, exasperated/irritated.&lt;/p&gt;
-
-&lt;h2 id=&quot;day3&quot;&gt;Day3&lt;/h2&gt;
-&lt;p&gt;adorn/ornament/varnish/furbish, debris, entitle, gospel, hamper/hinder/obscure/obstacle/stunt/thwart, sewage/drain/sewerage/drainage/ooze/silt/clog/receptacle, laureate/eminent/eminem/preeminent/prominent/distinguished, reckless/crude oil, piano recital/soprano/alto/tenor/baritone, treadmill/scuba/avalanche, scramble/crawl/creep, listless, thorn/throne, auction/patent/petition, complacence/amenity, concord/harmonious/congruous/congruity/incongruity/incompatible, trepidation/intrepid, wither/wilt.&lt;/p&gt;
-
-&lt;p&gt;delicatessen, dairy, pasture (is the sub-unit of a ranch), ranch, meadow, hen house, hive, bovine, cowshed, enclosure, fodder corn, silo, barn, graze, fallow.&lt;/p&gt;
-
-&lt;p&gt;Enoki/oyster/shiitake/cultivated mushroom, truffle, wood ear, kelp, seaweed, nori, scallion, leeks, celery cabbage, bulb, rib, bundle, as’paragus, fiddlehead fern, spear.&lt;/p&gt;
-
-&lt;p&gt;Yuletide, nativity of Jesus, feast宗教节日, winter solstice, carols圣诞颂歌，&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 22 Dec 2018 06:40:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
-        
-        
-        <category>Astrophysics</category>
         
       </item>
     
