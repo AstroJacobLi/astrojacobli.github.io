@@ -5,6 +5,29 @@ date:   2018-12-18 21:40:00
 author: Jiaxuan Li
 categories: Coding
 ---
+# 心理统计
+
+### Power analysis
+
+Power = $1-\beta$. 通过power analysis来限制样本量：
+$$
+n = \frac{(z_{1-\beta} + z_{1-\alpha})^2\sigma^2}{(\mu_0 - \mu_1)^2}
+$$
+一般研究中 $\alpha = 0.05,\ \beta = 0.80$
+
+
+
+###Estimation 
+
+Estimation: 利用样本统计量 ($\overline{M},\ s$) 推断总体的参数 ($\mu,\ \sigma$)。Estimation 和 假设检验是互补的。
+
+对于一个实验，先做假设检验来判断某种treatment是否有用，再利用estimation来估计这种treatment有多有用。
+
+在estimation中, $\dfrac{\overline{X} - \mu}{s/\sqrt{n}}$ 不是正态分布，而是student-t分布，所以这里应该用 $t_{\alpha/2}$, 而非  $Z_{\alpha/2}$. Student-t分布针对总体标准差未知的时候。t分布实际上是对样本std自由度的一个改正。
+
+
+
+
 # 普通统计学
 
 ## 第一章
