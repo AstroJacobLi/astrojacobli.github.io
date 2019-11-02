@@ -41,6 +41,7 @@ permalink: /miscellany/art/
 <iframe width="700" height="394" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+<br>
 
 # Prose:
 
