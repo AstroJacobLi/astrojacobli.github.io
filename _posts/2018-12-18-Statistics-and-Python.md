@@ -17,7 +17,7 @@ $$
 
 
 
-###Estimation 
+### Estimation 
 
 Estimation: 利用样本统计量 ($\overline{M},\ s$) 推断总体的参数 ($\mu,\ \sigma$)。Estimation 和 假设检验是互补的。
 
@@ -25,6 +25,8 @@ Estimation: 利用样本统计量 ($\overline{M},\ s$) 推断总体的参数 ($\
 
 在estimation中, $\dfrac{\overline{X} - \mu}{s/\sqrt{n}}$ 不是正态分布，而是student-t分布，所以这里应该用 $t_{\alpha/2}$, 而非  $Z_{\alpha/2}$. Student-t分布针对总体标准差未知的时候。t分布实际上是对样本std自由度的一个改正。
 
+### t-test
+对总体的分布没有先验知识的时候，Z分布就不行了。总之，如果对总体没什么了解的话，就用t-test来检验均值。
 
 
 
