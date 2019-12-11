@@ -17,7 +17,7 @@ We developed an empirical, self-contained method "Multi-resolution filtering" (M
 #### Advisors: [Alexie Leauthaud (UCSC)](http://alexie.sites.ucsc.edu), [Song Huang (Princeton)](http://dr-guangtou.github.io)
 We compared the abilities to detect massive galaxy outskirts and related systematics for Hyper Suprime-Cam (HSC), Dark Energy Camera Legacy Survey (DECaLS), Dragonfly Telephoto Array and SDSS. Dragonfly shows outstanding ability on recovering outskirts of low-$$z$$ bright galaxies to $$30\ \mathrm{mag/arcsec^2}$$. HSC could reach farther than 150 kpc for individual galaxy and 200 kpc for a galaxy ensemble. Good agreements are achieved between HSC and DECaLS profiles of intermediate-$$z$$ galaxies down to $$28\ \mathrm{mag/arcsec^2}\ (\sim100\ \mathrm{kpc})$$. DECaLS is able to recover the stellar mass within 100 kpc from HSC by only 0.05 dex. This work serves as a good reference for low surface brightness studies using different datasets and benefits future sky surveys. 
 
-🔗[**Paper Draft**](https://astrojacobli.github.io/publications/JLi_et_al_Galaxy_Outskirts.pdf)
+🔗<a class="tosu" href="https://astrojacobli.github.io/publications/JLi_et_al_Galaxy_Outskirts.pdf">Paper Draft</a>
 
 <br>
 
