@@ -17,7 +17,7 @@ We developed an empirical, self-contained method "Multi-resolution filtering" (M
 #### Advisors: [Alexie Leauthaud (UCSC)](http://alexie.sites.ucsc.edu), [Song Huang (Princeton)](http://dr-guangtou.github.io)
 We compared the abilities to detect massive galaxy outskirts and related systematics for Hyper Suprime-Cam (HSC), Dark Energy Camera Legacy Survey (DECaLS), Dragonfly Telephoto Array and SDSS. Dragonfly shows outstanding ability on recovering outskirts of low-$$z$$ bright galaxies to $$30\ \mathrm{mag/arcsec^2}$$. HSC could reach farther than 150 kpc for individual galaxy and 200 kpc for a galaxy ensemble. Good agreements are achieved between HSC and DECaLS profiles of intermediate-$$z$$ galaxies down to $$28\ \mathrm{mag/arcsec^2}\ (\sim100\ \mathrm{kpc})$$. DECaLS is able to recover the stellar mass within 100 kpc from HSC by only 0.05 dex. This work serves as a good reference for low surface brightness studies using different datasets and benefits future sky surveys. 
 
-🔗[**Paper draft**](https://astrojacobli.github.io/publications/JLi_et_al_Galaxy_Outskirts.pdf)
+🔗[**Paper Draft**](https://astrojacobli.github.io/publications/JLi_et_al_Galaxy_Outskirts.pdf)
 
 <br>
 
@@ -27,6 +27,8 @@ We compared the abilities to detect massive galaxy outskirts and related systema
 {% include image.html url="/images/Ha-ring.png" caption="H-alpha ring galaxies in MaNGA" width=400 align="right" %}
 
 We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mapping Nearby Galaxies at APO (MaNGA) survey, with the stellar mass in the range of $$10.0<\log(M/M_\odot)<11.5$$. They are located in the "green valley" and experiencing the inside-out quenching process. We measure the radii of H$$\alpha$$ rings and find that bars are just stuck in the H$$\alpha$$ rings. High bar fraction, high AGN (Seyfert/LINER) fraction and high bulge-to-total ratio support that the joint effects of bar, bulge and AGN could quench the massive disk galaxies efficiently by the inside-out quenching mode and form the H$$\alpha$$ ring-like structure.
+
+🔗<a class="tosu" href="https://astrojacobli.github.io/publications/JLi_et_al_inside_out_quenching_H_alpha_ring.pdf">Paper Draft</a>
 
 <br>
 
