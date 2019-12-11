@@ -43,7 +43,7 @@ plt.savefig('xxx.png', dpi=200, bbox_inches='tight') # Save without empty margin
 # If you find your figure too large, pass `rasterized=True` to `plt.savefig()`.
 ```
 
-
+[How to create a zoom-in inset in a figure?](http://akuederle.com/matplotlib-zoomed-up-inset)
 
 # Useful Python packages in astrophysics:
 
