@@ -9,7 +9,7 @@ permalink: /research/
 ### Multi-resolution filtering: an empirical method for isolating faint, extended emission in Dragonfly data and other low resolution images
 #### Advisor: [Pieter van Dokkum (Yale)](http://pietervandokkum.com)
 We developed an empirical, self-contained method "Multi-resolution filtering" (MRF) to isolate and study faint, large-scale emission in imaging data of low spatial resolution. The method was developed for the Dragonfly Telephoto Array, which produces images that have excellent low surface brightness sensitivity but poor spatial resolution. The resulting image only contains emission fainter than a pre-defined surface brightness limit. The method is implemented in [$$\texttt{mrf}$$](https://github.com/AstroJacobLi/mrf), an open-source MIT licensed Python package. It also contains an well-defined method to determine the surface brightness detection limit on a certain scale. This work is crucial for the future sciences of Dragonfly surveys. Please see [van Dokkum et al. 2019](https://ui.adsabs.harvard.edu/abs/2019arXiv191012867V/abstract) for more details. 
-{% include image.html url="/images/MRF-cirrus.png" caption="MRF reveals Galactic cirrus clearly in Dragonfly data (Danieli et al. 2019)" width=720 align="center" %}
+{% include image.html url="/images/MRF-cirrus.jpg" caption="MRF reveals Galactic cirrus clearly in Dragonfly data (Danieli et al. 2019)" width=720 align="center" %}
 <br>
 
 ### Reaching for the Edge I: Probing the Outskirts of Massive Galaxies with HSC, DECaLS, SDSS and Dragonfly
@@ -36,7 +36,7 @@ We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mappi
 ### Quantifying Faraday Pattern and Onset Amplitude of Fluid with NMF and 2PCF Algorithms
 #### Author: Jiaxuan Li (PKU) & Xiaoyi Ouyang (PKU)
 
-{% include image.html url="/images/Faraday1.png" caption="Faraday patterns" width=400 align="right" %}
+{% include image.html url="/images/Faraday1.jpg" caption="Faraday patterns" width=400 align="right" %}
 We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at an approximate expression for dispersion relation and a rough explanation for hysteresis. A common predicament concerning experiments of surface wave originates from quantification of physical quantities, e.g. wavelength. We intend to apply two algorithms (i.e. NMF and 2PCF) to quantify experimental data given their unique features. In order to test the algorithms' efficacy, we further investigate the _dipole_ oscillation pattern of milk under weak forcing and weak damping condition. Since dispersion relation is well-characterized in this case, we can compare dispersion relation obtained from NMF and 2PCF with the theoretical one. The fitted $$T/\rho$$ coincides with literature quite well. Then we focus on onset amplitude of Faraday waves and discuss on the source of unexpected hysteresis. The theoretical $$\Omega$$-$$k$$ relation and acceleration-$$\Omega$$ relation fit the experiment data well and parameters are in appropriate range.
 
 🔗<a class="tosu" href="https://astrojacobli.github.io/publications/Ouyang_et_al_Farady.pdf">Paper Draft</a>
