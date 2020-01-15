@@ -6,17 +6,195 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Nov 2019 19:56:10 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Nov 2019 19:56:10 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Jan 2020 11:28:57 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Jan 2020 11:28:57 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>astro-ph Reading in 2019</title>
-        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018.   I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+        <title>astro-ph Reading in 2020</title>
+        <description>&lt;p&gt;Again, feel very ashamed for the decadence in the past year 2019. I will try to read as many paper as possible and do my best in 2020.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;january-2020&quot;&gt;January 2020&lt;/h2&gt;
+
+&lt;h3 id=&quot;a-parallax-distance-to-3c-273-through-spectroastrometry-and-reverberation-mapping&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0979-5&quot;&gt;A parallax distance to 3C 273 through spectroastrometry and reverberation mapping&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New component in the cosmic distance ladder! Using GRAVITY spectroastrometry (SA) (resolution ~10 mas), they measured the angular size of the broad-line-region to be 46 mas. They also used reverberation mapping (RM) to measure the physical size of the broad-line-region. Thus a distance is derived and Hubble constant is measured as &lt;script type=&quot;math/tex&quot;&gt;H_0 = 71.5^{+11.9}_{-10.6}\ \mathrm{km/s/Mpc}&lt;/script&gt;. With larger sample size, the Hubble constant can be measured to 3% precision, and help test the Hubble tension.  SARM could simultaneously measure the SMBH mass (Doppler broaden + physics size).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iterative-emulation-is-the-sincerest-form-of-parameter-estimation&quot;&gt;&lt;a href=&quot;https://astrobites.org/2020/01/13/iterative-emulation-is-the-sincerest-form-of-parameter-estimation/&quot;&gt;Iterative Emulation is the Sincerest Form of Parameter Estimation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Paper link: &lt;a href=&quot;https://arxiv.org/abs/1912.08806&quot;&gt;Cosmological parameter estimation via iterative emulation of likelihoods&lt;/a&gt;. See also &lt;a href=&quot;https://astrobites.org/2011/11/26/your-gateway-to-the-bayesian-realm/&quot;&gt;Your Gateway to the Bayesian Realm&lt;/a&gt;; &lt;a href=&quot;https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50&quot;&gt;A Zero-Math Introduction to Markov Chain Monte Carlo Methods&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;probing-the-fundamental-nature-of-dark-matter-with-the-large-synoptic-survey-telescope&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv190201055D/abstract&quot;&gt;Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;early-type-host-galaxies-of-type-ia-supernovae-ii-evidence-for-luminosity-evolution-in-supernova-cosmology&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv191204903K/abstract&quot;&gt;Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology&lt;/a&gt;&lt;/h3&gt;
+
+&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
+
+&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/astro-ph/Kang2019.png&quot; alt=&quot;Luminosity evolution of SNe Ia can mimic dark energy&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+
+&lt;dd&gt;Luminosity evolution of SNe Ia can mimic dark energy&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Supernovae Cosmology (Riess, Perlmutter, Schmidt) has a fundamental assumption: the absolute magnitude of SNe Ia after standardization doesn’t evolve with time. They compared nearby SNe Ia in late- and early-type galaxies, concluded no significant differences. However, recent observations have found the dependence of standardized luminosity on other factors: SN Ia is 1) brighter in ETG; 2) brighter in more massive galaxies; 3) fainter in high SFR region. However, how does these factors (SFR, mass, morphology) directly affect the progenitor of SNe Ia? We don’t know.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The authors proposed that &lt;strong&gt;stellar age&lt;/strong&gt; and &lt;strong&gt;metallicity&lt;/strong&gt; are the direct factors of the luminosity variation. The dependence on mass, SFR, morphology can be attributed to age and metallicity. Hence they studied ~50 ETGs, derived their stellar ages and metallicities, concluded that &lt;strong&gt;SNe Ia in galaxies with older stellar population is brighter&lt;/strong&gt;. The correlation is significant.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why do we need dark energy? Because we have found that the luminosity of SNe Ia at high-z is fainter than expected, so we need dark energy to dilute the light and increase the distance. However, if SN Ia in young ETG (which is at high-z) is intrinsically fainter, then we don’t need dark energy any more. In Figure 16, they showed that the (reported) luminosity evolution of SNe Ia can mimic dark energy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;planck-evidence-for-a-closed-universe-and-a-possible-crisis-for-cosmology&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0906-9&quot;&gt;Planck evidence for a closed Universe and a possible crisis for cosmology&lt;/a&gt;&lt;/h3&gt;
+</description>
+        <pubDate>Tue, 14 Jan 2020 20:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2020/01/astro-ph-2020</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/01/astro-ph-2020</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>astro-ph Reading in 2019</title>
+        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aasnova.org&quot;&gt;AAS-Nova&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;december-2019&quot;&gt;December 2019&lt;/h2&gt;
+
+&lt;h3 id=&quot;luiss-tips-on-writing-paper&quot;&gt;Luis’s tips on writing paper&lt;/h3&gt;
+
+&lt;p&gt;I am so tired of correcting grammatical and typographical mistakes that I will write a memo.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proper use of $\sim$ vs. $\approx$.  The former is used when referring to an approximate value of a number, but in a sentence when it is not preceded by a variable, as in “by a factor of $\sim 2$”. The latter is used when the value is preceded by a variable, as in “scale of $r \approx 2$”. Never use “$r \sim 2$”. Similarly, the following syntax is wrong, and looks silly: “redshift “redshift $2 \sim 3$”. It should be “redshift $\sim 2-3$”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There should be a space between a value and its units, such as $1\,\sigma$    $10\, M_\odot$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use exponential notation, as in km~s$^{-1}$ instead of km/s&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All negative signs should be in mathmode, $-$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t use negative angles for position angles; for the equivalent positive angle, add 180 degrees&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;for fractional values of arcseconds, use 2\farcs5 instead of 2.5\arcsec&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“e.g.” is usually followed by a comma&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;except in extraordinary circumstances, citations should be listed according to year of publication, in alphanumerical order.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Understand notation for specifying ionization states of ions.  It is H II, not HII; H I, not HII; H_2, not H2; [C II], not [CII].&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The word “data” is plural.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“these data, which are perfect”; “these data that went into the analysis”. Note the placement of comma before “which”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“rather than” is not proper English; should be “instead of”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Space satellites should be give in italics, as in {\it Spitzer}.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Subscripts with single letter should be in italics, as in r_e, except when it refers to a proper noun, as in r_E, where E may refer to Eddington, or to a bandpass, such as m_B, A_V, etc. Subscripts with more one letter should be in Roman fonts, as in r_{\rm eff}.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Proper align the columns in your tables&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All fonts used in figure labels should be identical to those used in the main text. Same applies to tables.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;logX should be log X&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is much easier to refer to multiple panel figures when they are labelled with (a), (b), etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;References to papers on Astroph should be accompanied by a full reference if available, as in  xxxx, et al. (2019), ApJ, in press (arXiv: &lt;a href=&quot;xxx.xxx&quot;&gt;xxx.xxx&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do not list the bloody DOI numbers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I hate the biblio feature, because half the time I cannot compile it on my MAC. It also makes the text manuscript horrible to read, because I have no idea what the encrypted reference refers to. But I will not insist on this. I just don’t understand why on Earth anyone thinks it’s a good idea.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run spell check. Proof read. If still not sure, ask someone to help you. Then proof read again. My time is too valuable to be your secretary.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I can go on and on, but I’ll stop for now. Please pay attention to these details in your manuscripts.  Since at any one time I have 5-10 manuscripts in my inbox, my response time will be significantly slower if I am annoyed by what you send me.&lt;/p&gt;
+
+&lt;p&gt;Luis&lt;/p&gt;
+
+&lt;h3 id=&quot;forecasting-principles-and-practice&quot;&gt;&lt;a href=&quot;https://otexts.com/fpp2/&quot;&gt;Forecasting: Principles and Practice&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;reproducible-scienceresearch&quot;&gt;&lt;a href=&quot;http://www.akhlaghi.org/reproducible-science.html&quot;&gt;Reproducible science/research&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Some good points here: You hear this statement a lot from many scientists: “software is not my specialty, I am not a software engineer, so the quality of my code/processing doesn’t matter. Why should I master good coding style (or release my code), when I am hired to do Astronomy/Biology?”. This is akin to a French scientist saying that “English is not my language, I am not Shakespeare. So the quality of my English writing doesn’t matter. Why should I master good English style, when I am hired to do Astronomy/Biology?”&lt;/p&gt;
+
+&lt;h3 id=&quot;estimating-sky-level&quot;&gt;&lt;a href=&quot;https://iopscience.iop.org/article/10.1088/1538-3873/aac4ed/pdf&quot;&gt;Estimating Sky Level&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;noisechisel-noise-based-detection-and-segmentation-of-nebulous-objects-&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1505.01664.pdf&quot;&gt;NoiseChisel: NOISE-BASED DETECTION AND SEGMENTATION OF NEBULOUS OBJECTS &lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;gravitational-wave-step-by-step&quot;&gt;&lt;a href=&quot;https://www.gw-openscience.org/tutorials/&quot;&gt;Gravitational Wave step-by-step&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;topcat-and-how-to-use-it-for-gaia&quot;&gt;&lt;a href=&quot;https://www.cosmos.esa.int/documents/915837/915858/tcgaia_esac.pdf&quot;&gt;TOPCAT and how to use it for Gaia&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;hybrid-physical-deep-learning-model-for-astronomical-inverse-problems&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1912.03980&quot;&gt;Hybrid Physical-Deep Learning Model for Astronomical Inverse Problems&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;111119---111719&quot;&gt;11/11/19 - 11/17/19&lt;/h2&gt;
+
+&lt;h3 id=&quot;learning-to-speak-fluently-in-a-foreign-language-multilingual-speech-synthesis-and-cross-language-voice-cloning&quot;&gt;&lt;a href=&quot;https://google.github.io/tacotron/publications/multilingual/index.html&quot;&gt;Learning to speak fluently in a foreign language: Multilingual speech synthesis and cross-language voice cloning&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;desc-lsst-school&quot;&gt;&lt;a href=&quot;https://lsstdesc.org/pages/DESchool.html&quot;&gt;DESC LSST school&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Double slit experiment using quasar?? http://news.mit.edu/2017/loophole-bells-inequality-starlight-0207, http://news.mit.edu/2018/light-ancient-quasars-helps-confirm-quantum-entanglement-0820&lt;/p&gt;
+
+&lt;p&gt;文献计量：https://bibliometric.com/results.html&lt;/p&gt;
+
+&lt;p&gt;Web of science: https://apps.webofknowledge.com/?Init=Yes&amp;amp;SrcApp=CR&amp;amp;SID=6Fd8SyBh3A3wR4zYh87&lt;/p&gt;
+
+&lt;h2 id=&quot;110419---111119&quot;&gt;11/04/19 - 11/11/19&lt;/h2&gt;
+&lt;h3 id=&quot;astro2020-science-white-paper-empirically-constraining-galaxy-evolution&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.125B/abstract&quot;&gt;Astro2020 Science White Paper: Empirically Constraining Galaxy Evolution&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Proposed by Peter Behroozi. Empirical relations are very important in understanding galaxy formation and evolution, by combining simulation and observations. Empirical relations can be applied in simulating mock catalogs (for survey designs) and provide feedback of simulations.&lt;/li&gt;
+  &lt;li&gt;Empirical relations of galaxy - halo connection is well-established. However, more empirical relations can be done in multiple areas: how galaxy star formation history, morphology, gas content, SMBH mass, SNe/GRB/FRB rate depend on basic properties of galaxy/halo/environment/redshift.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;astro2020-science-white-paper-the-local-relics-of-of-supermassive-black-hole-seeds&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019BAAS...51c..83G/abstract&quot;&gt;Astro2020 Science White Paper: The Local Relics of of Supermassive Black Hole Seeds&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Proposed by Jenny Greene. We have discovered stellar-mass BH, SMBH, but no solid evidence of intermediate-mass BH has been found. LIGO contributes to our understanding of BH mass function. But now, how high-z massive quasar formed? Where is IMBH? We don’t know. But with next-generation ground-based telescope, we will be able to tackle this problem. IMBH is expected to be residing in GCs and dwarf galaxies (low-mass, pristine of BH seeds). However, recoil effect could blow out IMBHs out of GC.&lt;/li&gt;
+  &lt;li&gt;Astrometrical approach: observe stars in a GC, determine the astrometry motion of each star and diagnose potential IMBHs. This requires better than 10 mas astrometry precision, which could be achieved by 30-m telescopes with the help of adaptive-optics.&lt;/li&gt;
+  &lt;li&gt;IFU approach: it’s possible to observe the velocity dispersion around IMBH using IFU mounted on 30-m telescopes. This requires 15 - 20 km/s resolution (R=8000) in spectroscopy to detect 10000 solar mass BHs.&lt;/li&gt;
+  &lt;li&gt;On the other side, synergy among 30-m telescopes and next-generation GW detectors (LISA) making the detection of IMBH more possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;planck-evidence-for-a-closed-universe-and-a-possible-crisis-for-cosmology&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0906-9&quot;&gt;Planck evidence for a closed Universe and a possible crisis for cosmology&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;broadband-intensity-tomography-spectral-tagging-of-the-cosmic-uv-background&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019ApJ...877..150C/abstract&quot;&gt;Broadband Intensity Tomography: Spectral Tagging of the Cosmic UV Background&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-sloan-digital-sky-survey-extended-point-spread-functions&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1911.01430&quot;&gt;The Sloan Digital Sky Survey extended Point Spread Functions&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h2 id=&quot;101419---102019&quot;&gt;10/14/19 - 10/20/19&lt;/h2&gt;
 &lt;h3 id=&quot;milgrom-mond-vs-dark-matter-in-light-of-historical-parallels&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/1910.04368&quot;&gt;Milgrom: MOND vs. dark matter in light of historical parallels&lt;/a&gt;&lt;/h3&gt;
@@ -446,7 +624,7 @@
 
 &lt;h3 id=&quot;low-mass-black-holes-as-the-remnants-of-primordial-black-hole-formation&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/ncomms2314&quot;&gt;Low-mass black holes as the remnants of primordial black hole formation&lt;/a&gt;&lt;/h3&gt;
 
-&lt;h3 id=&quot;astro2020-science-white-paper-the-local-relics-of-of-supermassive-black-hole-seeds&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1903.08670.pdf&quot;&gt;Astro2020 Science White Paper: The Local Relics of of Supermassive Black Hole Seeds&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;astro2020-science-white-paper-the-local-relics-of-of-supermassive-black-hole-seeds-1&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1903.08670.pdf&quot;&gt;Astro2020 Science White Paper: The Local Relics of of Supermassive Black Hole Seeds&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;We have detected supermassive BHs and stellar-mass BHs. We found a SMBH with &lt;script type=&quot;math/tex&quot;&gt;M&gt;10^9 M_\odot&lt;/script&gt; at &lt;script type=&quot;math/tex&quot;&gt;z&gt;7&lt;/script&gt;. But we know nothing about how they form. The intermediate-mass BHs (&lt;script type=&quot;math/tex&quot;&gt;100 - 10^5\ M_\odot&lt;/script&gt;) could serve as seeds for the formation of SMBH. We didn’t find any IMBH so far.&lt;/p&gt;
@@ -896,59 +1074,9 @@
 
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Oct 2019 08:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/10/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/10/astro-ph-2019</guid>
-        
-        
-        <category>paper</category>
-        
-      </item>
-    
-      <item>
-        <title>Distance Measurements in Astrophysics</title>
-        <description>&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/ewpeng/PKUdistances19&quot;&gt;Course Homepage of Eric&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;lecture-1-introduction&quot;&gt;Lecture 1: Introduction&lt;/h1&gt;
-
-&lt;p&gt;Precise: small scatter, but may not correct
-Accurate: Correct, but may with large scatter&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How to measure the distance to the sun?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Everything involved in the distance measurement is based on the astronomical unit AU.&lt;/p&gt;
-
-&lt;p&gt;Benchmark: the distance to the galactic center $R_0$&lt;/p&gt;
-
-&lt;p&gt;Dust attenuation must be considered in the distance measurement.&lt;/p&gt;
-
-&lt;p&gt;Period-Luminosity relation of Cepheids: Cepheids have different kinds (Population I and II)&lt;/p&gt;
-
-&lt;p&gt;Water vapor maser frequency: 22 GHz. Maser sources are often around AGB stars. We can measure the motion of maser spots around the galactic center. This gives us the distances to galactic center using geometric method. Masers are around the AGB stars, with expansion.&lt;/p&gt;
-
-&lt;p&gt;R0=8.0 kpc. (IAU recommended)&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 23 Sep 2019 04:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/09/DistanceMeasurement</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/09/DistanceMeasurement</guid>
-        
-        
-        <category>paper</category>
-        
-      </item>
-    
-      <item>
-        <title>English Readings</title>
-        <description>&lt;p&gt;Feel very ashamed for the decadence in the past year 2018. I will try to read as many paper as possible and do my best in 2019.&lt;/p&gt;
-
-&lt;h3 id=&quot;new-yorker-the-family-that-built-an-empire-of-pain&quot;&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2017/10/30/the-family-that-built-an-empire-of-pain?source=EDT_NYR_EDIT_NEWSLETTER_0_imagenewsletter_Daily_ZZ&amp;amp;utm_campaign=aud-dev&amp;amp;utm_source=nl&amp;amp;utm_brand=tny&amp;amp;utm_mailing=TNY_Daily_082819&amp;amp;utm_medium=email&amp;amp;bxid=5d65da0920122e62d838f975&amp;amp;cndid=&amp;amp;esrc=&amp;amp;mbid=&amp;amp;utm_term=TNY_Daily&quot;&gt;New Yorker: The family that built an empire of pain&lt;/a&gt;&lt;/h3&gt;
-</description>
-        <pubDate>Fri, 02 Aug 2019 04:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/08/english-reading</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/08/english-reading</guid>
+        <pubDate>Sat, 21 Dec 2019 20:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2019/12/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -1274,6 +1402,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;savefig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'xxx.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bbox_inches&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'tight'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Save without empty margin
 # If you find your figure too large, pass `rasterized=True` to `plt.savefig()`.
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://akuederle.com/matplotlib-zoomed-up-inset&quot;&gt;How to create a zoom-in inset in a figure?&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;useful-python-packages-in-astrophysics&quot;&gt;Useful Python packages in astrophysics:&lt;/h1&gt;
 
@@ -4062,6 +4192,84 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
         
         
         <category>paper</category>
+        
+      </item>
+    
+      <item>
+        <title>Writing</title>
+        <description>&lt;h1 id=&quot;essays-and-articles&quot;&gt;Essays and Articles&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inference-review.com/letter/an-ode-to-ugly-physics&quot;&gt;An Ode to Ugly Physics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/pdf/1758976.pdf&quot;&gt;A Plea for Pure Science&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;latex-templates&quot;&gt;LaTex templates&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://journals.aas.org/aastex-package-for-manuscript-preparation/&quot;&gt;AASTeX&lt;/a&gt;: templates for ApJ, ApJL and ApJS. Note that ApJL has a limitation for the number of figures. Check the overleaf version here: &lt;a href=&quot;https://www.overleaf.com/latex/templates/aastex-template-for-submissions-to-the-astrophysical-journal/bpkjwktvsqwp&quot;&gt;AASTeX Template for submissions to AAS Journals &lt;/a&gt;. Personally I prefer AAS templates than MNRAS one.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/latex/templates/monthly-notices-of-the-royal-astronomical-society-mnras-latex-template-and-guide-for-authors/kqnjzrwjwjth&quot;&gt;MNRAS&lt;/a&gt;: template for MNRAS. Alexie likes this template.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Curriculum Vitae: I recommend this &lt;a href=&quot;https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm&quot;&gt;template&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Template for book: I highly recommend &lt;a href=&quot;https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc&quot;&gt;Legrand Orange Book Template&lt;/a&gt;. I wrote a book using this template for the astronomy olympiad training last year.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Chinese templates, check &lt;a href=&quot;http://www.latexstudio.net&quot;&gt;LaTex开源小屋&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;LaTeX is also very convenient for taking notes on physics classes. Check my notes on Statistical Physics &lt;a href=&quot;https://astrojacobli.github.io/Docs/LaTeX/NotesTemplate.zip&quot;&gt;here&lt;/a&gt;. (You can compile the &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file succesfully by putting &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt; in the same folder.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;books-on-writing&quot;&gt;Books on writing&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP8: Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;toefl&quot;&gt;TOEFL&lt;/h1&gt;
+
+&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
+&lt;p&gt;Foul, obstruct, accord, immutable, Sturdy, impel, compel, copious, consensual, consent, edifice, groom, infest, nomad, unprecedented, notorious, sheer.&lt;/p&gt;
+
+&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
+&lt;p&gt;Pavilion, Ductile, epidemic, haunt, spontaneous, instantaneous, simultaneous, paddle, pedal, petal, sepal, puddle, venom, aliment, ailment, lush, fourish, malnourish, assimilate, congest, converse, corrosive gas, credential, credible, detergent, evacuation, engrave imprint, lament(悲叹)/mourn/eulogy, Substantiate, allegiance, carp (鲤鱼), catfish (鲶鱼), goldfish, salmon (鲑鱼，三文鱼), tuna (金枪鱼), sardines (沙丁鱼), cod (鳕鱼), Cornerstone, Crow, seagull, ogle, eagle, finch, woodpecker, Fire extinguisher, evacuation map, grout, Eligible, Impromptu music, Inconspicuous, Palate, soft palate/velar consonant, pinnipeds, seal, sea lion, walrus, nerve sheath tumor, tenant, landlord, tenement/slum, avenue, boulevard, Eliminate, diminish, vanish, irritated, chronic, exasperated/irritated.&lt;/p&gt;
+
+&lt;h2 id=&quot;day3&quot;&gt;Day3&lt;/h2&gt;
+&lt;p&gt;adorn/ornament/varnish/furbish, debris, entitle, gospel, hamper/hinder/obscure/obstacle/stunt/thwart, sewage/drain/sewerage/drainage/ooze/silt/clog/receptacle, laureate/eminent/eminem/preeminent/prominent/distinguished, reckless/crude oil, piano recital/soprano/alto/tenor/baritone, treadmill/scuba/avalanche, scramble/crawl/creep, listless, thorn/throne, auction/patent/petition, complacence/amenity, concord/harmonious/congruous/congruity/incongruity/incompatible, trepidation/intrepid, wither/wilt.&lt;/p&gt;
+
+&lt;p&gt;delicatessen, dairy, pasture (is the sub-unit of a ranch), ranch, meadow, hen house, hive, bovine, cowshed, enclosure, fodder corn, silo, barn, graze, fallow.&lt;/p&gt;
+
+&lt;p&gt;Enoki/oyster/shiitake/cultivated mushroom, truffle, wood ear, kelp, seaweed, nori, scallion, leeks, celery cabbage, bulb, rib, bundle, as’paragus, fiddlehead fern, spear.&lt;/p&gt;
+
+&lt;p&gt;Yuletide, nativity of Jesus, feast宗教节日, winter solstice, carols圣诞颂歌，&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 Dec 2018 22:40:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2018/12/Writing</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
+        
+        
+        <category>Astrophysics</category>
         
       </item>
     

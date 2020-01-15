@@ -3,24 +3,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/10/astro-ph-2019</loc>
+      <loc>http://localhost:4000/blog/2020/01/astro-ph-2020</loc>
       
-        <lastmod>2019-10-11T08:00:00+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/blog/2019/09/DistanceMeasurement</loc>
-      
-        <lastmod>2019-09-23T04:00:00+08:00</lastmod>
+        <lastmod>2020-01-14T20:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -33,9 +18,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/08/english-reading</loc>
+      <loc>http://localhost:4000/blog/2019/12/astro-ph-2019</loc>
       
-        <lastmod>2019-08-02T04:00:00+08:00</lastmod>
+        <lastmod>2019-12-21T20:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -336,7 +321,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -351,7 +336,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/art/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -366,7 +351,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -381,7 +366,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/cooking/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -396,7 +381,7 @@
     <url>
       <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -411,7 +396,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -426,7 +411,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -441,7 +426,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/links/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -456,7 +441,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/links/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -471,7 +456,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -486,7 +471,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -501,7 +486,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/photography/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -516,7 +501,7 @@
     <url>
       <loc>http://localhost:4000/research/</loc>
       
-        <lastmod>2019-11-01T19:56:10+08:00</lastmod>
+        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
