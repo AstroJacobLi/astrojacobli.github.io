@@ -4,7 +4,6 @@ title: Miscellany
 permalink: /miscellany/
 ---
 <center><div style='font-family: "Apple LiSung Light"'><font size="5">隐约雷鸣，阴霾天空，但盼风雨来，能留你来此</font></div></center>
-
 <br>
 
 In my homepage, you can find more things than my research. I'm a big fan of any kinds of music, from Indian traditional tabla and sitar to Chopin and Rachmaninoff. Mordern poetry, painting and photography also fascinate me. Let's enjoy <a href="https://astrojacobli.github.io//miscellany/art/"><strong>Art</strong></a> together!
