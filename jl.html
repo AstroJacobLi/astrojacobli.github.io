@@ -1,0 +1,998 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}</style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/index.css?_v=20200201" rel="stylesheet" type="text/css">
+	<link href="css/inner.css?_v=20200201" rel="stylesheet" type="text/css">
+	<link href="css/amazeui.datetimepicker.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/message.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.easing-1.3.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/html5.js" type="text/javascript"></script>
+		<script src="js/response.min.js"></script>
+	<![endif]-->
+	<script src="js/qrcode.js"></script>
+	<script src="js/exif.js"></script>
+	<script src="js/echarts.min.js"></script>
+	<!--  <script src='js/macarons.js'></script>-->
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.min.js"></script>
+	<script src="js/amazeui.datetimepicker.js" type="text/javascript"></script>
+	<script src="js/message.js"></script>
+    <script src="application.js?_v=20200201" type="text/javascript"></script>
+	<script src="router.js?_v=20200201"></script>
+    <script src="app/controller/IndexController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/CadreApntNoticeDetailController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/CadreApntNoticesController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/DeptNoticeDetailController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/DeptNoticesController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/SchoolNoticeDetailController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/oa/SchoolNoticesController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/BasicInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/MyPageController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/SettingController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/SettingChkCodeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/ModPWDChkCodeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/ModPWDController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/BindPhoneController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/BindWechatController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/user/ChangePhotoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/ChangePhotoChkCodeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/SettingDefaultController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/OtpBindController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/OtpAuthenController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/MySignatureController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/UploadSignatureController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/MyIdentitiesController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/user/ReqIDCompleteController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/BizCenterController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/BizCenterAllController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/baseInfo/BaseInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/courseTable/CourseTableController.js?_v=20200201" type="text/javascript"></script>
+  
+  
+    <!-- 交费   --> 
+    <script src="app/controller/bizCenter/biz/heating/heatingPersonal.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/controller/bizCenter/biz/heating/heating.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/heating/inquiry.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/heating/heatingMessageNone.js?_v=20200201" type="text/javascript"></script> 
+    
+    <script src="app/controller/bizCenter/biz/jwbStuBiz/JwbStuBizController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/xgbStuBiz/XgbStuBizController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/jyzxStuBiz/JyzxStuBizController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/yjsyStuBiz/YjsyStuBizController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/labEquip/LabEquipController.js?_v=20200201" type="text/javascript"></script>
+   <script src="app/controller/bizCenter/biz/deptInfo/DeptInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/deptInfo/DeptDetailController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/myScore/MyScoreController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/StuBoardChkCodeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/StuBoardController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/DataSetController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/DataItemController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/DataSetEmptyController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuBoard/CardFlowController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/StuDSPController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/StuBoardController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/DataSetController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/DataItemController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/DataSetEmptyController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/SameRoomStuController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/SameClassStuController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuDSP/StuTeacherController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/leaderReport/LeaderReportController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/deptReport/DeptReportController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/postRecruit/PostRecruitController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/courseTableQuery/CourseTableQueryController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/courseIntro/CourseIntroController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/tutorIntro/TutorIntroController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/personQuery/PersonQueryController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/personQuery/PersonDetailController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/abroadBiz/AbroadBizController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/abroadBiz/PassportEditController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/officeTel/DeptInfoController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/officeTel/OfficeTelController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/abroadBiz/AbroadEditController.js?_v=20200201" type="text/javascript"></script>
+    
+   
+    <script src="app/controller/bizCenter/biz/cadreContact/CadreContactController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/myLink/AddNewLinkController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/myLink/EditLinkController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/income/IncomeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataItemList/DataSubjectChkCodeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataItemList/DataSubjectController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataItemList/DataSetController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataItemList/DataItemController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataPark/DataParkChkCodeController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/dataPark/DormStatController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataPark/DormDeptInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataPark/DormBuildingInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/dataPark/SciProjStatController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/presidentWP/PresidentWPController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/presidentWP/XsgmkzController.js?_v=20200201" type="text/javascript"></script>
+    
+    
+    <script src="app/controller/bizCenter/biz/warningInfo/WarningInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/UgStatusWarningController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/UgSchoolTop100Controller.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/UgDeptTop10Controller.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/FailCourseInfoController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/DropoutNumController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/DropoutWarningController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/warningInfo/DropoutNoticeController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/universityRank/RankEsiController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankArwuController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankBcurController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankTheController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankQsController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankNiController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/RankUsNewsController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/PkuRankController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/PkuTsinghuaRankController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/compare/RankArwuController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/compare/RankQsController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/compare/RankTheController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/universityRank/compare/RankUsNewsController.js?_v=20200201" type="text/javascript"></script>
+    
+    
+    <script src="app/controller/bizCenter/biz/transferMajor/TransferMajorController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/transferMajor/TransferMajorByYearController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/transferMajor/TransferMajorTrendController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/stuPartyMember/StuPartyMemberController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/stuPartyMember/FacultyPartyMemberController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/stuPartyMember/TeacherPartyMemberController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/stuPartyMember/OrganizationController.js?_v=20200201" type="text/javascript"></script>
+    
+    
+    <script src="app/controller/bizCenter/biz/avgScore/AvgSchoolTop100Controller.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/avgScore/AvgDeptTop10Controller.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/counselorTeam/CounselorTeamController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/szkTeacher/SzkTeacherController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/poorStuGrant/PoorStuGrantController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/certificate/GraduateCertificatePictureController.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/controller/bizCenter/biz/certificate/UnderGraduateCertificatePictureController.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/controller/bizCenter/biz/facultyData/FacultyBoardController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyData/DataSetController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyData/DataItemController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyData/DataSetEmptyController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyData/CardFlowController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyDSP/FacultyDSPController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyDSP/FacultyBoardController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyDSP/DataSetController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyDSP/DataItemController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/facultyDSP/DataSetEmptyController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/userLog/UserLogController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/xxgk/XxgkJbsjController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/mobileAdmin/MobileStatController.js?_v=20200201" type="text/javascript"></script>
+   	<script src="app/controller/bizCenter/biz/mobileAdmin/WechatStatController.js?_v=20200201" type="text/javascript"></script>
+   	
+   	<script src="app/controller/bizCenter/biz/search/SearchController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/publicHouse/PublicHouseController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/publicHouse/PublicLandController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/equipmentStat/LabStatController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/equipmentStat/EquipStatController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/localization/LocalizationByUidController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/localization/LocalizationBySiteController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/localization/LocalizationByIpController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/teacherStats/TeacherStatsController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/controller/bizCenter/biz/studentStats/StudentStatsController.js?_v=20200201" type="text/javascript"></script>
+    
+    <script src="app/controller/bizCenter/biz/fileTrans/FileTransController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/bizCenter/biz/health/HealthRecordController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/bizCenter/biz/health/HealthListController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/bizCenter/biz/todo/MyTodoController.js?_v=20200201" type="text/javascript"></script>
+ 	
+ 	<script src="app/controller/bizCenter/biz/electiveStat/ElectiveRsStatController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/bizCenter/biz/electiveStat/ElectiveTzStatController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/bizCenter/biz/electiveStat/ElectiveKsStatController.js?_v=20200201" type="text/javascript"></script>
+ 	
+ 	
+ 	<script src="app/controller/bizCenter/biz/netstats/NetstatsController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/pub/freeClassroom/FreeClassroomController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/pub/parkinglot/ParkinglotController.js?_v=20200201" type="text/javascript"></script>
+ 	<script src="app/controller/pub/life/LifeController.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/headerLoginDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/headerDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/iconDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/icon4EditDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/icon4EditMyLinkDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/footerDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/gotoTopDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/goBackDirect.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/direct/introTitImgDirect.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/direct/tableCellDirect.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/direct/datetimepickerDirect.js?_v=20200201" type="text/javascript"></script> 
+    <script src="direct.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/service/NoticeService.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/service/AccountService.js?_v=20200201" type="text/javascript"></script> 
+    <script src="app/service/StuDSPService.js?_v=20200201" type="text/javascript"></script>
+    <script src="app/service/FacultyDSPService.js?_v=20200201" type="text/javascript"></script>
+    <script src="service.js?_v=20200201" type="text/javascript"></script>
+    <script src="MainCtrl.js?_v=20200201" type="text/javascript"></script>
+	<title>北京大学校内信息门户</title>
+</head>
+<body class="ng-app:portal ng-scope" ng-app="portal" ng-controller="mainController" id="ng-app" data-gr-c-s-loaded="true">
+	<!-- ngView:  --><div style="min-height:556px;" ng-view="" class="ng-scope"><header ng-show="accessFromApp!=='是'" class="header" ng-init="load()" headerlogintpl="">
+	<section>
+		<div class="topLine"></div>
+		<section class="subNav">
+			<section class="ssubNav">
+	        	<ul class="subNavLeft">
+	            	<li><a href="javascript:void(0)" ng-click="logout()" class="ng-binding">李嘉轩 [退出]</a></li>
+	            </ul>
+				<ul class="subNavRight">
+	                <li><a href="/portal2017/#/pub/life" target="_blank" title="校园指数"><img src="./img/biz-icon-life-w.png" style="width:16px;padding-bottom:2px;vertical-align:middle;"></a></li>
+	             	<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=web" target="_blank">网络</a></li>
+	            	<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=mail" target="_blank">邮箱</a></li>
+	                <li style="padding-right:0px;"><a style="padding-right:0px;" href="https://its.pku.edu.cn/download.jsp" target="_blank">客户端</a></li>
+				</ul>
+	        </section>
+			<section class="mainWrap mainWrap02 noline">
+	        	<ul class="subNavLeft">
+	            	<li><a href="javascript:void(0)" ng-click="logout()" style="padding-left:0px;" class="ng-binding">李嘉轩 [退出]</a></li>
+	            </ul>
+				<ul class="subNavRight">
+	            	<li><a href="/portal2017/#/pub/life" target="_blank" title="校园指数"><img src="./img/biz-icon-life-w.png" style="width:16px;padding-bottom:2px;vertical-align:middle;"></a></li>
+	               	<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=web" target="_blank">网络</a></li>
+	            	<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=mail" target="_blank">邮箱</a></li>
+	                <li style="padding-right:0px;"><a style="padding-right:0px;" href="https://its.pku.edu.cn/download.jsp" target="_blank">客户端</a></li>
+				</ul>
+			</section>
+			<section class="clearfix"></section>
+			<!-- for mobile [begin] -->
+			<section id="mobileNav" class="onlymobileshow clearfix" style="">
+	    		<div style="background-color:#fff;clear:both;padding-bottom:7px;padding-left:20px;line-height:30px;font-size:16px; color:#000;">
+	    			<ul>
+	                	<li><a href="/portal2017/#/pub/life" target="_blank" title="校园指数"><img src="./img/biz-icon-life-w.png" style="width:16px;padding-bottom:2px;vertical-align:middle;"></a></li>
+						<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=web" target="_blank">网络</a></li>
+	                	<li><a href="/portal2017/bizcenter/its/redirectToITS.do?modId=mail" target="_blank">邮箱</a></li>
+	                    <li><a href="https://its.pku.edu.cn/download.jsp" target="_blank">客户端</a></li>
+	    			</ul>
+	    		</div>
+			</section>
+			<!--  for mobile [end] -->
+		</section>
+		<section class="topWrap clearfix" style="background-image: url(&quot;https://portal.pku.edu.cn/portal2017/img/img_xnmh16.gif&quot;);">
+			<section class="mainWrap">
+	        	<span class="logo">
+	            	<a href="http://www.pku.edu.cn/" title="北京大学"><img src="img/pkulogo_white.png"></a>
+	                <a class="sub_logo" ng-href="#/index" title="校内信息门户首页" href="#/index">校内信息门户</a>
+	            </span>
+	        </section>
+	        <section class="nav yahei clearfix noMobileShow" style="clear:both;">
+				<div class="mobileShowCenter">
+					<ul class="navUl" id="nav">
+	            		<li class="navLi"><a class="navA current" id="bizCenter" ng-href="#/bizCenter" href="#/bizCenter">信息服务</a></li>
+	                	<li class="navLi"><a class="navA" id="indexLogin" ng-href="#/index" href="#/index">校内公告</a></li>
+	               		<li class="navLi"><a class="navA" id="process" ng-href="/portal2017/util/appSysRedir.do?appId=process" target="_new" href="/portal2017/util/appSysRedir.do?appId=process">办事大厅</a></li>
+	                	<li class="navLi"><a class="navA" id="myPage" ng-href="#/myPage" href="#/myPage">我的门户</a></li>
+					</ul> 
+				</div>
+				
+			</section>
+		</section>
+	</section>
+</header>
+<div class="main-body ng-scope">
+	<div class="content">
+    	<div class="col_lg_10 top"></div>
+      	<div class="col_lg_10 col_md_10">
+        	<div class="mainContent">
+          		<div class="introTit clearfix" style="margin-bottom:0px;">
+            		<div class="introTitImg" ng-init="load()" introtitimgtpl="" style="background-image: url(&quot;https://portal.pku.edu.cn/portal2017/img/img_small2.jpg&quot;);"></div>
+            		<h2>我的成绩</h2>
+          			<div ng-show="accessFromApp !=='是'" goback="" class="">
+	<a class="h-btn" style="color:#8f000b;font-size:18px; float:right;" href="javascript:history.back();">&lt; 返回</a>
+</div>
+          		</div>
+          		<div class="article">
+          			<table class="no-border-table">
+					    <tbody><tr>
+					    	<td class="col_lg_3 col_md_5 ng-hide" ng-show="errorMsg==''&amp;&amp;xslb=='yjs'"><a href="javascript:void(0);" ng-click="getYjscjxx()"><span id="yjscjxx" style="color:#000000;font-size:17px;">研究生成绩</span></a></td>
+					    	<td class="col_lg_3 col_md_5" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'"><a href="javascript:void(0);" ng-click="getGPA()"><span id="gpa" style="color: rgb(0, 0, 0); font-size: 17px;">个人GPA</span></a></td>
+            				<td class="col_lg_3 col_md_5" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'&amp;&amp;bkscjxx.length>0" "=""><a href="javascript:void(0);" ng-click="getBkscjxx()"><span id="bkscjxx" style="color: rgb(143, 0, 11); font-size: 17px;">本科生成绩</span></a></td>
+            				<td class="col_lg_3 col_md_5 ng-hide" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'&amp;&amp;bksfscjxx.length>0"><a href="javascript:void(0);" ng-click="getBksfscjxx()"><span id="bksfscjxx" style="color:#000000;font-size:17px;">辅双成绩</span></a></td>
+            				<td class="col_lg_3 col_md_5 ng-hide" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'&amp;&amp;bkszjlcjxx.length>0"><a href="javascript:void(0);" ng-click="getBkszjlcjxx()"><span id="bkszjlcjxx" style="color:#000000;font-size:17px;">转交流成绩</span></a></td>
+            				<td class="col_lg_3 col_md_5 ng-hide" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'&amp;&amp;(bksbylwcjxx.sfybylw=='是')"><a href="javascript:void(0);" ng-click="getBksbylwcjxx()"><span id="bksbylwcjxx" style="color:#000000;font-size:17px;">毕业论文</span></a></td>
+            				<td class="col_lg_3 col_md_5" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'"><a ng-href="/portal2017/bizcenter/sgims/redirectToSGIMS.do?urlRoot=bkxjTeaching&amp;modId=bkxjDydzclBKS" target="_blank" href="/portal2017/bizcenter/sgims/redirectToSGIMS.do?urlRoot=bkxjTeaching&amp;modId=bkxjDydzclBKS"><span id="bkscjxx" style="color:#000000;font-size:17px;">电子成绩单</span></a></td>
+          					<td class="col_lg_3 col_md_5" ng-show="errorMsg==''&amp;&amp;xslb!=='yjs'"><a ng-href="https://www.chsi.com.cn/cjdyz/index" target="_new" href="https://www.chsi.com.cn/cjdyz/index"><span id="bkscjxx" style="color:#000000;font-size:17px;">学信网验真</span></a></td>
+          				</tr>
+          				<tr><td class="split"><hr class="pku-grey-hr"></td></tr>
+          			</tbody></table>
+          			<table ng-show="errorMsg!==''" class="no-border-table black ng-hide" style="font-size:16px;">
+              			<tbody><tr><td width="80" class="center"><i class="fa fa-3x fa-info-circle pku-green"></i></td><td><span style="font-size:18px;" class="ng-binding"></span></td></tr>
+            		</tbody></table>
+          			<table ng-show="showYjscjxx==true" class="row-border-table ng-hide">
+	          			<tbody>
+	          				<tr>
+	          					<th>课程</th>
+	          					<th class="hide-m">类别</th>
+	          					<th>学分</th>
+					           	<th>成绩</th>
+					           	<th>合格</th>
+	          				</tr>
+	          				<!-- ngRepeat: item in yjscjxx -->				
+	          			</tbody>
+	          		</table>
+	          		<div ng-show="xslb!=='yjs'" class="">
+	          			<div id="gpaDIV" style="display: none;">
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category">个人GPA</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<table class="no-border-table">
+		          				<tbody><tr><td class="col_lg_25 col_md_5 col_sm_5">
+									<span style="color:#000000;font-size:17px;" class="ng-binding">总修学分：</span>
+								</td><td class="col_lg_25 col_md_5 col_sm_5">
+									<span style="color:#000000;font-size:17px;" class="ng-binding">GPA：3.810</span>
+								</td></tr>
+		          			</tbody></table>
+		          			<div style="height:auto;" class="col_lg_10 col_md_10">
+				            	<div id="gpaInfo" style="height: 400px; width: 100%; -webkit-user-select: none; position: relative; background-color: transparent; background-position: initial initial; background-repeat: initial initial;" _echarts_instance_="ec_1581394162426"><div style="position: relative; overflow: hidden; width: 100px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas width="200" height="800" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 100px; height: 400px; -webkit-user-select: none; padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div></div></div>
+				            </div>
+	          			</div>
+	          			<!-- ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">19-20学年度1学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">经济学原理</td>
+			          					<td width="30%" class="hide-m ng-binding">Principles of Economics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">93</td>
+							           	<td class="center ng-binding">3.91</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天文技术与方法Ⅰ（光学与红外）</td>
+			          					<td width="30%" class="hide-m ng-binding">Astronomical Techniques and Methods I:Optical and Infrared</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">93.5</td>
+							           	<td class="center ng-binding">3.92</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">理论天体物理</td>
+			          					<td width="30%" class="hide-m ng-binding">Theoretical Astrophysics</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">88</td>
+							           	<td class="center ng-binding">3.73</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">毛泽东思想和中国特色社会主义理论体系概论</td>
+			          					<td width="30%" class="hide-m ng-binding">A Survey of Mao Tsetung Thoughts and Theory of Socialism with Chinese Characteristics</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">81</td>
+							           	<td class="center ng-binding">3.32</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">微分几何</td>
+			          					<td width="30%" class="hide-m ng-binding">Differential Geometry</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">89</td>
+							           	<td class="center ng-binding">3.77</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天体物理观测实验</td>
+			          					<td width="30%" class="hide-m ng-binding">Observational Experiments of Astrophysics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">90.5</td>
+							           	<td class="center ng-binding">3.83</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">击剑</td>
+			          					<td width="30%" class="hide-m ng-binding">Fencing</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">1</td>
+							           	<td class="center ng-binding">74</td>
+							           	<td class="center ng-binding">2.73</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天体物理前沿</td>
+			          					<td width="30%" class="hide-m ng-binding">Frontier of Astrophysics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">89</td>
+							           	<td class="center ng-binding">3.77</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天文测距导论</td>
+			          					<td width="30%" class="hide-m ng-binding">An Introduction to Distance Measurement in Astronomy</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">91</td>
+							           	<td class="center ng-binding">3.85</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">18-19学年度2学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">形势与政策</td>
+			          					<td width="30%" class="hide-m ng-binding">Events and Policies</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">1</td>
+							           	<td class="center ng-binding">84</td>
+							           	<td class="center ng-binding">3.52</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">广义相对论</td>
+			          					<td width="30%" class="hide-m ng-binding">General Relativity</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">84</td>
+							           	<td class="center ng-binding">3.52</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">教师指导下的独立研究</td>
+			          					<td width="30%" class="hide-m ng-binding">Supervised Independent Study</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">6</td>
+							           	<td class="center ng-binding">96</td>
+							           	<td class="center ng-binding">3.97</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">普通统计学</td>
+			          					<td width="30%" class="hide-m ng-binding">Statistics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">87</td>
+							           	<td class="center ng-binding">3.68</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天体光谱学</td>
+			          					<td width="30%" class="hide-m ng-binding">Astronomical Spectroscopy</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">96</td>
+							           	<td class="center ng-binding">3.97</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">西方音乐欣赏</td>
+			          					<td width="30%" class="hide-m ng-binding">The Enjoyment of Music</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">95</td>
+							           	<td class="center ng-binding">3.95</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">剑道</td>
+			          					<td width="30%" class="hide-m ng-binding">Kendo</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">1</td>
+							           	<td class="center ng-binding">82</td>
+							           	<td class="center ng-binding">3.39</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">英语公众演讲</td>
+			          					<td width="30%" class="hide-m ng-binding">English Public Speaking</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">91</td>
+							           	<td class="center ng-binding">3.85</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">大国崛起</td>
+			          					<td width="30%" class="hide-m ng-binding">Rise of the Great Powers</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">86</td>
+							           	<td class="center ng-binding">3.63</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">17-18学年度2学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天体物理讨论班</td>
+			          					<td width="30%" class="hide-m ng-binding">Seminar for  Astrphysics</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">95.5</td>
+							           	<td class="center ng-binding">3.96</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">天体物理</td>
+			          					<td width="30%" class="hide-m ng-binding">Astrophysics</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">95</td>
+							           	<td class="center ng-binding">3.95</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">电动力学 (A)</td>
+			          					<td width="30%" class="hide-m ng-binding">Electrodynamics (A)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">92</td>
+							           	<td class="center ng-binding">3.88</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">普通物理实验（2）</td>
+			          					<td width="30%" class="hide-m ng-binding">General Physics Lab (2)</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">97</td>
+							           	<td class="center ng-binding">3.98</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">物理宇宙学基础</td>
+			          					<td width="30%" class="hide-m ng-binding">Basics of Cosmological Physics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">97</td>
+							           	<td class="center ng-binding">3.98</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">数学物理方法专题</td>
+			          					<td width="30%" class="hide-m ng-binding">Special Topics of Methods of Mathematical Physics</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">98</td>
+							           	<td class="center ng-binding">3.99</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">思想道德修养与法律基础</td>
+			          					<td width="30%" class="hide-m ng-binding">An Introduction to Ideological &amp; Moral Culture and Laws</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">88</td>
+							           	<td class="center ng-binding">3.73</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">量子力学习题</td>
+			          					<td width="30%" class="hide-m ng-binding">Exercise of Quantum Mechanics</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">0</td>
+							           	<td class="center ng-binding">W</td>
+							           	<td class="center ng-binding"></td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">量子力学 (A)</td>
+			          					<td width="30%" class="hide-m ng-binding">Quantum Mechanics (A)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">W</td>
+							           	<td class="center ng-binding"></td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">17-18学年度1学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">光学</td>
+			          					<td width="30%" class="hide-m ng-binding">Optics</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">86</td>
+							           	<td class="center ng-binding">3.63</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">游泳</td>
+			          					<td width="30%" class="hide-m ng-binding">Swimming</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">1</td>
+							           	<td class="center ng-binding">84</td>
+							           	<td class="center ng-binding">3.52</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">数学物理方法 (下)</td>
+			          					<td width="30%" class="hide-m ng-binding">Methods of Mathematical Physics (2)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">94</td>
+							           	<td class="center ng-binding">3.93</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">平衡态统计物理</td>
+			          					<td width="30%" class="hide-m ng-binding">Equilibrium statistical physics</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">92</td>
+							           	<td class="center ng-binding">3.88</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">理论力学(A)</td>
+			          					<td width="30%" class="hide-m ng-binding">Theoretical Mechanics (A)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">92</td>
+							           	<td class="center ng-binding">3.88</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">普通物理实验（1）</td>
+			          					<td width="30%" class="hide-m ng-binding">General Physics Lab (1)</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">91</td>
+							           	<td class="center ng-binding">3.85</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">原子物理学</td>
+			          					<td width="30%" class="hide-m ng-binding">Atomic Physics</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">96</td>
+							           	<td class="center ng-binding">3.97</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">16-17学年度3学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">生命的逻辑</td>
+			          					<td width="30%" class="hide-m ng-binding">The logic of life</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">94</td>
+							           	<td class="center ng-binding">3.93</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">16-17学年度2学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">中国近现代史纲要</td>
+			          					<td width="30%" class="hide-m ng-binding">Outline of Chinese Modern History</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">92</td>
+							           	<td class="center ng-binding">3.88</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">高等代数II选讲</td>
+			          					<td width="30%" class="hide-m ng-binding">Selected Topics in Advanced Algebra II</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">96</td>
+							           	<td class="center ng-binding">3.97</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">自然科学中的混沌和分形</td>
+			          					<td width="30%" class="hide-m ng-binding">Chaos and Fractal in Natural Sciences</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">92.5</td>
+							           	<td class="center ng-binding">3.9</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">电磁学</td>
+			          					<td width="30%" class="hide-m ng-binding">Electromagnetism</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">88</td>
+							           	<td class="center ng-binding">3.73</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">数学物理方法 (上)</td>
+			          					<td width="30%" class="hide-m ng-binding">Methods of Mathematical Physics (1)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">94</td>
+							           	<td class="center ng-binding">3.93</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">高等数学 (B) (二)</td>
+			          					<td width="30%" class="hide-m ng-binding">Advanced Mathematics (B) (2)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">5</td>
+							           	<td class="center ng-binding">86</td>
+							           	<td class="center ng-binding">3.63</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">热学</td>
+			          					<td width="30%" class="hide-m ng-binding">Thermal Physics</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">94.5</td>
+							           	<td class="center ng-binding">3.94</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">数据结构与算法 (B)</td>
+			          					<td width="30%" class="hide-m ng-binding">Data Structure and Algorithm (B)</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">84</td>
+							           	<td class="center ng-binding">3.52</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx --><div ng-show="showBkscjxx==true" ng-repeat="item in bkscjxx" class="ng-scope">
+	          				<br>
+	          				<table class="no-border-table">
+	          					<tbody><tr><td>
+									<span class="category ng-binding">16-17学年度1学期</span>
+								</td></tr>
+	          				</tbody></table>
+	          				<br>
+	          				<table class="row-border-table">
+	          					<tbody>
+	          						<tr>
+	          							<th width="30%">课程名称</th>
+	          							<th width="30%" class="hide-m">英文名称</th>
+	          							<th class="hide-m">课程类别</th>
+	          							<th class="center">学分</th>
+	          							<th class="center">成绩</th>
+	          							<th class="center">绩点</th>
+	          							<!--  <th></th>-->
+	          						</tr>
+	          						<!-- ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">基础天文</td>
+			          					<td width="30%" class="hide-m ng-binding">Fundamental Astronomy</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">91</td>
+							           	<td class="center ng-binding">3.85</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">线性代数 (B)</td>
+			          					<td width="30%" class="hide-m ng-binding">Linear Algebra (B)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">96</td>
+							           	<td class="center ng-binding">3.97</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">语言、文化与交际</td>
+			          					<td width="30%" class="hide-m ng-binding">Language, Culture and Communication</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">92</td>
+							           	<td class="center ng-binding">3.88</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">力学</td>
+			          					<td width="30%" class="hide-m ng-binding">Mechanics</td>
+			          					<td class="hide-m ng-binding">限选</td>
+							           	<td class="center ng-binding">4</td>
+							           	<td class="center ng-binding">88</td>
+							           	<td class="center ng-binding">3.73</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">军事理论</td>
+			          					<td width="30%" class="hide-m ng-binding">Military Theory</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">86</td>
+							           	<td class="center ng-binding">3.63</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">高等数学 (B) (一)</td>
+			          					<td width="30%" class="hide-m ng-binding">Advanced Mathematics (B) (1)</td>
+			          					<td class="hide-m ng-binding">专业必修</td>
+							           	<td class="center ng-binding">5</td>
+							           	<td class="center ng-binding">100</td>
+							           	<td class="center ng-binding">4</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">计算概论（B）</td>
+			          					<td width="30%" class="hide-m ng-binding">Introduction to Computation (B)</td>
+			          					<td class="hide-m ng-binding">全校必修</td>
+							           	<td class="center ng-binding">3</td>
+							           	<td class="center ng-binding">89</td>
+							           	<td class="center ng-binding">3.77</td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list --><tr ng-repeat="info in item.list" class="ng-scope">
+			          					<td width="30%" class="ng-binding">现代物理前沿讲座Ⅰ</td>
+			          					<td width="30%" class="hide-m ng-binding">Lectures on The Frontiers of Modern Physics (Ⅰ)</td>
+			          					<td class="hide-m ng-binding">任选</td>
+							           	<td class="center ng-binding">2</td>
+							           	<td class="center ng-binding">合格</td>
+							           	<td class="center ng-binding"></td>
+							           	<!--  <td class="center"><a style="cursor:pointer;" ng-click="showCjxxMore(info)">更多</a></td>-->
+	          						</tr><!-- end ngRepeat: info in item.list -->		
+	          					</tbody>
+	          				</table>
+		          		</div><!-- end ngRepeat: item in bkscjxx -->
+		          		
+		          		<!-- ngRepeat: item in bksfscjxx -->
+		          		
+		          		
+	          			<!-- ngRepeat: item in bkszjlcjxx -->
+	          			<div ng-show="showBksbylwcjxx==true" class="ng-hide">
+	          				<div class="col_i_99 border-table-cell border-table-cell-left-top">
+			              		<span class="label">论文题目</span><span class="ng-binding"></span>
+							</div>
+							<div class="col_i_99 border-table-cell border-table-cell-left">
+			              		<span class="label">英文题目</span><span class="ng-binding"></span>
+							</div>
+							<div class="col_i_33 border-table-cell border-table-cell-left">
+			              		<span class="label">论文学分</span><span class="ng-binding"></span>
+							</div>
+							<div class="col_i_33 border-table-cell">
+			              		<span class="label">成绩方式</span><span class="ng-binding"></span>
+							</div>
+	          				<div class="col_i_33 border-table-cell">
+			              		<span class="label">论文成绩</span><span class="ng-binding"></span>
+							</div>
+	          				<div class="col_i_99 border-table-cell border-table-cell-left">
+			              		<span class="label">导师1</span><span class="ng-binding"> </span>
+							</div>
+							<div class="col_i_99 border-table-cell border-table-cell-left">
+			              		<span class="label">导师2</span><span class="ng-binding"> </span>
+							</div>
+							<div class="col_i_99 border-table-cell border-table-cell-left">
+			              		<span class="label">校外导师1</span><span class="ng-binding"></span>
+							</div>
+							<div class="col_i_99 border-table-cell border-table-cell-left">
+			              		<span class="label">校外导师2</span><span class="ng-binding"></span>
+							</div>
+		          		</div>
+	          		</div>
+          		</div>
+          	</div>
+    	</div>
+    </div>
+</div>
+<div class="lightbox_back ng-scope" ng-click="closeMore()"></div>
+<div class="lightbox_fore ng-scope">
+	<div class="content">
+		<div class="col_lg_10 col_md_10">
+        	<div class="mainContent">
+          		<div class="article">
+          			<table class="no-border-table">
+            			<tbody><tr><td>
+            				<span class="category">详细信息</span>
+            				<a style="font-size:16px; float:right;color:#8f000b;" href="javascript:void(0)" ng-click="closeMore()"> 关闭</a>
+            			</td></tr>
+          			</tbody></table>
+          			<!-- ngRepeat: item in dataItemValuesArray[setIndex].scFormat | orderBy:'colOrder' -->
+          		</div>
+        	</div>
+        	<div class="clearfix"></div>
+      	</div>
+    </div>
+</div>
+
+<script type="text/javascript" class="ng-scope">TOP_MENU="bizCenter";</script></div>
+	<div id="gotoTop" style="display: none;" ng-init="gotoTop()" gototoptpl="">
+	<i class="fa fa-angle-up fa-2x"></i>
+</div>
+	<!--<div id="wechatBindWindow" ng-show="loginFlag==true&&wechatBind==false" style="position: fixed;display: block;top:300px;right:5px;width:150px;height:125px;z-index:100;background-color:#efefef;border-color:#999;border-style:dotted;border-width:1px;border-radius:15px;">
+		<a ng-href="#/basicInfo/tip/bindWechat">
+			<table class="no-border-table" style="padding:0px;margin:0 auto;">
+	       		<tr><td style="padding:10px;margin:0 auto;" align="center"><span style="font-size:12px;"><i class="fa fa-3x fa-info-circle pku-green"></i><br/>您尚未绑定“北京大学信息门户”微信公众号</span></td></tr>
+	       		<tr><td style="text-align:center;margin:0 auto;"><a class="btn" href="javascript:void(0);" ng-href="#/basicInfo/tip/bindWechat" style="padding:0px;margin:0 auto;color:#8f000b;">前往绑定</a></td></tr>
+	    	</table>
+	    </a>
+	</div>  -->
+	<footer ng-show="accessFromApp!=='是'" class="footer" footertpl="">
+	<section class="fot_bot">
+		<span class="copyright">版权所有©北京大学</span>
+		<span class="addr">地址：北京市海淀区颐和园路5号</span>
+		<span class="postcode">邮编：100871</span>
+		<span class="email">邮箱：its@pku.edu.cn</span>
+		<span class="telephone">电话：010-62751023</span>
+		<span class="tech-sup">支持：<a href="http://cc.pku.edu.cn">北京大学计算中心</a></span>
+	</section>
+</footer>
+
+
+</body></html>
