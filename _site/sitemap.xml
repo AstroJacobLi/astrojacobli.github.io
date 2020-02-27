@@ -3,9 +3,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2020/01/astro-ph-2020</loc>
+      <loc>https://astrojacobli.github.io/blog/2020/02/2019nCoV</loc>
       
-        <lastmod>2020-01-14T20:00:00+08:00</lastmod>
+        <lastmod>2020-02-08T20:00:00+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -18,7 +18,22 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/12/astro-ph-2019</loc>
+      <loc>https://astrojacobli.github.io/blog/2020/02/astro-ph-2020</loc>
+      
+        <lastmod>2020-02-01T20:00:00+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/blog/2019/12/astro-ph-2019</loc>
       
         <lastmod>2019-12-21T20:00:00+08:00</lastmod>
       
@@ -33,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/07/ReviewNotes</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/07/ReviewNotes</loc>
       
         <lastmod>2019-07-02T18:38:00+08:00</lastmod>
       
@@ -48,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/06/HowToPython</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/06/HowToPython</loc>
       
         <lastmod>2019-06-26T05:40:00+08:00</lastmod>
       
@@ -63,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/05/astro-DL</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/05/astro-DL</loc>
       
         <lastmod>2019-05-15T23:38:00+08:00</lastmod>
       
@@ -78,7 +93,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/04/GreatPower</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/04/GreatPower</loc>
       
         <lastmod>2019-04-16T23:10:00+08:00</lastmod>
       
@@ -93,7 +108,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/02/WesternMusic</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/02/WesternMusic</loc>
       
         <lastmod>2019-02-27T05:30:00+08:00</lastmod>
       
@@ -108,7 +123,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2019/02/XingCe</loc>
+      <loc>https://astrojacobli.github.io/blog/2019/02/XingCe</loc>
       
         <lastmod>2019-02-20T23:30:00+08:00</lastmod>
       
@@ -123,7 +138,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/astro-ph-2018</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</loc>
       
         <lastmod>2018-12-31T19:38:00+08:00</lastmod>
       
@@ -138,7 +153,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/Writing</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/Writing</loc>
       
         <lastmod>2018-12-22T22:40:00+08:00</lastmod>
       
@@ -153,7 +168,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/Statistics-and-Python</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/Statistics-and-Python</loc>
       
         <lastmod>2018-12-19T05:40:00+08:00</lastmod>
       
@@ -168,7 +183,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/sky-surveys</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/sky-surveys</loc>
       
         <lastmod>2018-12-17T18:40:00+08:00</lastmod>
       
@@ -183,7 +198,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/Miscellany</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/Miscellany</loc>
       
         <lastmod>2018-12-16T21:40:00+08:00</lastmod>
       
@@ -198,7 +213,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/Scikit-learn</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/12/Scikit-learn</loc>
       
         <lastmod>2018-12-10T18:18:00+08:00</lastmod>
       
@@ -213,7 +228,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy</loc>
       
         <lastmod>2018-10-31T08:40:00+08:00</lastmod>
       
@@ -228,7 +243,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/10/Interstellar-Medium</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/10/Interstellar-Medium</loc>
       
         <lastmod>2018-10-17T08:40:00+08:00</lastmod>
       
@@ -243,7 +258,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/10/Cosmology</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/10/Cosmology</loc>
       
         <lastmod>2018-10-16T08:40:00+08:00</lastmod>
       
@@ -258,7 +273,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/03/phy-lab</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/03/phy-lab</loc>
       
         <lastmod>2018-03-03T04:00:00+08:00</lastmod>
       
@@ -273,7 +288,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</loc>
+      <loc>https://astrojacobli.github.io/blog/2018/01/%E5%B9%B3%E8%A1%A1%E6%80%81%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86%E9%9A%8F%E8%AE%B0</loc>
       
         <lastmod>2018-01-16T00:00:00+08:00</lastmod>
       
@@ -288,7 +303,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</loc>
+      <loc>https://astrojacobli.github.io/blog/2017/12/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86%E6%96%B9%E6%B3%95</loc>
       
         <lastmod>2017-12-08T00:00:00+08:00</lastmod>
       
@@ -304,7 +319,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/Docs/2019-02-01-US-journey</loc>
+      <loc>https://astrojacobli.github.io/Docs/2019-02-01-US-journey</loc>
       
         <lastmod>2019-02-01T19:40:00+08:00</lastmod>
       
@@ -319,24 +334,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/about/</loc>
+      <loc>https://astrojacobli.github.io/about/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/miscellany/art/</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -349,24 +349,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/</loc>
+      <loc>https://astrojacobli.github.io/miscellany/art/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/miscellany/cooking/</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -379,24 +364,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/cv/</loc>
+      <loc>https://astrojacobli.github.io/blog/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/feed.xml</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -409,24 +379,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>https://astrojacobli.github.io/miscellany/cooking/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/miscellany/links/</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -439,24 +394,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/miscellany/links/</loc>
+      <loc>https://astrojacobli.github.io/cv/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/css/main.css</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -469,24 +409,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/miscellany/</loc>
+      <loc>https://astrojacobli.github.io/feed.xml</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/miscellany/photography/</loc>
-      
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -499,9 +424,99 @@
   
     
     <url>
-      <loc>http://localhost:4000/research/</loc>
+      <loc>https://astrojacobli.github.io/</loc>
       
-        <lastmod>2020-01-15T11:28:57+08:00</lastmod>
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/links/</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/links/</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/css/main.css</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/miscellany/photography/</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://astrojacobli.github.io/research/</loc>
+      
+        <lastmod>2020-02-27T22:55:03+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

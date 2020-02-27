@@ -4,11 +4,44 @@
     <title>Jiaxuan Li 李嘉轩</title>
     <description>Homepage of Jiaxuan Li 李嘉轩, a senior Student in Department of Astronomy, Peking University. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jan 2020 11:28:57 +0800</pubDate>
-    <lastBuildDate>Wed, 15 Jan 2020 11:28:57 +0800</lastBuildDate>
+    <link>https://astrojacobli.github.io/</link>
+    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 27 Feb 2020 22:55:03 +0800</pubDate>
+    <lastBuildDate>Thu, 27 Feb 2020 22:55:03 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>2019 nCoV</title>
+        <description>&lt;h2 id=&quot;data-sources&quot;&gt;Data sources&lt;/h2&gt;
+
+&lt;p&gt;这里头有每天从丁香园爬下来的数据，具体到地级行政区：https://github.com/globalcitizen/2019-wuhan-coronavirus-data/tree/master/data-sources/dxy&lt;/p&gt;
+
+&lt;p&gt;可视化界面，用javascript写的，但是不好直接找到数据：https://github.com/ZhangMingZhao1/2019nCoV-Virus-MapMonitor&lt;/p&gt;
+
+&lt;h2 id=&quot;新冠病毒的相关报道合集&quot;&gt;&lt;a href=&quot;https://github.com/2019ncovmemory/nCovMemory#2020新冠肺炎记忆传媒报道与非虚构写作持续更新&quot;&gt;新冠病毒的相关报道合集&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;疫情压力下墙高了一些解决办法&quot;&gt;疫情压力下墙高了，一些解决办法&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.kache.moe/2019/12/11/macOS-ClashX/&quot;&gt;macOS - ClashX 使用教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://v2sx.github.io/V2Ray/&quot;&gt;V2Ray工具大全&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CocoaKier/MacVPN/wiki/Mac下如何科学上网——新方案V2Ray&quot;&gt;Mac下如何科学上网——新方案V2Ray&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://v2sx.com/index.php&quot;&gt;V2S account&lt;/a&gt;&lt;/p&gt;
+
+&lt;embed style=&quot;width:60vw;&quot; src=&quot;https://shiba-inu.cc/project/ncov/barometer/svg/barometer-national.svg&quot; /&gt;
+&lt;p&gt;&amp;lt;/embed&amp;gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 08 Feb 2020 20:00:00 +0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2020/02/2019nCoV</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2020/02/2019nCoV</guid>
+        
+        
+        <category>paper</category>
+        
+      </item>
     
       <item>
         <title>astro-ph Reading in 2020</title>
@@ -18,7 +51,46 @@
 
 &lt;p&gt;&lt;a href=&quot;https://astrobites.org&quot;&gt;Astrobite&lt;/a&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;february-2020&quot;&gt;February 2020&lt;/h2&gt;
+
+&lt;h3 id=&quot;疫情压力下墙高了一些解决办法&quot;&gt;疫情压力下墙高了，一些解决办法&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.kache.moe/2019/12/11/macOS-ClashX/&quot;&gt;macOS - ClashX 使用教程&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://v2sx.github.io/V2Ray/&quot;&gt;V2Ray工具大全&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/CocoaKier/MacVPN/wiki/Mac下如何科学上网——新方案V2Ray&quot;&gt;Mac下如何科学上网——新方案V2Ray&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://v2sx.com/index.php&quot;&gt;V2S account&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;point-spread-function-modelling-for-wide-field-small-aperture-telescopes-with-a-denoising-autoencoder&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/2001.11716&quot;&gt;Point Spread Function Modelling for Wide Field Small Aperture Telescopes with a Denoising Autoencoder&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;the-three-hundred-project-backsplash-galaxies-in-simulations-of-clusters&quot;&gt;&lt;a href=&quot;https://arxiv.org/abs/2001.11518&quot;&gt;The Three Hundred Project: Backsplash galaxies in simulations of clusters&lt;/a&gt;&lt;/h3&gt;
+
 &lt;h2 id=&quot;january-2020&quot;&gt;January 2020&lt;/h2&gt;
+
+&lt;h3 id=&quot;line-intensity-mapping-reading-list&quot;&gt;Line-Intensity Mapping Reading List&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://baas.aas.org/wp-content/uploads/2019/05/101_kovetz.pdf&quot;&gt;Astro2020 Science White Paper: Astrophysics and Cosmology with Line-Intensity Mapping&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2017arXiv170909066K/abstract&quot;&gt;Line-Intensity Mapping: 2017 Status Report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://iopscience.iop.org/article/10.3847/1538-4357/ab1b35&quot;&gt;Broadband Intensity Tomography: Spectral Tagging of the Cosmic UV Background&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://iopscience.iop.org/article/10.3847/1538-4357/ab0a08/pdf&quot;&gt;Measuring the EoR Power Spectrum without Measuring the EoR Power Spectrum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;adam-riess-the-expansion-of-the-universe-is-faster-than-expected&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s42254-019-0137-0#change-history&quot;&gt;Adam Riess: The expansion of the Universe is faster than expected&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;H0LiCOW is independent of Cepheids and SNe Ia, but also yields ~70 km/s/Mpc.&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\Lambda CDM&lt;/script&gt;: six parameters with well-tested ansatzes. Dark energy with an equation of state lower than vacuum energy could produce stronger acceleration and explain the discrepancy, but this possibility is disfavoured by other intermediate­ redshift measurements.&lt;/li&gt;
+  &lt;li&gt;Early Dark Energy (EDE) (injected shortly before CMB) could have increased the early expansion, decreased the sound horizon, and raise the predicted &lt;script type=&quot;math/tex&quot;&gt;H_0&lt;/script&gt;. But the value of EDE must be fine-tuned. Adding new particles (such as neutrino) could play the same role, but will create conflicts with CMB.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-hubble-hunters-guide&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv190803663K/abstract&quot;&gt;The Hubble Hunter’s Guide&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;planck-evidence-for-a-closed-universe-and-a-possible-crisis-for-cosmology&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0906-9&quot;&gt;Planck evidence for a closed Universe and a possible crisis for cosmology&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;vogelsberger-cosmological-simulations-of-galaxy-formation&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s42254-019-0127-2&quot;&gt;Vogelsberger: Cosmological simulations of galaxy formation&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;a-parallax-distance-to-3c-273-through-spectroastrometry-and-reverberation-mapping&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0979-5&quot;&gt;A parallax distance to 3C 273 through spectroastrometry and reverberation mapping&lt;/a&gt;&lt;/h3&gt;
 
@@ -30,7 +102,7 @@
 
 &lt;p&gt;Paper link: &lt;a href=&quot;https://arxiv.org/abs/1912.08806&quot;&gt;Cosmological parameter estimation via iterative emulation of likelihoods&lt;/a&gt;. See also &lt;a href=&quot;https://astrobites.org/2011/11/26/your-gateway-to-the-bayesian-realm/&quot;&gt;Your Gateway to the Bayesian Realm&lt;/a&gt;; &lt;a href=&quot;https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50&quot;&gt;A Zero-Math Introduction to Markov Chain Monte Carlo Methods&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;probing-the-fundamental-nature-of-dark-matter-with-the-large-synoptic-survey-telescope&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv190201055D/abstract&quot;&gt;Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;alex-drlica-wagner-probing-the-fundamental-nature-of-dark-matter-with-the-large-synoptic-survey-telescope&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv190201055D/abstract&quot;&gt;Alex Drlica-Wagner: Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&quot;early-type-host-galaxies-of-type-ia-supernovae-ii-evidence-for-luminosity-evolution-in-supernova-cosmology&quot;&gt;&lt;a href=&quot;https://ui.adsabs.harvard.edu/abs/2019arXiv191204903K/abstract&quot;&gt;Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology&lt;/a&gt;&lt;/h3&gt;
 
@@ -48,12 +120,10 @@
   &lt;/li&gt;
   &lt;li&gt;Why do we need dark energy? Because we have found that the luminosity of SNe Ia at high-z is fainter than expected, so we need dark energy to dilute the light and increase the distance. However, if SN Ia in young ETG (which is at high-z) is intrinsically fainter, then we don’t need dark energy any more. In Figure 16, they showed that the (reported) luminosity evolution of SNe Ia can mimic dark energy.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&quot;planck-evidence-for-a-closed-universe-and-a-possible-crisis-for-cosmology&quot;&gt;&lt;a href=&quot;https://www.nature.com/articles/s41550-019-0906-9&quot;&gt;Planck evidence for a closed Universe and a possible crisis for cosmology&lt;/a&gt;&lt;/h3&gt;
 </description>
-        <pubDate>Tue, 14 Jan 2020 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2020/01/astro-ph-2020</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/01/astro-ph-2020</guid>
+        <pubDate>Sat, 01 Feb 2020 20:00:00 +0800</pubDate>
+        <link>https://astrojacobli.github.io/blog/2020/02/astro-ph-2020</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2020/02/astro-ph-2020</guid>
         
         
         <category>paper</category>
@@ -1075,8 +1145,8 @@
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Dec 2019 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/12/astro-ph-2019</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/astro-ph-2019</guid>
+        <link>https://astrojacobli.github.io/blog/2019/12/astro-ph-2019</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/12/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -1350,8 +1420,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Tue, 02 Jul 2019 18:38:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
+        <link>https://astrojacobli.github.io/blog/2019/07/ReviewNotes</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/07/ReviewNotes</guid>
         
         
         <category>paper</category>
@@ -1583,8 +1653,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;p&gt;Make a new screen window using &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -S Jiaxuan&lt;/code&gt;; then do whatever you want in that terminal; and detach that window using &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl-a + d&lt;/code&gt;. After got detached, the screen terminal is still running in the background. You can reconnect that terminal with &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -r Jiaxuan&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Jun 2019 05:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/06/HowToPython</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/06/HowToPython</guid>
+        <link>https://astrojacobli.github.io/blog/2019/06/HowToPython</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/06/HowToPython</guid>
         
         
         <category>Coding</category>
@@ -1640,8 +1710,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;h3 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h3&gt;
 </description>
         <pubDate>Wed, 15 May 2019 23:38:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/05/astro-DL</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/05/astro-DL</guid>
+        <link>https://astrojacobli.github.io/blog/2019/05/astro-DL</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/05/astro-DL</guid>
         
         
         <category>paper</category>
@@ -2539,8 +2609,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Apr 2019 23:10:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/04/GreatPower</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/04/GreatPower</guid>
+        <link>https://astrojacobli.github.io/blog/2019/04/GreatPower</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/04/GreatPower</guid>
         
         
         <category>Miscellany</category>
@@ -3237,8 +3307,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 05:30:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
+        <link>https://astrojacobli.github.io/blog/2019/02/WesternMusic</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/WesternMusic</guid>
         
         
         <category>Miscellany</category>
@@ -3898,8 +3968,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;6.8是最后一次大报告。&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Feb 2019 23:30:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2019/02/XingCe</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
+        <link>https://astrojacobli.github.io/blog/2019/02/XingCe</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/XingCe</guid>
         
         
         <category>Miscellany</category>
@@ -4187,89 +4257,11 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 19:38:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
+        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
-        
-      </item>
-    
-      <item>
-        <title>Writing</title>
-        <description>&lt;h1 id=&quot;essays-and-articles&quot;&gt;Essays and Articles&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://inference-review.com/letter/an-ode-to-ugly-physics&quot;&gt;An Ode to Ugly Physics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/pdf/1758976.pdf&quot;&gt;A Plea for Pure Science&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;latex-templates&quot;&gt;LaTex templates&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://journals.aas.org/aastex-package-for-manuscript-preparation/&quot;&gt;AASTeX&lt;/a&gt;: templates for ApJ, ApJL and ApJS. Note that ApJL has a limitation for the number of figures. Check the overleaf version here: &lt;a href=&quot;https://www.overleaf.com/latex/templates/aastex-template-for-submissions-to-the-astrophysical-journal/bpkjwktvsqwp&quot;&gt;AASTeX Template for submissions to AAS Journals &lt;/a&gt;. Personally I prefer AAS templates than MNRAS one.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/latex/templates/monthly-notices-of-the-royal-astronomical-society-mnras-latex-template-and-guide-for-authors/kqnjzrwjwjth&quot;&gt;MNRAS&lt;/a&gt;: template for MNRAS. Alexie likes this template.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Curriculum Vitae: I recommend this &lt;a href=&quot;https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm&quot;&gt;template&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Template for book: I highly recommend &lt;a href=&quot;https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc&quot;&gt;Legrand Orange Book Template&lt;/a&gt;. I wrote a book using this template for the astronomy olympiad training last year.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;For Chinese templates, check &lt;a href=&quot;http://www.latexstudio.net&quot;&gt;LaTex开源小屋&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;LaTeX is also very convenient for taking notes on physics classes. Check my notes on Statistical Physics &lt;a href=&quot;https://astrojacobli.github.io/Docs/LaTeX/NotesTemplate.zip&quot;&gt;here&lt;/a&gt;. (You can compile the &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file succesfully by putting &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt; in the same folder.)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;books-on-writing&quot;&gt;Books on writing&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://en.m.wikipedia.org/wiki/The_Elements_of_Style&quot;&gt;The elements of style&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548&quot;&gt;On writing well&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP8: Style Guide for Python Code&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;toefl&quot;&gt;TOEFL&lt;/h1&gt;
-
-&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
-&lt;p&gt;Foul, obstruct, accord, immutable, Sturdy, impel, compel, copious, consensual, consent, edifice, groom, infest, nomad, unprecedented, notorious, sheer.&lt;/p&gt;
-
-&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
-&lt;p&gt;Pavilion, Ductile, epidemic, haunt, spontaneous, instantaneous, simultaneous, paddle, pedal, petal, sepal, puddle, venom, aliment, ailment, lush, fourish, malnourish, assimilate, congest, converse, corrosive gas, credential, credible, detergent, evacuation, engrave imprint, lament(悲叹)/mourn/eulogy, Substantiate, allegiance, carp (鲤鱼), catfish (鲶鱼), goldfish, salmon (鲑鱼，三文鱼), tuna (金枪鱼), sardines (沙丁鱼), cod (鳕鱼), Cornerstone, Crow, seagull, ogle, eagle, finch, woodpecker, Fire extinguisher, evacuation map, grout, Eligible, Impromptu music, Inconspicuous, Palate, soft palate/velar consonant, pinnipeds, seal, sea lion, walrus, nerve sheath tumor, tenant, landlord, tenement/slum, avenue, boulevard, Eliminate, diminish, vanish, irritated, chronic, exasperated/irritated.&lt;/p&gt;
-
-&lt;h2 id=&quot;day3&quot;&gt;Day3&lt;/h2&gt;
-&lt;p&gt;adorn/ornament/varnish/furbish, debris, entitle, gospel, hamper/hinder/obscure/obstacle/stunt/thwart, sewage/drain/sewerage/drainage/ooze/silt/clog/receptacle, laureate/eminent/eminem/preeminent/prominent/distinguished, reckless/crude oil, piano recital/soprano/alto/tenor/baritone, treadmill/scuba/avalanche, scramble/crawl/creep, listless, thorn/throne, auction/patent/petition, complacence/amenity, concord/harmonious/congruous/congruity/incongruity/incompatible, trepidation/intrepid, wither/wilt.&lt;/p&gt;
-
-&lt;p&gt;delicatessen, dairy, pasture (is the sub-unit of a ranch), ranch, meadow, hen house, hive, bovine, cowshed, enclosure, fodder corn, silo, barn, graze, fallow.&lt;/p&gt;
-
-&lt;p&gt;Enoki/oyster/shiitake/cultivated mushroom, truffle, wood ear, kelp, seaweed, nori, scallion, leeks, celery cabbage, bulb, rib, bundle, as’paragus, fiddlehead fern, spear.&lt;/p&gt;
-
-&lt;p&gt;Yuletide, nativity of Jesus, feast宗教节日, winter solstice, carols圣诞颂歌，&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49321138/galsim-galaxy-simulation-with-local-wcs-psf&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 22 Dec 2018 22:40:00 +0800</pubDate>
-        <link>http://localhost:4000/blog/2018/12/Writing</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/Writing</guid>
-        
-        
-        <category>Astrophysics</category>
         
       </item>
     
