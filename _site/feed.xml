@@ -4,10 +4,10 @@
     <title>Jiaxuan Li 李嘉轩</title>
     <description>Homepage of Jiaxuan Li 李嘉轩, a senior Student in Department of Astronomy, Peking University. &lt;br&gt; Enjoy galaxies, cosmology and supernovae! 
 </description>
-    <link>https://astrojacobli.github.io/</link>
-    <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Feb 2020 22:55:03 +0800</pubDate>
-    <lastBuildDate>Thu, 27 Feb 2020 22:55:03 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 28 Feb 2020 00:03:24 +0800</pubDate>
+    <lastBuildDate>Fri, 28 Feb 2020 00:03:24 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -35,8 +35,8 @@
 
 </description>
         <pubDate>Sat, 08 Feb 2020 20:00:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2020/02/2019nCoV</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2020/02/2019nCoV</guid>
+        <link>http://localhost:4000/blog/2020/02/2019nCoV</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/2019nCoV</guid>
         
         
         <category>paper</category>
@@ -122,8 +122,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 01 Feb 2020 20:00:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2020/02/astro-ph-2020</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2020/02/astro-ph-2020</guid>
+        <link>http://localhost:4000/blog/2020/02/astro-ph-2020</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/astro-ph-2020</guid>
         
         
         <category>paper</category>
@@ -1145,8 +1145,8 @@
 &lt;p&gt;Convert LaTeX to html gif picture: &lt;a href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;https://www.codecogs.com/latex/eqneditor.php&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Dec 2019 20:00:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/12/astro-ph-2019</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/12/astro-ph-2019</guid>
+        <link>http://localhost:4000/blog/2019/12/astro-ph-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/12/astro-ph-2019</guid>
         
         
         <category>paper</category>
@@ -1420,8 +1420,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;h2 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h2&gt;
 </description>
         <pubDate>Tue, 02 Jul 2019 18:38:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/07/ReviewNotes</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/07/ReviewNotes</guid>
+        <link>http://localhost:4000/blog/2019/07/ReviewNotes</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/07/ReviewNotes</guid>
         
         
         <category>paper</category>
@@ -1653,8 +1653,8 @@ Hence we have many combinations to express the shape (ellipticity and position a
 &lt;p&gt;Make a new screen window using &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -S Jiaxuan&lt;/code&gt;; then do whatever you want in that terminal; and detach that window using &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl-a + d&lt;/code&gt;. After got detached, the screen terminal is still running in the background. You can reconnect that terminal with &lt;code class=&quot;highlighter-rouge&quot;&gt;screen -r Jiaxuan&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 26 Jun 2019 05:40:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/06/HowToPython</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/06/HowToPython</guid>
+        <link>http://localhost:4000/blog/2019/06/HowToPython</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/06/HowToPython</guid>
         
         
         <category>Coding</category>
@@ -1710,8 +1710,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;h3 id=&quot;gaussian-process-in-machine-learning&quot;&gt;&lt;a href=&quot;http://www.gaussianprocess.org/gpml/chapters/RW.pdf&quot;&gt;Gaussian Process in Machine Learning&lt;/a&gt;&lt;/h3&gt;
 </description>
         <pubDate>Wed, 15 May 2019 23:38:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/05/astro-DL</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/05/astro-DL</guid>
+        <link>http://localhost:4000/blog/2019/05/astro-DL</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/05/astro-DL</guid>
         
         
         <category>paper</category>
@@ -2609,8 +2609,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Apr 2019 23:10:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/04/GreatPower</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/04/GreatPower</guid>
+        <link>http://localhost:4000/blog/2019/04/GreatPower</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/04/GreatPower</guid>
         
         
         <category>Miscellany</category>
@@ -3307,8 +3307,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 27 Feb 2019 05:30:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/02/WesternMusic</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/WesternMusic</guid>
+        <link>http://localhost:4000/blog/2019/02/WesternMusic</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/WesternMusic</guid>
         
         
         <category>Miscellany</category>
@@ -3968,8 +3968,8 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
 &lt;p&gt;6.8是最后一次大报告。&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Feb 2019 23:30:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2019/02/XingCe</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2019/02/XingCe</guid>
+        <link>http://localhost:4000/blog/2019/02/XingCe</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/02/XingCe</guid>
         
         
         <category>Miscellany</category>
@@ -4257,8 +4257,8 @@ From the calculation, under this circumstance, MOND gives &lt;a href=&quot;https
 &lt;p&gt;Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Dec 2018 19:38:00 +0800</pubDate>
-        <link>https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</link>
-        <guid isPermaLink="true">https://astrojacobli.github.io/blog/2018/12/astro-ph-2018</guid>
+        <link>http://localhost:4000/blog/2018/12/astro-ph-2018</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/12/astro-ph-2018</guid>
         
         
         <category>paper</category>
