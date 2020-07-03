@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>). I am currently a senior undergraduate student in <a class="tosu" href="http://astro.pku.edu.cn ">Department of Astronomy,</a> <a class="tosu" href="http://pku.edu.cn">Peking University. </a>
+<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>). I just graduate from <a class="tosu" href="http://astro.pku.edu.cn ">Department of Astronomy,</a> <a class="tosu" href="http://pku.edu.cn">Peking University</a> with a Bachelor's degree of Science. I will be a graduate student at <a href="https://web.astro.princeton.edu">Department of Astrophysical Sciences, Princeton University</a> in 2021.
 <br>
 <br>
 
