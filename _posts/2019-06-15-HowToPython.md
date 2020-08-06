@@ -17,6 +17,7 @@ Really really nice book on principles of plotting and visualizing data. Like it!
 - [mpld3](http://mpld3.github.io/notebooks/interactive_legend.html): renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!
 - [Altair](https://github.com/altair-viz/altair) is a relatively new declarative visualization library for Python. It's easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.
 - [plot.ly](https://plot.ly/) can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!
+- [ipympl](https://github.com/matplotlib/ipympl) introduces interactive widgets of matplotlib in Jupyter notebook and JupyterLab.
 
 ### [Incredible cheat sheet for Matplotlib!](https://github.com/rougier/matplotlib-cheatsheet)
 {% include image.html url="/images/matplotlib-cheatsheet.png" caption="`Matplotlib` cheatsheet" width=950 align="center" %}
