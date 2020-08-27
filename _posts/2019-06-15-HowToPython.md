@@ -157,6 +157,8 @@ The following are some other tricks involved when using `jupyter notebook`.
 - `_` means the previous output. By adding `;` in the end of a command, it will suppress the useless output of a function.
   - Basic shell commands: `!` is external shell command, and `&` is to run this command as background.
 - Click + `control`: Jupyter supports multiple cursors, similar to Sublime Text. (Use `alt` on Windows)
+- `%debug` magic command: when you encounter an error, type this magic command in a new cell and run it. Type `n` to run the next line of code, type `c` to continue until the next breakpoint, and type `q` to quit. This magic command can also be used to check the value of variables, just type the name of the variable.
+-  `from IPython.core.debugger import set_trace`: use `set_trace()` to set a breakpoint in your cell or code block. The code will stop at the breakpoint and give you the chance to inspect variables. 
 - [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by `pip install jupyter_contrib_nbextensions` or `conda install -c conda-forge jupyter_contrib_nbextensions`. 
 
 ### Formating strings
