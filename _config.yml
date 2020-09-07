@@ -1,10 +1,10 @@
 # Site settings
 title: Jiaxuan Li 李嘉轩
-positin: Senior Undergraduate
+positin: Research Assistant
 email: jiaxuan_li@pku.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
-  Homepage of Jiaxuan Li 李嘉轩, a senior Student in Department of Astronomy, Peking University. <br>
-  Enjoy galaxies, cosmology and supernovae! 
+  Homepage of Jiaxuan Li 李嘉轩, a research assistant at Kavli Institute for Astronomy and Astrophysics, Peking University. <br>
+  Enjoy galaxies, cosmology, and machine learning! 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
 twitter_username: JiaxuanLiPKU
@@ -15,7 +15,7 @@ markdown: kramdown
 
 # Other options
 permalink: blog/:year/:month/:title
-job.title: "Junior Undergraduate"
+job.title: "Research Assistant"
 excerpt_separator: "<!--more-->"
 
 # This will require each of these plugins automatically.
