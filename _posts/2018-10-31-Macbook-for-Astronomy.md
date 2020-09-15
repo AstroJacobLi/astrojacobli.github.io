@@ -94,8 +94,12 @@ $ cd astrometry.net-*
 $ make
 $ make py
 $ make extra
-$ make install INSTALL_DIR=~/Research/astrometry
+$ make install INSTALL_DIR="~/Research/Packages/astrometry" PYTHON_SCRIPT="/anaconda3/bin/python"
 ```
+Sometimes, it will show an error that `fatal error: 'cairo.h' file not found`.
+
+You can just do `export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig` and see if it could fine `cairo.h`.
+
 10. Install `swig`: `$ brew install swig`
 
 11. Install `tractor`: first go to its folder, then
