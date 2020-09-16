@@ -7,6 +7,16 @@ categories: paper
 ---
 ---
 
+### Autoencoder
+
+- [花式解释AutoEncoder与VAE - Sherlock的文章 - 知乎](https://zhuanlan.zhihu.com/p/27549418): 其实AE或者VAE的隐藏层（embedding layer）就是从input中提取出的精华特征，所以autoencoder也可以作为dimensionality reduction的方法（类似PCA）。
+
+- [**为什么Autoencoder可以用来做神经网络的预训练？**AutoEncoder: 堆栈自动编码器 Stacked_AutoEncoder - LitoNeo的文章 - 知乎](https://zhuanlan.zhihu.com/p/83331286)：但是有了batch normalization之后，是否还有预训练的必要？
+
+
+
+
+
 ### [CS 231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)
 
 - [Syllabus](http://cs231n.stanford.edu/syllabus.html)
