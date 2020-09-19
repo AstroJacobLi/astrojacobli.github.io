@@ -13,7 +13,19 @@ categories: paper
 
 - [**为什么Autoencoder可以用来做神经网络的预训练？**AutoEncoder: 堆栈自动编码器 Stacked_AutoEncoder - LitoNeo的文章 - 知乎](https://zhuanlan.zhihu.com/p/83331286)：但是有了batch normalization之后，是否还有预训练的必要？
 
+https://github.com/kstoreyf/anomalies-GAN-HSC
 
+
+
+### ResNet
+
+- [你必须要知道CNN模型：ResNet - 小小将的文章 - 知乎](https://zhuanlan.zhihu.com/p/31852747)
+
+
+
+### Skewness
+
+[Box-Cox transformation](http://onlinestatbook.com/2/transformations/box-cox.html)
 
 
 
@@ -145,7 +157,15 @@ categories: paper
   - Solutions: transfer learning (use a well-trained model as the startpoint for another task); use commercial cloud platforms
   - Structured data (tabular): relational database (**rows and columns** in a table), SQL. Unstructured data: image, video, audio, also text from HTML/XML/JSON. Many of the celebrated applications of deep learning have been with unstructured data such as images, audio, and text. 
 
+
+
+### [Gaussian Process in Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
+
+
+
 ## Deep learning and Astrophysics
+
+###[ML in cosmology](https://github.com/georgestein/ml-in-cosmology)
 
 ### [Finding Strong Gravitational Lenses in the DESI DECam Legacy Survey](https://arxiv.org/pdf/1906.00970.pdf)
 
@@ -173,3 +193,13 @@ Anyway, just another random idea I’d like to write down before I forget…
 ### [Photometry of high-redshift blended galaxies using deep learning](https://arxiv.org/pdf/1905.01324.pdf)
 
 ### [Gaussian Process in Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
+
+### [Deep learning for galaxy surface brightness profile fitting](https://academic.oup.com/mnras/article/475/1/894/4725057)
+
+### [An automatic taxonomy of galaxy morphology using unsupervised machine learning](https://academic.oup.com/mnras/article/473/1/1108/4159372)
+
+### [The use of convolutional neural networks for modeling large optically-selected strong galaxy-lens samples](https://arxiv.org/pdf/1904.06199v1.pdf)
+
+### [Photometric redshifts from SDSS images using a Convolutional Neural Network](https://arxiv.org/pdf/1806.06607.pdf)
+
+### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/abs/1904.06199v1)

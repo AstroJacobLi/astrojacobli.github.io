@@ -88,31 +88,6 @@ Feel very ashamed for the decadence in the past year 2018. I will try to read as
 
    Until now we have detected a couple dozens of BH mergers. They are typically more massive that our past observed BHs (typically X-ray binaries). This challenges the formation theories of stellar mass BHs. We also observed a gap in the BH mass spectrum between 2.5 solar mass (below which are all neutron stars) and 5 solar mass. Also, we don't find many intermediate-mass BHs.
 
----
-
-## Deep learning and Astrophysics
-
-### [Deep learning for galaxy surface brightness profile fitting](https://academic.oup.com/mnras/article/475/1/894/4725057)
-
-### [An automatic taxonomy of galaxy morphology using unsupervised machine learning](https://academic.oup.com/mnras/article/473/1/1108/4159372)
-
-### [The use of convolutional neural networks for modeling large optically-selected strong galaxy-lens samples](https://arxiv.org/pdf/1904.06199v1.pdf)
-
-### [Photometric redshifts from SDSS images using a Convolutional Neural Network](https://arxiv.org/pdf/1806.06607.pdf)
-
-### [The use of convolutional neural networks for modelling large optically-selected strong galaxy-lens samples](https://arxiv.org/abs/1904.06199v1)
-
-### [Tidal Features at $0.05 < z < 0.45$ in the Hyper Suprime-Cam Subaru Strategic Program: Properties and Formation Channels](https://arxiv.org/abs/1805.05970)
-- Her talk on her paper: [Characterizing Tidal Features Across the Mass Scale with HSC](https://www.youtube.com/watch?v=sdQYZFN7dH8)
-
-### [The Origin of Faint Tidal Features Around Galaxies in the RESOLVE Survey](https://arxiv.org/abs/1803.05447)
-
-### [Identification of Low Surface Brightness Tidal Features in Galaxies Using Convolutional Neural Networks](https://arxiv.org/abs/1811.11616)
-
-### [DeepStreaks: identifying fast-moving objects in the Zwicky Transient Facility data with deep learning](https://arxiv.org/abs/1904.05920v1)
-
-### [Photometry of high-redshift blended galaxies using deep learning](https://arxiv.org/pdf/1905.01324.pdf)
-
 
 
 ---
@@ -156,8 +131,8 @@ And it turns out to be
 where $$q$$ is the axis ratio $$b/a$$, and $$ (1-q^2) / (1+q^2) = e$$ is the ellipticity of the ellipse. Thus
 \\[\widetilde{e} = e_1 + i e_2 = e(\cos 2\theta + i\sin 2\theta).\\]
 Hence we have many combinations to express the shape (ellipticity and position angle) and size: $$(\theta, e)$$, $$(e_1, e_2)$$, etc.
-
 - Higher order moments tell us the distortion and anisotropy of the image. Using higher order moments, we can estimate the PSF structure and how well does the PSF model behave. 
+- For shape measurements based on moments, see [this paper](http://breckon.eu/toby/teaching/dip/opencv/SimpleImageAnalysisbyMoments.pdf).
 
 ### From Images to Catalogs
 The signal of weak lensing is so weak that can be easily covered by all kinds of systematics. What observers need to do is to minimize these systematics. 
@@ -201,4 +176,3 @@ Sky subtraction always affect everything. Errors in sky subtraction can cause co
 
 ## [The Most Luminous Supernovae](https://arxiv.org/abs/1812.01428v1)
 
-## [Gaussian Process in Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf)
