@@ -51,7 +51,6 @@ plt.savefig('xxx.png', dpi=200, bbox_inches='tight') # Save without empty margin
 Here I only list several nice packages in astrophysics research. For more please check my GitHub [stars](https://github.com/AstroJacobLi?tab=stars) and GitHub [astrophysics](https://github.com/topics/astrophysics) and [astronomy](https://github.com/topics/astronomy) topics. 
 
 - [`taotie`](https://github.com/dr-guangtou/taotie): A curated collection of resources for astrophysical research, best tutorial for anyone in this field!
-
 - [`unagi`](https://github.com/dr-guangtou/unagi): Search and download data from Hyper Suprime-Cam (HSC) Subaru Strategic Survey (SSP). Useful for people working with HSC data.
 - [`photutils`](https://github.com/astropy/photutils): Astropy package for source detection and photometry, basically substitutes of many IRAF functions.
 - [`galsim`](https://github.com/GalSim-developers/GalSim): Galaxy image simulation tool, broadly used in weak lensing and mock tests in galaxy research.
@@ -134,12 +133,17 @@ Here I only list several nice packages in astrophysics research. For more please
 
 
 # Tricks
+### Useful packages
+- [`fire`](https://github.com/google/python-fire): Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+- [`celluloid`](https://github.com/jwkvam/celluloid/): Easy Matplotlib Animation
+
+
 ### Build your package
 - [How to write `requirements.txt` for a package](https://pip.readthedocs.io/en/1.1/requirements.html#requirements-file-format)
 - [How to write documentation using `sphinx`](https://pythonhosted.org/an_example_pypi_project/sphinx.html) and [publish using `Readthedocs`](https://docs.readthedocs.io/page/intro/getting-started-with-sphinx.html).
-- [Python Packaging User Guier (PyPI)](https://packaging.python.org): note that when pushing your local files in `dist` to PyPI, you only need to do `python3 -m twine upload dist/*`. Don't forget to add non-Python files in `MANIFEST.in` and `setup.py`.
+- [Python Packaging User Guider (PyPI)](https://packaging.python.org): note that when pushing your local files in `dist` to PyPI, you only need to do `python3 -m twine upload dist/*`. Don't forget to add non-Python files in `MANIFEST.in` and `setup.py`.
 
-### Jupyter Notebook
+### Jupyter Notebook & Jupyter Lab
 
 No matter under macOs or Linux, or even under Windows, you'll find that a quick check of Jupiter Notebook is hard and cumbersome. You need to open `jupyter notebook` in this folder to check, then terminate this thread. However, using a new tool [ipynb-quicklook](https://github.com/tuxu/ipynb-quicklook/) and a new app [Jupyter Notebook Viewer](https://github.com/tuxu/nbviewer-app), things get much more easier (under macOS and linux). Simply press `space` and check your notebooks!
 
@@ -160,16 +164,19 @@ The following are some other tricks involved when using `jupyter notebook`.
 - `%debug` magic command: when you encounter an error, type this magic command in a new cell and run it. Type `n` to run the next line of code, type `c` to continue until the next breakpoint, and type `q` to quit. This magic command can also be used to check the value of variables, just type the name of the variable.
 -  `from IPython.core.debugger import set_trace`: use `set_trace()` to set a breakpoint in your cell or code block. The code will stop at the breakpoint and give you the chance to inspect variables. 
 - [Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions): my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by `pip install jupyter_contrib_nbextensions` or `conda install -c conda-forge jupyter_contrib_nbextensions`. 
+- Recently I switched to `jupyter lab`! It is faster than `jupyter notebook`.
 
-### Formating strings
+### Formatting strings
 
 Tutorial: [https://pyformat.info](https://pyformat.info). I often use `length = {:.2f}.format(3.1415)` or `name = "DECaLS_{}".format('g_band'}`. 
+
+In Python 3.6, f-string can be used: f`length = {len(obj_cat):3d}`.
 
 ### RegEx: Regular Expression
 
 Tutorial: [https://github.com/ziishaned/learn-regex](https://github.com/ziishaned/learn-regex).
 
-### Using Tqdm to show progress
+### Using `Tqdm` to show progress
 See [https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar](https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar).
 
 ```python
@@ -182,6 +189,7 @@ with TqdmUpTo(unit='B', unit_scale=True, miniters=1, desc=prefix) as t:  # all o
     urllib.request.urlretrieve(url, filename=filename,
                        reporthook=t.update_to, data=None)
 ```
+
 # Unix
 
 #### Rsync

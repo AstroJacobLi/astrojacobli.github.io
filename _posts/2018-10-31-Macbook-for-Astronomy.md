@@ -37,7 +37,18 @@ export PATH=${JAVA_HOME}/bin:$PATH
 ```python
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 ```
+
+
+### Play with a new Linux machine
+
+Accidentally I have to make a Windows machine to Linux. I installed Debian on that machine. Some tips are listed below.
+
+1. Originally, your account is not listed in the `sudo` group. You have to run `su -` so that you are switched to the `root` environment. After that, run `gpasswd -a jiaxuanl sudo` to add `jiaxuanli` to the `sudo` group.
+
+
+
 ## Install [the Tractor](https://github.com/dstndstn/tractor)
+
 [`the Tractor`](https://github.com/dstndstn/tractor) is a probability-based astronomical source detection & measurement tool, written by Dustin Lang and David Hogg.
 
 0. Make sure you have installed XCode from Mac AppStore. Then execute: 
