@@ -3,16 +3,16 @@ layout: page
 title: Art
 permalink: /miscellany/art/
 ---
+Some of my favorite pieces are listed below. 
+ 
 # Classical Music: 
-## Chopin
-- [Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
-- [Ballade No.1 in G minor, Op.23](https://www.youtube.com/watch?v=BK42YaHaJ5M)
-- [Piano Concerto No. 1 E-minor, by Olga Scheps](https://www.youtube.com/watch?v=2bFo65szAP0)
-
-## Rachmaninoff
-- [Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
-- [Piano Concerto No.2 in C minor, Op.18, by Lang Lang](https://www.youtube.com/watch?v=e-x01ddG0x4) 
-- [Piano Trio "élégiaque" No. 1, by Lang Lang](https://www.youtube.com/watch?v=y7wrtcuF4WI)
+- [Chopin: Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
+- [Chopin: Ballade No.1 in G minor, Op.23](https://www.youtube.com/watch?v=BK42YaHaJ5M)
+- [Chopin: Piano Concerto No. 1 E-minor, by Olga Scheps](https://www.youtube.com/watch?v=2bFo65szAP0)
+- [Rachmaninoff: Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
+- [Rachmaninoff: Piano Concerto No.2 in C minor, Op.18, by Lang Lang](https://www.youtube.com/watch?v=e-x01ddG0x4) 
+- [Rachmaninoff: Piano Trio "élégiaque" No. 1, by Lang Lang](https://www.youtube.com/watch?v=y7wrtcuF4WI)
+- [Mozart: Piano Sonata K331 Theme, by Yidi](https://www.bilibili.com/video/BV1Ep4y1a79N)
 
 # Pop Music:
 - Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), [Neutron Star Collision](https://www.youtube.com/watch?v=MTvgnYGu9bg).
@@ -21,27 +21,13 @@ permalink: /miscellany/art/
 - Sam Smith: [Stay With Me](https://www.youtube.com/watch?v=pB-5XG-DbAA), [I'm not the Only One](https://www.youtube.com/watch?v=7NMhjmLGRak).
 - Taylor Swift: [Riptide](https://www.youtube.com/watch?v=2GGRdwfhl-U).
 - [Jangan Menyerah](https://www.youtube.com/watch?v=mTp-OxfkCao): Beautiful Indonesian music! It encouraged me many times when I'm depressed.
+- 逃跑计划: [闪光的回忆 Shining Memories](https://www.youtube.com/watch?v=kTHhOQJRHNU)
+- 朴树：[猎户星座 Orion](https://www.youtube.com/watch?v=IYJaUV0VLkE)
+- 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
+- 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
 
 {% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
 
-# Japanese Music:
-- 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
-- 君の名は。: [Zenzenzense](https://www.youtube.com/watch?v=klUWEKZJ4XY)
-- 東京喰種: [Unravel](https://www.bilibili.com/video/av29987777?from=search&seid=16925963579140350770), [Unravel Piano Cover](https://www.youtube.com/watch?v=sEQf5lcnj_o)
-
-# Chinese Music:
-- 逃跑计划: [闪光的回忆 Shining Memories](https://www.youtube.com/watch?v=kTHhOQJRHNU), [Brightest Star in the Sky](https://www.youtube.com/watch?v=mSO3e1N8lLU)
-
-- 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
-
-# Visual Art:
-- My (very first) Vlog: Yale Art Gallery Tour
-
-<center>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-<br>
 
 # Prose:
 
@@ -58,6 +44,26 @@ permalink: /miscellany/art/
 **苞之生二十六年矣。使蹉跎昏忽，常如既往，则由此而四十、五十，岂有难哉！无所得于身，无所得于后，是将与众人同其蔑蔑也。每念兹事，如沉疴之附其身，中夜起立，绕屋彷徨。仆夫童奴怪诧不知所谓。苞之心事，谁可告语哉？吾兄其安以为苞策哉！**
 
 吾兄得举。士友间鲜不相庆，而苞窃有惧焉。退之云：**“众人之进，未始不为退。”**愿时自觉也。苞迩者欲穷治诸经，破旧说之藩篱，而求其所以云之意。虽冒风雪，入逆旅，不敢一刻自废。日月迅迈，惟各勖励，以慰索居。苞顿首。
+
+
+# _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
+<center>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+
+
+<!---
+# Visual Art:
+- My (very first) Vlog: Yale Art Gallery Tour
+
+<center>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/Avr2rV1fRf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<br>
+
 
 # Poetry: 
 
@@ -108,9 +114,4 @@ And Eternity in an hour.
 
 by 吟游诗人
 
-# _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
-<center>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+-->
