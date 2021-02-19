@@ -57,16 +57,12 @@ $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$.
 ```
 
 1. Install fitsio: `$ pip install fitsio`
-
 2. Install emcee: `$ pip install emcee`
-
 3. Install Homebrew: `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
 4. Using Homebrew to install cairo: `$ brew install cairo`
-
 5. Install jpeg: `$ brew install jpge`
-
-6. Add these paths to your `.bash_profile`:
+6. Install eigen3: `$ brew install eigen3`
+7. Add these paths to your `.bash_profile`:
 ```python
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
 export LDFLAGS="-L/usr/local/opt/libffi/lib"
