@@ -6,6 +6,11 @@ author: Jiaxuan Li
 categories: Coding
 ---
 
+## Useful Resources
+### [MIT课程：计算机科学“补漏”课](https://www.bilibili.com/video/BV1aE41157q6)
+
+### [Python for Astronomers](https://prappleizer.github.io/)
+
 # Data Visualization
 
 ### [Book: Fundamentals of Data Visualization](https://serialmentor.com/dataviz/visualizing-amounts.html)
