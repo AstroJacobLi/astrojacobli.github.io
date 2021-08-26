@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>). I got my Bachelor's degree at <a class="pku_style" href="http://astro.pku.edu.cn ">Department of Astronomy,</a> <a class="pku_style" href="http://pku.edu.cn">Peking University</a> in 2020. I'm currently having a gap year and working at <a href="http://kiaa.pku.edu.cn/">Kavli Institute for Astronomy and Astrophysics, Peking University</a> (KIAA, PKU) as a research assistant. I will be a graduate student at <a class="princeton_style" href="https://web.astro.princeton.edu">Department of Astrophysical Sciences, Princeton University</a> in 2021.
+<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>), a graduate student at <a class="princeton_style" href="https://web.astro.princeton.edu">Department of Astrophysical Sciences, Princeton University</a>.
 <br>
 <br>
-
 I'm interested in a variety of topics in astronomy and astrophysics: galaxy formation and evolution, low surface brightness astrophysics, cosmology, deep sky surveys, statistical methods and machine learning, and astronomical instrumentation. 
 <br>
 <br>
@@ -22,8 +21,14 @@ Advised by <a href="http://kiaa.pku.edu.cn/people/yingjie-peng">Prof. Yingjie Pe
 <br>
 Except for observations, I'm looking forward to working on some theoretical problems. In the first two years of college, I was fascinated by statistical mechanics and non-linear physics. I studied Faraday pattern on the surface of non-newton fluid using a novel data processing approach. More details can be found on <a href="https://astrojacobli.github.io/research/"><strong>Research</strong> </a>.
 
+
+
+<!-- {% include image.html url="/images/anniversary1.jpg" caption="Me and 120 Anniversary of Peking University" width=300 align="right" %} 
+
 <center>
 {% include image.html url="/images/pku-astro.jpg" caption="Peking University Astronomy Family (2017)" width=850 align="center" %}
 </center>
 
-<!-- {% include image.html url="/images/anniversary1.jpg" caption="Me and 120 Anniversary of Peking University" width=300 align="right" %} --> 
+I got my Bachelor's degree at <a class="pku_style" href="http://astro.pku.edu.cn ">Department of Astronomy,</a> <a class="pku_style" href="http://pku.edu.cn">Peking University</a> in 2020. I'm currently having a gap year and working at <a href="http://kiaa.pku.edu.cn/">Kavli Institute for Astronomy and Astrophysics, Peking University</a> (KIAA, PKU) as a research assistant. 
+
+--> 
