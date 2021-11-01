@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Homepage of Jiaxuan Li 李嘉轩
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
-twitter_username: JiaxuanLiPKU
+twitter_username: AstroJacobLi
 github_username:  AstroJacobLi
 orcid: 0000-0001-9592-4190
 # Build settings
@@ -23,7 +23,7 @@ plugins:
   - jekyll-seo-tag
 # SEO stuff
 twitter:
-  username: JiaxuanLiPKU
+  username: AstroJacobLi
   card: summary
 # google_author: ""
 # google_site_verification: ""
