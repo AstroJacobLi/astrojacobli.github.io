@@ -4,6 +4,9 @@ title: Research
 permalink: /research/
 ---
 
+## [LINK TO MY PUBLICATIONS ON ADS](https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg)
+
+
 ## Astrophysics
 
 ### Multi-resolution filtering: an empirical method for isolating faint, extended emission in Dragonfly data and other low resolution images
@@ -30,18 +33,6 @@ We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mappi
 
 🔗<a class="tosu" href="https://astrojacobli.github.io/publications/JLi_et_al_inside_out_quenching_H_alpha_ring.pdf">Paper Draft</a>
 
-<br>
-
-## Physics
-### Quantifying Faraday Pattern and Onset Amplitude of Fluid with NMF and 2PCF Algorithms
-#### Author: Jiaxuan Li (PKU) & Xiaoyi Ouyang (PKU)
-
-{% include image.html url="/images/Faraday1.jpg" caption="Faraday patterns" width=400 align="right" %}
-We reviewed theories on weakly nonlinear region of Faraday pattern, arriving at an approximate expression for dispersion relation and a rough explanation for hysteresis. A common predicament concerning experiments of surface wave originates from quantification of physical quantities, e.g. wavelength. We intend to apply two algorithms (i.e. NMF and 2PCF) to quantify experimental data given their unique features. In order to test the algorithms' efficacy, we further investigate the _dipole_ oscillation pattern of milk under weak forcing and weak damping condition. Since dispersion relation is well-characterized in this case, we can compare dispersion relation obtained from NMF and 2PCF with the theoretical one. The fitted $$T/\rho$$ coincides with literature quite well. Then we focus on onset amplitude of Faraday waves and discuss on the source of unexpected hysteresis. The theoretical $$\Omega$$-$$k$$ relation and acceleration-$$\Omega$$ relation fit the experiment data well and parameters are in appropriate range.
-
-🔗<a class="tosu" href="https://astrojacobli.github.io/publications/Ouyang_et_al_Farady.pdf">Paper Draft</a>
-
-<br>
 <br>
 
 ## Software Development
