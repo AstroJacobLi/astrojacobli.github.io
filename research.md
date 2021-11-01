@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-## [LINK TO MY PUBLICATIONS ON ADS](https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg)
+#### [Link to my publications in ADS](https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg)
 
 
 ## Astrophysics
