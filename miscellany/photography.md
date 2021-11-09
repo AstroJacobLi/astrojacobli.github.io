@@ -32,6 +32,9 @@ div.desc {
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/194130474@N03" title=""><img src="https://live.staticflickr.com/65535/51662856318_742b971b83_c.jpg" width="800" height="600" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </center>
 
+<br>
+<br>
+
 <div class="gallery">
   <a target="_blank" href="/images/photo/IMG_8964.JPG">
     <img src="/images/photo/IMG_8964.JPG" alt="5Terre" width="600" height="400">
