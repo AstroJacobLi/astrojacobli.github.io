@@ -28,7 +28,9 @@ div.desc {
 </style>
 </head>
 
-<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/astrojacobli/albums/72157720170829945" title="B&amp;W Film"><img src="https://live.staticflickr.com/65535/51662632616_48cd92799d_z.jpg" width="640" height="480" alt="B&amp;W Film"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<center>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/194130474@N03" title=""><img src="https://live.staticflickr.com/65535/51662856318_742b971b83_c.jpg" width="800" height="600" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</center>
 
 <div class="gallery">
   <a target="_blank" href="/images/photo/IMG_8964.JPG">
