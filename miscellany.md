@@ -22,7 +22,7 @@ I also produced a short video called <strong>"_The Unknown Secrets of the Univer
 <iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
-I was fascinated by the beauty of the nature since I was a child. Fortunately, my parents bought me a telescope and a camera when I was 15 years old. The former makes me a (future) astronomer, and the later brings me a lot of joy. See some of the beautiful scenes in <a href="https://astrojacobli.github.io//miscellany/photography/"><strong>Photography</strong> </a>.
+I was fascinated by the beauty of the nature since I was a child. Fortunately, my parents bought me a telescope and a camera when I was 15 years old. The former makes me a (future) astronomer, and the later brings me a lot of joy. Recently I've been trying film photography. See some of the beautiful scenes in <a href="https://astrojacobli.github.io//miscellany/photography/"><strong>Photography</strong> </a>.
 
 {% include image.html url="/images/Davenport.JPG" caption="Sunset in Davenport, CA" width=700 align="center" %}
 

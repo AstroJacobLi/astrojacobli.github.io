@@ -28,7 +28,6 @@ div.desc {
 </style>
 </head>
 
-Recently I've been working on film photography. Check out some of my photos below:
 <center>
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/194130474@N03" title=""><img src="https://live.staticflickr.com/65535/51662856318_742b971b83_c.jpg" width="800" height="600" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </center>
@@ -99,10 +98,3 @@ Recently I've been working on film photography. Check out some of my photos belo
 </div>
 <br>
 
-
-### _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
-<center>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
-
-This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
