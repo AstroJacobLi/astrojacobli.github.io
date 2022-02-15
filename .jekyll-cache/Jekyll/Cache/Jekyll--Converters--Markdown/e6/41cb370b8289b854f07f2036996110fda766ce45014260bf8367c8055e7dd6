@@ -1,0 +1,296 @@
+I"�4<p><a href="https://physics.stackexchange.com/questions/166496/difference-between-gunn-peterson-trough-and-the-lyman-alpha-forest-cosmological">Gunn-Peterson Trough</a></p>
+
+<p><a href="https://arxiv.org/abs/1406.7292">Lyman Alpha Emitting Galaxies as a Probe of Reionization</a></p>
+
+<p><a href="https://arxiv.org/abs/astro-ph/0108097">Evidence for Reionization at z ~ 6: Detection of a Gunn-Peterson Trough in a z=6.28 Quasar</a></p>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+  <li>The context of galaxies (1)/Collision/Thermal states (2, 3)</li>
+  <li>Energy levels (4, 5) /Spectrum and transfer (6, 7)</li>
+  <li>Absorption of gas (8-10) /Radio propagation (11)</li>
+  <li>Reading</li>
+  <li>Radiation field(12), Ionization and recombination (13-16)</li>
+  <li>Ionization and recombination (17-18，19，20)</li>
+  <li>Reading</li>
+  <li>Dust/Heating and cooling (21-28)</li>
+  <li>Reading</li>
+  <li>HI clouds (29, 30)</li>
+  <li>Molecular clouds (32, 33)</li>
+  <li>Reading</li>
+  <li>Hot gas (34-40)</li>
+  <li>Star formation (41, 42)</li>
+  <li>Reading</li>
+  <li>Textbook: <a href="https://astrojacobli.github.io/astro-ph/ISM/Draine.pdf">Physics of the Interstellar and Intergalactic Medium</a> by Bruce T. Draine.</li>
+</ul>
+
+<h1 id="reading-and-viewing-material">Reading and viewing material:</h1>
+<h3 id="the-context-of-galaxies-1collisionthermal-states-2-3">The context of galaxies (1)/Collision/Thermal states (2, 3)</h3>
+
+<p>Adam Leory: Observing the Multiple Phases of the ISM in Nearby Galaxies</p>
+
+<p>40 min, conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference Honoring the Contributions of Richard Crutcher &amp; Carl Heiles, May 23-26, 2016, Madison, WI, USA
+( https://www.youtube.com/watch?v=gk-w7kgKnVc&amp;list=PLR0icYcBhA7Rv-QymeskXF15Kd-Mnh_T2&amp;index=1 )</p>
+
+<h3 id="energy-levels-4-5-spectrum-and-transfer-6-7">Energy levels (4, 5) /Spectrum and transfer (6, 7)</h3>
+
+<p>Exploring the Milky Way — Prof Naomi McClure Griffiths, ISS2015</p>
+
+<p>The Professor Harry Messel International Science School
+(https://www.youtube.com/watch?v=NVAz6dcSK0M)</p>
+
+<h3 id="absorption-of-gas-8-10-radio-propagation-11">Absorption of gas (8-10) /Radio propagation (11)</h3>
+
+<p>Naomi McClure-Griffiths : Key Results from HI Surveys over the Decades  (35 min)</p>
+
+<p>Conference: Star Formation, Magnetic Fields, and Diffuse Matter in the Galaxy: A Conference 
+(https://www.youtube.com/watch?v=5fXpJIY6igE)</p>
+
+<p>The Future of Time domain Radio astronomy
+https://video.tau.ac.il/events/index.php?option=com_k2&amp;view=item&amp;id=7725:the-future-of-time-domain-radio-astronomy&amp;Itemid=561</p>
+
+<p>( https://video.tau.ac.il/events/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=1329:astronomy-symposium&amp;Itemid=561 )</p>
+
+<h3 id="reading">Reading</h3>
+
+<p>HI Science with the Square Kilometre Array (Staveley-Smith &amp; Oosterloo 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.167S</p>
+
+<p>Galactic and Magellanic Evolution with the SKA (McClure-Griffiths, N. et al. 2015):
+ http://adsabs.harvard.edu/abs/2015aska.confE.130M</p>
+
+<p>Observations of the Intergalactic Medium and the Cosmic Web in the SKA era (Popping et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.132P</p>
+
+<p>The SKA view of the Neutral Interstellar Medium in Galaxies (de Blok et al. 2015)
+http://adsabs.harvard.edu/abs/2015arXiv150101211D</p>
+
+<p>Exploring Neutral Hydrogen and Galaxy Evolution with the SKA (Blyth et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.128B</p>
+
+<p>Cool Outflows and HI absorbers with SKA (Morganti, R. et al. 2015)
+http://adsabs.harvard.edu/abs/2015aska.confE.134M</p>
+
+<h3 id="radiation-fieldionization-and-recombination-12-20">Radiation field/Ionization and recombination (12-20)</h3>
+
+<h3 id="reading-1">Reading</h3>
+
+<p>Metallicity Calibrations and the Mass-Metallicity Relation for Star-forming Galaxies (Kewley+08)
+http://adsabs.harvard.edu/abs/2008ApJ…681.1183K</p>
+
+<p>The Cosmic BPT Diagram: Confronting Theory with Observations (Kewley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774L..10K</p>
+
+<p>Theoretical Evolution of Optical Strong Lines across Cosmic Time (Keyley+13)
+http://adsabs.harvard.edu/abs/2013ApJ…774..100K</p>
+
+<p>The host galaxies of active galactic nuclei (Kauffmann et al. 2003)
+http://adsabs.harvard.edu/abs/2003MNRAS.346.1055K</p>
+
+<p>The Origin of the Mass-Metallicity Relation: Insights from 53,000 Star-forming Galaxies in the Sloan Digital Sky Survey (Tremonti et al. 2004):
+http://adsabs.harvard.edu/abs/2004ApJ…613..898T</p>
+
+<p>The physical properties of star-forming galaxies in the low-redshift Universe (Brinchmann et al. 2004)
+http://adsabs.harvard.edu/abs/2004MNRAS.351.1151B</p>
+
+<p>HII Region Ionization of the Interstellar Medium  (14 min)
+https://www.youtube.com/watch?v=GwLVkcoXcnk</p>
+
+<h3 id="dust21-27">Dust(21-27)</h3>
+
+<p>Frank Summers:The Life Cycle of Dust in Galaxies
+(Hubble Public Lecture Series)
+https://www.youtube.com/watch?v=ONJP7G5O8PM</p>
+
+<p>Carolin Crawford: Star dust
+Gresham College Public Lecutre</p>
+
+<h3 id="reading-2">Reading</h3>
+<p>The CO-to-H2 Conversion Factor and Dust-to-gas Ratio on Kiloparsec Scales in Nearby Galaxies
+http://adsabs.harvard.edu/abs/2013ApJ…777….5S</p>
+
+<p>Mapping the cold dust temperatures and masses of nearby KINGFISH galaxies with Herschel
+http://adsabs.harvard.edu/abs/2012MNRAS.425..763G</p>
+
+<p>The Emission by Dust and Stars of Nearby Galaxies in the Herschel KINGFISH Survey
+http://adsabs.harvard.edu/abs/2011ApJ…738…89S</p>
+
+<p>Dust spectral energy distributions of nearby galaxies: an insight from the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2014A%26A…565A.128C</p>
+
+<p>The dust scaling relations of the Herschel Reference Survey
+http://adsabs.harvard.edu/abs/2012A%26A…540A..52C</p>
+
+<p>The Herschel Reference Survey: Dust in Early-type Galaxies and across the Hubble Sequence
+http://adsabs.harvard.edu/abs/2012ApJ…748..123S</p>
+
+<p>SINGS:
+https://ay201b.wordpress.com/spitzer-infrared-nearby-galaxies-survey/</p>
+
+<p>Star Formation in NGC 5194 (M51a): The Panchromatic View from GALEX to Spitzer
+http://adsabs.harvard.edu/abs/2005ApJ…633..871C</p>
+
+<p>Spitzer Infrared Nearby Galaxies Survey (SINGS) Imaging of NGC 7331: A Panchromatic View of a Ringed Galaxy
+http://adsabs.harvard.edu/abs/2004ApJS..154..204R</p>
+
+<p>The Opaque Nascent Starburst in NGC 1377: Spitzer SINGS Observations
+http://adsabs.harvard.edu/abs/2006ApJ…646..841R</p>
+
+<p>Dust and Atomic Gas in Dwarf Irregular Galaxies of the M81 Group: The SINGS and THINGS View
+http://adsabs.harvard.edu/abs/2007ApJ…661..102W</p>
+
+<p>Dust Masses, PAH Abundances, and Starlight Intensities in the SINGS Galaxy Sample
+http://adsabs.harvard.edu/abs/2007ApJ…663..866D</p>
+
+<p>Radial Distribution of Stars, Gas, and Dust in Sings Galaxies. II. Derived Dust Properties
+http://adsabs.harvard.edu/abs/2009ApJ…701.1965M</p>
+
+<p>Interstellar Polycyclic Aromatic Hydrocarbon Molecules
+(Tielens, A. 2008)
+http://adsabs.harvard.edu/abs/2008ARA%26A..46..289T</p>
+
+<p>Planck 2013 results. XI. All-sky model of thermal dust emission: 
+(Planck Collaboration)
+http://adsabs.harvard.edu/abs/2014A%26A…571A..11P</p>
+
+<p>The Dust Content and Opacity of Actively Star-forming Galaxies
+(Calzetti, D. et al. 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…533..682C</p>
+
+<p>A Simple Model for the Absorption of Starlight by Dust in Galaxies
+(Charlot &amp; Fall 2000)
+http://adsabs.harvard.edu/abs/2000ApJ…539..718C</p>
+
+<p>Herschel-ATLAS: rapid evolution of dust in galaxies over the last 5 billion years (Dunne et al. 2011)
+http://adsabs.harvard.edu/abs/2011MNRAS.417.1510D</p>
+
+<p>A Unified Representation of Gas-Phase Element Depletions in the Interstellar Medium (Jenkins 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…700.1299J</p>
+
+<h3 id="heating-and-cooling-of-hii-region-28-hi-clouds-29-30">Heating and cooling of HII region (28) HI clouds (29, 30)</h3>
+
+<h3 id="molecular-clouds-32-33">Molecular clouds (32, 33)</h3>
+
+<p>Matt McQuinn (University of Washington): Bok Prize Lecture: The Thermal Odyssey of the Photoionoized Intergalactic Medium
+CfA Colloquium
+(https://www.youtube.com/watch?v=rbIFawjyZ9s)</p>
+
+<p>Phillips Auditorium/ Dominik Riechers: Gas: A Prime Driver of Galaxy Evolution
+(https://www.youtube.com/watch?v=4Rkw9MuLRUI)</p>
+
+<p>David Neufeld (Johns Hopkins University): Small Interstellar Molecules and What They Tell Us
+CfA Colloquium (1 h)
+( https://www.youtube.com/watch?v=R5cOOkN2Xuk)</p>
+
+<p>Eric Herbst (University of Virginia): Interstellar Chemistry: Towards Large &amp; Larger Molecules
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=fRiE9wXu7eM)</p>
+
+<h3 id="reading-3">Reading</h3>
+
+<p>Neutral Atomic Phases of the Interstellar Medium in the Galaxy (Wolfire et al. 2003):
+http://adsabs.harvard.edu/abs/2003ApJ…587..278W</p>
+
+<p>The dark molecular gas (Wolfire et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…716.1191W</p>
+
+<p>Molecular clouds in the Milky Way (Heyer and Dame 2015, ARA&amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-082214-122324</p>
+
+<p>What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta</p>
+
+<p>Low CO Luminosities in dwarf galaxies (Schruba et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/143/6/138</p>
+
+<p>Gaseous Galaxy Halos (Putman, Peek &amp; Joung 2012, ARA&amp;A)
+https://www.annualreviews.org/doi/abs/10.1146/annurev-astro-081811-125612</p>
+
+<p>The shapes of the HI velocity profiles of the THINGS galaxies (Lanjamasimanana et al. 2012)
+http://iopscience.iop.org/article/10.1088/0004-6256/144/4/96</p>
+
+<p>The fine-scale structure of the neutral interstellar medium in nearby galaxies
+http://iopscience.iop.org/article/10.1088/0004-6256/141/1/23</p>
+
+<ol>
+  <li>
+    <p>What is driving the HI velocity dispersion? (Tomburro et a. 2009)
+http://iopscience.iop.org/article/10.1088/0004-6256/137/5/4424/meta</p>
+  </li>
+  <li>
+    <p>HI and CO velocity dispersions in nearby galaxies (Mogotsi et al. 2016)
+http://iopscience.iop.org/article/10.3847/0004-6256/151/1/15</p>
+  </li>
+  <li>
+    <p>H I Power Spectra and the Turbulent Interstellar Medium of Dwarf Irregular Galaxies (Zhang et al. 2012)
+http://adsabs.harvard.edu/abs/2012ApJ…754…29Z</p>
+  </li>
+  <li>
+    <p>The radial variation of HI velocity dispersion in dwarfs and spirals (Lanjamasimanana et al. 2015)
+http://iopscience.iop.org/article/10.1088/0004-6256/150/2/47</p>
+  </li>
+  <li>
+    <p>The morphology and kinematics of neutral hydrogen in the vicinity of z = 0 galaxies with Milky Way masses - a study with the Illustris simulation (Kauffmann 2016)
+http://adsabs.harvard.edu/abs/2016MNRAS.462.3751K</p>
+  </li>
+</ol>
+
+<p>The Evolving Interstellar Medium of Star-forming Galaxies since z = 2 as Probed by Their Infrared Spectral Energy Distributions 
+http://adsabs.harvard.edu/abs/2012ApJ…760….6M</p>
+
+<h3 id="hot-gas-34-40">Hot gas (34-40)</h3>
+<p>Brant Robertson (University of Arizona): Bok Prize Lecture: New Insights into Astrophysical Turbulence
+CfA Colloquium (1h)
+(https://www.youtube.com/watch?v=MFRbZ1NTrmk)</p>
+
+<h3 id="star-formation-41-42">Star formation (41, 42)</h3>
+
+<p>William Blair: A Multi-wavelength View of Stellar Life and Death in M83
+1 h, Hubble Public Lecture Series
+( https://www.youtube.com/watch?v=fRpl4I0ggOo )</p>
+
+<p>Carolin Crawford: The lives of stars,
+Gresham College Public Lecture</p>
+
+<p>Jason Kalirai (STScI): Stellar Astrophysics: 100 Years After Russell,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=zKFHlveJzK8)</p>
+
+<p>Daniel P. Marrone (University of Arizona): Bok Prize Lecture: Star Formation and Molecular Gas in the First Three Billion Years,
+CfA Colloquium (1 h)
+(https://www.youtube.com/watch?v=UK1s4hhMaRk)</p>
+
+<p>Mark Krumholz Formation of molecular clouds and global conditions for star formation
+https://www.youtube.com/watch?v=NpUJnROpRc0</p>
+
+<h3 id="reading-4">Reading</h3>
+<p>Star formation in the Milky Way and Nearby galaxies (Kennicutt &amp; Evans 2012)
+http://adsabs.harvard.edu/abs/2012ARA%26A..50..531K</p>
+
+<p>The star formation law in nearby galaxies on sub-kpc scales (Bigiel et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2846</p>
+
+<p>The star formation efficiency in nearby galaxies: measuring where gas forms stars effectively (Leroy et al. 2008)
+http://iopscience.iop.org/article/10.1088/0004-6256/136/6/2782</p>
+
+<p>The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K</p>
+
+<p>The star formation law in molecular-poor galaxies (Krumholz 2013)
+http://adsabs.harvard.edu/abs/2013MNRAS.436.2747K</p>
+
+<p>Regulation of star formation rates in multiphase galactic disks: A thermal/dynmical equilibrium model (Ostriker et al. 2010)
+http://adsabs.harvard.edu/abs/2010ApJ…721..975O</p>
+
+<p>The Star formation law in atomic and molecular gas (Krumholz, Mckee &amp; Tumlinson 2009)
+http://adsabs.harvard.edu/abs/2009ApJ…699..850K</p>
+
+<p>Star formation in molecular clouds (Krumholz2011)
+http://adsabs.harvard.edu/abs/2011AIPC.1386….9K</p>
+
+<p>A molecular star formation law in the atomic gas dominated regime in nearby galaxies (Schruba et al. 2011)
+http://iopscience.iop.org/article/10.1088/0004-6256/142/2/37</p>
+
+<p>The evolution of the dust and gas content in galaxies (Santini et al. 2014)
+http://adsabs.harvard.edu/abs/2014A%26A…562A..30S</p>
+:ET

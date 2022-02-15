@@ -13,11 +13,9 @@
 - title: "Miscellany"
   href: "/miscellany/"
   subcategories:
-    - subtitle: "Art"
-      subhref: "/miscellany/art/"
-    - subtitle: "Cooking"
-      subhref: "/miscellany/cooking/"
     - subtitle: "Photography"
       subhref: "/miscellany/photography"
+    - subtitle: "Cooking"
+      subhref: "/miscellany/cooking/"
     - subtitle: "Links"
       subhref: "/miscellany/links"

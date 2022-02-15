@@ -30,7 +30,7 @@ div.desc {
 
 Recently I've been working on film photography. Check out some of my photos below:
 <center>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/194130474@N03" title=""><img src="https://live.staticflickr.com/65535/51662856318_742b971b83_c.jpg" width="800" height="600" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/194130474@N03" title=""><img src="https://live.staticflickr.com/65535/51880594965_bdf1100ec3_z.jpg" width="800" height="600" alt=""></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </center>
 
 <br>

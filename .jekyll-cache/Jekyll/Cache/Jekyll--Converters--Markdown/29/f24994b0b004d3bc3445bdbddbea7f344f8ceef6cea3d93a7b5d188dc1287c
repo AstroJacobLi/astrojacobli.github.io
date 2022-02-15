@@ -1,0 +1,121 @@
+I")<h1 id="optical-surveys">Optical Surveys</h1>
+
+<h2 id="sdss">SDSS</h2>
+<p>The Sloan Digital Sky Survey has created the most detailed three-dimensional maps of the Universe ever made, with deep multi-color images of one third of the sky, and spectra for more than three million astronomical objects. Learn and explore all phases and surveys—past, present, and future—of the SDSS.</p>
+
+<p>It’s just 20 years old. See <a href="https://www.sdss.org/press-releases/sdss20/">
+<a href="https://twitter.com/sdssurveys/status/994412430167040000?s=21">The first high-z quasar of SDSS</a> was observed by Xiaohui Fan and Micheal Strauss on the Thanksgiving morning, 1998.</a></p>
+
+<ul>
+  <li><a href="http://skyserver.sdss.org/dr14/en/home.aspx">DR 14 site</a></li>
+  <li><a href="http://skyserver.sdss.org/dr14/en/tools/chart/navi.aspx">Navigate</a></li>
+  <li><a href="http://skyserver.sdss.org/dr14/en/tools/search/searchhome.aspx">Search</a></li>
+  <li><a href="https://www.sdss.org/dr12/tutorials/">Overview of Tutorial</a></li>
+  <li><a href="http://shuang-astronomy.wikia.com/wiki/SDSS_Image_Analysis">SDSS Image Analysis</a></li>
+  <li><a href="https://wwwmpa.mpa-garching.mpg.de/SDSS/DR7/#derived">MPA-JHU DR7 catalogs</a></li>
+</ul>
+
+<h2 id="des">DES</h2>
+<p>The <a href="http://www.darkenergysurvey.org/">Dark Energy Survey</a> (DES) is a visible and near-infrared survey that aims to probe the dynamics of the expansion of the Universe and the growth of large-scale structure. The survey uses the 4-meter Victor M. Blanco Telescope located at Cerro Tololo Inter-American Observatory (CTIO) in Chile. It uses g, r, i, z, and Y bands. DECam has one of the widest fields of view (2.2-degree diameter) available for ground-based optical and infrared imaging.</p>
+
+<p>It can do: <a href="https://arxiv.org/abs/1811.02376v1">supernovae cosmology</a>, BAO, galaxy cluster finder, <a href="https://arxiv.org/abs/1708.01530">weak lensing</a>, etc.</p>
+
+<p>I uses <a href="http://legacysurvey.org/decamls/">DECaLS</a> (DECam Legacy Survey). Dustin Lang made a wonderful <a href="http://legacysurvey.org/viewer#IC%20968">skyview map</a>. Currently DES is only a photometric survey.</p>
+
+<h2 id="hsc">HSC</h2>
+<p>The <a href="https://hsc.mtk.nao.ac.jp/ssp/">Hyper Suprime-Cam Subaru Strategic Program</a> (HSC-SSP) is led by the astronomical communities of Japan and Taiwan, and Princeton University. It’s a photometric survey for 1400 square degrees using Hyper Suprime-Cam mounted on 8.2m <a href="https://subarutelescope.org">Subaru Telescope</a>. It is now the seriously kicking-ass survey for galaxies and cosmology.</p>
+
+<p>The main science goals contain: <a href="https://arxiv.org/abs/1809.09148v1">weak lensing cosmology</a>, high-z galaxies, general galaxy formation and evolution (like <a href="https://arxiv.org/abs/1811.01139v1">stellar-halo connection</a>), etc.</p>
+
+<p>HSC data entrance: <a href="https://hscdata.mtk.nao.ac.jp/hsc_ssp/">https://hscdata.mtk.nao.ac.jp/hsc_ssp/</a></p>
+
+<p>SQL: <a href="https://hscdata.mtk.nao.ac.jp/datasearch/">https://hscdata.mtk.nao.ac.jp/datasearch/</a></p>
+
+<p>Image cutout: <a href="https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/">https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/</a></p>
+
+<p>PSF model: <a href="https://hscdata.mtk.nao.ac.jp/das_quarry/dr2.1/">https://hscdata.mtk.nao.ac.jp/psf/6/</a></p>
+
+<p>SkyMap: <a href="https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap">https://hscdata.mtk.nao.ac.jp/hsc_ssp/dr2/s18a/hscMap</a></p>
+
+<p>HSC Public DR2: <a href="https://hsc-release.mtk.nao.ac.jp/doc/">https://hsc-release.mtk.nao.ac.jp/doc/</a></p>
+
+<ol>
+  <li>Header: <code class="language-plaintext highlighter-rouge">ra</code>, <code class="language-plaintext highlighter-rouge">dec</code>, <code class="language-plaintext highlighter-rouge">layer</code> (such as <code class="language-plaintext highlighter-rouge">s18a-wide</code>), <code class="language-plaintext highlighter-rouge">z_spec</code>, <code class="language-plaintext highlighter-rouge">z_phot</code>, etc.</li>
+  <li><code class="language-plaintext highlighter-rouge">i-band</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">image</code></li>
+      <li><code class="language-plaintext highlighter-rouge">image_header</code></li>
+      <li><code class="language-plaintext highlighter-rouge">hsc_mask</code> (This is the binary mask produced by HSC pipeline)</li>
+      <li><code class="language-plaintext highlighter-rouge">hsc_mask_header</code></li>
+      <li><code class="language-plaintext highlighter-rouge">variance</code></li>
+      <li><code class="language-plaintext highlighter-rouge">variance_header</code></li>
+      <li><code class="language-plaintext highlighter-rouge">mask</code> (This is the mask used for ELLIPSE)</li>
+      <li><code class="language-plaintext highlighter-rouge">ell_free</code></li>
+      <li><code class="language-plaintext highlighter-rouge">ell_fix</code></li>
+      <li><code class="language-plaintext highlighter-rouge">info</code>
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">img_size</code>: size in pix, such as [1000, 1000]</li>
+          <li><code class="language-plaintext highlighter-rouge">m10</code> or <code class="language-plaintext highlighter-rouge">m100</code></li>
+          <li><code class="language-plaintext highlighter-rouge">bad_mask</code>: if the center of galaxy is obscured by mask</li>
+          <li><code class="language-plaintext highlighter-rouge">mean_interval</code>: such as 20 kpc - 50 kpc</li>
+          <li><code class="language-plaintext highlighter-rouge">mean_e</code>: mean ellipticity within <code class="language-plaintext highlighter-rouge">mean_interval</code></li>
+          <li><code class="language-plaintext highlighter-rouge">mean_pa</code>: mean PA within <code class="language-plaintext highlighter-rouge">mean_interval</code></li>
+          <li><code class="language-plaintext highlighter-rouge">global_bkg</code>: the background measured by <code class="language-plaintext highlighter-rouge">sep</code> after masking out satellittes</li>
+          <li><code class="language-plaintext highlighter-rouge">global_rms</code>: the <code class="language-plaintext highlighter-rouge">rms</code> measured by <code class="language-plaintext highlighter-rouge">sep</code></li>
+          <li><code class="language-plaintext highlighter-rouge">mean_skyobj</code>: the mean value of <code class="language-plaintext highlighter-rouge">skyobj</code> within [1 arcmin, 3 arcmin] and 8.4 arcsec.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">r-band</code></li>
+  <li><code class="language-plaintext highlighter-rouge">g-band</code></li>
+</ol>
+
+<h2 id="dragonfly">Dragonfly</h2>
+
+<p><a href="http://iopscience.iop.org/article/10.1086/674875/pdf"></a></p>
+
+<ul>
+  <li>Canon 400mm f/2.8 IS II lens + SBIG STF-8300M CCD</li>
+  <li>Aperture: D = 134 mm</li>
+  <li>CCD: 3326 × 2504 pixels, 43% efficiency in R and G, 2.8”/pixel, 2.6 deg*1.9 deg FOV.</li>
+  <li>Read noise: 10 electrons. Gain: 0.37 electrons/ADU.</li>
+  <li>Dark noise: 0.04 electrons/s.</li>
+  <li>Tracking error: rms = 1.5”.</li>
+</ul>
+
+<h2 id="redshift-surveys">Redshift surveys</h2>
+
+<p><a href="https://ui.adsabs.harvard.edu/#abs/2012yCat..21990026H/abstract">2MASS</a>
+<a href="https://ui.adsabs.harvard.edu/#abs/2010yCat..73990683J/abstract">6dF</a></p>
+
+<h1 id="transient-surveys">Transient Surveys</h1>
+<h2 id="pan-starrs">Pan-STARRS</h2>
+<p>Panoramic Survey Telescope and Rapid Response System (Pan-STARRS) is a well calibrated telescope for transient surveys.</p>
+
+<h1 id="ifu-surveys">IFU Surveys</h1>
+<h2 id="manga-survey">MaNGA survey</h2>
+<p>The current data release is v2_1_2, containing ~2700 galaxies with redshift ranges from 0 to 0.15.</p>
+<ul>
+  <li><a href="https://www.sdss.org/dr13/manga/">MaNGA survey overview</a></li>
+  <li><a href="https://dr15.sdss.org/marvin/">Marvin: a tool specifically designed to visualise and analyse MaNGA data.</a></li>
+  <li><a href="https://data.sdss.org/sas/dr14/manga/spectro/redux/v2_1_2/drpall-v2_1_2.fits">Summary information about MaNGA objects (<code class="language-plaintext highlighter-rouge">fits</code> file)</a>. You can search in this file whether your objects are contained in current MaNGA data release. You can also using SDSS <code class="language-plaintext highlighter-rouge">navigate</code> and <code class="language-plaintext highlighter-rouge">explore</code> tool to see whether your objects are contained in MaNGA.</li>
+  <li><a href="https://www.sdss.org/dr14/data_access/value-added-catalogs/?vac_id=manga-pipe3d-value-added-catalog-spatially-resolved-and-integrated-properties-of-galaxies">MaNGA Pipe3D Value-Added-Catalogue</a> by Sanchez et al. This is what I use in my research. This VAC catalog contains the physical properties and also information of gas emission lines. _Note: The SFR in this catalog is calculated by summing up H⍺ SFR of every spaxel in the FOV. So the genuine SFR must be larger. The IMF used here is Salpeter, while the most prevalent IMF is Kroupa IMF.</li>
+  <li><a href="https://data.sdss.org/sas/dr14/manga/spectro/pipe3d/v2_1_2/2.1.2/">MaNGA cube files</a>, if you want to study the properties of specific galaxies.</li>
+</ul>
+
+<h2 id="sami-survey">SAMI survey</h2>
+<ul>
+  <li><a href="https://sami-survey.org">SAMI survey overview</a></li>
+  <li><a href="https://sami-survey.org/system/files/attachments/403/sami_sel_20140413_v1.9_publiclist">SAMI objects list</a>: can be opened with <code class="language-plaintext highlighter-rouge">.txt</code> using TOPCAT.</li>
+  <li><a href="https://datacentral.org.au/services/sov/">SAMI single object viewer</a>: better GUI than MaNGA. After finding your objects in the SAMI objects list, you can just input the <code class="language-plaintext highlighter-rouge">CATID</code>, then related files can be downloaded.</li>
+  <li><a href="https://datacentral.org.au/services/query/">SAMI data query using SQL</a></li>
+</ul>
+
+<h2 id="califa-survey">CALIFA survey</h2>
+<ul>
+  <li><a href="http://califa.caha.es">CALIFA overview</a></li>
+  <li><a href="http://www.caha.es/CALIFA/public_html/?q=content/califa-3rd-data-release-searching-tool-mac-users">CALIFA DR3 search tool</a></li>
+  <li><a href="https://academic.oup.com/mnras/article-abstract/471/3/3727/3979019">PyCASSO database: spatially resolved stellar population properties for CALIFA galaxies</a></li>
+</ul>
+:ET

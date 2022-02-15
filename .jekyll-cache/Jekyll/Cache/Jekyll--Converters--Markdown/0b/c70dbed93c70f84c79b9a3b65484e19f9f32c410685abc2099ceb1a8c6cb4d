@@ -1,0 +1,277 @@
+I"�k<h1 id="astro-ph-reading-list-in-2018">Astro-ph Reading List in 2018</h1>
+
+<h2 id="120218---123118">12/02/18 - 12/31/18</h2>
+
+<h4 id="constraints-on-intragroup-stellar-mass-from-hostless-type-ia-supernovae"><a href="https://academic.oup.com/mnrasl/article/403/1/L79/1187683">Constraints on intragroup stellar mass from hostless Type Ia supernovae</a></h4>
+
+<h4 id="dark-energy-survey-year-1-results-detection-of-intra-cluster-light-at-redshift-zsim025"><a href="https://arxiv.org/pdf/1812.04004.pdf">DARK ENERGY SURVEY YEAR 1 RESULTS: DETECTION OF INTRA-CLUSTER LIGHT AT REDSHIFT $z\sim0.25$</a></h4>
+
+<h2 id="112618---120218">11/26/18 - 12/02/18</h2>
+
+<h4 id="mapreduce"><a href="https://en.wikipedia.org/wiki/MapReduce">Mapreduce</a></h4>
+
+<h4 id="starvation-as-the-primary-quenching-mechanism-in-galaxies"><a href="https://arxiv.org/abs/1811.09283v1">Starvation as the primary quenching mechanism in galaxies</a></h4>
+
+<h4 id="probing-planets-in-extragalactic-galaxies-using-quasar-microlensing"><a href="https://arxiv.org/abs/1802.00049">Probing Planets in Extragalactic Galaxies Using Quasar Microlensing</a></h4>
+
+<h4 id="crossing-the-line-active-galactic-nuclei-in-the-star-forming-region-of-the-bpt-diagram"><a href="https://arxiv.org/abs/1811.11755v1">Crossing the Line: Active Galactic Nuclei in the Star-forming region of the BPT Diagram</a></h4>
+
+<h4 id="photometric-and-spectroscopic-properties-of-type-ia-supernova-2018oh-with-early-excess-emission-from-the-kepler-2-observations-by-tsinghua-univ"><a href="https://arxiv.org/abs/1811.10056">Photometric and Spectroscopic Properties of Type Ia Supernova 2018oh with Early Excess Emission from the Kepler 2 Observations</a> by Tsinghua Univ.</h4>
+
+<h4 id="k2-observations-of-sn-2018oh-reveal-a-two-component-rising-light-curve-for-a-type-ia-supernova-by-ucsc"><a href="https://arxiv.org/abs/1811.10061v1">K2 Observations of SN 2018oh Reveal a Two-Component Rising Light Curve for a Type Ia Supernova</a> by UCSC</h4>
+
+<h4 id="seeing-double-asassn-18bt-exhibits-a-two-component-rise-in-the-early-time-k2-light-curve-by-carnegie"><a href="https://arxiv.org/abs/1807.11526">Seeing Double: ASASSN-18bt Exhibits a Two-Component Rise in the Early-Time K2 Light Curve</a> by Carnegie</h4>
+<hr />
+<h4 id="how-to-measure-galaxy-star-formation-histories-i-parametric-models"><a href="https://arxiv.org/abs/1811.03635">How to measure galaxy star-formation histories I: Parametric models</a></h4>
+
+<h4 id="how-to-measure-galaxy-star-formation-histories-ii-nonparametric-models"><a href="https://arxiv.org/abs/1811.03637">How to measure galaxy star formation histories II: Nonparametric models</a></h4>
+
+<h4 id="flexible-stellar-population-synthesis-for-python"><a href="http://dfm.io/python-fsps/current/#">Flexible Stellar Population Synthesis for Python</a></h4>
+
+<h4 id="prospector-python-code-for-stellar-population-inference-from-spectra-and-seds"><a href="https://github.com/bd-j/prospector">Prospector: Python code for Stellar Population Inference from Spectra and SEDs</a></h4>
+
+<h4 id="overview-of-stellar-population-synthesis"><a href="https://ned.ipac.caltech.edu/level5/Sept14/Conroy/Conroy2.html">OVERVIEW OF STELLAR POPULATION SYNTHESIS</a></h4>
+<hr />
+<h4 id="the-dark-matter-deficit-galaxies-in-hydrodynamical-simulations"><a href="https://arxiv.org/pdf/1811.09070v1.pdf">The dark matter deficit galaxies in hydrodynamical simulations</a></h4>
+<ul>
+  <li>Dwarf galaxies are really interesting, especially for its high DM content. But some DM deficient galaxies are found (like NGC1052-DF2 and DDO-50 in LITTLE-THINGS). The idea of this paper is: can we find these DM deficient galaxies in cosmological simulations?</li>
+  <li>They used Illustris and EAGLE, calculated DM ratio of satellite galaxies for \(M_*&gt;10^9M_\odot\). They find 2% - 5% galaxies are DMDGs.</li>
+  <li>The dark matter losses much faster than stellar mass from z=2 to z=0.1. The specific binding energy of DM is much higher than that of stars (DM is ‘hotter’ than stars). So they suggest: higher specific binding energy, higher loss of mass.</li>
+  <li>The reason of mass loss (especially DM mass loss) may be tidal disruption.</li>
+  <li>These DMDGs are very close to the central galaxies, which supports the previous point.</li>
+  <li>If this point is correct, DMDGs are not contradict with \(\Lambda\)CDM.</li>
+  <li>The details are quite ambiguous. They don’t say the stellar mass range of their sample, they only analyse one DMDG for Fig.2, 3, 4.</li>
+</ul>
+
+<h4 id="the-foundation-supernova-survey-measuring-cosmological-parameters-with-supernovae-from-a-single-telescope-by-d-jones-and-ryan-foley"><a href="https://arxiv.org/abs/1811.09286v1">The Foundation Supernova Survey: Measuring Cosmological Parameters with Supernovae from a Single Telescope</a> by D. Jones and Ryan Foley</h4>
+<ul>
+  <li>The Foundation Survey is a low-z SNe survey using Pan-STARRS telescope. By combining the Foundation sample with Pan-STARRS medium deep sample (MDS) (high-z sample), we can get a sample which only composed of data from single telescope.</li>
+  <li>Pan-STARRS is well calibrated. Crucial for the \(w\) of dark energy. Selection effects of different surveys in the legacy data are quite different. This paper has better selection effect correction.</li>
+  <li>The color and luminosity of SNe depend on the properties of host galaxies.</li>
+  <li>For high-z sample, the sample is contaminated by some core-collapse SNe, since not all SNe in the sample have spec-z.</li>
+  <li>Replace the low-z sample by the Foundation sample, \(w\) shifted about \(1\sigma\) from previous results. The ‘green’ and ‘orange’ dots use totally different data, but the results are consistent within \(1\sigma\).</li>
+  <li>This result is based on \(w\) doesn’t evolve, flat Universe, etc. If you allow \(w\) to evolve with redshift, it will be much different. \(w&gt;-1\) gets scalar field involved, while \(w&lt;-1\) maybe due to MOND.</li>
+</ul>
+
+<h4 id="splashback-radius-as-a-probe-of-cluster-physics-and-cosmology-talk-by-susmita-adhikari-kipac--stanford">Splashback radius as a probe of Cluster physics and Cosmology, talk by Susmita Adhikari (KIPAC / Stanford)</h4>
+<ul>
+  <li>Higher acceration rate, smaller splashback radius.</li>
+  <li>The background is expanding faster today than before. Lower z, smaller splashback radius.</li>
+  <li>High mass, more friction, smaller splashback radius.</li>
+  <li>What would happen if we have: MOND? hot DM? if no Lambda?</li>
+  <li>The observed splashback radius (SDSS, DES) is 20% smaller than that predicted by simulations. In observation, we don’t see any redshift and magnitude dependences, but we see that in simulations. Why?</li>
+</ul>
+
+<h2 id="111118---112518">11/11/18 - 11/25/18</h2>
+
+<h4 id="using-computer-vision-to-review-papers"><a href="https://vision.cornell.edu/se3/wp-content/uploads/2014/09/gestalt.pdf">Using computer vision to review papers</a></h4>
+
+<h4 id="early-dark-energy-can-resolve-the-hubble-tension-by-tristan-smith"><a href="https://arxiv.org/abs/1811.04083v1">Early dark energy can resolve the Hubble tension</a> by Tristan Smith</h4>
+
+<h4 id="sdss-iv-manga-the-roles-of-agn-and-dynamical-processes-in-star-formation-quenching-in-nearby-disk-galaxies-by-kexin-guo"><a href="https://arxiv.org/pdf/1811.01957.pdf">SDSS-IV MaNGA: The Roles of AGN and Dynamical Processes in Star Formation Quenching in Nearby Disk Galaxies</a> by Kexin Guo</h4>
+
+<h4 id="replacing-standard-galaxy-profiles-with-mixtures-of-gaussians-by-david-hogg-and-dustin-lang"><a href="http://adsabs.harvard.edu/abs/2013PASP..125..719H">Replacing Standard Galaxy Profiles with Mixtures of Gaussians</a> by David Hogg and Dustin Lang</h4>
+
+<h4 id="a-highly-consistent-framework-for-the-evolution-of-the-star-forming-main-sequence-from-z--0-6-by-josh-speagle"><a href="http://adsabs.harvard.edu/abs/2014ApJS..214...15S">A Highly Consistent Framework for the Evolution of the Star-Forming “Main Sequence” from z ~ 0-6</a> by Josh Speagle</h4>
+
+<h2 id="102918---110318">10/29/18 - 11/03/18</h2>
+
+<h4 id="using-convolutional-neural-networks-to-predict-galaxy-metallicity-from-three-color-images"><a href="https://arxiv.org/abs/1810.12913v1">Using convolutional neural networks to predict galaxy metallicity from three-color images</a></h4>
+
+<h4 id="revealing-environmental-dependence-of-molecular-gas-content-in-a-distant-x-ray-cluster-at-z251"><a href="https://arxiv.org/abs/1810.10558">Revealing environmental dependence of molecular gas content in a distant X-ray cluster at z=2.51</a></h4>
+
+<h4 id="dissecting-the-main-sequence-agn-activity-and-bulge-growth-in-the-local-universe"><a href="https://arxiv.org/abs/1810.10021">Dissecting the Main Sequence: AGN Activity and Bulge Growth in the Local Universe</a></h4>
+
+<h4 id="deblending-galaxy-superpositions-with-branched-generative-adversarial-networks"><a href="https://arxiv.org/abs/1810.10098">Deblending galaxy superpositions with branched generative adversarial networks</a></h4>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">GAN</a> (Generative Adversarial Networks) seems very popular in Machine Learning recently. GAN used to create an artificial oil painting portrait called <a href="https://en.wikipedia.org/wiki/Edmond_de_Belamy"><em>Edmond de Belamy</em></a> and <a href="https://edition.cnn.com/style/article/obvious-ai-art-christies-auction-smart-creativity/index.html">was auctioned by $432,500</a> in October 2018.</li>
+  <li>Using GAN, two guys at UCSC deblend galaxies. They trained the network using mock blended images based on Galaxy Zoo postage stamp images. The result is quite good! The network only takes a trivial amount of time to deblend galaxies on a laptop. But this method can only deblend galaxies into two segments now. The authors are working on improving it to deblend the arbitrary number of galaxies simultaneously.</li>
+</ul>
+
+<h4 id="what-does-a-successful-postdoctoral-fellowship-publication-record-look-like"><a href="https://arxiv.org/abs/1810.09505v2">What Does a Successful Postdoctoral Fellowship Publication Record Look Like?</a></h4>
+
+<ul>
+  <li>This paper shows how many papers that a successful postdoc fellowship owner should have. The mean number of first author papers is <a href="https://www.codecogs.com/eqnedit.php?latex=6\pm2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?6\pm2" title="6\pm2" /></a>, and mean of total papers is <a href="https://www.codecogs.com/eqnedit.php?latex=14\pm6" target="_blank"><img src="https://latex.codecogs.com/gif.latex?14\pm6" title="14\pm6" /></a>. The full range of first author papers is 1 to 15, and for all papers ranges from 2 to 76, indicating very diverse publication patterns. This paper tells us: 道阻且长！</li>
+</ul>
+
+<h4 id="the-interstellar-medium-of-dwarf-galaxies-new-insights-from-machine-learning-analysis-of-emission-line-spectra"><a href="https://arxiv.org/abs/1810.10548">The interstellar medium of dwarf galaxies: new insights from Machine Learning analysis of emission line spectra</a></h4>
+
+<h4 id="the-sami-galaxy-survey-comparing-3d-spectroscopic-observations-with-galaxies-from-cosmological-hydrodynamical-simulations"><a href="https://arxiv.org/abs/1810.10542">The SAMI Galaxy Survey: comparing 3D spectroscopic observations with galaxies from cosmological hydrodynamical simulations</a></h4>
+
+<ul>
+  <li>The authors compared many IFU survey (SAMI, ATLAS3D, CALIFA and MASSIVE) results with many simulations (EAGLE, HYDRANGEA, MEGNETICUM). They compared galaxy sizes (R_e), galaxy ellipticities, velocity dispersion and (Velocity/dispersion). The figures are clear and fancy. I definitely need to write some codes to plot this kind of figure.</li>
+</ul>
+
+<h4 id="the-gas-fractions-of-dark-matter-haloes-hosting-simulated-l-galaxies-are-governed-by-the-feedback-history-of-their-black-holes"><a href="https://arxiv.org/abs/1810.07696v1">The gas fractions of dark matter haloes hosting simulated ∼L⋆ galaxies are governed by the feedback history of their black holes</a></h4>
+
+<h2 id="102218---102818">10/22/18 - 10/28/18</h2>
+
+<h4 id="a-new-era-in-the-search-for-dark-matter"><a href="http://www.nature.com/articles/s41586-018-0542-z">A new era in the search for dark matter</a></h4>
+
+<h4 id="a-galaxy-lacking-dark-matter-by-dragonfly-project"><a href="https://www.nature.com/articles/nature25767">A galaxy lacking Dark Matter</a> by Dragonfly Project</h4>
+
+<ul>
+  <li>They used Dragonfly, MMT, Gemini North, HSC and Keck… In total they identified 10 GC-like objects around NGC 1052-DF2.</li>
+  <li>They measured stellar mass <a href="https://www.codecogs.com/eqnedit.php?latex=M_*&space;=&space;2.0\times10^8&space;M_\odot" target="_blank"><img src="https://latex.codecogs.com/gif.latex?M_*&space;=&space;2.0\times10^8&space;M_\odot" title="M_* = 2.0\times10^8 M_\odot" /></a> 
+and velocity dispersion 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_{intr}=3.2^{&plus;5.5}_{-3.2}\,\mathrm{km/s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma_{intr}=3.2^{&plus;5.5}_{-3.2}\,\mathrm{km/s}" title="\sigma_{intr}=3.2^{+5.5}_{-3.2}\,\mathrm{km/s}" /></a>, and total mass 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;M_{tot}=3.4\times10^{8}&space;M_\odot" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;M_{tot}=3.4\times10^{8}&space;M_\odot" title="M_{tot}=3.4\times10^{8} M_\odot" /></a>. 
+So dark matter ratio is very low.</li>
+  <li>Dragonfly team also applied KCWI time and have got IFU for this galaxy (NGC 1052-DF2) recently. Looking forward to new results!</li>
+</ul>
+
+<h4 id="current-velocity-data-on-dwarf-galaxy-ngc1052-df2-do-not-constrain-it-to-lack-dark-matter"><a href="https://arxiv.org/abs/1804.04136v1">Current velocity data on dwarf galaxy NGC1052-DF2 do not constrain it to lack dark matter</a></h4>
+
+<ul>
+  <li>This paper uses different prior probability in MCMC and derived larger velocity dispersion than PvD’s result.</li>
+  <li>In PvD, M/L ratio is assumed to be constant (=2). But, is it reasonable?</li>
+  <li>They randomly selected 10 GCs from M31 GC population and did the same measurement. The dispersion of derived halo mass is very large.</li>
+</ul>
+
+<h4 id="measured-and-found-wanting-reconciling-mass-estimates-of-ultra-diffuse-galaxies"><a href="https://arxiv.org/abs/1804.04139">Measured and found wanting: reconciling mass-estimates of ultra-diffuse galaxies</a></h4>
+
+<ul>
+  <li>The Fornax dSph, is a dwarf galaxy that has many red-giant star radial velocities measurement. So the total mass profile is well determined by these red-giant. Also, this galaxy has 5 GCs. So the authors used PvD’s method to this galaxy, and find that this galaxy can either ‘overmassive’, or ‘lacking dark matter’. The dispersion is really large.</li>
+  <li>The authors claimed that the analysis of velocity dispersion in PvD is biased. (I didn’t read it in detail)</li>
+  <li>The sample (N=10) is too small. I think this is the key point. If you can get a larger sample, you can do it better and more accurate.</li>
+  <li><strong>It’s very hard to measure the total mass of a dwarf galaxy. Dispersions are all very large.</strong></li>
+</ul>
+
+<h4 id="does-the-galaxy-ngc1052df2-falsify-milgromian-dynamics"><a href="https://www.nature.com/articles/s41586-018-0429-z">Does the galaxy NGC1052–DF2 falsify Milgromian dynamics?</a></h4>
+
+<ul>
+  <li>If MOND is correct, this kind of galaxy (without dark matter) can be explained if this dwarf is very closed to a giant galaxy. Actually, the separation is 113 kpc and the mass of host galaxy (NGC 1052) is <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;10^{11}&space;M_\odot" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;10^{11}&space;M_\odot" title="10^{11} M_\odot" /></a>.
+From the calculation, under this circumstance, MOND gives <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\sigma_{intr}\sim15\,\mathrm{km/s}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\sigma_{intr}\sim15\,\mathrm{km/s}" title="\sigma_{intr}\sim15\,\mathrm{km/s}" /></a>, which is only 2 sigma away from PvD’s result.</li>
+</ul>
+
+<h4 id="the-morphology-of-hα-emission-in-califa-galaxies"><a href="https://arxiv.org/abs/1810.08340">The Morphology of Hα emission in CALIFA galaxies</a></h4>
+
+<ul>
+  <li><strong>This paper is quite relevant to my previous work on MaNGA H-alpha ring galaxies.</strong> The morphology under emission lines can tell us some interesting things on both galaxy itself and the evolution. But this paper doesn’t tell much about the physics of galaxies.</li>
+  <li>Using CALIFA and Pipe3D, they classified 86 galaxies into CL (central Ha peak, late-type), CE (central Ha peak, early-type) and EX (Ha peak is in the outside of the central region).</li>
+  <li>They defined concentration using image moments, and they plotted 1-D profile of Ha flux.</li>
+  <li>They suggested EX objects are more evolved than CL galaxies. Their mean ages and metallicities are smaller for CL than for EX classes.</li>
+  <li>The format is bad, the plots are also ugly.</li>
+</ul>
+
+<h2 id="101518---102118">10/15/18 - 10/21/18</h2>
+
+<h4 id="a-deep-learning-approach-to-galaxy-cluster-x-ray-masses"><a href="https://arxiv.org/pdf/1810.07703.pdf">A Deep Learning Approach to Galaxy Cluster X-ray Masses</a></h4>
+
+<h4 id="a-giant-protocluster-of-galaxies-at-redshift-57-by-linhua-jiang"><a href="https://www.nature.com/articles/s41550-018-0587-9">A giant protocluster of galaxies at redshift 5.7</a> by Linhua Jiang</h4>
+
+<h4 id="barred-galaxies-in-cosmological-zoom-in-simulations-the-importance-of-feedback"><a href="https://arxiv.org/abs/1810.07701">Barred galaxies in cosmological zoom-in simulations: the importance of feedback</a></h4>
+
+<ul>
+  <li><a href="https://arxiv.org/pdf/1103.6030.pdf">Eris</a> suite simulations are first conducted by Piero Madau and his student Javiera Guedes. It is a zoom-in cosmological simulation focusing on several MW-like galaxies.</li>
+  <li>The stellar feedback contains gas cooling; SF model; SN feedback model; BH physics. Madau is an expert in gas cooling.</li>
+  <li>Eris2k has enhanced cooling, larger SF density threshold, different IMF, increased SN energy, and longer cooling shut-off time. While ErisBH includes the form of seeding, accretion, feedback, and merging of BHs. In one word, Eris2K has stronger stellar feedback than ErisBH.</li>
+  <li>Bar plays a crucial role in galaxy evolution. Transferring angular momentum, star, gas, etc. In Eris2k, bar grew quickly at z~1.1, then stays in a constant state. In ErisBH, bar keeps growing. Bar lengths are also different (Eris2k &gt; ErisBH).</li>
+  <li>The stronger stellar feedback in Eris2k has the effect of initially pushing the gas out of the galaxy, more effectively reducing the SF, and results, in turn, in an initial stellar mass smaller than that in ErisBH. The pushed-away gas flows back onto the main galaxy but, only when the disc is massive enough to prevent SN-driven massive gas ejections, Eris2k starts forming stars with high SF rate.</li>
+  <li>In conclusion, this study clearly highlights a link between the structural properties of bars (and of the whole discs) and the sub-resolution physics implemented in simulations.</li>
+</ul>
+
+<h4 id="gaia-cepheid-parallaxes-and-local-hole-relieve-h0-tension"><a href="https://arxiv.org/abs/1810.02595">GAIA Cepheid parallaxes and ‘Local Hole’ relieve H0 tension</a></h4>
+
+<ul>
+  <li>The author Shanks, uses another calibration standard (based on very remote quasar), compared to Riess. GAIA has a -29 \muas offset, based on quasar averaged of all sky. But Riess used a more negative offset. Note: corrected parallax  = measured parallax - offset, so Shanks got a smaller parallax, thus larger distance.</li>
+  <li>Shanks got a larger distance to many quasars, thus smaller <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>.</li>
+  <li>The “local void” can cause matter outflow. Thus nearby Ia SNe all suffers from an additional outflow velocity. Shanks used his data to calculate a larger outflow velocity. After correcting this velocity, the Hubble constant gets small.</li>
+  <li>Shanks claimed these corrections don’t show anything weird in Hubble diagram. But, Hubble diagram, is very, intriguing…</li>
+</ul>
+
+<h4 id="seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv181002595"><a href="https://ucsc.voxcharta.org/2018/10/08/seven-problems-with-the-claims-related-to-the-hubble-tension-in-arxiv1810-02595/">Seven Problems with the Claims Related to the Hubble Tension in arXiv:1810.02595</a></h4>
+
+<p>It’s still interesting to see this kind of contemporary “Great Debate”. I think the words of Adam Riess are very reasonable, at least more reasonable than Shanks.</p>
+
+<ul>
+  <li>Indeed, Cepheids’ distances measured using main sequence fitting method should not be used.</li>
+  <li>Saturated Cepheids in GAIA should not be used, even for a simple test. They should not appear in Fig.1 of Shanks paper, for scientific rigor.</li>
+  <li>The most important thing in Shanks paper is the QSO-based parallax offset (29 \muas). But as GAIA guys said, this offset depends on color, magnitude, position in the sky. A large discrepancy was found in QSO samples. Worse, Shanks didn’t mention any uncertainty of this offset.</li>
+  <li>The ‘local hole’ is not well studied by others. “The conventional (i.e., frequentist) interpretation of a comparison where a model feature increases the total χ2 by 11.5 is that it is excluded with 3.4 σ confidence (99.99%).” Here I don’t think ‘local hole’ is a big issue. It won’t change <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a> a lot (as Riess said, 0.3% changing for <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>).</li>
+</ul>
+
+<h4 id="h0-tension-response-to-riess-et-al-arxiv181003526"><a href="https://arxiv.org/abs/1810.07628">H0 Tension: Response to Riess et al arXiv:1810.03526</a></h4>
+
+<p>Shanks responded to Riess for every item.</p>
+
+<ul>
+  <li>1) Unreasonable, powerless defense.</li>
+  <li>2) Actually for me, any hazardous data should not be used for a rigorous conclusion. <code class="language-plaintext highlighter-rouge">fractional distance difference is roughly constant with magnitude</code>… It seems GAIA data has many problems, but at least better than Hipparcos, isn’t it?</li>
+  <li>3) <em>*What is photometric parallax?*</em> I haven’t read Riess 2018b, but Shanks’s comments seem reasonable. Neither of them can say something certain on this offset. Actually, there is always something you don’t find out. You can ascribe any weird things to something unknown. Shanks also accused the circularity of Riess.</li>
+  <li>4) Do you believe the systematics of the offset = 1 \muas? I don’t believe.</li>
+  <li>5) This part doesn’t tell you anything. But Shanks is right, Riess cannot be too confident that GAIA DR2 confirm previous P-L relations.</li>
+  <li>6) This part is interesting. Allowing \Omega_m changing is good and reasonable.</li>
+  <li>7) Actually I don’t think the effect of local hole matters. The standard deviation of <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a> and <a href="https://www.codecogs.com/eqnedit.php?latex=\Omega_m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Omega_m" title="\Omega_m" /></a> is larger than this effect.</li>
+</ul>
+
+<p>From my perspective:</p>
+
+<ul>
+  <li>Right: GAIA DR2 cannot assure that Riess’s P-L relation is accurate.</li>
+  <li>Wrong: GAIA parallax offset cannot simply be -29 \muas.</li>
+</ul>
+
+<h2 id="101318-weekend-reading">10/13/18: Weekend Reading</h2>
+
+<h4 id="des-y1-cosmology">DES Y1 Cosmology:</h4>
+
+<p>• Dark Energy Survey Year 1 Results: Cross-correlation between DES Y1 galaxy weak lensing and SPT+Planck CMB weak lensing: https://arxiv.org/abs/1810.02441</p>
+
+<p>• Dark Energy Survey Year 1 Results: Constraints on Extended Cosmological Models from Galaxy Clustering and Weak Lensing: https://arxiv.org/abs/1810.02499</p>
+
+<p><img src="https://astrojacobli.github.io/astro-ph/des_cosmology_guide.png" alt="DES cosmology" /></p>
+
+<p>More things on lensing should be learned!!!</p>
+
+<h4 id="agn-evolution-from-a-galaxy-evolution-viewpoint"><a href="https://arxiv.org/pdf/1411.3719.pdf">AGN EVOLUTION FROM A GALAXY EVOLUTION VIEWPOINT</a></h4>
+
+<p>By Simon Lilly.</p>
+
+<h4 id="agn-evolution-from-galaxy-evolution-viewpoint---ii"><a href="https://arxiv.org/pdf/1810.04170.pdf">AGN EVOLUTION FROM GALAXY EVOLUTION VIEWPOINT - II</a></h4>
+
+<p>By Simon Lilly.</p>
+
+<h4 id="planck-2018-results-vi-cosmological-parameters"><a href="https://arxiv.org/abs/1807.06209">Planck 2018 results. VI. Cosmological parameters</a></h4>
+
+<ul>
+  <li>Planck parameters paper from this year.</li>
+</ul>
+
+<h4 id="planck-intermediate-results-li-features-in-the-cosmic-microwave-background-temperature-power-spectrum-and-shifts-in-cosmological-parameters"><a href="https://arxiv.org/abs/1608.02487">Planck intermediate results. LI. Features in the cosmic microwave background temperature power spectrum and shifts in cosmological parameters</a></h4>
+
+<ul>
+  <li>Internal consistency in the Planck data.</li>
+</ul>
+
+<h4 id="the-des-y1-catalogs-are-here-including-the-shape-catalogs-for-cosmology-analysis">[The DES Y1 catalogs are here, including the shape catalogs for cosmology analysis](</h4>
+
+<p>https://des.ncsa.illinois.edu/releases/y1a1)</p>
+
+<h4 id="lsst-dark-energy-school"><a href="http://www.lsst-desc.org/DEschool">LSST Dark Energy School</a></h4>
+
+<h2 id="100718">10/07/18</h2>
+
+<h4 id="the-physics-of-galaxy-cluster-outskirts-review-paper-to-read"><a href="https://arxiv.org/abs/1810.00890v1">The physics of galaxy cluster outskirts</a>: Review paper, <strong>To Read</strong></h4>
+
+<h2 id="100418">10/04/18</h2>
+
+<h4 id="mosfire-spectroscopy-of-quiescent-galaxies-at-15--z--25-ii---star-formation-histories-and-galaxy-quenching-to-read"><a href="https://ucsc.voxcharta.org/2018/10/01/mosfire-spectroscopy-of-quiescent-galaxies-at-1-5-z-2-5-ii-star-formation-histories-and-galaxy-quenching/">MOSFIRE Spectroscopy of Quiescent Galaxies at 1.5 &lt; z &lt; 2.5. II - Star Formation Histories and Galaxy Quenching</a> <strong>To Read</strong></h4>
+
+<h2 id="100118">10/01/18</h2>
+
+<h4 id="the-missing-light-of-the-hubble-ultra-deep-field"><a href="https://arxiv.org/abs/1810.00002">The missing light of the Hubble Ultra Deep Field</a></h4>
+
+<blockquote>
+  <p>Better reduction of HUDF region for low-surface brightness features. “I am not a big fan of the “NoiseChisel” method, but it looks like they have done a careful job.”</p>
+</blockquote>
+
+<h2 id="092418">09/24/18</h2>
+
+<h4 id="first-resolution-of-microlensed-images-to-read"><a href="https://pku.voxcharta.org/2018/09/24/first-resolution-of-microlensed-images/">First Resolution of Microlensed Images</a> <strong>To Read</strong></h4>
+
+<p>Vox Charta Key: jiaxuan_li@PKU</p>
+
+<p>Convert LaTeX to html gif picture: https://www.codecogs.com/latex/eqneditor.php</p>
+:ET
