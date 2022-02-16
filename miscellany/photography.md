@@ -36,6 +36,18 @@ Recently I've been working on film photography. Check out some of my photos belo
 <br>
 <br>
 
+
+
+### _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
+<center>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+
+
+
+<center>
 <div class="gallery">
   <a target="_blank" href="/images/photo/IMG_8964.JPG">
     <img src="/images/photo/IMG_8964.JPG" alt="5Terre" width="600" height="400">
@@ -97,12 +109,5 @@ Recently I've been working on film photography. Check out some of my photos belo
   </a>
   <div class="desc">Sunset with Subaru</div>
 </div>
-<br>
-
-
-### _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
-<center>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
-
-This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+<br>
