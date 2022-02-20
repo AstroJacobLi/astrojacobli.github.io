@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      dbar: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    }
+  }
+});
+</script>
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106001791-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106001791-2');
+  </script>
+  
+  <meta name="google-site-verification" content="dW5mXMbkY4MK952APZMO3_VkJwk9q6Rv1O8KgPZVidE" />
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"] }});
+  MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      md: "{\\text{d}}",
+      dbar: "{\\text{d}}",
+      bold: ["{\\bf #1}",1],
+      Abs: ['\\left\\lvert #2 \\right\\rvert_{\\text{#1}}', 2, ""]
+    	}
+  	}
+	});
+	</script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>普通物理实验</title>
+  <meta name="description" content="综合物理实验绪论特点：第一次开课；学生自主实验，教员退居后台；实验前后有半小时面谈时间；配备实验讲义。时间：周一、二、五下午，6组实验同时开放，实际上时间不受限制，工作日任何时间均可做实验，教员面谈时间可以约定。保证每周最少实验时间为3h，但每个时段不多于4h，实验做不完可以单另预约工作时间。安排：6组实验，每组...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/2018/03/phy-lab">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li 李嘉轩" href="http://localhost:4000/feed.xml" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="./images/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./images/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./images/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./images/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="./images/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="./images/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="./images/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="./images/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="./images/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="./images/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="./images/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="./images/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="./images/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="./images/favicon/mstile-310x310.png" />
+
+
+
+
+
+</head>
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>普通物理实验 | Jiaxuan Li 李嘉轩</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="普通物理实验" />
+<meta name="author" content="Jiaxuan Li" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="综合物理实验 绪论 特点：第一次开课；学生自主实验，教员退居后台；实验前后有半小时面谈时间；配备实验讲义。 时间：周一、二、五下午，6组实验同时开放，实际上时间不受限制，工作日任何时间均可做实验，教员面谈时间可以约定。保证每周最少实验时间为3h，但每个时段不多于4h，实验做不完可以单另预约工作时间。 安排：6组实验，每组实验有2套器材，其中一套为备用器材。面谈时间约30min。大致两周做完一次实验（机动）。实验期间可以相互讨论。前七周完成3个实验，第八周期中考核，第15周期末考核。 课程考核： 在实验时完成仪器调试、现象观察和数据采集； 每周试验后带上实验记录与教员面谈； 前半学期选择一组实验详细探究，完成一个研究报告（第八周之前）； 后半学期选择另一组实验详细探究，提交另一个研究报告（15周交）； 研究报告：论文格式（主流期刊格式）+ppt口头报告，各占一半。论文要注明参考期刊的名称。 成绩评定： 实验室成绩（40）：实验时间饱满，态度良好； 面谈成绩（20）：每周都有30min面谈，一共12次； 论文成绩（20）； 口头报告成绩（20）。 王伟老师：负责实验仪器及安全。 实验内容 实验一：光学成像与光信息处理（张朝晖） 实验二：迈克耳孙干涉仪与光学相关测量（张朝晖） 相关运算。引力波？傅里叶变换光谱仪。OCT（光学相干断层成像）（相衬法？）。 实验三：基于虚拟仪器技术的Franck-Hertz实验（李志） 虚拟仪器=计算机+测量，不是simulation。 两种思路：把计算机装入仪器；把仪器装入计算机（自动化数据采集）。 计算机，接口卡，控制软件（需要编写程序）。 结合网路可以远程控制，软件就是仪器。 语言：LABVIEW。 不同参数对曲线的影响；自由探索的空间。 注意100V高压！ 实验四：光力学效应及光镊实验（杨景） trap stiffness，黏滞阻力测量trap stiffness。（可以探索，仪器还未搭建好） 线偏振-&gt;定向 圆偏振-&gt;持续旋转 还可以做一些定量测量（比如转动惯量？） 实验五：一维周期弦链系统振动模式的研究（荀坤） 哈密顿量随时间变化：时间晶体 1 dimensional Ising Model？ 周期性是否完整？间距的误差？ 频谱的特性？反应晶体的特性。 Amplitude-Frequency diagram delta函数的近似性？ MathCAD数值计算程序，可读性很强。（正版，买了的） 表面态。 端态振动频率与端距的结果、带状振动谱（色散关系，动量-频率，\(p-\omega\)）。 只看笔记上记录的东西。 实验六：二维Farady斑图实验观察与研究（周路群）。 需要稀释 用水也能看出来 不同浓度的溶液 大容器的边界效应影响较小，小容器可以讨论边界效应。 90Hz下观察法拉第斑图。 表面张力重力波的色散关系。 法拉第斑图存在的条件。 定于周一上午/下午。 普通物理实验 (I) 引言： 一学期的普物实验已经结束了。收获不多也不少。下面是本学期的所有实验报告。印象最深的是李源老师、刘开辉老师和张熙博老师。 测量冰的熔化热 模拟示波器的使用 测量非线性元件的伏安特性 测量薄透镜的焦距 显微镜 测量误差和数据处理 测量金属的杨氏模量 复摆实验 测定介质中的声速 直流电桥测量电阻 非平衡电桥测量铂电阻的温度系数 霍尔效应测量磁场 弗兰克-赫兹实验 分光计的调节和掠入射法测量折射率 光衍射的定量研究 观察光的偏振现象 迈克耳孙干涉仪" />
+<meta property="og:description" content="综合物理实验 绪论 特点：第一次开课；学生自主实验，教员退居后台；实验前后有半小时面谈时间；配备实验讲义。 时间：周一、二、五下午，6组实验同时开放，实际上时间不受限制，工作日任何时间均可做实验，教员面谈时间可以约定。保证每周最少实验时间为3h，但每个时段不多于4h，实验做不完可以单另预约工作时间。 安排：6组实验，每组实验有2套器材，其中一套为备用器材。面谈时间约30min。大致两周做完一次实验（机动）。实验期间可以相互讨论。前七周完成3个实验，第八周期中考核，第15周期末考核。 课程考核： 在实验时完成仪器调试、现象观察和数据采集； 每周试验后带上实验记录与教员面谈； 前半学期选择一组实验详细探究，完成一个研究报告（第八周之前）； 后半学期选择另一组实验详细探究，提交另一个研究报告（15周交）； 研究报告：论文格式（主流期刊格式）+ppt口头报告，各占一半。论文要注明参考期刊的名称。 成绩评定： 实验室成绩（40）：实验时间饱满，态度良好； 面谈成绩（20）：每周都有30min面谈，一共12次； 论文成绩（20）； 口头报告成绩（20）。 王伟老师：负责实验仪器及安全。 实验内容 实验一：光学成像与光信息处理（张朝晖） 实验二：迈克耳孙干涉仪与光学相关测量（张朝晖） 相关运算。引力波？傅里叶变换光谱仪。OCT（光学相干断层成像）（相衬法？）。 实验三：基于虚拟仪器技术的Franck-Hertz实验（李志） 虚拟仪器=计算机+测量，不是simulation。 两种思路：把计算机装入仪器；把仪器装入计算机（自动化数据采集）。 计算机，接口卡，控制软件（需要编写程序）。 结合网路可以远程控制，软件就是仪器。 语言：LABVIEW。 不同参数对曲线的影响；自由探索的空间。 注意100V高压！ 实验四：光力学效应及光镊实验（杨景） trap stiffness，黏滞阻力测量trap stiffness。（可以探索，仪器还未搭建好） 线偏振-&gt;定向 圆偏振-&gt;持续旋转 还可以做一些定量测量（比如转动惯量？） 实验五：一维周期弦链系统振动模式的研究（荀坤） 哈密顿量随时间变化：时间晶体 1 dimensional Ising Model？ 周期性是否完整？间距的误差？ 频谱的特性？反应晶体的特性。 Amplitude-Frequency diagram delta函数的近似性？ MathCAD数值计算程序，可读性很强。（正版，买了的） 表面态。 端态振动频率与端距的结果、带状振动谱（色散关系，动量-频率，\(p-\omega\)）。 只看笔记上记录的东西。 实验六：二维Farady斑图实验观察与研究（周路群）。 需要稀释 用水也能看出来 不同浓度的溶液 大容器的边界效应影响较小，小容器可以讨论边界效应。 90Hz下观察法拉第斑图。 表面张力重力波的色散关系。 法拉第斑图存在的条件。 定于周一上午/下午。 普通物理实验 (I) 引言： 一学期的普物实验已经结束了。收获不多也不少。下面是本学期的所有实验报告。印象最深的是李源老师、刘开辉老师和张熙博老师。 测量冰的熔化热 模拟示波器的使用 测量非线性元件的伏安特性 测量薄透镜的焦距 显微镜 测量误差和数据处理 测量金属的杨氏模量 复摆实验 测定介质中的声速 直流电桥测量电阻 非平衡电桥测量铂电阻的温度系数 霍尔效应测量磁场 弗兰克-赫兹实验 分光计的调节和掠入射法测量折射率 光衍射的定量研究 观察光的偏振现象 迈克耳孙干涉仪" />
+<link rel="canonical" href="http://localhost:4000/blog/2018/03/phy-lab" />
+<meta property="og:url" content="http://localhost:4000/blog/2018/03/phy-lab" />
+<meta property="og:site_name" content="Jiaxuan Li 李嘉轩" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-03-02T15:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="普通物理实验" />
+<meta name="twitter:site" content="@AstroJacobLi" />
+<meta name="twitter:creator" content="@Jiaxuan Li" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jiaxuan Li"},"dateModified":"2018-03-02T15:00:00-05:00","datePublished":"2018-03-02T15:00:00-05:00","description":"综合物理实验 绪论 特点：第一次开课；学生自主实验，教员退居后台；实验前后有半小时面谈时间；配备实验讲义。 时间：周一、二、五下午，6组实验同时开放，实际上时间不受限制，工作日任何时间均可做实验，教员面谈时间可以约定。保证每周最少实验时间为3h，但每个时段不多于4h，实验做不完可以单另预约工作时间。 安排：6组实验，每组实验有2套器材，其中一套为备用器材。面谈时间约30min。大致两周做完一次实验（机动）。实验期间可以相互讨论。前七周完成3个实验，第八周期中考核，第15周期末考核。 课程考核： 在实验时完成仪器调试、现象观察和数据采集； 每周试验后带上实验记录与教员面谈； 前半学期选择一组实验详细探究，完成一个研究报告（第八周之前）； 后半学期选择另一组实验详细探究，提交另一个研究报告（15周交）； 研究报告：论文格式（主流期刊格式）+ppt口头报告，各占一半。论文要注明参考期刊的名称。 成绩评定： 实验室成绩（40）：实验时间饱满，态度良好； 面谈成绩（20）：每周都有30min面谈，一共12次； 论文成绩（20）； 口头报告成绩（20）。 王伟老师：负责实验仪器及安全。 实验内容 实验一：光学成像与光信息处理（张朝晖） 实验二：迈克耳孙干涉仪与光学相关测量（张朝晖） 相关运算。引力波？傅里叶变换光谱仪。OCT（光学相干断层成像）（相衬法？）。 实验三：基于虚拟仪器技术的Franck-Hertz实验（李志） 虚拟仪器=计算机+测量，不是simulation。 两种思路：把计算机装入仪器；把仪器装入计算机（自动化数据采集）。 计算机，接口卡，控制软件（需要编写程序）。 结合网路可以远程控制，软件就是仪器。 语言：LABVIEW。 不同参数对曲线的影响；自由探索的空间。 注意100V高压！ 实验四：光力学效应及光镊实验（杨景） trap stiffness，黏滞阻力测量trap stiffness。（可以探索，仪器还未搭建好） 线偏振-&gt;定向 圆偏振-&gt;持续旋转 还可以做一些定量测量（比如转动惯量？） 实验五：一维周期弦链系统振动模式的研究（荀坤） 哈密顿量随时间变化：时间晶体 1 dimensional Ising Model？ 周期性是否完整？间距的误差？ 频谱的特性？反应晶体的特性。 Amplitude-Frequency diagram delta函数的近似性？ MathCAD数值计算程序，可读性很强。（正版，买了的） 表面态。 端态振动频率与端距的结果、带状振动谱（色散关系，动量-频率，\\(p-\\omega\\)）。 只看笔记上记录的东西。 实验六：二维Farady斑图实验观察与研究（周路群）。 需要稀释 用水也能看出来 不同浓度的溶液 大容器的边界效应影响较小，小容器可以讨论边界效应。 90Hz下观察法拉第斑图。 表面张力重力波的色散关系。 法拉第斑图存在的条件。 定于周一上午/下午。 普通物理实验 (I) 引言： 一学期的普物实验已经结束了。收获不多也不少。下面是本学期的所有实验报告。印象最深的是李源老师、刘开辉老师和张熙博老师。 测量冰的熔化热 模拟示波器的使用 测量非线性元件的伏安特性 测量薄透镜的焦距 显微镜 测量误差和数据处理 测量金属的杨氏模量 复摆实验 测定介质中的声速 直流电桥测量电阻 非平衡电桥测量铂电阻的温度系数 霍尔效应测量磁场 弗兰克-赫兹实验 分光计的调节和掠入射法测量折射率 光衍射的定量研究 观察光的偏振现象 迈克耳孙干涉仪","headline":"普通物理实验","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2018/03/phy-lab"},"url":"http://localhost:4000/blog/2018/03/phy-lab"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Jiaxuan Li 李嘉轩</a>
+
+
+    <nav class="site-nav">
+
+      <a href="#" class="menu-icon menu.open">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>  
+
+    <div class="trigger"><h1>Main Navigation</h1>
+
+ <ul class="menu">
+
+    
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/cv/" class="page-link">CV</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+     <li><a href="/blog/" class="page-link">Blog</a>
+    
+    </li>
+    
+    
+     <li><a href="/portfolio/" class="page-link">Gallery</a>
+    
+    </li>
+    
+    
+    <li><a href="/miscellany/" class="page-link">Miscellany</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/miscellany/photography">Photography</a></li>
+    
+    <li><a href="/miscellany/cooking/">Cooking</a></li>
+    
+    <li><a href="/miscellany/links">Links</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    </ul>
+
+
+     </div>  
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">普通物理实验</h1>
+    <p class="post-meta">Posted on March 2, 2018 by  Jiaxuan Li  
+
+  in
+  
+  <a href="/categories/#paper" title="paper">paper</a>&nbsp;
+  
+
+
+</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="综合物理实验">综合物理实验</h1>
+
+<h2 id="绪论">绪论</h2>
+
+<p><strong>特点：</strong>第一次开课；学生自主实验，教员退居后台；实验前后有半小时面谈时间；配备实验讲义。</p>
+
+<p><strong>时间：</strong>周一、二、五下午，6组实验同时开放，实际上时间不受限制，工作日任何时间均可做实验，教员面谈时间可以约定。保证每周最少实验时间为3h，但每个时段不多于4h，实验做不完可以单另预约工作时间。</p>
+
+<p><strong>安排：</strong>6组实验，每组实验有2套器材，其中一套为备用器材。面谈时间约30min。大致两周做完一次实验（机动）。实验期间可以相互讨论。前七周完成3个实验，第八周期中考核，第15周期末考核。</p>
+
+<p><strong>课程考核：</strong></p>
+
+<ol>
+  <li>在实验时完成仪器调试、现象观察和数据采集；</li>
+  <li>每周试验后带上实验记录与教员面谈；</li>
+  <li>前半学期选择一组实验详细探究，完成一个研究报告（第八周之前）；</li>
+  <li>后半学期选择另一组实验详细探究，提交另一个研究报告（15周交）；</li>
+  <li><strong>研究报告：</strong>论文格式（主流期刊格式）+ppt口头报告，各占一半。<strong>论文要注明参考期刊的名称。</strong></li>
+</ol>
+
+<p><strong>成绩评定：</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>实验室成绩（40）：实验时间饱满，态度良好；
+
+面谈成绩（20）：每周都有30min面谈，一共12次；
+
+论文成绩（20）；
+
+口头报告成绩（20）。
+</code></pre></div></div>
+
+<p>王伟老师：负责实验仪器及安全。</p>
+
+<h2 id="实验内容">实验内容</h2>
+
+<h3 id="实验一光学成像与光信息处理张朝晖"><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Exp 1.pdf">实验一：光学成像与光信息处理（张朝晖）</a></h3>
+
+<h3 id="实验二迈克耳孙干涉仪与光学相关测量张朝晖"><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Exp 2.pdf">实验二：迈克耳孙干涉仪与光学相关测量（张朝晖）</a></h3>
+
+<p>相关运算。引力波？傅里叶变换光谱仪。OCT（光学相干断层成像）（相衬法？）。</p>
+
+<h3 id="实验三基于虚拟仪器技术的franck-hertz实验李志"><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Exp 3.pdf">实验三：基于虚拟仪器技术的Franck-Hertz实验（李志）</a></h3>
+
+<p>虚拟仪器=计算机+测量，不是simulation。</p>
+
+<p>两种思路：把计算机装入仪器；把仪器装入计算机（自动化数据采集）。</p>
+
+<p>计算机，接口卡，控制软件（需要编写程序）。</p>
+
+<p>结合网路可以远程控制，软件就是仪器。</p>
+
+<p>语言：LABVIEW。</p>
+
+<p>不同参数对曲线的影响；自由探索的空间。</p>
+
+<p><strong>注意100V高压！</strong></p>
+
+<h3 id="实验四光力学效应及光镊实验杨景"><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Exp 4.pdf">实验四：光力学效应及光镊实验（杨景）</a></h3>
+
+<p>trap stiffness，黏滞阻力测量trap stiffness。（可以探索，仪器还未搭建好）</p>
+
+<p>线偏振-&gt;定向</p>
+
+<p>圆偏振-&gt;持续旋转</p>
+
+<p>还可以做一些定量测量（比如转动惯量？）</p>
+
+<h3 id="实验五一维周期弦链系统振动模式的研究荀坤">实验五：一维周期弦链系统振动模式的研究（荀坤）</h3>
+
+<p>哈密顿量随时间变化：时间晶体</p>
+
+<p>1 dimensional Ising Model？</p>
+
+<p>周期性是否完整？间距的误差？</p>
+
+<p>频谱的特性？反应晶体的特性。</p>
+
+<p>Amplitude-Frequency diagram</p>
+
+<p>delta函数的近似性？</p>
+
+<p>MathCAD数值计算程序，可读性很强。（正版，买了的）</p>
+
+<p>表面态。</p>
+
+<p>端态振动频率与端距的结果、带状振动谱（色散关系，动量-频率，\(p-\omega\)）。</p>
+
+<p>只看笔记上记录的东西。</p>
+
+<h3 id="实验六二维farady斑图实验观察与研究周路群">实验六：二维Farady斑图实验观察与研究（周路群）。</h3>
+
+<p>需要稀释</p>
+
+<p>用水也能看出来</p>
+
+<p>不同浓度的溶液</p>
+
+<p>大容器的边界效应影响较小，小容器可以讨论边界效应。</p>
+
+<p>90Hz下观察法拉第斑图。</p>
+
+<p>表面张力重力波的色散关系。</p>
+
+<p>法拉第斑图存在的条件。</p>
+
+<p><strong>定于周一上午/下午。</strong></p>
+
+<p><br /></p>
+
+<h1 id="普通物理实验-i">普通物理实验 (I)</h1>
+
+<p><strong>引言：</strong> 一学期的普物实验已经结束了。收获不多也不少。下面是本学期的所有实验报告。印象最深的是李源老师、刘开辉老师和张熙博老师。</p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Fusion Heat.pdf">测量冰的熔化热</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Oscilloscope.pdf">模拟示波器的使用</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/UI.pdf">测量非线性元件的伏安特性</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/lense.pdf">测量薄透镜的焦距</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/microscope.pdf">显微镜</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Error.pdf">测量误差和数据处理</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Youngs.pdf">测量金属的杨氏模量</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/pendulum.pdf">复摆实验</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Sound.pdf">测定介质中的声速</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Wheatstone.pdf">直流电桥测量电阻</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Platinum.pdf">非平衡电桥测量铂电阻的温度系数</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/Hall.pdf">霍尔效应测量磁场</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/FranckHertz.pdf">弗兰克-赫兹实验</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/spectrometer.pdf">分光计的调节和掠入射法测量折射率</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/diffraction.pdf">光衍射的定量研究</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/polarization.pdf">观察光的偏振现象</a></p>
+
+<p><a href="https://astrojacobli.github.io/Homepage/doc/Experiment I/michelson.pdf">迈克耳孙干涉仪</a></p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--     <h2 class="footer-heading">Jiaxuan Li 李嘉轩</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-2">
+        <br>
+        <ul class="contact-list">
+          <li><strong>Jiaxuan Li 李嘉轩</strong></li>
+          <li>Graduate Student</li>
+          <li><a href="mailto:jiaxuanl@princeton.edu">jiaxuanl@princeton.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <br>
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/AstroJacobLi">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">AstroJacobLi</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/AstroJacobLi">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">AstroJacobLi</span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="0" /></a> <a href="https://orcid.org/0000-0001-9592-4190"> <font size="-1">0000-0001-9592-4190</font></a>
+          </li>
+
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-5">
+        <br>
+         <p class="text">
+          Department of Astrophysical Sciences<br>
+          012 Peyton Hall, 4 Ivy Lane,<br>
+          Princeton, NJ 08544, USA<br>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+         <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5umlf3qf2sp&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
