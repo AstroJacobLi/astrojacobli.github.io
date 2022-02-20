@@ -10,6 +10,9 @@
 - title: "Blog"
   href: "/blog/"
 
+- title: "Gallery"
+  href: '/portfolio/'
+
 - title: "Miscellany"
   href: "/miscellany/"
   subcategories:

@@ -1,3 +1,7 @@
+# Don't upload original photos in _portfolio/
+_portfolio/*
+
+.jekyll_cache/*
 images/.DS_Store
 .DS_Store/
 # Specify filepatterns you want git to ignore.
