@@ -9,7 +9,7 @@
         <br>
         <ul class="contact-list">
           <li><strong>{{ site.title }}</strong></li>
-          <li><strong>{{ site.position}}</strong></li>
+          <li>{{ site.position}}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -47,7 +47,7 @@
           {% endif %}
           {% if site.orcid %}
           <li>
-            <a href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="0" /></a> <a href="https://orcid.org/{{site.orcid}}">{{site.orcid}}</a>
+            <a href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="0" /></a> <a href="https://orcid.org/{{site.orcid}}"> <font size="-1">{{site.orcid}}</font></a>
           </li>
 
           
@@ -56,7 +56,7 @@
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-4">
+      <div class="footer-col  footer-col-5">
         <br>
          <p class="text">
           Department of Astrophysical Sciences<br>
