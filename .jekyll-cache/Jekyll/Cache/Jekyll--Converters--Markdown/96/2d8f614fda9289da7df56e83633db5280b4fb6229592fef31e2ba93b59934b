@@ -1,0 +1,99 @@
+I"�<p><a href="https://astrojacobli.github.io/Homepage/doc/statistical_notes.pdf">平统手记</a>里面写了一些马中水上课没详细推导的东西，以及自己复习的时候的一些感想。</p>
+
+<p>附上推导N维球体积的<a href="http://spaces.ac.cn/archives/3154/?from=singlemessage&amp;isappinstalled=0">巧妙方法</a>，本文是在苏剑林的博客里找到的。</p>
+
+<h1 id="热力学部分">热力学部分</h1>
+
+<h2 id="关于磁化功和极化功">关于磁化功和极化功</h2>
+
+<p>对于功的基本定义是 \(\text{d}W=\md t\int \boldsymbol{j_0}\cdot\boldsymbol{E}  \md V\).</p>
+
+<p>而由Maxwell方程，</p>
+
+\[\nabla\times\boldsymbol{H}=\boldsymbol{j_0}+\frac{\partial \boldsymbol{D}}{\partial t}\]
+
+<p>从而</p>
+
+\[\boldsymbol{j_0}=\nabla\times\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}\]
+
+<p>所以</p>
+
+\[\md W=\md t\int [(\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V\]
+
+<p>由\((\nabla\times\boldsymbol{H})\cdot\boldsymbol{E}=\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})\)，上式改写为</p>
+
+<p>\begin{align}\md W&amp;=\md t\int [\nabla\cdot(\boldsymbol{H}\times\boldsymbol{E})+\boldsymbol{H}\cdot(\nabla\times\boldsymbol{E})-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E} ]  \md V \\&amp;=\md t \oint (\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}+\md t\int\left(-\frac{\partial\boldsymbol{B}}{\partial t}\cdot\boldsymbol{H}-\frac{\partial \boldsymbol{D}}{\partial t}\cdot\boldsymbol{E}\right) \md V \end{align}</p>
+
+<p>而Poynting矢量\(\boldsymbol{S}=\boldsymbol{E}\times\boldsymbol{H}\)， 在无穷远处坡印廷矢量当然为0，所以\(\oint(\boldsymbol{H}\times\boldsymbol{E})\cdot\md \boldsymbol{S}\) 这个积分的边界就是无穷远，因此这个积分等于0.</p>
+
+<p>从而：</p>
+
+<p>\(\begin{equation}\md W=-\int\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \md V \end{equation}\).</p>
+
+<p>如果场是均匀的，那么积分区域就可以直接从积分式中拿出来：</p>
+
+<p>\(\begin{equation}\md W=-V\left(\md\boldsymbol{B}\cdot\boldsymbol{H}+\md\boldsymbol{D}\cdot\boldsymbol{E}\right) \end{equation}\).</p>
+
+<p>根据电磁学的关系\(\boldsymbol{B}=\mu_0(\boldsymbol{H}+\boldsymbol{M}),\ \boldsymbol{D}=\epsilon_0\boldsymbol{E}+\boldsymbol{P}\)，把这两个式子代入上式，得：</p>
+
+<p>\begin{align}&amp;\md W_{m}=-V\left[\md\left(\frac{1}{2}\mu_0 \boldsymbol{H}^2\right)+\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M}\right],\\&amp;\md W_{e}=-V\left[\md\left(\frac{1}{2}\epsilon_0 \boldsymbol{E}^2\right)+\boldsymbol{E}\cdot\md\boldsymbol{P}\right].\end{align}</p>
+
+<p>上面的\(\md W_{m}\)和\(\md W_{e}\)分别是磁化和极化所要做的功。写成上式这种形式之后，物理很明显：第一部分是建立磁场/电场所要做的功，第二部分是将介质磁化/极化要做的功。如果我们不去考虑建立场的功，只考虑磁化和极化的功的话，就有另外两个常见的形式：</p>
+
+<p>\begin{align}\md W_{m}&amp;=V\mu_0\boldsymbol{H}\cdot\md\boldsymbol{M},\\ \md W_{e}&amp;=V\boldsymbol{E}\cdot\md\boldsymbol{P} .\end{align}</p>
+
+<h2 id="热力学第二定律">热力学第二定律</h2>
+
+<h3 id="carnot定理">Carnot定理</h3>
+
+<ol>
+  <li>所有工作于2个恒温热源之间的热机中，可逆热机效率最高；</li>
+  <li>所有可逆热机效率相等；</li>
+  <li>效率只与两个热源的温度\(T_1,\ T_2\)有关，与工作物质无关。</li>
+</ol>
+
+<h3 id="clausius表述">Clausius表述</h3>
+
+<p>不可能把热量从低温传到高温而不引起其他变化。</p>
+
+<h3 id="kelvin表述">Kelvin表述</h3>
+
+<p>不可能从单一热源吸热然后全部转化为有用功，而不引起其他变化。</p>
+
+<h3 id="clausius不等式">Clausius不等式</h3>
+
+<p>\begin{equation}\oint \frac{\dbar Q}{T}\leqslant0\end{equation}</p>
+
+<p>对于可逆过程：\(S_B-S_A=\int_A^B\frac{\dbar Q}{T}\). 而对不可逆过程：\(S_B-S_A&gt;\int_A^B\frac{\dbar Q}{T}\).</p>
+
+<p>在绝热情形下：\(S_B-S_A\geqslant0\)，也就是熵增加原理。</p>
+
+<h3 id="热力学第二定律-1">热力学第二定律</h3>
+
+<p>\(T\md S\geqslant \md U+\dbar W-\mu\md N\).</p>
+
+<p>不可逆过程：\(T\md S=\md U+\sum Y_i\md y_i-\mu\md N+T\md S_{create}\).</p>
+
+<p>可逆过程：\begin{equation}T\md S=\md U+\sum Y_i\md y_i-\mu\md N.\end{equation}</p>
+
+<h3 id="内能的广延性">内能的广延性</h3>
+
+<p>内能\(U\)是广延量，即</p>
+
+<p>\(U(\lambda S,\lambda V,\lambda N)=\lambda U(S,V,N)\).</p>
+
+<p>从而内能可以写成</p>
+
+<p>\begin{equation}U=TS-pV+\mu N.\end{equation}</p>
+
+<p>也就有吉布斯自由能 \(G=\mu N\)，巨热力势 \(\Psi=U-TS-\mu N\).</p>
+
+<p><br /></p>
+
+<h2 id="热力学基本微分方程">热力学基本微分方程</h2>
+
+<p>热力学势有很多种：</p>
+
+\[U=U(S,V,N),\ H=H(S,p,N),\ F=F(T,V,N),\ G=G(T,p,N),\ \Psi=\Psi(T,V,\mu).\]
+
+:ET

@@ -1,0 +1,168 @@
+I"�=<p>Again, feel very ashamed for the decadence in the past year 2019. I will try to read as many paper as possible and do my best in 2020.</p>
+
+<p>因为新冠和毕业季，我近半年没有认真读文献了。终于在北京安顿了下来，重新捡起阅读的习惯，记录在这里。</p>
+
+<p><a href="https://aasnova.org">AAS-Nova</a></p>
+
+<p><a href="https://astrobites.org">Astrobite</a></p>
+
+<h2 id="september-2020">September 2020</h2>
+
+<h3 id="hubbles-biggest-fan"><a href="http://www.nature.com/articles/nphys3409">Hubble’s biggest fan</a></h3>
+
+<p>“What has consistently made me the HST’s biggest fan is that the process of acquiring access to the telescope embodies the best and most noble ideals of scientific inquiry itself: creative impulse, intellectual rigor, open and fair competition, and a transparent peer review process.”</p>
+
+<p>“The bar is set very high, yet can be overcome with due care and diligence.”</p>
+
+<h3 id="deep-learning-of-galaxy-cluster-members-through-panchromatic-hst-imaging-and-extensive-spectroscopy"><a href="http://arxiv.org/abs/2009.08224">Deep learning of galaxy cluster members through panchromatic HST imaging and extensive spectroscopy</a></h3>
+
+<ul>
+  <li>Classification of whether an object belongs to a cluster or not is crucial for the study of clusters themselves and also for the study of cosmology. Traditional approaches are: color-magnitude diagram; photo-z using Bayesian method; classical ML methods; etc. However, they require fine-tuning.</li>
+  <li>This paper uses a typical CNN to classify cutouts of objects in a cluster image (HST image). The labels of training sample are from spec-z.</li>
+  <li>Limited by small sample size, they applied data augmentation (split, rotate, etc.).</li>
+  <li>The results look good. This paper would be very useful to my project.</li>
+</ul>
+
+<h3 id="the-ecological-impact-of-high-performance-computing-in-astrophysics"><a href="https://www.nature.com/articles/s41550-020-1208-y">The ecological impact of high-performance computing in astrophysics</a></h3>
+
+<p>看到一篇有趣的文章，讨论天文学界做模拟常用的硬件/软件的碳排放情况。说实话在读这篇文章之前我从没想过做点模拟还得考虑对环境的影响。</p>
+
+<p>一些有趣的事实：</p>
+
+<ol>
+  <li>作者对比了天体物理里常用的几种模拟，发现高性能计算机工作站（反义词是超算）做模拟的碳排放率跟世界人均碳排放率（单位时间的碳排放量）差不多。为期4年去训练一个PhD学生的碳排放率略高，ALMA和LIGO运行的碳排放率更高。</li>
+  <li>如果你用超算来跑模拟，那么不要只用1个核（慢但碳排放率低于同样用1个核的计算机工作站），但也不要用太多核。如果你在超算上用10万个核，那么碳排放率就快要赶上猎鹰九号发射了。</li>
+  <li>如果你用计算机工作站来跑模拟，同样的，不要只用1个核（慢且碳排放很高）。当计算机工作站的所有物理核都被用上的时候，碳排放达到最少；当继续增加虚拟核的时候，碳排放又会增加。（图二）</li>
+  <li>Python虽然香，但是是最不环保的语言！</li>
+</ol>
+
+<h2 id="august-2020">August 2020</h2>
+<h3 id="impact-of-satellite-constellation-on-optical-astronomy-and-recommendations-towards-mitigations"><a href="https://aas.org/satellite-constellations-1-workshop-report">Impact of Satellite Constellation on Optical Astronomy and Recommendations towards Mitigations</a></h3>
+
+<ul>
+  <li>Low-Earth Orbit satellites (LEOsats, 600-1000 km above the ground) will fundamentally change the optical and NIR observations planned in the following decades, especially wide-field imaging projects.</li>
+  <li>LEOsats reduces the SNR of imaging, cause missed objects, introduces systematic uncertainties in large sample studies. Hence has impact on finding near-earth objects, GW counterpart, etc.</li>
+  <li>Satellites below 600 km are visible around twilights, thus have heavy impact on twilight observers. High altitude satellites are visible all nights long (since it’s easier to reflect sunlights at high altitude). They impact a larger set of astronomical programs.</li>
+  <li>Solutions:
+    <ul>
+      <li>Don’t launch LEOsats constellation any more. Or launch satellites that are clumped as tight as possible.</li>
+      <li>Make their orbits below 600 km, and control orbits so that they reflect less lights to us.</li>
+      <li>Make them dark to decrease the albedo.</li>
+      <li>Avoid satellite trails making use of their orbits when conducting observations.</li>
+      <li>Develop softwares dealing with modeling/subtracting/masking satellite trails. Develop observation scheduling softwares as well.</li>
+      <li>Do simulations on estimating the impact of satellite trails on specific sciences (e.g., weak lensing signals)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="射电探测系外行星搜寻利器--赛先生天文"><a href="https://mp.weixin.qq.com/s/osmlnGpmrNnCFy2pOQSpZA">射电探测——系外行星搜寻利器 | 赛先生天文</a></h3>
+
+<ul>
+  <li>射电观测可以用来发现系外行星。系外行星的磁场和host star的磁场发生磁重联时，电子的同步辐射会增强。电子从host star的大气沿着重联的磁力线运动到系外行星需要一些时间，在接收到的信号中也可以看出这个时间差。</li>
+  <li>欧洲的低频阵列射电望远镜（LOFAR）在120-167MHz的频段发现了来自一颗色球层很稳定的M型恒星GJ1151的射电辐射。分析表明，不同于磁场活跃恒星的射电爆发，GJ1151的射电信号不太可能来源于恒星本身，而很可能来源于其周围行星与之相互作用产生的带电粒子的回旋辐射，因此科学家推断在这个恒星周围存在着短周期行星，文章发表在了<a href="https://ui.adsabs.harvard.edu/abs/2020NatAs...4..577V/abstract">Nature Astronomy</a>上。</li>
+  <li>这种方法拓展了系外行星的搜寻域，因为它不需要“凌星”的configuration。</li>
+  <li>FAST的灵敏度集中的频段正好是探测系外行星的窗口。但可能需要扩大FAST的有效口径才行。</li>
+</ul>
+
+<h3 id="unequal-effects-of-the-covid-19-pandemic-on-scientists"><a href="https://www.nature.com/articles/s41562-020-0921-y">Unequal effects of the COVID-19 pandemic on scientists</a></h3>
+
+<ul>
+  <li>The working hours of researchers has been decreased after the outbreak of COVID-19.</li>
+  <li>Female researches with young dependents are affected most seriously.</li>
+  <li>COVID-19 might reform the academia, from the way of working and the hierarchy of researchers.</li>
+</ul>
+
+<h2 id="march-2020">March 2020</h2>
+
+<h3 id="review-observational-probes-of-cosmic-acceleration"><a href="https://ui.adsabs.harvard.edu/abs/2013PhR...530...87W/abstract">Review: Observational probes of cosmic acceleration</a></h3>
+
+<h3 id="review-of-particle-physics"><a href="http://pdg.lbl.gov/2019/reviews/contents_sports.html">Review of Particle Physics</a></h3>
+
+<ul>
+  <li><a href="http://pdg.lbl.gov/2019/reviews/rpp2019-rev-dark-matter.pdf">Dark matter (S. Profumo)</a></li>
+  <li><a href="http://pdg.lbl.gov/2019/reviews/rpp2019-rev-dark-energy.pdf">Dark energy (David Weinberg)</a></li>
+  <li>
+    <p><a href="http://pdg.lbl.gov/2019/reviews/rpp2019-rev-cosmic-microwave-background.pdf">CMB (George Smoot)</a></p>
+  </li>
+  <li><a href="http://pdg.lbl.gov/2019/reviews/rpp2019-rev-bbang-cosmology.pdf">Big Bang cosmology (Peacock)</a></li>
+  <li><a href="http://pdg.lbl.gov/2019/reviews/rpp2019-rev-cosmological-parameters.pdf">Cosmological Parameters (Liddle)</a></li>
+</ul>
+
+<h3 id="review-neutrino-mass-in-cosmology-status-and-prospects"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nucl-102010-130252">Review: Neutrino Mass in Cosmology: Status and Prospects</a></h3>
+
+<h3 id="review-status-of-neutrino-properties-and-future-prospects---cosmological-and-astrophysical-constraints"><a href="https://ui.adsabs.harvard.edu/abs/2017arXiv171207109L/abstract">Review: Status of neutrino properties and future prospects - Cosmological and astrophysical constraints</a></h3>
+
+<h3 id="early-dark-energy-does-not-restore-cosmological-concordance"><a href="https://arxiv.org/abs/2003.07355">Early Dark Energy Does Not Restore Cosmological Concordance</a></h3>
+
+<h3 id="dark-energy-survey-year-1-results-cosmological-constraints-from-cluster-abundances-and-weak-lensing"><a href="https://arxiv.org/abs/2002.11124">Dark Energy Survey Year 1 Results: Cosmological Constraints from Cluster Abundances and Weak Lensing</a></h3>
+
+<h2 id="february-2020">February 2020</h2>
+
+<h3 id="疫情压力下墙高了一些解决办法">疫情压力下墙高了，一些解决办法</h3>
+
+<p><a href="https://wiki.kache.moe/2019/12/11/macOS-ClashX/">macOS - ClashX 使用教程</a></p>
+
+<p><a href="https://v2sx.github.io/V2Ray/">V2Ray工具大全</a></p>
+
+<p><a href="https://github.com/CocoaKier/MacVPN/wiki/Mac下如何科学上网——新方案V2Ray">Mac下如何科学上网——新方案V2Ray</a></p>
+
+<p><a href="https://v2sx.com/index.php">V2S account</a></p>
+
+<h3 id="point-spread-function-modelling-for-wide-field-small-aperture-telescopes-with-a-denoising-autoencoder"><a href="https://arxiv.org/abs/2001.11716">Point Spread Function Modelling for Wide Field Small Aperture Telescopes with a Denoising Autoencoder</a></h3>
+
+<h3 id="the-three-hundred-project-backsplash-galaxies-in-simulations-of-clusters"><a href="https://arxiv.org/abs/2001.11518">The Three Hundred Project: Backsplash galaxies in simulations of clusters</a></h3>
+
+<h2 id="january-2020">January 2020</h2>
+
+<h3 id="line-intensity-mapping-reading-list">Line-Intensity Mapping Reading List</h3>
+
+<ul>
+  <li><a href="https://baas.aas.org/wp-content/uploads/2019/05/101_kovetz.pdf">Astro2020 Science White Paper: Astrophysics and Cosmology with Line-Intensity Mapping</a></li>
+  <li><a href="https://ui.adsabs.harvard.edu/abs/2017arXiv170909066K/abstract">Line-Intensity Mapping: 2017 Status Report</a></li>
+  <li><a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab1b35">Broadband Intensity Tomography: Spectral Tagging of the Cosmic UV Background</a></li>
+  <li><a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab0a08/pdf">Measuring the EoR Power Spectrum without Measuring the EoR Power Spectrum</a></li>
+</ul>
+
+<h3 id="adam-riess-the-expansion-of-the-universe-is-faster-than-expected"><a href="https://www.nature.com/articles/s42254-019-0137-0#change-history">Adam Riess: The expansion of the Universe is faster than expected</a></h3>
+
+<ul>
+  <li>H0LiCOW is independent of Cepheids and SNe Ia, but also yields ~70 km/s/Mpc.</li>
+  <li>\(\Lambda CDM\): six parameters with well-tested ansatzes. Dark energy with an equation of state lower than vacuum energy could produce stronger acceleration and explain the discrepancy, but this possibility is disfavoured by other intermediate­ redshift measurements.</li>
+  <li>Early Dark Energy (EDE) (injected shortly before CMB) could have increased the early expansion, decreased the sound horizon, and raise the predicted \(H_0\). But the value of EDE must be fine-tuned. Adding new particles (such as neutrino) could play the same role, but will create conflicts with CMB.</li>
+</ul>
+
+<h3 id="the-hubble-hunters-guide"><a href="https://ui.adsabs.harvard.edu/abs/2019arXiv190803663K/abstract">The Hubble Hunter’s Guide</a></h3>
+
+<h3 id="planck-evidence-for-a-closed-universe-and-a-possible-crisis-for-cosmology"><a href="https://www.nature.com/articles/s41550-019-0906-9">Planck evidence for a closed Universe and a possible crisis for cosmology</a></h3>
+
+<h3 id="vogelsberger-cosmological-simulations-of-galaxy-formation"><a href="https://www.nature.com/articles/s42254-019-0127-2">Vogelsberger: Cosmological simulations of galaxy formation</a></h3>
+
+<h3 id="a-parallax-distance-to-3c-273-through-spectroastrometry-and-reverberation-mapping"><a href="https://www.nature.com/articles/s41550-019-0979-5">A parallax distance to 3C 273 through spectroastrometry and reverberation mapping</a></h3>
+
+<ul>
+  <li>New component in the cosmic distance ladder! Using GRAVITY spectroastrometry (SA) (resolution ~10 mas), they measured the angular size of the broad-line-region to be 46 mas. They also used reverberation mapping (RM) to measure the physical size of the broad-line-region. Thus a distance is derived and Hubble constant is measured as \(H_0 = 71.5^{+11.9}_{-10.6}\ \mathrm{km/s/Mpc}\). With larger sample size, the Hubble constant can be measured to 3% precision, and help test the Hubble tension.  SARM could simultaneously measure the SMBH mass (Doppler broaden + physics size).</li>
+</ul>
+
+<h3 id="iterative-emulation-is-the-sincerest-form-of-parameter-estimation"><a href="https://astrobites.org/2020/01/13/iterative-emulation-is-the-sincerest-form-of-parameter-estimation/">Iterative Emulation is the Sincerest Form of Parameter Estimation</a></h3>
+
+<p>Paper link: <a href="https://arxiv.org/abs/1912.08806">Cosmological parameter estimation via iterative emulation of likelihoods</a>. See also <a href="https://astrobites.org/2011/11/26/your-gateway-to-the-bayesian-realm/">Your Gateway to the Bayesian Realm</a>; <a href="https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50">A Zero-Math Introduction to Markov Chain Monte Carlo Methods</a>.</p>
+
+<h3 id="alex-drlica-wagner-probing-the-fundamental-nature-of-dark-matter-with-the-large-synoptic-survey-telescope"><a href="https://ui.adsabs.harvard.edu/abs/2019arXiv190201055D/abstract">Alex Drlica-Wagner: Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope</a></h3>
+
+<h3 id="early-type-host-galaxies-of-type-ia-supernovae-ii-evidence-for-luminosity-evolution-in-supernova-cosmology"><a href="https://ui.adsabs.harvard.edu/abs/2019arXiv191204903K/abstract">Early-type Host Galaxies of Type Ia Supernovae. II. Evidence for Luminosity Evolution in Supernova Cosmology</a></h3>
+
+<dl class="wp-caption alignright" style="width: 350px">
+
+<dt><a href=""><img class="" src="/images/astro-ph/Kang2019.png" alt="Luminosity evolution of SNe Ia can mimic dark energy" /></a></dt>
+
+<dd>Luminosity evolution of SNe Ia can mimic dark energy</dd>
+</dl>
+
+<ul>
+  <li>The Supernovae Cosmology (Riess, Perlmutter, Schmidt) has a fundamental assumption: the absolute magnitude of SNe Ia after standardization doesn’t evolve with time. They compared nearby SNe Ia in late- and early-type galaxies, concluded no significant differences. However, recent observations have found the dependence of standardized luminosity on other factors: SN Ia is 1) brighter in ETG; 2) brighter in more massive galaxies; 3) fainter in high SFR region. However, how does these factors (SFR, mass, morphology) directly affect the progenitor of SNe Ia? We don’t know.</li>
+  <li>
+    <p>The authors proposed that <strong>stellar age</strong> and <strong>metallicity</strong> are the direct factors of the luminosity variation. The dependence on mass, SFR, morphology can be attributed to age and metallicity. Hence they studied ~50 ETGs, derived their stellar ages and metallicities, concluded that <strong>SNe Ia in galaxies with older stellar population is brighter</strong>. The correlation is significant.</p>
+  </li>
+  <li>Why do we need dark energy? Because we have found that the luminosity of SNe Ia at high-z is fainter than expected, so we need dark energy to dilute the light and increase the distance. However, if SN Ia in young ETG (which is at high-z) is intrinsically fainter, then we don’t need dark energy any more. In Figure 16, they showed that the (reported) luminosity evolution of SNe Ia can mimic dark energy.</li>
+</ul>
+:ET

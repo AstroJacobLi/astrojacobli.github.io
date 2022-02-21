@@ -1,0 +1,76 @@
+I",<h2 id="academic-writing-for-astronomy">Academic Writing for Astronomy</h2>
+
+<ul>
+  <li><a href="http://www.columbia.edu/cu/biology/ug/research/paper.html#format">WRITING A SCIENTIFIC RESEARCH ARTICLE</a>
+    <ul>
+      <li>Abstract should be less technical, only say important stuff. Prune your abstract.</li>
+      <li>Don’t use acronyms and citations in abstract.</li>
+      <li>The information in your paper should be able to allow another scientist to repeat your result.</li>
+      <li>Don’t talk about your results in a methodology section. Don’t discuss your results in the Result section, leave them to Discussion.</li>
+      <li>Discussion should not repeat the Result section. How does the result solve the original question? Caveat? Explain for unexpected results? How does your result fit into the big picture? Further research? End Discussion with one-sentence summary of your conclusion, emphasize why it’s important.</li>
+    </ul>
+  </li>
+  <li><a href="https://writingcenter.gmu.edu/guides/reverse-outlining">Reverse Outlining</a>
+    <ul>
+      <li>Convey <strong>one</strong> main idea in <strong>one</strong> paragraph.</li>
+    </ul>
+  </li>
+  <li><a href="https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf">Writing a paper, by a professor at Harvard</a>
+    <ul>
+      <li>Before writing, ask yourself the obvious questions, help you get the logic straight</li>
+      <li>Try to write an outline as early as possible, and iterate the outline with your advisor</li>
+      <li>Organize the paper in order of importance, not in chronological order</li>
+      <li>Don’t use nouns as adjective (<del>UDG formation</del> –&gt; formation of UDG)</li>
+      <li>The word “this” must always be followed by a noun, so that its reference is explicit. (<del>This leads us to conclude…</del> –&gt; This observation leads us to conclude…)</li>
+      <li>Use the active voice whenever possible</li>
+      <li>Complete all comparisons (<del>The SFR is higher for UDGs in a massive cluster</del> –&gt; The SFR is higher for UDGs in a massive cluster than in a small cluster.)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="essays-and-articles">Essays and Articles</h2>
+<ul>
+  <li><a href="https://inference-review.com/letter/an-ode-to-ugly-physics">An Ode to Ugly Physics</a></li>
+  <li><a href="https://www.jstor.org/stable/pdf/1758976.pdf">A Plea for Pure Science</a></li>
+</ul>
+
+<h2 id="latex-templates">LaTex templates</h2>
+
+<ul>
+  <li>
+    <p><a href="https://journals.aas.org/aastex-package-for-manuscript-preparation/">AASTeX</a>: templates for ApJ, ApJL and ApJS. Note that ApJL has a limitation for the number of figures. Check the overleaf version here: <a href="https://www.overleaf.com/latex/templates/aastex-template-for-submissions-to-the-astrophysical-journal/bpkjwktvsqwp">AASTeX Template for submissions to AAS Journals </a>. Personally I prefer AAS templates than MNRAS one.</p>
+  </li>
+  <li>
+    <p><a href="https://www.overleaf.com/latex/templates/monthly-notices-of-the-royal-astronomical-society-mnras-latex-template-and-guide-for-authors/kqnjzrwjwjth">MNRAS</a>: template for MNRAS. Alexie likes this template.</p>
+  </li>
+  <li>
+    <p>Curriculum Vitae: I recommend this <a href="https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm">template</a>.</p>
+  </li>
+  <li>
+    <p>Template for book: I highly recommend <a href="https://www.overleaf.com/latex/templates/the-legrand-orange-book-template-english/jtctyfmnpppc">Legrand Orange Book Template</a>. I wrote a book using this template for the astronomy olympiad training last year.</p>
+  </li>
+  <li>
+    <p>For Chinese templates, check <a href="http://www.latexstudio.net">LaTex开源小屋</a>.</p>
+  </li>
+  <li>
+    <p>LaTeX is also very convenient for taking notes on physics classes. Check my notes on Statistical Physics <a href="https://astrojacobli.github.io/Docs/LaTeX/NotesTemplate.zip">here</a>. (You can compile the <code class="language-plaintext highlighter-rouge">.tex</code> file succesfully by putting <code class="language-plaintext highlighter-rouge">.tex</code> and <code class="language-plaintext highlighter-rouge">.png</code> in the same folder.)</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="books-on-writing">Books on writing</h2>
+
+<ul>
+  <li>
+    <p><a href="https://en.m.wikipedia.org/wiki/The_Elements_of_Style">The elements of style</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548">On writing well</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.python.org/dev/peps/pep-0008/">PEP8: Style Guide for Python Code</a></p>
+  </li>
+</ul>
+
+:ET

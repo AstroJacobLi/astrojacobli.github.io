@@ -1,0 +1,89 @@
+I"\<h4 id="link-to-my-publications-in-ads"><a href="https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg">Link to my publications in ADS</a></h4>
+
+<h2 id="astrophysics">Astrophysics</h2>
+
+<h3 id="multi-resolution-filtering-an-empirical-method-for-isolating-faint-extended-emission-in-dragonfly-data-and-other-low-resolution-images">Multi-resolution filtering: an empirical method for isolating faint, extended emission in Dragonfly data and other low resolution images</h3>
+<h4 id="advisor-pieter-van-dokkum-yale">Advisor: <a href="http://pietervandokkum.com">Pieter van Dokkum (Yale)</a></h4>
+<p>We developed an empirical, self-contained method “Multi-resolution filtering” (MRF) to isolate and study faint, large-scale emission in imaging data of low spatial resolution. The method was developed for the Dragonfly Telephoto Array, which produces images that have excellent low surface brightness sensitivity but poor spatial resolution. The resulting image only contains emission fainter than a pre-defined surface brightness limit. The method is implemented in <a href="https://github.com/AstroJacobLi/mrf">\(\texttt{mrf}\)</a>, an open-source MIT licensed Python package. It also contains an well-defined method to determine the surface brightness detection limit on a certain scale. This work is crucial for the future sciences of Dragonfly surveys. Please see <a href="https://ui.adsabs.harvard.edu/abs/2019arXiv191012867V/abstract">van Dokkum et al. 2019</a> for more details.</p>
+<dl class="wp-caption aligncenter" style="width: 720px">
+
+<dt><a href=""><img class="" src="/images/MRF-cirrus.jpg" alt="MRF reveals Galactic cirrus clearly in Dragonfly data (Danieli et al. 2019)" /></a></dt>
+
+<dd>MRF reveals Galactic cirrus clearly in Dragonfly data (Danieli et al. 2019)</dd>
+</dl>
+
+<p><br /></p>
+
+<h3 id="reaching-for-the-edge-i-probing-the-outskirts-of-massive-galaxies-with-hsc-decals-sdss-and-dragonfly">Reaching for the Edge I: Probing the Outskirts of Massive Galaxies with HSC, DECaLS, SDSS and Dragonfly</h3>
+<dl class="wp-caption alignright" style="width: 420px">
+
+<dt><a href=""><img class="" src="/images/low-z-postage.jpg" alt="Images of five low redshift massive galaxies in four different surveys" /></a></dt>
+
+<dd>Images of five low redshift massive galaxies in four different surveys</dd>
+</dl>
+
+<h4 id="advisors-alexie-leauthaud-ucsc-song-huang-princeton">Advisors: <a href="http://alexie.sites.ucsc.edu">Alexie Leauthaud (UCSC)</a>, <a href="http://dr-guangtou.github.io">Song Huang (Princeton)</a></h4>
+<p>We compared the abilities to detect massive galaxy outskirts and related systematics for Hyper Suprime-Cam (HSC), Dark Energy Camera Legacy Survey (DECaLS), Dragonfly Telephoto Array and SDSS. Dragonfly shows outstanding ability on recovering outskirts of low-\(z\) bright galaxies to \(30\ \mathrm{mag/arcsec^2}\). HSC could reach farther than 150 kpc for individual galaxy and 200 kpc for a galaxy ensemble. Good agreements are achieved between HSC and DECaLS profiles of intermediate-\(z\) galaxies down to \(28\ \mathrm{mag/arcsec^2}\ (\sim100\ \mathrm{kpc})\). DECaLS is able to recover the stellar mass within 100 kpc from HSC by only 0.05 dex. This work serves as a good reference for low surface brightness studies using different datasets and benefits future sky surveys.</p>
+
+<p>🔗<a class="tosu" href="https://astrojacobli.github.io/publications/JLi_et_al_Galaxy_Outskirts.pdf">Paper Draft</a></p>
+
+<p><br /></p>
+
+<h3 id="inside-out-quenching-galaxies-with-halpha-ring-like-structures">Inside-out quenching galaxies with H\(\alpha\) ring-like structures</h3>
+<h4 id="advisor-yingjie-peng-kiaa">Advisor: <a href="http://kiaa.pku.edu.cn/people/yingjie-peng">Yingjie Peng (KIAA)</a></h4>
+
+<dl class="wp-caption alignright" style="width: 400px">
+
+<dt><a href=""><img class="" src="/images/Ha-ring.png" alt="H-alpha ring galaxies in MaNGA" /></a></dt>
+
+<dd>H-alpha ring galaxies in MaNGA</dd>
+</dl>
+
+<p>We investigated galaxies with H\(\alpha\) emission ring-like structures in Mapping Nearby Galaxies at APO (MaNGA) survey, with the stellar mass in the range of \(10.0&lt;\log(M/M_\odot)&lt;11.5\). They are located in the “green valley” and experiencing the inside-out quenching process. We measure the radii of H\(\alpha\) rings and find that bars are just stuck in the H\(\alpha\) rings. High bar fraction, high AGN (Seyfert/LINER) fraction and high bulge-to-total ratio support that the joint effects of bar, bulge and AGN could quench the massive disk galaxies efficiently by the inside-out quenching mode and form the H\(\alpha\) ring-like structure.</p>
+
+<p>🔗<a class="tosu" href="https://astrojacobli.github.io/publications/JLi_et_al_inside_out_quenching_H_alpha_ring.pdf">Paper Draft</a></p>
+
+<p><br /></p>
+
+<h2 id="software-development">Software Development</h2>
+<ul>
+  <li>
+    <p><a href="https://mrfiltering.readthedocs.io/en/latest/"><strong>mrf</strong></a>: Multi-Resolution Filtering is a method for isolating faint, extended emission in Dragonfly data and other low resolution images, developed by <a href="http://pietervandokkum.com">Pieter van Dokkum</a> and <a href="http://astrojacobli.github.io">Jiaxuan Li</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/dr-guangtou/unagi"><strong>unagi</strong></a>: Search and download data from Hyper Suprime-Cam (HSC) Subaru Strategic Survey (SSP), developed by <a href="http://dr-guangtou.github.io">Song Huang</a>, <a href="http://astrojacobli.github.io">Jiaxuan Li</a> and contributors.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/dr-guangtou/kungpao"><strong>kungpao</strong></a>: Photometric analysis library for Hyper Suprime Camera (HSC) images, developed by <a href="http://dr-guangtou.github.io">Song Huang</a> and <a href="http://astrojacobli.github.io">Jiaxuan Li</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/dr-guangtou/lvhuo"><strong>lvhuo</strong></a>: Image stacking analysis for Hyper Suprime-Cam data, developed by <a href="http://astrojacobli.github.io">Jiaxuan Li</a> and <a href="http://dr-guangtou.github.io">Song Huang</a>.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/AstroJacobLi/slug"><strong>slug</strong></a>: Integrated tool for calculating 1-D surface brightness profile of massive galaxies, developed by <a href="http://astrojacobli.github.io">Jiaxuan Li</a>.</p>
+  </li>
+  <li>
+    <p>More works can be found on Github: <a href="https://github.com/AstroJacobLi"><strong>@AstroJacobLi</strong></a>. Please star if you like them!</p>
+  </li>
+</ul>
+
+<!-- https://ionicabizau.github.io/github-calendar/example/ -->
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "astrojacobli");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "astrojacobli", { responsive: true });
+</script>
+
+:ET

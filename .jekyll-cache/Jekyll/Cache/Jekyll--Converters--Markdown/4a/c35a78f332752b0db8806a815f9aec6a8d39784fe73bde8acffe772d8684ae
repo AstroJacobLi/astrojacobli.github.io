@@ -1,0 +1,238 @@
+I"f}<h2 id="useful-resources">Useful Resources</h2>
+<h3 id="mit课程计算机科学补漏课"><a href="https://www.bilibili.com/video/BV1aE41157q6">MIT课程：计算机科学“补漏”课</a></h3>
+
+<h3 id="python-for-astronomers"><a href="https://prappleizer.github.io/">Python for Astronomers</a></h3>
+
+<h1 id="data-visualization">Data Visualization</h1>
+
+<h3 id="book-fundamentals-of-data-visualization"><a href="https://serialmentor.com/dataviz/visualizing-amounts.html">Book: Fundamentals of Data Visualization</a></h3>
+
+<p>Really really nice book on principles of plotting and visualizing data. Like it! I will post some content below later.</p>
+
+<h3 id="other-packages-for-plot">Other packages for plot</h3>
+
+<ul>
+  <li><a href="http://mpld3.github.io/notebooks/interactive_legend.html">mpld3</a>: renderer interactive figures (using d3) for Matplotlib code. Quite nice, though incomplete. Worth trying!</li>
+  <li><a href="https://github.com/altair-viz/altair">Altair</a> is a relatively new declarative visualization library for Python. It’s easy to use and makes great looking plots, however the ability to customize those plots is not nearly as powerful as in Matplotlib.</li>
+  <li><a href="https://plot.ly/">plot.ly</a> can generate nice plots - this used to be a paid service only but was recently open sourced. Looks fancy!</li>
+  <li><a href="https://github.com/matplotlib/ipympl">ipympl</a> introduces interactive widgets of matplotlib in Jupyter notebook and JupyterLab.</li>
+</ul>
+
+<h3 id="incredible-cheat-sheet-for-matplotlib"><a href="https://github.com/rougier/matplotlib-cheatsheet">Incredible cheat sheet for Matplotlib!</a></h3>
+<dl class="wp-caption aligncenter" style="width: 950px">
+
+<dt><a href=""><img class="" src="/images/matplotlib-cheatsheet.png" alt="`Matplotlib` cheatsheet" /></a></dt>
+
+<dd>`Matplotlib` cheatsheet</dd>
+</dl>
+
+<p>And here are some commands in common use.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="o">%</span><span class="n">load_ext</span> <span class="n">autoreload</span>
+<span class="o">%</span><span class="n">autoreload</span> <span class="mi">2</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">clear_output</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'figure.dpi'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">200.0</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'figure.facecolor'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'w'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.family'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'serif'</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'font.size'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">25.0</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">'text.usetex'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span> <span class="c1"># Two columns
+</span><span class="n">ax</span><span class="p">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">direction</span><span class="o">=</span><span class="s">'in'</span><span class="p">)</span>         <span class="c1"># Set tick direction to 'in'
+</span><span class="n">ax2</span><span class="p">.</span><span class="n">get_shared_y_axes</span><span class="p">().</span><span class="n">join</span><span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="c1"># Share axis
+</span><span class="n">ax</span><span class="p">.</span><span class="n">axis</span><span class="p">(</span><span class="s">'off'</span><span class="p">)</span> <span class="c1"># No frame when showing images
+</span><span class="n">plt</span><span class="p">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'xxx.png'</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s">'tight'</span><span class="p">)</span> <span class="c1"># Save without empty margin
+# If you find your figure too large, pass `rasterized=True` to `plt.savefig()`.
+</span></code></pre></div></div>
+
+<p><a href="http://akuederle.com/matplotlib-zoomed-up-inset">How to create a zoom-in inset in a figure?</a></p>
+
+<h1 id="useful-python-packages-in-astrophysics">Useful Python packages in astrophysics:</h1>
+
+<p>Here I only list several nice packages in astrophysics research. For more please check my GitHub <a href="https://github.com/AstroJacobLi?tab=stars">stars</a> and GitHub <a href="https://github.com/topics/astrophysics">astrophysics</a> and <a href="https://github.com/topics/astronomy">astronomy</a> topics.</p>
+
+<ul>
+  <li><a href="https://github.com/dr-guangtou/taotie"><code class="language-plaintext highlighter-rouge">taotie</code></a>: A curated collection of resources for astrophysical research, best tutorial for anyone in this field!</li>
+  <li><a href="https://github.com/dr-guangtou/unagi"><code class="language-plaintext highlighter-rouge">unagi</code></a>: Search and download data from Hyper Suprime-Cam (HSC) Subaru Strategic Survey (SSP). Useful for people working with HSC data.</li>
+  <li><a href="https://github.com/astropy/photutils"><code class="language-plaintext highlighter-rouge">photutils</code></a>: Astropy package for source detection and photometry, basically substitutes of many IRAF functions.</li>
+  <li><a href="https://github.com/GalSim-developers/GalSim"><code class="language-plaintext highlighter-rouge">galsim</code></a>: Galaxy image simulation tool, broadly used in weak lensing and mock tests in galaxy research.</li>
+  <li><a href="https://github.com/bd-j/prospector"><code class="language-plaintext highlighter-rouge">prospector</code></a>: Python code for Stellar Population Inference from Spectra and SEDs.</li>
+  <li>
+    <p><a href="https://github.com/bd-j/sedpy"><code class="language-plaintext highlighter-rouge">sedpy</code></a>: Utilities for astronomical spectral energy distributions.</p>
+  </li>
+  <li><a href="https://healpy.readthedocs.io/en/latest/install.html"><code class="language-plaintext highlighter-rouge">healpy</code></a>: It is a package dealing with data on a sphere. It can map every direction to a pixel position, and vice versa. It can also calculate power spectrum of things like CMB. Although it’s super useful, its python documentation is really unfriendly for beginners.</li>
+  <li><a href="https://rodluger.github.io/starry/tutorials/hd189.html"><code class="language-plaintext highlighter-rouge">starry</code></a>: very cool package that can calculate light curves of transits and secondary eclipses of exoplanets, light curves of eclipsing binaries, rotational phase curves of exoplanets, light curves of planet-planet and planet-moon occultations, and more. A very cool tutorial: <a href="https://rodluger.github.io/starry/tutorials/hd189.html">A map of the hot jupiter HD 189733b</a>.</li>
+  <li><a href="https://github.com/esheldon/cosmology"><code class="language-plaintext highlighter-rouge">cosmology</code></a>: cosmology package based on C, written by esheldon. Fast calculate distances. It can also be replaced by <a href="http://docs.astropy.org/en/stable/cosmology/index.html#module-astropy.cosmology"><code class="language-plaintext highlighter-rouge">astropy.cosmology</code></a>.</li>
+  <li>
+    <p><a href="https://corner.readthedocs.io/en/latest/"><code class="language-plaintext highlighter-rouge">corner</code></a>: A package of drawing corner diagrams of MCMC and 2d histogram. It’s very easy to use and has many options. Good tool! You can find some examples in the <code class="language-plaintext highlighter-rouge">SN cosmology.ipynb</code>. <a href="http://dr-guangtou.github.io">Song Huang</a> also uses <code class="language-plaintext highlighter-rouge">corner</code> to “explore” data: plot everything with everything. It can check the dependence between variables directly. Example by Song Huang:</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">corner</span> 
+<span class="n">sdss_labels</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="sa">r</span><span class="s">'$u-g$'</span><span class="p">,</span> <span class="sa">r</span><span class="s">'$g-i$'</span><span class="p">,</span>
+      <span class="sa">r</span><span class="s">'$\log \mathrm{EW}_{\mathrm{H}\alpha}$'</span><span class="p">,</span>
+      <span class="sa">r</span><span class="s">'$\log \mathrm{EW}_{\mathrm{H}\beta}$'</span><span class="p">,</span>
+      <span class="sa">r</span><span class="s">'$\log \mathrm{EW}_{[\mathrm{OIII}]}$'</span>
+  <span class="p">]</span>
+
+<span class="n">sdss_corner</span> <span class="o">=</span> <span class="n">corner</span><span class="p">.</span><span class="n">corner</span><span class="p">(</span>
+      <span class="n">sdss_obs</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">get_cmap</span><span class="p">(</span><span class="s">'coolwarm'</span><span class="p">)(</span><span class="mf">0.9</span><span class="p">),</span>
+      <span class="n">smooth</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">sdss_labels</span><span class="p">,</span>
+      <span class="n">label_kwargs</span><span class="o">=</span><span class="p">{</span><span class="s">'fontsize'</span><span class="p">:</span> <span class="mi">22</span><span class="p">},</span>
+      <span class="n">quantiles</span><span class="o">=</span><span class="p">[</span><span class="mf">0.16</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.84</span><span class="p">],</span>
+      <span class="n">plot_contours</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">fill_contours</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+      <span class="n">show_titles</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">title_kwargs</span><span class="o">=</span><span class="p">{</span><span class="s">"fontsize"</span><span class="p">:</span> <span class="mi">18</span><span class="p">},</span>
+      <span class="n">hist_kwargs</span><span class="o">=</span><span class="p">{</span><span class="s">"histtype"</span><span class="p">:</span> <span class="s">'stepfilled'</span><span class="p">,</span> <span class="s">"alpha"</span><span class="p">:</span> <span class="mf">0.8</span><span class="p">,</span> <span class="s">"edgecolor"</span><span class="p">:</span> <span class="s">"none"</span><span class="p">},</span>
+      <span class="n">use_math_text</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="n">sdss_corner</span><span class="p">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">14</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://docs.python.org/3.7/library/multiprocessing.html"><code class="language-plaintext highlighter-rouge">multiprocess.Pool</code></a>: simple tool to run your loop tasks on multiple cores. This is embedded in <code class="language-plaintext highlighter-rouge">python</code> itself, and goes like below. For more complicated usage (multiple arguments as input), please refer to the documentation.</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">multiprocessing</span> <span class="kn">import</span> <span class="n">Pool</span>
+<span class="k">def</span> <span class="nf">run_SBP</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+<span class="n">slug</span><span class="p">.</span><span class="n">run_SBP</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">'Number of processor to use:'</span><span class="p">)</span>
+<span class="n">n_jobs</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">())</span>
+
+<span class="n">pool</span> <span class="o">=</span> <span class="n">Pool</span><span class="p">(</span><span class="n">n_jobs</span><span class="p">)</span>
+<span class="n">pool</span><span class="p">.</span><span class="nb">map</span><span class="p">(</span><span class="n">run_SBP</span><span class="p">,</span> <span class="n">obj_cat</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><a href="https://joblib.readthedocs.io/en/latest/parallel.html"><code class="language-plaintext highlighter-rouge">joblib</code></a>: an awesome tool of building pipelines in python. Just like a superior <code class="language-plaintext highlighter-rouge">pickle</code>, it can dump and load functions and data (especially large data arrays) efficiently. It can also distribute loop tasks to multiple processors. See the usages below:</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Parallel computing
+</span><span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">Parallel</span><span class="p">,</span> <span class="n">delayed</span>
+<span class="k">def</span> <span class="nf">run_SBP</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+<span class="n">slug</span><span class="p">.</span><span class="n">run_SBP</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+
+<span class="n">n_jobs</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="k">with</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">n_jobs</span><span class="p">,</span> <span class="n">backend</span><span class="o">=</span><span class="s">'loky'</span><span class="p">)</span> <span class="k">as</span> <span class="n">parallel</span><span class="p">:</span>
+<span class="n">parallel</span><span class="p">(</span><span class="n">delayed</span><span class="p">(</span><span class="n">run_SBP</span><span class="p">)(</span><span class="n">obj</span><span class="p">)</span> <span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">obj_cat</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>There are various backends for this <code class="language-plaintext highlighter-rouge">Parallel</code> function, such as <code class="language-plaintext highlighter-rouge">loky</code>, <code class="language-plaintext highlighter-rouge">threading</code> and also <code class="language-plaintext highlighter-rouge">multiprocessing</code> as stated above.</p>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Dump and load
+</span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="n">knn</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">()</span>
+<span class="n">knn</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">metrics</span><span class="p">.</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">knn</span><span class="p">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)))</span>
+
+<span class="c1"># After training a classifier using scikit-learn, 
+# you want to dump it and use it next time.
+</span><span class="kn">import</span> <span class="nn">joblib</span>
+<span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">knn</span><span class="p">,</span> <span class="s">'./clf_cache/knn.joblib'</span><span class="p">)</span>
+<span class="c1"># If you want to dump the file after compressing, use this.
+</span><span class="n">joblib</span><span class="p">.</span><span class="n">dump</span><span class="p">(</span><span class="n">knn</span><span class="p">,</span> <span class="s">'./clf_cache/knn.joblib.compress'</span><span class="p">,</span> <span class="n">compress</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>  
+</code></pre></div>    </div>
+  </li>
+  <li><a href="https://ipyparallel.readthedocs.io/en/latest/index.html"><code class="language-plaintext highlighter-rouge">ipyparallel</code></a>: Using IPython for parallel computing</li>
+</ul>
+
+<h1 id="tricks">Tricks</h1>
+<h3 id="useful-packages">Useful packages</h3>
+<ul>
+  <li><a href="https://github.com/google/python-fire"><code class="language-plaintext highlighter-rouge">fire</code></a>: Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.</li>
+  <li><a href="https://github.com/jwkvam/celluloid/"><code class="language-plaintext highlighter-rouge">celluloid</code></a>: Easy Matplotlib Animation</li>
+</ul>
+
+<h3 id="build-your-package">Build your package</h3>
+<ul>
+  <li><a href="https://pip.readthedocs.io/en/1.1/requirements.html#requirements-file-format">How to write <code class="language-plaintext highlighter-rouge">requirements.txt</code> for a package</a></li>
+  <li><a href="https://pythonhosted.org/an_example_pypi_project/sphinx.html">How to write documentation using <code class="language-plaintext highlighter-rouge">sphinx</code></a> and <a href="https://docs.readthedocs.io/page/intro/getting-started-with-sphinx.html">publish using <code class="language-plaintext highlighter-rouge">Readthedocs</code></a>.</li>
+  <li><a href="https://packaging.python.org">Python Packaging User Guider (PyPI)</a>: note that when pushing your local files in <code class="language-plaintext highlighter-rouge">dist</code> to PyPI, you only need to do <code class="language-plaintext highlighter-rouge">python3 -m twine upload dist/*</code>. Don’t forget to add non-Python files in <code class="language-plaintext highlighter-rouge">MANIFEST.in</code> and <code class="language-plaintext highlighter-rouge">setup.py</code>.</li>
+</ul>
+
+<h3 id="jupyter-notebook--jupyter-lab">Jupyter Notebook &amp; Jupyter Lab</h3>
+
+<p>No matter under macOs or Linux, or even under Windows, you’ll find that a quick check of Jupiter Notebook is hard and cumbersome. You need to open <code class="language-plaintext highlighter-rouge">jupyter notebook</code> in this folder to check, then terminate this thread. However, using a new tool <a href="https://github.com/tuxu/ipynb-quicklook/">ipynb-quicklook</a> and a new app <a href="https://github.com/tuxu/nbviewer-app">Jupyter Notebook Viewer</a>, things get much more easier (under macOS and linux). Simply press <code class="language-plaintext highlighter-rouge">space</code> and check your notebooks!</p>
+
+<p>The following are some other tricks involved when using <code class="language-plaintext highlighter-rouge">jupyter notebook</code>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Command + click</code>: multiple cursors in a cell.</li>
+  <li><code class="language-plaintext highlighter-rouge">%load_ext autoreload</code>: import the IPython extension called <code class="language-plaintext highlighter-rouge">autoreload</code>. Then <code class="language-plaintext highlighter-rouge">%autoreload 2</code> will reload every module again automatically before executing.</li>
+  <li><code class="language-plaintext highlighter-rouge">%%time</code>: Magic command to time your cell for a single run. Useful!</li>
+  <li><code class="language-plaintext highlighter-rouge">%%timeit</code>: this command can be used to test your code’s performance. It runs your cell for many times and calculate the mean time consumed.</li>
+  <li><code class="language-plaintext highlighter-rouge">%matplotlib inline</code>: show Matplotlib figures inline. Useful!</li>
+  <li><code class="language-plaintext highlighter-rouge">%matplotlib qt</code>: show Matplotlib figures outside in a <code class="language-plaintext highlighter-rouge">Qt</code> interface, in which you can check positions and corresponding value of points.</li>
+  <li><code class="language-plaintext highlighter-rouge">%run ./two-histograms.ipynb</code>: this will run the notebook directly and shows every output from that notebook under this cell.</li>
+  <li><code class="language-plaintext highlighter-rouge">%load ./download_tri_color_images.py</code>: load the functions and constants defined in the input python file, and run this file.</li>
+  <li><code class="language-plaintext highlighter-rouge">%config InlineBackend.figure_format ='retina'</code>: show high resolution figures for Mac Retina screen. This won’t affect the figure which is saved, it only affect the figure which is showed using <code class="language-plaintext highlighter-rouge">plt.show()</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">_</code> means the previous output. By adding <code class="language-plaintext highlighter-rouge">;</code> in the end of a command, it will suppress the useless output of a function.
+    <ul>
+      <li>Basic shell commands: <code class="language-plaintext highlighter-rouge">!</code> is external shell command, and <code class="language-plaintext highlighter-rouge">&amp;</code> is to run this command as background.</li>
+    </ul>
+  </li>
+  <li>Click + <code class="language-plaintext highlighter-rouge">control</code>: Jupyter supports multiple cursors, similar to Sublime Text. (Use <code class="language-plaintext highlighter-rouge">alt</code> on Windows)</li>
+  <li><code class="language-plaintext highlighter-rouge">%debug</code> magic command: when you encounter an error, type this magic command in a new cell and run it. Type <code class="language-plaintext highlighter-rouge">n</code> to run the next line of code, type <code class="language-plaintext highlighter-rouge">c</code> to continue until the next breakpoint, and type <code class="language-plaintext highlighter-rouge">q</code> to quit. This magic command can also be used to check the value of variables, just type the name of the variable.</li>
+  <li><code class="language-plaintext highlighter-rouge">from IPython.core.debugger import set_trace</code>: use <code class="language-plaintext highlighter-rouge">set_trace()</code> to set a breakpoint in your cell or code block. The code will stop at the breakpoint and give you the chance to inspect variables.</li>
+  <li><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Jupyter extensions</a>: my favorite extensions are  Codefolding, Nofity and Code prettify. You can simply install it by <code class="language-plaintext highlighter-rouge">pip install jupyter_contrib_nbextensions</code> or <code class="language-plaintext highlighter-rouge">conda install -c conda-forge jupyter_contrib_nbextensions</code>.</li>
+  <li>Recently I switched to <code class="language-plaintext highlighter-rouge">jupyter lab</code>! It is faster than <code class="language-plaintext highlighter-rouge">jupyter notebook</code>.</li>
+</ul>
+
+<h3 id="formatting-strings">Formatting strings</h3>
+
+<p>Tutorial: <a href="https://pyformat.info">https://pyformat.info</a>. I often use <code class="language-plaintext highlighter-rouge">length = {:.2f}.format(3.1415)</code> or <code class="language-plaintext highlighter-rouge">name = "DECaLS_{}".format('g_band'}</code>.</p>
+
+<p>In Python 3.6, f-string can be used: f<code class="language-plaintext highlighter-rouge">length = {len(obj_cat):3d}</code>.</p>
+
+<h3 id="regex-regular-expression">RegEx: Regular Expression</h3>
+
+<p>Tutorial: <a href="https://github.com/ziishaned/learn-regex">https://github.com/ziishaned/learn-regex</a>.</p>
+
+<h3 id="using-tqdm-to-show-progress">Using <code class="language-plaintext highlighter-rouge">Tqdm</code> to show progress</h3>
+<p>See <a href="https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar">https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">slug.imutils</span> <span class="kn">import</span> <span class="n">TqdmUpTo</span>
+<span class="n">url</span> <span class="o">=</span> <span class="n">imutils</span><span class="p">.</span><span class="n">gen_url_hsc_s18a</span><span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s">'RA'</span><span class="p">],</span> <span class="n">obj</span><span class="p">[</span><span class="s">'Dec'</span><span class="p">],</span> 
+                       <span class="n">size</span> <span class="o">*</span> <span class="n">slug</span><span class="p">.</span><span class="n">HSC_pixel_scale</span><span class="p">,</span> 
+                       <span class="n">size</span> <span class="o">*</span> <span class="n">slug</span><span class="p">.</span><span class="n">HSC_pixel_scale</span><span class="p">,</span> <span class="n">band</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="c1">#urllib.request.urlretrieve(url, filename, imutils.reporthook)
+</span><span class="k">with</span> <span class="n">TqdmUpTo</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="s">'B'</span><span class="p">,</span> <span class="n">unit_scale</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">miniters</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">desc</span><span class="o">=</span><span class="n">prefix</span><span class="p">)</span> <span class="k">as</span> <span class="n">t</span><span class="p">:</span>  <span class="c1"># all optional kwargs
+</span>    <span class="n">urllib</span><span class="p">.</span><span class="n">request</span><span class="p">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="n">filename</span><span class="p">,</span>
+                       <span class="n">reporthook</span><span class="o">=</span><span class="n">t</span><span class="p">.</span><span class="n">update_to</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="unix">Unix</h1>
+
+<h4 id="rsync">Rsync</h4>
+
+<p>We use <code class="language-plaintext highlighter-rouge">rsync</code> to transfer files between two computers. It often goes like:</p>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -avz --progress jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/Document/xxx.fits ~/Research/</code></p>
+
+<h4 id="ssh">SSH</h4>
+
+<p>SSH is a tunnel through which you can connect with another computer (with fixed IP). It often goes like:</p>
+
+<p>Login kungpao: <code class="language-plaintext highlighter-rouge">ssh -A -Y jiaxuanli@kungpao.ucsc.edu</code>. However you can set alias for this command by write <code class="language-plaintext highlighter-rouge">alias login_kungpao='ssh -A -Y jiaxuanli@kungpao.ucsc.edu'</code> in your <code class="language-plaintext highlighter-rouge">.bash_profile</code>.</p>
+
+<p>Using the internet of kungpao: <code class="language-plaintext highlighter-rouge">ssh -g -qfnNT -D 7070 jiaxuanli@kungpao.ucsc.edu</code> and then set the port of SOCKS to be 7070.</p>
+
+<p>Using Jupiter Notebook on kungpao but control it locally: <code class="language-plaintext highlighter-rouge">ssh -Y -N -L localhost:9999:localhost:9999 jiaxuanli@kungpao.ucsc.edu</code> (on your laptop); <code class="language-plaintext highlighter-rouge">jupyter notebook --no-browser --port=9999</code> (on your server kungpao).</p>
+
+<p>The SSH session may be timeout very soon, check <a href="https://bjornjohansen.no/ssh-timeout">here</a> for solutions.</p>
+
+<h4 id="sshfs">SSHFS</h4>
+
+<p>When you find that using <code class="language-plaintext highlighter-rouge">ssh</code> and <code class="language-plaintext highlighter-rouge">rsync</code> is not convenient to see what you did, you need <code class="language-plaintext highlighter-rouge">sshfs</code> to mount your remote server to the local directory.</p>
+
+<p>First, you need to download and install <code class="language-plaintext highlighter-rouge">OSXFUSE</code> and <code class="language-plaintext highlighter-rouge">SSHFS</code> on <a href="https://osxfuse.github.io">https://osxfuse.github.io</a> (directly download the <code class="language-plaintext highlighter-rouge">.pkg</code> files under “Stable Releases” and then install them.) Then, you need to set a mounting folder (need to be empty). For example, <code class="language-plaintext highlighter-rouge">mkdir ~/Research/kungpao</code>.</p>
+
+<p>Finally, it goes like <code class="language-plaintext highlighter-rouge">sshfs jiaxuanli@kungpao.ucsc.edu:/Users/jiaxuanli/ /Users/jiaxuanli/Research/kungpao/ -ovolname=kungpao</code>.</p>
+
+<p>You will see a disk icon in folder <code class="language-plaintext highlighter-rouge">~/Research</code>. To unmount this “disk”, type <code class="language-plaintext highlighter-rouge">diskutil unmount ~/Research/kungpao/</code>.</p>
+
+<h4 id="screen">Screen</h4>
+
+<p><code class="language-plaintext highlighter-rouge">screen</code> enables me to use multiple windows in the background when using <code class="language-plaintext highlighter-rouge">ssh</code>.</p>
+
+<p>Make a new screen window using <code class="language-plaintext highlighter-rouge">screen -S Jiaxuan</code>; then do whatever you want in that terminal; and detach that window using <code class="language-plaintext highlighter-rouge">Ctrl-a + d</code>. After got detached, the screen terminal is still running in the background. You can reconnect that terminal with <code class="language-plaintext highlighter-rouge">screen -r Jiaxuan</code>.</p>
+:ET

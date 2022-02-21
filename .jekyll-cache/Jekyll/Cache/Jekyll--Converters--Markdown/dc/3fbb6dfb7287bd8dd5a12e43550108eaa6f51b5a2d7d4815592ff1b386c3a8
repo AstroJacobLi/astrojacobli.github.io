@@ -1,0 +1,37 @@
+I"~<p><a href="https://en.wikipedia.org/wiki/Weber–Fechner_law">Weber–Fechner law</a></p>
+
+<hr />
+
+<p>XKCD style of Mathematica plot: <a href="https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots">https://mathematica.stackexchange.com/questions/11350/xkcd-style-plots</a></p>
+
+<p>XKCD style of Matplotlib (bug for line labels): <a href="http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify">http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/#The-Code:-XKCDify</a>. This code must run under python2 environment.</p>
+
+<p>A good example of 2D Histogram using astroML: <a href="http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html">http://www.astroml.org/examples/datasets/plot_SDSS_SSPP.html</a></p>
+
+<p>Convert Jupyter Notebook to <code class="language-plaintext highlighter-rouge">html</code>: <code class="language-plaintext highlighter-rouge">jupyter nbconvert --to html low-z-galaxy-survey.ipynb </code></p>
+
+<p>Convert LaTeX to html gif picture: <a href="https://www.codecogs.com/latex/eqneditor.php">https://www.codecogs.com/latex/eqneditor.php</a></p>
+
+<hr />
+
+<p>Mac录屏的同时录制声音：<a href="https://www.jianshu.com/p/a8ff665285de">https://www.jianshu.com/p/a8ff665285de</a></p>
+
+<p>A good website to check visibility for a given RA and DEC: <a href="http://catserver.ing.iac.es/staralt/">http://catserver.ing.iac.es/staralt/</a></p>
+
+<p><strong>Convert figure to data points</strong>: <a href="http://markummitchell.github.io/engauge-digitizer/">http://markummitchell.github.io/engauge-digitizer/</a></p>
+
+<h4 id="how-to-use-latex-in-jekyll">How to use latex in jekyll?</h4>
+<ul>
+  <li>gem install kramdown</li>
+  <li>Change the markdown line in _config.yml to markdown: kramdown</li>
+  <li>And add something like</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="dl">"</span><span class="s2">text/javascript</span><span class="dl">"</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</span><span class="dl">"</span><span class="o">&gt;&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+<p>to <code class="language-plaintext highlighter-rouge">_layouts/default.html</code>. Now you can simply mark any mathematics in your posts with <code class="language-plaintext highlighter-rouge">$$</code></p>
+
+<hr />
+
+<p>Princeton Program: <a href="https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program">https://international.princeton.edu/international-students-and-scholars/International-Student-Internship-Program</a></p>
+:ET
