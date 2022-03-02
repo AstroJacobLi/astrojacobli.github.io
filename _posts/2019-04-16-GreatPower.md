@@ -5,6 +5,18 @@ date:   2019-04-16 15:10:00
 author: Jiaxuan Li
 categories: Miscellany
 ---
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+</style>
+
+<div class="alert">
+  <font size="+2">本文是2019年春季北京大学《大国崛起》课程笔记，仅供参考学习，请勿他用。</font> <br>
+</div>
+<br>
 
 # 大国崛起 Rise of the Great Powers
 
