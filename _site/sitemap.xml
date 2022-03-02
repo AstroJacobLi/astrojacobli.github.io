@@ -3,21 +3,6 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2020/09/Writing</loc>
-      
-        <lastmod>2020-09-22T10:40:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://localhost:4000/blog/2020/09/astro-ph-2020</loc>
       
         <lastmod>2020-09-16T18:00:00-04:00</lastmod>
@@ -51,21 +36,6 @@
       <loc>http://localhost:4000/blog/2020/04/%E5%A4%A7%E5%AD%A6%E5%9B%BD%E6%96%87%E4%B9%8B%E7%8E%B0%E4%BB%A3%E6%96%87%E5%AD%A6</loc>
       
         <lastmod>2020-04-15T08:00:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/blog/2020/02/2019nCoV</loc>
-      
-        <lastmod>2020-02-08T07:00:00-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -228,21 +198,6 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog/2018/12/Scikit-learn</loc>
-      
-        <lastmod>2018-12-10T05:18:00-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://localhost:4000/blog/2018/10/Macbook-for-Astronomy</loc>
       
         <lastmod>2018-10-30T20:40:00-04:00</lastmod>
@@ -351,7 +306,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -366,7 +321,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -381,7 +336,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/cooking/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -396,7 +351,7 @@
     <url>
       <loc>http://localhost:4000/cv/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -411,7 +366,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -426,7 +381,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -441,7 +396,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/links/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -456,7 +411,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -471,7 +426,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -486,7 +441,7 @@
     <url>
       <loc>http://localhost:4000/miscellany/photography/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -501,7 +456,7 @@
     <url>
       <loc>http://localhost:4000/research/</loc>
       
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
+        <lastmod>2022-03-01T22:20:21-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -512,81 +467,6 @@
     </url>
     
   
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/portfolio/princeton/</loc>
-      
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/portfolio/new_york/</loc>
-      
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/portfolio/bingbing/</loc>
-      
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/portfolio/</loc>
-      
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/css/main.css.map</loc>
-      
-        <lastmod>2022-02-20T20:15:15-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
     
   
 </urlset>
