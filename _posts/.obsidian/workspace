@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "0aa854b61e713613",
+    "type": "split",
+    "children": [
+      {
+        "id": "0de08ad41ed118d2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Photography.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7b7d14c00718a6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1567237eec1a18b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8f1e7e734180d23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8ffe676feb6235a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.0036334991455
+  },
+  "right": {
+    "id": "4c9079a87b3d157f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2af7c2d34a45e319",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96770ff84c23ca26",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Photography.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0de08ad41ed118d2",
+  "lastOpenFiles": [
+    "Photography.md",
+    "2020-09-15-Towards-ML.md"
+  ]
+}
