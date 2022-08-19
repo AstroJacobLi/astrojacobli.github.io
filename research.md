@@ -10,10 +10,12 @@ permalink: /research/
 ## Astrophysics
 
 
-### [Reaching for the Edge I: Probing the Outskirts of Massive Galaxies with HSC, DECaLS, SDSS and Dragonfly](https://academic.oup.com/mnras/article/515/4/5335/6652119)
+### Reaching for the Edge I: Probing the Outskirts of Massive Galaxies with HSC, DECaLS, SDSS and Dragonfly
 {% include image.html url="/images/low-z-postage.jpg" caption="Images of five low redshift massive galaxies in four different surveys" width=420 align="right" %}
 #### Advisors: [Alexie Leauthaud (UCSC)](http://alexie.sites.ucsc.edu), [Song Huang (Princeton)](http://dr-guangtou.github.io)
 We compared the abilities to detect massive galaxy outskirts and related systematics for Hyper Suprime-Cam (HSC), Dark Energy Camera Legacy Survey (DECaLS), Dragonfly Telephoto Array and SDSS. Dragonfly shows outstanding ability on recovering outskirts of low-$$z$$ bright galaxies to $$30\ \mathrm{mag/arcsec^2}$$. HSC could reach farther than 150 kpc for individual galaxy and 200 kpc for a galaxy ensemble. Good agreements are achieved between HSC and DECaLS profiles of intermediate-$$z$$ galaxies down to $$28\ \mathrm{mag/arcsec^2}\ (\sim100\ \mathrm{kpc})$$. DECaLS is able to recover the stellar mass within 100 kpc from HSC by only 0.05 dex. This work serves as a good reference for low surface brightness studies using different datasets and benefits future sky surveys. 
+
+[Monthly Notices of the Royal Astronomical Society, Volume 515, Issue 4, October 2022, Pages 5335–5357](https://academic.oup.com/mnras/article/515/4/5335/6652119)
 
 ### Multi-resolution filtering: an empirical method for isolating faint, extended emission in Dragonfly data and other low resolution images
 #### Advisor: [Pieter van Dokkum (Yale)](http://pietervandokkum.com)
