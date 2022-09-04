@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2022 22:20:21 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2022 22:20:21 -0500</lastBuildDate>
+    <pubDate>Sun, 04 Sep 2022 19:42:36 -0400</pubDate>
+    <lastBuildDate>Sun, 04 Sep 2022 19:42:36 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -480,7 +480,20 @@ Anyway, just another random idea I’d like to write down before I forget…&lt;
     
       <item>
         <title>大学国文现当代文学部分</title>
-        <description>&lt;h1 id=&quot;大学国文&quot;&gt;大学国文&lt;/h1&gt;
+        <description>&lt;style&gt;
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;alert&quot;&gt;
+  &lt;font size=&quot;+2&quot;&gt;本文是2020年春季北京大学《大学国文》课程笔记，仅供参考学习，请勿他用。&lt;/font&gt; &lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;大学国文&quot;&gt;大学国文&lt;/h1&gt;
 
 &lt;p&gt;2020年春，由中文系吴晓东老师讲授。&lt;/p&gt;
 
@@ -2964,7 +2977,20 @@ Hence we have many combinations to express the shape (ellipticity and position a
     
       <item>
         <title>大国崛起-钱乘旦</title>
-        <description>&lt;h1 id=&quot;大国崛起-rise-of-the-great-powers&quot;&gt;大国崛起 Rise of the Great Powers&lt;/h1&gt;
+        <description>&lt;style&gt;
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;alert&quot;&gt;
+  &lt;font size=&quot;+2&quot;&gt;本文是2019年春季北京大学《大国崛起》课程笔记，仅供参考学习，请勿他用。&lt;/font&gt; &lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;大国崛起-rise-of-the-great-powers&quot;&gt;大国崛起 Rise of the Great Powers&lt;/h1&gt;
 
 &lt;h3 id=&quot;prerequisite&quot;&gt;Prerequisite&lt;/h3&gt;
 
@@ -4561,7 +4587,20 @@ Hence we have many combinations to express the shape (ellipticity and position a
     
       <item>
         <title>形势与政策</title>
-        <description>&lt;h1 id=&quot;形式与政策&quot;&gt;形式与政策&lt;/h1&gt;
+        <description>&lt;style&gt;
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;div class=&quot;alert&quot;&gt;
+  &lt;font size=&quot;+2&quot;&gt;本文是2019年春季北京大学《形势与政策》课程笔记，仅供参考学习，请勿他用。&lt;/font&gt; &lt;br /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;形势与政策&quot;&gt;形势与政策&lt;/h1&gt;
 
 &lt;p&gt;本笔记基于2019年春季学期《形势与政策》课程，由李嘉轩、刘畅、亢议共同贡献，但不对笔记的正确性和客观性负责。&lt;/p&gt;
 
