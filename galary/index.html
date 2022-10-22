@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!-- Examples come from https://github.com/yymao/decals-image-list-tool -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="author" content="Yao-Yuan Mao" />
+  <meta name="creator" content="Yao-Yuan Mao" />
+
+  <title>Galaxy Gallery: Cutout Image Tool</title>
+  <meta name="description"
+  content="Display image cutouts for a list of sky coordinates, allowing you to inspect and mark selections. Images are retrived from DESI Legacy Imaging Surveys, SDSS, and DSS.">
+  <meta name="keywords"
+    content="astronomy, survey, cutout, image, imaging, photmetric, SDSS, DESI, DSS, DES, HSC, GALEX, WISE, DESI Legacy Imaging Surveys, target selection, javascript" />
+
+  <link rel="preconnect" href="https://www.legacysurvey.org/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/base.min.css" integrity="sha512-LuNflZud8JqmAW51BErW7CwyrjuWqD/fqpekzJAFoUOJpZDEYFLhRPXYByNe8Yy9Z8IAJAe6Alqo0ivJXWv5Hw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/buttons.min.css" integrity="sha512-6fgfhyE9ySgHhLG/VlUzsLMAl5ASlf77G0KyTajPvyYXyMItY3h98gEX1Pnzjo3P2QjDQW4S95CX05ycHeiffQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.6/forms.min.css" integrity="sha512-rh8hys9VgPr84sRqt9OaFfOtGwy2i5E1FShkMZi9A6Rq5LO0oP3CGK3jPA4dXBnuVCjFG547uSz3/sio1K7R3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  #main{
+    padding: 7px;
+    max-width: 1020px;
+    min-width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+  }
+  #form{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #input{
+    width: calc(100% - 0.8em);
+    height: 150px;
+    margin: 0 0.4em;
+  }
+  #layer, #scale{
+    height: 2.5em;
+    display: inline-block !important;
+    margin-bottom: 0 !important;
+  }
+  #scale{
+    width: 5em;
+  }
+  #list{
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+  }
+  .options > label{
+    margin: 0.1em 0.4em;
+    display: inline-block;
+  }
+  .credit{
+    font-size: 80%;
+    color: #333;
+    line-height: 1.5;
+  }
+  .credit a, .credit a:any-link{
+    color: #0078e7;
+    text-decoration: none;
+  }
+  .pic{
+    margin: 2px;
+    padding: 0;
+    display: inline-block;
+    transform-origin: center;
+    border: solid 8px #FFF;
+  }
+
+  figure {
+    margin: auto;
+    padding: 0px;
+    display: inline-block;
+  }
+  figure:hover {border-color: #999; background: rgba(0,0,0,.05); }
+
+  figcaption {
+    font-size: 85%;
+    color: #333;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .marked{
+    border-color:#e72300;
+  }
+  .warning{
+    display: none;
+  }
+  .warning-highlight{
+    color: #dd514c;
+    font-weight: bold;
+  }
+  .r1 {transform: rotate(90deg);}
+  .r2 {transform: rotate(180deg);}
+  .r3 {transform: rotate(270deg);}
+  .r0f {transform: scaleX(-1);}
+  .r1f {transform: rotate(90deg) scaleX(-1);}
+  .r2f {transform: rotate(180deg) scaleX(-1);}
+  .r3f {transform: rotate(270deg) scaleX(-1);}
+  @media (min-width: 420px) {
+    #list{ width: 400px;}
+  }
+  @media (min-width: 620px) {
+    #list{ width: 600px;}
+  }
+  @media (min-width: 820px) {
+    #list{ width: 800px;}
+  }
+  @media (min-width: 1020px) {
+    #list{ width: 1000px;}
+  }
+
+  /* The alert message box */
+  .alert {
+    padding: 20px;
+    background-color: #5A7F71; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  
+  </style>
+</head>
+
+<body>
+<div id="main">
+<div id="form">
+<form class="pure-form">
+  <fieldset>
+      <input type="text" id="catdir" class="pure-input-2-3" value="/magellan_proposal/udg_July22_bright_large.txt" required/>
+      <button class="pure-button pure-button-primary" id="load_cat">Load Catalog</button>
+  </fieldset>
+</form>
+
+<form class="pure-form">
+  <fieldset>
+    <p><textarea id="input" placeholder="Paste a list of R.A. and Decl."  required>
+      viz-id      ra        dec    
+      931  187.668276  0.7457892
+      2071 225.2647408  0.4846544
+      4032 350.2807156  1.4018211
+      4188  355.085029 -0.1462085
+      4221  30.0980674 -1.4120926
+      4363 176.3969337 -1.8543287
+      5051 150.4133053 -0.1191215
+      6675  30.2754303 -1.3742687
+      11959  128.821372 -1.6477051
+      12814  355.085259 -0.1464083
+  </textarea></p>
+    <div class="options">
+      <label>
+        <select id="input_source">
+          <option value="file" id="default-source">From Catalog</option>
+          <option value="textbox">From Input Box</option>
+        </select>
+      </label>
+      <label>
+        <select id="layer">
+          <option disabled selected value style="display: none;"> --&gt; Choose image source &lt;-- </option>
+          <option value="hsc-dr2" id="default-layer">Hyper Suprime-Cam (HSC) SSP DR2</option>
+          <option value="hsc-dr2:merian">HSC + Merian</option>
+          <option value="ls-dr9">Legacy Surveys DR9</option>
+          <option value="ls-dr9-model">Legacy Surveys DR9 Model</option>
+          <option value="ls-dr9-resid">Legacy Surveys DR9 Residual</option>
+          <option value="unwise-neo6">unWISE NEO6 12um Dust Map</option>
+          <option value="unwise-cat-model">unWISE Model</option>
+          <option value="sdss">SDSS (reprocessed by Legacy Surveys)</option>
+          <option value="des-dr1">Dark Energy Survey (DES) DR1</option>
+          <option value="galex">GALEX</option>
+          <option value="halpha">Halpha Map</option>
+          <option value="sfd">SFD Dust Map</option>
+          <option value="vlass1.2">VLASS</option>
+          <option value="dr16:sdss">SDSS: DR17</option>
+          <option value="poss2ukstu_red:dss">DSS: POSS2/UKSTU Red</option>
+          <option value="poss2ukstu_blue:dss">DSS: POSS2/UKSTU Blue</option>
+          <option value="poss2ukstu_ir:dss">DSS: POSS2/UKSTU IR</option>
+        </select>
+      </label>
+      <label>
+        Side length = <input type="number" id="scale" value="0.75" step="any" min="0.01" max="999" required> arcmin
+      </label>
+      <label>
+        <input type="checkbox" id="enable_marking"/> Enable marking
+      </label>
+      <label>
+        <button id="generate_output" class="pure-button" disabled>Record marks</button>
+      </label>
+    </div>
+  </fieldset>
+</form>
+</div>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <b>Note:</b> If you choose "HSC + Merian", the galary will display HSC <tt>griz</tt> + Merian <tt>N708</tt> composite images. 
+  Hovering over the image will display color images with HSC <tt>griz</tt> only. <tt>N708</tt> is highlighted in purple-ish color. 
+</div>
+
+<div id="list"></div>
+</div>
+
+<center>
+<p class="credit">
+  Images retrieved from <a href="https://www.legacysurvey.org/acknowledgment/">Legacy Surveys Sky Viewer</a>, <a href="https://skyserver.sdss.org/dr16/en/tools/chart/listinfo.aspx" title="Sloan Digital Sky Surveys">SDSS</a>, and <a href="https://archive.stsci.edu/cgi-bin/dss_form" title="Digitized Sky Survey">DSS</a>.
+  <br />
+  Modified by <a href="http://jiaxuanli.me/">Jiaxuan Li</a>, based on <a href="https://yymao.github.io">Yao-Yuan Mao</a>'s <a href="https://github.com/yymao/decals-image-list-tool">DECaLS image list tool</a>.
+  <br />
+  <i>
+    <span class="warning warning-highlight">Maintainance at NERSC may affect the cutout service of the DESI Legacy Imaging Surveys.<br></span>
+    <span class="warning">An <a href="https://viewer.legacysurvey.org">alternative Legacy Surveys Viewer</a> is available, but has no cutout service.<br></span>
+    <span class="no-warning">No cutout image shows up?</span>
+    Try choosing <u>SDSS:DR16</u> or <u>DSS</u> from the dropdown menu.
+  </i>
+</p>
+</center>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js" integrity="sha512-sgDgZX/GgfD7qSeMjPN/oE9EQgXZJW55FIjdexVT60QerG2gAWhR9QDQEGt3O90Dy9jVcwMWsoTMhLgldIiKXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  var nersc_is_down = false;
+  var _cols, _i_ID, _i_ra, _i_dec, _has_mark, _delimiter, _scale, _size, _layer, _source;
+  
+  const search_params = (new URL(document.location.href)).searchParams;
+  const _use_dev = search_params.has("dev") ? "-dev" : "";
+  const _do_rand_rot = search_params.has("randrot");
+  var _select_layer = search_params.get("layer");
+  if (!_select_layer && $("#layer > option[value='" + _select_layer + "']").length == 0) _select_layer = false;
+  
+  /* When NERSC is down
+  (function(){
+    var t = new Date().getTime();
+    var t_out = Date.parse('9 Jul 2021 10:00:00 PDT');
+    var t_back = Date.parse('12 Jul 2021 20:00:00 PDT');
+    if ((t >= t_out) && (t < t_back)){
+      nersc_is_down = true;
+      $("span.warning").show();
+    }
+  })();
+  */
+  /*"merian": "https://tigress-web.princeton.edu/~jiaxuanl/Merian/cutout_RGB/magellan_cosmos_${img_id}_HSC_N708.png"*/
+  const _image_urls = {
+    "desi": "https://www.legacysurvey.org/viewer" + _use_dev + "/cutout.jpg?ra=${ra}&dec=${dec}&pixscale=${scale}&layer=${layer}&size=180",
+    "sdss": "https://skyserver.sdss.org/dr17/SkyServerWS/ImgCutout/getjpeg?ra=${ra}&dec=${dec}&scale=${scale}&width=180&height=180",
+    "dss": "https://archive.stsci.edu/cgi-bin/dss_search?v=${layer}&r=${ra}&d=${dec}&e=J2000&h=${size}&w=${size}&f=gif",
+    "merian": "https://tigress-web.princeton.edu/~jiaxuanl/Merian/stars/stars_${img_id}_tractor.png"
+  };
+  
+  const _link_urls = {
+    "desi": "https://www.legacysurvey.org/viewer" + _use_dev + "?ra=${ra}&dec=${dec}&layer=${layer}&zoom=14",
+    "merian": "https://www.legacysurvey.org/viewer" + _use_dev + "?ra=${ra}&dec=${dec}&layer=${layer}&zoom=14",
+    "sdss": "https://skyserver.sdss.org/dr17/VisualTools/navi?ra=${ra}&dec=${dec}",
+    "desi-alt": "https://viewer.legacysurvey.org/?ra=${ra}&dec=${dec}&layer=${layer}&zoom=14",
+    "dss": "https://archive.stsci.edu/cgi-bin/dss_search?v=${layer}&r=${ra}&d=${dec}&e=J2000&h=15&w=15&f=gif"
+  };
+  
+  
+  const _img_dom_template = "<img class='pic ${marked} ${rot}' title='${title}' src='${img_url}' width='180' height='180'/>";
+  const _img_merian_template = '<img class="pic ${marked} ${rot}" title="${title}" src="${img_url}" onmouseover=this.src=&apos;${hsc_url}&apos; onmouseout=this.src=&apos;${img_url}&apos; width="180" height="180"/>';
+  const _linked_img_template = "<figure><a class='plink' href='${link_url}'>${img_dom}</a><figcaption>${img_caption}</a></figcaption></figure>";
+  const _rot_classes = ["", "r1", "r2", "r3", "r0f", "r1f", "r2f", "r3f"];
+  const _default_layer = $("#default-layer").attr("value");
+  
+  const escapeHtml = function(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  
+  const loadFile = function(filePath) {
+    var result = null;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", filePath, false);
+    xmlhttp.setRequestHeader('Cache-Control', 'no-cache'); // don't cache
+    xmlhttp.send();
+    if (xmlhttp.status==200) {
+      result = xmlhttp.responseText;
+    }
+    return result;
+  }
+  
+  const parseHeader = function(line_raw) {
+    const line = line_raw.trim();
+    var has_header = true;
+  
+    _delimiter = /\s+/;
+    if (line.search(",") > -1) _delimiter = ",";
+    _cols = line.split(_delimiter).map(col => col.trim());
+  
+    const _cols_lower = _cols.map(col => col.toLowerCase());
+  
+    for (const key of ["id", "index", "ind", "idx", "indices", "viz-id"]) {
+      _i_ID = _cols_lower.indexOf(key);
+      if (_i_ID > -1) break;
+    }
+    for (const key of ["ra", "r.a.", "radeg", "ra2000", "right ascension", "r"]) {
+      _i_ra = _cols_lower.indexOf(key);
+      if (_i_ra > -1) break;
+    }
+    for (const key of ["dec", "decl", "decl.", "dedeg", "de2000", "declination", "de", "d"]) {
+      _i_dec = _cols_lower.indexOf(key);
+      if (_i_ra > -1) break;
+    }
+  
+    if (_i_ra == -1 || _i_dec == -1){  // no header
+      if (_cols_lower[_cols.length-1] == "true" || _cols_lower[_cols.length-1] == "false"){
+        _has_mark = true;
+        _cols.pop();
+      }
+      if (_cols.length == 2){
+        _i_ra = 0;
+        _i_dec = 1;
+      }
+      else if (_cols.length > 2){
+        _i_ID = 0;
+        _i_ra = 1;
+        _i_dec = 2;
+      }
+      else{
+        _has_mark = false;
+        $("#list").html("<p>Error! \nPlease make sure the first line is header, and it contains at least \"ra\" and \"dec\". \nOnly supports space/tab/comma-separated tables.</p>");
+        return -1;
+      }
+      _cols = _cols.fill("");
+      has_header = false;
+    }
+    else{  // has header
+      if (_cols_lower[_cols.length-1] == "marked"){
+        _has_mark = true;
+        _cols.pop();
+      }
+      else{
+        _has_mark = false;
+      }
+    }
+    return has_header;
+  };
+  
+  const addImage = function(line) {
+    if (!line.replace(/[-=\s]/g, "")) return;
+    var items, out, mark, _img_temp;
+    items = line.trim().split(_delimiter);
+    if (_has_mark) mark = (items.pop().trim().toLowerCase() == "true");
+
+    var _img_temp;
+    if (_source == 'merian') {_img_temp = _img_merian_template;}
+    else _img_temp = _img_dom_template;
+    if (_source == 'merian') {
+      out_merian = _linked_img_template
+         .replace("${img_dom}", _img_merian_template)
+         .replace("${link_url}", _link_urls[_source])
+         .replaceAll('${img_url}', _image_urls[_source])
+         .replaceAll('${hsc_url}', _image_urls[_source].replace('_N708.png', '.png'))
+         .replaceAll("${img_id}", items[_i_ID])
+         .replace(/\${ra}/g, parseFloat(items[_i_ra]).toString())
+         .replace(/\${dec}/g, parseFloat(items[_i_dec]).toString())
+         .replace(/\${scale}/g, _scale)
+         .replace(/\${size}/g, _size)
+         .replace(/\${layer}/g, _layer)
+         .replace("${title}", items.map((item, i) => (_cols[i] + " = " + item.trim())).join("\n"))
+         .replace("${img_caption}", _cols[_i_ID] + "=" + items[_i_ID])
+         .replace("${marked}", mark ? "marked" : "")
+         .replace("${rot}", _do_rand_rot ? _rot_classes[Math.floor(Math.random()*_rot_classes.length)] : "");
+    $(out_merian).appendTo(document.getElementById("list"));
+    }
+    else out = _linked_img_template
+         .replace("${img_dom}", _img_dom_template)
+         .replace("${link_url}", _link_urls[_source])
+         .replaceAll('${img_url}', _image_urls[_source])
+         .replaceAll("${img_id}", items[_i_ID])
+         .replace(/\${ra}/g, parseFloat(items[_i_ra]).toString())
+         .replace(/\${dec}/g, parseFloat(items[_i_dec]).toString())
+         .replace(/\${scale}/g, _scale)
+         .replace(/\${size}/g, _size)
+         .replace(/\${layer}/g, _layer)
+         .replace("${title}", items.map((item, i) => (_cols[i] + " = " + item.trim())).join("\n"))
+         .replace("${img_caption}", _cols[_i_ID] + "=" + items[_i_ID])
+         .replace("${marked}", mark ? "marked" : "")
+         .replace("${rot}", _do_rand_rot ? _rot_classes[Math.floor(Math.random()*_rot_classes.length)] : "");
+    $(out).appendTo(document.getElementById("list"));
+  };
+  
+  const run = function() {
+    window.stop();
+    record_output();
+  
+    const current_layer = _layer;
+    const current_source = _source;
+    const current_size = _size;
+    const current_scale = _scale;
+  
+    const layer_source = $("#layer").val().split(":");
+    _layer = layer_source[0] || _default_layer;
+    _source = layer_source[1] || "desi";
+    _size = parseFloat($("#scale").val()).toFixed(7).replace(/0+$/, '');
+    _scale = (parseFloat($("#scale").val()) / 3).toFixed(7).replace(/0+$/, '');
+    if (!layer_source[0]) $("#default-layer").prop("selected", true);
+  
+    const _file_path = "/~jiaxuanl/galary/catalogs/" + $("#catdir").val()
+    const _input_from_file = ($("#input_source").val() == "file");
+  
+    if ((current_source != _source) || (!current_layer) || (!current_scale) || (!current_size) || $(".pic").length == 0){
+      if (_input_from_file){
+        var lines = escapeHtml(loadFile(_file_path)).trim().split(/\n/);
+        $("#input").val(escapeHtml(loadFile(_file_path)).trim())
+      }
+      var lines = escapeHtml($("#input").val()).trim().split(/\n/);
+      
+      const has_header = parseHeader(lines[0]);
+      if (has_header == -1) return;
+      if (has_header) lines.shift();
+  
+      $("#list").empty();
+      lines.forEach(addImage);
+      update_click_events();
+      return;
+    }
+  
+    if (current_layer == _layer && current_size == _size && current_scale == _scale) return;
+    $(".pic").each((i, elem) => {
+      const url = $(elem).attr("src")
+                  .replace("="+current_layer+"&", "="+_layer+"&")
+                  .replace("scale="+current_scale+"&", "scale="+_scale+"&")
+                  .replace("h="+current_size+"&w="+current_size, "h="+_size+"&w="+_size);
+      $(elem).attr("src", url);
+    });
+  
+    if (current_layer == _layer) return;
+    $(".plink").each((i, elem) => {
+      const url = $(elem).attr("href").replace("="+current_layer+"&", "="+_layer+"&");
+      $(elem).attr("href", url);
+    });
+  };
+  
+  const update_click_events = function(){
+    if ($("#enable_marking").prop("checked")){
+      $(".plink").on("click", (event) => { event.preventDefault(); });
+      $(".pic").on("click", (event) => {
+        if (event.ctrlKey) { window.open( $(event.target).parent().attr("href") ); }
+        else {
+          $(event.target).toggleClass("marked");
+          $("#generate_output").prop("disabled", false);
+       }
+      });
+      $("#input").prop("readonly", true);
+      $("#generate_output").addClass("pure-button-primary");
+    }
+    else{
+      record_output();
+      $(".plink, .pic").off("click");
+      $("#input").prop("readonly", false);
+      $("#generate_output").removeClass("pure-button-primary");
+    }
+  };
+  
+  const record_output = function(){
+    if ($("#generate_output").prop("disabled") || $(".pic").length == 0) return;
+    var out = _cols.join("\t") + "\tmarked\n";
+    if (out.trim() == "marked") out = "";  // no header
+    out += $(".pic").map((i, elem) => (
+      $(elem).attr("title").split(/\n/).map(item => item.substring(item.indexOf(" = ") + 3)).join("\t")
+      + "\t" + $(elem).hasClass("marked")
+    )).get().join("\n");
+    $("#input").val(out);
+    $("#generate_output").prop("disabled", true);
+  }
+  
+  $("form").on("submit", (event) => {event.preventDefault();});
+  $("#generate_output").on("click", record_output);
+  $("#load_cat").on("click", run);
+  $("#input_source").on("input", run);
+  $("#layer").on("input", run);
+  $("#scale").on("input", run);
+  $("#input").on("input", () => { _source = ""; run(); });
+  $("#catdir").on("input", run);
+  $("#enable_marking").on("input", () => {
+    if ($(".pic").length == 0) { run(); }
+    else { update_click_events() };
+  });
+  $(window).on("beforeunload", () => {
+    if (!$("#generate_output").prop("disabled")){
+      return "Are you sure you want to close this page? You cannot recover the marks you made!";
+    }
+  });
+  
+  if (_select_layer){ $("#layer > option[value='" + _select_layer + "']").prop("selected", true); }
+  if (search_params.get("input")) { $("#input").val(search_params.get("input")); }
+  
+  if (_select_layer || search_params.get("input")){ run(true); }
+  else { document.getElementById("layer").focus(); }
+</script>
+
+<!-- <script type="text/javascript" src="load_img.js"></script> -->
+
+
+</body>
+</html>
