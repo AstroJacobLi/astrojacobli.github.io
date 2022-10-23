@@ -34,6 +34,7 @@
     text-align: center;
   }
   #input{
+    display: none; /* hide the input file */
     width: calc(100% - 0.8em);
     height: 150px;
     margin: 0 0.4em;
@@ -86,6 +87,7 @@
     text-align: center;
   }
 
+
   .marked{
     border-color:#e72300;
   }
@@ -119,16 +121,18 @@
   /* The alert message box */
   .alert {
     padding: 20px;
-    background-color: #5A7F71; /* Red */
-    color: white;
+    background-color: #fff3cd; /* Red */
+    color: #856404;
     margin-bottom: 15px;
     font-size: 20px;
   }
-
+  .alert .alert-link {
+    color: #533f03;
+  }
   /* The close button */
   .closebtn {
     margin-left: 15px;
-    color: white;
+    color: #533f03;
     font-weight: bold;
     float: right;
     font-size: 22px;
@@ -146,11 +150,13 @@
 </head>
 
 <body>
+<center><h1><em>Ultra-puffy galaxy</em> (UPG) sample in Li et al. (2022, Paper I)</h1></center>
+
 <div id="main">
 <div id="form">
 <form class="pure-form">
   <fieldset>
-      <input type="text" id="catdir" class="pure-input-2-3" value="/magellan_proposal/udg_July22_bright_large.txt" required/>
+      <input type="text" id="catdir" class="pure-input-2-3" value="upg_MW_z001_004.txt" required/>
       <button class="pure-button pure-button-primary" id="load_cat">Load Catalog</button>
   </fieldset>
 </form>
@@ -159,29 +165,18 @@
   <fieldset>
     <p><textarea id="input" placeholder="Paste a list of R.A. and Decl."  required>
       viz-id      ra        dec    
-      931  187.668276  0.7457892
-      2071 225.2647408  0.4846544
-      4032 350.2807156  1.4018211
-      4188  355.085029 -0.1462085
-      4221  30.0980674 -1.4120926
-      4363 176.3969337 -1.8543287
-      5051 150.4133053 -0.1191215
-      6675  30.2754303 -1.3742687
-      11959  128.821372 -1.6477051
-      12814  355.085259 -0.1464083
   </textarea></p>
     <div class="options">
       <label>
         <select id="input_source">
           <option value="file" id="default-source">From Catalog</option>
-          <option value="textbox">From Input Box</option>
+          <!-- <option value="textbox">From Input Box</option> -->
         </select>
       </label>
       <label>
         <select id="layer">
           <option disabled selected value style="display: none;"> --&gt; Choose image source &lt;-- </option>
           <option value="hsc-dr2" id="default-layer">Hyper Suprime-Cam (HSC) SSP DR2</option>
-          <option value="hsc-dr2:merian">HSC + Merian</option>
           <option value="ls-dr9">Legacy Surveys DR9</option>
           <option value="ls-dr9-model">Legacy Surveys DR9 Model</option>
           <option value="ls-dr9-resid">Legacy Surveys DR9 Residual</option>
@@ -200,14 +195,14 @@
         </select>
       </label>
       <label>
-        Side length = <input type="number" id="scale" value="0.75" step="any" min="0.01" max="999" required> arcmin
+        Side length = <input type="number" id="scale" value="0.5" step="any" min="0.01" max="999" required> arcmin
       </label>
       <label>
         <input type="checkbox" id="enable_marking"/> Enable marking
       </label>
-      <label>
+      <!-- <label>
         <button id="generate_output" class="pure-button" disabled>Record marks</button>
-      </label>
+      </label> -->
     </div>
   </fieldset>
 </form>
@@ -215,8 +210,12 @@
 
 <div class="alert">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  <b>Note:</b> If you choose "HSC + Merian", the galary will display HSC <tt>griz</tt> + Merian <tt>N708</tt> composite images. 
-  Hovering over the image will display color images with HSC <tt>griz</tt> only. <tt>N708</tt> is highlighted in purple-ish color. 
+  <b>Instruction:</b> This page shows the cutout images for <em>ultra-puffy galaxies</em> (UPGs) in Li et al. (2022, Paper I). 
+  The user can click "--> Choose image source <--" 
+  and select the desired image source. HSC-SSP PDR2 is recommended due to its depth. 
+  Hovering over the image will display the coordinates and ID of the galaxy. It takes several minutes to load all the images for the first time.
+
+  When clicking on the individual image, the user will be redirected to the corresponding coordinate in the <a href="https://www.legacysurvey.org/viewer" class='alert-link'>Legacy Survey Viewer</a>
 </div>
 
 <div id="list"></div>
@@ -415,7 +414,7 @@
     _scale = (parseFloat($("#scale").val()) / 3).toFixed(7).replace(/0+$/, '');
     if (!layer_source[0]) $("#default-layer").prop("selected", true);
   
-    const _file_path = "/~jiaxuanl/galary/catalogs/" + $("#catdir").val()
+    const _file_path = "/galary/BeyondUDG/catalogs/" + $("#catdir").val()
     const _input_from_file = ($("#input_source").val() == "file");
   
     if ((current_source != _source) || (!current_layer) || (!current_scale) || (!current_size) || $(".pic").length == 0){
