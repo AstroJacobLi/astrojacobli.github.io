@@ -16,8 +16,8 @@ permalink: /research/BeyondUDG/
 
 ### Cutout Images of UPGs and UDGs
 You can enjoy the beautiful cutout images of UDGs and UPGs using the image visualization tool developed by Yao-Yuan Mao. Click the link below!!! 
-- Mosaics of <a class="pku_style" href="http://jiaxuanli.me/galary/BeyondUDG/UPG.html">UPGs</a>
-- Mosaics of <a class="pku_style" href="http://jiaxuanli.me/galary/BeyondUDG/UDG.html">UDGs</a>
+- Mosaic of <a class="pku_style" href="http://jiaxuanli.me/galary/BeyondUDG/UPG.html">UPGs</a>
+- Mosaic of <a class="pku_style" href="http://jiaxuanli.me/galary/BeyondUDG/UDG.html">UDGs</a>
 
 Users can click "--> Choose image source <--" and select the desired image source. ``HSC-SSP PDR2`` is recommended to see the low surface brightness outskirts of these galaxies. Hovering over the image will display the coordinates and ID of the galaxy. It takes several minutes to load all the images for the first time. When clicking on the individual image, the user will be redirected to the corresponding coordinate in the Legacy Survey Viewer. Here we show several UPGs and UDGs as eye candies :) 
 
