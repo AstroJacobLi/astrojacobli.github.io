@@ -14,20 +14,6 @@ permalink: /research/BeyondUDG/
 
 ## Beyond Ultra-Diffuse Galaxies I: Mass-Size Outliers Among the Satellites of Milky Way Analogs
 
-### Catalogs and Data
-We make the following catalogs and data available for public use. The catalogs are in the CDS format. One can load the data following the instruction of [``astropy``](https://docs.astropy.org/en/stable/api/astropy.io.ascii.Cds.html). A detailed description of the catalog can be found in Table 3 of Paper I. Note that we haven't done any background contamination correction in the following catalogs.
-- [Catalog of ultra-puffy galaxies (UPGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/upg_cds.dat)
-- [Catalog of ultra-diffuse galaxies (UDGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_cds.dat)
-
-As described in Section 3.4, we apply a bias correction to the measurements of size, total magnitude, surface brightness, and color. The bias has already been corrected in the above catalog. For transparency and reproducibility, here we provide the bias terms in the following files. The bias is defined as ``bias = truth - measurement`` and is consistent with Figure 4. One can derive the original measurements by subtracting the bias term from the catalogued values.
-- [Bias terms of UPGS](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/upg_bias.fits)
-- [Bias terms of UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_bias.fits)
-
-We also provide the catalogs of "fake" UDGs and UPGs. They are used to derive the background contamination fraction in Section 4.3. 
-- [Catalog of fake UPGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_upg_cat_1.5sigma_220726.fits)
-- [Catalog of fake UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_udg_cat_220726.fits)
-
-
 ### Cutout Images of UPGs and UDGs
 You can enjoy the beautiful cutout images of UDGs and UPGs using the image visualization tool developed by Yao-Yuan Mao. Click the link below!!! 
 - Mosaics of <a class="pku_style" href="http://jiaxuanli.me/galary/BeyondUDG/UPG.html">UPGs</a>
@@ -99,5 +85,17 @@ dec = 42.6750964" src="https://www.legacysurvey.org/viewer/cutout.jpg?ra=237.738
 </div>
 
 
+### Catalogs and Data
+We make the following catalogs and data available for public use. The catalogs are in the CDS format. One can load the data following the instruction of [``astropy``](https://docs.astropy.org/en/stable/api/astropy.io.ascii.Cds.html). A detailed description of the catalog can be found in Table 3 of Paper I. Note that we haven't done any background contamination correction in the following catalogs.
+- [Catalog of ultra-puffy galaxies (UPGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/upg_cds.dat)
+- [Catalog of ultra-diffuse galaxies (UDGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_cds.dat)
+
+As described in Section 3.4, we apply a bias correction to the measurements of size, total magnitude, surface brightness, and color. The bias has already been corrected in the above catalog. For transparency and reproducibility, here we provide the bias terms in the following files. The bias is defined as ``bias = truth - measurement`` and is consistent with Figure 4. One can derive the original measurements by subtracting the bias term from the catalogued values.
+- [Bias terms of UPGS](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/upg_bias.fits)
+- [Bias terms of UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_bias.fits)
+
+We also provide the catalogs of "fake" UDGs and UPGs. They are used to derive the background contamination fraction in Section 4.3. 
+- [Catalog of fake UPGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_upg_cat_1.5sigma_220726.fits)
+- [Catalog of fake UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_udg_cat_220726.fits)
 
 
