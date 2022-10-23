@@ -6,6 +6,9 @@
 
 - title: "Research"
   href: "/research/"
+  subcategories:
+    - subtitle: "Mass-size Outliers"
+      subhref: "/research/BeyondUDG"
 
 - title: "Blog"
   href: "/blog/"
