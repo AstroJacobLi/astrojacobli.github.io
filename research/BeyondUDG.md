@@ -106,7 +106,7 @@ As described in Section 3.4, we apply a bias correction to the measurements of s
 - [Bias terms of UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_bias.fits)
 
 We also provide the catalogs of "fake" UDGs and UPGs. They are used to derive the background contamination fraction in Section 4.3. 
-- [Catalog of fake UPGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_upg_cat_1.5sigma_220726.fits)
-- [Catalog of fake UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_udg_cat_220726.fits)
+- [Catalog of fake UPGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_upg_cat_1.5sigma_221025.fits)
+- [Catalog of fake UDGs](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/fake_udg_cat_221025.fits)
 
 
