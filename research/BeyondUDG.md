@@ -12,7 +12,7 @@ permalink: /research/BeyondUDG/
     </style>
 </head>
 
-## Beyond Ultra-Diffuse Galaxies I: Mass-Size Outliers Among the Satellites of Milky Way Analogs
+## [Beyond Ultra-Diffuse Galaxies I: Mass-Size Outliers Among the Satellites of Milky Way Analogs](https://arxiv.org/abs/2210.14994)
 
 ### Cutout Images of UPGs and UDGs
 You can enjoy the beautiful cutout images of UDGs and UPGs using the image visualization tool developed by Yao-Yuan Mao. Click the link below!!! 
@@ -97,7 +97,7 @@ dec = 42.6750964" src="https://www.legacysurvey.org/viewer/cutout.jpg?ra=237.738
 
 
 ### Catalogs and Data
-We make the following catalogs and data available for public use. The catalogs are in the CDS format. One can load the data following the instruction of [``astropy``](https://docs.astropy.org/en/stable/api/astropy.io.ascii.Cds.html). A detailed description of the catalog can be found in Table 3 of Paper I. Note that we haven't done any background contamination correction in the following catalogs.
+We make the following catalogs and data available for public use. The catalogs are in the CDS format. One can load the data following the instruction of [``astropy``](https://docs.astropy.org/en/stable/api/astropy.io.ascii.Cds.html). A detailed description of the catalog can be found in Table 3 of [Paper I](https://arxiv.org/abs/2210.14994). Note that we haven't done any background contamination correction in the following catalogs.
 - [Catalog of ultra-puffy galaxies (UPGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/upg_cds.dat)
 - [Catalog of ultra-diffuse galaxies (UDGs)](https://github.com/AstroJacobLi/kuaizi/blob/master/data/BeyondUDG/udg_cds.dat)
 
