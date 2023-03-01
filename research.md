@@ -9,7 +9,17 @@ permalink: /research/
 
 ## Astrophysics
 
-### Beyond Ultra-Diffuse Galaxies: Mass-Size Outliers Among the Satellites of Milky Way Analogs
+### Beyond Ultra-Diffuse Galaxies II: Environmental Quenching of Mass-Size Outliers Among the Satellites of Milky Way Analogs
+
+{% include image.html url="/images/upg_quench.png" caption="The quenched fractions of UDGs (gray), UPGs (green), normal-sized satellites (orange) as a function of stellar mass." width=520 align="right" %}
+
+In [Paper I (Li et al. 2022b)](https://arxiv.org/abs/2210.14994), we present a sample of large diffuse galaxies (i.e., ultra-diffuse and ultra-puffy galaxies) around Milky-Way analogs using the exquisitely deep and wide Hyper Suprime-Cam Strategic Survey images. As a follow-up study, in this [Paper II (Li et al. 2023a)](https://arxiv.org/abs/2302.14108), we explore the statistical characteristics of these mass-size outliers, including their size distribution, spatial distribution, and most importantly, their star formation status. By comparing these distributions with normal satellites of MW analogs, we learn about how mass-size outliers form, and how their star formation is tied to their exotic sizes. We find that, once using the appropriate way to construct the mass-size outlier sample (i.e., selecting then based on the mass-size relation, instead of hard cuts on size or surface brightness), the quenched fraction (the fraction of galaxies that are quiescent in star formation) of mass-size outliers is very similar to normal-sized satellites. This hints that **quenching is not tied to being a mass-size outlier**. We discuss the possibility where mass-size outliers are formed prior to falling into the current host, and are quenched together with normal-sized dwarfs via ram pressure stripping. The next step is to find ultra-puffy galaxies in simulations, where we can study their formation and evolution in detail.
+
+
+
+
+
+### Beyond Ultra-Diffuse Galaxies I: Mass-Size Outliers Among the Satellites of Milky Way Analogs
 
 Large diffuse galaxies are hard to find, but understanding the environments where they live, their numbers, and ultimately their origins, is of intense interest and importance for galaxy formation and evolution. In [Paper I (Li et al. 2022b)](https://arxiv.org/abs/2210.14994), we propose a new concept of "ultra-puffy" galaxies (UPGs), defined to be $$1.5\sigma$$ above the average mass-size relation. We argue that our definition for ultra-puffy galaxies, based on the mass-size relation, better represent the tail of the satellite size distribution. It is also more physically-motivated than the common definition of ultra-diffuse galaxies (UDGs), which depends on surface brightness and size cuts and thus yields different surface mass density cuts for quenched and star-forming galaxies.
 
