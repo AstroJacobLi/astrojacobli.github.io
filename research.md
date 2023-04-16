@@ -56,6 +56,8 @@ We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mappi
 <br>
 
 ## Software Development
+- [**smplotlib**](https://github.com/AstroJacobLi/smplotlib): Matplotlib template for SuperMongo style. Just one line of code to make your plot look like SuperMongo! [Also see a thread on Twitter](https://twitter.com/AstroJacobLi/status/1646724338723192832)
+
 - [**mrf**](https://mrfiltering.readthedocs.io/en/latest/): Multi-Resolution Filtering is a method for isolating faint, extended emission in Dragonfly data and other low resolution images, developed by [Pieter van Dokkum](http://pietervandokkum.com) and [Jiaxuan Li](http://astrojacobli.github.io).
 
 - [**unagi**](https://github.com/dr-guangtou/unagi): Search and download data from Hyper Suprime-Cam (HSC) Subaru Strategic Survey (SSP), developed by [Song Huang](http://dr-guangtou.github.io), [Jiaxuan Li](http://astrojacobli.github.io) and contributors.
