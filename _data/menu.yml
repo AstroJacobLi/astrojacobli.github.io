@@ -13,9 +13,6 @@
 - title: "Blog"
   href: "/blog/"
 
-- title: "Gallery"
-  href: '/portfolio/'
-
 - title: "Miscellany"
   href: "/miscellany/"
   subcategories:
@@ -23,5 +20,3 @@
       subhref: "/miscellany/photography"
     - subtitle: "Cooking"
       subhref: "/miscellany/cooking/"
-    - subtitle: "Links"
-      subhref: "/miscellany/links"
