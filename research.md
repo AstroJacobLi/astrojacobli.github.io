@@ -8,7 +8,7 @@ permalink: /research/
 
 ### PopSED: Population-Level Inference for Galaxy Properties from Broadband Photometry
 
-{% include image.html url="/images/PopSED_ICML_poster.jpeg" caption="Poster of PopSED for the <a href="https://ml4astro.github.io/icml2023/assets/29.pdf">MLxAstro workshop</a> in 2023 ICML" width=450 align="right"%}
+{% include image.html url="/images/PopSED_ICML_poster.jpeg" caption="Poster of PopSED for the MLxAstro workshop in 2023 ICML" width=450 align="right"%}
 
 In [Li et al. (2023c)](https://ui.adsabs.harvard.edu/abs/2023arXiv230916958L/abstract), we present PopSED, a framework for population-level inference of galaxy properties from photometric data. Unlike the traditional approach of first analyzing individual galaxies and then combining the results to determine the physical properties of the entire galaxy population, we directly make the population distribution the inference objective. We train **normalizing flows** to approximate the population distribution by minimizing the Wasserstein distance between the synthetic photometry of the galaxy population and the observed data. We validate our method using mock observations and apply it to galaxies from the GAMA survey. PopSED reliably recovers the redshift and stellar mass distribution of 100K galaxies using broadband photometry within 1 GPU-hour, being **1 million times faster** than the traditional SED modeling method. From the population posterior we also recover the star-forming main sequence for GAMA galaxies at $$z<0.1$$. With the unprecedented number of galaxies in upcoming surveys, our method offers an efficient tool for studying galaxy evolution and deriving redshift distributions for cosmological analyses.
 
