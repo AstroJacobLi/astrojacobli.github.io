@@ -14,6 +14,8 @@ In [Li et al. (2023c)](https://ui.adsabs.harvard.edu/abs/2023arXiv230916958L/abs
 
 The code <tt>[popsed](https://github.com/AstroJacobLi/popsed)</tt> is available on <a href="https://github.com/AstroJacobLi/popsed"><font color="FF00CC">GitHub</font></a>. If you have any questions, please feel free to open an issue on GitHub or contact me via email.
 
+Our [poster](https://aas243-aas.ipostersessions.com/default.aspx?s=17-8B-BF-EA-85-AA-3F-8F-05-B7-9F-FD-F4-22-2F-BA&guestview=true) for AAS243 has won the [Chambliss Astronomy Achievement Student Award](https://aas.org/posts/news/2023/01/congratulations-aas-243-chambliss-student-award-winners)!
+
 <br><br><br>
 
 ### Beyond Ultra-Diffuse Galaxies II: Environmental Quenching of Mass-Size Outliers Among the Satellites of Milky Way Analogs
