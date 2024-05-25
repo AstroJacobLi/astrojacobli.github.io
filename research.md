@@ -71,16 +71,15 @@ We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mappi
 
 - More works can be found on Github: [**@AstroJacobLi**](https://github.com/AstroJacobLi). Please star if you like them!
 
-<!-- https://ionicabizau.github.io/github-calendar/example/ -->
 <!-- Include the library. -->
 <script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
 <!-- Prepare a container for your calendar. -->
@@ -91,6 +90,8 @@ We investigated galaxies with H$$\alpha$$ emission ring-like structures in Mappi
 
 <script>
     GitHubCalendar(".calendar", "astrojacobli");
-    // or enable responsive functionality
+
+    // or enable responsive functionality:
     GitHubCalendar(".calendar", "astrojacobli", { responsive: true });
+
 </script>
