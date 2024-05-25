@@ -9,6 +9,9 @@
   subcategories:
     - subtitle: "Mass-size Outliers"
       subhref: "/research/BeyondUDG"
+    - subtitle: "Isolated Quiescent Dwarf"
+      subhref: "/research/Hedgehog"
+
 
 - title: "Blog"
   href: "/blog/"
