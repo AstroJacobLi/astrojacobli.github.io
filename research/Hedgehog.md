@@ -1,7 +1,7 @@
 ---
 layout: page
 # title: Research
-permalink: /research/BeyondUDG/
+permalink: /research/Hedgehog/
 ---
 <head>
     <link rel="stylesheet" type="text/css" href="../../css/display.css">
