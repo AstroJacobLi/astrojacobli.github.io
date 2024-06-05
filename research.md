@@ -13,7 +13,7 @@ permalink: /research/
 In [Li et al. (2024b)](https://arxiv.org/abs/2406.00101), we discovered a new isolated quiescent dwarf galaxy at a distance of 2.4 Mpc! The galaxy, named Hedgehog, has no neighbors within 1 Mpc, and is 1.7 Mpc from its nearest galaxy group Centaurus A, making it one of the most isolated quiescent dwarfs at this stellar mass. The distance is measured using surface brightness fluctuations with both Legacy Surveys and deep Magellan/IMACS imaging data. It has a red optical color, early-type morphology, and shows no UV emission. This indicates that Hedgehog has an old stellar population and is quiescent in star formation. Compared with other quiescent dwarfs in the Local Group and Local Volume, Hedgehog appears smaller in size for its luminosity but is consistent with the mass--size relations. Hedgehog might be a backsplash galaxy from the Centaurus A group, but it could also have been quenched in the field by ram pressure stripping in the cosmic web, reionization, or internal processes such as supernova and stellar feedback. 
 
 Please check out the 3-D environment of Hedgehog using this interactive plot: [Hedgehog Environment](https://astrojacobli.github.io/research/Hedgehog/).
-
+<br><br>
 
 ### PopSED: Population-Level Inference for Galaxy Properties from Broadband Photometry
 
@@ -33,7 +33,7 @@ Our [poster](https://aas243-aas.ipostersessions.com/default.aspx?s=17-8B-BF-EA-8
 
 In [Paper I (Li et al. 2023a)](https://arxiv.org/abs/2210.14994), we present a sample of large diffuse galaxies (i.e., ultra-diffuse and ultra-puffy galaxies) around Milky-Way analogs using the exquisitely deep and wide Hyper Suprime-Cam Strategic Survey images. As a follow-up study, in this [Paper II (Li et al. 2023b)](https://arxiv.org/abs/2302.14108), we explore the statistical characteristics of these mass-size outliers, including their size distribution, spatial distribution, and most importantly, their star formation status. By comparing these distributions with normal satellites of MW analogs, we learn about how mass-size outliers form, and how their star formation is tied to their exotic sizes. We find that, once using the appropriate way to construct the mass-size outlier sample (i.e., selecting then based on the mass-size relation, instead of hard cuts on size or surface brightness), the quenched fraction (the fraction of galaxies that are quiescent in star formation) of mass-size outliers is very similar to normal-sized satellites. This hints that **quenching is not tied to being a mass-size outlier**. We discuss the possibility where mass-size outliers are formed prior to falling into the current host, and are quenched together with normal-sized dwarfs via ram pressure stripping. The next step is to find ultra-puffy galaxies in simulations, where we can study their formation and evolution in detail.
 
-
+<br><br>
 
 ### Beyond Ultra-Diffuse Galaxies I: Mass-Size Outliers Among the Satellites of Milky Way Analogs
 
@@ -43,14 +43,14 @@ Large diffuse galaxies are hard to find, but understanding the environments wher
 
 Using Subaru's Hyper Suprime-Cam Strategic Survey Program, we perform a systematic search for low surface brightness galaxies, and present samples of UPGs and UDGs associated with Milky-Way analogs at $$0.01 < z < 0.04$$. The data products are available [here](http://jiaxuanli.me/research/BeyondUDG/). We find that each MW analog hosts $$N_{\rm UPG}=0.31±0.05$$ ultra-puffy galaxies on average, which is consistent with but slightly lower than the observed abundance at this halo mass in the Local Volume. The UDG abundance $$N_{\rm UDG}=0.44±0.05$$ agrees with local measurements quite well. On average, 7% of the satellites in MW analogs are UDGs, and 5% of the satellites are UPGs. In [Paper II (Li et al. 2023b)](https://arxiv.org/abs/2302.14108), we present the size and spatial distributions of UPGs and their star formation status.
 
-<br>
+<br><br>
 
 ### Reaching for the Edge I: Probing the Outskirts of Massive Galaxies with HSC, DECaLS, SDSS, and Dragonfly
 In [Li et al. (2022a)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.5335L/abstract), we compared the abilities to detect massive galaxy outskirts and related systematics for Hyper Suprime-Cam (HSC), Dark Energy Camera Legacy Survey (DECaLS), Dragonfly Telephoto Array and SDSS. Dragonfly shows outstanding ability on recovering outskirts of low-$$z$$ bright galaxies to $$30\ \mathrm{mag/arcsec^2}$$. HSC could reach farther than 150 kpc for individual galaxy and 200 kpc for a galaxy ensemble. Good agreements are achieved between HSC and DECaLS profiles of intermediate-$$z$$ galaxies down to $$28\ \mathrm{mag/arcsec^2}\ (\sim100\ \mathrm{kpc})$$. DECaLS is able to recover the stellar mass within 100 kpc from HSC by only 0.05 dex. This work serves as a good reference for low surface brightness studies using different datasets and benefits future sky surveys.
 
 {% include image.html url="/images/low-z-postage.jpg" caption="Images of five low redshift massive galaxies in four different surveys" width=720 align="center" %}
 
-
+<br><br>
 
 ### Multi-resolution filtering: an empirical method for isolating faint, extended emission in Dragonfly data and other low resolution images
 We developed an empirical, self-contained method "Multi-resolution filtering" (MRF) to isolate and study faint, large-scale emission in imaging data of low spatial resolution. The method was developed for the Dragonfly Telephoto Array, which produces images that have excellent low surface brightness sensitivity but poor spatial resolution. The resulting image only contains emission fainter than a pre-defined surface brightness limit. The method is implemented in [$$\texttt{mrf}$$](https://github.com/AstroJacobLi/mrf), an open-source MIT licensed Python package. It also contains an well-defined method to determine the surface brightness detection limit on a certain scale. This work is crucial for the future sciences of Dragonfly surveys. Please see [van Dokkum et al. 2019](https://ui.adsabs.harvard.edu/abs/2019arXiv191012867V/abstract) for more details. 
