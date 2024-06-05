@@ -15,6 +15,7 @@ permalink: /research/Hedgehog/
 </head>
 
 ## Hedgehog galaxy: an isolated quiescent galaxy at 2.4 Mpc
+Check out the [paper](https://arxiv.org/abs/2406.00101) on arXiv!
 
 The interactive 3-D figure below shows the environment that Hedgehog lives in. Hedgehog is a quiescent galaxy at 2.4 Mpc, which is very isolated from other galaxies. It takes ~20s to load. You can zoom in/out and rotate the figure to explore the environment of Hedgehog.
 

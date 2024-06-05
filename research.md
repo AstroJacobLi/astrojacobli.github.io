@@ -12,7 +12,7 @@ permalink: /research/
 
 In [Li et al. (2024)](https://arxiv.org/abs/2406.00101), we discovered a new isolated quiescent dwarf galaxy at a distance of 2.4 Mpc! The galaxy, named Hedgehog, has no neighbors within 1 Mpc, and is 1.7 Mpc from its nearest galaxy group Centaurus A, making it one of the most isolated quiescent dwarfs at this stellar mass. The distance is measured using surface brightness fluctuations with both Legacy Surveys and deep Magellan/IMACS imaging data. It has a red optical color, early-type morphology, and shows no UV emission. This indicates that Hedgehog has an old stellar population and is quiescent in star formation. Compared with other quiescent dwarfs in the Local Group and Local Volume, Hedgehog appears smaller in size for its luminosity but is consistent with the mass--size relations. Hedgehog might be a backsplash galaxy from the Centaurus A group, but it could also have been quenched in the field by ram pressure stripping in the cosmic web, reionization, or internal processes such as supernova and stellar feedback. 
 
-Please check out the 3-D environment of Hedgehog using this interactive plot: [Hedgehog Environment](https://astrojacobli.github.io/research/Hedgehog/environment.html).
+Please check out the 3-D environment of Hedgehog using this interactive plot: [Hedgehog Environment](https://astrojacobli.github.io/research/Hedgehog/).
 
 
 ### PopSED: Population-Level Inference for Galaxy Properties from Broadband Photometry
