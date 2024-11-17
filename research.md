@@ -14,7 +14,7 @@ In [Li et al. (2024b)](https://ui.adsabs.harvard.edu/abs/2024ApJ...975L..23L/abs
 
 Please check out the 3-D environment of Hedgehog using this interactive plot: [Hedgehog Environment](https://astrojacobli.github.io/research/Hedgehog/). 
 Also check out the AAS NOVA highlight on this discovery: [AAS NOVA](https://aasnova.org/2024/11/06/discovery-of-a-lonely-galactic-hedgehog/).
-<iframe src="https://aasnova.org/2024/11/06/discovery-of-a-lonely-galactic-hedgehog/" width="400" height="400"></iframe>
+<iframe src="https://aasnova.org/2024/11/06/discovery-of-a-lonely-galactic-hedgehog/" width="800" height="450"></iframe>
 
 The YouTube video below also nicely introduces the discovery of Hedgehog (made by a YouTuber, not me!).
 <center>
