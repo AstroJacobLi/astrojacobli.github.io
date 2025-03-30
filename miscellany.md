@@ -3,8 +3,6 @@ layout: page
 title: Miscellany
 permalink: /miscellany/
 ---
-<center><div style='font-family: "Apple LiSung Light"'><font size="5">隐约雷鸣，阴霾天空，但盼风雨来，能留你来此</font></div></center>
-<br>
 <!-- 
 On my homepage, you can find more things than my research. I'm a big fan of any kinds of music, from Indian traditional tabla and sitar to Chopin and Rachmaninoff. Modern poetry, painting and photography also fascinate me. Let's enjoy <a href="https://astrojacobli.github.io//miscellany/art/"><strong>Art</strong></a> together! -->
 <br><br>
@@ -27,6 +25,36 @@ I was fascinated by the beauty of the nature since I was a child. Fortunately, m
 {% include image.html url="/images/Davenport.JPG" caption="Sunset in Davenport, CA" width=700 align="center" %}
 
 <br>
+
+
 <center>
-<div style='font-family: "Apple LiSung Light"'><font size="5">隐约雷鸣，阴霾天空，即使天无雨，我亦留此地</font></div>
+<div style='font-family: "Apple LiSung Light"'><font size="5">
+Let us be lovers, we’ll marry our fortunes together
+I’ve got some real estate here in my bag
+So we bought a pack of cigarettes and Mrs. Wagner’s pies
+And we walked off to look for America
+Cathy, I said as we boarded a Greyhound in Pittsburgh
+Michigan seems like a dream to me now
+It took me four days to hitchhike from Saginaw
+I’ve gone to look for America
+
+Laughing on the bus, playing games with the faces
+She said the man in the gabardine suit was a spy
+I said, be careful, his bowtie is really a camera
+Toss me a cigarette, I think there’s one in my raincoat
+We smoked the last one an hour ago
+So I looked at the scenery
+She read her magazine
+And the moon rose over an open field
+
+Cathy, I’m lost, I said though I knew she was sleeping
+And I’m empty and aching and I don’t know why
+Counting the cars on the New Jersey Turnpike
+They’ve all come to look for America
+All come to look for America
+All come to look for America
+
+by Paul Simon, 1968
+</font>
+</div>
 </center>
