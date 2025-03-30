@@ -3,7 +3,39 @@ layout: page
 title: Art
 permalink: /miscellany/art/
 ---
-Some of my favorite pieces are listed below. 
+
+
+<center><div style='font-family: "Apple LiSung Light"'><font size="5">
+Let us be lovers, we’ll marry our fortunes together
+I’ve got some real estate here in my bag
+So we bought a pack of cigarettes and Mrs. Wagner’s pies
+And we walked off to look for America
+Cathy, I said as we boarded a Greyhound in Pittsburgh
+Michigan seems like a dream to me now
+It took me four days to hitchhike from Saginaw
+I’ve gone to look for America
+
+Laughing on the bus, playing games with the faces
+She said the man in the gabardine suit was a spy
+I said, be careful, his bowtie is really a camera
+Toss me a cigarette, I think there’s one in my raincoat
+We smoked the last one an hour ago
+So I looked at the scenery
+She read her magazine
+And the moon rose over an open field
+
+Cathy, I’m lost, I said though I knew she was sleeping
+And I’m empty and aching and I don’t know why
+Counting the cars on the New Jersey Turnpike
+They’ve all come to look for America
+All come to look for America
+All come to look for America
+
+by Paul Simon, 1968
+</font></div></center>
+
+
+<!-- Some of my favorite pieces are listed below. 
  
 # Classical Music: 
 - [Chopin: Ballade No.4 in F minor, Op.52](https://www.youtube.com/watch?v=O61C9RwrW-Y)
@@ -12,9 +44,9 @@ Some of my favorite pieces are listed below.
 - [Rachmaninoff: Piano Concerto No.2 in C minor, Op.18, by Kissin](https://www.youtube.com/watch?v=l4zkc7KEvYM&t=121s)
 - [Rachmaninoff: Piano Concerto No.2 in C minor, Op.18, by Lang Lang](https://www.youtube.com/watch?v=e-x01ddG0x4) 
 - [Rachmaninoff: Piano Trio "élégiaque" No. 1, by Lang Lang](https://www.youtube.com/watch?v=y7wrtcuF4WI)
-- [Mozart: Piano Sonata K331 Theme, by Yidi](https://www.bilibili.com/video/BV1Ep4y1a79N)
+- [Mozart: Piano Sonata K331 Theme, by Yidi](https://www.bilibili.com/video/BV1Ep4y1a79N) -->
 
-# Pop Music:
+<!-- # Pop Music:
 - Muse: [Starlight](https://www.youtube.com/watch?v=Pgum6OT_VH8), [Unintended](https://www.youtube.com/watch?v=i9LOFXwPwC4), [Follow Me](https://www.youtube.com/watch?v=5kH0OEJxUlE), [Aftermath](https://www.youtube.com/watch?v=YkB9a_DR-7A), [Neutron Star Collision](https://www.youtube.com/watch?v=MTvgnYGu9bg).
 - Oasis: [Champagne Supernova](https://www.youtube.com/watch?v=tI-5uv4wryI), [Don't Look Back in Anger](https://www.youtube.com/watch?v=cmpRLQZkTb8), [Wonderwall](https://www.youtube.com/watch?v=bx1Bh8ZvH84).
 - Lovebugs: [Everybody Knows I Love You](https://www.youtube.com/watch?v=aMHaRe_awXY)
@@ -26,10 +58,10 @@ Some of my favorite pieces are listed below.
 - 茄子蛋: [浪流連 Waves Wandering](https://www.youtube.com/watch?v=3Y0Ut5ozaKs), [浪子回頭 Back Here Again](https://www.youtube.com/watch?v=x3bDhtuC5yk)
 - 言の葉の庭: [Rain](https://www.youtube.com/watch?v=GeSqcrbNO3Q)
 
-{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %} 
+{% include image.html url="/images/escher-spiral.jpg" caption="Sphere Spirals (M. C. Escher, 1958)" width=300 align="right" %}  -->
 
 
-# Prose:
+<!-- # Prose:
 
 **《与王昆绳书》**
 
@@ -44,14 +76,14 @@ Some of my favorite pieces are listed below.
 **苞之生二十六年矣。使蹉跎昏忽，常如既往，则由此而四十、五十，岂有难哉！无所得于身，无所得于后，是将与众人同其蔑蔑也。每念兹事，如沉疴之附其身，中夜起立，绕屋彷徨。仆夫童奴怪诧不知所谓。苞之心事，谁可告语哉？吾兄其安以为苞策哉！**
 
 吾兄得举。士友间鲜不相庆，而苞窃有惧焉。退之云：**“众人之进，未始不为退。”**愿时自觉也。苞迩者欲穷治诸经，破旧说之藩篱，而求其所以云之意。虽冒风雪，入逆旅，不敢一刻自废。日月迅迈，惟各勖励，以慰索居。苞顿首。
+ -->
 
-
-# _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
+<!-- # _The Unknown Secrets of the Universe_ -- Astronomy in Peking University
 <center>
 <iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it!
+This is a short video produced by me, which aims at showing the journey of an astronomy student at Peking University, also conveying the spirit of PKU students. This video is made as a gift for the 120th anniversary of Peking University by PKU Youth Astronomy Society. Hope you like it! -->
 
 
 <!---
