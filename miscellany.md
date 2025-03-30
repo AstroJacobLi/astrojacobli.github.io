@@ -26,11 +26,10 @@ I was fascinated by the beauty of the nature since I was a child. Fortunately, m
 
 <br>
 
-
 <center>
 <div style='font-family: "Apple LiSung Light"'><font size="5">
-Let us be lovers, we’ll marry our fortunes together
-I’ve got some real estate here in my bag
+Let us be lovers, we’ll marry our fortunes together <br>
+I’ve got some real estate here in my bag <br>
 So we bought a pack of cigarettes and Mrs. Wagner’s pies
 And we walked off to look for America
 Cathy, I said as we boarded a Greyhound in Pittsburgh
