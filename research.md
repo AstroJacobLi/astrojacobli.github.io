@@ -9,9 +9,9 @@ permalink: /research/
 
 ### [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201): Discovery of a Dwarf Planet Candidate in an Extremely Wide Orbit
 
-{% include image.html url="/images/TNO/2017OF201_size.png" caption="The five dwarf planets recognized by the IAU plus the newly discovered trans-Neptunian object 2017 OF201." width=250 align="left" %}
+{% include image.html url="/images/TNO/2017OF201_size.png" caption="The five dwarf planets recognized by the IAU, plus our newly discovered trans-Neptunian object." width=250 align="right" %}
 
-{% include image.html url="/images/TNO/2017OF201_animation.gif" caption="Animation showing the movement of 2017 OF201 on the sky. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=250 align="right" %}
+<!-- {% include image.html url="/images/TNO/2017OF201_animation.gif" caption="Animation showing the movement of 2017 OF201 on the sky. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=250 align="right" %} -->
 
 
 Led by my longtime friend [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with fellow grad student [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). It was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
