@@ -19,11 +19,8 @@ Led by my longtime friend [Sihao Cheng](https://sihaocheng.github.io/) (IAS), to
 
 With these detections spanning over 7 years, we were able to trace the object's orbit to a very good precision. This object is in an extremely wide (a ~ 840 au) and eccentric (e ~ 0.946) orbit that takes approximately 25,000 years to complete. At a distance of ~90 au from the Sun now, it has a diameter of about 700 km, assuming an albedo of 0.15. It is potentially large enough to qualify as a dwarf planet like Pluto. 
 
-<br>
 
 {% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. <br>Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
-
-<br>
 
 
 The most striking feature of 2017 OF201 is that its orbit does not following the apsidal clustering pattern observed in many other extreme TNOs (see the figure on the right). This pattern is thought to be caused by the gravitational influence of a massive planet beyond Neptune, or so-called [Planet 9 or Planet X](https://en.wikipedia.org/wiki/Planet_Nine). However, 2017 OF201's orbit is not aligned with this clustering, suggesting that it may have been perturbed by a different mechanism, or it implies that Planet 9/X doesn't exist. 
@@ -33,6 +30,8 @@ The most striking feature of 2017 OF201 is that its orbit does not following the
 Because of its extreme orbit, 2017 OF201 can be detected by surveys with similar depths to DECaLS for only 0.5% of its orbital period. This means that there are likely a large population of similar objects in the outer solar system that have not yet been discovered. Upcoming wide-field sky surveys, including the [Vera C. Rubin Observatory's Legacy Survey of Space and Time](https://www.lsst.org/), will unveil many more objects similar to 2017 OF201. 
 
 
+
+<br>
 
 
 ### ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume

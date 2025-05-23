@@ -7,8 +7,6 @@
 - title: "Research"
   href: "/research/"
   subcategories:
-    - subtitle: "Dwarf Planet"
-      subhref: "/research/TNO"
     - subtitle: "Ultra-Puffy Galaxies"
       subhref: "/research/BeyondUDG"
     - subtitle: "Isolated Quiescent Dwarf"
