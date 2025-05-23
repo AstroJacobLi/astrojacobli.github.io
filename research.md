@@ -14,12 +14,16 @@ permalink: /research/
 <!-- {% include image.html url="/images/TNO/2017OF201_animation.gif" caption="Animation showing the movement of 2017 OF201 on the sky. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=250 align="right" %} -->
 
 
-Led by my longtime friend [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with fellow grad student [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). It was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
+Led by my longtime friend [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with fellow grad student [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). The discovery is described in [Cheng et al. (2025)](https://ui.adsabs.harvard.edu/abs/2025arXiv250515806C/abstract). This TNO was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
 
 
 With these detections spanning over 7 years, we were able to trace the object's orbit to a very good precision. This object is in an extremely wide (a ~ 840 au) and eccentric (e ~ 0.946) orbit that takes approximately 25,000 years to complete. At a distance of ~90 au from the Sun now, it has a diameter of about 700 km, assuming an albedo of 0.15. It is potentially large enough to qualify as a dwarf planet like Pluto. 
 
-{% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
+<br>
+
+{% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. <br>Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
+
+<br>
 
 
 The most striking feature of 2017 OF201 is that its orbit does not following the apsidal clustering pattern observed in many other extreme TNOs (see the figure on the right). This pattern is thought to be caused by the gravitational influence of a massive planet beyond Neptune, or so-called [Planet 9 or Planet X](https://en.wikipedia.org/wiki/Planet_Nine). However, 2017 OF201's orbit is not aligned with this clustering, suggesting that it may have been perturbed by a different mechanism, or it implies that Planet 9/X doesn't exist. 
