@@ -14,13 +14,12 @@ permalink: /research/
 
 Led by [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). It was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
 
-{% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
-
-
-
-{% include image.html url="/images/TNO/2017OF201_animation.gif" caption="Animation showing the movement of 2017 OF201 on the sky. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=200 align="right" %}
 
 With these detections spanning over 7 years, we were able to trace the object's orbit to a very good precision. This object is in an extremely wide (a ~ 840 au) and eccentric (e ~ 0.946) orbit that takes approximately 25,000 years to complete. At a distance of ~90 au from the Sun now, it has a diameter of about 700 km, assuming an albedo of 0.15. It is potentially large enough to qualify as a dwarf planet like Pluto. 
+
+
+{% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
+
 
 The most striking feature of 2017 OF201 is that its orbit does not following the apsidal clustering pattern observed in many other extreme TNOs (see the figure on the right). This pattern is thought to be caused by the gravitational influence of a massive planet beyond Neptune, or so-called [Planet 9 or Planet X](https://en.wikipedia.org/wiki/Planet_Nine). However, 2017 OF201's orbit is not aligned with this clustering, suggesting that it may have been perturbed by a different mechanism, or it implies that Planet 9/X doesn't exist. 
 
@@ -29,11 +28,14 @@ The most striking feature of 2017 OF201 is that its orbit does not following the
 Because of its extreme orbit, 2017 OF201 can be detected by surveys with similar depths to DECaLS for only 0.5% of its orbital period. This means that there are likely a large population of similar objects in the outer solar system that have not yet been discovered. Upcoming wide-field sky surveys, including the [Vera C. Rubin Observatory's Legacy Survey of Space and Time](https://www.lsst.org/), will unveil many more objects similar to 2017 OF201. 
 
 
+{% include image.html url="/images/TNO/2017OF201_animation.gif" caption="Animation showing the movement of 2017 OF201 on the sky. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=200 align="right" %}
+
+
 
 
 ### ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume
 
-{% include image.html url="/images/ELVES-Dwarf-1.jpeg" caption="ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume" width=550 align="center" %}
+{% include image.html url="/images/ELVES-Dwarf-1.jpeg" caption="ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume" width=750 align="center" %}
 
 The satellite populations of Milky Way--mass systems have been extensively studied. However, the satellites of lower-mass dwarf galaxies remain largely unexplored, despite hierarchical structure formation predicting that dwarf galaxies should host their own satellites. In [Li et al. (2025a)](https://ui.adsabs.harvard.edu/abs/2025arXiv250408030L/abstract), we present the first results of the ELVES-Dwarf survey, which aims to statistically characterize the satellite populations of isolated dwarf galaxies in the Local Volume ($$4<D<10$$~Mpc). We identify satellite candidates in integrated light using the Legacy Surveys data and are complete down to $$M_g\approx -9$$ mag. We then confirm the association of satellite candidates with host galaxies using surface brightness fluctuation distances measured from the Hyper Suprime-Cam data. We surveyed 8 isolated dwarf galaxies with stellar masses ranging from sub-Small Magellanic Cloud to Large Magellanic Cloud scales ($$10^{7.8} < M_\star^{\rm host}<10^{9.5}\, M_\odot$$) and confirmed 6 satellites with stellar masses between $$10^{5.6}$ and $10^{8} \, M_\odot$$. Most confirmed satellites are star-forming, contrasting with the primarily quiescent satellites observed around Milky Way--mass hosts. By comparing observed satellite abundances and stellar mass functions with theoretical predictions, we find no evidence of a "missing satellite problem" in the dwarf galaxy regime.
 
