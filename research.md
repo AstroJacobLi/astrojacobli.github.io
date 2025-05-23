@@ -9,21 +9,19 @@ permalink: /research/
 
 ### [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201): Discovery of a Dwarf Planet Candidate in an Extremely Wide Orbit
 
-{% include image.html url="/images/TNO/2017OF201_size.png" caption="A composite image showing the five dwarf planets recognized by the International Astronomical Union, plus the newly discovered trans-Neptunian object 2017 OF201. Credit: NASA/JPL-Caltech, Sihao Cheng." width=300 align="right" %}
+Led by my longtime friend [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with fellow grad student [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). It was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
+{% include image.html url="/images/TNO/2017OF201_size.png" caption="The five dwarf planets recognized by the IAU plus the newly discovered trans-Neptunian object 2017 OF201." width=250 align="right" %}
 
-
-Led by [Sihao Cheng](https://sihaocheng.github.io/) (IAS), together with [Eritas Yang](https://web.astro.princeton.edu/people/eritas-yang) (Princeton), we discovered an exceptional trans-Neptunian object (TNO) named [2017 OF201](https://en.wikipedia.org/wiki/2017_OF201). It was first spotted in the [Dark Energy Camera](https://noirlab.edu/public/programs/ctio/victor-blanco-4m-telescope/decam/) data taken in 2017 as a part of the [Dark Energy Camera Legacy Survey (DECaLS)](https://www.legacysurvey.org/), and later confirmed by the archival data from the [Canada-France-Hawaii Telescope (CFHT)](https://www.legacysurvey.org/). 
-
+<br><br>
 
 With these detections spanning over 7 years, we were able to trace the object's orbit to a very good precision. This object is in an extremely wide (a ~ 840 au) and eccentric (e ~ 0.946) orbit that takes approximately 25,000 years to complete. At a distance of ~90 au from the Sun now, it has a diameter of about 700 km, assuming an albedo of 0.15. It is potentially large enough to qualify as a dwarf planet like Pluto. 
-
 
 {% include image.html url="/images/TNO/orbits_press_release.jpeg" caption="Image showing the orbits and the current location of Pluto, Neptune, and 2017 OF201. Figure credit: Jiaxuan Li (Princeton), Sihao Cheng (IAS)" width=650 align="center" %}
 
 
 The most striking feature of 2017 OF201 is that its orbit does not following the apsidal clustering pattern observed in many other extreme TNOs (see the figure on the right). This pattern is thought to be caused by the gravitational influence of a massive planet beyond Neptune, or so-called [Planet 9 or Planet X](https://en.wikipedia.org/wiki/Planet_Nine). However, 2017 OF201's orbit is not aligned with this clustering, suggesting that it may have been perturbed by a different mechanism, or it implies that Planet 9/X doesn't exist. 
 
-{% include image.html url="/images/TNO/ETNO_orbits.jpeg" caption="Plan view of the orbits of TNOs with extremely wide orbits, including our newly discovered 2017 OF201, which has a distinct orbit is an outlier to the apsidal clustering of the others. For reference, the most probable orbit of Planet X from Siraj et al. (2025) is shown in black." width=250 align="right" %}
+{% include image.html url="/images/TNO/ETNO_orbits_apsidal.jpeg" caption="Plan view of the orbits of TNOs with extremely wide orbits, including our newly discovered 2017 OF201, which has a distinct orbit is an outlier to the apsidal clustering of the others. For reference, the most probable orbit of Planet X from Siraj et al. (2025) is shown in black. The right panel shows the longitude of perihelion of the known TNOs." width=850 align="center" %}
 
 Because of its extreme orbit, 2017 OF201 can be detected by surveys with similar depths to DECaLS for only 0.5% of its orbital period. This means that there are likely a large population of similar objects in the outer solar system that have not yet been discovered. Upcoming wide-field sky surveys, including the [Vera C. Rubin Observatory's Legacy Survey of Space and Time](https://www.lsst.org/), will unveil many more objects similar to 2017 OF201. 
 
