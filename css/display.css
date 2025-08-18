@@ -39,6 +39,34 @@ meta.foundation-mq-medium {
 	width: 40.063em
 }
 
+/* PDF Card Styles */
+.pdf-card {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	margin: 2em 0;
+	padding: 1em;
+	max-width: 700px;
+	width: 100%;
+}
+.pdf-title {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-bottom: 0.5em;
+	color: #2a2a2a;
+}
+.pdf-frame {
+	width: 100%;
+	height: 480px;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+}
+@media (max-width: 800px) {
+	.pdf-frame {
+		height: 320px;
+	}
+}
+
 meta.foundation-mq-medium-only {
 	font-family: "/only screen and (min-width:40.063em) and (max-width:64em)/";
 	width: 40.063em
