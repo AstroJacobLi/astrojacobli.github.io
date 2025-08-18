@@ -1,7 +1,10 @@
+---
 layout: page
 title: Talks
 permalink: /talks/
+---
 <link rel="stylesheet" href="/css/display.css">
+
 ### How to characterize semi-resolved dwarf galaxies in Roman
 <div class="talk-desc">
 	<span class="talk-title">Near field science with the Roman High Latitude Wide Area Survey</span><br>
