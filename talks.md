@@ -34,6 +34,7 @@ permalink: /talks/
 <div class="talk-desc">
 	<span class="talk-title">Ultra-puffy galaxies among satellites of Milky Way analogs: from definition to environmental quenching</span><br>
 	<span class="talk-location">KIAA Seminar, Beijing, China</span> &bull; <span class="talk-date">June 2023</span>
+<br>
 {% include embedpdf.html code="Docs/talks/JLi_UPG_KIAA_2023.pdf" width=100 height=460 %}
 </div>
 
