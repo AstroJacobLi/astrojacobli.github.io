@@ -3,7 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-<h3><cite>All science is either physics or stamp collecting. -- Ernest Rutherford </cite></h3>
+<!-- <h3><cite>All science is either physics or stamp collecting. -- Ernest Rutherford </cite></h3> -->
 
 <ul class="listing">
 {% for post in site.posts %}
