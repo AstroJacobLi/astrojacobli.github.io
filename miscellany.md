@@ -25,7 +25,7 @@ I was fascinated by the beauty of the nature since I was a child. Fortunately, m
 {% include image.html url="/images/Davenport.JPG" caption="Sunset in Davenport, CA" width=700 align="center" %}
 
 <br>
-
+<!-- 
 <center>
 <div style='font-family: "Apple LiSung Light"'><font size="5">
 Let us be lovers, we’ll marry our fortunes together <br>
@@ -56,4 +56,4 @@ All come to look for America<br>
 by Paul Simon, 1968
 </font>
 </div>
-</center>
+</center> -->
