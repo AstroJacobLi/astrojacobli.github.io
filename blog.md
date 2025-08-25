@@ -18,5 +18,3 @@ permalink: /blog/
   </li>
 {% endfor %}
 </ul>
-
-### Some of the interesting posts can be found in my previous [**Homepage**](https://astrojacobli.github.io/Homepage/).
