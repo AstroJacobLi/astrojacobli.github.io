@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>), a graduate student at <a class="princeton_style" href="https://web.astro.princeton.edu">Department of Astrophysical Sciences, Princeton University</a>.
+<p>I am Jiaxuan Li 李嘉轩 (pronounced as <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong> </a>), a PhD candidate at <a class="princeton_style" href="https://web.astro.princeton.edu">Department of Astrophysical Sciences, Princeton University</a>.
 <br>
 <br> 
 I'm an observer interested in a variety of topics in astronomy and astrophysics, such as galaxy formation and evolution, low surface brightness astrophysics, sky surveys, machine learning, and instrumentation. My current research primarily involves uncovering the formation and evolution of dwarf galaxies through both exquisite observations and numerical simulations. Recently I've also been interested in solar system objects, especially trans-Neptunian objects and Planet 9. Check out my <a href="https://astrojacobli.github.io/research/">Research</a> page for more details.
