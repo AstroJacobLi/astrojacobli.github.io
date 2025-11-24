@@ -14,7 +14,7 @@ permalink: /talks/
 }
 </style>
 
-<font size="+1"><h1 style="color: #94070a; font-weight: 700;">Talks</h1></font>
+<font size="+1"><h1 style="color: #94070a; font-weight: 300;">Talks</h1></font>
 
 <div class="talk-desc">
 	<span class="talk-title">Dwarfs: Near and Far</span><br>
