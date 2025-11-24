@@ -245,3 +245,19 @@ a.princeton_style {
   background-color: darken($brand-color, 10%);
   text-decoration: none;
 }
+
+/* Iframe Container Style */
+.iframe-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.iframe-container iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
