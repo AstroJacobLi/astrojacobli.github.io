@@ -5,6 +5,11 @@ permalink: /talks/
 ---
 <link rel="stylesheet" href="/css/display.css">
 
+<div class="talk-desc">
+	<span class="talk-title">Dwarfs: Near and Far</span><br>
+	<span class="talk-location">KICP Seminar, University of Chicago, Illinois</span> &bull; <span class="talk-date">Nov 2025</span>
+    {% include embedpdf.html code="Docs/talks/Jiaxuan_Li_KICP_2025.pdf" width=100 height=460 %}
+</div>
 
 
 <div class="talk-desc">
