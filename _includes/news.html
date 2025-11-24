@@ -1,8 +1,8 @@
 <div class="news-widget">
-  <h2 class="news-header">
+  <h4 class="news-header">
     <span class="news-icon">📰</span>
     Recent News
-  </h2>
+  </h4>
   <div class="news-container">
     {% for item in site.data.news limit:3 %}
     <div class="news-item {% if item.featured %}news-featured{% endif %}">
