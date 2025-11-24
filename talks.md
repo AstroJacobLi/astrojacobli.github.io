@@ -1,9 +1,20 @@
 ---
 layout: page
-title: Talks
 permalink: /talks/
 ---
 <link rel="stylesheet" href="/css/display.css">
+
+<style>
+.talk-desc {
+    background-color: #fff !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+    margin-bottom: 2em !important;
+    border: none !important;
+}
+</style>
+
+<font size="+1"><h1 style="color: #94070a; font-weight: 700;">Talks</h1></font>
 
 <div class="talk-desc">
 	<span class="talk-title">Dwarfs: Near and Far</span><br>
