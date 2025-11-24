@@ -1,12 +1,12 @@
 - date: "November 2025"
   title: "A Possible 'Too-Many-Satellites' Problem in the Isolated Dwarf Galaxy DDO 161"
-  description: "We report the satellite system of an isolated dwarf galaxy DDO 161. Having 4 confirmed satellites, it is the most satellite-rich dwarf galaxy known to date, with a likelihood of 0.04% under the TNG50 cosmological simulation. It challenges the current understanding of how low-mass galaxies populate dark matter halos in low-density environments."
+  description: "We report the most satellite-rich dwarf galaxy known to date, DDO 161, with a likelihood of 0.04% finding such a system in the TNG50 cosmological simulation. It challenges the current understanding of how low-mass galaxies populate dark matter halos in low-density environments."
   link: "https://arxiv.org/abs/2511.01733"
   featured: true
 
 - date: "May 2025"
   title: "Discovery of 2017 OF201: A Potential Dwarf Planet"
-  description: "Together with [Sihao Cheng](https://sihaocheng.github.io/) (IAS) and [Eritas Yang](https://eritasy.github.io/) (Princeton), we discovered an exceptional trans-Neptunian object that challenges the Planet 9 hypothesis."
+  description: "Together with <a href=\"https://sihaocheng.github.io/\">Sihao Cheng</a> (IAS) and <a href=\"https://eritasy.github.io/\">Eritas Yang</a> (Princeton), we discovered an exceptional trans-Neptunian object that challenges the Planet 9 hypothesis."
   link: "https://arxiv.org/abs/2505.15806"
 
 - date: "November 2024"
