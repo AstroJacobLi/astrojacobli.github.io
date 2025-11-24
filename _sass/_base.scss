@@ -264,67 +264,62 @@ a.princeton_style {
 
 /* News Widget Styles */
 .news-widget {
-  margin: 25px 0;
+  margin: 30px 0 20px 0;
   clear: both;
 }
 
 .news-header {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #333;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .news-icon {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .news-container {
-  background: #f8f9fa;
-  border-radius: 6px;
-  padding: 15px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: grid;
+  gap: 12px;
 }
 
 .news-item {
-  padding: 10px 0;
-  border-bottom: 1px solid #e0e0e0;
-  transition: background-color 0.2s ease;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 6px;
+  padding: 12px 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 3px solid #e0e0e0;
 }
 
-.news-item:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.news-item:first-child {
-  padding-top: 0;
+.news-item:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
 }
 
 .news-featured {
-  background: linear-gradient(90deg, rgba(255, 248, 225, 0.3) 0%, transparent 100%);
-  border-left: 3px solid $brand-color;
-  padding-left: 10px;
-  margin-left: -10px;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffffff 100%);
+  border-left-color: $brand-color;
 }
 
 .news-date {
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: #666;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .news-title {
-  font-size: 0.9em;
+  font-size: 0.95em;
   font-weight: 600;
-  margin: 0 0 4px 0;
-  line-height: 1.3;
+  margin: 0 0 6px 0;
+  line-height: 1.4;
 }
 
 .news-title a {
@@ -339,21 +334,8 @@ a.princeton_style {
 }
 
 .news-description {
-  font-size: 0.8em;
-  color: #666;
-  line-height: 1.4;
+  font-size: 0.85em;
+  color: #555;
+  line-height: 1.5;
   margin: 0;
-}
-
-/* Fun Facts Section */
-.fun-facts {
-  margin: 30px 0;
-  clear: both;
-}
-
-.fun-facts h2 {
-  font-size: 1.3em;
-  font-weight: 400;
-  margin-bottom: 15px;
-  color: #333;
 }
