@@ -261,3 +261,81 @@ a.princeton_style {
   width: 100%;
   border: none;
 }
+
+/* News Widget Styles */
+.news-widget {
+  margin: 40px 0;
+  clear: both;
+}
+
+.news-header {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.news-icon {
+  font-size: 1.2em;
+}
+
+.news-container {
+  display: grid;
+  gap: 20px;
+}
+
+.news-item {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid #e0e0e0;
+}
+
+.news-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.news-featured {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffffff 100%);
+  border-left-color: $brand-color;
+}
+
+.news-date {
+  font-size: 0.85em;
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.news-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.news-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.news-title a:hover {
+  color: $brand-color;
+  text-decoration: none;
+}
+
+.news-description {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
