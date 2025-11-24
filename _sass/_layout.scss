@@ -383,3 +383,11 @@ ul.listing li.listing-item a {
     color: $pku-red;
 }
 
+/* Disable lightbox on desktop */
+@media screen and (min-width: 601px) {
+    .lightbox-trigger {
+        cursor: default;
+        pointer-events: none;
+    }
+}
+

@@ -948,6 +948,13 @@ ul.listing li.listing-item a {
   color: #94070a;
 }
 
+/* Disable lightbox on desktop */
+@media screen and (min-width: 601px) {
+  .lightbox-trigger {
+    cursor: default;
+    pointer-events: none;
+  }
+}
 /* Jupyter highlight */
 .hll {
   background-color: #ffffcc;
