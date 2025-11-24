@@ -139,12 +139,33 @@
 }
 
 
-
 /**
  * Page content
  */
 .page-content {
     padding: $spacing-unit 0;
+}
+
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
+    @include media-query($on-palm) {
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
 .page-heading {
@@ -187,7 +208,11 @@ h1 /* .post-title */ {
 		color: #522d80;
 
     @include media-query($on-laptop) {
-/*        font-size: 40px; */
+       font-size: 36px; 
+    }
+
+    @include media-query($on-palm) {
+       font-size: 30px;
     }
 }
 
@@ -201,7 +226,10 @@ h1 /* .post-title */ {
         font-size: 31.5px;
 
         @include media-query($on-laptop) {
-/*            font-size: 26px; */
+           font-size: 28px; 
+        }
+        @include media-query($on-palm) {
+           font-size: 24px;
         }
     }
 
@@ -211,7 +239,10 @@ h1 /* .post-title */ {
         font-size: 25.5px;
         color: #063cae;
         @include media-query($on-laptop) {
-/*            font-size: 25px; */
+           font-size: 24px; 
+        }
+        @include media-query($on-palm) {
+           font-size: 20px;
         }
     }
 
@@ -221,7 +252,10 @@ h1 /* .post-title */ {
         font-weight: 600;
 
         @include media-query($on-laptop) {
-/*            font-size: 22px; */
+           font-size: 20px; 
+        }
+        @include media-query($on-palm) {
+           font-size: 18px;
         }
     }
 
@@ -231,7 +265,10 @@ h1 /* .post-title */ {
         font-weight: 300;
 
         @include media-query($on-laptop) {
-/*            font-size: 22px; */
+           font-size: 18px; 
+        }
+        @include media-query($on-palm) {
+           font-size: 16px;
         }
     }
 }
@@ -269,5 +306,19 @@ ul.listing li.listing-item a {
 	font-weight: 400;
     font-size: 1.2em;
 	font-family: 'Titillium Web', sans-serif;
+}
+
+@include media-query($on-palm) {
+    .wp-caption {
+        width: 50% !important;
+        float: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .wp-caption img {
+        width: 100%;
+        height: auto;
+    }
 }
 

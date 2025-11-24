@@ -55,8 +55,8 @@ MathJax.Hub.Config({
   <meta name="description" content="Set up your new MacBook for astronomy &amp; astrophysics!  Anaconda: Both python3 and python2 are OK.  Astroconda: Add astroconda channel to your conda list,...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2018/10/Macbook-for-Astronomy">
-  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li 李嘉轩" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://astrojacobli.github.io/blog/2018/10/Macbook-for-Astronomy">
+  <link rel="alternate" type="application/rss+xml" title="Jiaxuan Li 李嘉轩" href="https://astrojacobli.github.io/feed.xml" />
 <link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.2.4' type='text/css' media='all' />
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic' rel='stylesheet' type='text/css'>
 
@@ -89,26 +89,7 @@ MathJax.Hub.Config({
 
 </head>
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Macbook for Astronomy | Jiaxuan Li 李嘉轩</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Macbook for Astronomy" />
-<meta name="author" content="Jiaxuan Li" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Set up your new MacBook for astronomy &amp; astrophysics! Anaconda: Both python3 and python2 are OK. Astroconda: Add astroconda channel to your conda list, and then set up a new environment iraf27. Xcode: Download Xcode from your Mac AppStore. Useful python packages: fitsio, emcee, cosmology (a quick package for cosmology written in C), tqdm. XQuartz: graphics library for ds9. Activating DS9: export DISPLAY=:0.0 in your terminal. LaTeX environment: MacTex works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, TexStudio is really really good. Consolas font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf Mendeley: paper management and reader, worth trying. Slack: definitely a good tool for communication and cooperation. TOPCAT: Best tool for manipulating tables, best assistant of catalog astrophysicist. STILTS: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your .bash_profile: export JAVA_HOME=&quot;/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&quot; export PATH=${JAVA_HOME}/bin:$PATH Mathematica: Best language to do mathematical physics study. Don’t know how to write your symbol in latex? Use Detexify! Jesus! Get LaTeX code from the screenshots: MathPix Jazz up your terminal (but I failed): https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22 It’s hard to get your hands on vim without a cheatsheet A useful widget cosmoWidget to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html LaTeX package for SI units: siunitx Homebrew is another good tool for installing packages, especially those written in C/C++. Sometimes brew will update itself automatically, then you can stop it directly by control + C. When your terminal cannot recognize anything, do this: export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin Play with a new Linux machine Accidentally I have to make a Windows machine to Linux. I installed Debian on that machine. Some tips are listed below. Originally, your account is not listed in the sudo group. You have to run su - so that you are switched to the root environment. After that, run gpasswd -a jiaxuanl sudo to add jiaxuanli to the sudo group. Install the Tractor the Tractor is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg. Make sure you have installed XCode from Mac AppStore. Then execute: $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$. Install fitsio: $ pip install fitsio Install emcee: $ pip install emcee Install Homebrew: $ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; Using Homebrew to install cairo: $ brew install cairo Install jpeg: $ brew install jpge Install eigen3: $ brew install eigen3 Add these paths to your .bash_profile: export PKG_CONFIG_PATH=&quot;/usr/local/opt/libffi/lib/pkgconfig&quot; export LDFLAGS=&quot;-L/usr/local/opt/libffi/lib&quot; export PKG_CONFIG_PATH=&quot;/usr/local/opt/openssl/lib/pkgconfig&quot; export PATH=&quot;/usr/local/opt/openssl/bin:$PATH&quot; export LDFLAGS=&quot;-L/usr/local/opt/openssl/lib&quot; export CPPFLAGS=&quot;-I/usr/local/opt/openssl/include&quot; Sometimes cairos still doesn’t work. Then you can: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found. $ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist $ locate cairo.pc $ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/ Then do this again: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 0 then all is well in the hood. Download astrometry.net package: $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2 $ tar xjf astrometry.net-latest.tar.bz2 $ cd astrometry.net-* Install astrometry.net: $ make $ make py $ make extra $ make install INSTALL_DIR=&quot;~/Research/Packages/astrometry&quot; PYTHON_SCRIPT=&quot;/anaconda3/bin/python&quot; Sometimes, it will show an error that fatal error: &#39;cairo.h&#39; file not found. You can just do export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig and see if it could fine cairo.h. Install swig: $ brew install swig Install tractor: first go to its folder, then $ make $ python setup.py install 😂 You get it! 👏 Install Imfit Requirements: CFITSIO, GNU Scientific Library, FFTW (which is used by many other packages as well), NLopt. You also need to install CMake by $ brew install cmake to install NLopt. Almost all of these packages should be installed by $ ./configure &amp; make &amp; make install. However, please check INSTALL file for more detailed description. You also need to install pip install scons. After all these preparation, install imfit with $ scons —no-openmp imfit &amp; scons —no-openmp imfit-mcmc &amp; scons —no-openmp makeimage. References http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps https://github.com/dstndstn/tractor http://macappstore.org/swig/ https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv" />
-<meta property="og:description" content="Set up your new MacBook for astronomy &amp; astrophysics! Anaconda: Both python3 and python2 are OK. Astroconda: Add astroconda channel to your conda list, and then set up a new environment iraf27. Xcode: Download Xcode from your Mac AppStore. Useful python packages: fitsio, emcee, cosmology (a quick package for cosmology written in C), tqdm. XQuartz: graphics library for ds9. Activating DS9: export DISPLAY=:0.0 in your terminal. LaTeX environment: MacTex works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, TexStudio is really really good. Consolas font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf Mendeley: paper management and reader, worth trying. Slack: definitely a good tool for communication and cooperation. TOPCAT: Best tool for manipulating tables, best assistant of catalog astrophysicist. STILTS: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your .bash_profile: export JAVA_HOME=&quot;/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&quot; export PATH=${JAVA_HOME}/bin:$PATH Mathematica: Best language to do mathematical physics study. Don’t know how to write your symbol in latex? Use Detexify! Jesus! Get LaTeX code from the screenshots: MathPix Jazz up your terminal (but I failed): https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22 It’s hard to get your hands on vim without a cheatsheet A useful widget cosmoWidget to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html LaTeX package for SI units: siunitx Homebrew is another good tool for installing packages, especially those written in C/C++. Sometimes brew will update itself automatically, then you can stop it directly by control + C. When your terminal cannot recognize anything, do this: export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin Play with a new Linux machine Accidentally I have to make a Windows machine to Linux. I installed Debian on that machine. Some tips are listed below. Originally, your account is not listed in the sudo group. You have to run su - so that you are switched to the root environment. After that, run gpasswd -a jiaxuanl sudo to add jiaxuanli to the sudo group. Install the Tractor the Tractor is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg. Make sure you have installed XCode from Mac AppStore. Then execute: $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$. Install fitsio: $ pip install fitsio Install emcee: $ pip install emcee Install Homebrew: $ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; Using Homebrew to install cairo: $ brew install cairo Install jpeg: $ brew install jpge Install eigen3: $ brew install eigen3 Add these paths to your .bash_profile: export PKG_CONFIG_PATH=&quot;/usr/local/opt/libffi/lib/pkgconfig&quot; export LDFLAGS=&quot;-L/usr/local/opt/libffi/lib&quot; export PKG_CONFIG_PATH=&quot;/usr/local/opt/openssl/lib/pkgconfig&quot; export PATH=&quot;/usr/local/opt/openssl/bin:$PATH&quot; export LDFLAGS=&quot;-L/usr/local/opt/openssl/lib&quot; export CPPFLAGS=&quot;-I/usr/local/opt/openssl/include&quot; Sometimes cairos still doesn’t work. Then you can: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found. $ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist $ locate cairo.pc $ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/ Then do this again: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 0 then all is well in the hood. Download astrometry.net package: $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2 $ tar xjf astrometry.net-latest.tar.bz2 $ cd astrometry.net-* Install astrometry.net: $ make $ make py $ make extra $ make install INSTALL_DIR=&quot;~/Research/Packages/astrometry&quot; PYTHON_SCRIPT=&quot;/anaconda3/bin/python&quot; Sometimes, it will show an error that fatal error: &#39;cairo.h&#39; file not found. You can just do export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig and see if it could fine cairo.h. Install swig: $ brew install swig Install tractor: first go to its folder, then $ make $ python setup.py install 😂 You get it! 👏 Install Imfit Requirements: CFITSIO, GNU Scientific Library, FFTW (which is used by many other packages as well), NLopt. You also need to install CMake by $ brew install cmake to install NLopt. Almost all of these packages should be installed by $ ./configure &amp; make &amp; make install. However, please check INSTALL file for more detailed description. You also need to install pip install scons. After all these preparation, install imfit with $ scons —no-openmp imfit &amp; scons —no-openmp imfit-mcmc &amp; scons —no-openmp makeimage. References http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps https://github.com/dstndstn/tractor http://macappstore.org/swig/ https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv" />
-<link rel="canonical" href="http://localhost:4000/blog/2018/10/Macbook-for-Astronomy" />
-<meta property="og:url" content="http://localhost:4000/blog/2018/10/Macbook-for-Astronomy" />
-<meta property="og:site_name" content="Jiaxuan Li 李嘉轩" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-10-30T20:40:00-04:00" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@AstroJacobLi" />
-<meta name="twitter:creator" content="@Jiaxuan Li" />
-<script type="application/ld+json">
-{"description":"Set up your new MacBook for astronomy &amp; astrophysics! Anaconda: Both python3 and python2 are OK. Astroconda: Add astroconda channel to your conda list, and then set up a new environment iraf27. Xcode: Download Xcode from your Mac AppStore. Useful python packages: fitsio, emcee, cosmology (a quick package for cosmology written in C), tqdm. XQuartz: graphics library for ds9. Activating DS9: export DISPLAY=:0.0 in your terminal. LaTeX environment: MacTex works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, TexStudio is really really good. Consolas font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf Mendeley: paper management and reader, worth trying. Slack: definitely a good tool for communication and cooperation. TOPCAT: Best tool for manipulating tables, best assistant of catalog astrophysicist. STILTS: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your .bash_profile: export JAVA_HOME=&quot;/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home&quot; export PATH=${JAVA_HOME}/bin:$PATH Mathematica: Best language to do mathematical physics study. Don’t know how to write your symbol in latex? Use Detexify! Jesus! Get LaTeX code from the screenshots: MathPix Jazz up your terminal (but I failed): https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22 It’s hard to get your hands on vim without a cheatsheet A useful widget cosmoWidget to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html LaTeX package for SI units: siunitx Homebrew is another good tool for installing packages, especially those written in C/C++. Sometimes brew will update itself automatically, then you can stop it directly by control + C. When your terminal cannot recognize anything, do this: export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin Play with a new Linux machine Accidentally I have to make a Windows machine to Linux. I installed Debian on that machine. Some tips are listed below. Originally, your account is not listed in the sudo group. You have to run su - so that you are switched to the root environment. After that, run gpasswd -a jiaxuanl sudo to add jiaxuanli to the sudo group. Install the Tractor the Tractor is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg. Make sure you have installed XCode from Mac AppStore. Then execute: $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/$. Install fitsio: $ pip install fitsio Install emcee: $ pip install emcee Install Homebrew: $ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; Using Homebrew to install cairo: $ brew install cairo Install jpeg: $ brew install jpge Install eigen3: $ brew install eigen3 Add these paths to your .bash_profile: export PKG_CONFIG_PATH=&quot;/usr/local/opt/libffi/lib/pkgconfig&quot; export LDFLAGS=&quot;-L/usr/local/opt/libffi/lib&quot; export PKG_CONFIG_PATH=&quot;/usr/local/opt/openssl/lib/pkgconfig&quot; export PATH=&quot;/usr/local/opt/openssl/bin:$PATH&quot; export LDFLAGS=&quot;-L/usr/local/opt/openssl/lib&quot; export CPPFLAGS=&quot;-I/usr/local/opt/openssl/include&quot; Sometimes cairos still doesn’t work. Then you can: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found. $ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist $ locate cairo.pc $ export PKG_CONFIG_PATH=/usr/X11/lib/pkgconfig/ Then do this again: $ pkg-config --atleast-version=1.12.2 cairo $ echo $? If it returns a 0 then all is well in the hood. Download astrometry.net package: $ wget http://astrometry.net/downloads/astrometry.net-latest.tar.bz2 $ tar xjf astrometry.net-latest.tar.bz2 $ cd astrometry.net-* Install astrometry.net: $ make $ make py $ make extra $ make install INSTALL_DIR=&quot;~/Research/Packages/astrometry&quot; PYTHON_SCRIPT=&quot;/anaconda3/bin/python&quot; Sometimes, it will show an error that fatal error: &#39;cairo.h&#39; file not found. You can just do export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig and see if it could fine cairo.h. Install swig: $ brew install swig Install tractor: first go to its folder, then $ make $ python setup.py install 😂 You get it! 👏 Install Imfit Requirements: CFITSIO, GNU Scientific Library, FFTW (which is used by many other packages as well), NLopt. You also need to install CMake by $ brew install cmake to install NLopt. Almost all of these packages should be installed by $ ./configure &amp; make &amp; make install. However, please check INSTALL file for more detailed description. You also need to install pip install scons. After all these preparation, install imfit with $ scons —no-openmp imfit &amp; scons —no-openmp imfit-mcmc &amp; scons —no-openmp makeimage. References http://www.astrobetter.com/wiki/Setup+a+New+Mac+for+Astronomy http://www.astrobetter.com/wiki/tiki-index.php?page=Mac+Apps https://github.com/dstndstn/tractor http://macappstore.org/swig/ https://stackoverflow.com/questions/22100213/package-cairo-was-not-found-in-the-pkg-config-search-path-node-j-s-install-canv","author":{"@type":"Person","name":"Jiaxuan Li"},"@type":"BlogPosting","url":"http://localhost:4000/blog/2018/10/Macbook-for-Astronomy","headline":"Macbook for Astronomy","dateModified":"2018-10-30T20:40:00-04:00","datePublished":"2018-10-30T20:40:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2018/10/Macbook-for-Astronomy"},"@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
+  
   <body>
 
     <header class="site-header">
@@ -134,7 +115,7 @@ MathJax.Hub.Config({
 
     
     
-     <li><a href="/about/" class="page-link">About</a>
+     <li><a href="/" class="page-link">About</a>
     
     </li>
     
@@ -147,19 +128,21 @@ MathJax.Hub.Config({
     <li><a href="/research/" class="page-link">Research</a>
     <ul class="sub-menu">
     
-    <li><a href="/research/BeyondUDG">Mass-size Outliers</a></li>
+    <li><a href="/research/BeyondUDG">Ultra-Puffy Galaxies</a></li>
+    
+    <li><a href="/research/Hedgehog">Hedgehog</a></li>
     
     </ul>
     
     </li>
     
     
-     <li><a href="/blog/" class="page-link">Blog</a>
+     <li><a href="/talks/" class="page-link">Talks</a>
     
     </li>
     
     
-     <li><a href="/portfolio/" class="page-link">Gallery</a>
+     <li><a href="/blog/" class="page-link">Blog</a>
     
     </li>
     
@@ -170,8 +153,6 @@ MathJax.Hub.Config({
     <li><a href="/miscellany/photography">Photography</a></li>
     
     <li><a href="/miscellany/cooking/">Cooking</a></li>
-    
-    <li><a href="/miscellany/links">Links</a></li>
     
     </ul>
     
@@ -208,18 +189,18 @@ MathJax.Hub.Config({
     <h1 id="set-up-your-new-macbook-for-astronomy--astrophysics">Set up your new MacBook for astronomy &amp; astrophysics!</h1>
 <ul>
   <li><a href="https://www.anaconda.com/download/#macos">Anaconda</a>: Both python3 and python2 are OK.</li>
-  <li><a href="https://astroconda.readthedocs.io/en/latest/">Astroconda</a>: Add <code class="highlighter-rouge">astroconda</code> channel to your conda list, and then set up a new environment <code class="highlighter-rouge">iraf27</code>.</li>
-  <li>Xcode: Download <code class="highlighter-rouge">Xcode</code> from your Mac AppStore.</li>
-  <li>Useful python packages: <a href="https://github.com/esheldon/fitsio"><code class="highlighter-rouge">fitsio</code></a>, <a href="http://dfm.io/emcee/current/"><code class="highlighter-rouge">emcee</code></a>, <a href="http://dfm.io/emcee/current/"><code class="highlighter-rouge">cosmology</code> (a quick package for cosmology written in C)</a>, <a href="https://github.com/tqdm/tqdm"><code class="highlighter-rouge">tqdm</code></a>.</li>
+  <li><a href="https://astroconda.readthedocs.io/en/latest/">Astroconda</a>: Add <code class="language-plaintext highlighter-rouge">astroconda</code> channel to your conda list, and then set up a new environment <code class="language-plaintext highlighter-rouge">iraf27</code>.</li>
+  <li>Xcode: Download <code class="language-plaintext highlighter-rouge">Xcode</code> from your Mac AppStore.</li>
+  <li>Useful python packages: <a href="https://github.com/esheldon/fitsio"><code class="language-plaintext highlighter-rouge">fitsio</code></a>, <a href="http://dfm.io/emcee/current/"><code class="language-plaintext highlighter-rouge">emcee</code></a>, <a href="http://dfm.io/emcee/current/"><code class="language-plaintext highlighter-rouge">cosmology</code> (a quick package for cosmology written in C)</a>, <a href="https://github.com/tqdm/tqdm"><code class="language-plaintext highlighter-rouge">tqdm</code></a>.</li>
   <li><a href="https://www.xquartz.org">XQuartz</a>: graphics library for ds9.</li>
-  <li>Activating DS9: <code class="highlighter-rouge">export DISPLAY=:0.0</code> in your terminal.</li>
-  <li>LaTeX environment: <a href="http://www.tug.org/mactex/">MacTex</a> works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, <code class="highlighter-rouge">TexStudio</code> is really really good.</li>
-  <li><code class="highlighter-rouge">Consolas</code> font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf</li>
+  <li>Activating DS9: <code class="language-plaintext highlighter-rouge">export DISPLAY=:0.0</code> in your terminal.</li>
+  <li>LaTeX environment: <a href="http://www.tug.org/mactex/">MacTex</a> works good for me. I don’t have money to buy other IDE, so I use TeXShop. But for Windows, <code class="language-plaintext highlighter-rouge">TexStudio</code> is really really good.</li>
+  <li><code class="language-plaintext highlighter-rouge">Consolas</code> font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf</li>
   <li><a href="https://www.mendeley.com">Mendeley</a>: paper management and reader, worth trying.</li>
   <li><a href="https://slack.com/downloads/osx">Slack</a>: definitely a good tool for communication and cooperation.</li>
   <li><a href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT</a>: Best tool for manipulating tables, best assistant of catalog astrophysicist.</li>
-  <li><a href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS</a>: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your <code class="highlighter-rouge">.bash_profile</code>:
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">JAVA_HOME</span><span class="o">=</span><span class="s">"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"</span>
+  <li><a href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS</a>: A command-line edition of TOPCAT. Both TOPCAT and STILTS require JAVA environment. After install JAVA, you need to write the following into your <code class="language-plaintext highlighter-rouge">.bash_profile</code>:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">JAVA_HOME</span><span class="o">=</span><span class="sh">"</span><span class="s">/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home</span><span class="sh">"</span>
 <span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="n">JAVA_HOME</span><span class="p">}</span><span class="o">/</span><span class="nb">bin</span><span class="p">:</span><span class="err">$</span><span class="n">PATH</span>
 </code></pre></div>    </div>
   </li>
@@ -227,10 +208,10 @@ MathJax.Hub.Config({
   <li>Don’t know how to write your symbol in latex? Use <a href="http://detexify.kirelabs.org/classify.html">Detexify</a>!</li>
   <li>Jesus! Get LaTeX code from the screenshots: <a href="https://mathpix.com"><strong>MathPix</strong></a></li>
   <li>Jazz up your terminal <strong>(but I failed)</strong>: https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22</li>
-  <li>It’s hard to get your hands on <code class="highlighter-rouge">vim</code> without a <a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">cheatsheet</a></li>
-  <li>A useful widget <code class="highlighter-rouge">cosmoWidget</code> to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html</li>
+  <li>It’s hard to get your hands on <code class="language-plaintext highlighter-rouge">vim</code> without a <a href="http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html">cheatsheet</a></li>
+  <li>A useful widget <code class="language-plaintext highlighter-rouge">cosmoWidget</code> to calculate cosmological distances in MacOS Dashboard: https://beckermr.github.io/cosmowidget.html</li>
   <li>LaTeX package for SI units: <a href="https://ctan.org/pkg/siunitx">siunitx</a></li>
-  <li><a href="https://docs.brew.sh/FAQ">Homebrew</a> is another good tool for installing packages, especially those written in C/C++. Sometimes <code class="highlighter-rouge">brew</code> will update itself automatically, then you can stop it directly by <code class="highlighter-rouge">control + C</code>.</li>
+  <li><a href="https://docs.brew.sh/FAQ">Homebrew</a> is another good tool for installing packages, especially those written in C/C++. Sometimes <code class="language-plaintext highlighter-rouge">brew</code> will update itself automatically, then you can stop it directly by <code class="language-plaintext highlighter-rouge">control + C</code>.</li>
 </ul>
 
 <h4 id="when-your-terminal-cannot-recognize-anything-do-this"><strong>When your terminal cannot recognize anything, do this:</strong></h4>
@@ -242,77 +223,77 @@ MathJax.Hub.Config({
 <p>Accidentally I have to make a Windows machine to Linux. I installed Debian on that machine. Some tips are listed below.</p>
 
 <ol>
-  <li>Originally, your account is not listed in the <code class="highlighter-rouge">sudo</code> group. You have to run <code class="highlighter-rouge">su -</code> so that you are switched to the <code class="highlighter-rouge">root</code> environment. After that, run <code class="highlighter-rouge">gpasswd -a jiaxuanl sudo</code> to add <code class="highlighter-rouge">jiaxuanli</code> to the <code class="highlighter-rouge">sudo</code> group.</li>
+  <li>Originally, your account is not listed in the <code class="language-plaintext highlighter-rouge">sudo</code> group. You have to run <code class="language-plaintext highlighter-rouge">su -</code> so that you are switched to the <code class="language-plaintext highlighter-rouge">root</code> environment. After that, run <code class="language-plaintext highlighter-rouge">gpasswd -a jiaxuanl sudo</code> to add <code class="language-plaintext highlighter-rouge">jiaxuanli</code> to the <code class="language-plaintext highlighter-rouge">sudo</code> group.</li>
 </ol>
 
 <h2 id="install-the-tractor">Install <a href="https://github.com/dstndstn/tractor">the Tractor</a></h2>
 
-<p><a href="https://github.com/dstndstn/tractor"><code class="highlighter-rouge">the Tractor</code></a> is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.</p>
+<p><a href="https://github.com/dstndstn/tractor"><code class="language-plaintext highlighter-rouge">the Tractor</code></a> is a probability-based astronomical source detection &amp; measurement tool, written by Dustin Lang and David Hogg.</p>
 
 <ol>
   <li>Make sure you have installed XCode from Mac AppStore. Then execute:
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">-</span><span class="n">switch</span> <span class="o">/</span><span class="n">Applications</span><span class="o">/</span><span class="n">Xcode</span><span class="o">.</span><span class="n">app</span><span class="o">/</span><span class="n">Contents</span><span class="o">/</span><span class="n">Developer</span><span class="o">/</span><span class="err">$</span><span class="o">.</span>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">xcode</span><span class="o">-</span><span class="n">select</span> <span class="o">-</span><span class="n">switch</span> <span class="o">/</span><span class="n">Applications</span><span class="o">/</span><span class="n">Xcode</span><span class="p">.</span><span class="n">app</span><span class="o">/</span><span class="n">Contents</span><span class="o">/</span><span class="n">Developer</span><span class="o">/</span><span class="err">$</span><span class="p">.</span>
 </code></pre></div>    </div>
   </li>
-  <li>Install fitsio: <code class="highlighter-rouge">$ pip install fitsio</code></li>
-  <li>Install emcee: <code class="highlighter-rouge">$ pip install emcee</code></li>
-  <li>Install Homebrew: <code class="highlighter-rouge">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></li>
-  <li>Using Homebrew to install cairo: <code class="highlighter-rouge">$ brew install cairo</code></li>
-  <li>Install jpeg: <code class="highlighter-rouge">$ brew install jpge</code></li>
-  <li>Install eigen3: <code class="highlighter-rouge">$ brew install eigen3</code></li>
-  <li>Add these paths to your <code class="highlighter-rouge">.bash_profile</code>:
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/libffi/lib/pkgconfig"</span>
-<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="s">"-L/usr/local/opt/libffi/lib"</span>
-<span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/openssl/lib/pkgconfig"</span>
-<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="s">"/usr/local/opt/openssl/bin:$PATH"</span> 
-<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="s">"-L/usr/local/opt/openssl/lib"</span>
-<span class="n">export</span> <span class="n">CPPFLAGS</span><span class="o">=</span><span class="s">"-I/usr/local/opt/openssl/include"</span>
+  <li>Install fitsio: <code class="language-plaintext highlighter-rouge">$ pip install fitsio</code></li>
+  <li>Install emcee: <code class="language-plaintext highlighter-rouge">$ pip install emcee</code></li>
+  <li>Install Homebrew: <code class="language-plaintext highlighter-rouge">$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></li>
+  <li>Using Homebrew to install cairo: <code class="language-plaintext highlighter-rouge">$ brew install cairo</code></li>
+  <li>Install jpeg: <code class="language-plaintext highlighter-rouge">$ brew install jpge</code></li>
+  <li>Install eigen3: <code class="language-plaintext highlighter-rouge">$ brew install eigen3</code></li>
+  <li>Add these paths to your <code class="language-plaintext highlighter-rouge">.bash_profile</code>:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="sh">"</span><span class="s">/usr/local/opt/libffi/lib/pkgconfig</span><span class="sh">"</span>
+<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="sh">"</span><span class="s">-L/usr/local/opt/libffi/lib</span><span class="sh">"</span>
+<span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=</span><span class="sh">"</span><span class="s">/usr/local/opt/openssl/lib/pkgconfig</span><span class="sh">"</span>
+<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="sh">"</span><span class="s">/usr/local/opt/openssl/bin:$PATH</span><span class="sh">"</span> 
+<span class="n">export</span> <span class="n">LDFLAGS</span><span class="o">=</span><span class="sh">"</span><span class="s">-L/usr/local/opt/openssl/lib</span><span class="sh">"</span>
+<span class="n">export</span> <span class="n">CPPFLAGS</span><span class="o">=</span><span class="sh">"</span><span class="s">-I/usr/local/opt/openssl/include</span><span class="sh">"</span>
 </code></pre></div>    </div>
   </li>
-  <li>Sometimes <code class="highlighter-rouge">cairos</code> still doesn’t work. Then you can:</li>
+  <li>Sometimes <code class="language-plaintext highlighter-rouge">cairos</code> still doesn’t work. Then you can:</li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12.2</span> <span class="n">cairo</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12</span><span class="p">.</span><span class="mi">2</span> <span class="n">cairo</span>
 <span class="err">$</span> <span class="n">echo</span> <span class="err">$?</span>
 </code></pre></div></div>
 <p>If it returns a 1 you will need to set the PKG_CONFIG_PATH environment variable so cairo.pc and fontconfig.pc can be found.</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">launchctl</span> <span class="n">load</span> <span class="o">-</span><span class="n">w</span> <span class="o">/</span><span class="n">System</span><span class="o">/</span><span class="n">Library</span><span class="o">/</span><span class="n">LaunchDaemons</span><span class="o">/</span><span class="n">com</span><span class="o">.</span><span class="n">apple</span><span class="o">.</span><span class="n">locate</span><span class="o">.</span><span class="n">plist</span> 
-<span class="err">$</span> <span class="n">locate</span> <span class="n">cairo</span><span class="o">.</span><span class="n">pc</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">sudo</span> <span class="n">launchctl</span> <span class="n">load</span> <span class="o">-</span><span class="n">w</span> <span class="o">/</span><span class="n">System</span><span class="o">/</span><span class="n">Library</span><span class="o">/</span><span class="n">LaunchDaemons</span><span class="o">/</span><span class="n">com</span><span class="p">.</span><span class="n">apple</span><span class="p">.</span><span class="n">locate</span><span class="p">.</span><span class="n">plist</span> 
+<span class="err">$</span> <span class="n">locate</span> <span class="n">cairo</span><span class="p">.</span><span class="n">pc</span>
 <span class="err">$</span> <span class="n">export</span> <span class="n">PKG_CONFIG_PATH</span><span class="o">=/</span><span class="n">usr</span><span class="o">/</span><span class="n">X11</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">pkgconfig</span><span class="o">/</span>
 </code></pre></div></div>
 <p>Then do this again:</p>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12.2</span> <span class="n">cairo</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">pkg</span><span class="o">-</span><span class="n">config</span> <span class="o">--</span><span class="n">atleast</span><span class="o">-</span><span class="n">version</span><span class="o">=</span><span class="mf">1.12</span><span class="p">.</span><span class="mi">2</span> <span class="n">cairo</span>
 <span class="err">$</span> <span class="n">echo</span> <span class="err">$?</span>
 </code></pre></div></div>
 <p>If it returns a 0 then all is well in the hood.</p>
 
 <ol>
-  <li>Download <code class="highlighter-rouge">astrometry.net</code> package:
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
-<span class="err">$</span> <span class="n">tar</span> <span class="n">xjf</span> <span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">bz2</span>
-<span class="err">$</span> <span class="n">cd</span> <span class="n">astrometry</span><span class="o">.</span><span class="n">net</span><span class="o">-*</span>
+  <li>Download <code class="language-plaintext highlighter-rouge">astrometry.net</code> package:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">astrometry</span><span class="p">.</span><span class="n">net</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="n">astrometry</span><span class="p">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="p">.</span><span class="n">tar</span><span class="p">.</span><span class="n">bz2</span>
+<span class="err">$</span> <span class="n">tar</span> <span class="n">xjf</span> <span class="n">astrometry</span><span class="p">.</span><span class="n">net</span><span class="o">-</span><span class="n">latest</span><span class="p">.</span><span class="n">tar</span><span class="p">.</span><span class="n">bz2</span>
+<span class="err">$</span> <span class="n">cd</span> <span class="n">astrometry</span><span class="p">.</span><span class="n">net</span><span class="o">-*</span>
 </code></pre></div>    </div>
   </li>
-  <li>Install <code class="highlighter-rouge">astrometry.net</code>:
+  <li>Install <code class="language-plaintext highlighter-rouge">astrometry.net</code>:
     <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">make</span>
 <span class="err">$</span> <span class="n">make</span> <span class="n">py</span>
 <span class="err">$</span> <span class="n">make</span> <span class="n">extra</span>
-<span class="err">$</span> <span class="n">make</span> <span class="n">install</span> <span class="n">INSTALL_DIR</span><span class="o">=</span><span class="s">"~/Research/Packages/astrometry"</span> <span class="n">PYTHON_SCRIPT</span><span class="o">=</span><span class="s">"/anaconda3/bin/python"</span>
+<span class="err">$</span> <span class="n">make</span> <span class="n">install</span> <span class="n">INSTALL_DIR</span><span class="o">=</span><span class="sh">"</span><span class="s">~/Research/Packages/astrometry</span><span class="sh">"</span> <span class="n">PYTHON_SCRIPT</span><span class="o">=</span><span class="sh">"</span><span class="s">/anaconda3/bin/python</span><span class="sh">"</span>
 </code></pre></div>    </div>
-    <p>Sometimes, it will show an error that <code class="highlighter-rouge">fatal error: 'cairo.h' file not found</code>.</p>
+    <p>Sometimes, it will show an error that <code class="language-plaintext highlighter-rouge">fatal error: 'cairo.h' file not found</code>.</p>
   </li>
 </ol>
 
-<p>You can just do <code class="highlighter-rouge">export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig</code> and see if it could fine <code class="highlighter-rouge">cairo.h</code>.</p>
+<p>You can just do <code class="language-plaintext highlighter-rouge">export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig</code> and see if it could fine <code class="language-plaintext highlighter-rouge">cairo.h</code>.</p>
 
 <ol>
   <li>
-    <p>Install <code class="highlighter-rouge">swig</code>: <code class="highlighter-rouge">$ brew install swig</code></p>
+    <p>Install <code class="language-plaintext highlighter-rouge">swig</code>: <code class="language-plaintext highlighter-rouge">$ brew install swig</code></p>
   </li>
   <li>
-    <p>Install <code class="highlighter-rouge">tractor</code>: first go to its folder, then</p>
+    <p>Install <code class="language-plaintext highlighter-rouge">tractor</code>: first go to its folder, then</p>
     <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="n">make</span>
-<span class="err">$</span> <span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="err">$</span> <span class="n">python</span> <span class="n">setup</span><span class="p">.</span><span class="n">py</span> <span class="n">install</span>
 </code></pre></div>    </div>
   </li>
 </ol>
@@ -323,7 +304,7 @@ MathJax.Hub.Config({
 
 <h2 id="install-imfit">Install <a href="http://www.mpe.mpg.de/~erwin/code/imfit/markdown/index.html">Imfit</a></h2>
 
-<p>Requirements: <a href="https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio_macosx.html">CFITSIO</a>, <a href="http://ftp.wayne.edu/gnu/gsl/">GNU Scientific Library</a>, <a href="http://www.fftw.org">FFTW</a> (which is used by many other packages as well), <a href="https://nlopt.readthedocs.io/en/latest/">NLopt</a>. You also need to install <code class="highlighter-rouge">CMake</code> by <code class="highlighter-rouge">$ brew install cmake</code> to install <code class="highlighter-rouge">NLopt</code>. Almost all of these packages should be installed by <code class="highlighter-rouge">$ ./configure &amp; make &amp; make install</code>. However, please check <code class="highlighter-rouge">INSTALL</code> file for more detailed description. You also need to install <code class="highlighter-rouge">pip install scons</code>. After all these preparation, install <code class="highlighter-rouge">imfit</code> with <code class="highlighter-rouge">$ scons —no-openmp imfit &amp; scons —no-openmp imfit-mcmc &amp; scons —no-openmp makeimage</code>.</p>
+<p>Requirements: <a href="https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio_macosx.html">CFITSIO</a>, <a href="http://ftp.wayne.edu/gnu/gsl/">GNU Scientific Library</a>, <a href="http://www.fftw.org">FFTW</a> (which is used by many other packages as well), <a href="https://nlopt.readthedocs.io/en/latest/">NLopt</a>. You also need to install <code class="language-plaintext highlighter-rouge">CMake</code> by <code class="language-plaintext highlighter-rouge">$ brew install cmake</code> to install <code class="language-plaintext highlighter-rouge">NLopt</code>. Almost all of these packages should be installed by <code class="language-plaintext highlighter-rouge">$ ./configure &amp; make &amp; make install</code>. However, please check <code class="language-plaintext highlighter-rouge">INSTALL</code> file for more detailed description. You also need to install <code class="language-plaintext highlighter-rouge">pip install scons</code>. After all these preparation, install <code class="language-plaintext highlighter-rouge">imfit</code> with <code class="language-plaintext highlighter-rouge">$ scons —no-openmp imfit &amp; scons —no-openmp imfit-mcmc &amp; scons —no-openmp makeimage</code>.</p>
 
 <hr />
 
@@ -357,7 +338,7 @@ MathJax.Hub.Config({
         <br>
         <ul class="contact-list">
           <li><strong>Jiaxuan Li 李嘉轩</strong></li>
-          <li>Graduate Student</li>
+          <li>PhD Candidate</li>
           <li><a href="mailto:jiaxuanl@princeton.edu">jiaxuanl@princeton.edu</a></li>
         </ul>
       </div>
@@ -412,10 +393,13 @@ MathJax.Hub.Config({
           Princeton, NJ 08544, USA<br>
       </div>
 
-      <div class="footer-col  footer-col-2">
+      <!-- <div class="footer-col  footer-col-2">
          <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5umlf3qf2sp&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+      </div> -->
+      <div class="footer-col  footer-col-2">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=3-cwGuQrU2xy1LKPxW230yaRX7YuoKryV0kInSW2OJU"></script>
       </div>
-
+      
     </div>
 
   </div>

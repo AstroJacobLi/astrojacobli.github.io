@@ -18,9 +18,9 @@ job.title: "PhD Candidate"
 excerpt_separator: "<!--more-->"
 
 # This will require each of these plugins automatically.
-plugins:
-  - image
-  - jekyll-seo-tag
+# plugins:
+#  - image
+#  - jekyll-seo-tag
 # SEO stuff
 twitter:
   username: AstroJacobLi
