@@ -1,6 +1,6 @@
 <dl id="" class="wp-caption align{{include.align}}" style="width: {{include.width}}px">
 
-<dt><a href="{{ include.href }}"><img class="" src="{{ include.url }}" alt="{{ include.caption }}" /></a></dt>
+<dt><a href="{% if include.href %}{{ include.href }}{% else %}{{ include.url }}{% endif %}" class="lightbox-trigger" data-caption="{{ include.caption }}"><img class="" src="{{ include.url }}" alt="{{ include.caption }}" /></a></dt>
 
 <dd>{{ include.caption }}</dd>
 </dl>

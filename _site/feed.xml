@@ -6,15 +6,15 @@
 </description>
     <link>https://astrojacobli.github.io/</link>
     <atom:link href="https://astrojacobli.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Nov 2025 17:28:26 -0500</pubDate>
-    <lastBuildDate>Mon, 24 Nov 2025 17:28:26 -0500</lastBuildDate>
+    <pubDate>Mon, 24 Nov 2025 17:41:34 -0500</pubDate>
+    <lastBuildDate>Mon, 24 Nov 2025 17:41:34 -0500</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>The Pot Still</title>
         <description>&lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 250px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/potstill.jpeg&quot; alt=&quot;The Pot Still in Glasgow&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/potstill.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;The Pot Still in Glasgow&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/potstill.jpeg&quot; alt=&quot;The Pot Still in Glasgow&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;The Pot Still in Glasgow&lt;/dd&gt;
 &lt;/dl&gt;
@@ -26,7 +26,7 @@
 &lt;p&gt;走进这间百年老店，迎接你的是墙上那一千多瓶闪烁着橙黄色光芒的威士忌。这一千多瓶酒摆放在一个四层的木架子上，每层架子大约都有3瓶酒的深度，而这四层架子则由几根柱子支撑着，像极了一个威士忌教堂。一千瓶酒中的每一瓶都似乎在讲述着一个故事，诱惑着那些醉心于威士忌的旅人。尽管这里的酒大多来自苏格兰各地，但你依然可以找到几瓶来自爱尔兰、日本、甚至美国的波本威士忌。除了威士忌，这里还供应四种Cask Ale（木桶艾尔，也叫做Real Ale），其风味独特，只不过喝完之后很大概率会头痛，这里我们暂且不提。&lt;/p&gt;
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 300px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/shelf.jpeg&quot; alt=&quot;The shelf&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/shelf.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;The shelf&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/shelf.jpeg&quot; alt=&quot;The shelf&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;The shelf&lt;/dd&gt;
 &lt;/dl&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;在苏格兰，要冒犯一位威士忌爱好者，最简单的方法是将“whisky”拼写成“whiskey”，其次是要求在一杯上好的单一麦芽威士忌中加冰。苏格兰的威士忌产区广布，从低地（Lowlands）到高地（Highlands），再到艾莱岛（Isle of Islay），每处的威士忌都独具特色。在Pot Still，喝一杯威士忌丰俭由人。你既可以花3.5英镑来上一杯“Malt of the Month”（本月威士忌），也可以豪掷千金品尝一杯被“束之高阁”的Ardbeg 25年。&lt;/p&gt;
 &lt;dl class=&quot;wp-caption alignleft&quot; style=&quot;width: 250px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/shelf1.jpeg&quot; alt=&quot;Bartender&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/shelf1.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Bartender&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/shelf1.jpeg&quot; alt=&quot;Bartender&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Bartender&lt;/dd&gt;
 &lt;/dl&gt;
@@ -45,7 +45,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 200px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/ardbeg.jpeg&quot; alt=&quot;Ardbeg Spectacular&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/ardbeg.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Ardbeg Spectacular&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/ardbeg.jpeg&quot; alt=&quot;Ardbeg Spectacular&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Ardbeg Spectacular&lt;/dd&gt;
 &lt;/dl&gt;
@@ -54,7 +54,7 @@
 
 &lt;dl class=&quot;wp-caption alignleft&quot; style=&quot;width: 200px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/springbank.jpeg&quot; alt=&quot;Springbank&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/springbank.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Springbank&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/springbank.jpeg&quot; alt=&quot;Springbank&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Springbank&lt;/dd&gt;
 &lt;/dl&gt;
@@ -66,7 +66,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 200px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/lagavulin.jpeg&quot; alt=&quot;Lagavulin 16&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/lagavulin.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Lagavulin 16&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/lagavulin.jpeg&quot; alt=&quot;Lagavulin 16&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Lagavulin 16&lt;/dd&gt;
 &lt;/dl&gt;
@@ -75,7 +75,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 200px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/ardbeg25.jpeg&quot; alt=&quot;Ardbeg 23 and 25&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/ardbeg25.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Ardbeg 23 and 25&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/ardbeg25.jpeg&quot; alt=&quot;Ardbeg 23 and 25&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Ardbeg 23 and 25&lt;/dd&gt;
 &lt;/dl&gt;
@@ -84,7 +84,7 @@
 
 &lt;dl class=&quot;wp-caption alignleft&quot; style=&quot;width: 200px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/caolila.jpeg&quot; alt=&quot;Caol Ila 12 and Bunnahabhain 18&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/photo/potstill/caolila.jpeg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Caol Ila 12 and Bunnahabhain 18&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/photo/potstill/caolila.jpeg&quot; alt=&quot;Caol Ila 12 and Bunnahabhain 18&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Caol Ila 12 and Bunnahabhain 18&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1107,7 +1107,7 @@
 &lt;h3 id=&quot;incredible-cheat-sheet-for-matplotlib&quot;&gt;&lt;a href=&quot;https://github.com/rougier/matplotlib-cheatsheet&quot;&gt;Incredible cheat sheet for Matplotlib!&lt;/a&gt;&lt;/h3&gt;
 &lt;dl class=&quot;wp-caption aligncenter&quot; style=&quot;width: 950px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/matplotlib-cheatsheet.png&quot; alt=&quot;`Matplotlib` cheatsheet&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/matplotlib-cheatsheet.png&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;`Matplotlib` cheatsheet&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/matplotlib-cheatsheet.png&quot; alt=&quot;`Matplotlib` cheatsheet&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;`Matplotlib` cheatsheet&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1409,7 +1409,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 280px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Iberia_regions_map.png/398px-Iberia_regions_map.png&quot; alt=&quot;Iberian Peninsula&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Iberia_regions_map.png/398px-Iberia_regions_map.png&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Iberian Peninsula&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Iberia_regions_map.png/398px-Iberia_regions_map.png&quot; alt=&quot;Iberian Peninsula&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Iberian Peninsula&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1449,7 +1449,7 @@
 &lt;/dl&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/iberian.JPG&quot; alt=&quot;Iberian半岛变化历史&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/iberian.JPG&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Iberian半岛变化历史&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/iberian.JPG&quot; alt=&quot;Iberian半岛变化历史&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Iberian半岛变化历史&lt;/dd&gt;
 &lt;p&gt;&amp;lt;/dl&amp;gt;&lt;/p&gt;
@@ -1494,7 +1494,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.iamexpat.nl/sites/default/files/sitefiles_2017-07/map-netherlands.png&quot; alt=&quot;Netherland地图&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;https://www.iamexpat.nl/sites/default/files/sitefiles_2017-07/map-netherlands.png&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;Netherland地图&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.iamexpat.nl/sites/default/files/sitefiles_2017-07/map-netherlands.png&quot; alt=&quot;Netherland地图&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;Netherland地图&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1519,7 +1519,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Dutch_Empire35.PNG&quot; alt=&quot;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Dutch_Empire35.PNG&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Dutch_Empire35.PNG&quot; alt=&quot;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;荷兰殖民地的分布图。亮绿色：荷兰东印度公司管辖区；深绿色：荷兰西印度公司管辖区；黄色：荷兰在19世纪的殖民地（后来侵占的）。&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1540,7 +1540,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://geology.com/world/united-kingdom-map.gif&quot; alt=&quot;不列颠及爱尔兰地区地图。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;https://geology.com/world/united-kingdom-map.gif&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;不列颠及爱尔兰地区地图。&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://geology.com/world/united-kingdom-map.gif&quot; alt=&quot;不列颠及爱尔兰地区地图。&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;不列颠及爱尔兰地区地图。&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1569,7 +1569,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 350px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.ilimvemedeniyet.com/wp-content/uploads/2016/07/8737181234_3fac28af34_b-702x336.jpg&quot; alt=&quot;伦敦Westminster宫（即国会大厦）中的英国议会&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;https://www.ilimvemedeniyet.com/wp-content/uploads/2016/07/8737181234_3fac28af34_b-702x336.jpg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;伦敦Westminster宫（即国会大厦）中的英国议会&quot;&gt;&lt;img class=&quot;&quot; src=&quot;https://www.ilimvemedeniyet.com/wp-content/uploads/2016/07/8737181234_3fac28af34_b-702x336.jpg&quot; alt=&quot;伦敦Westminster宫（即国会大厦）中的英国议会&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;伦敦Westminster宫（即国会大厦）中的英国议会&lt;/dd&gt;
 &lt;/dl&gt;
@@ -1786,7 +1786,7 @@
 
 &lt;dl class=&quot;wp-caption alignright&quot; style=&quot;width: 300px&quot;&gt;
 
-&lt;dt&gt;&lt;a href=&quot;&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/england-france.jpg&quot; alt=&quot;英国革命与法国大革命&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dt&gt;&lt;a href=&quot;/images/england-france.jpg&quot; class=&quot;lightbox-trigger&quot; data-caption=&quot;英国革命与法国大革命&quot;&gt;&lt;img class=&quot;&quot; src=&quot;/images/england-france.jpg&quot; alt=&quot;英国革命与法国大革命&quot; /&gt;&lt;/a&gt;&lt;/dt&gt;
 
 &lt;dd&gt;英国革命与法国大革命&lt;/dd&gt;
 &lt;/dl&gt;

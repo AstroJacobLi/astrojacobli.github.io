@@ -181,21 +181,21 @@ MathJax.Hub.Config({
     <h1 id="chinese-cuisine">Chinese Cuisine</h1>
 <dl class="wp-caption alignright" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/youpo.JPG" alt="Oil Spilled Spicy Noddle" /></a></dt>
+<dt><a href="/images/cooking/youpo.JPG" class="lightbox-trigger" data-caption="Oil Spilled Spicy Noddle"><img class="" src="/images/cooking/youpo.JPG" alt="Oil Spilled Spicy Noddle" /></a></dt>
 
 <dd>Oil Spilled Spicy Noddle</dd>
 </dl>
 
 <dl class="wp-caption alignleft" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/qingjiao.jpg" alt="Sautéed Shredded Pork with Green Pepper" /></a></dt>
+<dt><a href="/images/cooking/qingjiao.jpg" class="lightbox-trigger" data-caption="Sautéed Shredded Pork with Green Pepper"><img class="" src="/images/cooking/qingjiao.jpg" alt="Sautéed Shredded Pork with Green Pepper" /></a></dt>
 
 <dd>Sautéed Shredded Pork with Green Pepper</dd>
 </dl>
 
 <dl class="wp-caption alignmiddle" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/mapo.jpg" alt="Mapo Tofu (Sautéed Tofu in Hot and Spicy Sauce)" /></a></dt>
+<dt><a href="/images/cooking/mapo.jpg" class="lightbox-trigger" data-caption="Mapo Tofu (Sautéed Tofu in Hot and Spicy Sauce)"><img class="" src="/images/cooking/mapo.jpg" alt="Mapo Tofu (Sautéed Tofu in Hot and Spicy Sauce)" /></a></dt>
 
 <dd>Mapo Tofu (Sautéed Tofu in Hot and Spicy Sauce)</dd>
 </dl>
@@ -204,21 +204,21 @@ MathJax.Hub.Config({
 
 <dl class="wp-caption alignright" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/shuizhu.jpg" alt="Boiled Pork Slices with Spicy Sauce" /></a></dt>
+<dt><a href="/images/cooking/shuizhu.jpg" class="lightbox-trigger" data-caption="Boiled Pork Slices with Spicy Sauce"><img class="" src="/images/cooking/shuizhu.jpg" alt="Boiled Pork Slices with Spicy Sauce" /></a></dt>
 
 <dd>Boiled Pork Slices with Spicy Sauce</dd>
 </dl>
 
 <dl class="wp-caption alignleft" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/tangcu.jpg" alt="Sweet and Sour Pork Tenderloin" /></a></dt>
+<dt><a href="/images/cooking/tangcu.jpg" class="lightbox-trigger" data-caption="Sweet and Sour Pork Tenderloin"><img class="" src="/images/cooking/tangcu.jpg" alt="Sweet and Sour Pork Tenderloin" /></a></dt>
 
 <dd>Sweet and Sour Pork Tenderloin</dd>
 </dl>
 
 <dl class="wp-caption alignmiddle" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/huanggua.jpg" alt="Tossed Cucumber in Spicy Sauce" /></a></dt>
+<dt><a href="/images/cooking/huanggua.jpg" class="lightbox-trigger" data-caption="Tossed Cucumber in Spicy Sauce"><img class="" src="/images/cooking/huanggua.jpg" alt="Tossed Cucumber in Spicy Sauce" /></a></dt>
 
 <dd>Tossed Cucumber in Spicy Sauce</dd>
 </dl>
@@ -227,7 +227,7 @@ MathJax.Hub.Config({
 
 <dl class="wp-caption alignleft" style="width: 280px">
 
-<dt><a href=""><img class="" src="/images/cooking/huiguo.jpg" alt="Huiguo Pork" /></a></dt>
+<dt><a href="/images/cooking/huiguo.jpg" class="lightbox-trigger" data-caption="Huiguo Pork"><img class="" src="/images/cooking/huiguo.jpg" alt="Huiguo Pork" /></a></dt>
 
 <dd>Huiguo Pork</dd>
 </dl>
@@ -322,6 +322,47 @@ Thanks Chef <a href="https://www.youtube.com/channel/UCg0m_Ah8P_MQbnn77-vYnYw">G
 
 </footer>
 
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightboxOverlay = document.getElementById('lightbox-overlay');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxCaption = document.querySelector('.lightbox-caption');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const triggers = document.querySelectorAll('.lightbox-trigger');
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const imageUrl = this.getAttribute('href');
+                    const caption = this.getAttribute('data-caption');
+                    
+                    lightboxImage.src = imageUrl;
+                    lightboxCaption.innerHTML = caption; // Use innerHTML to render HTML in caption
+                    lightboxOverlay.classList.add('active');
+                });
+            });
+
+            lightboxClose.addEventListener('click', function() {
+                lightboxOverlay.classList.remove('active');
+            });
+
+            lightboxOverlay.addEventListener('click', function(e) {
+                if (e.target === lightboxOverlay) {
+                    lightboxOverlay.classList.remove('active');
+                }
+            });
+        });
+    </script>
   </body>
 
 </html>

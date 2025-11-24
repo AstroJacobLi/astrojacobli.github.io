@@ -209,7 +209,7 @@ MathJax.Hub.Config({
 <h3 id="incredible-cheat-sheet-for-matplotlib"><a href="https://github.com/rougier/matplotlib-cheatsheet">Incredible cheat sheet for Matplotlib!</a></h3>
 <dl class="wp-caption aligncenter" style="width: 950px">
 
-<dt><a href=""><img class="" src="/images/matplotlib-cheatsheet.png" alt="`Matplotlib` cheatsheet" /></a></dt>
+<dt><a href="/images/matplotlib-cheatsheet.png" class="lightbox-trigger" data-caption="`Matplotlib` cheatsheet"><img class="" src="/images/matplotlib-cheatsheet.png" alt="`Matplotlib` cheatsheet" /></a></dt>
 
 <dd>`Matplotlib` cheatsheet</dd>
 </dl>
@@ -510,6 +510,47 @@ MathJax.Hub.Config({
 
 </footer>
 
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightboxOverlay = document.getElementById('lightbox-overlay');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxCaption = document.querySelector('.lightbox-caption');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const triggers = document.querySelectorAll('.lightbox-trigger');
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const imageUrl = this.getAttribute('href');
+                    const caption = this.getAttribute('data-caption');
+                    
+                    lightboxImage.src = imageUrl;
+                    lightboxCaption.innerHTML = caption; // Use innerHTML to render HTML in caption
+                    lightboxOverlay.classList.add('active');
+                });
+            });
+
+            lightboxClose.addEventListener('click', function() {
+                lightboxOverlay.classList.remove('active');
+            });
+
+            lightboxOverlay.addEventListener('click', function(e) {
+                if (e.target === lightboxOverlay) {
+                    lightboxOverlay.classList.remove('active');
+                }
+            });
+        });
+    </script>
   </body>
 
 </html>

@@ -324,6 +324,47 @@ MathJax.Hub.Config({
 
 </footer>
 
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightboxOverlay = document.getElementById('lightbox-overlay');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxCaption = document.querySelector('.lightbox-caption');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const triggers = document.querySelectorAll('.lightbox-trigger');
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const imageUrl = this.getAttribute('href');
+                    const caption = this.getAttribute('data-caption');
+                    
+                    lightboxImage.src = imageUrl;
+                    lightboxCaption.innerHTML = caption; // Use innerHTML to render HTML in caption
+                    lightboxOverlay.classList.add('active');
+                });
+            });
+
+            lightboxClose.addEventListener('click', function() {
+                lightboxOverlay.classList.remove('active');
+            });
+
+            lightboxOverlay.addEventListener('click', function(e) {
+                if (e.target === lightboxOverlay) {
+                    lightboxOverlay.classList.remove('active');
+                }
+            });
+        });
+    </script>
   </body>
 
 </html>

@@ -197,7 +197,7 @@ I was fascinated by the beauty of the nature since I was a child. Fortunately, m
 
 <dl class="wp-caption aligncenter" style="width: 700px">
 
-<dt><a href=""><img class="" src="/images/Davenport.JPG" alt="Sunset in Davenport, CA" /></a></dt>
+<dt><a href="/images/Davenport.JPG" class="lightbox-trigger" data-caption="Sunset in Davenport, CA"><img class="" src="/images/Davenport.JPG" alt="Sunset in Davenport, CA" /></a></dt>
 
 <dd>Sunset in Davenport, CA</dd>
 </dl>
@@ -289,6 +289,47 @@ I was fascinated by the beauty of the nature since I was a child. Fortunately, m
 
 </footer>
 
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox-overlay">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightboxOverlay = document.getElementById('lightbox-overlay');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxCaption = document.querySelector('.lightbox-caption');
+            const lightboxClose = document.querySelector('.lightbox-close');
+            const triggers = document.querySelectorAll('.lightbox-trigger');
+
+            triggers.forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const imageUrl = this.getAttribute('href');
+                    const caption = this.getAttribute('data-caption');
+                    
+                    lightboxImage.src = imageUrl;
+                    lightboxCaption.innerHTML = caption; // Use innerHTML to render HTML in caption
+                    lightboxOverlay.classList.add('active');
+                });
+            });
+
+            lightboxClose.addEventListener('click', function() {
+                lightboxOverlay.classList.remove('active');
+            });
+
+            lightboxOverlay.addEventListener('click', function(e) {
+                if (e.target === lightboxOverlay) {
+                    lightboxOverlay.classList.remove('active');
+                }
+            });
+        });
+    </script>
   </body>
 
 </html>
