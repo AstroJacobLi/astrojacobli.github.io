@@ -1,19 +1,24 @@
 .wp-caption {
-background-color: #f3f3f3;
-text-align: center;
-border: 1px dotted $clemson-purple;
+	background-color: #fff;
+	text-align: center;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	font-size: 0.90em;
 	overflow: hidden;
 	position: relative;
-
+	margin-bottom: 20px;
 }
 
 .wp-caption dd {
-        color: #000000;
-	background-color: #ebf5f8;
-	font-size: .8em;
-	padding: 2px 8px 3px 8px;
-	margin: 1px 0 0 0;
+	color: #555;
+	background-color: #f9f9f9;
+	font-size: .85em;
+	padding: 10px 15px;
+	margin: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	line-height: 1.4;
 }
 
 .wp-caption dt {
@@ -25,6 +30,10 @@ border: 1px dotted $clemson-purple;
 	margin: 0;
 	padding: 0;
 	border: 0;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	max-width: 100%;
+	height: auto;
 }
 
 

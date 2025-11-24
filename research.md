@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-#### [Link to my publications in ADS](https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg)
+<a href="https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg" class="btn">View my publications on ADS</a>
 
 ### A Possible "Too-Many-Satellites" Problem in the Isolated Dwarf Galaxy DDO 161
 
