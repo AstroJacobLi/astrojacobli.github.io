@@ -882,6 +882,9 @@ ul.listing li.listing-item a {
     margin-right: auto !important;
     text-align: center;
   }
+  .page-research .wp-caption {
+    width: 100% !important;
+  }
   .wp-caption img {
     width: 100%;
     height: auto;

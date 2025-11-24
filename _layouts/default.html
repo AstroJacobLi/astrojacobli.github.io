@@ -16,7 +16,7 @@
 </script>
   {% include head.html %}
   {% comment %} {% seo %} {% endcomment %}
-  <body>
+  <body class="page-{{ page.title | slugify | default: 'home' }}">
 
     {% include header.html %}
 
