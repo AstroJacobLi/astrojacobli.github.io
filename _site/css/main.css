@@ -958,6 +958,13 @@ ul.listing li.listing-item a {
     pointer-events: none;
   }
 }
+/* Globe Widget Styles */
+.globe-widget {
+  max-width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
 /* Jupyter highlight */
 .hll {
   background-color: #ffffcc;
