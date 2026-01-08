@@ -17,6 +17,13 @@ permalink: /talks/
 <font size="+1"><h1 style="color: #94070a; font-weight: 300;">Talks</h1></font>
 
 <div class="talk-desc">
+	<span class="talk-title">Revealing the Smallest Galaxies in the Nearby Universe with Roman</span><br>
+	<span class="talk-location">NASA Hyperwall talk, AAS 247, Phoenix, AZ</span> &bull; <span class="talk-date">Jan 2026</span>
+    {% include embedpdf.html code="Docs/talks/Jiaxuan_Li_NASA_Hyperwall.pdf" width=100 height=460 %}
+</div>
+
+
+<div class="talk-desc">
 	<span class="talk-title">Dwarfs: Near and Far</span><br>
 	<span class="talk-location">KICP Seminar, University of Chicago, Illinois</span> &bull; <span class="talk-date">Nov 2025</span>
     {% include embedpdf.html code="Docs/talks/Jiaxuan_Li_KICP_2025.pdf" width=100 height=460 %}
