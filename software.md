@@ -213,7 +213,6 @@ I develop open-source tools for astronomy and research productivity. All package
   </div>
   <div class="software-card-preview preview-light">
     <img src="/images/two_phase.png" alt="Example plot generated with smplotlib">
-    <span class="preview-caption">Example publication-ready figure</span>
   </div>
 </div>
 
