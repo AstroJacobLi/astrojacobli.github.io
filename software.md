@@ -157,8 +157,8 @@ permalink: /software/
     }
 }
 </style>
-
-<font size="+1"><h1 style="color: #94070a; font-weight: 300;">Software</h1></font>
+<!-- 
+<font size="+1"><h1 style="color: #94070a; font-weight: 300;">Software</h1></font> -->
 
 I develop open-source tools for astronomy and research productivity. All packages are freely available on GitHub.
 
