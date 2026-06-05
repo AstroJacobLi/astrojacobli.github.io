@@ -18,6 +18,9 @@
 - title: "Blog"
   href: "/blog/"
 
+- title: "Software"
+  href: "/software/"
+
 - title: "Miscellany"
   href: "/miscellany/"
   subcategories:

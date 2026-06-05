@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git -c user.email=astrolijiaxuan@gmail.com -c 'user.name=Jiaxuan Li' commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(dig jiaxuanli.me A +short)",
+      "Bash(dig www.jiaxuanli.me CNAME +short)",
+      "Bash(dig jiaxuanli.me NS +short)"
+    ]
+  }
+}
