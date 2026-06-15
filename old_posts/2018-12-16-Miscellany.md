@@ -37,7 +37,7 @@ A good website to check visibility for a given RA and DEC: [http://catserver.ing
 - And add something like
 
 ```javascript
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ```
 to `_layouts/default.html`. Now you can simply mark any mathematics in your posts with `$$`
 
