@@ -1,0 +1,18 @@
+/* Landing-page-specific spacing and link treatment. */
+.home {
+  padding-top: 16px;
+}
+
+.home > h1 {
+  color: $brand-color;
+}
+
+.home .kipac-link {
+  color: $pku-red;
+}
+
+@include media-query($on-palm) {
+  .home {
+    padding-top: 10px;
+  }
+}

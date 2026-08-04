@@ -461,3 +461,12 @@ ul.listing li.listing-item a { color: #522d80; font-weight: 400; font-size: 1.2e
 .alignright { float: right; margin-left: 20px; margin-bottom: 15px; }
 
 .aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+/* Landing-page-specific spacing and link treatment. */
+.home { padding-top: 16px; }
+
+.home > h1 { color: #0077CC; }
+
+.home .kipac-link { color: #94070a; }
+
+@media screen and (max-width: 600px) { .home { padding-top: 10px; } }
