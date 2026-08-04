@@ -11,3 +11,9 @@ _site/*
 */.DS_Store
 _posts/.DS_Store
 Docs/.DS_Store
+
+# Never commit private keys or certificate-signing requests.
+*.key
+*.key.org
+*.csr
+*.pem

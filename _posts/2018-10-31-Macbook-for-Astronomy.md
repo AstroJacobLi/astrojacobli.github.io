@@ -14,7 +14,7 @@ categories: Coding
 - [XQuartz](https://www.xquartz.org): graphics library for ds9.
 - Activating DS9: `export DISPLAY=:0.0` in your terminal.
 - LaTeX environment: [MacTex](http://www.tug.org/mactex/) works good for me. I don't have money to buy other IDE, so I use TeXShop. But for Windows, `TexStudio` is really really good.
-- `Consolas` font: You can download from https://astrojacobli.github.io/astro-ph/Consolas.ttf
+- `Consolas` font, if it is installed on your system.
 - [Mendeley](https://www.mendeley.com): paper management and reader, worth trying.
 - [Slack](https://slack.com/downloads/osx): definitely a good tool for communication and cooperation.
 - [TOPCAT](http://www.star.bris.ac.uk/~mbt/topcat/): Best tool for manipulating tables, best assistant of catalog astrophysicist.

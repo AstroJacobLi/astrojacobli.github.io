@@ -3,9 +3,10 @@ title: Jiaxuan Li 李嘉轩
 position: PhD Candidate
 email: jiaxuanl@princeton.edu # , jiaxuan_li@pku.edu.cn
 description: > # this means to ignore newlines until "baseurl:"
-  Homepage of Jiaxuan Li 李嘉轩
+  Jiaxuan Li is an astrophysicist studying dwarf galaxies, low-surface-brightness
+  astrophysics, sky surveys, machine learning, and astronomical instrumentation.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://astrojacobli.github.io" # the base hostname & protocol for your site
+url: "https://jiaxuanli.me" # the canonical hostname and protocol
 twitter_username: AstroJacobLi
 github_username:  AstroJacobLi
 orcid: 0000-0001-9592-4190

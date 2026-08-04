@@ -4,9 +4,9 @@ title: Miscellany
 permalink: /miscellany/
 ---
 <!-- 
-On my homepage, you can find more things than my research. I'm a big fan of any kinds of music, from Indian traditional tabla and sitar to Chopin and Rachmaninoff. Modern poetry, painting and photography also fascinate me. Let's enjoy <a href="https://astrojacobli.github.io//miscellany/art/"><strong>Art</strong></a> together! -->
+On my homepage, you can find more than my research. I enjoy many kinds of music, from traditional Indian tabla and sitar to Chopin and Rachmaninoff. Modern poetry, painting, and photography also fascinate me. -->
 
-I was born in Dingxi, Gansu, which is a small city in northwest China. Sichuan dishes often appear in my meal list. Check my dishes in <a href="https://astrojacobli.github.io//miscellany/cooking/"><strong>Cooking</strong> </a>.
+I was born in Dingxi, Gansu, a small city in northwestern China. Sichuan dishes often appear on my menu; see some of them in <a href="{{ '/miscellany/cooking/' | relative_url }}"><strong>Cooking</strong></a>.
 
 I was honored to be invited to the TV show "Voice" as a youth representative. The show is about the first image of Black Hole in the center of M87. I asked the speaker about the outreach of astronomy in China and also the future of Chinese astronomy research. Check out the video below:
 <center>
@@ -20,6 +20,6 @@ I also produced a short video called <strong>"_The Unknown Secrets of the Univer
 <iframe width="700" height="394" src="https://www.youtube.com/embed/MCqoVK0luso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 <br>
-I was fascinated by the beauty of the nature since I was a child. Fortunately, my parents bought me a telescope and a camera when I was 15 years old. The former makes me a (future) astronomer, and the later brings me a lot of joy. Recently I've been trying film photography. See some of the beautiful scenes in <a href="https://astrojacobli.github.io//miscellany/photography/"><strong>Photography</strong> </a>.
+I have been fascinated by the beauty of nature since childhood. When I was 15, my parents bought me a telescope and a camera. The former helped make me an astronomer, and the latter continues to bring me great joy. Recently, I have been experimenting with film photography. See some of my favorite scenes in <a href="{{ '/miscellany/photography/' | relative_url }}"><strong>Photography</strong></a>.
 
 {% include image.html url="/images/Davenport.JPG" caption="Sunset in Davenport, CA" width=700 align="center" %}
