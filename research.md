@@ -6,6 +6,17 @@ permalink: /research/
 
 #### [Link to my publications in ADS](https://ui.adsabs.harvard.edu/public-libraries/hymVHtQ2TveZ5t3VzwQYzg)
 
+### ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume
+
+{% include image.html url="/images/elves-dwarf-status.png" caption="Current status of the ELVES-Dwarf survey: 39 dwarf hosts across the Local Volume, with 39 distance-confirmed satellites out of 207 candidates. Explore the sample at <a href='https://elves-surveys.github.io/elves-dwarf/'>elves-surveys.github.io/elves-dwarf</a>." width=750 align="center" %}
+
+The satellite populations of Milky Way--mass systems have been extensively studied. However, the satellites of lower-mass dwarf galaxies remain largely unexplored, despite hierarchical structure formation predicting that dwarf galaxies should host their own satellites. I lead the **E**xploration of **L**ocal **V**olum**E** **S**atellites of **Dwarf** galaxies (**ELVES-Dwarf**) survey, which aims to statistically characterize the satellite populations of isolated dwarf galaxies in the Local Volume. We identify satellite candidates in integrated light using the Legacy Surveys data, complete down to $$M_g\approx -9$$ mag, and then confirm their association with the hosts using surface brightness fluctuation distances measured from deep Hyper Suprime-Cam and Magellan imaging. The first results, based on 8 isolated dwarf hosts, are presented in [Li et al. (2025a)](https://ui.adsabs.harvard.edu/abs/2025arXiv250408030L/abstract).
+
+In [Li et al. (2026, ELVES-Dwarf II)](https://arxiv.org/abs/2609.00283), we present the full survey of 39 mostly isolated dwarf hosts with $$10^{8} < M_\star^{\rm host} < 10^{10}\, M_\odot$$, from which we confirm 39 satellites out of 207 candidates. This is **the first large, homogeneous, distance-confirmed sample of satellites around dwarf hosts**. The satellite systems are strikingly diverse: 21 hosts have no confirmed satellites, 10 have one, six have two, and two have four. Overall, the observed satellite abundances and stellar mass functions are broadly consistent with predictions from the TNG50 cosmological simulation and with galaxy--halo connection models calibrated on Milky Way satellites, but some outliers still exist. The quenched fraction of satellites around dwarf hosts is substantially lower than around Milky Way--mass hosts, indicating that environmental quenching is much less efficient in dwarf halos. The full sample and data products are available at [elves-surveys.github.io/elves-dwarf](https://elves-surveys.github.io/elves-dwarf/).
+
+<br>
+
+
 ### A Possible "Too-Many-Satellites" Problem in the Isolated Dwarf Galaxy DDO 161
 
 {% include image.html url="/images/DDO161.png" caption="DDO 161, hosts four confirmed satellites, making it the most satellite-rich dwarf galaxy known (lies at the 0.04\% extreme of predictions with cosmological simulation TNG50), implying that satellites of dwarf galaxies might populate dark matter subhalos differently than they do around Milky Way–mass hosts." width=750 align="center" %}
@@ -41,13 +52,6 @@ This work is featured in the <a href="https://www.ias.edu/news/extreme-cousin-pl
 
 
 <br>
-
-
-### ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume
-
-{% include image.html url="/images/ELVES-Dwarf-1.jpeg" caption="ELVES-Dwarf Survey: Probing Satellites of Isolated Dwarf Galaxies in the Local Volume" width=750 align="center" %}
-
-The satellite populations of Milky Way--mass systems have been extensively studied. However, the satellites of lower-mass dwarf galaxies remain largely unexplored, despite hierarchical structure formation predicting that dwarf galaxies should host their own satellites. In [Li et al. (2025a)](https://ui.adsabs.harvard.edu/abs/2025arXiv250408030L/abstract), we present the first results of the ELVES-Dwarf survey, which aims to statistically characterize the satellite populations of isolated dwarf galaxies in the Local Volume ($$4<D<10$$~Mpc). We identify satellite candidates in integrated light using the Legacy Surveys data and are complete down to $$M_g\approx -9$$ mag. We then confirm the association of satellite candidates with host galaxies using surface brightness fluctuation distances measured from the Hyper Suprime-Cam data. We surveyed 8 isolated dwarf galaxies with stellar masses ranging from sub-Small Magellanic Cloud to Large Magellanic Cloud scales ($$10^{7.8} < M_\star^{\rm host}<10^{9.5}\, M_\odot$$) and confirmed 6 satellites with stellar masses between $$10^{5.6}$$ and $$10^{8} \, M_\odot$$. Most confirmed satellites are star-forming, contrasting with the primarily quiescent satellites observed around Milky Way--mass hosts. By comparing observed satellite abundances and stellar mass functions with theoretical predictions, we find no evidence of a "missing satellite problem" in the dwarf galaxy regime.
 
 
 ### Hedgehog: An Isolated Quiescent Dwarf Galaxy at 2.4 Mpc
