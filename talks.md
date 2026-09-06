@@ -17,6 +17,13 @@ permalink: /talks/
 <font size="+1"><h1 style="color: #94070a; font-weight: 300;">Talks</h1></font>
 
 <div class="talk-desc">
+	<span class="talk-title">ELVES-Dwarf Survey: Satellite Systems of Dwarf Galaxies in the Local Volume</span><br>
+	<span class="talk-location"><a href="https://indico.uchicago.edu/event/580/overview" target="_blank" rel="noopener">Probe Combination for Dark Matter Physics in the Era of Large Surveys</a>, KICP, University of Chicago, Illinois</span> &bull; <span class="talk-date">Sept 2026</span>
+    {% include embedpdf.html code="Docs/talks/JLi_KICP_probe_combination_2026.pdf" width=100 height=460 %}
+</div>
+
+
+<div class="talk-desc">
 	<span class="talk-title">Revealing the Smallest Galaxies in the Nearby Universe with Roman</span><br>
 	<span class="talk-location">NASA Hyperwall talk, AAS 247, Phoenix, AZ</span> &bull; <span class="talk-date">Jan 2026</span>
     {% include embedpdf.html code="Docs/talks/Jiaxuan_Li_NASA_Hyperwall.pdf" width=100 height=460 %}
