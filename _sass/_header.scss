@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $pku-red-dark;
+	border-bottom: 3px solid #2e2d29;
     min-height: 56px;
     background: $pku-red;
     // Positioning context for the mobile navigation icon
@@ -82,8 +82,7 @@
 	letter-spacing: 0;
 	line-height: 1.0em;
 	padding: 4px 5px;
-color: $ink-dark;
-
+	color: $ink-dark;
 }
 
 .site-nav .sub-menu a:hover {
@@ -91,7 +90,7 @@ color: $ink-dark;
 }
 .site-nav  .sub-menu {
 	background: #ffffff;
-	border-color: $pku-red-dark;
+	border-color: #2e2d29;
 	min-width: 105px;
 
 	z-index:2147483647;
@@ -112,17 +111,25 @@ color: $ink-dark;
 	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
 	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.4);
 	display: none;
-	right: -10px;
+	left: 50%;
+	right: auto;
+	transform: translateX(-50%);
 	padding: 4px 0 3px 0;
 	position: absolute;
-	text-align: left;
+	text-align: center;
 	text-transform: none;
 	top: 28px;
-	min-width: 265px;
+	min-width: 140px;
 
-z-index:999;
+	z-index: 999;
 	font-family: Helvetica, Arial, Verdana, sans-serif;
+}
 
+.site-nav .menu > li:last-child .sub-menu {
+	left: auto;
+	right: -10px;
+	transform: none;
+	text-align: left;
 }
 
 .sub-menu li {
@@ -131,6 +138,10 @@ z-index:999;
 	height: auto;
 	margin: 3px 0;
 	padding: 0;
+	text-align: center;
+}
+
+.site-nav .menu > li:last-child .sub-menu li {
 	text-align: left;
 }
 

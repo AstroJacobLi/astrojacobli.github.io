@@ -1,0 +1,39 @@
+name: Update Publications from SciX
+
+on:
+  schedule:
+    # Run on the 1st of every month at 06:00 UTC
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest publications from SciX / ADS
+        env:
+          SCIX_API_TOKEN: ${{ secrets.SCIX_API_TOKEN }}
+        run: python3 scripts/fetch_publications.py
+
+      - name: Commit updated publication data
+        run: |
+          if git diff --quiet _data/publications.json; then
+            echo "No publication changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/publications.json
+          git commit -m "Update publications data from SciX"
+          git push

@@ -64,9 +64,12 @@
 		display: block;
 		font-family: 'Titillium Web', Helvetica, Arial, Verdana, sans-serif;
 		position: relative;
+		left: auto;
+		transform: none;
 		min-width: 215px;
 		max-width: 215px;
 		top: auto;
+		text-align: left;
 		text-transform: uppercase;
 		right: auto;
 		width: auto;

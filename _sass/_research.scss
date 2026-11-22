@@ -1,0 +1,406 @@
+// Minimalist academic styles for Research page (Plan B: Filterable Visual Portfolio)
+// Matches Publications & Software pages (Crimson & Ink + Pine Teal accents)
+
+$res-teal: #1d6b63;
+$res-ink: #1a1a1a;
+$res-muted: #555555;
+$res-subtle: #777777;
+$res-rule: #e4e4e4;
+
+.res-page {
+  color: $res-ink;
+  font-size: 0.95em;
+}
+
+.res-subbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: -14px;
+  margin-bottom: 18px;
+  font-size: 0.92em;
+  color: #585858;
+
+  a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $pku-red;
+      text-decoration: underline;
+    }
+  }
+}
+
+.res-subbar__links {
+  white-space: nowrap;
+}
+
+.res-sep {
+  color: #cccccc;
+  margin: 0 5px;
+}
+
+// ---- Topic Filter Tabs (matches Publications underline tabs) ----
+.res-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  border-bottom: 1px solid $res-rule;
+  margin-bottom: 24px;
+}
+
+.res-tab {
+  position: relative;
+  border: none;
+  background: none;
+  padding: 8px 2px 9px 2px;
+  margin-bottom: -1px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.98em;
+  font-weight: 400;
+  color: $res-muted;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: $res-ink;
+  }
+
+  &.is-active {
+    color: $pku-red;
+    font-weight: 600;
+    border-bottom-color: $pku-red;
+  }
+}
+
+.res-tab__count {
+  font-size: 0.84em;
+  color: $res-subtle;
+  margin-left: 3px;
+  font-weight: 400;
+}
+
+.res-tab.is-active .res-tab__count {
+  color: $pku-red;
+}
+
+// ---- Flagship Project Hero ----
+.res-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
+  border-bottom: 1px solid $res-rule;
+
+  @include media-query(780px) {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+}
+
+.res-hero__kicker {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: $pku-red;
+  margin-bottom: 5px;
+}
+
+.res-page h2.res-hero__title {
+  font-family: 'Titillium Web', 'Open Sans', sans-serif;
+  font-size: 1.42em;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.28;
+  color: $res-teal;
+  margin: 0 0 10px 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $pku-red;
+      text-decoration: underline;
+    }
+  }
+}
+
+.res-hero__desc {
+  color: #404040;
+  font-size: 0.96em;
+  line-height: 1.62;
+  margin: 0 0 12px 0;
+}
+
+.res-hero__figure {
+  margin: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid $res-rule;
+    border-radius: 2px;
+    background: #ffffff;
+    cursor: zoom-in;
+  }
+
+  figcaption {
+    margin-top: 6px;
+    font-size: 0.78em;
+    color: $res-subtle;
+    font-style: italic;
+    line-height: 1.4;
+    text-align: center;
+  }
+}
+
+// ---- 2-Column Project Portfolio Grid ----
+.res-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px 32px;
+
+  @include media-query(740px) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+.res-project {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #eeeeee;
+
+  &.is-hidden {
+    display: none;
+  }
+}
+
+.res-project__thumb {
+  margin: 0 0 12px 0;
+  height: 205px;
+  border: 1px solid $res-rule;
+  border-radius: 2px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0c0f15;
+
+  &--light {
+    background: #ffffff;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+
+  &--dark-contain {
+    background: #000000;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: opacity 0.15s ease;
+
+    &:hover {
+      opacity: 0.92;
+    }
+  }
+
+  &--light img,
+  &--dark-contain img {
+    object-fit: contain;
+  }
+}
+
+.res-page h3.res-project__title {
+  font-family: 'Titillium Web', 'Open Sans', sans-serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.32;
+  color: $res-teal;
+  margin: 0 0 7px 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $pku-red;
+      text-decoration: underline;
+    }
+  }
+}
+
+.res-project__summary {
+  font-size: 0.93em;
+  line-height: 1.58;
+  color: #444444;
+  margin: 0 0 10px 0;
+  flex-grow: 1;
+}
+
+.res-project__footer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  font-size: 0.85em;
+  color: $res-subtle;
+}
+
+.res-links {
+  display: inline;
+
+  a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $pku-red;
+      text-decoration: underline;
+    }
+  }
+}
+
+.res-details-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: $res-muted;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  flex-shrink: 0;
+
+  &:hover {
+    color: $pku-red;
+  }
+}
+
+.res-drawer {
+  margin-top: 12px;
+  padding: 11px 13px;
+  background: #f7f7f7;
+  border-left: 2px solid #cccccc;
+  font-size: 0.87em;
+  line-height: 1.58;
+  color: #3a3a3a;
+  display: none;
+
+  &.is-open {
+    display: block;
+  }
+
+  p {
+    margin: 0 0 8px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid $res-rule;
+    border-radius: 2px;
+    background: #ffffff;
+    cursor: zoom-in;
+  }
+}
+
+.res-drawer__caption {
+  font-size: 0.85em;
+  color: $res-subtle;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.res-page sub,
+.res-page sup {
+  line-height: 0;
+  font-size: 0.74em;
+}
+
+// ---- Clean Click-to-Zoom Modal ----
+.res-zoom-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10050;
+  background: rgba(15, 18, 24, 0.86);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+
+  &.is-open {
+    display: flex;
+  }
+}
+
+.res-zoom-modal__inner {
+  position: relative;
+  max-width: 92vw;
+  max-height: 90vh;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    max-height: 82vh;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.res-zoom-modal__caption {
+  color: #e5e7eb;
+  font-size: 0.88em;
+  margin-top: 10px;
+  line-height: 1.45;
+}
+
+.res-zoom-modal__close {
+  position: absolute;
+  top: -36px;
+  right: 0;
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+
+  &:hover {
+    color: #f0b4b4;
+  }
+}

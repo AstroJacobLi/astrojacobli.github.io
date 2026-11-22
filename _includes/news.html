@@ -1,21 +1,40 @@
-<div class="news-widget">
-  <h4 class="news-header">
-    <span class="news-icon">📰</span>
-    Recent News
-  </h4>
-  <div class="news-container">
-    {% for item in site.data.news limit:3 %}
-    <div class="news-item {% if item.featured %}news-featured{% endif %}">
-      <div class="news-date">{{ item.date }}</div>
-      <h4 class="news-title">
-        {% if item.link %}
-          <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
-        {% else %}
-          {{ item.title }}
-        {% endif %}
-      </h4>
-      <p class="news-description">{{ item.description }}</p>
-    </div>
-    {% endfor %}
+<section class="news-widget" id="news-widget">
+  <div class="news-header-row">
+    <h2 class="news-header">Recent News</h2>
+    {% if site.data.news.size > 4 %}
+    <button type="button" class="news-toggle-btn" id="news-toggle-btn" aria-expanded="false">Show all ({{ site.data.news.size }})</button>
+    {% endif %}
   </div>
-</div>
+  <ul class="news-list">
+    {% for item in site.data.news %}
+    <li class="news-item{% if forloop.index > 4 %} news-item--extra{% endif %}">
+      <span class="news-date">{{ item.date }}</span>
+      <div class="news-body">
+        <div class="news-title">
+          {% if item.link %}
+            <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </div>
+        {% if item.description %}
+        <p class="news-description">{{ item.description }}</p>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<script>
+(function () {
+  var btn = document.getElementById('news-toggle-btn');
+  var widget = document.getElementById('news-widget');
+  if (!btn || !widget) return;
+  var total = widget.querySelectorAll('.news-item').length;
+  btn.addEventListener('click', function () {
+    var open = widget.classList.toggle('is-expanded');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.textContent = open ? 'Show fewer' : ('Show all (' + total + ')');
+  });
+})();
+</script>

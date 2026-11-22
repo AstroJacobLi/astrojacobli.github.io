@@ -3,6 +3,9 @@
 
 - title: "CV"
   href: "/cv/"
+  subcategories:
+    - subtitle: "Publications"
+      subhref: "/publications/"
 
 - title: "Research"
   href: "/research/"
