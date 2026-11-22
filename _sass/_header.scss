@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-purple;
+	border-bottom: 4px solid $pku-red-dark;
     min-height: 56px;
     background: $pku-red;
     // Positioning context for the mobile navigation icon
@@ -82,7 +82,7 @@
 	letter-spacing: 0;
 	line-height: 1.0em;
 	padding: 4px 5px;
-color: #522d80;
+color: $ink-dark;
 
 }
 
@@ -91,7 +91,7 @@ color: #522d80;
 }
 .site-nav  .sub-menu {
 	background: #ffffff;
-	border-color: $clemson-purple;
+	border-color: $pku-red-dark;
 	min-width: 105px;
 
 	z-index:2147483647;

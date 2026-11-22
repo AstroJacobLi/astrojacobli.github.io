@@ -17,8 +17,10 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #0077CC;
 $gameday-sky: #109dc0;
-$clemson-purple:      #522d80;
-$pku-red:			  #94070a;
+$clemson-purple:      #333333;
+$pku-red:             #94070a;
+$pku-red-dark:        #6b0507;
+$ink-dark:            #333333;
 $princeton-orange:    #F58025;
 
 $grey-color:       #828282;
@@ -57,5 +59,7 @@ $on-laptop:        1050px;
         "layout",
         "syntax-highlighting",
 	"fancy-image",
-        "home"
+        "home",
+        "publications",
+        "software"
 ;
