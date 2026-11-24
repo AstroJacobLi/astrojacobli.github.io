@@ -46,9 +46,9 @@ permalink: /publications/
       <div class="pub-chart-panel__top">
         <span class="pub-chart-panel__title">Publications per year</span>
         <div class="pub-chart-legend" id="pub-year-legend">
-          <span><i style="background:#94070a;"></i>First</span>
-          <span><i style="background:#3b6e8c;"></i>Major (2nd&ndash;3rd)</span>
-          <span><i style="background:#c4d3df;"></i>Other</span>
+          <span><i style="background:#cf2a2a;"></i>First</span>
+          <span><i style="background:#eb8a1a;"></i>Major (2nd&ndash;3rd)</span>
+          <span><i style="background:#5aa2e6;"></i>Other</span>
         </div>
       </div>
       <div class="pub-chart-svg-wrap" id="pub-year-chart"></div>
@@ -61,13 +61,13 @@ permalink: /publications/
       All <span class="pub-tab__count" data-role-count="all">({{ site.data.publications.summary.total_papers }})</span>
     </button>
     <button type="button" class="pub-tab" data-role="first" role="tab" aria-selected="false">
-      First author <span class="pub-tab__count" data-role-count="first">({{ site.data.publications.summary.first_author_count }})</span>
+      <span class="pub-tab__swatch" style="background:#cf2a2a;"></span>First author <span class="pub-tab__count" data-role-count="first">({{ site.data.publications.summary.first_author_count }})</span>
     </button>
     <button type="button" class="pub-tab" data-role="major" role="tab" aria-selected="false">
-      Major author (2nd&ndash;3rd) <span class="pub-tab__count" data-role-count="major">({{ site.data.publications.summary.major_author_count }})</span>
+      <span class="pub-tab__swatch" style="background:#eb8a1a;"></span>Major author (2nd&ndash;3rd) <span class="pub-tab__count" data-role-count="major">({{ site.data.publications.summary.major_author_count }})</span>
     </button>
     <button type="button" class="pub-tab" data-role="other" role="tab" aria-selected="false">
-      Other <span class="pub-tab__count" data-role-count="other">({{ site.data.publications.summary.other_author_count }})</span>
+      <span class="pub-tab__swatch" style="background:#5aa2e6;"></span>Other <span class="pub-tab__count" data-role-count="other">({{ site.data.publications.summary.other_author_count }})</span>
     </button>
   </div>
 
@@ -105,7 +105,7 @@ permalink: /publications/
   <div id="pub-list-container"></div>
 
   <div class="pub-footnote">
-    Data synced from <a href="{{ site.data.publications.library_url }}" target="_blank" rel="noopener">NASA SciX / ADS</a>. Click any title or <em>SciX</em> link to open its SciX abstract page.
+    Data synced from <a href="{{ site.data.publications.library_url }}" target="_blank" rel="noopener">NASA SciX / ADS</a>. Left border color indicates authorship role (First / Major / Other).
   </div>
 </div>
 
@@ -125,9 +125,9 @@ permalink: /publications/
   var PAPERS = DATA.papers || [];
 
   var ROLE_COLORS = {
-    first: '#94070a',
-    major: '#3b6e8c',
-    other: '#c4d3df'
+    first: '#cf2a2a',
+    major: '#eb8a1a',
+    other: '#5aa2e6'
   };
 
   var ROLE_LABELS = {
@@ -328,8 +328,8 @@ permalink: /publications/
         '<span><i style="background:' + ROLE_COLORS[state.role] + ';"></i>' + escapeHtml(ROLE_LABELS[state.role]) + '</span>';
     }
 
-    var W = 560, H = 138;
-    var padL = 28, padR = 8, padT = 16, padB = 22;
+    var W = 560, H = 148;
+    var padL = 28, padR = 8, padT = 18, padB = 24;
     var chartW = W - padL - padR;
     var chartH = H - padT - padB;
     var maxVal = Math.max(4, Math.max.apply(null, series.map(function (d) { return d.total; })));
@@ -337,15 +337,15 @@ permalink: /publications/
     var yMax = Math.ceil(maxVal / tickStep) * tickStep;
 
     var slotW = chartW / series.length;
-    var barW = Math.min(36, Math.max(16, slotW * 0.56));
+    var barW = Math.min(38, Math.max(18, slotW * 0.56));
 
     var svg = [];
     svg.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Publications per year">');
 
     for (var v = 0; v <= yMax; v += tickStep) {
       var gy = padT + chartH - (v / yMax) * chartH;
-      svg.push('<line x1="' + padL + '" y1="' + gy.toFixed(1) + '" x2="' + (W - padR) + '" y2="' + gy.toFixed(1) + '" stroke="' + (v === 0 ? '#bdbdbd' : '#eeeeee') + '" stroke-width="1"/>');
-      svg.push('<text x="' + (padL - 6) + '" y="' + (gy + 3.5).toFixed(1) + '" text-anchor="end" font-size="10" fill="#777">' + v + '</text>');
+      svg.push('<line x1="' + padL + '" y1="' + gy.toFixed(1) + '" x2="' + (W - padR) + '" y2="' + gy.toFixed(1) + '" stroke="' + (v === 0 ? '#cbd2dc' : '#eef0f4') + '" stroke-width="1"/>');
+      svg.push('<text x="' + (padL - 7) + '" y="' + (gy + 3.5).toFixed(1) + '" text-anchor="end" font-size="10" fill="#7a8494">' + v + '</text>');
     }
 
     series.forEach(function (d, idx) {
@@ -358,23 +358,27 @@ permalink: /publications/
       svg.push('<rect x="' + (padL + idx * slotW).toFixed(1) + '" y="' + padT + '" width="' + slotW.toFixed(1) + '" height="' + (chartH + padB) + '" fill="transparent"/>');
 
       var curY = padT + chartH;
-      var segs = [
+      var activeSegs = [
         { val: d.first, color: ROLE_COLORS.first },
         { val: d.major, color: ROLE_COLORS.major },
         { val: d.other, color: ROLE_COLORS.other }
-      ];
-      segs.forEach(function (seg) {
-        if (!seg.val) return;
+      ].filter(function (s) { return s.val > 0; });
+
+      activeSegs.forEach(function (seg, sIdx) {
         var h = (seg.val / yMax) * chartH;
         curY -= h;
-        svg.push('<rect x="' + x.toFixed(1) + '" y="' + curY.toFixed(1) + '" width="' + barW.toFixed(1) + '" height="' + Math.max(1, h).toFixed(1) + '" fill="' + seg.color + '"/>');
+        var gap = (sIdx < activeSegs.length - 1) ? 1.2 : 0;
+        var drawH = Math.max(1.5, h - gap);
+        var isTop = (sIdx === activeSegs.length - 1);
+        var rxAttr = isTop ? ' rx="2"' : '';
+        svg.push('<rect class="pub-bar-seg" x="' + x.toFixed(1) + '" y="' + curY.toFixed(1) + '" width="' + barW.toFixed(1) + '" height="' + drawH.toFixed(1) + '"' + rxAttr + ' fill="' + seg.color + '"/>');
       });
 
       if (d.total > 0) {
-        svg.push('<text x="' + cx.toFixed(1) + '" y="' + (curY - 4).toFixed(1) + '" text-anchor="middle" font-size="10" fill="#444">' + d.total + '</text>');
+        svg.push('<text x="' + cx.toFixed(1) + '" y="' + (curY - 5).toFixed(1) + '" text-anchor="middle" font-size="10.5" font-weight="600" fill="#2c3a4e">' + d.total + '</text>');
       }
-      var yearFill = (state.year === d.year) ? '#94070a' : '#555';
-      var yearWeight = (state.year === d.year) ? '700' : '400';
+      var yearFill = (state.year === d.year) ? '#cf2a2a' : '#525b68';
+      var yearWeight = (state.year === d.year) ? '700' : '500';
       svg.push('<text x="' + cx.toFixed(1) + '" y="' + (H - 5) + '" text-anchor="middle" font-size="10.5" font-weight="' + yearWeight + '" fill="' + yearFill + '">' + d.year + '</text>');
       svg.push('</g>');
     });
@@ -390,9 +394,9 @@ permalink: /publications/
         render();
       });
       g.addEventListener('mouseenter', function (evt) {
-        var html = '<strong>' + yrVal + '</strong>: ' + row.total;
+        var html = '<strong>' + yrVal + '</strong> &mdash; ' + row.total + (row.total === 1 ? ' entry' : ' entries');
         if (state.role === 'all') {
-          html += ' (First: ' + row.first + ', Major: ' + row.major + ', Other: ' + row.other + ')';
+          html += '<br>First: ' + row.first + ' &middot; Major: ' + row.major + ' &middot; Other: ' + row.other;
         }
         showTooltip(evt, html);
       });
@@ -440,7 +444,9 @@ permalink: /publications/
 
   function formatNonRefTag(paper) {
     if (paper.refereed) return '';
-    if (paper.doc_group === 'preprint') return '';
+    if (paper.doc_group === 'preprint') {
+      return '<span class="pub-entry__tag">Preprint</span>';
+    }
     var labels = {
       software: 'Software',
       proposal: 'Proposal',
@@ -449,7 +455,7 @@ permalink: /publications/
       circular: 'MPEC'
     };
     var txt = labels[paper.doctype];
-    return txt ? ' <span class="pub-entry__tag">[' + escapeHtml(txt) + ']</span>' : '';
+    return txt ? '<span class="pub-entry__tag">' + escapeHtml(txt) + '</span>' : '';
   }
 
   function formatVenueAndLinks(paper) {
@@ -465,9 +471,9 @@ permalink: /publications/
     }
 
     var links = [];
-    links.push('<a href="' + escapeHtml(paper.scix_url) + '" target="_blank" rel="noopener">SciX</a>');
+    links.push('<a class="pub-link-scix" href="' + escapeHtml(paper.scix_url) + '" target="_blank" rel="noopener">SciX &#8599;</a>');
     if (paper.arxiv_id) {
-      links.push('<a href="https://arxiv.org/abs/' + encodeURIComponent(paper.arxiv_id) + '" target="_blank" rel="noopener">arXiv:' + escapeHtml(paper.arxiv_id) + '</a>');
+      links.push('<a href="https://arxiv.org/abs/' + encodeURIComponent(paper.arxiv_id) + '" target="_blank" rel="noopener">arXiv</a>');
     }
     if (paper.doi) {
       links.push('<a href="https://doi.org/' + encodeURI(paper.doi) + '" target="_blank" rel="noopener">DOI</a>');
@@ -476,18 +482,23 @@ permalink: /publications/
       links.push('<button type="button" data-toggle-abstract="' + escapeHtml(paper.bibcode) + '" aria-expanded="false">Abstract</button>');
     }
 
-    return venueParts.join(' &middot; ') + formatNonRefTag(paper) +
-      ' <span class="pub-sep">&mdash;</span> <span class="pub-entry__links">' + links.join(' &middot; ') + '</span>';
+    return '<span class="pub-entry__venue">' + venueParts.join(' &middot; ') + '</span>' +
+      formatNonRefTag(paper) +
+      '<span class="pub-entry__links">' + links.join('') + '</span>';
   }
 
-  function buildPaperRowHtml(paper) {
+  function buildPaperRowHtml(paper, displayNum) {
     var cites = paper.citations || 0;
-    var citeText = cites > 0
-      ? ('<strong>' + cites + '</strong> ' + (cites === 1 ? 'citation' : 'citations'))
-      : '0 citations';
+    var citeHtml;
+    if (cites > 0) {
+      citeHtml = '<span class="pub-cite-badge"><strong>' + cites + '</strong> ' + (cites === 1 ? 'cite' : 'cites') + '</span>';
+    } else {
+      citeHtml = '<span class="pub-cite-zero" title="0 citations">&mdash;</span>';
+    }
 
     return (
-      '<li class="pub-entry" data-bibcode="' + escapeHtml(paper.bibcode) + '">' +
+      '<li class="pub-entry pub-entry--' + escapeHtml(paper.category) + '" data-bibcode="' + escapeHtml(paper.bibcode) + '">' +
+        '<span class="pub-entry__idx">' + displayNum + '.</span>' +
         '<div class="pub-entry__body">' +
           '<div class="pub-entry__title">' +
             '<a href="' + escapeHtml(paper.scix_url) + '" target="_blank" rel="noopener">' + (paper.title_html || escapeHtml(paper.title)) + '</a>' +
@@ -500,7 +511,7 @@ permalink: /publications/
             ? '<div class="pub-abstract" data-abstract-for="' + escapeHtml(paper.bibcode) + '">' + (paper.abstract_html || escapeHtml(paper.abstract)) + '</div>'
             : '') +
         '</div>' +
-        '<div class="pub-entry__cites">' + citeText + '</div>' +
+        '<div class="pub-entry__cites">' + citeHtml + '</div>' +
       '</li>'
     );
   }
@@ -533,8 +544,9 @@ permalink: /publications/
   function renderList(filtered) {
     var container = document.getElementById('pub-list-container');
     var sorted = sortPapers(filtered);
+    var total = sorted.length;
 
-    if (!sorted.length) {
+    if (!total) {
       container.innerHTML =
         '<div class="pub-empty">No matching publications.' +
           '<button type="button" id="pub-reset-all">Reset filters</button>' +
@@ -557,27 +569,31 @@ permalink: /publications/
     if (groupByYear) {
       var groups = [];
       var map = {};
-      sorted.forEach(function (p) {
+      sorted.forEach(function (p, idx) {
+        var num = (state.sort === 'date-asc') ? (idx + 1) : (total - idx);
         if (!map[p.year]) {
-          map[p.year] = { year: p.year, items: [] };
+          map[p.year] = { year: p.year, rows: [] };
           groups.push(map[p.year]);
         }
-        map[p.year].items.push(p);
+        map[p.year].rows.push({ paper: p, num: num });
       });
       container.innerHTML = groups.map(function (g) {
         return (
           '<section class="pub-year-group">' +
             '<h2 class="pub-year-heading">' + g.year +
-              '<span class="pub-year-heading__count">(' + g.items.length + ')</span>' +
+              '<span class="pub-year-heading__count">(' + g.rows.length + ')</span>' +
             '</h2>' +
             '<ul class="pub-list">' +
-              g.items.map(buildPaperRowHtml).join('') +
+              g.rows.map(function (r) { return buildPaperRowHtml(r.paper, r.num); }).join('') +
             '</ul>' +
           '</section>'
         );
       }).join('');
     } else {
-      container.innerHTML = '<ul class="pub-list">' + sorted.map(buildPaperRowHtml).join('') + '</ul>';
+      container.innerHTML =
+        '<ul class="pub-list">' +
+          sorted.map(function (p, idx) { return buildPaperRowHtml(p, idx + 1); }).join('') +
+        '</ul>';
     }
   }
 

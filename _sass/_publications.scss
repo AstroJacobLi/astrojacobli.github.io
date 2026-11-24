@@ -1,14 +1,14 @@
-// Minimalist academic styles for Publications page & CV link strip
+// Minimalist yet lively academic styles for Publications page & CV link strip
 
-$pub-first: #94070a;
-$pub-major: #3b6e8c;
-$pub-other: #c4d3df;
+$pub-first: #cf2a2a;
+$pub-major: #eb8a1a;
+$pub-other: #5aa2e6;
 
-$pub-ink: #1a1a1a;
-$pub-muted: #555555;
-$pub-subtle: #777777;
-$pub-rule: #e4e4e4;
-$pub-bg-subtle: #f7f7f7;
+$pub-ink: #18202c;
+$pub-muted: #525b68;
+$pub-subtle: #7a8494;
+$pub-rule: #e5e8ee;
+$pub-bg-subtle: #f8f9fb;
 
 // ---- CV Page Quiet Strip ----
 .cv-pub-strip {
@@ -89,17 +89,17 @@ $pub-bg-subtle: #f7f7f7;
 }
 
 .pub-sep {
-  color: #ccc;
+  color: #cbd2dc;
   margin: 0 5px;
 }
 
 // ---- Top Summary + Publications-per-Year Panel ----
 .pub-overview {
   display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
-  gap: 28px;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 30px;
   align-items: center;
-  padding: 16px 0 20px 0;
+  padding: 18px 0 20px 0;
   margin-bottom: 20px;
   border-top: 1px solid $pub-rule;
   border-bottom: 1px solid $pub-rule;
@@ -113,8 +113,8 @@ $pub-bg-subtle: #f7f7f7;
 .pub-stats-panel {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding-right: 22px;
+  gap: 13px;
+  padding-right: 24px;
   border-right: 1px solid $pub-rule;
 
   @include media-query(740px) {
@@ -156,10 +156,10 @@ $pub-bg-subtle: #f7f7f7;
 
 .pub-stat__num {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 1.45em;
+  font-size: 1.52em;
   font-weight: 600;
   color: $pub-ink;
-  line-height: 1.1;
+  line-height: 1.08;
 }
 
 .pub-stat__note {
@@ -175,16 +175,16 @@ $pub-bg-subtle: #f7f7f7;
 
 .pub-chart-panel__top {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 6px 14px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .pub-chart-panel__title {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 0.94em;
+  font-size: 0.96em;
   font-weight: 600;
   color: $pub-ink;
 }
@@ -192,21 +192,21 @@ $pub-bg-subtle: #f7f7f7;
 .pub-chart-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  font-size: 0.78em;
+  gap: 14px;
+  font-size: 0.8em;
   color: $pub-muted;
 
   span {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
   }
 
   i {
     display: inline-block;
-    width: 9px;
-    height: 9px;
-    border-radius: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
   }
 }
 
@@ -224,12 +224,16 @@ $pub-bg-subtle: #f7f7f7;
 .pub-chart-bar-group {
   cursor: pointer;
 
-  &:hover rect {
-    opacity: 0.82;
+  rect.pub-bar-seg {
+    transition: opacity 0.15s ease, filter 0.15s ease;
+  }
+
+  &:hover rect.pub-bar-seg {
+    filter: brightness(1.06);
   }
 
   &.is-dimmed {
-    opacity: 0.3;
+    opacity: 0.28;
   }
 }
 
@@ -237,12 +241,13 @@ $pub-bg-subtle: #f7f7f7;
   position: fixed;
   z-index: 9999;
   pointer-events: none;
-  background: rgba(25, 25, 25, 0.92);
+  background: rgba(20, 26, 36, 0.94);
   color: #fff;
-  padding: 6px 9px;
-  border-radius: 3px;
+  padding: 6px 10px;
+  border-radius: 4px;
   font-size: 0.78em;
-  line-height: 1.4;
+  line-height: 1.45;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
   opacity: 0;
   transition: opacity 0.1s ease;
   white-space: nowrap;
@@ -274,22 +279,31 @@ $pub-bg-subtle: #f7f7f7;
   cursor: pointer;
   border-bottom: 2px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 
   &:hover {
     color: $pub-ink;
   }
 
   &.is-active {
-    color: $pku-red;
+    color: $pub-ink;
     font-weight: 600;
     border-bottom-color: $pku-red;
   }
 }
 
+.pub-tab__swatch {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .pub-tab__count {
   font-size: 0.84em;
   color: $pub-subtle;
-  margin-left: 3px;
   font-weight: 400;
 }
 
@@ -304,7 +318,7 @@ $pub-bg-subtle: #f7f7f7;
   align-items: center;
   justify-content: space-between;
   gap: 10px 16px;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   font-size: 0.86em;
   color: $pub-muted;
 }
@@ -325,8 +339,8 @@ $pub-bg-subtle: #f7f7f7;
 
 .pub-select {
   padding: 4px 8px;
-  border: 1px solid #d4d4d4;
-  border-radius: 3px;
+  border: 1px solid #d4d9e2;
+  border-radius: 4px;
   background: #fff;
   color: $pub-ink;
   font-size: 0.96em;
@@ -341,7 +355,7 @@ $pub-bg-subtle: #f7f7f7;
 
 .pub-search-wrap {
   position: relative;
-  width: 230px;
+  width: 240px;
 
   @include media-query($on-palm) {
     width: 100%;
@@ -352,9 +366,9 @@ $pub-bg-subtle: #f7f7f7;
   input {
     width: 100%;
     box-sizing: border-box;
-    padding: 4px 24px 4px 8px;
-    border: 1px solid #d4d4d4;
-    border-radius: 3px;
+    padding: 4px 24px 4px 9px;
+    border: 1px solid #d4d9e2;
+    border-radius: 4px;
     background: #fff;
     color: $pub-ink;
     font-size: 0.96em;
@@ -394,13 +408,13 @@ $pub-bg-subtle: #f7f7f7;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 0.84em;
   color: $pub-subtle;
 }
 
 .pub-year-clear {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #d4d9e2;
   background: $pub-bg-subtle;
   color: $pub-ink;
   border-radius: 3px;
@@ -415,26 +429,28 @@ $pub-bg-subtle: #f7f7f7;
   }
 }
 
-// ---- Bibliography List ----
+// ---- Refined Bibliography List ----
 .pub-year-group {
-  margin-bottom: 34px;
+  margin-bottom: 32px;
 }
 
 .pub-page h2.pub-year-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 1.22em;
+  font-size: 1.28em;
   font-weight: 600;
-  color: $ink-dark;
-  margin: 0 0 6px 0;
+  color: $pub-ink;
+  margin: 0 0 8px 0;
   padding-bottom: 6px;
-  border-bottom: 1px solid $pub-rule;
+  border-bottom: 1.5px solid $pub-rule;
 }
 
 .pub-year-heading__count {
-  font-size: 0.72em;
+  font-size: 0.7em;
   font-weight: 400;
   color: $pub-subtle;
-  margin-left: 6px;
 }
 
 .pub-list {
@@ -444,57 +460,78 @@ $pub-bg-subtle: #f7f7f7;
 }
 
 .pub-entry {
-  display: flex;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) auto;
+  gap: 0 14px;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 28px;
-  padding: 16px 0;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 14px 12px 14px 12px;
+  border-bottom: 1px solid #eef0f4;
+  border-left: 3px solid transparent;
+  transition: background-color 0.14s ease;
 
-  &:last-child {
-    border-bottom: none;
+  &:hover {
+    background-color: #f9fafc;
+  }
+
+  &--first {
+    border-left-color: $pub-first;
+  }
+  &--major {
+    border-left-color: $pub-major;
+  }
+  &--other {
+    border-left-color: $pub-other;
   }
 
   @include media-query($on-palm) {
-    flex-direction: column;
-    gap: 6px;
-    padding: 14px 0;
+    grid-template-columns: 26px minmax(0, 1fr);
+    gap: 4px 10px;
+    padding: 12px 8px 12px 10px;
   }
 }
 
+.pub-entry__idx {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.86em;
+  font-weight: 600;
+  color: #9aa3b2;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  user-select: none;
+}
+
 .pub-entry__body {
-  flex: 1;
   min-width: 0;
 }
 
 .pub-entry__title {
   font-family: 'Titillium Web', 'Open Sans', sans-serif;
-  font-size: 1.08em;
-  font-weight: 400;
-  line-height: 1.42;
-  margin-bottom: 6px;
+  font-size: 1.07em;
+  font-weight: 600;
+  line-height: 1.38;
+  margin-bottom: 5px;
 
   a {
-    color: #232b38;
+    color: #1c2636;
     text-decoration: none;
+    transition: color 0.14s ease;
 
     &:hover {
       color: $pku-red;
-      text-decoration: underline;
     }
   }
 }
 
 .pub-entry__authors {
   font-size: 0.87em;
-  color: #585858;
-  line-height: 1.55;
-  margin-bottom: 5px;
+  color: #555e6b;
+  line-height: 1.52;
+  margin-bottom: 7px;
 }
 
 .pub-author-self {
-  color: #222222;
-  font-weight: 600;
+  color: #141a24;
+  font-weight: 700;
 }
 
 .pub-authors-toggle {
@@ -512,70 +549,125 @@ $pub-bg-subtle: #f7f7f7;
 }
 
 .pub-entry__meta {
-  font-size: 0.84em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px 10px;
+  font-size: 0.83em;
   color: $pub-subtle;
-  line-height: 1.55;
+  line-height: 1.45;
+}
+
+.pub-entry__venue {
+  color: #525b68;
 }
 
 .pub-entry__journal {
-  font-style: italic;
-  color: #444444;
+  font-weight: 600;
+  font-style: normal;
+  color: #2c3a4e;
 }
 
 .pub-entry__tag {
-  color: $pub-subtle;
-  font-size: 0.92em;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.9em;
+  color: #647082;
+  background: #f1f3f7;
+  padding: 1px 6px;
+  border-radius: 3px;
 }
 
 .pub-entry__links {
-  display: inline;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
 
   a,
   button {
-    border: none;
-    background: none;
-    padding: 0;
-    font-family: inherit;
-    font-size: inherit;
-    color: $brand-color;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #dfe4ec;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 1px 7px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.94em;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #3b516e;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.14s ease;
 
     &:hover {
+      border-color: $pku-red;
       color: $pku-red;
-      text-decoration: underline;
+      background: #fffafa;
+      text-decoration: none;
+    }
+  }
+
+  a.pub-link-scix {
+    color: $pku-red;
+    border-color: rgba(148, 7, 10, 0.28);
+    background: #fffcfc;
+
+    &:hover {
+      background: $pku-red;
+      border-color: $pku-red;
+      color: #ffffff;
     }
   }
 }
 
 .pub-entry__cites {
-  flex-shrink: 0;
-  font-size: 0.84em;
-  color: #8c8c8c;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 0.85em;
+  color: $pub-subtle;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   text-align: right;
-  min-width: 82px;
-
-  strong {
-    color: #444444;
-    font-weight: 600;
-  }
+  min-width: 74px;
 
   @include media-query($on-palm) {
+    grid-column: 2;
     text-align: left;
     min-width: 0;
+    margin-top: 2px;
   }
 }
 
+.pub-cite-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f3f5f8;
+  color: #4a5565;
+
+  strong {
+    color: #18202c;
+    font-weight: 600;
+    font-size: 1.05em;
+  }
+}
+
+.pub-cite-zero {
+  color: #c0c6d0;
+  font-size: 0.9em;
+}
+
 .pub-abstract {
-  margin-top: 8px;
-  padding: 9px 12px;
+  margin-top: 10px;
+  padding: 10px 13px;
   background: $pub-bg-subtle;
-  border-left: 2px solid #ccc;
+  border-left: 2px solid #cbd2dc;
+  border-radius: 0 3px 3px 0;
   font-size: 0.85em;
-  line-height: 1.55;
-  color: #333;
+  line-height: 1.58;
+  color: #333b48;
   display: none;
 
   &.is-open {
