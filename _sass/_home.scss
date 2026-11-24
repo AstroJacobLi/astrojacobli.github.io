@@ -1,10 +1,76 @@
-/* Landing-page-specific spacing and link treatment. */
+/* Landing-page-specific spacing, language toggle, and callout treatment. */
 .home {
   padding-top: 16px;
 }
 
-.home > h1 {
+.home:not(.is-zh) [data-lang="zh"] {
+  display: none !important;
+}
+
+.home.is-zh [data-lang="en"] {
+  display: none !important;
+}
+
+.home.is-zh {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', $base-font-family;
+
+  .home-bio p,
+  .work-with-me__text {
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+  }
+
+  .news-description {
+    line-height: 1.68;
+  }
+}
+
+.home-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.home-topbar > h1 {
   color: $brand-color;
+  margin-bottom: 0;
+}
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  background: #f3f5f8;
+  border: 1px solid #dfe4ec;
+  border-radius: 5px;
+  padding: 2px;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.lang-switch__btn {
+  border: none;
+  background: transparent;
+  padding: 4px 11px;
+  border-radius: 3.5px;
+  font-family: 'Titillium Web', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+  font-size: 0.84em;
+  font-weight: 600;
+  color: #5a6474;
+  cursor: pointer;
+  line-height: 1.3;
+  transition: all 0.15s ease;
+
+  &:hover {
+    color: #18202c;
+  }
+
+  &.is-active {
+    background: #ffffff;
+    color: $pku-red;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
+  }
 }
 
 .home .kipac-link {
@@ -30,14 +96,14 @@
 }
 
 .work-with-me__title {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
   font-size: 1.08em;
   font-weight: 600;
   color: #232b38;
 }
 
 .work-with-me__cta {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
   font-size: 0.9em;
   font-weight: 600;
   color: $pku-red;

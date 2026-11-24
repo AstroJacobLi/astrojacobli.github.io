@@ -2,29 +2,105 @@
 layout: page
 ---
 
-<div class="home">
-<h1>Welcome</h1>
-
-<center>
-{% include image.html url="/images/peyton_photo.jpg" caption="Jiaxuan Li (2026 Feb)" width=350 align="right" %} 
-</center>
-
-<p>I am Jiaxuan Li (pronounced <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong></a>), a <a href="https://brinsonfoundation.org/scientific-research/brinson-prize-fellowship-program/"><strong>Brinson Prize Fellow</strong></a> at Stanford University's <a class="kipac-link" href="https://kipac.stanford.edu/"><strong>Kavli Institute for Particle Astrophysics and Cosmology (KIPAC)</strong></a>. I am an astrophysicist studying dwarf galaxies, dark matter, and galaxy formation in the nearby universe. My research combines deep imaging, large sky surveys, numerical simulations, and statistical methods to understand how the smallest galaxies form and evolve. I lead the <a href="https://elves-surveys.github.io/elves-dwarf/">ELVES-Dwarf survey</a>, which is building a statistical census of satellite systems around dwarf galaxies in the Local Volume.</p>
-
-<p>Before joining Stanford, I earned my Ph.D. in Astrophysical Sciences from <a href="https://web.astro.princeton.edu/">Princeton University</a> in 2026, advised by Prof. <a href="https://web.astro.princeton.edu/people/jenny-greene">Jenny Greene</a>. I completed my undergraduate studies in astrophysics at <a href="https://www.pku.edu.cn/">Peking University</a>. I grew up in <a href="https://zh.wikipedia.org/wiki/定西市">Dingxi</a>, Gansu Province, in northwestern China, and became an amateur astronomer in sixth grade. Outside astronomy, I enjoy photography, hiking, rock climbing (but not bouldering!), and exploring whisky.</p>
-
-<div class="work-with-me">
-  <div class="work-with-me__header">
-    <span class="work-with-me__title">Working with me?</span>
-    <a class="work-with-me__cta" href="mailto:{{ site.email }}">Get in touch &rarr;</a>
+<div class="home" id="home-root">
+  <div class="home-topbar">
+    <h1>
+      <span data-lang="en">Welcome</span>
+      <span data-lang="zh">关于我</span>
+    </h1>
+    <div class="lang-switch" role="group" aria-label="Switch language between English and Chinese">
+      <button type="button" class="lang-switch__btn is-active" data-set-lang="en" aria-pressed="true">English</button>
+      <button type="button" class="lang-switch__btn" data-set-lang="zh" aria-pressed="false">中文</button>
+    </div>
   </div>
-  <p class="work-with-me__text">
-    I am happy to work with aspiring students on topics related to dwarf galaxies and low-surface-brightness science with Rubin, Euclid, and Roman data.
-  </p>
+
+  <dl class="wp-caption alignright" style="width: 350px">
+    <dt>
+      <a href="/images/peyton_photo.jpg" class="lightbox-trigger" data-caption="Jiaxuan Li (2026 Feb)">
+        <img src="/images/peyton_photo.jpg" alt="Jiaxuan Li (2026 Feb)" />
+      </a>
+    </dt>
+    <dd>
+      <span data-lang="en">Jiaxuan Li (2026 Feb)</span>
+      <span data-lang="zh">李嘉轩（2026 年 2 月）</span>
+    </dd>
+  </dl>
+
+  <div class="home-bio" data-lang="en">
+    <p>I am Jiaxuan Li (pronounced <a href="https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=zh-CN&text=李嘉轩"><strong>Lǐ Jiā Xuān</strong></a>), a <a href="https://brinsonfoundation.org/scientific-research/brinson-prize-fellowship-program/"><strong>Brinson Prize Fellow</strong></a> at Stanford University's <a class="kipac-link" href="https://kipac.stanford.edu/"><strong>Kavli Institute for Particle Astrophysics and Cosmology (KIPAC)</strong></a>. I am an astrophysicist studying dwarf galaxies, dark matter, and galaxy formation in the nearby universe. My research combines deep imaging, large sky surveys, numerical simulations, and statistical methods to understand how the smallest galaxies form and evolve. I lead the <a href="https://elves-surveys.github.io/elves-dwarf/">ELVES-Dwarf survey</a>, which is building a statistical census of satellite systems around dwarf galaxies in the Local Volume.</p>
+
+    <p>Before joining Stanford, I earned my Ph.D. in Astrophysical Sciences from <a href="https://web.astro.princeton.edu/">Princeton University</a> in 2026, advised by Prof. <a href="https://web.astro.princeton.edu/people/jenny-greene">Jenny Greene</a>. I completed my undergraduate studies in astrophysics at <a href="https://www.pku.edu.cn/">Peking University</a>. I grew up in <a href="https://zh.wikipedia.org/wiki/定西市">Dingxi</a>, Gansu Province, in northwestern China, and became an amateur astronomer in sixth grade. Outside astronomy, I enjoy photography, hiking, rock climbing (but not bouldering!), and exploring whisky.</p>
+  </div>
+
+  <div class="home-bio" data-lang="zh" lang="zh-CN">
+    <p>我是<strong>李嘉轩</strong>，现为斯坦福大学<a class="kipac-link" href="https://kipac.stanford.edu/"><strong>科维理粒子天体物理与宇宙学研究所（KIPAC）</strong></a>的 <a href="https://brinsonfoundation.org/scientific-research/brinson-prize-fellowship-program/"><strong>Brinson Prize Fellow（布林森独立博士后研究员）</strong></a>。我的研究主要聚焦于近邻宇宙中的矮星系、暗物质及星系形成与演化。我结合深度光学成像、大规模天区巡天、数值模拟和统计推断，探索宇宙中最小的星系如何形成与演化。目前，我主持 <a href="https://elves-surveys.github.io/elves-dwarf/"><strong>ELVES-Dwarf 巡天项目</strong></a>，旨在系统普查近邻宇宙中矮星系周围的卫星星系，研究其种群性质。</p>
+
+    <p>加入斯坦福之前，我于 2026 年在<a href="https://web.astro.princeton.edu/">普林斯顿大学</a>天体物理科学系获得博士学位，师从 <a href="https://web.astro.princeton.edu/people/jenny-greene">Jenny Greene</a> 教授，本科毕业于<a href="https://www.pku.edu.cn/">北京大学</a>天文学系。我在甘肃<a href="https://zh.wikipedia.org/wiki/定西市">定西</a>长大，从小学六年级起便迷上了天文。科研之余，我喜欢摄影、徒步、攀岩（但不抱石！），也喜欢尝试不同的威士忌。</p>
+  </div>
+
+  <div class="work-with-me">
+    <div class="work-with-me__header">
+      <span class="work-with-me__title">
+        <span data-lang="en">Working with me?</span>
+        <span data-lang="zh">一起做科研？</span>
+      </span>
+      <a class="work-with-me__cta" href="mailto:{{ site.email }}">
+        <span data-lang="en">Get in touch &rarr;</span>
+        <span data-lang="zh">邮件联系 &rarr;</span>
+      </a>
+    </div>
+    <p class="work-with-me__text">
+      <span data-lang="en">I am happy to work with aspiring students on topics related to dwarf galaxies and low-surface-brightness science with Rubin, Euclid, and Roman data.</span>
+      <span data-lang="zh">欢迎对天体物理感兴趣的本科生和研究生与我联系，一起利用 Rubin、Euclid 和 Roman 等新一代巡天的观测数据，探索矮星系与低面亮度宇宙。</span>
+    </p>
+  </div>
+
+  {% include news.html %}
 </div>
 
-{% include news.html %}
+<script>
+(function () {
+  'use strict';
 
-</div>
+  var root = document.getElementById('home-root');
+  if (!root) return;
+  var buttons = root.querySelectorAll('[data-set-lang]');
 
-<!-- Me on the TV show <strong>Voice 开讲啦</strong> with Chinese host Sa Beining (撒贝宁). -->
+  function setLang(lang, updateUrl) {
+    var isZh = (lang === 'zh');
+    root.classList.toggle('is-zh', isZh);
+    buttons.forEach(function (btn) {
+      var active = btn.getAttribute('data-set-lang') === (isZh ? 'zh' : 'en');
+      btn.classList.toggle('is-active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    if (typeof window.syncNewsBtnLabel === 'function') {
+      window.syncNewsBtnLabel();
+    }
+    try {
+      if (updateUrl && window.history && window.history.replaceState) {
+        var url = new URL(window.location.href);
+        if (isZh) url.searchParams.set('lang', 'zh');
+        else url.searchParams.delete('lang');
+        window.history.replaceState({}, '', url.pathname + url.search + url.hash);
+      }
+    } catch (e) {}
+  }
+
+  var initial = 'en';
+  try {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('lang') === 'zh') {
+      initial = 'zh';
+    }
+  } catch (e) {}
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      setLang(btn.getAttribute('data-set-lang'), true);
+    });
+  });
+
+  setLang(initial, false);
+})();
+</script>

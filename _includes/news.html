@@ -1,24 +1,37 @@
 <section class="news-widget" id="news-widget">
   <div class="news-header-row">
-    <h2 class="news-header">Recent News</h2>
+    <h2 class="news-header">
+      <span data-lang="en">Recent News</span>
+      <span data-lang="zh">最新动态</span>
+    </h2>
     {% if site.data.news.size > 4 %}
-    <button type="button" class="news-toggle-btn" id="news-toggle-btn" aria-expanded="false">Show all ({{ site.data.news.size }})</button>
+    <button type="button" class="news-toggle-btn" id="news-toggle-btn" data-total="{{ site.data.news.size }}" aria-expanded="false">Show all ({{ site.data.news.size }})</button>
     {% endif %}
   </div>
   <ul class="news-list">
     {% for item in site.data.news %}
     <li class="news-item{% if forloop.index > 4 %} news-item--extra{% endif %}">
-      <span class="news-date">{{ item.date }}</span>
+      <span class="news-date">
+        <span data-lang="en">{{ item.date }}</span>
+        <span data-lang="zh">{{ item.date_zh | default: item.date }}</span>
+      </span>
       <div class="news-body">
         <div class="news-title">
           {% if item.link %}
-            <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            <a href="{{ item.link }}" target="_blank" rel="noopener">
+              <span data-lang="en">{{ item.title }}</span>
+              <span data-lang="zh">{{ item.title_zh | default: item.title }}</span>
+            </a>
           {% else %}
-            {{ item.title }}
+            <span data-lang="en">{{ item.title }}</span>
+            <span data-lang="zh">{{ item.title_zh | default: item.title }}</span>
           {% endif %}
         </div>
         {% if item.description %}
-        <p class="news-description">{{ item.description }}</p>
+        <p class="news-description">
+          <span data-lang="en">{{ item.description }}</span>
+          <span data-lang="zh">{{ item.description_zh | default: item.description }}</span>
+        </p>
         {% endif %}
       </div>
     </li>
@@ -30,11 +43,22 @@
   var btn = document.getElementById('news-toggle-btn');
   var widget = document.getElementById('news-widget');
   if (!btn || !widget) return;
-  var total = widget.querySelectorAll('.news-item').length;
+  var total = btn.getAttribute('data-total') || widget.querySelectorAll('.news-item').length;
+  function syncNewsBtnLabel() {
+    var open = widget.classList.contains('is-expanded');
+    var home = document.getElementById('home-root');
+    var isZh = home && home.classList.contains('is-zh');
+    if (isZh) {
+      btn.textContent = open ? '收起' : ('展开全部 (' + total + ')');
+    } else {
+      btn.textContent = open ? 'Show fewer' : ('Show all (' + total + ')');
+    }
+  }
   btn.addEventListener('click', function () {
     var open = widget.classList.toggle('is-expanded');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    btn.textContent = open ? 'Show fewer' : ('Show all (' + total + ')');
+    syncNewsBtnLabel();
   });
+  window.syncNewsBtnLabel = syncNewsBtnLabel;
 })();
 </script>
